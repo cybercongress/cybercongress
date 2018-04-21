@@ -9,4 +9,4 @@
 6. Olga Bessonova - besic584@gmail.com
 7. Valery Litvin - litvintech@gmail.com
 8. Andrew Luzhkovsky - 
-9. Valentin Stavetski - 
+9. Valentin Stavetski - vstavetski@gmail.com
