@@ -22,5 +22,6 @@ jobs:
       - run:
           name: Update documentation
           command: |
+            cd knowledge
             mkdocs gh-deploy -m "deployed $CIRCLE_SHA1 with mkdocs [skip ci]"
 
