@@ -37,7 +37,7 @@ copyright: 'Copyright &copy; 2018 cyber • Congress'
 
 # Configuration
 theme:
-  name: 'mkdocs'
+  name: 'material'
   palette:
     primary: 'red'
   feature:
