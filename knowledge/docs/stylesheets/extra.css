@@ -1,0 +1,11 @@
+.md-sidebar--secondary {
+    display: none !important;
+}
+
+.md-content {
+    margin-right: 0 !important;
+}
+
+.md-grid {
+    max-width: 160rem !important;
+}

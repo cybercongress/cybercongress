@@ -1,0 +1,26 @@
+version: 2
+
+workflows:
+  version: 2
+  default_workflow:
+    jobs:
+      - update_doc:
+          filters:
+            branches:
+              only: master
+
+jobs:
+  update_doc:
+    working_directory: ~/build
+    docker:
+      - image: squidfunk/mkdocs-material
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - 4d:bd:49:c9:77:64:8f:2f:61:68:6c:4f:23:9c:ec:3d
+      - run:
+          name: Update documentation
+          command: |
+            mkdocs gh-deploy -m "deployed $CIRCLE_SHA1 with mkdocs [skip ci]"
+

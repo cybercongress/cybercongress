@@ -1,0 +1,61 @@
+# Project information
+site_name: 'Cyber•Congress Docs'
+site_description: 'Knowledge base of Cyber•Congress'
+site_author: 'cyber•Congress team'
+
+pages:
+    - Home: index.md
+    - Contributing: contribute.md
+    - Staging:
+        - Mars Setup: staging/setup.md
+        - Continuous Delivery: staging/continuous-delivery.md
+        - Running Application: staging/run.md
+        - Local Sync Chains: staging/chains.md
+        - Kubernetes: staging/kubernetes.md
+    - Cybernode:
+        - About Node: cybernode/about.md
+        - Development Setup: cybernode/dev-setup.md
+        - K8s Cheat Sheet: cybernode/k8s-cheat-sheet.md
+        - Components:
+            - Monitoring: cybernode/components/monitoring.md
+            - Search: cybernode/components/search.md
+            - Markets: cybernode/components/markets.md
+            - Chains Nodes: cybernode/components/chain-nodes.md
+        - Chains:
+            - Bitcoin: cybernode/chains/bitcoin.md
+            - Ethereum: cybernode/chains/ethereum.md
+
+
+# Repository
+repo_name: 'cyberCongress/knowledge'
+repo_url: 'https://github.com/cybercongress/knowledge'
+
+
+# Copyright
+copyright: 'Copyright &copy; 2018 cyber • Congress'
+
+
+# Configuration
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+  feature:
+    tabs: true
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/cybercongress/knowledge'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
