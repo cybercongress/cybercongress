@@ -1,45 +1,74 @@
 # Project information
-site_name: 'Cyber•Congress Docs'
-site_description: 'Knowledge base of Cyber•Congress'
-site_author: 'cyber•Congress team'
+site_name: 'сyber•Search docs'
+site_description: 'Knowledge base of cyber•Search'
+site_author: 'cyber•Search team'
+
 
 pages:
     - Home: index.md
     - Contributing: contribute.md
-    - Staging:
-        - Mars Setup: staging/setup.md
-        - Continuous Delivery: staging/continuous-delivery.md
-        - Running Application: staging/run.md
-        - Local Sync Chains: staging/chains.md
-        - Kubernetes: staging/kubernetes.md
-    - Cybernode:
-        - About Node: cybernode/about.md
-        - Development Setup: cybernode/dev-setup.md
-        - K8s Cheat Sheet: cybernode/k8s-cheat-sheet.md
+    - cybernode:
+        - About node: cybernode/about.md
+        - K8s cheat cheet: cybernode/k8s-cheat-sheet.md
         - Components:
             - Monitoring: cybernode/components/monitoring.md
-            - Search: cybernode/components/search.md
-            - Markets: cybernode/components/markets.md
-            - Chains Nodes: cybernode/components/chain-nodes.md
-        - Chains:
-            - Bitcoin: cybernode/chains/bitcoin.md
-            - Ethereum: cybernode/chains/ethereum.md
+            - Chains nodes: cybernode/components/chain-nodes.md
+        - Staging:
+            - Mars setup: cybernode/staging/setup.md
+            - Continuous delivery: cybernode/staging/continuous-delivery.md
+            - Running application: cybernode/staging/run.md
+            - Local sync chains: cybernode/staging/chains.md
+            - Kubernetes: cybernode/staging/kubernetes.md
+    - cyber-search:
+            - About search: cyberSearch/about-search.md
+            - Components:
+                - Overview: cyberSearch/components/overview.md
+                - Bitcoin: cyberSearch/components/bitcoin.md
+                - Ethereum: cyberSearch/components/ethereum.md
+            - Contributing:
+                - Overview: cyberSearch/contributing/contributing.md
+                - Dev-environment: cyberSearch/contributing/dev-environment.md
+                - Cheat sheet: cyberSearch/contributing/cheat-sheet.md
+    - cyber-markets:
+            - About markets: cyberMarkets/about-markets.md
+            - Components:
+                - Overview: cyberMarkets/components/overview.md
+            - Contributing:
+                - Dev-enviroment: cyberMarkets/contributing/dev-environment.md
+                - Cheat sheet: cyberMarkets/contributing/cheat-sheet.md
+                - Contributing: cyberMarkets/contributing/contributing.md
+    - cyberjs:
+            - Overview: cyberJS/overview.md
+            - Development: cyberJS/build.md
+    - cyber-browser:
+            - About browser: cyberBrowser/Vision_and_Scope.md
+            - Staging: cyberBrowser/staging.md
+            - Changelog: cyberBrowser/Changelog.md
+    - chaingear:
+            - About chaingear: Chaingear/overview.md
+            - Contracts overwiev: Chaingear/contracts.md
+            - Development: Chaingear/development.md
+    - cyberd:
+            - Overview: cyberd/cyberd.md
 
 
 # Repository
-repo_name: 'cyberCongress/knowledge'
-repo_url: 'https://github.com/cybercongress/knowledge'
+repo_name: 'congress'
+repo_url: 'https://github.com/cybercongress/congress'
 
 
 # Copyright
-copyright: 'Copyright &copy; 2018 cyber • Congress'
+copyright: 'Copyright &copy; 2018 cyber•Search'
 
 
 # Configuration
 theme:
+  favicon: 'img/Logo_cat.svg'
+  logo: 'img/Logo_cat.svg'
   name: 'material'
+  language: 'en'
   palette:
-    primary: 'red'
+    primary: 'green'
   feature:
     tabs: true
 
@@ -47,7 +76,7 @@ theme:
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/cybercongress/knowledge'
+      link: 'https://github.com/cybercongress'
 
 extra_css:
   - 'stylesheets/extra.css'

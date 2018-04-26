@@ -1,8 +1,12 @@
-Welcome to Cyber Development Knowledge Base.
+Welcome to cyber•Search knowledge base.
 
-Right now these docs cover two `cyber-` open source products:
+Right now these docs cover eight open source projects:
 
-* blockchain browser - https://github.com/cybercongress/cyber-browser - this service is responsible
-  for indexing and searching information stored in different chains
-* markets analysis - https://github.com/cybercongress/cyber-markets - this service collects information
-  from crypto exchanges and does calculations of Cybernomics parameters
+* <a href="https://github.com/cybercongress/cybernode">cybernode</a> - smart node manager and transaction crawler
+* <a href="https://github.com/cybercongress/cyber-search">cyber-search</a> - transaction parser for cybernode
+* <a href="https://github.com/cybercongress/cyber-markets">cyber-markets</a> - toolchain for parsing of orders and trades
+* <a href="https://github.com/cybercongress/cyber.js">cyberjs</a> - cyber-search javascript library
+* <a href="https://github.com/cybercongress/cyber-browser">cyber-browser</a> - indexing and searching information stored in different chains
+* <a href="https://github.com/cybercongress/chaingear">chaingear</a> - create your own Registry of general purpose entries on Ethereum blockchain
+* <a href="https://github.com/cybercongress/cyberd">cyberd</a> - research on the cyber protocol
+* <a href="https://github.com/cybercongress/congress">cybercongress</a> - community of of scientists, developers, engineers and craftsmen

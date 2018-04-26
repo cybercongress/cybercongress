@@ -1,0 +1,538 @@
+openapi: 3.0.1
+servers:
+  - url: 'http://api.cybersearch.io'
+info:
+  description: 'Access to Bitcoin/Bitcoin Cash chain entites. <br /> To choose needed chain we use <code>{chainName}</code> parameter with <code>bitcoin</code> or <code>bitcoin_cash</code> value in url path.'
+  version: 1.0.0
+  title: Cyber.Search Bitcoin API
+tags:
+  - name: bitcoin
+    description: Access to Bitcoin/Bitcoin Cash chain entites
+paths:
+
+  '/{chainName}/block/{blockNumber}':
+    get:
+      tags:
+        - bitcoin
+      summary: Find bitcoin block by number
+      description: Returns a block
+      operationId: getBlockByNumber
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_cash
+        - name: blockNumber
+          in: path
+          description: Number of the block
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: 'Block found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinBlock'
+        '400':
+          description: 'Invalid block number supplied'
+        '404':
+          description: 'Block not found'
+
+  '/{chainName}/block/{blockNumber}/transactions':
+    get:
+      tags:
+        - bitcoin
+      summary: 'Download block transactions'
+      description: Returns a block transactions
+      operationId: getBlockTransactionsBlockNumber
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_cash
+        - name: blockNumber
+          in: path
+          description: Number of the block
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - name: count
+          in: query
+          description: 'How many transactions to load (max value for all transactions)'
+          required: false
+          schema:
+            type: integer
+            format: int64
+            minimum: 0
+            default: 50
+        - name: offset
+          in: query
+          description: 'Tx index offset in block'
+          required: false
+          schema:
+            type: integer
+            format: int64
+            minimum: 0
+            default: 0
+      responses:
+        '200':
+          description: 'Block found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinBlockTx'
+        '400':
+          description: "Invalid 'blockNumber', 'count' or 'offset' parameters"
+        '404':
+          description: 'Block not found'
+
+  '/{chainName}/contract/{hash}':
+    get:
+      tags:
+        - bitcoin
+      summary: 'Find bitcoin contract info by contract hash'
+      description: 'Returns an contract info'
+      operationId: getContract
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_classic
+        - name: hash
+          in: path
+          description: 'Contract hash'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Contract found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinContract'
+        '400':
+          description: "Invalid hash supplied"
+        '404':
+          description: 'Contract not found'
+
+  '/{chainName}/contract/{hash}/transactions':
+    get:
+      tags:
+        - bitcoin
+      summary: 'Download contract transactions'
+      description: Returns an contract transactions sorted by time (most recent first)
+      operationId: getContractTransactionsByContractHash
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_classic
+        - name: hash
+          in: path
+          description: 'Contract hash'
+          required: true
+          schema:
+            type: string
+        - name: pageSize
+          in: query
+          description: 'Size of the page'
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 20
+        - name: page
+          in: query
+          description: 'Result set page number (starts from 0)'
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 0
+      responses:
+        '200':
+          description: 'Contract transactions found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinContractTx'
+        '400':
+          description: "Invalid 'hash', 'page' or 'pageSize' parameters"
+        '404':
+          description: 'Contract not found'
+
+  '/{chainName}/contract/{hash}/blocks':
+    get:
+      tags:
+        - bitcoin
+      summary: 'Download contract blocks'
+      description: Returns an contract blocks sorted by time (most recent first)
+      operationId: getContractBlocksByContractHash
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_classic
+        - name: hash
+          in: path
+          description: 'Contract hash'
+          required: true
+          schema:
+            type: string
+        - name: pageSize
+          in: query
+          description: 'Size of the page'
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 20
+        - name: page
+          in: query
+          description: 'Result set page number (starts from 0)'
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 0
+      responses:
+        '200':
+          description: 'Contract blocks found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinContractBlock'
+        '400':
+          description: "Invalid 'hash', 'page' or 'pageSize' parameters"
+        '404':
+          description: 'Contract not found'
+
+
+  '/{chainName}/tx/{hash}':
+    get:
+      tags:
+        - bitcoin
+      summary: Find bitcoin transaction by its hash
+      description: Returns a transaction
+      operationId: getTxByHash
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - bitcoin
+              - bitcoin_classic
+        - name: hash
+          in: path
+          description: Hash of the transaction
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Transaction found'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitcoinTx'
+        '400':
+          description: 'Invalid transaction hash supplied'
+        '404':
+          description: 'Transaction not found'
+
+
+components:
+  schemas:
+
+# Search Previews
+
+    BitcoinBlockPreview:
+      type: object
+      properties:
+        hash:
+          type: string
+        height:
+          type: integer
+          format: int64
+        time:
+          type: string
+          format: date-time
+        txNumber:
+          type: integer
+          format: int32
+        totalInputsValue:
+          type: string
+        totalOutputsValue:
+          type: string
+
+
+    BitcoinTxPreview:
+      type: object
+      properties:
+        hash:
+          type: string
+        blockHash:
+          type: string
+        blockNumber:
+          type: integer
+          format: int64
+        blockTime:
+          type: string
+          format: date-time
+        fee:
+          type: string
+        totalInput:
+          type: string
+        totalOutput:
+          type: string
+
+# Raw API Entities
+
+    BitcoinBlock:
+      allOf:
+        - type: object
+          properties:
+            hash:
+              type: string
+            height:
+              type: integer
+              format: int64
+            minerContractHash:
+              type: string
+            blockReward:
+              type: number
+            txFees:
+              type: number
+            coinbaseData:
+              type: string
+            time:
+              type: string
+              format: date-time
+            nonce:
+              type: integer
+              format: int64
+            merkleroot:
+              type: string
+            size:
+              type: integer
+              format: int32
+            version:
+              type: integer
+              format: int32
+            weight:
+              type: integer
+              format: int32
+            bits:
+              type: string
+            difficulty:
+              type: number
+            txNumber:
+              type: integer
+              format: int32
+            totalOutputsValue:
+              type: string
+
+    BitcoinBlockTx:
+      type: object
+      properties:
+        blockNumber:
+          type: integer
+          format: int64
+        index:
+          type: integer
+          format: int32
+        hash:
+          type: string
+        fee:
+          type: string
+        ins:
+          type: array
+          items:
+            $ref: "#/components/schemas/BitcoinTxPreviewIO"
+        outs:
+          type: array
+          items:
+            $ref: "#/components/schemas/BitcoinTxPreviewIO"
+
+
+    BitcoinTxPreviewIO:
+       type: object
+       properties:
+         contracts:
+          type: array
+          items:
+            type: string
+         amount:
+           type: string
+
+
+    BitcoinContract:
+       type: object
+       properties:
+         hash:
+           type: string
+         confirmedBalance:
+           type: number
+         confirmedTotalReceived:
+           type: number
+         confirmedTxNumber:
+           type: integer
+           format: int32
+         firstActivityDate:
+           type: string
+           format: date-time
+         lastActivityDate:
+           type: string
+           format: date-time
+         version:
+           type: integer
+           format: int64
+         kafkaDeltaOffset:
+           type: integer
+           format: int64
+         kafkaDeltaPartition:
+           type: integer
+           format: int32
+         kafkaDeltaTopic:
+           type: string
+         kafkaDeltaOffsetCommited:
+           type: boolean
+
+
+    BitcoinContractTx:
+       type: object
+       properties:
+         hash:
+           type: string
+         contractHash:
+           type: string
+         blockNumber:
+           type: integer
+           format: int64
+         blockTime:
+           type: string
+           format: date-time
+         fee:
+           type: number
+         ins:
+           type: array
+           items:
+             $ref: "#/components/schemas/BitcoinTxPreviewIO"
+         outs:
+           type: array
+           items:
+             $ref: "#/components/schemas/BitcoinTxPreviewIO"
+
+
+    BitcoinContractBlock:
+      type: object
+      properties:
+        minerContractHash:
+          type: string
+        blockNumber:
+          type: integer
+          format: int64
+        blockTime:
+          type: string
+          format: date-time
+        blockReward:
+          type: number
+        txFees:
+          type: number
+        txNumber:
+          type: integer
+          format: int32
+
+
+    BitcoinTx:
+      allOf:
+        - $ref: '#/components/schemas/BitcoinTxPreview'
+        - type: object
+          properties:
+            coinbase:
+              type: string
+            size:
+              type: integer
+              format: int32
+            merkleroot:
+              type: string
+            ins:
+              type: array
+              items:
+                $ref: "#/components/schemas/BitcoinTxIn"
+            outs:
+              type: array
+              items:
+                $ref: "#/components/schemas/BitcoinTxOut"
+
+    BitcoinTxIn:
+       type: object
+       properties:
+         contracts:
+          type: array
+          items:
+            type: string
+         amount:
+           type: string
+         asm:
+           type: string
+         tx_hash:
+           type: string
+         tx_out:
+           type: integer
+           format: int32
+
+    BitcoinTxOut:
+       type: object
+       properties:
+         contracts:
+          type: array
+          items:
+            type: string
+         amount:
+           type: string
+         asm:
+           type: string
+         out:
+           type: integer
+           format: int32
+         required_signatures:
+           type: integer
+           format: int32
