@@ -65,7 +65,7 @@ copyright: 'Copyright &copy; 2018 cyber•Search'
 # Configuration
 theme:
   name: null
-  custom_dir: 'mkdocs-material/material'
+  custom_dir: 'theme_extend/material'
   font: robo
   favicon: 'img/Logo_cat.svg'
   logo: 'img/Logo_cat.svg'
