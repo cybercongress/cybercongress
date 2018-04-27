@@ -2,6 +2,7 @@
 site_name: 'сyber•Search docs'
 site_description: 'Knowledge base of cyber•Search'
 site_author: 'cyber•Search team'
+edit_uri: https://github.com/cybercongress/congress/edit/master/knowledge/docs
 
 
 pages:
@@ -63,9 +64,11 @@ copyright: 'Copyright &copy; 2018 cyber•Search'
 
 # Configuration
 theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  font: robo
   favicon: 'img/Logo_cat.svg'
   logo: 'img/Logo_cat.svg'
-  name: 'material'
   language: 'en'
   palette:
     primary: 'green'
