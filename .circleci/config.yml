@@ -18,7 +18,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - 4d:bd:49:c9:77:64:8f:2f:61:68:6c:4f:23:9c:ec:3d
+            - 5f:5b:bf:dc:2b:99:a1:1d:44:61:b3:26:e5:f6:cc:11
       - run:
           name: Update documentation
           command: |
