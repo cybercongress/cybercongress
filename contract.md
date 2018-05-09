@@ -3,7 +3,7 @@
 Proposal
 
 ## Abstract
-​​The blockchain technology opened opportunity for developments which was impossible before. By this agreement we define cyber•Congress as sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence
+​​The blockchain technology opened the opportunity for developments which was impossible before. By this agreement, we define cyber•Congress as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence.
 
 ## Mission
 Helping spices to evolve
@@ -17,7 +17,7 @@ Helping spices to evolve
 - Find an open approach for creation self aware, self replicating, economically independent robots
 - Create mainstream tools for biological engineering
 - Integrate into cybereconomy humans, robots, animals, plants and other thinking creations
-- Demolish state boarders across the earth
+- Demolish state borders across the earth
 - Switch governments' business model from violent taxes to non-violent UBI
 - Create technologies for accessible space exploration
 - Significantly extend living capabilities for species up to but not limited to 10k years
@@ -27,26 +27,26 @@ Helping spices to evolve
 ## Values
 We believe that our principles should be aligned with our values thus helping us achieve our goals:
 - Security. We don't work with fiat and paper hassle, but with digital signatures only
-- Anonymity and privacy. If someone choose to stay anonymous or private it is her right to do so
+- Anonymity and privacy. If someone chooses to stay anonymous or private it is her right to do so
 - Open source software. Everything we run in production should be open source
 - Open source hardware. Every piece of hardware production should be repeatable using open source
-- Transparency. Transparency is fundamental for community building
+- Transparency. Transparency is fundamental to community building
 - Informational freedom. No local laws can prohibit the flow of information
-- Economic freedom. Nobody have the right to prohibit or block transactions
+- Economic freedom. Nobody has the right to prohibit or block transactions
 - Free will. We reject slavery corporate bullshit such as conflict of interest or NDA
 - Capital, not salary. Helping to switch from slavery salary to capital based passive income
 - Engineering is marketing. We better spend our resources on engineering
 - Physical liberty. All limitations for physical liberty can be economic, not authoritative
 - Automation. Everything that can be automated must be automated
 - Intelligence. An entity can be treated as intelligent if she can control her private keys and sign transactions
-- Decentralization. Everything that can be decentralised shall be decentralised
+- Decentralization. Everything that can be decentralized shall be decentralized
 - Always on the edge. We try to offer alternatives to outdated technologies such as emails.
 
 ## Stack
 We are going to advance and deploy the following technologies available at the moment:
 - SAI: digital signatures, neural cryptography, game theory, deep learning, digital DNA
 - GAI: consensus computers, zero-knowledge proofs, game theory
-- Autonomous robotics: learning, self replicating, economically independent robots
+- Autonomous robotics: learning, self-replicating, economically independent robots
 - 3d printing: SLA, DLP, FDM, SLS, SLM, EBM and beyond
 - Computer brain interfaces: OpenBCI
 - VR/AR: OSVR, HTC Vive, Microsoft Hololens, Google Tango
@@ -66,32 +66,32 @@ Foundation timestamp is a timestamp of a transaction from [cyber•Storage](0xB5
 
 All other accounts must be registered in this document for the time being.
 
-We are starting from the simplest but resilient form of decentralisation: simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains support more income. Also we understand that decentralization always comes at expenses. We struggle to find organic growth balance between this kind of incomes and expenses.
+We are starting from the simplest but resilient form of decentralization: simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains support more income. Also, we understand that decentralization always comes at expenses. We struggle to find organic growth balance between this kind of incomes and expenses.
 
-Currently cyber•Congress can be expanded only to odd number of members. We understand that flat voting system does not scale to more than 7 members. Thus if there will be demand for further growth we will make this decision based on deep research in the field.
+Currently, cyber•Congress can be expanded only to the odd number of members. We understand that flat voting system does not scale to more than 7 members. Thus if there will be demand for further growth we will make this decision based on deep research in the field.
 
-If someone want to become a member he can. If one member want to quit the congress he can. Congress can decide to quit member. In any case she create the proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The congress can fill the place from the [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
+If someone wants to become a member he can. If one member wants to quit the congress he can. Congress can decide to quit member. In any case, he creates the proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the place from the [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
 
 cyber•Congress dream is `number of employees = number of members / (x)`
 
-Member communicate between themselves and teams only using provably secure communication channels. At the moment we use Keybase. If some team want to use more convenient channel he can do that.
+Member communicates between themselves and teams only using provably secure communication channels. At the moment we use Keybase. If some team want to use more convenient channel he can do that.
 
 ## Functions
 - Asset management: control of keys, [investment decisions](https://ethplorer.io/address/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c), forecasting
 - Community building: continuous development of our [portal](https://github.com/cybercongress)
 - Deliver pipeline: improve our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
-- Internal projects: live as proposals in [issues](https://github.com/cybercongress/congress/issues) until become a repo or being closed
+- Internal projects: live as proposals in [issues](https://github.com/cybercongress/congress/issues) until becoming a repo or being closed
 - Project management: one project = one repo = at least one owner, like [chaingear](https://github.com/cybercongress/chaingear)
 - Products delivery: some repo together form a [product](https://github.com/orgs/cybercongress/projects) and its [environment](https://github.com/topics/cyber-search)
 - Roadmap evolution: keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) fresh
-- Payroll execution: every month there should be a transactions according to a forecast
+- Payroll execution: every month there should be transactions according to a forecast
 - Team incentivization: develop options for major releases
 - Team building: every project or product can have a [team](https://github.com/orgs/cybercongress/teams)
 - Release perfection: quality control through publicly signed major releases
-- Running sprints: plan 2 week sprint at Monday, mentoring, getting feedback and close sprints at Friday
+- Running sprints: plan 2-week sprint at Monday, mentoring, getting feedback and close sprints on Friday
 - Invent blocks: Every seventh sprint is a block, like Phangan, but better
 
-This list of function is exclusive. If someone want to add something try to guess what you need to do.
+This list of function is exclusive. If someone wants to add something try to guess what you need to do.
 
 ## Products
 Current product priority is the following:
@@ -100,10 +100,10 @@ Current product priority is the following:
 If the one want to add something to this list she must create a proposal with some research [here](https://github.com/cybercongress/congress/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Proposal%22)
 
 ## Library
-We have the [Library](https://github.com/cybercongress/Library). Please enjoy and join us in the pursuit for our goals
+We have the [Library](https://github.com/cybercongress/Library). Please enjoy and join us in the pursuit of our goals
 
 ## Liveness
-This agreement is living. If some changes happens they must be reflected accordingly
+This agreement is living. If some changes happen they must be reflected accordingly
 
 ## Validity
 The agreement is valid for cyberspace
