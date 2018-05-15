@@ -25,8 +25,6 @@
 - Agile master.
 
 
-
-
 ## 3. Sprint structure
 
 First week
@@ -54,7 +52,9 @@ Second week
 6. Review/QA. Done issues which need the review of team members.
 7. Closed. Totally done issues.
 
-## 4. Productivity metrics
+## 4. Valuation & reporting
+
+## 5. Productivity metrics
 
 We use next types of metrics to track productivity:
 
@@ -77,7 +77,7 @@ We use next types of metrics to track productivity:
 - Sprint story points (all, closed)
 - Productivity (closed points divide on all points)
 
-## 4. Valuation & reporting
+
 
 
 
