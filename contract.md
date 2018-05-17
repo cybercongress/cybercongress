@@ -30,6 +30,7 @@ Helping spices to evolve
 - Significantly extend living capabilities for species up to but not limited to 10k years
 - Create the foundation for thermoregulation and terraformation of the Earth and nearby planets
 - Build the foundation for the emergence of unified spacetime ownership registry
+- Participating in development of Metaverse
 
 ## Values
 We believe that our principles should be aligned with our values thus helping us achieve our goals:
@@ -63,7 +64,7 @@ We are going to advance and deploy the following technologies available at the m
 - Sustainable energy: solar, wind, geothermal, thermonuclear fusion
 - Сontemporary computing: quantum, ternary and neuromorphic chips, ASICs, TPUs, memory convergence
 - Biological engineering: DNA sequencing => biological circuits => CRISPR => incubation & learning
-- Space exploration: BFR and alternatives
+- Space exploration: BFR and alternatives, satellites/cubesats
 
 ## Governance
 cyber•Congress is founded by the following cryptographic entities:
@@ -106,6 +107,7 @@ Community means all communities which we have respected in the industry and whic
 - Running sprints: planning of 2-week sprint on Monday, demo/retrospective and closing sprints on Friday
 - Invent blocks: Every seventh sprint is a block, like Phangan, but better
 - Knowledge sharing/transfer and mentoring for team members
+- Help to team's members to make their own capital
 
 This list of function is exclusive. If someone wants to add something try to guess what you need to do.
 
