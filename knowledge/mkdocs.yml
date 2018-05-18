@@ -11,15 +11,20 @@ pages:
     - cybernode:
         - About node: cybernode/about.md
         - K8s cheat cheet: cybernode/k8s-cheat-sheet.md
+        - Dev-setup: cybernode/dev-setup.md
         - Components:
             - Monitoring: cybernode/components/monitoring.md
             - Chains nodes: cybernode/components/chain-nodes.md
+            - Requirments: cybernode/components/requirments.md
         - Staging:
             - Mars setup: cybernode/staging/setup.md
             - Continuous delivery: cybernode/staging/continuous-delivery.md
             - Running application: cybernode/staging/run.md
             - Local sync chains: cybernode/staging/chains.md
             - Kubernetes: cybernode/staging/kubernetes.md
+        - Chains:
+            - Bitcoin: cybernode/chains/bitcoin.md
+            - Ethereum: cybernode/chains/ethereum.md
     - cyber-search:
             - About search: cyberSearch/about-search.md
             - Components:
