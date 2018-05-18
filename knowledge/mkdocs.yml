@@ -83,6 +83,9 @@ extra:
 
 extra_css:
   - 'stylesheets/extra.css'
+  - https://unpkg.com/mermaid@7.1.0/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js
 
 # Extensions
 markdown_extensions:

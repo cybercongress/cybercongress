@@ -20,12 +20,12 @@ Cyber browser - an entrance point to start working with blockchains.
 
 ## 3. Common functional requirements
 
-- Integration with Metamask 
+- Integration with Metamask
 - IPFS integration
 - Avoid pagination in all tables (use scrolling instead)
 - Prefered type of data structure - tables
 
-## 3. Common non-functional requirements 
+## 3. Common non-functional requirements
 
 - Simple and attractive design
 - Intuitive UI
@@ -36,32 +36,32 @@ Cyber browser - an entrance point to start working with blockchains.
 - less than 1 second for loading page
 - less than 3 seconds for loading all data
 - Web version of browser (React)
-- Desktop version (Electron + React) 
+- Desktop version (Electron + React)
 - Mobile web version
 
 # Browser Pages
 
 ## 1. Main Page
 
-**Purpose:** accent the user's attention to search function. 
+**Purpose:** accent the user's attention to search function.
 
 **Design & UI features:** simple and attractive design, hints to start usage of cyber products.
 
 There is a status text below search panel which describes technical information about cyber.Search products:
 
-**_Search in 134 M transactions in 2 blockchain systems with 135 parsed tokens. Database size : 369 GBs_** 
+**_Search in 134 M transactions in 2 blockchain systems with 135 parsed tokens. Database size : 369 GBs_**
 
 where transactions are the number of all indexed transactions from all blockchains connected to Cybernode, blockchain systems - all blockchains processed by Cybernode, tokens - all unique tokens from all blockchains indexed, database size - size of Cassandra (index) database.
 
 There are 3 main widgets below the status string describing the cryptoeconomy, registers and portfolio:
-1. Total market cap [billions of USD] - is a summ of all token capitalizations, valuated in USD. 
+1. Total market cap [billions of USD] - is a summ of all token capitalizations, valuated in USD.
 
     _**Call to action:** transition to cybernomics page_.
-  
+
 2. Chaingear registers [number] - number of user's registers (for authorized ones with created registers) or number of created registers in Chaingear.
 
     _**Call to action:** transition to Chaingear page_.
-  
+
 3. Portfolio volume [valuation in BTC] - volume of user's portfolio (for authorized ones) valuated in BTC or hint to create portfolio (for non authorized users).
 
     _**Call to action:** transition to Portfolio page_.
@@ -84,9 +84,9 @@ At the bottom of the page 5 project links are placed:
 
 **Purpose:** provide easy and quick functionality for working with blockchain search.
 
-**Design & UI  features:** strictly logical UI, adaptive preferenses of filtration and sorting. 
+**Design & UI  features:** strictly logical UI, adaptive preferenses of filtration and sorting.
 
-#### Objects of search. 
+#### Objects of search.
 
 There are 2 types of search provided by browser:
 1. Global search (searching in whole ecosystem of indexed objects)
@@ -129,7 +129,7 @@ Search results in general are shown as a list of object preview. Each object pre
 - Value
 - Time of finalization (or time of confirmation or "Mempool" status)
 - "From" address hash (Only for Ethereum and Ethereum Classic)
-- "To" address hash (Only for Ethereum and Ethereum Classic) 
+- "To" address hash (Only for Ethereum and Ethereum Classic)
 
 2. Block
 - Block number
@@ -177,7 +177,7 @@ Data which is displayed (including options and user actions):
 - Miner [string] - miner hash
 - Difficulty [number] - mining difficulty
 - Static block reward [number + currency] - static reward for block mining
-- Fees [number + currency] - 
+- Fees [number + currency] -
 
 ## 3. Blockchains Page
 
@@ -193,7 +193,7 @@ Data which is displayed (including options and user actions):
 
 ## 6. Chaingear Page
 
-**Purpose:** provide easy integration with Chaingear. 
+**Purpose:** provide easy integration with Chaingear.
 **Design & UI  features:** simple UI, autoupdate register data, preview of changes.
 
 All functionality is available after Metamask authorization.
