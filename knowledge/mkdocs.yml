@@ -54,6 +54,7 @@ pages:
             - About chaingear: Chaingear/overview.md
             - Contracts overwiev: Chaingear/contracts.md
             - Development: Chaingear/development.md
+            - Pipelines: Chaingear/pipelines.md
     - cyberd:
             - Overview: cyberd/cyberd.md
 

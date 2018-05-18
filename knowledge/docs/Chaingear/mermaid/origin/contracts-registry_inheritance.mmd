@@ -1,0 +1,10 @@
+graph TD;
+    RegistryBasic-->Registry;
+    Chaingeareable-->Registry;
+    ERC721Token/OZ-->Registry;
+    SplitPaymentChangeable-->Registry;
+    SplitPayment/OZ-->SplitPaymentChangeable;
+    RegistryPermissionControl-->Chaingeareable;
+    Adminable-->RegistryPermissionControl;
+    Pausable/OZ-->Adminable;
+    Ownable/OZ-->SplitPaymentChangeable;
