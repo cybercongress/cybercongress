@@ -1,6 +1,7 @@
 ![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
 # Helping spices to evolve
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
+
 Version 1
 
 ## Idea
