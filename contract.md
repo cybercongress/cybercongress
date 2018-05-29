@@ -107,3 +107,13 @@ This agreement is living. If some changes happens they must be reflected accordi
 
 ## Validity
 The agreement is valid for cyberspace
+
+## Forks and splits
+If some team feel independent power she can create new organisation and fork for free. Congress members benefit such behaviour and are ready in case the team is self sustainable to transfer repositories.
+
+## Liquidation
+Congress can liquidate itself. If this event happens the following stuff happens:
+- software go to public domain
+- hardware obtain personal freedom
+- non-transferable tokens waiting for being transferable
+- transferable tokens sent evenly to token holders
