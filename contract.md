@@ -19,9 +19,9 @@ Helping spices to evolve
 - Integrate into cybereconomy humans, robots, animals, plants and other thinking creations
 - Demolish state boarders across the earth
 - Switch governments' business model from violent taxes to non-violent UBI
-- Create technologies for accessible space exploration
+- Create technologies for accessible space exploration and transportation
 - Significantly extend living capabilities for species up to but not limited to 10k years
-- Create foundation for thermoregulation and terraformation of the Earth and nearby planets
+- Create foundation for thermoregulation and terraforming of the Earth and nearby planets
 - Build foundation for emergence of unified spacetime ownership registry
 
 ## Values
