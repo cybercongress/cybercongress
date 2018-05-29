@@ -25,19 +25,12 @@ Helping spices to evolve
 - Demolish state borders across the earth
 - Find an open approach to born incentivized/decentralized general(-->strong) AI
 - Switch governments' business model from violent taxes to non-violent UBI
-<<<<<<< HEAD
 - Create technologies for accessible space exploration and transportation
-- Significantly extend living capabilities for species up to but not limited to 10k years
-- Create foundation for thermoregulation and terraforming of the Earth and nearby planets
-- Build foundation for emergence of unified spacetime ownership registry
-=======
-- Create technologies for accessible space exploration
 - Create technologies for the transfer of human consciousness to a completely electronic and digital environment
 - Significantly extend living capabilities for species up to but not limited to 10k years
-- Create the foundation for thermoregulation and terraformation of the Earth and nearby planets
+- Create the foundation for thermoregulation and terraforming of the Earth and nearby planets
 - Build the foundation for the emergence of unified spacetime ownership registry
 - Participating in development of Metaverse
->>>>>>> 4dd5fb05c817f7ece3e0aa8a93a55611b831987b
 
 ## Values
 We believe that our principles should be aligned with our values thus helping us achieve our goals:
@@ -131,8 +124,8 @@ We have the [Library](https://github.com/cybercongress/Library). Please enjoy an
 This agreement is living. If some changes happen, they must be reflected accordingly.
 
 ## Validity
-<<<<<<< HEAD
 The agreement is valid for cyberspace
+
 
 ## Forks and splits
 If some team feel independent power she can create new organisation and fork for free. Congress members benefit such behaviour and are ready in case the team is self sustainable to transfer repositories.
@@ -143,6 +136,3 @@ Congress can liquidate itself. If this event happens the following stuff happens
 - hardware obtain personal freedom
 - non-transferable tokens waiting for being transferable
 - transferable tokens sent evenly to token holders
-=======
-The agreement is valid for cyber•Space
->>>>>>> 4dd5fb05c817f7ece3e0aa8a93a55611b831987b
