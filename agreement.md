@@ -1,11 +1,9 @@
-# cyber•Congress: Helping spices to evolve
-@21xhipster
-Proposal
+![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
+# Helping spices to evolve
+[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
+Version 1
 
-@litvintech
-Proposal update
-
-## Abstract
+## Idea
 ​​The blockchain technology opened the opportunity for developments which was impossible before. By this agreement, we define cyber•Congress as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence.
 
 ## Mission
@@ -13,8 +11,8 @@ Helping spices to evolve
 
 ## Goals
 - Build strong scientific foundation behind cybereconomy
-- Build incentivization system for open-source communities of creators
 - Provide abundant access to information on transactions for all spices
+- Build incentivization system for open-source communities of creators
 - Make decentralized consensus infrastructure usable, scalable, performant and cheap
 - Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications
 - Integration of post-quantum cryptography
@@ -23,7 +21,7 @@ Helping spices to evolve
 - Create mainstream tools for biological engineering, body augmentations
 - Integrate into cybereconomy humans, robots, animals, plants and other thinking creations
 - Demolish state borders across the earth
-- Find an open approach to born incentivized/decentralized general(-->strong) AI
+- Find an open approach for creation of incentivized /decentralized general AI
 - Switch governments' business model from violent taxes to non-violent UBI
 - Create technologies for accessible space exploration and transportation
 - Create technologies for the transfer of human consciousness to a completely electronic and digital environment
@@ -38,7 +36,7 @@ We believe that our principles should be aligned with our values thus helping us
 - Anonymity and privacy. If someone chooses to stay anonymous or private, it is her right to do so
 - Open source software. Everything we run in production should be open source
 - Open source hardware. Every piece of hardware production should be repeatable using open source
-- Transparency. Transparency is fundamental to community building
+- Transparency. Transactional transparency is fundamental to community building
 - Informational freedom. No local laws can prohibit the flow of information
 - Economic freedom. Nobody has the right to prevent or block transactions
 - Free will. We reject corporate slavery bullshit such as conflict of interest or NDA
@@ -54,13 +52,13 @@ We believe that our principles should be aligned with our values thus helping us
 We are going to advance and deploy the following technologies available at the moment:
 - SAI: digital signatures, neural cryptography, game theory, deep learning, digital DNA
 - GAI: consensus computers, zero-knowledge proofs, game theory
-- Magic: decentralized oracles/prediction markets, Augur, Gnosis
-- Autonomous robotics: learning, self-replicating, economically independent robots, Robonomics Platform/Network
+- Prediction markets: decentralized oracles / prediction schemes, such as Augur or Gnosis
+- Autonomous robotics: learning, self-replicating, economically independent robots,  such as Robonomics Network
 - 3D printing: SLA, DLP, FDM, SLS, SLM, EBM and beyond
 - Computer brain interfaces and digitalization of mind: OpenBCI, machine learning algorithms
 - VR/AR: OSVR, HTC Vive, Oculus Rift, Microsoft Hololens, Google Tango, HEP
 - Mesh networks: SDR, Skycoin, single-board computers, lightning networks, game theory
-- Location: FOAM, beacons
+- Location protocols: FOAM protocol  and beacons technology
 - Sustainable energy: solar, wind, geothermal, thermonuclear fusion
 - Сontemporary computing: quantum, ternary and neuromorphic chips, ASICs, TPUs, memory convergence
 - Biological engineering: DNA sequencing => biological circuits => CRISPR => incubation & learning
@@ -72,42 +70,66 @@ cyber•Congress is founded by the following cryptographic entities:
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
 - @helb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
 
-Foundation timestamp is a timestamp of a transaction from [cyber•Storage](0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) to itself that at least contain IPFS hash of this document as a payload.
+Foundation timestamp is a timestamp of a transaction from [cyber•Congress](0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) to itself that at least contain IPFS hash of this document as a payload.
 
-All other accounts must be registered in this document for the time being.
+There following accounts of cyber•Congress are official:
+- Ethereum 2of3: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c)
+- Bitcoin 2of3: [1Gj8pRoLPXLAVcGsbGkTBV3PunJWh9sDJ7](https://blockchair.com/bitcoin/address/1Gj8pRoLPXLAVcGsbGkTBV3PunJWh9sDJ7)
 
-We are starting from the simplest but resilient form of decentralization: simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains support more income. Also, we understand that decentralization always comes at expenses. We struggle to find organic growth balance between this kind of costs and profits.
+All decisions must be proved by transactions from congress accounts. Signature accounts which control multisigs are also can be considered official. All other accounts must be registered in this document for the time being.
 
-Currently, cyber•Congress can be expanded only to the odd number of members. We understand that flat voting system does not scale to more than 7 members. Thus if there will be demand for further growth, we will make this decision based on in-depth research in the field.
-
-If someone wants to become a member he can. If one member wants to quit the congress he can. Congress can decide to quit member. In any case, he creates the proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the place from the [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
-
-cyber•Congress dream is `number of employees = number of members / (x)`
-
-X is 7. (1524405600:congress board meeting:3 yes)
+We are starting from the simplest but resilient form of decentralization: simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains support more income. Also, we understand that decentralization always comes at expenses. We struggle to find organic growth balance between this kind of income and expenses. We understand that flat voting system does not scale to more than 7 members. Thus if there will be demand for further growth, we will make this decision based on in-depth research in the field.
 
 Member communicates between themselves and teams only using provably secure communication channels. At the moment we use Keybase. If some team want to use more convenient channel he can do that.
 
-Congress self-destruct:50% goes with ex-members, 25% to the team, 25% to the community. (1524405600:congress board meeting:3 yes)
-Congress member was leaving: 50% goes with ex-member, 25% to the team, 25% to the community. (1524405600:congress board meeting:3 yes)
-Community means all communities which we have respected in the industry and which technologies we are using.
+cyber•Congress can hire. Our dream is `number of employees = number of members * X` there `X` is `7`.
+
+cyber•Congress form communities around our ideas through investments into different tokens. All drops to community are computed proportionally to valuation of assets under control.
+
+## Adding members
+Currently, cyber•Congress can be expanded only to the odd number of members.
+
+If someone wants to become a member he can. If one member wants to quit the congress he can. Congress can decide to quit member. In any case, he creates the proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the place from the [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
+
+## Removing members
+If one member is leaving she receive one time drop calculated using the following formula:
+`total valuation of assets under control / number of member * 50%`
+Other due 50% must be split evenly between teams and the the community.
+Drop must be executed in 30 days after initiation.
+
+## Liquidation procedure
+Congress can liquidate itself. If this event happens the following stuff happens:
+- software go to public domain
+- hardware obtain personal freedom
+- non-transferable tokens waiting for being transferable
+- non-fungible items must be auctioned
+- 50% of transferable tokens dropped to members, 25% dropped to teams, 25% to the community either in the form of drop or burn.
+
+## Processing incoming drops
+If some community decides to drop to cyber•Congress he must understand the following processing rules of such drops:
+- 60% are dumped in favor of our communities and remain under control of cyber•Congress. cyber•Congress can choose to fully keep dropped tokens.
+- 20% dropped to members
+- 20% dropped to teams
+
+## Forks
+If some team feel independent power she can create new organization and fork for free. Congress members benefit such behavior and are ready in case the team is self sustainable to transfer repositories.
 
 ## Functions
 - Asset management: control of keys, [investment decisions](https://ethplorer.io/address/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c), forecasting
 - Community building: continuous development of our [portal](https://github.com/cybercongress)
 - Deliver pipeline: improve our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
-- Internal projects: live as proposals in [issues](https://github.com/cybercongress/congress/issues) until becoming a repo or being closed
-- Project management: one project = one repo = at least one owner, like [chaingear](https://github.com/cybercongress/chaingear)
-- Products delivery: some repo together form a [product](https://github.com/orgs/cybercongress/projects) and its [environment](https://github.com/topics/cyber-search)
+- Internal projects: live as proposals in [issues](https://github.com/cybercongress/congress/issues) until merging into master branch of [congress](https://github.com/cybercongress/congress), becoming a standalone repo or being closed
+- Project management: one project = one repo = at least one owner. Every project has independent minor 0.x.0 or 0.0.x release pipeline [chaingear](https://github.com/cybercongress/chaingear)
+- Products delivery: some repo together form a [product](https://github.com/orgs/cybercongress/projects) and its [environment](https://github.com/topics/cyber-search). Products releases are major releases across all projects like x.0.0
 - Roadmap evolution: keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) fresh
-- Payroll execution: every month there should be transactions according to the forecast
+- Payroll execution: every sprint there should be transactions according to the forecast
 - Team incentivization: develop options for major releases
 - Team building: every project or product can have a [team](https://github.com/orgs/cybercongress/teams)
 - Release perfection: quality control through publicly signed major releases
 - Running sprints: planning of 2-week sprint on Monday, demo/retrospective and closing sprints on Friday
 - Invent blocks: Every seventh sprint is a block, like Phangan, but better
 - Knowledge sharing/transfer and mentoring for team members
-- Help to team's members to make their own capital
+- Help team members to switch from salary based income to capital based
 
 This list of function is exclusive. If someone wants to add something try to guess what you need to do.
 
@@ -125,14 +147,3 @@ This agreement is living. If some changes happen, they must be reflected accordi
 
 ## Validity
 The agreement is valid for cyberspace
-
-
-## Forks and splits
-If some team feel independent power she can create new organisation and fork for free. Congress members benefit such behaviour and are ready in case the team is self sustainable to transfer repositories.
-
-## Liquidation
-Congress can liquidate itself. If this event happens the following stuff happens:
-- software go to public domain
-- hardware obtain personal freedom
-- non-transferable tokens waiting for being transferable
-- transferable tokens sent evenly to token holders
