@@ -34,9 +34,9 @@ name = "Siarhei Sadau"
 email = "seregasadov@gmail.com"
 ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
 bitcoin = "1Ax8saDu4T8QKVKztpVv4YwGpuUwvsJ4SG"
-github = 
-telegram = 
-keybase = 
+github = "https://github.com/asadovka"
+telegram = "asadovka"
+keybase = "https://keybase.io/asadovka"
 
 [pechalka]
 name = "Andrew Luzhkovsky"
