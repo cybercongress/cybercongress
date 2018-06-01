@@ -1,0 +1,84 @@
+# This is document with teams key attributes
+
+title = "Team registry"
+
+[hleb-albau]
+name = "Hleb Albau"
+email = "hleb.albau@gmail.com"
+ethereum = "0x2429135b30134862b19497ba973546ef2029b170"
+bitcoin = "16jdauzVeYSRVUYhWrtqswVaXa3qhsNJBR"
+github = 
+telegram = 
+keybase = 
+
+[litvintech]
+name = "Valery Litvin"
+email = "litvintech@gmail.com"
+ethereum = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
+bitcoin = "1AvHtFVnBrR7dpdxKohBPvhr2tEkAth8T7"
+github = 
+telegram = 
+keybase = 
+
+[xhipster]
+name = "Dima Starodubcev"
+email = "starodubcev@gmail.com"
+ethereum = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
+bitcoin = "1R8wNHCmEpQ9QmVKd5mkkHoXbuU3DyPs3"
+github = "https://github.com/xhipster"
+telegram = "xhipster"
+keybase = "http://keybase.io/21xhipster"
+
+[asadovka]
+name = "Siarhei Sadau"
+email = "seregasadov@gmail.com"
+ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
+bitcoin = "1Ax8saDu4T8QKVKztpVv4YwGpuUwvsJ4SG"
+github = "https://github.com/asadovka"
+telegram = "asadovka"
+keybase = "https://keybase.io/asadovka"
+
+[pechalka]
+name = "Andrew Luzhkovsky"
+email = "andrewluzkovsky@gmail.com"
+ethereum = "0xfb07b8cbd8082e04b45db84c80b61b48170785ff"
+bitcoin = "1JkrBFwtjzvz7v2TayfvBh6fxpvdDeMjeo"
+github = 
+telegram = 
+keybase = 
+
+[vstavetski]
+name = "Valentin Stavetski"
+email = "vstavetski@gmail.com"
+ethereum = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
+bitcoin = "1Kf8qodE8jFDUfnFVFnx6dv57J2urW6Fx2"
+github = 
+telegram = 
+keybase = 
+
+[savetheales]
+name = "Ales Puchilo"
+email = "ales.puchilo@gmail.com"
+ethereum = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
+bitcoin = 
+github = 
+telegram = 
+keybase = 
+
+[olga584]
+name = "Olga Bessonova"
+email = "besic584@gmail.com"
+ethereum = "0x9d7d6E753F055E40d3767337300e722E934086c1"
+bitcoin = "1GoCcWAtnSYCyxpSWAapqmBM71jNUvJWaX"
+github = 
+telegram = 
+keybase = 
+
+[arturalbov]
+name = "Artur Albau"
+email = "artur.albov@gmail.com"
+ethereum = 
+bitcoin = 
+github = 
+telegram = 
+keybase = 
