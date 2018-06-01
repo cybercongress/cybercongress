@@ -35,6 +35,7 @@ pages:
                 - Overview: cyberSearch/contributing/contributing.md
                 - Dev-environment: cyberSearch/contributing/dev-environment.md
                 - Cheat sheet: cyberSearch/contributing/cheat-sheet.md
+                - Pump development: cyberSearch/contributing/pump-development.md
     - cyber-markets:
             - About markets: cyberMarkets/about-markets.md
             - Components:
