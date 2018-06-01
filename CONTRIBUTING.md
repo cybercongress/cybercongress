@@ -45,4 +45,6 @@ merge the contribution.
 
 Take your bounty and make sure - you're AWESOME!  
 
-##
+## Anything else?
+
+If you still have questions about contributing just comment current issue and we answer you as soon as we can.  
