@@ -17,7 +17,7 @@ pages:
             - Chains nodes: cybernode/components/chain-nodes.md
             - Requirments: cybernode/components/requirments.md
         - Staging:
-            - Mars setup: cybernode/staging/setup.md
+            - Setup: cybernode/staging/setup.md
             - Continuous delivery: cybernode/staging/continuous-delivery.md
             - Running application: cybernode/staging/run.md
             - Local sync chains: cybernode/staging/chains.md
