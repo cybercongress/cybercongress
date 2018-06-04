@@ -16,10 +16,11 @@ keybase =
 name = "Valery Litvin"
 email = "litvintech@gmail.com"
 ethereum = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
+gitcoin = "0xf103D2db8024F4B885433ADAF72032Ac58304e03"
 bitcoin = "1AvHtFVnBrR7dpdxKohBPvhr2tEkAth8T7"
-github = 
-telegram = 
-keybase = 
+github = "https://github.com/litvintech"
+telegram = "litvintech"
+keybase = "litvintech"
 
 [xhipster]
 name = "Dima Starodubcev"
