@@ -120,7 +120,7 @@ If some team feel independent power she can create new organization and fork for
 - Community building: continuous development of our [portal](https://github.com/cybercongress)
 - Deliver pipeline: improve our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
 - Internal projects: live as proposals in [issues](https://github.com/cybercongress/congress/issues) until merging into master branch of [congress](https://github.com/cybercongress/congress), becoming a standalone repo or being closed
-- Project management: one project = one repo = at least one owner. Every project has independent minor 0.x.0 or 0.0.x release pipeline [chaingear](https://github.com/cybercongress/chaingear)
+- Project management: one project = one repo = at least one owner. Every project has independent minor 0.x.0 or 0.0.x release pipeline like [chaingear](https://github.com/cybercongress/chaingear)
 - Products delivery: some repo together form a [product](https://github.com/orgs/cybercongress/projects) and its [environment](https://github.com/topics/cyber-search). Products releases are major releases across all projects like x.0.0
 - Roadmap evolution: keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) fresh
 - Payroll execution: every sprint there should be transactions according to the forecast
