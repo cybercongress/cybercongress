@@ -5,6 +5,7 @@ title = "Team registry"
 [hleb-albau]
 name = "Hleb Albau"
 email = "hleb.albau@gmail.com"
+gitcoin = "0x00725d89a2a2fb3b21fd1035b579cbcde4a0991b"
 ethereum = "0x2429135b30134862b19497ba973546ef2029b170"
 bitcoin = "16jdauzVeYSRVUYhWrtqswVaXa3qhsNJBR"
 github = 
@@ -32,6 +33,7 @@ keybase = "http://keybase.io/21xhipster"
 [asadovka]
 name = "Siarhei Sadau"
 email = "seregasadov@gmail.com"
+gitcoin = "0x318a6c1d757bD1938CefAa681c4CbC5380B34c47"
 ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
 bitcoin = "1Ax8saDu4T8QKVKztpVv4YwGpuUwvsJ4SG"
 github = "https://github.com/asadovka"
@@ -60,14 +62,15 @@ keybase =
 name = "Ales Puchilo"
 email = "ales.puchilo@gmail.com"
 ethereum = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
-bitcoin = 
-github = 
-telegram = 
-keybase = 
+bitcoin = ""
+github = "https://github.com/SaveTheAles"
+telegram = "AlesPuchilo"
+keybase = "savetheales"
 
 [olga584]
 name = "Olga Bessonova"
 email = "besic584@gmail.com"
+gitcoin = "0x00466845B9906578ac86cBA4C2Dda0F2c46461F6"
 ethereum = "0x9d7d6E753F055E40d3767337300e722E934086c1"
 bitcoin = "1GoCcWAtnSYCyxpSWAapqmBM71jNUvJWaX"
 github = 

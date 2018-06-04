@@ -1,18 +1,18 @@
 ![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
-# Helping spices to evolve
+# cyber•Congress: Helping species to evolve
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
 
 Version 1
 
 ## Idea
-​​The blockchain technology opened the opportunity for developments which was impossible before. By this agreement, we define cyber•Congress as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence.
+The blockchain technology opened the opportunity for developments which was impossible before. By this agreement, we define cyber•Congress as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence.
 
 ## Mission
-Helping spices to evolve
+Helping species to evolve
 
 ## Goals
 - Build strong scientific foundation behind cybereconomy
-- Provide abundant access to information on transactions for all spices
+- Provide abundant access to information on transactions for all species
 - Build incentivization system for open-source communities of creators
 - Make decentralized consensus infrastructure usable, scalable, performant and cheap
 - Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications
@@ -66,12 +66,12 @@ We are going to advance and deploy the following technologies available at the m
 - Space exploration: BFR and alternatives, satellites/cubesats
 
 ## Governance
-cyber•Congress is founded by the following cryptographic entities:
-- @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0x9f4062F6153Ff4Dbf93F6A6F686eD3C906Bf0684)
+cyber•Congress is founded by the following cryptographic entities using [genesis account](0x9f4062F6153Ff4Dbf93F6A6F686eD3C906Bf0684):
+- @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
 - @helb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
 
-Foundation timestamp is a timestamp of a transaction from [cyber•Congress](0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) to itself that at least contain IPFS hash of this document as a payload.
+Foundation timestamp is a timestamp of a last transaction from every signature account to itself that contain IPFS hash of this document as a payload + hash of last git commit.
 
 There following accounts of cyber•Congress are official:
 - Ethereum 2of3: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c)
@@ -83,7 +83,7 @@ We are starting from the simplest but resilient form of decentralization: simple
 
 Member communicates between themselves and teams only using provably secure communication channels. At the moment we use Keybase. If some team want to use more convenient channel he can do that.
 
-cyber•Congress can hire. Our dream is `number of employees = number of members * X` there `X` is `7`.
+cyber•Congress can hire. Our goal is `number of employees = number of members * X` there `X` is `7`.
 
 cyber•Congress form communities around our ideas through investments into different tokens. All drops to community are computed proportionally to valuation of assets under control.
 

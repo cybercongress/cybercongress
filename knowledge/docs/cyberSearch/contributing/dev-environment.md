@@ -31,7 +31,7 @@ Wait for dependency downloading and indexation
 Go to EthereumPumpApplication.kt and press green triangle on left to the code (on example line 23):
 ![Start Pump](images/start-pump.png)
 
-Pump will fail due to lack of **CHAIN** and **CHAIN_NODE_URL** environment properties, let's define it: Select "Edit Configuration"
+Pump will fail due to lack of **CHAIN_FAMILY** and **CHAIN_NODE_URL** environment properties, let's define it: Select "Edit Configuration"
 
 ![Select Edit Run Configuration](images/select-edit-configuration.png)
 
