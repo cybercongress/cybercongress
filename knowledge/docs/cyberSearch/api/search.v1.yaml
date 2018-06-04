@@ -77,6 +77,22 @@ paths:
         '400':
           description: 'Invalid query, page or pageSize parameters supplied'
 
+
+  /search/stats:
+    get:
+      tags:
+        - search
+      summary: Search API indices statistic
+      description: 'Endpoint to obtain search indices statistics'
+      operationId: search-stats
+      responses:
+        '200':
+          description: 'Successful statistics'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchStatsResponse'
+
 components:
   schemas:
 
@@ -114,3 +130,16 @@ components:
           anyOf:
             - $ref: "bitcoin.v1.yaml#/components/schemas/BitcoinBlockPreview"
             - $ref: "bitcoin.v1.yaml#/components/schemas/BitcoinTxPreview"
+
+    SearchStatsResponse:
+      type: object
+      properties:
+        blockchains:
+          type: integer
+          format: int32
+        transactionsCount:
+          type: integer
+          format: int64
+        indexSizeBytes:
+          type: integer
+          format: int64

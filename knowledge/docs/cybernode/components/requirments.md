@@ -4,27 +4,27 @@ Resources requirements to run components in gcloud cluster
 
 | Component                  | Min CPU | Max CPU  |  Min RAM  | Max RAM |
 | -------------------------- | ------- |--------- | -------   | --------|
-| Kafka Broker               | 1.5     | 2        | 15GB      | 20GB    |
+| Kafka Broker               | 1.5     | 2        | 10GB      | 10GB    |
 | Kafka Exporter             | 0.1     | 0.2      | 1GB       | 2GB     |
 | Kafka Manager              | 0.1     | 0.2      | 1GB       | 2GB     |
-| Zoo Keeper                 | 0.1     | 0.2      | 2GB       | 4GB     |
-| Elassandra                 | 2       | 2.5      | 20GB      | 25GB    |
+| Zoo Keeper                 | 0.1     | 0.2      | 1.25GB    | 1.25GB  |
+| Elassandra                 | 3       | 3.5      | 20GB      | 25GB    |
 | Grafana                    | 0.1     | 0.2      | 100MB     | 200MB   |
-| Prometheus                 | 0.25    | 0.5      | 500MB     | 1000MB  |
+| Prometheus                 | 0.25    | 1        | 3GB       | 3GB     |
 | Prometheus Operator        | 0.1     | 0.2      | 100MB     | 200MB   |
-| Parity ETH                 | 1.5     | 2        | 15GB      | 20GB    |
+| Parity ETH                 | 3       | 3        | 15GB      | 20GB    |
 | Parity ETC                 | 1       | 1.5      | 10GB      | 15GB    |
-| ETH Pump                   | 1.5     | 2        | 2.5GB     | 3GB     |
-| ETH Cassandra Dump         | 1.5     | 2        | 2.5GB     | 3GB     |
-| ETH Contract Summary       | 1.5     | 2        | 2.5GB     | 3GB     |
-| ETC Pump                   | 1.5     | 2        | 2.5GB     | 3GB     |
-| ETC Cassandra Dump         | 1.5     | 2        | 2.5GB     | 3GB     |
-| ETC Contract Summary       | 1.5     | 2        | 2.5GB     | 3GB     |
+| ETH Pump                   | 1.5     | 3        | 5GB       | 6GB     |
+| ETH Cassandra Dump         | 1.5     | 3        | 3.75GB    | 3.75GB  |
+| ETH Contract Summary       | 1.5     | 3        | 3.75GB    | 3.75GB  |
+| ETC Pump                   | 1.5     | 3        | 3.75GB    | 3.75GB  |
+| ETC Cassandra Dump         | 1.5     | 3        | 3.75GB    | 3.75GB  |
+| ETC Contract Summary       | 1.5     | 3        | 3.75GB    | 3.75GB  |
 | Bitcoind                   | 2       | 3        | 20GB      | 30GB    |
-| BTC Pump*                  | 1.5     | 2        | 10GB      | 12GB    |
-| BTC Dump                   | 1.5     | 2        | 2.5GB     | 3GB     |
-| BTC Contract Summary       | 1.5     | 2        | 2.5GB     | 3GB     |
-| Search Api                 | 0.5     | 1        | 1.5GB     | 2GB     |
+| BTC Pump*                  | 2.5     | 2.5      | 20GB      | 20GB    |
+| BTC Dump                   | 3       | 3        | 3.75GB    | 3.75GB  |
+| BTC Contract Summary       | 1.5     | 3        | 3.75GB    | 3.75GB  |
+| Search Api                 | 0.5     | 1        | 3.75GB    | 3.75GB  |
 | Search Api Docs            | 0.1     | 0.2      | 100MB     | 200MB   |
 
-\* - With cache size = 4GB
+\* - With cache size = 10GB

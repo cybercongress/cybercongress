@@ -1,9 +1,9 @@
-FROM swaggerapi/swagger-ui:v3.12.1
+FROM swaggerapi/swagger-ui:v3.14.2
 
-COPY docs/common.v1.yaml /usr/share/nginx/html/
-COPY docs/search.v1.yaml /usr/share/nginx/html/
-COPY docs/bitcoin.v1.yaml /usr/share/nginx/html/
-COPY docs/ethereum.v1.yaml /usr/share/nginx/html/
+COPY docs/api/common.v1.yaml /usr/share/nginx/html/
+COPY docs/api/search.v1.yaml /usr/share/nginx/html/
+COPY docs/api/bitcoin.v1.yaml /usr/share/nginx/html/
+COPY docs/api/ethereum.v1.yaml /usr/share/nginx/html/
 
 ENV API_URLS='[                                              \
     {name:"Search API", url:"search.v1.yaml"},               \

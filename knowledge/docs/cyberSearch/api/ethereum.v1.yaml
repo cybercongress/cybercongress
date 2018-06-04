@@ -10,6 +10,34 @@ tags:
     description: Access to Ethereum/Ethereum Classic chain entites
 paths:
 
+  '/{chainName}/supply':
+    get:
+      tags:
+        - ethereum
+      summary: Get Ethereum current supply
+      description: Returns Ethereum supply
+      operationId: getSupply
+      parameters:
+        - name: chainName
+          in: path
+          description: Chain name
+          required: true
+          schema:
+            type: string
+            enum:
+              - ethereum
+              - ethereum_classic
+      responses:
+        '200':
+          description: 'Ethereum supply'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EthereumSupply'
+        '404':
+          description: 'There is no calculated supply for given chain'
+
+
   '/{chainName}/block/{blockNumber}':
     get:
       tags:
@@ -369,6 +397,26 @@ paths:
 components:
   schemas:
 
+    EthereumSupply:
+      type: object
+      properties:
+        blockNumber:
+          type: integer
+          format: int64
+        uncleNumber:
+          type: integer
+          format: int64
+        totalSupply:
+          type: number
+        genesisSupply:
+          type: number
+        miningBlocksSupply:
+          type: number
+        miningUnclesSupply:
+          type: number
+        includingUnclesSupply:
+          type: number
+
     EthereumBlock:
       type: object
       properties:
@@ -459,6 +507,9 @@ components:
         txNumber:
           type: integer
           format: int32
+        successfulOpNumber:
+          type: integer
+          format: int32
         minedUncleNumber:
           type: integer
           format: int32
@@ -468,19 +519,11 @@ components:
         lastActivityDate:
           type: string
           format: date-time
-        version:
-          type: integer
-          format: int64
-        kafkaDeltaOffset:
-          type: integer
-          format: int64
-        kafkaDeltaPartition:
-          type: integer
-          format: int32
-        kafkaDeltaTopic:
-          type: string
-        kafkaDeltaOffsetCommited:
-          type: boolean
+        unconfirmedTxValues:
+          type: object
+          additionalProperties:
+            type: number
+
 
     EthereumContractTx:
       type: object
