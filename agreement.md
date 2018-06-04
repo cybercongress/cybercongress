@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
-# Helping spices to evolve
+# cyber•Congress: Helping spices to evolve
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
 
 Version 1
@@ -71,7 +71,7 @@ cyber•Congress is founded by the following cryptographic entities using [genes
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
 - @helb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
 
-Foundation timestamp is a timestamp of a last transaction from every signature account to itself that at contain IPFS hash of this document as a payload + hash of last git commit.
+Foundation timestamp is a timestamp of a last transaction from every signature account to itself that contain IPFS hash of this document as a payload + hash of last git commit.
 
 There following accounts of cyber•Congress are official:
 - Ethereum 2of3: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c)
@@ -83,7 +83,7 @@ We are starting from the simplest but resilient form of decentralization: simple
 
 Member communicates between themselves and teams only using provably secure communication channels. At the moment we use Keybase. If some team want to use more convenient channel he can do that.
 
-cyber•Congress can hire. Our dream is `number of employees = number of members * X` there `X` is `7`.
+cyber•Congress can hire. Our goal is `number of employees = number of members * X` there `X` is `7`.
 
 cyber•Congress form communities around our ideas through investments into different tokens. All drops to community are computed proportionally to valuation of assets under control.
 
