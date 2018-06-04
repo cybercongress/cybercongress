@@ -52,11 +52,12 @@ keybase =
 [vstavetski]
 name = "Valentin Stavetski"
 email = "vstavetski@gmail.com"
+gitcoin = "0x379a23083a58b2b89f4dd307ad55f732bb5a20ef"
 ethereum = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
 bitcoin = "1Kf8qodE8jFDUfnFVFnx6dv57J2urW6Fx2"
-github = 
-telegram = 
-keybase = 
+github = "https://github.com/vstavetski"
+telegram = "vstavetski"
+keybase = "vstavetski"
 
 [savetheales]
 name = "Ales Puchilo"
