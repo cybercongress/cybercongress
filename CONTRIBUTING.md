@@ -4,7 +4,7 @@ Want to contributing to Congress? Awesome! We love contributions from everyone. 
 
 ## Opening issues
 
-Open an issue to report bugs or to propose new features. Also we propose to you using our issue templates according to problems.
+Open an issue to report bugs or to propose new features. Also we propose to you using our issue templates according to problem types.
 
 >Note: the problem will be solved as quickly as it is clearly described.
 
@@ -17,8 +17,11 @@ Pull requests are very welcome.
 It's better for us if you will open your pull request by following steps:
 
 - open an issue with you interested in;
-- fork repo to your github account;
+- fork the repo and create your branch from `master`;
 - play with it and make significant things;
+- if you've added code that should be tested, add tests;
+- if you've changed APIs, update the documentation;
+- ensure the test suite passes;
 - open pull request and write good commit message;
 - submit PR;
 - YOU'RE AWESOME!
@@ -31,10 +34,15 @@ merge the contribution.
 
 Alright! You take an issue from gitcoin.co and want to help us? Try to go this way:
 
-- click 'start work' at issue what you interested in;
+- click 'start work' at current task in gitcoin.co;
 - carefully study what is written in issue;
-- fork repo to your github account;
-- work with it and make significant things;
+- Understand the task;
+- ask the question in the comments to the issue if something isn't clear;
+- fork the repo and create your branch from `master`;
+- play with it and make significant things;
+- if you've added code that should be tested, add tests;
+- if you've changed APIs, update the documentation;
+- ensure the test suite passes;
 - open pull request and write good commit message;
 - submit PR;
 - PROFIT!
@@ -47,4 +55,4 @@ Take your bounty and make sure - you're AWESOME!
 
 ## Anything else?
 
-If you still have questions about contributing just comment current issue and we answer you as soon as we can.  
+If you still have questions about contributing just comment current issue and we answer you as soon as we can. Also you can join us on [Telegram](https://t.me/fuckgoogle) chat.
