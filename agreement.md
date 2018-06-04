@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
-# cyber•Congress: Helping spices to evolve
+# cyber•Congress: Helping species to evolve
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
 
 Version 1
@@ -8,11 +8,11 @@ Version 1
 The blockchain technology opened the opportunity for developments which was impossible before. By this agreement, we define cyber•Congress as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for the new kind of existence.
 
 ## Mission
-Helping spices to evolve
+Helping species to evolve
 
 ## Goals
 - Build strong scientific foundation behind cybereconomy
-- Provide abundant access to information on transactions for all spices
+- Provide abundant access to information on transactions for all species
 - Build incentivization system for open-source communities of creators
 - Make decentralized consensus infrastructure usable, scalable, performant and cheap
 - Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications
