@@ -5,8 +5,8 @@ title = "Team registry"
 [hleb-albau]
 name = "Hleb Albau"
 email = "hleb.albau@gmail.com"
-ethereum = "0x2429135b30134862b19497ba973546ef2029b170"
 gitcoin = "0x00725d89a2a2fb3b21fd1035b579cbcde4a0991b"
+ethereum = "0x2429135b30134862b19497ba973546ef2029b170"
 bitcoin = "16jdauzVeYSRVUYhWrtqswVaXa3qhsNJBR"
 github = 
 telegram = 
@@ -33,8 +33,8 @@ keybase = "http://keybase.io/21xhipster"
 [asadovka]
 name = "Siarhei Sadau"
 email = "seregasadov@gmail.com"
-ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
 gitcoin = "0x318a6c1d757bD1938CefAa681c4CbC5380B34c47"
+ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
 bitcoin = "1Ax8saDu4T8QKVKztpVv4YwGpuUwvsJ4SG"
 github = "https://github.com/asadovka"
 telegram = "asadovka"
