@@ -10,7 +10,7 @@ Every sprint we allocate amount of ETH and distribute it for a team to active us
 
 At the next sprints we want to forecasting general amount of ETH what we want to distribute. Also we'll calculate weighting factors in dependence with issues what prepared to gitcoin push.
 
-<h6 align="center">![Calculating](mermaid/ETH_Calc.gif)</h6>
+![Calculating](mermaid/ETH_Calc.gif)
 
 where:
 - Em it's ETH per team member to gitcoin push ;
