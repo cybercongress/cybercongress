@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/cybercongress/congress/master/design/logo_congress.png)
+![](https://github.com/cybercongress/congress/blob/master/design/logo_congress_rectangle.png)
 # cyber•Congress: Helping species to evolve
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
 
