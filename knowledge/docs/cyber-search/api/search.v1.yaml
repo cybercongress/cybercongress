@@ -87,11 +87,27 @@ paths:
       operationId: search-stats
       responses:
         '200':
-          description: 'Successful statistics'
+          description: 'Successful request'
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/SearchStatsResponse'
+
+
+  /search/chains:
+    get:
+      tags:
+        - search
+      summary: Search API available chains and their entities
+      description: 'Endpoint to obtain search chains and their entities'
+      operationId: search-chains
+      responses:
+        '200':
+          description: 'Successful request'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchChainsResponse'
 
 components:
   schemas:
@@ -143,3 +159,10 @@ components:
         indexSizeBytes:
           type: integer
           format: int64
+
+    SearchChainsResponse:
+      type: object
+      additionalProperties:
+          type: array
+          items:
+            type: string

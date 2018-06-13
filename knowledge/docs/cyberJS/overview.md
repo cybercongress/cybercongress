@@ -1,1 +1,0 @@
-cyber.js is sample wrapper around cyber infrastructure - search, markets and changing also it provide method for work with ipfs and ethereum smart contracts.

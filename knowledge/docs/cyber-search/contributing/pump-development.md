@@ -12,10 +12,12 @@ Every chain has `ChainFamily`. For example `BITCOIN, ETHEREUM` families.
 
 `ChainFamily` has it's own set of entities like `TX, BLOCK, UNCLE` and default url of chain node.
 
-Next, chain has a name. It's used to define custom chains that are based on specific chain families.
-It could be a fork without changing structure of chain. For example chain with name `CASH` of `BITCOIN` chain family
-will represent `BITCOIN_CASH` chain.
+Next, chain has a name. Chain name used everywhere in modules. Kafka topics, Cassandra keyspaces, API endpoints
+will be based on chain name. By default chain name is equal to `ChainFamily`. For example if you have  `ChainFamily == BITCOIN`
+and you not specifying a chain name it will be set to `BITCOIN`. Main goal of chain name is to separate forks
+of one chain that have the same structure. For example  `BITCOIN` and `BITCOIN_CASH` or `ETHEREUM` and `ETHEREUM_CLASSIC`. 
 
+So as far as you can understand single chain pump is chain pump for specific `ChainFamily`
 ## Adding models to common module
 
 First of all you have to put models representing your blockchain entities in common module.
@@ -23,7 +25,7 @@ They should be placed in `fund.cyber.search.model.{your_chain_family_name}` pack
 This models will be used to transfer your blockchain data among our microservices (using Kafka).
 
 After doing so put description of your chain family to `ChainFamily` enum.
-You could find in `fund.cyber.search.model.chains.ChainInfo.kt` file. Description includes following info:
+You could find it in `fund.cyber.search.model.chains.ChainInfo.kt` file. Description includes following info:
 
 * `defaultNodeUrl` - default URL of blockchain node to connect for data.
 * `entityTypes` - map of blockchain entities types (from `fund.cyber.search.model.chains.ChainEntity` enum) to their class representation.
@@ -108,8 +110,9 @@ class BitcoinPumpApplication {
 ### Default spring beans in context
 After spring context start you'll have few already configured beans in context that you could inject in your module classes:
 
-* `MeterRegistry` - bean for monitoring.
-* `ChainInfo` - bean with all needed properties of running chain.
+* `org.springframework.retry.support.RetryTemplate` - Spring Retry template for retrying failed operations.
+* `io.micrometer.core.instrument.MeterRegistry` - bean for monitoring.
+* `fund.cyber.search.model.chains.ChainInfo` - bean with all needed properties of running chain.
 
 ```kotlin
 class ChainInfo(
@@ -130,9 +133,9 @@ class ChainInfo(
 
 `ChainInfo` bean constructed from environment properties at start:
 * `CHAIN_FAMILY` - chain family name (matches `ChainFamily` enum). For example `CHAIN_FAMILY=BITCOIN`. **Required option**.
-* `CHAIN_NAME` - name of your specific chain. **Not necessary**. Used to construct full name of chain.
-All kafka topic will be named accordingly. For example `CHAIN_FAMILY=BITCOIN, CHAIN_NAME=CASH` then all full name will be `BITCOIN_CASH`.
-* `CHAIN_NODE_URL` - URL of node running your chain. **Not necessary**.
+* `CHAIN_NAME` - name of your specific chain. **Not necessary**. By default equals to `CHAIN_FAMILY`.
+All kafka topic will be named accordingly. For example `CHAIN_NAME=BITCOIN_CASH` then a topic name will be `BITCOIN_CASH_TX_PUMP`.
+* `CHAIN_NODE_URL` - URL of node running your chain. **Not necessary**. By default will be equal to one that described in your `ChainFamily`.
 
 ### Implementing pump
 To integrate your pump with our system you simply have to implement two interfaces:
@@ -238,14 +241,9 @@ It contains only one method that should return `io.reactivex.Flowable` of pool i
 Put Docker file in root folder of your module. Here is template of Dockerfile:
 ```
 # Build Stage
-FROM openjdk:10-jdk-slim AS build
-COPY ./ /build
-WORKDIR /build
-RUN ./gradlew clean :pumps:${your_chain_name}:assemble
-
 # Container with application
-FROM openjdk:10-jre-slim
-COPY --from=build /build/pumps/${your_chain_name}/build/libs /cyberapp/bin
+FROM openjdk:8-jre-slim
+COPY /build/libs /cyberapp/bin
 ENTRYPOINT exec java $JAVA_OPTS -jar /cyberapp/bin/${your_chain_name}.jar
 ```
 
@@ -257,13 +255,14 @@ Finally, you should update `.circleci/config.yml` file with steps for building a
 deploy_chain_pumps_${your_chain_name}_image:
      <<: *defaults
      steps:
-       - checkout
+       - attach_workspace:
+           at: ~/build
        - setup_remote_docker:
            version: 17.11.0-ce
        - run:
            name: Build ${your_chain_name} Pump Image
            command: |
-             docker build -t build/pump-${your_chain_name} -f ./pumps/${your_chain_name}/Dockerfile ./
+             docker build -t build/pump-${your_chain_name} -f ./pumps/${your_chain_name}/Dockerfile ./pumps/${your_chain_name}
              docker login -u $DOCKER_USER -p $DOCKER_PASS
              docker tag build/pump-${your_chain_name} cybernode/chain-pump-${your_chain_name}:$CIRCLE_TAG
              docker push cybernode/chain-pump-${your_chain_name}:$CIRCLE_TAG
