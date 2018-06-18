@@ -1,16 +1,16 @@
 # Contributing rules
 
-Want to contributing to Congress? Awesome! We love contributions from everyone. Let's us propose you the best ways for contributing. It's provides your help really useful!
+Want to contribute to Congress? Awesome! We love contributions from everyone. Let us propose you the best ways for contributing. It makes your help really useful!
 
 This guide explains how to:
 
 - Get started
-- Development workflow
+- Use development workflow
 - Get help if you encounter trouble
 
 ## Opening issues
 
-**Open an issue** to report bugs or to propose new features. Also we propose to you using our issue templates according to problem types.
+**Open an issue** to report bugs or to propose new features. Also we offer to use our issue templates according to problem types.
 
 >Note: the problem will be solved as quickly as it is clearly described.
 
@@ -27,7 +27,7 @@ Pull requests are very welcome.
 
 It's better for us if you will open your pull request by following steps:
 
-- open an issue with you interested in;
+- open an issue in which you are interested in;
 - fork the repo and create your branch from `master`;
 - play with it and make significant things;
 - if you've added code that should be tested, add tests;
@@ -45,17 +45,15 @@ For example:
 ```
 - submit PR;
 
-This is a time for discussion and improvements,
-and making the necessary changes will be required before we can
-merge the contribution. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
+Before we can merge the contribution we need to discuss changes. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
 
 ## Contributing with gitcoin.co
 
-Alright! You take an issue from gitcoin.co and want to help us? Try to go this way:
+Alright! You've took an issue from gitcoin.co and want to help us? Try to go this way:
 
 - click 'start work' at current task in gitcoin.co;
 - carefully study what is written in issue;
-- Understand the task;
+- understand the task;
 - ask the question in the comments to the issue if something isn't clear;
 - fork the repo and create your branch from `master`;
 - play with it and make significant things;
@@ -65,9 +63,7 @@ Alright! You take an issue from gitcoin.co and want to help us? Try to go this w
 - open pull request and write good commit message;
 - submit PR;
 
-This is a time for discussion and improvements,
-and making the necessary changes will be required before we can
-merge the contribution. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
+Before we can merge the contribution we need to discuss changes. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
 
 - ???
 - PROFIT
