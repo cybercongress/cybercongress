@@ -1,6 +1,6 @@
 openapi: 3.0.1
 servers:
-  - url: 'http://staging.cyber.fund:32800'
+  - url: 'http://api.cybermarkets.io/'
 info:
   description: 'Cyber.Markets API'
   version: 1.0.0
@@ -76,6 +76,49 @@ paths:
   ###
   ### Exchange
   ###
+  '/exchanges':
+    get:
+      tags:
+        - exchange
+      summary: 'Get list of connected exchanges'
+      description: 'Returns list of connected exchanges'
+      operationId: getConnectedExchanges
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
+
+  '/exchanges/tokens':
+    get:
+      tags:
+        - exchange
+      summary: 'Get tokens that are trading an the connected exchanges'
+      description: 'Returns list of tokens'
+      operationId: getTokensByExchanges
+      responses:
+        '200':
+          description: 'Successful'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tokens'
+        '500':
+          description: 'Internal server error'
+
+  '/exchanges/tokens/count':
+    get:
+      tags:
+        - exchange
+      summary: 'Get the number of tokens that are trading an the connected exchanges'
+      description: 'Returns the number of tokens'
+      operationId: getTokensCount
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
+
   '/exchange/{exchageName}':
     get:
       tags:
@@ -102,11 +145,55 @@ paths:
         '404':
           description: 'Exchange not found'
 
+  '/exchange/{exchageName}/tokens':
+    get:
+      tags:
+        - exchange
+      summary: 'Get tokens that are trading an the exchange'
+      description: 'Returns list of tokens'
+      operationId: getTokensByExchanges
+      parameters:
+        - name: exchageName
+          in: path
+          description: 'Exchange name'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Successful'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tokens'
+        '500':
+          description: 'Internal server error'
+
+  '/exchange/{exchageName}/tokens/count':
+    get:
+      tags:
+        - exchange
+      summary: 'Get number of tokens that are trading an the exchange'
+      description: 'Returns number of tokens'
+      operationId: getTokensCountByExchange
+      parameters:
+        - name: exchageName
+          in: path
+          description: 'Exchange name'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
+
   '/exchange/{exchageName}/pairs':
     get:
       tags:
         - exchange
-      summary: 'Get pairs that are trading an the the exchange'
+      summary: 'Get pairs that are trading an the exchange'
       description: 'Returns list of pairs'
       operationId: getPairsByExchange
       parameters:
@@ -138,10 +225,10 @@ paths:
       description: 'Returns list of pairs'
       operationId: getTrades
       parameters:
-        - name: exchage
+        - name: exchange
           in: query
           description: 'Exchange name'
-          required: false
+          required: true
           schema:
             type: string
             default: 'ALL'
@@ -151,31 +238,13 @@ paths:
           required: true
           schema:
             type: string
-        - name: ts
+        - name: epochMin
           in: query
-          description: 'Timestamp from which we need to get a trades'
+          description: 'Epoch minute from which we need to get a trades'
           required: true
           schema:
             type: integer
             format: int64
-            minimum: 0
-            default: 0
-        - name: pageSize
-          in: query
-          description: 'Size of the page'
-          required: false
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-            default: 20
-        - name: page
-          in: query
-          description: 'Result set page number (starts from 0)'
-          required: false
-          schema:
-            type: integer
-            format: int32
             minimum: 0
             default: 0
       responses:
@@ -198,7 +267,7 @@ paths:
       description: 'Returns a lists of bid and ask orders'
       operationId: getOrderbook
       parameters:
-        - name: exchage
+        - name: exchange
           in: query
           description: 'Exchange name'
           required: true
@@ -440,6 +509,11 @@ components:
             type: number
             format: doouble
 
+    Tokens:
+      type: array
+      items:
+        $ref: '#/components/schemas/Token'
+
     Trades:
       type: array
       items:
@@ -568,6 +642,14 @@ components:
         base:
           type: string
         quote:
+          type: string
+
+    Token:
+      type: object
+      properties:
+        name:
+          type: string
+        symbol:
           type: string
 
     TradeType:
