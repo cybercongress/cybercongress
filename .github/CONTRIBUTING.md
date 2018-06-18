@@ -27,7 +27,7 @@ Pull requests are very welcome.
 
 It's better for us if you will open your pull request by following steps:
 
-- open an issue in which you are interested in;
+- open an issue in which you are interested;
 - fork the repo and create your branch from `master`;
 - play with it and make significant things;
 - if you've added code that should be tested, add tests;
