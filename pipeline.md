@@ -1,9 +1,9 @@
-# Deliver pipeline
+# Delivery pipeline
  
 Main entities: workflow step, stakeholders, input data, output data, activity.
  
  
-## Workflow for cyb:
+## Workflow for cyb UI:
  
 ### 1. Conceptualization
 
@@ -28,8 +28,21 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 **Output data:** initial UI version, PR.
 
 
+### 2b Initial UI testing
 
-### 2b Prototyping
+**Stakeholders:** PO, BA, developer.
+
+**Activity:** testing.
+
+**Input data:** initial UI.
+
+**Output data:** bug log, PR.
+
+
+*Note: this 2 steps could be repeated in several cycles*
+
+
+### 3a Prototyping
 
 **Stakeholders:** BA, designer.
 
@@ -41,7 +54,7 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 
 
 
-### 2c Design
+### 3b Design
 
 **Stakeholders:** PO, BA, designer.
 
@@ -52,8 +65,10 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 **Output data:** sketch design files, PR.
 
 
+*Note: this 2 steps could be repeated in several cycles*
 
-### 3 Advanced UI implementation
+
+### 4a Advanced UI implementation
 
 **Stakeholders:** BA, developer, designer.
 
@@ -65,7 +80,7 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 
 
 
-### 4 Testing
+### 4b Advanced UI testing
 
 **Stakeholders:** all team members.
 
@@ -75,6 +90,8 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 
 **Output data:** bug log, PR.
 
+
+*Note: this 2 steps could be repeated in several cycles*
 
 
 ### 5 Deployment
@@ -89,7 +106,7 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 
 
 
-### 6 Feedback
+### 6 Feedback & metrics collection
 
 **Stakeholders:** all team members.
 
