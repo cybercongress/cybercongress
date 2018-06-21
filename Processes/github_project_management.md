@@ -4,50 +4,53 @@ Here is stack of rules what recommended to use for making cyber•Congress great
 As a public open source organization with high-level goals and values we need to delivering transparent information for community.
 
 
-## Pull request and issues formalization
+## Pull request and issue formalization
 
 #### Issue. Once again.
 
-Please-please-please describe your issue! If issue name doesn't explain what is need to do make a good explanation of issue.
+Please-please-please describe your issue! If issue name doesn't explain what should be done please make a good explanation of issue.
 Attaching files and links is good way for describing what you want.
 
 #### Issue + New Branch + PR = Awesome!
 
-If you start work with issue you can fork from master (or another branch) a separate branch and work with it. After your work is done make a PR and assign to
-review competent teammates. After successful PR approve merge and delete this branch. For good PR you can use [PR template](https://github.com/cybercongress/congress/blob/master/.github/PULL_REQUEST_TEMPLATE.md) with checklist what help you to get in.
+If you start working with issue you can fork a separate branch from master (or another branch) and work with it. After your work is done make a PR and assign it to
+review-competent teammates. After successful PR approval please merge and delete this branch. For good PR you can use [PR template](https://github.com/cybercongress/congress/blob/master/.github/PULL_REQUEST_TEMPLATE.md) with checklist which helps you to get in.
 
 #### For what?!
 
-PR and issue formalization processes eliminating you from extra work with changelog, community, process manager, teammates and also help you find key changes fast.
+PR and issue formalization processes eliminate you from extra work with changelog, community, process manager, teammates and also help you to quickly find key changes.
 
-## Tags and releases formalization (for repos maintainers)
+## Tag and release formalization (for repo's maintainers)
 
 Full documentation about Semantic Versioning Specification (SemVer) you can explore [here](https://semver.org/spec/v2.0.0.html).
 In general we need to tag versions with it. Git propose it with [CLI](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [GUI](https://help.github.com/articles/working-with-tags/).
-Also tagging available at GitKraken.
+Also tagging is available on GitKraken.
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
-MAJOR version when you make incompatible changes,
-MINOR version when you add functionality in a backwards-compatible manner, and
-PATCH version when you make backwards-compatible bug fixes.
+- MAJOR version when you make incompatible changes
+
+- MINOR version when you add functionality in a backwards-compatible manner
+
+- PATCH version when you make backwards-compatible bug fixes.
+
 Additional labels for pre-release and build metadata are [available as extensions](https://semver.org/spec/v2.0.0.html#semantic-versioning-specification-semver) to the MAJOR.MINOR.PATCH format.
 
 #### For what?!
 
-Automatic changelog generator in process to attaching to each repo. This script parsing tags and releases to compile beautiful changelog.
+Automatic changelog generator is in process of attaching to each repo. This script parses tags and releases to compile beautiful changelog.
 
 
 ## Docs decorating
 
 All documentation about repo you should keep at `/docs` folder. Automatic script will collect all docs in knowledge and deploy them to https://cybersearch.io/ .
-For now here few requirements to docs keeping:
+For now there are few requirements to keep docs:
 
 - store you docs in `/docs` folder in your repo;
 - if you want to publish them at knowledge commit all docs changes in `master`;
 - add `about $repo_name$.md` to your docs;
 - keep doc naming same with `h1` of document;
->f.e. `bitcoin-pump-development.md` this doc should starting with `# Bitcoin Pump Development`. No more no less.
+>f.e. `bitcoin-pump-development.md` this doc should starts with `# Bitcoin Pump Development`. No more no less.
 - keep your documentation in actual state.
 
 ## Templates
@@ -59,8 +62,8 @@ and customize it for your repo if it necessary.
 
 ## Gitcoin
 
-Initiate gitcoin process describing [here](https://github.com/cybercongress/congress/blob/master/Processes/Gitcoin.md).
-If you need to fund some issue from repo what you maintain just add `community: gitcion` label to issue what you want to
+Guide to initiate gitcoin process is [here](https://github.com/cybercongress/congress/blob/master/Processes/Gitcoin.md).
+If you need to fund some issue from repo that you maintain just add `community: gitcion` label to issue that you want to
 fund. Also you can fund issues in another open source projects.
 
 If you fund issues from `cyber•Congress` repo attach [gitcoin banner](https://github.com/cybercongress/cyber-search/blob/master/README.md) to your `README.md` file in `master`.
