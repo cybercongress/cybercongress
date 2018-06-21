@@ -4,9 +4,6 @@ site_description: 'Knowledge base of cyber•Search'
 site_author: 'cyber•Search team'
 edit_uri: https://github.com/cybercongress/congress/edit/master/knowledge/docs
 
-
-pages:
-
 # Repository
 repo_name: 'congress'
 repo_url: 'https://github.com/cybercongress/congress'
