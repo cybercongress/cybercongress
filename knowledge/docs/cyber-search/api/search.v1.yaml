@@ -1,0 +1,168 @@
+openapi: 3.0.1
+servers:
+  - url: 'http://api.cybersearch.io'
+info:
+  description: Multichain search
+  version: 1.0.0
+  title: Cyber.Search API
+tags:
+  - name: search
+paths:
+
+  /search:
+    get:
+      tags:
+        - search
+      summary: Multichain search
+      description: 'General endpoint to search chains entities'
+      operationId: search
+      parameters:
+        - name: query
+          in: query
+          description: Search query
+          required: true
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Result set page number (starts from 0)
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 0
+        - name: pageSize
+          in: query
+          description: Size of the page
+          required: false
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            default: 20
+        - name: chains
+          in: query
+          description: Chains to search through
+          required: false
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - bitcoin
+                - bitcoin_cash
+                - ethereum
+                - ethereum_classic
+        - name: types
+          in: query
+          description: Types to search through
+          required: false
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - tx
+                - block
+                - uncle
+                - contract_summary
+      responses:
+        '200':
+          description: 'Successful search'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+        '400':
+          description: 'Invalid query, page or pageSize parameters supplied'
+
+
+  /search/stats:
+    get:
+      tags:
+        - search
+      summary: Search API indices statistic
+      description: 'Endpoint to obtain search indices statistics'
+      operationId: search-stats
+      responses:
+        '200':
+          description: 'Successful request'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchStatsResponse'
+
+
+  /search/chains:
+    get:
+      tags:
+        - search
+      summary: Search API available chains and their entities
+      description: 'Endpoint to obtain search chains and their entities'
+      operationId: search-chains
+      responses:
+        '200':
+          description: 'Successful request'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchChainsResponse'
+
+components:
+  schemas:
+
+    SearchResponse:
+      type: object
+      properties:
+        query:
+          type: string
+        page:
+          type: integer
+          format: int32
+        pageSize:
+          type: integer
+          format: int32
+        totalHits:
+          type: integer
+          format: int64
+        searchTime:
+          type: integer
+          format: int64
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/ItemPreview"
+
+    ItemPreview:
+      type: object
+      properties:
+        chain:
+          $ref: "common.v1.yaml#/components/schemas/Chain"
+        entity:
+          $ref: "common.v1.yaml#/components/schemas/ChainEntity"
+        data:
+          type: object
+          anyOf:
+            - $ref: "bitcoin.v1.yaml#/components/schemas/BitcoinBlockPreview"
+            - $ref: "bitcoin.v1.yaml#/components/schemas/BitcoinTxPreview"
+
+    SearchStatsResponse:
+      type: object
+      properties:
+        blockchains:
+          type: integer
+          format: int32
+        transactionsCount:
+          type: integer
+          format: int64
+        indexSizeBytes:
+          type: integer
+          format: int64
+
+    SearchChainsResponse:
+      type: object
+      additionalProperties:
+          type: array
+          items:
+            type: string
