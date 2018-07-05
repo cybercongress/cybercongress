@@ -11,8 +11,8 @@
 ![Basic Overview](images/architecture.png)
 
 ## Chains Components
-- [Ethereum](./ethereum.md)
-- [Bitcoin](./bitcoin.md)
+- [Ethereum](ethereum-components.md)
+- [Bitcoin](bitcoin-components.md)
 
 ## Kafka
 [Kafka](https://kafka.apache.org/) is message queue used as main data entry. All raw data firstly goes into kafka, than 
