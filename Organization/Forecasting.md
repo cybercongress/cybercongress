@@ -49,4 +49,16 @@ Balance & expenses direction:
 
 ## 4. Flow
 
-- 
+Start of the sprint:
+
+- update fund balances in balance doc
+- set ETH prediction coefficient
+- forecast doc will automatically update for current and future sprints
+
+End of the sprint:
+
+- make a shapshot of token rates
+- update prices doc
+- update forecast doc for current sprint
+- compensate expenses (salary, office, meal etc.)
+
