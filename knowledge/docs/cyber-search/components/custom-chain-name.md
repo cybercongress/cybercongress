@@ -1,4 +1,4 @@
-# Custom Chain
+# Custom Chain Name
 
 You have an ability to run our services with custom chain name based on supported chain families.
 It may be needed if you have your own custom chain and you want API endpoints, Kafka topic names and Cassandra keyspaces to use your chain name.
