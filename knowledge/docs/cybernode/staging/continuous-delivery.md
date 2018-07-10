@@ -1,4 +1,4 @@
-# Circle Ci job example
+## Circle Ci job example
 
 To enable auto staging-redeploy for your application you should:
 
@@ -10,7 +10,7 @@ To enable auto staging-redeploy for your application you should:
 
 
 
-# Example: build and deploy for all commits in master
+## Example: build and deploy for all commits in master
 ```
 aliases:
  - &staging_filter
