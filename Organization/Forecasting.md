@@ -23,7 +23,7 @@ Activity:
 
 ## 3. Forecast doc
 
-Main goal is to have planning horizon for 10 sprints.
+Main goal is to have strict planning horizon for one block and approximate vision for future two blocks.
 
 Sheet consists of two "directions":
 
@@ -52,8 +52,7 @@ Balance & expenses direction:
 Start of the sprint:
 
 - update fund balances in balance doc
-- set ETH prediction coefficient
-- forecast doc will automatically update for current and future sprints
+- forecast doc will automatically update expenses for current and future sprints
 
 End of the sprint:
 
