@@ -8,7 +8,6 @@
 6. Task division - project division to medium size tasks (GitHub epics) and small taskt (GitHub issues). 
 7. Planning - using GitHub project for placing epics in timeline.
 
-
 ## 2.Tools
 
 1. Github - development, task managment, work documents storage.
@@ -20,14 +19,12 @@
 
 - CEO. Strategical vision of project
 - Product owner. Owner of repository.
-
 - Business analyst. Requirement manager, technical writer.
 - Backend dev. Server-side technologies specialist.
 - Frontend dev. Frontend technologies specialist.
 - Designer. UX, graphic designer.
 - Tester. Q&A engineer.
 - Agile master. Scrum master, process manager.
-
 
 ## 3. Sprint structure
 
@@ -38,14 +35,14 @@ First week
 |              Mon|            Tue|            Wed|            Thu|            Fri|   Sat |    Sun |
 |-----------------|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|-------:|
 |11:00 Planning 2h|               |               |               |               |Day off|Day off||
-|                 |18:00 Daily 15m|18:00 Daily 15m|18:00 Daily 15m|18:00 Daily 15m|       |       ||
+|                 |               |               |               |               |       |       ||
 
 Second week
 
 |             Mon|            Tue|           Wed |            Thu|            Fri|    Sat|     Sun|
-|----------------|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|-------:|
-|                |               |               |               |15:00 Demo 1.5h|Day off|Day off||
-| 18:00 Daily 15m|18:00 Daily 15m|18:00 Daily 15m|18:00 Daily 15m|17:00 Retro 30m|       |       ||
+|-----------------|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|-------:|
+|                 |               |               |               |15:00 Demo 1.5h|Day off|Day off||
+|                 |               |               |               |17:00 Retro 30m|       |       ||
 
 ### Obligatory events:
 
@@ -53,11 +50,10 @@ Second week
 - Demo
 - Retrospective
 
-### Other events:
+### Optional events:
 
 - Daily meetings
 - Groomings
-
 
 ## 4. Tasks 
 
@@ -79,28 +75,25 @@ Issue - subtask of epic or independent task. Issue should be closed in one sprin
 
 ## 4. Valuation & reporting
 
-## 5. Productivity metrics
-
-We use next types of metrics to track productivity:
-
-- Personal metrics (for each team member)
-- Product metrics (for each repo)
-- Sprint metrics (for sach sprint)
-
-### Personal metrics
+1. Personal metrics
 
 - Story points (all, backlog,icebox,next sprint, in progress, review, closed)
 - Productivity (closed points divide on all points)
 
-### Product metrics
+2. Product metrics
 
 - Story points (all, backlog,icebox,next sprint, in progress, review, closed)
 - Productivity (closed points divide on all points)
 
-### Product metrics
+3. Product metrics
 
 - Sprint story points (all, closed)
 - Productivity (closed points divide on all points)
+
+4. Valuation report
+
+- OOS data (balances, expenses)
+
 
 
 
