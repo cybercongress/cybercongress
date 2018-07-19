@@ -16,4 +16,4 @@ about: Create proposal for vacation
 
 
 ### Additional Information
-[comment]: # (Any other information that would be useful, content, screenshots, etc.)
+[comment]: # (Optional. Any other information that would be useful, content, screenshots, etc.)
