@@ -7,7 +7,7 @@ Algorithm for vacation proposal.
 1. Open a special proposal for vacation [here](https://github.com/cybercongress/cyb/issues/new/choose)
 2. Enter all needed information according to template
 3. Assing congress members reviewing
-4. Add your vacation to calendar and paint in in color:
+4. Add your vacation to calendar and paint it in color:
 
 - tomato: is offline
 - tangerine: available for emergency cases only
