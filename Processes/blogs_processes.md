@@ -21,4 +21,4 @@ topic and link to post. Posts will dublicate on medium and reddit.
 
 Short scheme provided here:
 
-![Proc_diagram](mermaid/BP_diagramm.svg)
+![Proc_diagram](mermaid/blogs_proc_diagram.svg)
