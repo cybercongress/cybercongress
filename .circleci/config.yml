@@ -13,7 +13,7 @@ jobs:
   update_doc:
     working_directory: ~/build
     docker:
-      - image: squidfunk/mkdocs-material
+      - image: squidfunk/mkdocs-material:2.9.2
     steps:
       - checkout
       - add_ssh_keys:
