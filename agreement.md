@@ -71,7 +71,7 @@ cyber•Congress is founded by the following cryptographic entities using [genes
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
 - @helb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
 
-Foundation timestamp is a timestamp of a last transaction from every signature account to itself that contain IPFS hash of this document as a payload + hash of last git commit.
+Foundation timestamp is a timestamp of a last transaction from every signature account to multisig that contain IPFS hash of this document as a payload + hash of last git commit.
 
 There following accounts of cyber•Congress are official:
 - Ethereum 2of3: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c)
