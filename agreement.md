@@ -75,7 +75,7 @@ Foundation timestamp is a timestamp of a last transaction from every signature a
 
 There following accounts of cyber•Congress are official:
 - Ethereum 2of3: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c)
-- Bitcoin 2of3: [1Gj8pRoLPXLAVcGsbGkTBV3PunJWh9sDJ7](https://blockchair.com/bitcoin/address/1Gj8pRoLPXLAVcGsbGkTBV3PunJWh9sDJ7)
+- Bitcoin 2of3: [38W5xwiJTYAL5aLcokdYNvY28DAzS6Piqz](https://blockchair.com/bitcoin/address/38W5xwiJTYAL5aLcokdYNvY28DAzS6Piqz)
 
 All decisions must be proved by transactions from congress accounts. Signature accounts which control multisigs are also can be considered official. All other accounts must be registered in this document for the time being.
 
