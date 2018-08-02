@@ -69,7 +69,7 @@ We are going to advance and deploy the following technologies available at the m
 cyber•Congress is founded by the following cryptographic entities using [genesis account](0x9f4062F6153Ff4Dbf93F6A6F686eD3C906Bf0684):
 - @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
-- @helb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
+- @hleb-albau: [Keybase ID](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b)
 
 Foundation timestamp is a timestamp of a last transaction from every signature account to multisig that contain IPFS hash of this document as a payload + hash of last git commit.
 
