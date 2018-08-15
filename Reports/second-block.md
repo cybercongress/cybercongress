@@ -87,7 +87,7 @@ Bring IPFS to Ethereum
 - Finalize/formalize/clearify roadmap for contributors
 - 30k+ $ for founties
 
-## CYB apps (with partnerships)
+## CYB apps with partnerships
 contracts:
 - augur
 - gitcoin
