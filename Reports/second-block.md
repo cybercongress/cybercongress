@@ -8,13 +8,15 @@
 5. Launch community reports and fill blog with 20 posts with overall 1000 subscribers
 
 ## cyberd
+@hleb-albau @arturalbov @litvintech @xhipster @asadovka @vstavetsky
 - paper first
-- reach 3of3 consensus around consensus and ranking algorithm (Spring Rank)
+- reach 3of3 consensus around consensus (Tendermint) and ranking algorithm (Spring Rank)
 - protocol PoC
 - Zero-knowledge Proofs research (Coda, Snarks)
 
 ## cyb
-Merge into Parity if Andrew accept. Purpose is functionality of Atom
+@asadovka @vstavetsky @volga @pechalka
+Merge into Parity. Purpose is functionality of Atom
 - specification / whitepaper (web3 vision)
 - duri vision / web3 application guidelines
 - permission layer
@@ -27,8 +29,8 @@ Merge into Parity if Andrew accept. Purpose is functionality of Atom
 - submit to app store
 - apm integration
 
-
 ## chaingear
+@litvintech @hleb-albau @pechalka
 Feature freeze. Go to mainnet ASAP. Need to implement Gitcoin + Chaingear strategy. Improve upon the concept of Creator Curated registries and CRUD ERC.
 - master audit
 - deploy to mainnet
