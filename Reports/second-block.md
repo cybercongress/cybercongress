@@ -54,6 +54,7 @@ The following view must be developed:
 - Txs
 
 ### Semantics research
+
 - Define a concept of link chains
 - Common block semantics
 - Common transaction semantics
@@ -62,9 +63,11 @@ The following view must be developed:
 - Develop semantics for chaingear
 
 ### Load testing
+
 - transfer our cybernode's dataset to IPFS hashes and load them with semantic
 
 ### Simulation
+
 Create tool for fast evaluating protocol with different params and users behavior
 - Simulate users and their search/linking (params)
 - Simulate ranking (params)
@@ -72,19 +75,60 @@ Create tool for fast evaluating protocol with different params and users behavio
 
 ## cyb PoC release
 @asadovka @vstavetsky @volga @pechalka
-Merge into Parity. Purpose is functionality of Atom
-- specification / whitepaper (web3 vision)
-- duri vision / web3 application guidelines
-- permission layer
-- feed and notification system
-- address book and keystore
-- tx states
-- identity providers
-- bookmarks
-- history
+Purpose is functionality of Atom
+
+Epics:
+
+### Merge into Parity
+- offline launch
+- ipfs browsing based on daemon inside
+- offline state browsing
+- Redesign search bar
+- Apps left: wallet, node status
+- Search results page logic (link if app used + ability to link)
+
+### Publish web3 browser vision
+- whitepaper
+- duri vision
+- web3 application guidelines
+
+### Develop core dapps
+dapp is _____
 - app store
 - submit to app store
-- apm integration
+- console (parity based)
+- tx queue and states (parity based)
+- develop contracts (parity based)
+- feed and notification
+- address book and keystore
+- bookmarks
+- history
+- ipfs
+- wallet
+- messenger (pubsub, whisper)
+- node status
+
+### Integrate dapps
+- tokens
+- chaingear
+- myetherwallet
+- metamask
+- swarm
+- augur
+- gitcoin
+- melonport
+- decentraland
+- radar-relay
+- maker
+- galt
+- robonomics
+- academy
+- sonm
+
+### Paid browsing
+- API's payment channels
+
+### Releasing/CI/CD
 
 ## chaingear
 @litvintech @hleb-albau @pechalka
@@ -93,6 +137,7 @@ Feature freeze. Go to mainnet ASAP. Need to implement Gitcoin + Chaingear strate
 - deploy to mainnet
 - launch registry of apps
 - launch registries for integrations prioritization (chains, exchanges, metaprotocols, roadmap/proxy-to-gitcoin)
+- ux improvements
 
 ## cyber-markets
 Freeze current code. Gitcoin + Chaingear strategy.
@@ -145,22 +190,3 @@ Bring IPFS to Ethereum
 - Organize repos/tasks for contributors
 - Finalize/formalize/clearify roadmap for contributors
 - 30k+ $ for founties
-
-## CYB apps with partnerships
-contracts:
-- augur
-- gitcoin
-- decentraland
-- radar-relay
-- maker
-- galt
-- robonomics
-- academy
-- 0x
-- sonm
-
-non-contracts:
-- ipfs
-- myetherwallet
-- metamask
-- swarm
