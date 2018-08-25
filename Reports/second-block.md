@@ -78,6 +78,7 @@ Merge into Parity. Purpose is functionality of Atom
 - permission layer
 - feed and notification system
 - address book and keystore
+- tx states
 - identity providers
 - bookmarks
 - history
@@ -152,6 +153,7 @@ contracts:
 - decentraland
 - radar-relay
 - maker
+- galt
 - robonomics
 - academy
 - 0x
