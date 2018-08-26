@@ -1,14 +1,18 @@
-search# Block 2. Iceland
+# Block 2. Iceland + Tolyatti
 
-## Priorities
+## `Main priorities`
 1. cyberd whitepaper + PoC
 2. cyb release
 3. Get 100 ETH from chaingear
 4. №1 organization on Gitcoin
 5. Launch community reports and fill blog with 20 posts with overall 1000 subscribers
 
-## cyberd
+___________
+
+## `cyberd`
+
 @hleb-albau @arturalbov @litvintech @xhipster @asadovka @vstavetsky
+
 Example of [good workflow](http://tezos.gitlab.io/betanet/#the-networks):
 - `zeronet`: nightly builds of the team, no guaranties
 - `alphanet`: test network, tokens has now value, hence faucet
@@ -17,16 +21,16 @@ Example of [good workflow](http://tezos.gitlab.io/betanet/#the-networks):
 
 These  workflow can activates only after when initial protocol and consensus technology will be stabilized. Until the following stage of development reached master branch is zeronet.
 
-## Epics
+## Epics:
 
-### Rank research
+### 1. Ranking research
 Main goal is to analyze existing ranks on real Ethereum and Bitcoin transactions in terms of time and predictability of transactions.
 
-### Whitepaper 0.2
+### 2. Whitepaper 0.2
 
 Happens if consensus reached around intended protocol for alphanet. After that define whitepaper as WIP. All proofs and explanations can be not finalized.
 
-### Link Chain PoC | Zeronet
+### 3. Link Chain PoC | Zeronet
 
 We need to reach zeronet because we want:
 - Test and develop browser PoC
@@ -37,24 +41,23 @@ We need to reach zeronet because we want:
 - Start distribution during development
 - Win time for more research around consensus algorithms
 
-### Distribution
+### 4. Distribution
 
 - Compute SpringRank for Ethereum (Link is tx, weight is amount)
 - Create initial genesis for our network
 - Importing Ethereum keys to application. Computing addresses in ipfs and cyber
 - Singing messages and transactions using imported keys
 
-### Explorer
+### 5. Visual explorer
 
 Must work in cyb and standalone.
-The following view must be developed:
+The following views are of significant importance:
 - Graph explorer. Watch incoming and outcoming links.
 - Stats monitor. Like steemdb.com
 - Blocks
 - Txs
 
-### Semantics research
-
+### 6. Semantics research
 - Define a concept of link chains
 - Common block semantics
 - Common transaction semantics
@@ -62,24 +65,26 @@ The following view must be developed:
 - Write guide for application developers on semantic programming of web3 app
 - Develop semantics for chaingear
 
-### Load testing
-
+### 7. Load testing
 - transfer our cybernode's dataset to IPFS hashes and load them with semantic
 
-### Simulation
-
+### 8. Simulation
 Create tool for fast evaluating protocol with different params and users behavior
 - Simulate users and their search/linking (params)
 - Simulate ranking (params)
 - Simulate payouts (params)
 
-## cyb PoC release
+___________
+
+## `cyb` PoC release
+
 @asadovka @vstavetsky @volga @pechalka
+
 Purpose is functionality of Atom
 
-Epics:
+## Epics:
 
-### Merge into Parity
+### 1. Merge into Parity
 - offline launch
 - ipfs browsing based on daemon inside
 - offline state browsing
@@ -87,12 +92,12 @@ Epics:
 - Apps left: wallet, node status
 - Search results page logic (link if app used + ability to link)
 
-### Publish web3 browser vision
+### 2. Publish web3 browser vision
 - whitepaper
 - duri vision
 - web3 application guidelines
 
-### Develop core dapps
+### 3. Develop core dapps
 dapp is _____
 - app store
 - submit to app store
@@ -108,7 +113,7 @@ dapp is _____
 - messenger (pubsub, whisper)
 - node status
 
-### Integrate dapps
+### 4. Integrate dapps
 - tokens
 - chaingear
 - myetherwallet
@@ -125,24 +130,106 @@ dapp is _____
 - academy
 - sonm
 
-### Paid browsing
+### 5. Paid browsing
 - API's payment channels
 
-### Releasing/CI/CD
+### 6. Releasing/CI/CD
 
-## chaingear
+___________
+
+## `chaingear`
 @litvintech @hleb-albau @pechalka
-Feature freeze. Go to mainnet ASAP. Need to implement Gitcoin + Chaingear strategy. Improve upon the concept of Creator Curated registries and CRUD ERC.
-- master audit
-- deploy to mainnet
-- launch registry of apps
-- launch registries for integrations prioritization (chains, exchanges, metaprotocols, roadmap/proxy-to-gitcoin)
-- ux improvements
+**Feature freeze. Go to mainnet ASAP.**
+- Need to implement Gitcoin + Chaingear strategy.
+- Improve upon the concept of Creator Curated registries and CRUD ERC.
 
-## cyber-markets
-Freeze current code. Gitcoin + Chaingear strategy.
+## Epics:
+
+### 1. Master audit
+- audit with 2+ different auditors
+
+### 2. Deploy to mainnet
+- deploy chaingear's contracts
+- verification on etherscan
+
+### 3. Launch registry of apps
+- define registry structure
+
+### 4. Launch registries for integrations prioritization
+- chains
+- exchanges
+- metaprotocols
+- roadmap/proxy-to-gitcoin
+
+### 5. Community roadmap:
+- continuous audit
+- gas optimization
+
+___________
+
+## `cyber-search`
+
+**Freeze current code, only cyberd integration. Gitcoin + Chaingear strategy.**
+
+## Epics:
+
+### 1. IPFS integration
+
+### 2. crawler for cyberd
+- connectors to cyberd/ipfs
+- semantic indexing for cyberd
+
+### 3. How to outsource computation?
+- SONM testdrive
+
+### 4. Community roadmap:
+- new pumps/dumps
+- balances calculation (+historical)
+- ERC-20, ENS, ERC-721 parsers
+
+___________
+
+## `cybernode`
+
+**Freeze features, only cyberd integration. Gitcoin + Chaingear strategy.**
+
+## Epics:
+
+### 1. cyberd integration
+- launching
+- monitor
+
+### 2. IPFS cluster integration
+- pins for searched items
+
+### 3. API request/reward channels
+
+### 4. Community roadmap:
+- core
+- "compatible" containers
+- permissions for fundamental resources
+- permissions for features
+
+___________
+
+## `cyb-js...`
+
+Purpose: Bring search to IPFS and Ethereum
+
+- IPFS
+- CYBER
+- Ethereum
+- permissions
+
+___________
+
+## `cyber-markets`
+
+**Freeze current code. Gitcoin + Chaingear strategy.**
+
 Purpose: compute price from tx data by general purpose algorithm.
-Community roadmap:
+
+### Community roadmap:
 - 0x 1.0 integration
 - 0x 2.0 integration
 - Bancor integration
@@ -150,43 +237,20 @@ Community roadmap:
 - ipfs integration
 - cyber-search integration
 
-## cyber-search
-Freeze current code. Gitcoin + Chaingear strategy.
-- there are money came from? Research around
-- How to outsource computation? SONM testdrive
+___________
 
-Community roadmap:
-- the more transactions the better
-- balances
-- ERC-20, ENS, ERC-721 parsers
+## `Community`
 
-## cybernode
-Freeze current code. Gitcoin + Chaingear strategy.
-- cyberd integration
-- IPFS cluster ingtegration (pins for searched items)
+## Epics:
 
-Community roadmap:
-- core
-- API calls reward based on channels
-- "compatible" containers
-- permissions for fundamental resources
-- permissions for features
-
-## cyb-js
-Bring IPFS to Ethereum
-- IPFS
-- CYBER
-- Ethereum
-- permissions
-
-## Community
+### 1. Community Launch
 - Twitter/Reddit/Steem/Telegram
 - 20 articles from team
 - 1000 devs-subscribers
 - 20 gitcoin's contributors
 - partnerships
 
-## Gitcoin N1 strategy
+### 2. Gitcoin N1 strategy
 - Organize repos/tasks for contributors
 - Finalize/formalize/clearify roadmap for contributors
 - 30k+ $ for founties
