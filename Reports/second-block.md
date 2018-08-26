@@ -1,13 +1,15 @@
-search# Block 2. Iceland
+# Block 2. Iceland
 
-## Priorities
+## `Main priorities`
 1. cyberd whitepaper + PoC
 2. cyb release
 3. Get 100 ETH from chaingear
 4. №1 organization on Gitcoin
 5. Launch community reports and fill blog with 20 posts with overall 1000 subscribers
 
-## cyberd
+___________
+
+## `cyberd`
 @hleb-albau @arturalbov @litvintech @xhipster @asadovka @vstavetsky
 Example of [good workflow](http://tezos.gitlab.io/betanet/#the-networks):
 - `zeronet`: nightly builds of the team, no guaranties
@@ -17,16 +19,16 @@ Example of [good workflow](http://tezos.gitlab.io/betanet/#the-networks):
 
 These  workflow can activates only after when initial protocol and consensus technology will be stabilized. Until the following stage of development reached master branch is zeronet.
 
-## Epics
+## Epics:
 
-### Rank research
+### 1. Rank research
 Main goal is to analyze existing ranks on real Ethereum and Bitcoin transactions in terms of time and predictability of transactions.
 
-### Whitepaper 0.2
+### 2. Whitepaper 0.2
 
 Happens if consensus reached around intended protocol for alphanet. After that define whitepaper as WIP. All proofs and explanations can be not finalized.
 
-### Link Chain PoC | Zeronet
+### 3. Link Chain PoC | Zeronet
 
 We need to reach zeronet because we want:
 - Test and develop browser PoC
@@ -37,14 +39,14 @@ We need to reach zeronet because we want:
 - Start distribution during development
 - Win time for more research around consensus algorithms
 
-### Distribution
+### 4. Distribution
 
 - Compute SpringRank for Ethereum (Link is tx, weight is amount)
 - Create initial genesis for our network
 - Importing Ethereum keys to application. Computing addresses in ipfs and cyber
 - Singing messages and transactions using imported keys
 
-### Explorer
+### 5. Explorer
 
 Must work in cyb and standalone.
 The following view must be developed:
@@ -53,7 +55,7 @@ The following view must be developed:
 - Blocks
 - Txs
 
-### Semantics research
+### 6. Semantics research
 - Define a concept of link chains
 - Common block semantics
 - Common transaction semantics
@@ -61,14 +63,16 @@ The following view must be developed:
 - Write guide for application developers on semantic programming of web3 app
 - Develop semantics for chaingear
 
-### Load testing
+### 7. Load testing
 - transfer our cybernode's dataset to IPFS hashes and load them with semantic
 
-### Simulation
+### 8. Simulation
 Create tool for fast evaluating protocol with different params and users behavior
 - Simulate users and their search/linking (params)
 - Simulate ranking (params)
 - Simulate payouts (params)
+
+___________
 
 ## cyb PoC release
 @asadovka @vstavetsky @volga @pechalka
@@ -86,18 +90,43 @@ Merge into Parity. Purpose is functionality of Atom
 - submit to app store
 - apm integration
 
-## chaingear
-@litvintech @hleb-albau @pechalka
-Feature freeze. Go to mainnet ASAP. Need to implement Gitcoin + Chaingear strategy. Improve upon the concept of Creator Curated registries and CRUD ERC.
-- master audit
-- deploy to mainnet
-- launch registry of apps
-- launch registries for integrations prioritization (chains, exchanges, metaprotocols, roadmap/proxy-to-gitcoin)
+___________
 
-## cyber-markets
-Freeze current code. Gitcoin + Chaingear strategy.
+## `chaingear`
+@litvintech @hleb-albau @pechalka
+**Feature freeze. Go to mainnet ASAP.** 
+- Need to implement Gitcoin + Chaingear strategy. 
+- Improve upon the concept of Creator Curated registries and CRUD ERC.
+
+## Epics:
+
+### 1. Master audit
+- audit with 2+ different auditors
+
+### 2. Deploy to mainnet
+- deploy chaingear's contracts
+- verification on etherscan
+
+### 3. Launch registry of apps
+- define registry structure
+
+### 4. Launch registries for integrations prioritization 
+- chains
+- exchanges
+- metaprotocols
+- roadmap/proxy-to-gitcoin
+
+## Community roadmap:
+- continuous audit
+- gas optimization
+
+___________
+
+## `cyber-markets`
+**Freeze current code. Gitcoin + Chaingear strategy.**
 Purpose: compute price from tx data by general purpose algorithm.
-Community roadmap:
+
+## Community roadmap:
 - 0x 1.0 integration
 - 0x 2.0 integration
 - Bancor integration
@@ -105,46 +134,76 @@ Community roadmap:
 - ipfs integration
 - cyber-search integration
 
-## cyber-search
-Freeze current code. Gitcoin + Chaingear strategy.
-- there are money came from? Research around
+___________
+
+## `cyber-search`
+**Freeze current code, only cyberd integration. Gitcoin + Chaingear strategy.**
+- There are money came from? Research around
 - How to outsource computation? SONM testdrive
 
-Community roadmap:
-- the more transactions the better
-- balances
+## Epics: 
+
+### 1. IPFS integration
+
+### 2. crawler for cyberd
+- connectors to cyberd/ipfs
+- semantic indexing for cyberd
+
+## Community roadmap:
+- new pumps/dumps
+- balances calculation (+historical)
 - ERC-20, ENS, ERC-721 parsers
 
-## cybernode
-Freeze current code. Gitcoin + Chaingear strategy.
-- cyberd integration
-- IPFS cluster ingtegration (pins for searched items)
+___________
 
-Community roadmap:
+## `cybernode`
+**Freeze features, only cyberd integration. Gitcoin + Chaingear strategy.**
+
+## Epics:
+
+### 1. cyberd integration
+- launching 
+- monitor
+
+### 2. IPFS cluster integration
+- pins for searched items
+
+### 3. API request/reward channels
+
+## Community roadmap:
 - core
-- API calls reward based on channels
 - "compatible" containers
 - permissions for fundamental resources
 - permissions for features
 
-## cyb-js
+___________
+
+## `cyb-js...`
 Bring IPFS to Ethereum
 - IPFS
 - CYBER
 - Ethereum
 - permissions
 
-## Community
+___________
+
+## `Community` 
+
+## Epics:
+
+### 1. Community Launch
 - Twitter/Reddit/Steem/Telegram
 - 20 articles from team
 - 1000 devs-subscribers
 - 20 gitcoin's contributors
 - partnerships
 
-## Gitcoin N1 strategy
+### 2. Gitcoin N1 strategy
 - Organize repos/tasks for contributors
 - Finalize/formalize/clearify roadmap for contributors
-- 30k+ $ for founties
+- 30k+ $ for bounties
+
+___________
 
 ## CYB apps with partnerships
 contracts:
