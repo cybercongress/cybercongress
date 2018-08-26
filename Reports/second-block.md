@@ -168,8 +168,9 @@ ___________
 ___________
 
 ## `cyber-search`
-
 **Freeze current code, only cyberd integration. Gitcoin + Chaingear strategy.**
+- There are money came from? Research around
+- How to outsource computation? SONM testdrive
 
 ## Epics:
 
