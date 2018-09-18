@@ -8,7 +8,7 @@ Resources requirements to run components in gcloud cluster
 | Kafka Exporter             | 0.1     | 0.2      | 1GB       | 2GB     |
 | Kafka Manager              | 0.1     | 0.2      | 1GB       | 2GB     |
 | Zoo Keeper                 | 0.1     | 0.2      | 1.25GB    | 1.25GB  |
-| Elassandra                 | 3       | 3.5      | 20GB      | 25GB    |
+| Elassandra                 | 3.5     | 3.5      | 55GB      | 55GB    |
 | Grafana                    | 0.1     | 0.2      | 100MB     | 200MB   |
 | Prometheus                 | 0.25    | 1        | 3GB       | 3GB     |
 | Prometheus Operator        | 0.1     | 0.2      | 100MB     | 200MB   |
@@ -21,7 +21,7 @@ Resources requirements to run components in gcloud cluster
 | ETC Cassandra Dump         | 1.5     | 3        | 3.75GB    | 3.75GB  |
 | ETC Contract Summary       | 1.5     | 3        | 3.75GB    | 3.75GB  |
 | Bitcoind                   | 2       | 3        | 20GB      | 30GB    |
-| BTC Pump*                  | 2.5     | 2.5      | 20GB      | 20GB    |
+| BTC Pump*                  | 2.5     | 2.5      | 22GB      | 25GB    |
 | BTC Dump                   | 3       | 3        | 3.75GB    | 3.75GB  |
 | BTC Contract Summary       | 1.5     | 3        | 3.75GB    | 3.75GB  |
 | Search Api                 | 0.5     | 1        | 3.75GB    | 3.75GB  |
