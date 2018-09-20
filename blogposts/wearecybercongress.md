@@ -114,14 +114,6 @@ According our values we decide use next communication channels:
 - [Telegram announce channel](https://t.me/cybercongress)
 
 And [github](https://github.com/cybercongress) of course!
-- (reddit)[https://www.reddit.com/r/cybercongress]
-- (steemit)[https://steemit.com/@cybercongress]
-- (twitter)[https://twitter.com/cyber_devs]
-- (Telegram dev chat)[https://t.me/fuckgoogle]
-- (Telegram announce channel)[https://t.me/cybercongress]
-
-And (github)[https://github.com/cybercongress] of course!
-
 
 #### Summarize
 Cyber•Congress is not about the software. Is not about hardware, development, blockchain or whatever. Is not about cybernomics and progress. It about principal new existence model.
