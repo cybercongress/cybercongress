@@ -9,7 +9,7 @@ Posting date| Article                             | Description                 
 ----------- | ----------------------------------- | ---------------------------------------------------------------------- | ---------
 2018/09/24  | We are cyber•Congress               | Describe who we are                                                    | @xhipster
 2018/09/24  | Current projects                    | Describing actual state of our projects. Gitcoin workflow announcement | @litvintech
-2018/09/28  | How we fork Parity UI to create CYB | Describing actual state of our projects                                | @pechalka
+2018/09/28  | Why we fork parity-shell to create Cyb | Describing actual state of our projects                                | @pechalka
 2018/09/28  | CYB DAPP setup tutorial             | Video tutorial about creating local DAPPs on CYB                       | @savetheales
 
 - Teammates articles: 3
