@@ -1,12 +1,12 @@
-Goal of this post make description of cybercongress, our values and goals.
+The goal of this post make description of cybercongress, our values and goals.
 
 
 Points to cover:
-- What your company does
-- How your company does it
-- What your unique insight is
-- How much progress you have made
-- What is impressive about your team
+- What our company does
+- How our company does it
+- What our unique insight is
+- How much progress we have made
+- What is impressive about our team
 - Summary of the most powerful facts
 
 #### We are cybercongress
