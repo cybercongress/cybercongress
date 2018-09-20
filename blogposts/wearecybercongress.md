@@ -30,7 +30,7 @@ We believe that our principles should be aligned with our values, thus helping u
 - Always on the edge. We try to offer alternatives to outdated technologies such as emails
 
 ### Our goals.
-Make focus on transactions (e.g cyber-search/cyberd)
+Make focus on transactions [e.g cyber-search/cyberd]
 
 We intend to build a strong scientific foundation with self-sustainable community that adhere to our purposes:
 
@@ -92,28 +92,28 @@ Also only fitting to tell about operation processes in our team. As you see we h
 
 #### Current project
 Here is full stack of our projects:
-- (cyb)[https://github.com/cybercongress/cyb] - web3 browser
-- (cybernode)[https://github.com/cybercongress/cybernode] - client for p2p network
-- (cyberd)[https://github.com/cybercongress/cyberd] - protocol for p2p network
-- (cyber-search)[https://github.com/cybercongress/cyber-search] - toolchain for transactions parsing and processing
-- (cybjs)[https://github.com/cybercongress/cyb-js] - generic module for web3 developers
-- (cyber-markets)[https://github.com/cybercongress/cyber-markets] - toolchain for trades/orders parsing and processing
-- (chaingear)[https://github.com/cybercongress/chaingear] - the Metaregistry for your registry
+- [cyb](https://github.com/cybercongress/cyb) - web3 browser
+- [cybernode](https://github.com/cybercongress/cybernode) - client for p2p network
+- [cyberd](https://github.com/cybercongress/cyberd) - protocol for p2p network
+- [cyber-search](https://github.com/cybercongress/cyber-search) - toolchain for transactions parsing and processing
+- [cybjs](https://github.com/cybercongress/cyb-js) - generic module for web3 developers
+- [cyber-markets](https://github.com/cybercongress/cyber-markets) - toolchain for trades/orders parsing and processing
+- [chaingear](https://github.com/cybercongress/chaingear) - the Metaregistry for your registry
 
-Our development process is structured on two-weeks sprints and 4-5 months blocks. In August 2018 our first block has finished. We have faced with out-of-focus problem and lack of resources as a result. So we have develop new (roadmap)[https://github.com/cybercongress/congress/blob/master/Reports/second-block.md] on the next block with understandable metrics and milestones. So for the next five months we will focus on (cyberd)[https://github.com/cybercongress/cyberd] and (cyb)[https://github.com/cybercongress/cyb]. Also on a (cybernode)[https://github.com/cybercongress/cybernode] in those new role.
+Our development process is structured on two-weeks sprints and 4-5 months blocks. In August 2018 our first block has finished. We have faced with out-of-focus problem and lack of resources as a result. So we have develop new [roadmap](https://github.com/cybercongress/congress/blob/master/Reports/second-block.md) on the next block with understandable metrics and milestones. So for the next five months we will focus on [cyberd](https://github.com/cybercongress/cyberd) and [cyb](https://github.com/cybercongress/cyb). Also on a [cybernode](https://github.com/cybercongress/cybernode) in those new role.
 
-In addition we intend to integrate (chaingear)[https://github.com/cybercongress/chaingear] in (cyb)[https://github.com/cybercongress/cyb] as dapp. Another projects have not been forgotten. They will developing through the community on the (gitcoin)[https://gitcoin.co/]. So you're welcome.
+In addition we intend to integrate [chaingear](https://github.com/cybercongress/chaingear) in [cyb](https://github.com/cybercongress/cyb) as dapp. Another projects have not been forgotten. They will developing through the community on the [gitcoin](https://gitcoin.co/). So you're welcome.
 
 #### Contacts
 According our values we decide use next communication channels:
 
-- (reddit)[https://www.reddit.com/r/cybercongress]
-- (steemit)[https://steemit.com/@cybercongress]
-- (twitter)[https://twitter.com/cyber_devs]
-- (Telegram dev chat)[https://t.me/fuckgoogle]
-- (Telegram announce channel)[https://t.me/cybercongress]
+- [reddit](https://www.reddit.com/r/cybercongress)
+- [steemit](https://steemit.com/@cybercongress)
+- [twitter](https://twitter.com/cyber_devs)
+- [Telegram dev chat](https://t.me/fuckgoogle)
+- [Telegram announce channel](https://t.me/cybercongress)
 
-And (github)[https://github.com/cybercongress] of course!
+And [github](https://github.com/cybercongress) of course!
 
 
 #### Summarize
