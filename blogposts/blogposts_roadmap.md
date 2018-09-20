@@ -8,7 +8,7 @@ All articles must be posted on Reddit and Steemit personal accounts and reposted
 Posting date| Article                             | Description                                                            | Assigned  
 ----------- | ----------------------------------- | ---------------------------------------------------------------------- | ---------
 2018/09/24  | We are cyber•Congress               | Describe who we are                                                    | @xhipster
-2018/09/24  | Current projects                    | Describing actual state of our projects. Gitcoin workflow announcement | @litvintech
+2018/09/24  | State of cyber•Search                    | Describing actual state of our projects. Gitcoin workflow announcement | @litvintech
 2018/09/28  | Why we fork parity-shell to create Cyb | Describing actual state of our projects                                | @pechalka
 2018/09/28  | Cyb dapp setup tutorial             | Video tutorial about creating local dapps on cyb                       | @savetheales
 
