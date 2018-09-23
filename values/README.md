@@ -1,6 +1,10 @@
+## Operational token
+
+- [ETH](https://ethereum.org). Allow flexible and provable operations
+
 ## Current investments
 
-- [FOAM](https://foam.space/). Allow to prove location to contracts without relying on 3 parties
+- [FOAM](https://foam.space/). Allow to prove location to contracts without relying on 3d parties
 - [GALT](http://galtproject.io/). Allow to prove that given point in spacetime is owned by somebody
 
 ## Investment proposals
