@@ -1,10 +1,10 @@
 # Delivery pipeline
- 
+
 Main entities: workflow step, stakeholders, input data, output data, activity.
- 
- 
+
+
 ## Workflow for cyb UI:
- 
+
 ### 1. Conceptualization
 
 **Stakeholders:** PO, BA, developer, designer.
@@ -115,4 +115,3 @@ Main entities: workflow step, stakeholders, input data, output data, activity.
 **Input data:** user metrics, technical metrics.
 
 **Output data:** reports.
-

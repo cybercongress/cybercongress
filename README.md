@@ -10,7 +10,7 @@ The blockchain technology has opened the opportunity for development, which was 
 ## The Mission
 Helping the evolution of species
 
-## Our Goals
+## Goals
 - Build a strong scientific foundation behind cybernomics
 - Provide an abundant access to information proved by transactions for all species
 - Build an incentivization system for open-source communities and creators
@@ -31,7 +31,7 @@ Helping the evolution of species
 - Build the foundation for the emergence of unified spacetime ownership registry
 - Participate in the development of Metaverse
 
-## Our Values
+## Values
 We believe that our principles should be aligned with our values, thus helping us to achieve our goals:
 - Security. We do not work with fiat or with bureaucratic paper hassle. We work only, with digital signatures
 - Anonymity and privacy. If someone chooses to stay anonymous or private, it is their right to do so
@@ -90,7 +90,7 @@ cyber•Congress forms communities around our ideas through investing into diffe
 ## Adding members
 Currently, cyber•Congress can be expanded only to an odd number of members.
 
-If someone wants to become a member - they can. If one member wants to quit the congress - they can. Congress can decide to drop out a member. In any case, they need to create a proposal [here :](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the proposal from here: [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
+If someone wants to become a member - they can. If one member wants to quit the congress - they can. Congress can decide to drop out a member. In any case, they need to create a proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the proposal from here: [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
 
 ## Removing members
 If one member is leaving, they receive a one time drop, which is calculated by using the following formula:
@@ -113,24 +113,19 @@ If a community, decides to drop to cyber•Congress, they must understand the fo
 - 20% of the tokens will be dropped to teams;
 
 ## Forks
-If some team feel the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit such behavior and are ready, in case the team is self sustainable, to transfer repositories.
+If some team feel the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit such behaviour and are ready, in case the team is self sustainable, to transfer repositories.
 
 ## Functions
-- Asset management: control of keys, [investment decisions](https://ethplorer.io/address/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c),     forecasting;
-- Community building: continuous development of our [portal](https://github.com/cybercongress);
-- Delivery pipeline: improving our development [pipeline](https://github.com/cybercongress/congress/pipeline.md);
-- Internal projects: formed as proposals in [issues](https://github.com/cybercongress/congress/issues), until merged into the master       branch of [congress](https://github.com/cybercongress/congress), will become a standalone repository or be closed;
-- Project management: one project = one repo = at least one owner. Every project has independent minor 0.x.0 or 0.0.x release pipeline,   like [chaingear](https://github.com/cybercongress/chaingear);
-- Product delivery: putting repositories together, can form a [product](https://github.com/orgs/cybercongress/projects) and its           [environment](https://github.com/topics/cyber-search). Product releases, are major releases across all projects like x.0.0;
-- Roadmap evolution: keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) up to date;
-- Payroll execution: at the end of every sprint, there should be a transaction/s, according to the forecast given prior;
-- Team incentivization: developing options for major releases;
-- Team building: every project or product, can have a [team](https://github.com/orgs/cybercongress/teams);
-- Release perfection: quality control through publicly signed major releases;
-- Running sprints: planning of 2-week sprints on Mondays. Demo / retrospective and closing sprints, on Fridays;
-- Invent blocks: Every seventh sprint is a block, like Phangan, but better;
-- Knowledge sharing / transfering and mentoring, for team members;
-- Help team members to switch from salary-based, to capital-based income;
+- [Value management](/values): control of keys and [investment decisions](https://ethplorer.io/address/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c)
+- [Community building](/community): continuous development of our [portal](https://github.com/cybercongress)
+- [Improvement proposals](/cips): Internal projects formed as proposals in [issues](https://github.com/cybercongress/congress/issues), until merged into the master       branch of [congress](https://github.com/cybercongress/congress), will become a standalone repository or be closed;
+- [Delivery pipeline](/delivery): improving our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
+- [Roadmap evolution](/roadmap): keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) up to date; Invent blocks: Every seventh sprint is a block, like Phangan, but better
+- [Running sprints](/sprints): planning of 2-week sprints on Mondays. Demo / retrospective and closing sprints, on Fridays
+- [Forecasting](/forecasting): Happens at the end of every sprint. Includes reporting on values, renewal of forecast and execution for the next sprint.
+- [Team ambience](/team): create cosy environment
+for every human involved including incentivization, vacation and personal investment planning, to help team members switch from salary-based, to capital-based income
+- [Knowledge sharing](/knowledge): Everything around gathering, transfering and mentoring of knowledge created inside
 
 This list of functions is exclusive. If someone wishes to add something, they can try to guess what they need to do in order to complete the task.
 
