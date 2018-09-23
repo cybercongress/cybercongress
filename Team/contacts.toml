@@ -4,87 +4,72 @@ title = "Team registry"
 
 [hleb-albau]
 name = "Hleb Albau"
-email = "hleb.albau@gmail.com"
 gitcoin = "0x00725d89a2a2fb3b21fd1035b579cbcde4a0991b"
-ethereum = "0x2429135b30134862b19497ba973546ef2029b170"
-bitcoin = "16jdauzVeYSRVUYhWrtqswVaXa3qhsNJBR"
-github = 
-telegram = 
-keybase = 
+payouts = "0x2429135b30134862b19497ba973546ef2029b170"
+github = "hleb-albau"
+telegram = "hleb_albau"
+keybase = "hleb_albau"
 
 [litvintech]
 name = "Valery Litvin"
-email = "litvintech@gmail.com"
-ethereum = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
 gitcoin = "0xf103D2db8024F4B885433ADAF72032Ac58304e03"
-bitcoin = "1AvHtFVnBrR7dpdxKohBPvhr2tEkAth8T7"
-github = "https://github.com/litvintech"
+payouts = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
+github = "litvintech"
 telegram = "litvintech"
 keybase = "litvintech"
 
 [xhipster]
 name = "Dima Starodubcev"
-email = "starodubcev@gmail.com"
-ethereum = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
-bitcoin = "1R8wNHCmEpQ9QmVKd5mkkHoXbuU3DyPs3"
-github = "https://github.com/xhipster"
+gitcoin = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
+payouts = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
+github = "xhipster"
 telegram = "xhipster"
-keybase = "http://keybase.io/21xhipster"
+keybase = "21xhipster"
 
 [asadovka]
 name = "Siarhei Sadau"
-email = "seregasadov@gmail.com"
 gitcoin = "0x318a6c1d757bD1938CefAa681c4CbC5380B34c47"
-ethereum = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
-bitcoin = "1Ax8saDu4T8QKVKztpVv4YwGpuUwvsJ4SG"
-github = "https://github.com/asadovka"
+payouts = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
+github = "asadovka"
 telegram = "asadovka"
-keybase = "https://keybase.io/asadovka"
+keybase = "asadovka"
 
 [pechalka]
 name = "Andrew Luzhkovsky"
-email = "andrewluzkovsky@gmail.com"
-ethereum = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
-bitcoin = "1JkrBFwtjzvz7v2TayfvBh6fxpvdDeMjeo"
-github = 
-telegram = 
-keybase = 
+gitcoin = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
+payouts = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
+github = "Pechalka"
+telegram = "LuzhkovskyAndrey"
+keybase = "andrewluzkovsky"
 
 [vstavetski]
 name = "Valentin Stavetski"
-email = "vstavetski@gmail.com"
 gitcoin = "0x379a23083a58b2b89f4dd307ad55f732bb5a20ef"
-ethereum = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
-bitcoin = "1Kf8qodE8jFDUfnFVFnx6dv57J2urW6Fx2"
-github = "https://github.com/vstavetski"
+payouts = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
+github = "vstavetski"
 telegram = "vstavetski"
 keybase = "vstavetski"
 
 [savetheales]
 name = "Ales Puchilo"
-email = "ales.puchilo@gmail.com"
 gitcoin = "0x00466845B9906578ac86cBA4C2Dda0F2c46461F6"
-ethereum = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
-bitcoin = ""
-github = "https://github.com/SaveTheAles"
+payouts = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
+github = "SaveTheAles"
 telegram = "AlesPuchilo"
 keybase = "savetheales"
 
 [olga584]
 name = "Olga Bessonova"
-email = "besic584@gmail.com"
-ethereum = "0x9d7d6E753F055E40d3767337300e722E934086c1"
-bitcoin = "1GoCcWAtnSYCyxpSWAapqmBM71jNUvJWaX"
-github = "https://github.com/Olga584"
+gitcoin = "0x9d7d6E753F055E40d3767337300e722E934086c1"
+payouts = "0x9d7d6E753F055E40d3767337300e722E934086c1"
+github = "Olga584"
 telegram = "OlgaBessonova"
 keybase = "olgabessonova"
 
 [arturalbov]
 name = "Artur Albau"
-email = "artur.albov@gmail.com"
 gitcoin = "0x006A1FD66F89B0d7F57d52dCe7d5Bf57DB20279f"
-ethereum = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
-bitcoin = 
-github = "https://github.com/arturalbov"
+payouts = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
+github = "arturalbov"
 telegram = "arturalbov"
 keybase = "arturalbov"
