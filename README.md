@@ -118,14 +118,16 @@ If some team feel the independent need to create a new organization or a fork, t
 ## Functions
 - [Value management](/values): control of keys and [investment decisions](https://ethplorer.io/address/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c)
 - [Community building](/community): continuous development of our [portal](https://github.com/cybercongress)
-- [Improvement proposals](/cips): Internal projects formed as proposals in [issues](https://github.com/cybercongress/congress/issues), until merged into the master       branch of [congress](https://github.com/cybercongress/congress), will become a standalone repository or be closed;
-- [Delivery pipeline](/delivery): improving our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
+- [Communications](/communications): ensure clear communications across channels
+- [Delivery pipelining](/delivery): improving our development [pipeline](https://github.com/cybercongress/congress/pipeline.md)
 - [Roadmap evolution](/roadmap): keeping the [roadmap](https://github.com/orgs/cybercongress/projects/1) up to date; Invent blocks: Every seventh sprint is a block, like Phangan, but better
-- [Running sprints](/sprints): planning of 2-week sprints on Mondays. Demo / retrospective and closing sprints, on Fridays
-- [Forecasting](/forecasting): Happens at the end of every sprint. Includes reporting on values, renewal of forecast and execution for the next sprint.
+- [Sprints runs](/sprints): planning of 2-week sprints on Mondays. Demo / retrospective and closing sprints, on Fridays
+- [Forecasting](/forecasting): happens at the end of every sprint. Includes reporting on values, renewal of forecast and execution for the next sprint.
 - [Team ambience](/team): create cosy environment
 for every human involved including incentivization, vacation and personal investment planning, to help team members switch from salary-based, to capital-based income
-- [Knowledge sharing](/knowledge): Everything around gathering, transfering and mentoring of knowledge created inside
+- [Knowledge sharing](/knowledge): everything around gathering, transfering and mentoring of knowledge created inside
+- [Visual perfection](/design): ensure clear communications across channels
+- [Improvements](/cips): Internal projects formed as proposals in [issues](https://github.com/cybercongress/congress/issues), until merged into the master       branch of [congress](https://github.com/cybercongress/congress), will become a standalone repository or be closed;
 
 This list of functions is exclusive. If someone wishes to add something, they can try to guess what they need to do in order to complete the task.
 
