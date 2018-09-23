@@ -1,6 +1,7 @@
 ## Operational token
 
 - [ETH](https://ethereum.org). Allow flexible and provable operations
+- [BTC](https://bitcoin.org). Still required sometimes because of widespread adoption
 
 ## Current investments
 
