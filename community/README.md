@@ -8,7 +8,7 @@ We welcome all people, and most passionate if you believe that blockchain is cha
 
 As an opensource development team we want to use gitcoin.co service with our projects. Here we propose processes of gitcoin using.
 
-![BP diagramm](mermaid/BP_diagramm.svg)
+![BP diagramm](/bp_diagramm.svg)
 
 Every sprint we allocate amount of ETH and distribute it for a team to active using gitcoin.
 
@@ -16,7 +16,7 @@ Every sprint we allocate amount of ETH and distribute it for a team to active us
 
 At the next sprints we want to forecasting general amount of ETH what we want to distribute. Also we'll calculate weighting factors in dependence with issues what prepared to gitcoin push.
 
-![Calculating](mermaid/ETH_Calc.gif)
+![Calculating](/eth_calc.gif)
 
 where:
 - Em it's ETH per team member to gitcoin push ;
