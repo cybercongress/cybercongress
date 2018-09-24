@@ -118,15 +118,15 @@ If some team feel the independent need to create a new organization or a fork, t
 ## Functions
 - [Value management](/values): control of keys and investment decisions
 - [Community building](/community): continuous development of community on gitcoin
-- [Communications](/communications): ensure clear communications across channels
+- [Communications](/blog): ensure clear communications across channels
 - [Delivery pipelining](/delivery): improving our development pipeline
 - [Roadmap evolution](/roadmap): keeping the roadmap up to date and rethink it every block
 - [Sprints runs](/sprints): planning of 2-week sprints on Mondays, closing sprints on Fridays
 - [Forecasting](/forecasting): happens at the end of every sprint
-- [Team ambience](/team): create cosy environment and help switch from salary-based, to capital-based income
-- [Knowledge sharing](/knowledge): everything around gathering and transferring of knowledge created inside
+- [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
+- [Knowledge sharing](/wiki): everything around gathering and transferring of knowledge created inside
 - [Visual perfection](/design): visual can be fun and sexy
-- [Improvements](/cips): improvement proposals can be merged or spun off. 
+- [Improvements](/cips): improvement proposals can be merged or spun off.
 
 This list of functions is exclusive. If someone wishes to add something, they can try to guess what they need to do in order to complete the task.
 
