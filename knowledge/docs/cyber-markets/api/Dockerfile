@@ -1,4 +1,4 @@
-FROM swaggerapi/swagger-ui:v3.12.1
+FROM swaggerapi/swagger-ui:v3.14.2
 
 COPY docs/markets.v1.yaml /usr/share/nginx/html/
 

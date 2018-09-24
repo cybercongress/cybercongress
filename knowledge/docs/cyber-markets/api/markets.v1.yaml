@@ -1,13 +1,13 @@
 openapi: 3.0.1
 servers:
-  - url: 'http://staging.cyber.fund:32800'
+  - url: 'http://api.cybermarkets.io/'
 info:
   description: 'Cyber.Markets API'
   version: 1.0.0
   title: Cyber.Markets API
 tags:
-  - name: token
-    description: 'Get information about a token'
+#  - name: token
+#    description: 'Get information about a token'
   - name: exchange
     description: 'Get information about a cryptocurrency exchange'
   - name: raw data
@@ -21,68 +21,138 @@ paths:
   ###
   ### Token
   ###
-  '/token/{tokenSymbol}':
-    get:
-      tags:
-        - token
-      summary: 'Get information about the token'
-      description: 'Returns information about the token'
-      operationId: getTokenInfo
-      parameters:
-        - name: tokenSymbol
-          in: path
-          description: 'Token symbol'
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: 'Token found'
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/TokenInfo'
-        '400':
-          description: 'Invalid token symbol supplied'
-        '404':
-          description: 'Token not found'
+#  '/token/{tokenSymbol}':
+#    get:
+#      tags:
+#        - token
+#      summary: 'Get information about the token'
+#      description: 'Returns information about the token'
+#      operationId: getTokenInfo
+#      parameters:
+#        - name: tokenSymbol
+#          in: path
+#          description: 'Token symbol'
+#          required: true
+#          schema:
+#            type: string
+#      responses:
+#        '200':
+#          description: 'Token found'
+#          content:
+#            application/json:
+#              schema:
+#                $ref: '#/components/schemas/TokenInfo'
+#        '400':
+#          description: 'Invalid token symbol supplied'
+#        '404':
+#          description: 'Token not found'
 
-  '/token/{tokenSymbol}/exchanges':
-    get:
-      tags:
-        - token
-      summary: 'Get a list of exchanges where the token is traded'
-      description: 'Returns information about the exchanges where the token is traded'
-      operationId: getExchangesByPair
-      parameters:
-        - name: tokenSymbol
-          in: path
-          description: 'Token symbol'
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: 'Information found'
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ExchangesByToken'
-        '400':
-          description: 'Invalid token symbol supplied'
-        '404':
-          description: 'Token not found'
+#  '/token/{tokenSymbol}/exchanges':
+#    get:
+#      tags:
+#        - token
+#      summary: 'Get a list of exchanges where the token is traded'
+#      description: 'Returns information about the exchanges where the token is traded'
+#      operationId: getExchangesByPair
+#      parameters:
+#        - name: tokenSymbol
+#          in: path
+#          description: 'Token symbol'
+#          required: true
+#          schema:
+#            type: string
+#      responses:
+#        '200':
+#          description: 'Information found'
+#          content:
+#            application/json:
+#              schema:
+#                $ref: '#/components/schemas/ExchangesByToken'
+#        '400':
+#          description: 'Invalid token symbol supplied'
+#        '404':
+#          description: 'Token not found'
 
   ###
   ### Exchange
   ###
-  '/exchange/{exchageName}':
+  '/exchanges':
     get:
       tags:
         - exchange
-      summary: 'Get information about the exchange'
-      description: 'Returns information about the exchange'
-      operationId: getExchangeInfo
+      summary: 'Get list of connected exchanges'
+      description: 'Returns list of connected exchanges'
+      operationId: getConnectedExchanges
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
+
+  '/exchanges/tokens':
+    get:
+      tags:
+        - exchange
+      summary: 'Get tokens that are trading an the connected exchanges'
+      description: 'Returns list of tokens'
+      operationId: getTokensByExchanges
+      responses:
+        '200':
+          description: 'Successful'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tokens'
+        '500':
+          description: 'Internal server error'
+
+  '/exchanges/tokens/count':
+    get:
+      tags:
+        - exchange
+      summary: 'Get the number of tokens that are trading an the connected exchanges'
+      description: 'Returns the number of tokens'
+      operationId: getTokensCount
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
+
+# not implemented
+#  '/exchange/{exchageName}':
+#    get:
+#      tags:
+#        - exchange
+#      summary: 'Get information about the exchange'
+#      description: 'Returns information about the exchange'
+#      operationId: getExchangeInfo
+#      parameters:
+#        - name: exchageName
+#          in: path
+#          description: 'Exchange name'
+#          required: true
+#          schema:
+#            type: string
+#      responses:
+#        '200':
+#          description: 'Exchange found'
+#          content:
+#            application/json:
+#              schema:
+#                $ref: '#/components/schemas/ExchangeInfo'
+#        '400':
+#          description: 'Invalid exchange name supplied'
+#        '404':
+#          description: 'Exchange not found'
+
+  '/exchange/{exchageName}/tokens':
+    get:
+      tags:
+        - exchange
+      summary: 'Get tokens that are trading an the exchange'
+      description: 'Returns list of tokens'
+      operationId: getTokensByExchanges
       parameters:
         - name: exchageName
           in: path
@@ -92,21 +162,39 @@ paths:
             type: string
       responses:
         '200':
-          description: 'Exchange found'
+          description: 'Successful'
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ExchangeInfo'
-        '400':
-          description: 'Invalid exchange name supplied'
-        '404':
-          description: 'Exchange not found'
+                $ref: '#/components/schemas/Tokens'
+        '500':
+          description: 'Internal server error'
+
+  '/exchange/{exchageName}/tokens/count':
+    get:
+      tags:
+        - exchange
+      summary: 'Get number of tokens that are trading an the exchange'
+      description: 'Returns number of tokens'
+      operationId: getTokensCountByExchange
+      parameters:
+        - name: exchageName
+          in: path
+          description: 'Exchange name'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Successful'
+        '500':
+          description: 'Internal server error'
 
   '/exchange/{exchageName}/pairs':
     get:
       tags:
         - exchange
-      summary: 'Get pairs that are trading an the the exchange'
+      summary: 'Get pairs that are trading an the exchange'
       description: 'Returns list of pairs'
       operationId: getPairsByExchange
       parameters:
@@ -138,46 +226,26 @@ paths:
       description: 'Returns list of pairs'
       operationId: getTrades
       parameters:
-        - name: exchage
+        - name: exchange
           in: query
           description: 'Exchange name'
-          required: false
+          required: true
           schema:
             type: string
-            default: 'ALL'
         - name: pair
           in: query
           description: 'Tokens pair'
           required: true
           schema:
             type: string
-        - name: ts
+        - name: epochMin
           in: query
-          description: 'Timestamp from which we need to get a trades'
+          description: 'Epoch minute from which we need to get a trades'
           required: true
           schema:
             type: integer
             format: int64
             minimum: 0
-            default: 0
-        - name: pageSize
-          in: query
-          description: 'Size of the page'
-          required: false
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-            default: 20
-        - name: page
-          in: query
-          description: 'Result set page number (starts from 0)'
-          required: false
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-            default: 0
       responses:
         '200':
           description: 'Successful'
@@ -198,7 +266,7 @@ paths:
       description: 'Returns a lists of bid and ask orders'
       operationId: getOrderbook
       parameters:
-        - name: exchage
+        - name: exchange
           in: query
           description: 'Exchange name'
           required: true
@@ -213,12 +281,10 @@ paths:
         - name: ts
           in: query
           description: 'Timestamp from which we need to get a orderbook'
-          required: true
           schema:
             type: integer
             format: int64
             minimum: 0
-            default: 0
       responses:
         '200':
           description: 'Order book found'
@@ -330,25 +396,21 @@ paths:
       description: 'Returns high, low prices, volumes, etc trading information'
       operationId: getTicker
       parameters:
-        - name: base
+        - name: symbol
           in: query
-          description: 'Base token symbol'
+          description: 'Token symbol'
           required: true
           schema:
             type: string
-        - name: quote
+        - name: interval
           in: query
-          description: 'Quote token symbol'
+          description: 'Ticker time interval in minutes'
           required: true
           schema:
-            type: string
-        - name: exchange
-          in: query
-          description: 'Exchange name'
-          required: false
-          schema:
-            type: string
-            default: 'ALL'
+            type: integer
+            format: int64
+            minimum: 0
+            default: 1
         - name: ts
           in: query
           description: 'Timestamp from which we need to get a tickers'
@@ -357,25 +419,16 @@ paths:
             type: integer
             format: int64
             minimum: 0
-            default: 0
-        - name: pageSize
+        - name: limit
           in: query
-          description: 'Size of the page'
+          description: 'Max number of tickers in response'
           required: false
           schema:
             type: integer
             format: int32
             minimum: 0
-            default: 20
-        - name: page
-          in: query
-          description: 'Result set page number (starts from 0)'
-          required: false
-          schema:
-            type: integer
-            format: int32
-            minimum: 0
-            default: 0
+            maximum: 300
+            default: 100
       responses:
         '200':
           description: 'Successful'
@@ -439,6 +492,11 @@ components:
           volume:
             type: number
             format: doouble
+
+    Tokens:
+      type: array
+      items:
+        $ref: '#/components/schemas/Token'
 
     Trades:
       type: array
@@ -568,6 +626,14 @@ components:
         base:
           type: string
         quote:
+          type: string
+
+    Token:
+      type: object
+      properties:
+        name:
+          type: string
+        symbol:
           type: string
 
     TradeType:

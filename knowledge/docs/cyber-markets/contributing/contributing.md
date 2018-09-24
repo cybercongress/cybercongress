@@ -1,4 +1,6 @@
-# Contributing to Cyber Markets [![GitHub contributors](https://img.shields.io/github/contributors/cybercongress/cyber-markets.svg?style=flat-square&longCache=true)](https://github.com/cybercongress/cyber-markets)
+# Contributing to Cyber Markets 
+
+[![GitHub contributors](https://img.shields.io/github/contributors/cybercongress/cyber-markets.svg?style=flat-square&longCache=true)](https://github.com/cybercongress/cyber-markets)
 Thank you for considering a contribution to Cyber Markets! This guide explains how to:
 * Get started
 * Development workflow
