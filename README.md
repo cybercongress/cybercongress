@@ -95,6 +95,7 @@ If someone wants to become a member - they can. If one member wants to quit the 
 ## Removing members
 If one member is leaving, they receive a one time drop, which is calculated by using the following formula:
 `total valuation of assets under control / number of member * 50%`
+
 The other 50% will be split evenly between teams and between the the community.
 The drop, must be executed in a period of 30 calendar days after the initiation of a proposal.
 
@@ -109,7 +110,7 @@ The congress can liquidate itself. If this event happens the following will occu
 ## Processing incoming drops
 If a community, decides to drop to cyber•Congress, they must understand the following guidelines:
 - 60% are dumped back, in favor of our communities and remain under the control of cyber•Congress. cyber•Congress can choose to fully     keep the dropped tokens;
-- 20% of the tokens will be dropped to communty members;
+- 20% of the tokens will be dropped to community members;
 - 20% of the tokens will be dropped to teams;
 
 ## Forks
