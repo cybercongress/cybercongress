@@ -1,149 +1,140 @@
-## Community blogposts roadmap
+# Communication roadmap
 
-All articles must be posted on Reddit and Steemit personal accounts and reposted on Congress accounts. Description and announcement must be posted on Twitter personal accounts and reposted on Congress Twitter account and Telegram community channel.
+All articles shall be posted according to [guidlines](https://github.com/cybercongress/congress/tree/master/communications).
 
-### Sprint 19  
+
+
+## Sprint 20  
 09/17 - 09/28
 
-Posting date| Article                             | Description                                                            | Assigned  
------------ | ----------------------------------- | ---------------------------------------------------------------------- | ---------
-2018/09/24  | We are cyber•Congress               | Describe who we are                                                    | @xhipster
-2018/09/24  | State of cyber•Search                    | Describing actual state of our projects. Gitcoin workflow announcement | @litvintech
-2018/09/28  | Why we fork parity-shell to create Cyb | Describing actual state of our projects                                | @pechalka
-2018/09/28  | Cyb dapp setup tutorial             | Video tutorial about creating local dapps on cyb                       | @savetheales
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/09/24  | cyber•Congress vision                                     | @xhipster
+2018/09/24  | State of cyberd                                           | @litvintech
+2018/09/28  | Why we fork parity-ui to create Cyb                       | @pechalka
+2018/09/28  | Gitcoin workflow announcement                             | @savetheales
+2018/09/28  | Sprint report                                             | @savetheales
+2018/10/22  | Gitcoin minutes                                           | @savetheales
 
 - Teammates articles: 3
 - Tech articles: 0
 - Tutorials: 1
 - Total: 4
 
-### Sprint 20  
-10/01 - 10/12
-
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/10/01  | Sprint 19 report                    |                         | @savetheales
-2018/10/05  | Teammate article                    |                         | @savetheales
-2018/10/08  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/10/12  | Teammate article                    |                         | @hleb-albau
-
-- Teammates articles: 2
-- Tech articles: 2
-- Tutorials: 0
-- Total: 4
-
-### Sprint 21  
+## Sprint 21  
 10/15 - 10/26
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/10/15  | Sprint 20 report                    |                         | @savetheales
-2018/10/19  | Teammate article                    |                         | @litvintech
-2018/10/22  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/10/26  | Teammate article                    |                         | @asadovka
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/10/15  | Sprint report                                             | @savetheales
+2018/10/19  | Something about Chaingear                                 | @litvintech
+2018/10/22  | Gitcoin minutes                                           | @savetheales
+2018/10/26  | Teammate article                                          | @asadovka
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 22  
+## Sprint 22  
 10/29 - 11/09
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/10/29  | Sprint 21 report                    |                         | @savetheales
-2018/11/05  | Teammate article                    |                         | @savetheales
-2018/11/05  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/11/09  | Teammate article                    |                         | @vstavetski
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/10/29  | Sprint report                                             | @savetheales
+2018/11/05  | Teammate article                                          | @savetheales
+2018/11/05  | Gitcoin minutes                                           | @savetheales
+2018/11/09  | Teammate article                                          | @vstavetski
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 23  
+## Sprint 23  
 11/12 - 11/23
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/11/12  | Sprint 22 report                    |                         | @savetheales
-2018/11/16  | Teammate article                    |                         | @xhipster
-2018/11/19  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/11/23  | Teammate article                    |                         | @arturalbov
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/11/12  | Sprint report                                             | @savetheales
+2018/11/16  | A roadmap to cyberd mainne                                | @xhipster
+2018/11/19  | Gitcoin minutes                                           | @savetheales
+2018/11/23  | Teammate article                                          | @arturalbov
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 24  
+## Sprint 24  
 11/26 - 12/07
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/11/26  | Sprint 23 report                    |                         | @savetheales
-2018/11/30  | Teammate article                    |                         | @litvintech
-2018/12/03  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/12/07  | Teammate article                    |                         | @xhipster
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/11/26  | Sprint report                                             | @savetheales
+2018/11/30  | Teammate article                                          | @litvintech
+2018/12/03  | Gitcoin minutes                                           | @savetheales
+2018/12/07  | Teammate article                                          | @xhipster
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 25  
+## Sprint 25  
 12/10 - 12/21
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/12/10  | Sprint 24 report                    |                         | @savetheales
-2018/12/14  | Teammate article                    |                         | @hleb-albau
-2018/12/17  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/12/21  | Teammate article                    |                         | @pechalka
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/12/10  | Sprint report                                             | @savetheales
+2018/12/14  | Teammate article                                          | @hleb-albau
+2018/12/17  | Top 10 gitcoin tasks                                      | @savetheales
+2018/12/21  | Teammate article                                          | @pechalka
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 26  
+## Sprint 26  
 12/24 - 01/05
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/12/24  | Sprint 25 report                    |                         | @savetheales
-2018/12/28  | Teammate article                    |                         | @asadovka
-2018/12/31  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/01/04  | Teammate article                    |                         | @savetheales
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/12/24  | Sprint report                                             | @savetheales
+2018/12/28  | Teammate article                                          | @asadovka
+2018/12/31  | Top 10 gitcoin tasks                                      | @savetheales
+2018/01/04  | Teammate article                                          | @savetheales
 
 - Teammates articles: 2
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
 
-### Sprint 27  
+## Sprint 27  
 01/07 - 01/18
 
-Posting date| Article                             | Description             | Assigned  
------------ | ----------------------------------- | ------------------------| ---------
-2018/01/07  | Sprint 26 report                    |                         | @savetheales
-2018/01/11  | Teammate article                    |                         | @arturalbov
-2018/01/14  | Top 10 gitcoin tasks                |                         | @savetheales
-2018/01/15  | Teammate article                    |                         | @vstavetski
-2018/01/18  | Block 3 report                      |                         | @savetheales
-2018/01/18  | Block 3 conclusion                  |                         | @xhipster
+Date        | Article                                                   | Assigned  
+----------- | --------------------------------------------------------- | ---------
+2018/01/07  | Sprint report                                             | @savetheales
+2018/01/11  | Teammate article                                          | @arturalbov
+2018/01/14  | Top 10 gitcoin tasks                                      | @savetheales
+2018/01/15  | Teammate article                                          | @vstavetski
+2018/01/18  | Block 3 report                                            | @savetheales
+2018/01/18  | Block 3 conclusion                                        | @xhipster
 
 - Teammates articles: 4
 - Tech articles: 2
 - Tutorials: 0
 - Total: 4
-***
+
+## Plan by article type
 - Total teammates articles: 21
 - Total tech articles: 16
 - Total tutorials: 1
 - Total articles: 38
-***
+
+## Plan by teammates
 - @xhipster: 4
 - @litvintech: 3
 - @hleb-albau: 2
