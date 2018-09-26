@@ -1,5 +1,5 @@
 # Project information
-site_name: 'сyber•Congress wikies'
+site_name: 'сyber•Congress wiki'
 site_description: 'Knowledge base of cyber•Congress'
 site_author: 'cyber•Congress team'
 edit_uri: https://github.com/cybercongress/congress/edit/master/wiki/docs
@@ -27,6 +27,8 @@ theme:
     primary: 'green'
   feature:
     tabs: true
+
+    # Page tree
 
 # Customization
 extra:
