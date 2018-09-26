@@ -1,8 +1,8 @@
 # Project information
-site_name: 'сyber•Search docs'
-site_description: 'Knowledge base of cyber•Search'
-site_author: 'cyber•Search team'
-edit_uri: https://github.com/cybercongress/congress/edit/master/knowledge/docs
+site_name: 'сyber•Congress wikies'
+site_description: 'Knowledge base of cyber•Congress'
+site_author: 'cyber•Congress team'
+edit_uri: https://github.com/cybercongress/congress/edit/master/wiki/docs
 
 # Repository
 repo_name: 'congress'
@@ -10,14 +10,14 @@ repo_url: 'https://github.com/cybercongress/congress'
 
 
 # Copyright
-copyright: 'Copyright &copy; 2018 cyber•Search'
+copyright: 'WTFPL – Do What the Fuck You Want to Public License.'
 
 
 # Configuration
 theme:
   name: null
   custom_dir: 'theme_extend/material'
-  font: robo
+  font:
   favicon: 'img/Logo_cat.svg'
   logo: 'img/Logo_cat.svg'
   language: 'en'
@@ -34,7 +34,6 @@ extra:
 
 extra_css:
   - 'stylesheets/extra.css'
-  - https://unpkg.com/mermaid@7.1.0/dist/mermaid.css
   - 'stylesheets/progressbar.css'
 extra_javascript:
   - https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js
