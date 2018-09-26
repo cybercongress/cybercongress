@@ -33,11 +33,6 @@
     {% if toc_ | first is defined and "\x3ch1 id=" in page.content %}
       {% set toc_ = (toc_ | first).children %}
     {% endif %}
-    {% if toc_ | first is defined %}
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        {{ nav_item.title }}
-      </label>
-    {% endif %}
     <a href="{{ nav_item.url | url }}" title="{{ nav_item.title }}" class="md-nav__link md-nav__link--active">
       {{ nav_item.title }}
     </a>
