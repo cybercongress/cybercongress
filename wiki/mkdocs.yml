@@ -18,6 +18,8 @@ theme:
   name: null
   custom_dir: 'theme_extend/material'
   font:
+    text: 'Play'
+    code: 'Play'
   favicon: 'img/Logo_cat.svg'
   logo: 'img/Logo_cat.svg'
   language: 'en'
