@@ -1,7 +1,7 @@
 # GitHub Project Management
 
 Here is stack of rules what recommended to use for making cyber•Congress great again.
-As a public open source organization with high-level goals and values we need to delivering transparent information for community.
+As a public open source organization with high-level goals and values we need to deliverашч  transparent information for community.
 
 
 ## Pull request and issue formalization
