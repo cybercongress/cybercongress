@@ -49,7 +49,8 @@ For now there are few requirements to keep docs:
 - store you docs in `/docs` folder in your repo;
 - if you want to publish them at knowledge commit all docs changes in `master`;
 - add overview `$repo_name$.md` to your docs;
-- edit table of content at your `$repo_name$.yml` file at the root of yout repo.
+- edit table of content at your `$repo_name$.yml` file at the root of yout repo;
+- keep your docs in actual state.
 
 
 ## Templates
