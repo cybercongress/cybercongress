@@ -1,7 +1,7 @@
 # GitHub Project Management
 
 Here is stack of rules what recommended to use for making cyber•Congress great again.
-As a public open source organization with high-level goals and values we need to delivering transparent information for community.
+As a public open source organization with high-level goals and values we need to deliver transparent information for community.
 
 
 ## Pull request and issue formalization
@@ -43,15 +43,15 @@ Automatic changelog generator is in process of attaching to each repo. This scri
 
 ## Docs decorating
 
-All documentation about repo you should keep at `/docs` folder. Automatic script will collect all docs in knowledge and deploy them to https://cybersearch.io/ .
+All documentation about repo you should keep at `/docs` folder. Automatic script will collect all docs in knowledge and deploy them to https://wiki.cybercongress.ai/ .
 For now there are few requirements to keep docs:
 
 - store you docs in `/docs` folder in your repo;
 - if you want to publish them at knowledge commit all docs changes in `master`;
-- add `about $repo_name$.md` to your docs;
-- keep doc naming same with `h1` of document;
->f.e. `bitcoin-pump-development.md` this doc should starts with `# Bitcoin Pump Development`. No more no less.
-- keep your documentation in actual state.
+- add overview `$repo_name$.md` to your docs;
+- edit table of content at your `$repo_name$.yml` file at the root of yout repo;
+- keep your docs in actual state.
+
 
 ## Templates
 
