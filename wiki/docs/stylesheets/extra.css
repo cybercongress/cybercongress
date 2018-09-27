@@ -9,3 +9,7 @@
 .md-grid {
     max-width: 160rem !important;
 }
+
+.md-tabs__link {
+  text-transform: lowercase;
+}

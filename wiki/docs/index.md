@@ -1,4 +1,4 @@
-Welcome to cyber•Search knowledge base.
+Welcome to Congress knowledge base.
 
 Right now these docs cover eight open source projects:
 

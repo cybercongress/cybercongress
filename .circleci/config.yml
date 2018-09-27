@@ -23,5 +23,5 @@ jobs:
           name: Update documentation
           command: |
             cd wiki
+            ./toc_collector.sh
             mkdocs gh-deploy -m "deployed $CIRCLE_SHA1 with mkdocs [skip ci]"
-
