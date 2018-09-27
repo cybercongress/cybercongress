@@ -1,6 +1,6 @@
 #Cyber-search table of content. Observe the correct tabulation. Do not change the tabulation of the header.
   - cyber-search:
-    - Overview: cyber-search/cyber-search.md
+    - About Search: cyber-search/cyber-search.md
     - API:
       - Readme: cyber-search/api/README.md
     - Components:
