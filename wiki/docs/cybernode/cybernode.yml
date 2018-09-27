@@ -1,6 +1,6 @@
 #cybernode table of content. Observe the correct tabulation. Do not change the tabulation of the header.
   - cybernode:
-    - Overview: cybernode/cybernode.md
+    - About cybernode: cybernode/cybernode.md
     - Components:
       - Requirements: cybernode/components/components-requirments.md
       - Chain-nodes: cybernode/components/chain-nodes-components.md
