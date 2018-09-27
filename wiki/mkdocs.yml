@@ -20,8 +20,8 @@ theme:
   font:
     text: 'Play'
     code: 'Play'
-  favicon: 'img/Logo_cat.svg'
-  logo: 'img/Logo_cat.svg'
+  favicon: 'img/favicon_congress.svg'
+  logo: 'img/logo_congress.svg'
   language: 'en'
   palette:
     primary: 'green'
