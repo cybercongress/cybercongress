@@ -18,8 +18,8 @@ theme:
   name: null
   custom_dir: 'theme_extend/material'
   font: robo
-  favicon: 'img/Logo_cat.svg'
-  logo: 'img/Logo_cat.svg'
+  favicon: 'img/favicon.svg'
+  logo: 'img/logo.svg'
   language: 'en'
   palette:
     primary: 'green'
