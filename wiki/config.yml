@@ -1,0 +1,54 @@
+# Project information
+site_name: 'сyber•Congress wiki'
+site_description: 'Knowledge base of cyber•Congress'
+site_author: 'cyber•Congress team'
+edit_uri: https://github.com/cybercongress/congress/edit/master/wiki/docs
+
+# Repository
+repo_name: 'congress'
+repo_url: 'https://github.com/cybercongress/congress'
+
+
+# Copyright
+copyright: 'WTFPL – Do What the Fuck You Want to Public License.'
+
+
+# Configuration
+theme:
+  name: null
+  custom_dir: 'theme_extend/material'
+  font:
+    text: 'Play'
+    code: 'Play'
+  favicon: 'img/Logo_cat.svg'
+  logo: 'img/Logo_cat.svg'
+  language: 'en'
+  palette:
+    primary: 'green'
+  feature:
+    tabs: true
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/cybercongress'
+
+extra_css:
+  - 'stylesheets/extra.css'
+  - 'stylesheets/progressbar.css'
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+      # Page tree
+nav:
+  - cyber•Congress: index.md
+  - Contributing: contribute.md
