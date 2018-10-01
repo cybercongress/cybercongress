@@ -12,9 +12,9 @@ Date        | Article                                                   | Assign
 2018/10/05  | cyber•Congress vision                                     | @xhipster
 2018/10/10  | State of cyberd                                           | @litvintech
 2018/10/08  | Why we fork parity-ui to create Cyb                       | @pechalka
-2018/10/03  | Gitcoin workflow announcement                             | @savetheales
-2018/10/01  | Sprint report                                             | @savetheales
-2018/10/05  | Gitcoin minutes                                           | @savetheales
+2018/10/08  | Gitcoin workflow announcement                             | @savetheales
+2018/10/09  | Sprint report                                             | @savetheales
+2018/10/09  | Gitcoin minutes                                           | @savetheales
 
 - Teammates articles: 5
 - Tech articles: 1
