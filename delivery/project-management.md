@@ -43,7 +43,7 @@ Automatic changelog generator is in process of attaching to each repo. This scri
 
 ## Docs decorating
 
-All documentation about repo you should keep at `/docs` folder. Automatic script will collect all docs in knowledge and deploy them to https://cybersearch.io/ .
+All documentation about repo you should keep at `/docs` folder. Automatic script will collect all docs in knowledge and deploy them to https://wiki.cybercongress.ai/ .
 For now there are few requirements to keep docs:
 
 - store you docs in `/docs` folder in your repo;
