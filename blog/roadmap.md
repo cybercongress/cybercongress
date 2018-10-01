@@ -1,6 +1,6 @@
 # Communication roadmap
 
-All articles shall be posted according to [guidlines](https://github.com/cybercongress/congress/tree/master/communications).
+All articles shall be posted according to [guidlines](https://github.com/cybercongress/congress/tree/master/blog#blogs-posting-processes).
 
 
 
