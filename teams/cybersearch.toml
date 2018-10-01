@@ -17,6 +17,7 @@ payouts = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
 github = "litvintech"
 telegram = "litvintech"
 keybase = "litvintech"
+ipfs-node = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
 
 [xhipster]
 name = "Dima Starodubcev"
