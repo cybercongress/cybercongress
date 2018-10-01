@@ -19,4 +19,4 @@ topic and link to post. Posts will dublicate on medium and reddit.
 
 Short scheme provided here:
 
-![Proc_diagram](https://github.com/cybercongress/congress/blob/master/blog/blogs_proc_diagram.svg)
+![Proc_diagram](https://github.com/cybercongress/congress/blob/master/blog/blogs_proc_diagramm.svg)
