@@ -9,16 +9,16 @@ All articles shall be posted according to [guidlines](https://github.com/cyberco
 
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
-2018/09/24  | cyber•Congress vision                                     | @xhipster
-2018/09/24  | State of cyberd                                           | @litvintech
-2018/09/28  | Why we fork parity-ui to create Cyb                       | @pechalka
-2018/09/28  | Gitcoin workflow announcement                             | @savetheales
-2018/09/28  | Sprint report                                             | @savetheales
-2018/10/22  | Gitcoin minutes                                           | @savetheales
+2018/10/05  | cyber•Congress vision                                     | @xhipster
+2018/10/10  | State of cyberd                                           | @litvintech
+2018/10/08  | Why we fork parity-ui to create Cyb                       | @pechalka
+2018/10/03  | Gitcoin workflow announcement                             | @savetheales
+2018/10/01  | Sprint report                                             | @savetheales
+2018/10/05  | Gitcoin minutes                                           | @savetheales
 
-- Teammates articles: 3
-- Tech articles: 0
-- Tutorials: 1
+- Teammates articles: 5
+- Tech articles: 1
+- Tutorials: 0
 - Total: 4
 
 ## Sprint 21  
