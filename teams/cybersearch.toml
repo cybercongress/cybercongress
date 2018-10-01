@@ -26,6 +26,7 @@ payouts = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
 github = "xhipster"
 telegram = "xhipster"
 keybase = "21xhipster"
+ipfs-node = "QmNbSJ9okrwMphfjudiXVeE7QWkJiEe4JHHiKT8L4Pv7z5"
 
 [asadovka]
 name = "Siarhei Sadau"
