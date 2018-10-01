@@ -49,8 +49,7 @@ For now there are few requirements to keep docs:
 - store you docs in `/docs` folder in your repo;
 - if you want to publish them at knowledge commit all docs changes in `master`;
 - add `about $repo_name$.md` to your docs;
-- keep doc naming same with `h1` of document;
->f.e. `bitcoin-pump-development.md` this doc should starts with `# Bitcoin Pump Development`. No more no less.
+- Update table of content in your docs in `$repo_name.yml` file. PLEASE keep indenting!;
 - keep your documentation in actual state.
 
 ## Templates
@@ -62,11 +61,11 @@ and customize it for your repo if it necessary.
 
 ## Gitcoin
 
-Guide to initiate gitcoin process is [here](https://github.com/cybercongress/congress/blob/master/Processes/Gitcoin.md).
+Guide to initiate gitcoin process is [here](https://github.com/cybercongress/congress/blob/master/community/README.md#gitcoin).
 If you need to fund some issue from repo that you maintain just add `community: gitcion` label to issue that you want to
 fund. Also you can fund issues in another open source projects.
 
-If you fund issues from `cyber•Congress` repo attach [gitcoin banner](https://github.com/cybercongress/cyber-search/blob/master/README.md) to your `README.md` file in `master`.
+If you fund issues from `cyber•Congress` repo attach [gitcoin banner](https://github.com/cybercongress/cyber-search/blob/master/README.md#gitcoin-tasks) to your `README.md` file in `master`.
 The easiest way to do it is just attach following code:
 ```
 ## Gitcoin Tasks
