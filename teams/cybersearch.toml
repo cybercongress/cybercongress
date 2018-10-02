@@ -35,6 +35,7 @@ payouts = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
 github = "asadovka"
 telegram = "asadovka"
 keybase = "asadovka"
+ipfs-node = "QmSnY29DkNQ5cRfkAn9z2MAp44t8sottganXTkjvS9GCfx"
 
 [pechalka]
 name = "Andrew Luzhkovsky"
