@@ -62,7 +62,7 @@ In parallel we start to work on own version Cyb based on Electron. @Pechalka pro
 
 At the current sprint we are preparing for DevCon. We want to show our Cyb with [navigation](https://github.com/cybercongress/cyb/issues/41), new version of [Whitepaper](https://github.com/cybercongress/cyberd/issues/25), [built-in keystore](https://github.com/cybercongress/cyb/issues/39) and [web3 positioning](https://github.com/cybercongress/cyb/issues/55). Also we preparing to show built-in [Chaingear](https://github.com/cybercongress/chaingear) in Cyb with updated UI.
 
-P.S. We have a kayaking at the last weekend! :)
+P.S. We had a kayaking at the last weekend! :)
 
 ---
 ### Changelog
