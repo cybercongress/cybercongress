@@ -42,9 +42,9 @@ In parallel we start to work on own version Cyb based on Electron. @Pechalka pro
 
 > 1) Huge codebase what need to support
 >
-> 2) Poor integration in web3. They have own library with bad code
+> 2) Poor integration in web3. They have own library with entangled code
 >
-> 3) Very slow
+> 3) Slow app work
 >
 > 4) Working just with Parity node what required installation
 >
@@ -52,9 +52,9 @@ In parallel we start to work on own version Cyb based on Electron. @Pechalka pro
 >
 > 6) Every new version of Parity not supported by Parity UI
 >
-> 7) Code base is so complicated. It's more easy to write from scratch.
+> 7) Codebase is so complicated. It's more easy to write many things from scratch.
 >
-> 8) Where is no good tests. The remaining just for record.
+> 8) Where is no good tests for all we need.
 >
 > 9) Where is no browser logic. It was clearly view when I attach base navigation to IPFS: no load screen, no opening file processes as pdf, video, mp3 and obvious "next", "previous", "refresh" buttons. Parity UI haven't this features and they don't think about them.
 >
