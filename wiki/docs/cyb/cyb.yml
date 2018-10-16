@@ -1,5 +1,5 @@
 #CYB table of content. Observe the correct tabulation. Do not change the tabulation of the header.
   - cyb:
-    - Whitepaper: cyb/whitepaper.md
-    - Requirements: cyb/requirements.md
-    - Staging: cyb/staging.md
+    - Whitepaper: cyb/cyb.md
+    - Web3 vision: cyb/web3-vision.md
+    - DApp guidelines: cyb/dapp-guidelines.md
