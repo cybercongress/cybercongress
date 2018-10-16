@@ -4,17 +4,16 @@ All articles shall be posted according to [guidlines](https://github.com/cyberco
 
 
 
-## Sprint 20  
-09/17 - 09/28
+## Sprint 21  
+10/01 - 10/11
 
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
-2018/10/05  | cyber•Congress vision                                     | @xhipster
-2018/10/10  | State of cyberd                                           | @litvintech
-2018/10/08  | Why we fork parity-ui to create Cyb                       | @pechalka
-2018/10/08  | Gitcoin workflow announcement                             | @savetheales
-2018/10/09  | Sprint report                                             | @savetheales
-2018/10/09  | Gitcoin minutes                                           | @savetheales
+2018/10/05  | Hello cyber•Congress!                                     | @xhipster
+2018/10/10  | State of cyberd                                           | @xhipster
+2018/10/08  | Web3 vision                                               | @asadovka
+2018/10/08  | Cyb architecture                                          | @asadovka
+2018/10/09  | Sprint 20 report                                          | @savetheales
 
 - Teammates articles: 5
 - Tech articles: 1
@@ -30,6 +29,7 @@ Date        | Article                                                   | Assign
 2018/10/19  | Something about Chaingear                                 | @litvintech
 2018/10/22  | Gitcoin minutes                                           | @savetheales
 2018/10/26  | Teammate article                                          | @asadovka
+2018/10/08  | Why we fork parity-ui to create Cyb                       | @asadovka
 
 - Teammates articles: 2
 - Tech articles: 2
@@ -57,7 +57,7 @@ Date        | Article                                                   | Assign
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
 2018/11/12  | Sprint report                                             | @savetheales
-2018/11/16  | A roadmap to cyberd mainne                                | @xhipster
+2018/11/16  | A roadmap to cyberd mainnet                               | @xhipster
 2018/11/19  | Gitcoin minutes                                           | @savetheales
 2018/11/23  | Teammate article                                          | @arturalbov
 
