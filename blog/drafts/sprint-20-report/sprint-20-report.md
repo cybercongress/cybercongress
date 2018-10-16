@@ -7,7 +7,11 @@ End: 2018-10-11
 
 Yet another sprint where we tried to fess up to.
 
-With our attempts to create cyberd PoC based on Cosmos SDK we [hit at performance bug of Tendermint and Cosmos](https://github.com/cybercongress/cyberd/issues/50). Moreover it's huge problems with multithreading. For now we want to add current implementation to Cyb for tests. As a next step we looking for Solana as base for cyberd PoC.
+With our attempts to create cyberd PoC based on Cosmos SDK we [hit at performance bug of Tendermint and Cosmos](https://github.com/cybercongress/cyberd/issues/50). Moreover it's huge problems with multithreading. For now we want to add current implementation to Cyb for tests. But in spite of performance problems we'll not give up the Cosmos SDK as a base for cyberd in the near future. We intend to use it for mechanic experience in first PoC.
+
+@xhipster analysed 73 implementations consensus computers on a github 
+
+As a next step we looking for Solana as base for cyberd PoC.
 
 Next release of Cyb [was held](https://github.com/cybercongress/cyb/releases/tag/0.0.2). We added navigation for queries to cyb and cyberd. Also we added menu with apps for "Settings" button and made search bar redesign. Also fixed few bugs from previous version.
 
