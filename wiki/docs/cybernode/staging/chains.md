@@ -3,8 +3,8 @@
 ## Current chains nodes tables
 | App              | data path                     |  port        |  current size |
 | ---------------  | ----------------------------- | ------------ | ------------- |
-| parity -   eth   | /cyberdata/parity             | 34545        | 174 gb        |
-| parity -   eth_c | /cyberdata/parity-kovan       | 34645        |  30 gb        |
+| parity           | /cyberdata/parity             | 34545        | 174 gb        |
+| parity-kovan     | /cyberdata/parity-kovan       | 34645        |  30 gb        |
 
 
 ## Local forwarding port for chains
@@ -30,7 +30,7 @@ curl -X POST -H "Content-Type: application/json" \
  http://127.0.0.1:34545
 ```
 
-### Parity --chain classic
+### Parity --chain kovan
 Run:
 ```
 docker run -d  -p 34646:8546 -p 34645:8545 -v /cyberdata/parity:/cyberdata \
