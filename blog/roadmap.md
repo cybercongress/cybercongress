@@ -9,42 +9,26 @@ All articles shall be posted according to [guidlines](https://github.com/cyberco
 
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
-2018/10/05  | Hello cyber•Congress!                                     | @xhipster
-2018/10/10  | State of cyberd                                           | @xhipster
-2018/10/08  | Web3 vision                                               | @asadovka
-2018/10/08  | Cyb architecture                                          | @asadovka
-2018/10/09  | Sprint 20 report                                          | @savetheales
+2018/10/22  | Hello cyber•Congress!                                     | @xhipster
+2018/10/23  | State of cyberd                                           | @xhipster
+2018/10/24  | Web3 vision                                               | @asadovka
+2018/10/25  | Cyb architecture                                          | @asadovka
+2018/10/22  | Sprint 20 report                                          | @savetheales
 
-- Teammates articles: 5
+- Teammates articles: 4
 - Tech articles: 1
 - Tutorials: 0
-- Total: 4
-
-## Sprint 21  
-10/15 - 10/26
-
-Date        | Article                                                   | Assigned  
------------ | --------------------------------------------------------- | ---------
-2018/10/15  | Sprint report                                             | @savetheales
-2018/10/19  | Something about Chaingear                                 | @litvintech
-2018/10/22  | Gitcoin minutes                                           | @savetheales
-2018/10/26  | Teammate article                                          | @asadovka
-2018/10/08  | Why we fork parity-ui to create Cyb                       | @asadovka
-
-- Teammates articles: 2
-- Tech articles: 2
-- Tutorials: 0
-- Total: 4
+- Total: 5
 
 ## Sprint 22  
 10/29 - 11/09
 
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
-2018/10/29  | Sprint report                                             | @savetheales
-2018/11/05  | Teammate article                                          | @savetheales
-2018/11/05  | Gitcoin minutes                                           | @savetheales
-2018/11/09  | Teammate article                                          | @vstavetski
+2018/10/29  | Sprint 21 report                                          | @savetheales
+2018/10/30  | Gitcoin minutes                                           | @savetheales
+2018/11/05  | Chaingear                                                 | @litvintech
+2018/11/05  | How it devcon goes                                        | @savetheales
 
 - Teammates articles: 2
 - Tech articles: 2
