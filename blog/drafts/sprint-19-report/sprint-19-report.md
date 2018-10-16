@@ -1,4 +1,6 @@
 # The awaking of cyber•Congress
+
+![Iceland](pic-19.jpg)
 Start: 2018-09-17
 
 End: 2018-09-28
