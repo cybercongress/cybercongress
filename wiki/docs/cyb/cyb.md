@@ -1,39 +1,24 @@
 # Cyb: web3 browser
 
-@xhipster @asadovka
 
-## 0. Overview
+## Overview
 
 Cyb is simply a [web3](cyb/docs/web3-vision.md) browser.
 
-## 1. Principles
+## Principle of respect to agent
 
-## Agent respect
+In web3 this is the most fundamental principle. We focus on developers and advanced blockchain users who are able to work with private keys and transaction. But Cyb is also friendly for everyone who wants to interact with consensus computers in a web of third generation.
 
-In web3 this is the most fundamental principle. We focus on developers and advanced blockchain users who is able to work with private keys and transaction. But Cyb is also friendly for everyone who wants to interact with consensus computers in a web of third generation.
-
-We respect agent attitude and principles. So we offer 3 clear custom types of user behavior:
+We respect agent's attitude and principles. So we offer 3 clear custom types of user behavior:
 
 - anonymous activity [no tracking at all]
 - private activity [abstract ID + events tracking ]
 - public activity [address + events tracking by web 3 provider]
 
-By default all activity is anonymous. Others must be explicitly asks permissions.
-For successful browser development application developers need to collect at least public and private data. Thus users of these 2 groups will be incentivized by giving nice perks from dapp developers.
+By default all activity is anonymous. Others must be explicitly ask permissions.
+For successful browser development app developers need to collect at least public and private data. So users of these 2 groups will be incentivized by giving nice perks from app developers.
 
-## Contributions
-
-As an open source project we are welcome for contributions. Gitcoin is an excellent instrument that we use for delegating tasks for community a processing payments for completed ones.
-
-## Feature development
-
-We have our vision of how to develop browser and what kind of features develop first. But we give an opportunity for community to decide and vote with tokens what kind of browser we need to see in near future. Our product [Chaingear](https://github.com/cybercongress/chaingear) is also made for this.
-
-## Feedback and bug collection
-
-We use user's feedback to make products better. So we provide options for bug reporting and feedback leaving on every page.
-
-## 2. Cyb concepts
+## Cyb concepts
 
 Browser shell consists of the following concepts:
 
@@ -42,82 +27,81 @@ Browser shell consists of the following concepts:
 - State bar
 - Search bar
 - ID bar
-- DApp bar
-- Core DApps
+- App bar
+- Core apps
 - Notifications
 - Transaction signer
 - Root registry
-- Permissions & limitations
+- Permissions
 
 Let us describe in details every concept.
 
-
 ## Main Page
 
-Main page of the browser consists of three main parts:
+Main page of the browser consists of three main elements:
 
-- search bar, that provides all search functions
-- "most use" tabs, which are based on popular account activity and are unique for every account
-- links of Congress' products, which are useful to contributors
+- search bar: provides all search functions
+- relevance bar: the most relevant cyberlinks for a particular agent
+- footer: cyberlinks to ecosystem resources which are important for education and contribution
 
 ## Navigation bar
 
-In web3 all data has a definite state, so it become easier to navigate through it and make UX better.  
-
-Navigation bar in Cyb is based on such elements as:
+Navigation bar in Cyb is based on the following elements:
 
 - back button - returns user to the previous state of web3 agent
-- DURA section - provides easy access to certain state of web3 agent
-- forward button - brings user to the future state
-- favorites button - pin liked web3 objects  
+- search bar - provides easy access to certain state of web3 agent
+- favorites button - pin cyberlinks
+- forward button - brings user to the future state based on Cyb prediction
 
-As a knowledge graph, (cyberd)[cyberd doc] can analyze user's activity and make predictions of user behavior. Thus we can implement the "forward" button.
+Search bar is used to browse inside blockchains, IPFS and фpps. It [web3 vision doc](cyb/docs/web3-vision.md) we describe concepts of web3 browsing in details using DURA specs.
+
+We add "dot" to search query to manage type of search. All data after "dot" corresponds to App, and all data before "dot" is a query parameter.
+
+For example:
+
+".help" query will open Help App. "chaingear.help" will open Chaingear info page in Help App. Query without "dot" will be automatically redirected to search in cyberd (Note: you can also search in cyberd by typing "$yourquery$.cyber").
+
+Empty query always leads to the main page.
 
 ## State bar
 
-To be sure that you are working with actual state browser needs to manage connection to web3 providers.
+In web3 all data has the state, so it become easier to navigate through it and make UX better. To be sure that you are working with actual state browser needs to manage connection to web3 providers.
 
-Currently we use Ethereum, IPFS, and Cyber nodes. Browser can show sync state with that nodes, display connection state (local, remote, no connection) and give an ability for user to chose own web3 provider.
+Our purpose is to build web3 browser that is agnostic from addressing, identity and consensus protocols. But currently we use ipfs, parity-light and cyberd nodes to show off possible experience at early stage without necessity to connect to web3 provider at all (be your own web3 provider) for basic needs such as popular static content surfing and simple transfers of tokens.
 
-## Search bar
-
-Search bar is used to browse inside blockchains, IPFS and DApps. It [web3 vision doc](cyb/docs/web3-vision.md) we describe concepts of web3 browsing in details.
+Cyb is hiding all complexities of web3 connections under one colorful indicator that range from green to red. Ideally it works like indicator of internet connection we use to in smartphones. Clicking on this indicator give an ability for agent to understand status of connection and chose own web3 provider.
 
 ## ID bar
 
 ID bar consists of account information, user logo, wallet, notifications and settings.
 
-Account info - account logo + address.
-Wallet button - link on wallet DApp.
-Notifications - for displaying all pending transactions and web3 events.
-Settings - for managing connection to IPFS, Ethereum and Cyber nodes (local or remote).
+Account panel consists of generated address logo and address hash itself. We support multiple accounts so there is an ability to switch quickly between them right from the account panel.
+Wallet button simply leads to our Wallet App.
+Notification panel displays all pending transactions and web3 events corresponding to certain account.
+Settings button leads to settings page where user can manage connection to ipfs, parity and cyberd nodes (local or remote ways).
 
-## DApp bar
+## App bar
 
-DApp bar is a place where user can quickly get access to most used web3 objects. User can pin such objects by clicking on button "favorite" on navigation bar and then it will appear in DApp bar.
+App bar is a place where user can quickly get access to most used web3 objects. User can pin such objects by clicking on button "favorite" on navigation bar and then it will appear in App bar.
 
-## Core Dapps
+## Core apps
 
-For good initial experience we develop core browser DApps such as:
+For good initial experience we develop core browser apps such as:
 
-- Ethereum wallet
-- Cyberd search app
-- Ethereum node status
-- Help app
 - App store
-- Contract development
-- Transaction queue
-- DApp method permissions
+- Cyberd search app
+- Ethereum wallet
+- Parity node status
+- Help app
+- Contract development tool
+- Signer with transaction queue
+- Permission manager
 
-These apps are delivered with every browser build.  
+These apps are delivered with every browser build.
 
 ## Transaction signer
 
-This feature allows users to sign single transactions or lists of transactions and brings web3 UX to the whole new level. Browser use own app for signing transactions so user can be always sure that transaction details are valid. Thus we decrease probability of phishing. Also browser has it's own key for signing big lists of transactions.
-
-## Permissions & limitations
-
-Web3 apps should strictly limited in computational resources. We describe detailed specifications [here](cyb/docs/dapp-guidelines.md).
+This feature allows users to sign single transactions or lists of transactions and brings web3 UX to the whole new level. Browser use own app for signing transactions so user can be always sure that transaction details are valid. Thus we decrease probability of phishing to zero. Also browser has it's own key for signing big lists of transactions.
 
 ## Root registry
 
@@ -138,24 +122,18 @@ Tokens:
 Tlds:
 1000 (100) Write a program that is able to display web2 sites. Map all iana tlds to this programm https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains http://data.iana.org/TLD/tlds-alpha-by-domain.txt
 
+## Permissions
 
+Web3 apps should strictly limited in computational resources. We describe detailed specifications [here](cyb/docs/dapp-guidelines.md).
 
+## Contributions
 
+As an open source project we are welcome for contributions. Gitcoin is an excellent instrument that we use for delegating tasks for community a processing payments for completed ones.
 
+## Feature development
 
+We have our vision of how to develop browser and what kind of features develop first. But we give an opportunity for community to decide and vote with tokens what kind of browser we need to see in near future. Our product [Chaingear](https://github.com/cybercongress/chaingear) is also made for this.
 
+## Feedback and bug collection
 
-
-
-There are two main parts of browser:
-
-1. Shell, which alows:
-
-- deploy and manage Dapps for users
-- manage sync state of nodes: IPFS, Ethereum and Cyber
-- manage user's account data (sign transactions, create custom feed)
-
-2. DApps, which:
-
-- provide full user experience in web3
-- can be available through IPFS
+We use user's feedback to make products better. So we provide options for bug reporting and feedback leaving on every page.
