@@ -1,5 +1,6 @@
 # Cyb: web3 browser
 
+@xhipster @asadovka
 
 ## Overview
 
