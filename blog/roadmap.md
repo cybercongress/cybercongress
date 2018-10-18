@@ -26,9 +26,9 @@ Date        | Article                                                   | Assign
 Date        | Article                                                   | Assigned  
 ----------- | --------------------------------------------------------- | ---------
 2018/10/29  | Sprint 21 report                                          | @savetheales
-2018/10/30  | Gitcoin minutes                                           | @savetheales
-2018/11/05  | Chaingear                                                 | @litvintech
+2018/11/02  | State of Chaingear                                        | @litvintech
 2018/11/05  | How it devcon goes                                        | @savetheales
+2018/11/10  | Gitcoin workflow announcement                             | @savetheales
 
 - Teammates articles: 2
 - Tech articles: 2
