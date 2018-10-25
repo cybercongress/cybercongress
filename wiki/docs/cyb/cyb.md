@@ -12,7 +12,7 @@ Cyb is a friendly software robot who helps you explore the universes. Put it sim
 
 ## Introduction
 
-Current state of web3 experience is non satisfactory. Still [we did not meet](cyb/docs/comparison.md) any piece of software that is able to deliver deep, emotional web3 experience. So we decide to bring to the table one contender that strictly follows web3 principles defined by ourselves ;-) In a rush for this passion we define the following web3 apps which we believe together implement the full web3 vision in the context of a browsing for web3 agents and app developers:
+Current state of web3 experience is non satisfactory. Still [we did not meet](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) any piece of software that is able to deliver deep, emotional web3 experience. So we decide to bring to the table one contender that strictly follows web3 principles defined by ourselves ;-) In a rush for this passion we define the following web3 apps which we believe together implement the full web3 vision in the context of a browsing for web3 agents and app developers:
 
 - `.main`: main page for every joe
 - `.path`: navigation bar and its backend
