@@ -8,15 +8,15 @@ End: 2018-10-26
 
 ### Сonclusion
 
-So such productive sprint. Seriously. First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision include our DURA spec that must be displace URLs.
+Such productive sprint! Seriously. First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision includes our DURA spec that must be displace URLs.
 
 Secondly we clearly see two ways of web3 development: web3 around web3 foundation and web3 around ethereum foundation. We don't now exactly what to do with this but it's a fact :)
 
-Also we have nice [release](https://github.com/cybercongress/cyb/releases/tag/v0.0.22) of cyb. Now it's available on desktops and include 3 nodes (ipfs, ethereum and cyberd). You can test searching by ipfs wiki, connect local ipfs node, link hashes and try to install apps. Looks great actually.
+Also we have nice cyb [release](https://github.com/cybercongress/cyb/releases/tag/v0.0.22) and cyb whitepaper [draft](https://github.com/cybercongress/cyb/blob/master/docs/cyb.md). Now it's available on desktop and include 3 nodes (ipfs, ethereum and cyberd). You can test searching by ipfs in wiki, connect local ipfs node, link hashes and try to install apps. Looks great actually.
 
 Enjoy! Because Powers That Be already saw our cyb ^)
 
-P.S. Yeah! We was at devcon iv with all team in Prague! It was awesome for real! Thanks a lot for [Neptune](https://www.laurainserra.com/) room and for orgs! It was new level of conference!
+P.S. Yeah! We were at devcon iv with all team in Prague! It was awesome for real! Thanks a lot for [Neptune](https://www.laurainserra.com/) room and for orgs! It was new level of conference!
 
 P.P.S. Part of our team was at web3 summit in Berlin and you know what? It was underground web3 movement. Why? Berlin Funkhous, devs presentation and really strong motivation to change modern web. 
 
@@ -32,7 +32,7 @@ P.P.S. Part of our team was at web3 summit in Berlin and you know what? It was u
 - [Web3 positioning](https://github.com/cybercongress/cyb/issues/55)
 
 ##### Epics next sprint TODO:
->Working on minor tasks
+>Working on minor tasks & bug fixing.
 
 
 Burndown | Storypoints done
