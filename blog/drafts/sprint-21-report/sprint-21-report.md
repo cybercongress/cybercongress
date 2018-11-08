@@ -8,7 +8,7 @@ End: 2018-10-26
 
 ### Сonclusion
 
-Such productive sprint! Seriously. First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision includes our DURA spec that must be displace URLs.
+Such a productive sprint! Seriously. First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision includes our DURA spec that must displace URLs.
 
 Secondly we clearly see two ways of web3 development: web3 around web3 foundation and web3 around ethereum foundation. We don't now exactly what to do with this but it's a fact :)
 
