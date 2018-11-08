@@ -50,7 +50,10 @@ the method name for further details such as parameter and return information.
 |Description|Returns the number of most recent block.|
 |Returns|`int`|
 |Example Return |`42`|
-|[Return to Overview](#Method Overview)<br />
+|[Return to Overview](#method-overview)<br />
+
+<br />
+<br />
 
 ## Notifications (WebSocket-specific)
 
@@ -85,7 +88,7 @@ Subscribe for new blocks header from js:
 |Event|NewBlockHeader|
 |Description|Sends block header notification when a new block is committed.|
 |Query|'tm.event=\'NewBlockHeader\''|
-|[Return to Overview](#Events Overview)<br />
+|[Return to Overview](#events-overview)<br />
 ```json
 {
   "jsonrpc": "2.0",
