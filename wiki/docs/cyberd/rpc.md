@@ -39,12 +39,9 @@ the method name for further details such as parameter and return information.
 |---|------|-----------|
 |1|[mostResentBlockNumber](#mostResentBlockNumber)|Returns the number of most recent block.|
 
-<a name="MethodDetails"/>
-
 ### Method Details
 
 ***
-<a name="mostResentBlockNumber"/>
 
 |   |   |
 |---|---|
@@ -54,6 +51,9 @@ the method name for further details such as parameter and return information.
 |Returns|`int`|
 |Example Return |`42`|
 |[Return to Overview](#method-overview)<br />
+
+<a name="mostResentBlockNumber"/>
+
 
 ***
 <br />
