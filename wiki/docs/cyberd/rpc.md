@@ -6,7 +6,6 @@ Cyberd provides a [JSON-RPC](http://json-rpc.org/wiki/specification) API. Http e
  available at `http://earth.cybernode.ai:34657` and `ws://earth.cybernode.ai:34657/websocket`.
 
 <br />
-<br />
 
 ## Standard Methods
 
@@ -42,6 +41,7 @@ the method name for further details such as parameter and return information.
 ### Method Details
 
 ***
+<a name="mostResentBlockNumber"/>
 
 |   |   |
 |---|---|
@@ -51,9 +51,6 @@ the method name for further details such as parameter and return information.
 |Returns|`int`|
 |Example Return |`42`|
 |[Return to Overview](#method-overview)<br />
-
-<a name="mostResentBlockNumber"/>
-
 
 ***
 <br />
