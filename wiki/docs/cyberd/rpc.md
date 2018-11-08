@@ -5,6 +5,8 @@ Cyberd provides a [JSON-RPC](http://json-rpc.org/wiki/specification) API. Http e
  Default WebSocket connection endpoint for cyberd is `ws://localhost:20657/websocket`. There are test endpoints 
  available at `http://earth.cybernode.ai:34657` and `ws://earth.cybernode.ai:34657/websocket`.
 
+<br />
+<br />
 
 ## Standard Methods
 
@@ -41,6 +43,7 @@ the method name for further details such as parameter and return information.
 
 ### Method Details
 
+***
 <a name="mostResentBlockNumber"/>
 
 |   |   |
@@ -52,6 +55,7 @@ the method name for further details such as parameter and return information.
 |Example Return |`42`|
 |[Return to Overview](#method-overview)<br />
 
+***
 <br />
 <br />
 
