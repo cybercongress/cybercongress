@@ -27,9 +27,8 @@ websocket.send(JSON.stringify({
 }));
 ```
 
-<a name="MethodOverview" />
 
-### 5.1 Method Overview
+### Method Overview
 
 The following is an overview of the RPC methods and their current status.  Click
 the method name for further details such as parameter and return information.
@@ -40,7 +39,7 @@ the method name for further details such as parameter and return information.
 
 <a name="MethodDetails"/>
 
-### 5.2 Method Details
+### Method Details
 
 <a name="mostResentBlockNumber"/>
 
@@ -51,7 +50,7 @@ the method name for further details such as parameter and return information.
 |Description|Returns the number of most recent block.|
 |Returns|`int`|
 |Example Return |`42`|
-|[Return to Overview](#MethodOverview)<br />
+|[Return to Overview](#Method Overview)<br />
 
 ## Notifications (WebSocket-specific)
 
@@ -71,7 +70,6 @@ Subscribe for new blocks header from js:
  }));
  ```
  
-<a name="EventsOverview" />
  
 ### Events Overview
 
@@ -79,13 +77,15 @@ Subscribe for new blocks header from js:
 |---|------|-----------|
 |1|[NewBlockHeader](#NewBlockHeader)|Sends block header notification when a new block is committed.|
 
+### Events Details
+
 #### NewBlockHeader    
 |   |   |
 |---|---|
 |Event|NewBlockHeader|
 |Description|Sends block header notification when a new block is committed.|
 |Query|'tm.event=\'NewBlockHeader\''|
-|[Return to Overview](#EventsOverview)<br />
+|[Return to Overview](#Events Overview)<br />
 ```json
 {
   "jsonrpc": "2.0",
