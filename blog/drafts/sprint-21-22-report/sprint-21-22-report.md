@@ -8,7 +8,9 @@ End: 2018-11-09
 
 ### Сonclusion
 
-Such a productive sprint! Seriously. First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision includes our DURA spec that must displace URLs.
+Such a productive sprint! Seriously. We combined 21 and 22 sprints because in a second one was too codeless. Also we got useful acquaintances but more about that later.
+
+First of all we update our [web3 vision](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) by @xhipster. It's early draft for web3 summit but we have choose direction to develop for now. Also this vision includes our DURA spec that must displace URLs.
 
 Secondly we clearly see two ways of web3 development: web3 around web3 foundation and web3 around ethereum foundation. We don't now exactly what to do with this but it's a fact :)
 
@@ -41,7 +43,7 @@ P.P.S. Part of our team was at web3 summit in Berlin and you know what? It was u
 
 Burndown | Storypoints done
 :---: | :---:
-![burndown-report](BD-report-sprint-21.png) | 155
+![burndown-report](BD-report-sprint-21.png) | 158
 
 Stars | Forks | PRs
 :---: | :---: |:---:
@@ -62,9 +64,10 @@ Stars | Forks | PRs
 
 - [Telegram channel](https://t.me/cybercongress): 20 subscribers;
 - [Telegram devChat](https://t.me/fuckgoogle): 32 subscribers;
-- [Steemit](https://steemit.com/@cybercongress): 2 subscribers;
+- [Steemit](https://steemit.com/@cybercongress): 4 subscribers;
 - [Reddit](https://www.reddit.com/r/cybercongress): 2 subscribers;
 - [Twitter](https://twitter.com/cyber_devs): 11 subscribers;
+- [Medium](https://medium.com/cyber-congress): 0 subscribers.
 
 ![community report](chart-community-sprint-21.png)
 
