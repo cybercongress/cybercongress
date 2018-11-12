@@ -28,10 +28,10 @@ Date        | Article                                                   | Assign
 2018/12/03  | Gitcoin minutes                                           | @savetheales  | In progress
 2018/12/07  | Teammate article                                          | @?            | In progress
 
-- Teammates articles: 2
-- Tech articles: 2
-- Tutorials: 0
-- Total: 4
+- Teammates articles: NA
+- Tech articles: NA
+- Tutorials: NA
+- Total: NA
 
 ## Sprint 25  
 12/10 - 12/21
