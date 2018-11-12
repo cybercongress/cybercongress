@@ -4,7 +4,7 @@
 
 Start: 2018-10-15
 
-End: 2018-10-26
+End: 2018-11-09
 
 ### Сonclusion
 
@@ -14,11 +14,15 @@ Secondly we clearly see two ways of web3 development: web3 around web3 foundatio
 
 Also we have nice [release](https://github.com/cybercongress/cyb/releases/tag/v0.0.22) of cyb. Now it's available on desktops and include 3 nodes (ipfs, ethereum and cyberd). You can test searching by ipfs wiki, connect local ipfs node, link hashes and try to install apps. Looks great actually.
 
-Enjoy! Because Powers That Be already saw our cyb ^)
+One more amazing thing happened on blockchain week in Prague! Cyber•Academy made it first meetup in Europe! Also @xhipster had presentation on it and sent his regards to Zuckerberg.
+How it was you can see [here](https://www.youtube.com/watch?v=sjwdvdbosNg). The most interesting part from [11:39](https://youtu.be/sjwdvdbosNg?t=699) :)))
+
+
+Enjoy! Because Powers That Be already saw our cyb ^^
 
 P.S. Yeah! We was at devcon iv with all team in Prague! It was awesome for real! Thanks a lot for [Neptune](https://www.laurainserra.com/) room and for orgs! It was new level of conference!
 
-P.P.S. Part of our team was at web3 summit in Berlin and you know what? It was underground web3 movement. Why? Berlin Funkhous, devs presentation and really strong motivation to change modern web. 
+P.P.S. Part of our team was at web3 summit in Berlin and you know what? It was underground web3 movement. Why? Berlin Funkhous, devs presentation and really strong motivation to change modern web.
 
 
 ### Changelog
