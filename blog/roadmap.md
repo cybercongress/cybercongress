@@ -3,62 +3,30 @@
 All articles shall be posted according to [guidlines](https://github.com/cybercongress/congress/tree/master/blog#blogs-posting-processes).
 
 
-
-## Sprint 21  
-10/01 - 10/11
-
-Date        | Article                                                   | Assigned  
------------ | --------------------------------------------------------- | ---------
-2018/10/22  | Hello cyber•Congress!                                     | @xhipster
-2018/10/23  | State of cyberd                                           | @xhipster
-2018/10/24  | Web3 vision                                               | @asadovka
-2018/10/25  | Cyb architecture                                          | @asadovka
-2018/10/22  | Sprint 20 report                                          | @savetheales
-
-- Teammates articles: 4
-- Tech articles: 1
-- Tutorials: 0
-- Total: 5
-
-## Sprint 22  
-10/29 - 11/09
-
-Date        | Article                                                   | Assigned  
------------ | --------------------------------------------------------- | ---------
-2018/10/29  | Sprint 21 report                                          | @savetheales
-2018/11/02  | State of Chaingear                                        | @litvintech
-2018/11/05  | How it devcon goes                                        | @savetheales
-2018/11/10  | Gitcoin workflow announcement                             | @savetheales
-
-- Teammates articles: 2
-- Tech articles: 2
-- Tutorials: 0
-- Total: 4
-
 ## Sprint 23  
 11/12 - 11/23
 
-Date        | Article                                                   | Assigned  
------------ | --------------------------------------------------------- | ---------
-2018/11/12  | Sprint report                                             | @savetheales
-2018/11/16  | A roadmap to cyberd mainnet                               | @xhipster
-2018/11/19  | Gitcoin minutes                                           | @savetheales
-2018/11/23  | Teammate article                                          | @arturalbov
+Date        | Article                                                   | Assigned     | Status
+----------- | --------------------------------------------------------- | ---------    |---
+2018/11/12  | Sprint report                                             | @savetheales | Done
+2018/11/12  | Hello cyber•Congress!                                     | @xhipster    | Done
+2018/11/19  | Gitcoin workflow announcement                             | @savetheales | In progress
+2018/11/23  | Teammate article                                          | @litvintech  | In progress
 
-- Teammates articles: 2
-- Tech articles: 2
+- Teammates articles: 3
+- Tech articles: 1
 - Tutorials: 0
 - Total: 4
 
 ## Sprint 24  
 11/26 - 12/07
 
-Date        | Article                                                   | Assigned  
------------ | --------------------------------------------------------- | ---------
-2018/11/26  | Sprint report                                             | @savetheales
-2018/11/30  | Teammate article                                          | @litvintech
-2018/12/03  | Gitcoin minutes                                           | @savetheales
-2018/12/07  | Teammate article                                          | @xhipster
+Date        | Article                                                   | Assigned      | Status
+----------- | --------------------------------------------------------- | ---------     |---
+2018/11/26  | Sprint report                                             | @savetheales  | In progress
+2018/11/30  | Teammate article                                          | @hleb-albau   | In progress
+2018/12/03  | Gitcoin minutes                                           | @savetheales  | In progress
+2018/12/07  | Teammate article                                          | @?            | In progress
 
 - Teammates articles: 2
 - Tech articles: 2
