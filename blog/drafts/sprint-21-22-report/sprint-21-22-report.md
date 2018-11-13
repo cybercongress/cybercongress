@@ -47,7 +47,10 @@ Burndown | Storypoints done
 
 Stars | Forks | PRs
 :---: | :---: |:---:
-![stars](chart-stars-21.png) | ![forks](chart-forks-21.png) | ![PRs](chart-PR-21.png)
+![stars](cyb-stars-22.png) |![forks](cyb-forks-22.png) |![PRs](cyb-PRs-22.png)
+![stars](cyberd-stars-22.png) |![forks](cyberd-forks-22.png) |![PRs](cyberd-PRs-22.png)
+![stars](chaingear-stars-22.png) |![forks](chaingear-forks-22.png) |![PRs](chaingear-PRs-22.png)
+![stars](congress-stars-22.png) |![forks](congress-forks-22.png) |![PRs](congress-PRs-22.png)
 
 ---
 
@@ -69,6 +72,10 @@ Stars | Forks | PRs
 - [Twitter](https://twitter.com/cyber_devs): 11 subscribers;
 - [Medium](https://medium.com/cyber-congress): 0 subscribers.
 
-![community report](chart-community-sprint-21.png)
+Steemit | Dev Chat | Telegram Channel
+:---: | :---: |:---:
+![stars](steemit-22.png) |![forks](devchat-22.png) |![PRs](telegram-22.png)|
 
-### Links:
+Twitter | Medium | Reddit
+:---:|:---:|:---:|
+![PRs](twitter-22.png)|![PRs](medium-22.png)|![PRs](reddit-22.png)|
