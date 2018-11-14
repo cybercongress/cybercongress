@@ -8,20 +8,3 @@ workflows:
           filters:
             branches:
               only: master
-
-jobs:
-  update_doc:
-    working_directory: ~/build
-    docker:
-      - image: squidfunk/mkdocs-material
-    steps:
-      - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - 5f:5b:bf:dc:2b:99:a1:1d:44:61:b3:26:e5:f6:cc:11
-      - run:
-          name: Update documentation
-          command: |
-            cd wiki
-            ./toc_collector.sh
-            mkdocs gh-deploy -m "deployed $CIRCLE_SHA1 with mkdocs [skip ci]"
