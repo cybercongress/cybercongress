@@ -1,9 +1,0 @@
-# IntelliJ
-.idea/
-out/
-*.iws
-*.iml
-*.ipr
-*.ips
-
-/site/
