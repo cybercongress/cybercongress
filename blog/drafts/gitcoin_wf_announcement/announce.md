@@ -20,7 +20,7 @@ Honestly for now we are selective in issues that we fund. We are looking for org
 
 Another important point is that we are looking for hiring through gitcoin. Yes we need passionate and young souls for our projects. But we refused to standard corporative hiring process. For us it is really long, boring and power-hungry. With gitcoin we kill two birds with one stone. Actually this is another killer feature from gitcoin :) and that is why we love it :)))
 
-Every two weeks I'll write about gitcoin and our states in our blogs. There will been short articles with good funded issues around all communities, short analytics new features observes and so on.
+Every two weeks I'll write about gitcoin and our states in our blogs. There will be short articles with good funded issues around all communities, short analytics new features observes and so on.
 
 As I promised...
 List of opened issues for 2018/11/16:
