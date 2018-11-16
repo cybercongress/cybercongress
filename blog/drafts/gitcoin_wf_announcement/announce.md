@@ -2,8 +2,6 @@
 
 by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
 
-![pic](pic.png)
-
 Hi everyone! In our [agreement](cyb://QmaXfCR86ZL6gRXK8knMoVCzQSFMzwsYcJnT7DE68g5QY2.ipfs) phrase "open-source" appears for six times! Not bad for 2 pages of agreement, isn't it? We believe in this mighty power and have no vision of evolution without it.
 
 Today I want to provide insights into our communication with open-source community and collaboration process.
@@ -31,8 +29,8 @@ List of opened issues for 2018/11/16:
 So let's build our open-source community and let's do it with incentive :)
 
 ---
-original-cid:
+original-cid: [QmPQz9DTMTKrW3vBs19wt3xn2zaecq68VbUBfA5Nw7a88v](cyb://QmPQz9DTMTKrW3vBs19wt3xn2zaecq68VbUBfA5Nw7a88v.ipfs)
 
-signed-from: 0x00CA47db1BE92C1072e973fd8DC4A082f7d70214
+signed-from: [0x00CA47db1BE92C1072e973fd8DC4A082f7d70214](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214eth)
 
-proof-of-existence:
+proof-of-existence: [0xd7199550ba67bb5588489d747ec6c552554d8157c81fd0f607db774dda7f4329](cyb://0xd7199550ba67bb5588489d747ec6c552554d8157c81fd0f607db774dda7f4329.eth)
