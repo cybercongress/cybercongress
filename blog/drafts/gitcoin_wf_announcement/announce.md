@@ -10,11 +10,11 @@ Today I want to provide insights into our communication with open-source communi
 
 A little bit more than half of the year ago we learned [gitcoin](https://gitcoin.co/). For more details you can explore their platform. I just want to tell that we really excite with it. This is solution around incentive problem in open source and it really works!
 
-So after few tests we have developed [gitcoin process](https://github.com/cybercongress/congress/tree/master/community) where we try to define reules of the game where our team is motivated to involve and gitcoin contributers have incentive to jump the boat. 
+So after few tests we have developed [gitcoin process](https://github.com/cybercongress/congress/tree/master/community) where we try to define rules of the game where our team is motivated to involve and gitcoin contributers have incentive to jump the boat.
 
 This is not final solution. It must stand the test of time and iterations but we sure that it should work!
 
-What does it mean for our community? We want to pay you for your contribution! We constantly fund our issues on gitcoin and attach good description for them with project state and user stories. See the list below article as a proof. We try to answer to comments regulary in issues and in our [devChat](https://t.me/fuckgoogle).
+What does it mean for our community? We want to pay you for your contribution! We constantly fund our issues on gitcoin and attach good description for them with project state and user stories. See the list below article as a proof. We try to answer to comments regular in issues and in our [devChat](https://t.me/fuckgoogle).
 
 Honestly for now we are selective in issues that we fund. We are looking for organic evolution that is why our growth happens little by little. It's doesn't mean that we ban funds for all feature requests by community and concentrating on our issues only. Exactly no! We just leave prioritize with issues to us for now. But if you have abilities to fund feature request for your personal - do it! I believe that it will make great boost for our organic growth. :)
 
