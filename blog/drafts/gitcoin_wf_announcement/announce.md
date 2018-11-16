@@ -8,15 +8,15 @@ Hi everyone! In our [agreement](cyb://QmaXfCR86ZL6gRXK8knMoVCzQSFMzwsYcJnT7DE68g
 
 Today I want to provide insights into our communication with open-source community and collaboration process.
 
-A little bit more than half of the year ago we learned [gitcoin](https://gitcoin.co/). For more details you can explore their platform. I just want to tell that we really excite with it. This is solution around incentive problem in open source and it really work!
+A little bit more than half of the year ago we learned [gitcoin](https://gitcoin.co/). For more details you can explore their platform. I just want to tell that we really excite with it. This is solution around incentive problem in open source and it really works!
 
 So after few tests we have developed [gitcoin hiring process](https://github.com/cybercongress/congress/tree/master/community) where have try to explain how we want to work with contributors.
 
-This is not final solution. It must stand the test of time and iterations but we sure that it should be work!
+This is not final solution. It must stand the test of time and iterations but we sure that it should work!
 
-What it's mean for our community? We want to pay you for your contribution! We constantly fund our issues on gitcoin and attach good description for them with project state and user stories. See the list below article as a proof. We try to timely answer to comments in issues and in our [devChat](https://t.me/fuckgoogle).
+What does it mean for our community? We want to pay you for your contribution! We constantly fund our issues on gitcoin and attach good description for them with project state and user stories. See the list below article as a proof. We try to answer to comments regulary in issues and in our [devChat](https://t.me/fuckgoogle).
 
-Honestly for now we selective in issues what we fund. We looking for organic evolution that why our grow happens little by little. It's doesn't mean that we ban funds for all feature requests by community and concentrating on our issues only. Exactly no! We just leave prioritize with issues to us for now. But if you have abilities to fund feature request for your personal - do it! I believe that it make great boost for our organic growth. :)
+Honestly for now we are selective in issues that we fund. We are looking for organic evolution that is why our growth happens little by little. It's doesn't mean that we ban funds for all feature requests by community and concentrating on our issues only. Exactly no! We just leave prioritize with issues to us for now. But if you have abilities to fund feature request for your personal - do it! I believe that it make great boost for our organic growth. :)
 
 Another important point is that we looking for hiring through gitcoin. Yes we need passionly and young souls for our projects. But we refused to standard corporative hiring process. For ours it really long, boring and power-hungry. With gitcoin we kill two birds with one stone. Actually this is another killer feature from gitcoin :) and that why we love it :)))
 
