@@ -1,0 +1,38 @@
+# >gitcoin lovers
+
+by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
+
+![pic](pic.png)
+
+Hi everyone! In our [agreement](cyb://QmaXfCR86ZL6gRXK8knMoVCzQSFMzwsYcJnT7DE68g5QY2.ipfs) phrase "open-source" appears for six times! Not bad for 2 pages of agreement, isn't it? We believe in this mighty power and have no vision of evolution without it.
+
+Today I want to provide insights into our communication with open-source community and collaboration process.
+
+A little bit more than half of the year ago we learned [gitcoin](https://gitcoin.co/). For more details you can explore their platform. I just want to tell that we really excite with it. This is solution around incentive problem in open source and it really work!
+
+So after few tests we have developed [gitcoin hiring process](https://github.com/cybercongress/congress/tree/master/community) where have try to explain how we want to work with contributors.
+
+This is not final solution. It must stand the test of time and iterations but we sure that it should be work!
+
+What it's mean for our community? We want to pay you for your contribution! We constantly fund our issues on gitcoin and attach good description for them with project state and user stories. See the list below article as a proof. We try to timely answer to comments in issues and in our [devChat](https://t.me/fuckgoogle).
+
+Honestly for now we selective in issues what we fund. We looking for organic evolution that why our grow happens little by little. It's doesn't mean that we ban funds for all feature requests by community and concentrating on our issues only. Exactly no! We just leave prioritize with issues to us for now. But if you have abilities to fund feature request for your personal - do it! I believe that it make great boost for our organic growth. :)
+
+Another important point is that we looking for hiring through gitcoin. Yes we need passionly and young souls for our projects. But we refused to standard corporative hiring process. For ours it really long, boring and power-hungry. With gitcoin we kill two birds with one stone. Actually this is another killer feature from gitcoin :) and that why we love it :)))
+
+Every two weeks I'll write about gitcoin and our states in our blogs. It will been short articles with good funded issues around all communities, short analytics new features observes and so on.
+
+As I promised...
+List of opened issues for 2018/11/16:
+- [Decreasing Gas Consumption, Audit](https://gitcoin.co/issue/cybercongress/chaingear/993/757)
+
+[Our page on gitcoin with full list of issues](https://gitcoin.co/profile/cybercongress)
+
+So lets build our open-source community and let do it with incentive :)
+
+---
+original-cid:
+
+signed-from: 0x00CA47db1BE92C1072e973fd8DC4A082f7d70214
+
+proof-of-existence:
