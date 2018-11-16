@@ -10,7 +10,7 @@ Today I want to provide insights into our communication with open-source communi
 
 A little bit more than half of the year ago we learned [gitcoin](https://gitcoin.co/). For more details you can explore their platform. I just want to tell that we really excite with it. This is solution around incentive problem in open source and it really works!
 
-So after few tests we have developed [gitcoin hiring process](https://github.com/cybercongress/congress/tree/master/community) where have try to explain how we want to work with contributors.
+So after few tests we have developed [gitcoin process](https://github.com/cybercongress/congress/tree/master/community) where we try to define reules of the game where our team is motivated to involve and gitcoin contributers have incentive to jump the boat. 
 
 This is not final solution. It must stand the test of time and iterations but we sure that it should work!
 
