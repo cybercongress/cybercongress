@@ -28,7 +28,7 @@ QmPAz8iuoJWHr4jrvfXZ7pDycV1kPTyPVBrDWDj3353JAg
 
 You can also explore the Internet and find hashes what you interested in :)
 
-At the next post we will fill web3 together ;)
+At the next post we will connect local ipfs node to our cyb ;)
 
 Subscribe for our blogs:
 
