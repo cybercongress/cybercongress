@@ -1,7 +1,7 @@
 # How to open IPFS link
 by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
 
-![ipfs](ipfs_logo.png)
+![ipfs](IPFS_logo.png)
 
 Hi everyone! Today I intend to show you how to open web3 link with our web3 browser. If you have read our last [post](https://steemit.com/web3/@savetheales/gitcoin-lovers) you must have noticed IPFS hash at back matter. The thing is, that we have web3 blog :)
 
