@@ -21,7 +21,9 @@ As you see this is current [post](https://steemit.com/web3/@savetheales/gitcoin-
 You also can open following hashes as homework:
 
 QmVD5L3ZX6KW7cJPKu2fn8QkN1xLuhR7rvpUGVU3SoPg8V
+
 QmaXfCR86ZL6gRXK8knMoVCzQSFMzwsYcJnT7DE68g5QY2
+
 QmPAz8iuoJWHr4jrvfXZ7pDycV1kPTyPVBrDWDj3353JAg
 
 You can also explore the Internet and find hashes what you interested in :)
