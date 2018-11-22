@@ -7,11 +7,11 @@ Hi everyone! Today I intend to show you how to open web3 link with our web3 brow
 
 First of all [download](https://github.com/cybercongress/cyb/releases) latest version of our Сyb and install it.
 
-Next click on a Сyb icon. You must see something like this
+Next click on a Сyb icon. You can see something like this
 
 ![cyb](cyb_ss_start.png)
 
-This is the Root Registry but later about this. Let's copy ipfs hash from previous [post](https://steemit.com/web3/@savetheales/gitcoin-lovers), paste it in a search field and attach `.ipfs` to the and of hash.
+This is the Root Registry by the way, but we will talk later about this. It is not so important, which page is opened, we need just to find search field at the top of the page. So, let's copy ipfs hash from previous [post](https://steemit.com/web3/@savetheales/gitcoin-lovers), paste it in a search field and attach `.ipfs` to the and of hash.
 
 ![result](search.png)
 
