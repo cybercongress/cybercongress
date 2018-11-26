@@ -1,6 +1,6 @@
 # Organic growth
 
-![growth](pic.jpg)
+![growth](pic.png)
 
 Start: 2018-11-12
 
