@@ -8,17 +8,17 @@ End: 2018-11-23
 
 ### Сonclusion
 
-So, first of all, what are we looking for? We want a growth. Slowly, patiently, organic growth. Thats's we're looking for.
+So, first of all, what are we looking for? We want to growth. Slowly, patiently, organic growth. Thats's we're looking for.
 
 We have made great strides with [rank calculating with GPU](https://github.com/cybercongress/cyberd/pull/83). Now it's faster than CPU kind of 100x - 1000x. Awesome, right?
 
-Few words about Cyb. First of all we started to support our first 3rd-party app [Dragonereum](https://dragonereum.io/). Don't think it's all perfect, there are some troubles with tx approving. For now it's [task #1](https://github.com/cybercongress/cyb/issues/34) because we want to use Cyb at Dragonereum genesis ;) Actually you can try to add Dragonereum app to your Cyb just get the lay of the land. IPFS hash is attached [QmYgxz2Tb74yBeF5ms4rN3N2QFy7cd27iJpYKq2bv6BmCn](cyb://QmYgxz2Tb74yBeF5ms4rN3N2QFy7cd27iJpYKq2bv6BmCn.ipfs). Also you can install IPFS Web UI in our Cyb by following hash [QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh](cyb://QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh.ipfs).
+Few words about Cyb. First of all we start to support our first 3rd-party app [Dragonereum](https://dragonereum.io/). Don't think it's all pleasure, here is some troubles with tx approving. For now it's [task #1](https://github.com/cybercongress/cyb/issues/34) because we want to use Cyb at Dragonereum genesis ;) Actually you can try to add Dragonereum app to your Cyb just get the lay of the land. IPFS hash is attached [QmYgxz2Tb74yBeF5ms4rN3N2QFy7cd27iJpYKq2bv6BmCn](cyb://QmYgxz2Tb74yBeF5ms4rN3N2QFy7cd27iJpYKq2bv6BmCn.ipfs). Also you can install IPFS UI in our Cyb by following hash [QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh](cyb://QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh.ipfs). And finally we add custom web3 provider for ETH operation.
 
-Also we had started [Cyb tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) in our blogs. It suppose to help you to involve in our magic ;) Besides, we had started blogging! Yeah and we exclude medium from our post channels. We don’t endorse Medium’s censorship policy and we cannot guaranty that everything we want to tell you we will be able to tell. Also Medium censors web3 links such as web3://, dura:// or cyb:// so posts on Medium are published without links.
+Also we had start [Cyb tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) in our blogs. It's suppose to help you to involved in our magic ;) Besides, we had start to blogging! Yeah and we exclude medium from our post channels. We don’t endorse Medium’s censorship policy and we cannot guaranty that everything we want to tell you we will be able to tell. Also Medium censor web3 links such as web3://, dura:// or cyb:// so posts on Medium are published without links.
 
 And finally... The great announcement about first decentralized search engine conference is coming!
 
-Growth for open source! ..organic ;)
+Grow open source! ..organic ;)
 
 ### Changelog
  - #### [Minor fixes at cyberd](https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#unreleased)
@@ -29,6 +29,8 @@ Growth for open source! ..organic ;)
 ##### Epics done:
 
 >Working on minor tasks & bug fixing.
+
+- [Custom web3 provider #6 cyb](https://github.com/cybercongress/cyb/issues/6)
 
 ##### Epics next sprint TODO:
 - [Support of Dragonereum #35 cyb](https://github.com/cybercongress/cyb/issues/35)
