@@ -4,11 +4,11 @@ by [@savetheales]()
 
 ![dragons](dragons.png)
 
-This article for Dragonereum players who was faced with a troubles around Chrome, Mozilla, Opera + Metamask using. We want to explain how to play Dragonereum with pure web3 browser.
+This article is for Dragonereum players who faced troubles with Chrome, Mozilla, Opera + Metamask. We want to explain how to play Dragonereum in pure web3 browser.
 
-First of all download and install [latest release](https://github.com/cybercongress/cyb/releases) of Cyb and don't forget about star ;)
+First of all download and install [latest release](https://github.com/cybercongress/cyb/releases) of Cyb and don't forget to star repo ;)
 
-2. Launch Cyb. You must see something like on the screen:
+2. Launch Cyb. You should see something like this:
 
 ![launch](launch.png)
 
@@ -16,25 +16,25 @@ First of all download and install [latest release](https://github.com/cybercongr
 
 ![wallet](wallet.png)
 
-4. For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or import yours. If you decide to play with provided account PLEASE copy your private key!
+4. To play Dragonereum you need an ETH account. Cyb automatically creates it for you. So you can use it or import your custom. If you decide to play with provided account PLEASE copy your private key!
 
-I want to import my account from Metamask. So I click import account, insert private key and after few second see my account:
+For example: I want to import my account from Metamask. So I export private key from Metamask, then click import account button in Cyb, insert private key and after few second I can see my account:
 
 ![import_account](account.png)
 
 Don't worry about balance value! We'll fix it. Click on `MAKE MAIN` button to make this account active.
 
-5. Click on `gear` button at right top part of the screen. You must see this:
+5. Click on `gear` button at right top part of the screen. You should see this:
 
 ![settings](settings.png)
 
-... and click `MAIN` and after that click `update` opposite `ETH NODE`. Now you connect to Infura mainnet node.
+... click `MAIN` and after that click `update` opposite `ETH NODE`. Now you are connected to Infura mainnet node.
 
-6. Go back to your wallet. Now balances is valid.
+6. Go back to your wallet. Now balances should be valid.
 
-7. It's Dragons time! Now put following hash `QmVBDEjEVjRZE7d17tTLWRwftFvkJAUJ87ZACv99hJghQf.ipfs` in search field and press `Enter`.
+7. It's Dragons time! Now put following hash `QmVBDEjEVjRZE7d17tTLWRwftFvkJAUJ87ZACv99hJghQf.ipfs` in search field or simply type "dragons" and press `Enter`.
 
-here is a Magic!
+here is the Magic!
 
 ![magic](magic.png)
 
@@ -44,4 +44,4 @@ P.S. Cyb in Ethereum Mainnet may not be secure yet. We recommend to operate acco
 
 P.P.S. For comfortable using click `heart` to pin game to side menu.
 
-P.P.S. For advanced users only! You can change IPFS and ETH nodes to yours local nodes just by changing addresses. Don't forget about `UPDATE` button. 
+P.P.S. For advanced users only! You can change IPFS and ETH nodes to yours local nodes just by changing addresses and ports. Don't forget about `UPDATE` button. 
