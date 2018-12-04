@@ -12,11 +12,11 @@ ToC:
 
 [2. How to add custom ipfs node to your Cyb](https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb)
 
-Hi! As we know from [previous post](https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb) we need 3 greenlights on the right side of footer. Today we'll add ETH node to Cyb. We'll use Parity node for example, but you can try Geth node if you feel strong enough.
+Hi! As we know from [previous post](https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb) we need 3 greenlights on the right side of footer. Today we'll add ETH node to Cyb. We'll use Parity node as an example, but you can try Geth node if you feel strong enough.
 
 ### Installing Parity-node
 
-The easiest way to install stable version of Parity is [Homebrew](https://brew.sh/) by following command:
+The easiest way to install stable version of Parity is [Homebrew](https://brew.sh/). Run this command in terminal:
 
 `brew tap paritytech/paritytech`
 
@@ -26,7 +26,7 @@ Additional methods you can explore [here](https://wiki.parity.io/Setup), but I s
 
 ### Syncing
 
-After successfully installing run:
+After successfull installation run:
 
 `parity --jsonrpc-cors="all" --jsonrpc-apis="all" --jsonrpc-interface=all`
 
@@ -40,14 +40,14 @@ it can sync for 48 hours and more, it's depends on your hardware and internet co
 
 ![result](4.png)
 
-As you see `Syncing` switched to `Imported`. It means that the node in valid state.
+As you see `Syncing` is switched to `Imported`. It means that the node in a valid state.
 
 
 ### Adding port to Cyb
 
 Launch Cyb, latest version you can download [here](https://github.com/cybercongress/cyb/releases) if you still not have it :) . Type `settings.cyb` in a search field or click on a gear at the top right side.
 
-You need to insert this port `http://127.0.0.1:8545` opposite `ETH NODE` like this:
+You need to insert this address `http://127.0.0.1:8545` opposite `ETH NODE` like this:
 
 ![result](1.png)
 
