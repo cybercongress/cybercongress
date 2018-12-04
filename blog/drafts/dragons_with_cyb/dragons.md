@@ -2,7 +2,7 @@
 
 by [@savetheales]()
 
-![dragons](dragons.png)
+![dragons](dragon.png)
 
 This article for Dragonereum players who was faced with trouble around Chrome, Mozilla, Opera + Metamask using. We want to explain how to play Dragonereum with a pure web3 browser.
 
