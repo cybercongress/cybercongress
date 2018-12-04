@@ -13,6 +13,7 @@ First of all download and install [the latest release](https://github.com/cyberc
 ![launch](launch.png)
 
 3. Click on the wallet and create a password for Cyb.
+
 Remember this password to avoid balance missing.
 
 ![wallet](wallet.png)
