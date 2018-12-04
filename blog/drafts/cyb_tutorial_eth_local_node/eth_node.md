@@ -1,4 +1,4 @@
-# How to add custom ETH node to your Cyb
+# How to add own ETH node to your Cyb
 
 ![pic](0.png)
 
@@ -26,7 +26,7 @@ Additional methods you can explore [here](https://wiki.parity.io/Setup), but I s
 
 ### Syncing
 
-After successful installing run:
+After successfully installing run:
 
 `parity --jsonrpc-cors="all" --jsonrpc-apis="all" --jsonrpc-interface=all`
 
@@ -34,13 +34,13 @@ this command start syncing Parity. Actually node is available for using at port
 
 `http://127.0.0.1:8545`
 
-After syncing I reccomend you launch Parity with Homebrew by following command:
->not ready
+![result](3.png)
 
-`brew services start parity`
+it can syncing from 48 hours and more, it's depends on your hardware and internet connection. The total size at that moment is approximately 80 Gb. After syncing you should see something like this:
 
-It's launch Parity in background mode.
+![result](4.png)
 
+As you see `Syncing` switched to `Imported`. It's mean that the node in valid state.
 
 
 ### Adding port to Cyb
