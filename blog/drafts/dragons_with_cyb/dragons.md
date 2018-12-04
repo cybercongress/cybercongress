@@ -8,7 +8,7 @@ This article for Dragonereum players who was faced with trouble around Chrome, M
 
 First of all download and install [the latest release](https://github.com/cybercongress/cyb/releases) of Cyb and don't forget about star ;)
 
-2. Launch Cyb. You must see something like on the screen:
+2. Launch Cyb. You should see something like this:
 
 ![launch](launch.png)
 
@@ -19,7 +19,7 @@ Remember this password to avoid balance missing.
 
 4. For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or import yours. If you decide to play with the provided account PLEASE copy your private key and store it somewhere!
 
-I want to import my account from Metamask. So I click import account, insert private key and after few second see my account:
+For example: I want to import my account from Metamask. So I export private key from Metamask, then click import account button in Cyb, insert private key and after few second I can see my account:
 
 ![import_account](account.png)
 
@@ -29,13 +29,13 @@ Don't worry about balance value! We'll fix it. Click on `MAKE MAIN` button to ma
 
 ![settings](settings.png)
 
-... and click `MAIN` and after that click `update` opposite `ETH NODE`. Now you connect to Infura mainnet node.
+... click `MAIN` and after that click `update` opposite `ETH NODE`. Now you are connected to Infura mainnet node.
 
 6. Go back to your wallet. Now balances are valid.
 
 7. It's Dragons time! Now put following hash `QmSqGUcEk6D1Mm1EB5RM4H423LaE3yBtB2GYbw5tUoBgwu.ipfs` in the search field and press `Enter`.
 
-here is a Magic!
+here is the Magic!
 
 ![magic](magic.png)
 
