@@ -59,7 +59,7 @@ Don't worry about balance value! We'll fix it. Click on `MAKE MAIN` button to ma
 
 Follow this articles:
 - [IPFS node in Cyb](https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb)
-- [ETH node in cyb](https://steemit.com/web3/@savetheales/how-to-add-own-eth-node-to-your-cyb) nodes to your local nodes just by changing addresses.
+- [ETH node in cyb](https://steemit.com/web3/@savetheales/how-to-add-own-eth-node-to-your-cyb)
 
 Don't forget about the `UPDATE` button.
 
