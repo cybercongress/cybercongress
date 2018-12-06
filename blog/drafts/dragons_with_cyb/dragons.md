@@ -1,6 +1,6 @@
 # How to play in Dragonereum with Cyb
 
-by [@savetheales]() and [@xhipster]()
+@savetheales and @xhipster
 
 ![dragons](dragon.png)
 
