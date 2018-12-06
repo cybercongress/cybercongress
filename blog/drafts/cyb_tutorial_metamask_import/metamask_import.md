@@ -8,7 +8,7 @@ At this time import of account is available just with the private key. All priva
 
 >Disclaimer: Cyb in Ethereum Mainnet may not be secure yet. We recommend to operate accounts with small balance at your own risk.
 
-After successful installation and launching of the latest version Cyb you should see the screen like this:
+After successful installation and launching of the [latest version Cyb](https://github.com/cybercongress/cyb/releases) you should see the screen like this:
 
 ![result](1.png)
 
@@ -29,7 +29,7 @@ Click on a `...`  and then `Expand View`
 
 ![ex_vw](5.png)
 
-Click on `DETAILS` BUTTON.
+Click on `DETAILS` button.
 
 ![result](6.png)
 
