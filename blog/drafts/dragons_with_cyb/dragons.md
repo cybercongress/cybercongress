@@ -1,6 +1,6 @@
 # How to play in Dragonereum with Cyb
 
-@savetheales and @xhipster
+by @savetheales and @xhipster
 
 ![dragons](dragon.png)
 
@@ -43,11 +43,11 @@ Remember this password to avoid balance missing.
 
 ## 3. Backup or import private key
 
-For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or [import](asdasdasd) yours.
+For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or [import](https://steemit.com/web3/@savetheales/how-to-import-eth-wallet-from-metamask-to-cyb) yours.
 
 IF YOU DECIDE TO PLAY WITH PROVIDED ACCOUNT YOU MUST BACKUP PRIVATE KEY. IF NOT => FORGET ABOUT YOUR DRAGONS! YOU STORE IT, NOT CYB!
 
-For example: I want to import my account from Metamask. So I export private key from Metamask, here is [manual](asdasdasdasd) how to do it.
+For example: I want to import my account from Metamask. So I export private key from Metamask, here is [manual](https://steemit.com/web3/@savetheales/how-to-import-eth-wallet-from-metamask-to-cyb) how to do it.
 
 Then click import account button in Cyb, insert private key and after few second I can see my account:
 
