@@ -1,6 +1,6 @@
 # How to play in Dragonereum with Cyb
 
-by [@savetheales]() and @xhipster
+by [@savetheales]() and [@xhipster]()
 
 ![dragons](dragon.png)
 
@@ -43,13 +43,11 @@ Remember this password to avoid balance missing.
 
 ## 3. Backup or import private key
 
-For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or import yours.
+For playing in Dragonereum you need ETH account. Cyb created it already. You can use it or [import](asdasdasd) yours.
 
 IF YOU DECIDE TO PLAY WITH PROVIDED ACCOUNT YOU MUST BACKUP PRIVATE KEY. IF NOT => FORGET ABOUT YOUR DRAGONS! YOU STORE IT, NOT CYB!
 
-For example: I want to import my account from Metamask. So I export private key from Metamask, 
-
-// plwas explain how to do it with screenshots.
+For example: I want to import my account from Metamask. So I export private key from Metamask, here is [manual](asdasdasdasd) how to do it.
 
 Then click import account button in Cyb, insert private key and after few second I can see my account:
 
@@ -59,15 +57,17 @@ Don't worry about balance value! We'll fix it. Click on `MAKE MAIN` button to ma
 
 ## 4. Establish connection
 
-Follow this articles: 
+Follow this articles:
 - [IPFS node in Cyb](https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb)
-- [ETH node in cyb](https://steemit.com/web3/@savetheales/how-to-add-own-eth-node-to-your-cyb) nodes to your local nodes just by changing addresses. 
+- [ETH node in cyb](https://steemit.com/web3/@savetheales/how-to-add-own-eth-node-to-your-cyb) nodes to your local nodes just by changing addresses.
 
 Don't forget about the `UPDATE` button.
 
  Click on the `gear` button at the right top part of the screen. You must see this:
 
 ![settings](settings.png)
+
+If 2 of 3 lighting green you made it!
 
 ## 5. Go back to your wallet. Now balances are valid.
 
@@ -84,5 +84,3 @@ Don't forget to click the `heart` to pin game to side menu.
 Good luck Dragon Master!
 
 P.S. Cyb in Ethereum Mainnet may not be secure yet. We recommend operating accounts with small balance at your own risk.
-
-
