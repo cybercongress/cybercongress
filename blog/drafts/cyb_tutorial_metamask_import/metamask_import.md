@@ -2,6 +2,8 @@
 
 by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
 
+![pic](metamask.png)
+
 Hi everyone! Today we'll take one giant step to regular Cyb using.
 
 At this time import of account is available just with the private key. All private keys are encrypted and stored at local storage.
