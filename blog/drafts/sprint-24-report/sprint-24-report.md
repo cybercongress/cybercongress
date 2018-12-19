@@ -1,6 +1,6 @@
-# Title
+# Sacred Rave
 
-![]()
+![pic](pic.jpg)
 
 Start: 2018-11-26
 
@@ -8,6 +8,17 @@ End: 2018-12-17
 
 ### Сonclusion
 
+We have a rich and crazy sprint. A lot of things happened in the last three weeks. And... You know what? We want to collect just good things among the array of events.
+
+First of all, let speak about our products state. Soon, ten years later Bitcoin genesis block launch, at 2019.01.03  we'll launch cyberd first testnet - Euler, Cyb 0.1.0 Euler release, and chaingear mainnet with updated UI. It should be a great step to the new world.
+
+Cyb serves as the rabbit hole of Web3 World with decentralized search, games, services, storage, databases and so on. So far, Cyb shows the best user experience with playing in a Web3 game which is Dragonereum. It is a good sign.
+
+Few words about [Dragonereum](https://dapp.dragonereum.io/genesis) like a first Cyb app. Eggs distribution is nearing completion and I believe that in two weeks I'll write about Gladiators Battles launch.
+
+And finally, about [cyberc0n](https://ipfs.io/ipfs/QmWPEkwyTThzQSdky4gje2HhkHU7R5E9WWmazuGBjo8gZd/). It was our first conference around Web3 and decentralized search. We're very proud of this event from cyber•Congress side and cyber•Academy. Firstly it was an almost Web3-organized conference on eth smart contract. In details about a conference in my next post. Secondly... We thrilled with people who came to us. Be well aware of new decentralized world building difficulty we happy to understand that we are not alone, but with a strong community.  Not so huge, but really strong. Thanks to all who come!
+
+And sure, if you want to join the discussion around decentralizes search welcome to our [telegram dev chats](https://t.me/fuckgoogle) :)
 
 ### Changelog
  - #### [Minor fixes at cyberd](https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#unreleased)
