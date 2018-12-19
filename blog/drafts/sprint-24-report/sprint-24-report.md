@@ -72,7 +72,7 @@ Stars | Forks | PRs
 
 Steemit | Dev Chat | Telegram Channel
 :---: | :---: |:---:
-![stemmit](steemit.png) |![devchat](devchat.png) |![telegram](telegram.png)
+![stemmit](steemit.png) |![devchat](devChat.png) |![telegram](telegram.png)
 
 Twitter | Reddit
 :---:|:---:|
