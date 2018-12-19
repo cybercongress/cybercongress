@@ -29,6 +29,8 @@ And sure, if you want to join the discussion around decentralized search, welcom
 ##### Epics done:
 
 - [Support of Dragonereum #35 cyb](https://github.com/cybercongress/cyb/issues/35)
+- [Simple history.cyb #62 cyb](https://github.com/cybercongress/cyb/issues/62)
+- [Cyb shell design update #9 cyberdesign](https://github.com/cybercongress/cyberdesign/issues/9)
 
 
 ##### Epics next sprint TODO:
