@@ -18,6 +18,7 @@ github = "litvintech"
 telegram = "litvintech"
 keybase = "litvintech"
 ipfs-node = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
+cyberd = "cbd1l3yyrm5ctme33y0nk5r94vqfestaplqt0wlya2"
 
 [xhipster]
 name = "Dima Starodubcev"
