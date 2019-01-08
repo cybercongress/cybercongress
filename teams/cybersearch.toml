@@ -61,8 +61,11 @@ name = "Ales Puchilo"
 gitcoin = "0x00466845B9906578ac86cBA4C2Dda0F2c46461F6"
 payouts = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
 github = "SaveTheAles"
-telegram = "AlesPuchilo"
+telegram = "savetheales"
 keybase = "savetheales"
+ipfs = "QmTL3gftAjBZ7WU4GppYg7odQymraN66VFk1NkQyEbbBNj"
+cyber = "cbd139wwxt9tpyrhg2d3llve8ysldv5haq9jlls6zu"
+
 
 [olga584]
 name = "Olga Bessonova"
