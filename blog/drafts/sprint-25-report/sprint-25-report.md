@@ -14,7 +14,7 @@ It was a new year sprint! However, we have done quite a lot in this sprint and a
 
 Which exactly we are proud of? [First public testnet](https://github.com/cybercongress/cyberd/releases/tag/0.1.0). What is meant for you? You can do your best for the future Internet with testing our chain as validator. Follow full explanation [here](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and join our [dev Chat](https://t.me/fuckgoogle) finally!
 
-Future of browsers has it first serious release :) Welcome to [Cyb 0.1.0 - Euler](https://github.com/cybercongress/cyberd/releases)! For us, it's the best way to web3 at this moment. Try Chaingear in Kovan with Cyb, [Link data and search] (will be fixed soon!) with the cyberd engine and finally play Dragonereum with Cyb! We're waiting for your bug report and feature requests as soon as it possible! We have [tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) for you, so don't you stand there.
+Future of browsers has it first serious release :) Welcome to [Cyb 0.1.0 - Euler](https://github.com/cybercongress/cyberd/releases)! For us, it's the best way to web3 at this moment. Try Chaingear in Kovan with Cyb, explore IPFS content and finally play Dragonereum with Cyb! We're waiting for your bug report and feature requests as soon as it possible! We have [tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) for you, so don't you stand there.
 
 Good news is that chaingear is deployed to mainnet, but we need some more polishments before actually using it.
 
