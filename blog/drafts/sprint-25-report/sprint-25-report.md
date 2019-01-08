@@ -37,12 +37,13 @@ That it! :) One sprint left before the current block and we'll departure to Thai
 
 ##### Epics next sprint TODO:
 - [Deploy to mainnet #997 chaingear](https://github.com/cybercongress/chaingear/issues/997)
-- [Navigation bar #8 cyb](https://github.com/cybercongress/cyb/issues/8)
 - [Basic .help app #44 cyb](https://github.com/cybercongress/cyb/issues/44)
-- [Launch registry of apps #998 chaingear](https://github.com/cybercongress/chaingear/issues/998)
 - [Whitepaper 0.3 #25 cyberd](https://github.com/cybercongress/cyberd/issues/25)
 - [Distribution #27 cyberd](https://github.com/cybercongress/cyberd/issues/27)
 - [Update UI for chaingear app #1029 chaingear](https://github.com/cybercongress/chaingear/issues/1029)
+- [Design refactoring #18 cyberdesign](https://github.com/cybercongress/cyberdesign/issues/18)
+- [Landing pages for key projects #36 congress](https://github.com/cybercongress/congress/issues/36)
+- [Simple .txqueue app #67 cyb](https://github.com/cybercongress/cyb/issues/67)
 
 
 Burndown | Storypoints done
