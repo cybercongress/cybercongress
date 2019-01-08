@@ -8,9 +8,9 @@ End: 2018-12-28
 
 ### Сonclusion
 
-42 . This number has haunted us. I'm not kidding. At our conference, cyberc0n came 42 participants and now at our dev chat 42 members. Mystic.
+42 . This number has haunted us. I'm not kidding. 42 participants came to our conference, cyberc0n, and now in our dev chat there are 42 members. Mystic...
 
-It was a new year block! However, we have done quite a lot in this sprint and are proud of that!
+It was a new year sprint! However, we have done quite a lot in this sprint and are proud of that!
 
 Which exactly we are proud of? [First public testnet](https://github.com/cybercongress/cyberd/releases/tag/0.1.0). What is meant for you? You can do your best for the future Internet with testing our chain as validator. Follow full explanation [here](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and join our [dev Chat](https://t.me/fuckgoogle) finally!
 
