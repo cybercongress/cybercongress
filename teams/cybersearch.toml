@@ -17,8 +17,8 @@ payouts = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
 github = "litvintech"
 telegram = "litvintech"
 keybase = "litvintech"
-ipfs-node = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
-cyberd = "cbd1l3yyrm5ctme33y0nk5r94vqfestaplqt0wlya2"
+ipfs = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
+cyber = "cbd1l3yyrm5ctme33y0nk5r94vqfestaplqt0wlya2"
 
 [xhipster]
 name = "Dima Starodubcev"
@@ -27,7 +27,8 @@ payouts = "0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B"
 github = "xhipster"
 telegram = "xhipster"
 keybase = "21xhipster"
-ipfs-node = "QmNbSJ9okrwMphfjudiXVeE7QWkJiEe4JHHiKT8L4Pv7z5"
+ipfs = "QmV9P23ZC2GCsDanZwZQHWEKdnd2VyXwzgM5x7XA7iMgnp"
+cyber = "cbd1hlu0kqwvxmhjjsezr00jdrvs2k537mqhrv02ja"
 
 [asadovka]
 name = "Siarhei Sadau"
