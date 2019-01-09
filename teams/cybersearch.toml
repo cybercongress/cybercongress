@@ -9,6 +9,8 @@ payouts = "0x002b9c5b537a1b6004ed720f32cc808fd6210f26"
 github = "hleb-albau"
 telegram = "hleb_albau"
 keybase = "hleb_albau"
+ipfs = "QmSQ7YJHZA4kZxMYx8YjBwo7wiLofgse15Gf6bPqyEdFfh"
+cyber = "cbd1rqudjcrdwqedffxufmqgsleuguhm7pka6snns3"
 
 [litvintech]
 name = "Valery Litvin"
@@ -47,6 +49,7 @@ payouts = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
 github = "Pechalka"
 telegram = "LuzhkovskyAndrey"
 keybase = "andrewluzkovsky"
+cyber = "cbd1xege0g92p6exmzjv58u7vh3s5zkz75v48mlnev"
 
 [vstavetski]
 name = "Valentin Stavetski"
@@ -55,6 +58,7 @@ payouts = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
 github = "vstavetski"
 telegram = "vstavetski"
 keybase = "vstavetski"
+cyber = "cbd1gs92s58t6rkallnml8ufdzrz3038dcylal0nlc"
 
 [savetheales]
 name = "Ales Puchilo"
@@ -74,6 +78,7 @@ payouts = "0x9d7d6E753F055E40d3767337300e722E934086c1"
 github = "Olga584"
 telegram = "OlgaBessonova"
 keybase = "olgabessonova"
+cyber = "cbd1up7dk03v4d898vqgmc2y32y7duuylgx8ra7jjj"
 
 [arturalbov]
 name = "Artur Albau"
@@ -82,3 +87,4 @@ payouts = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
 github = "arturalbov"
 telegram = "arturalbov"
 keybase = "arturalbov"
+cyber = "cbd1rl3xnsrkpjfwejqfy7v4kntu64hzxy8dgafh6j"
