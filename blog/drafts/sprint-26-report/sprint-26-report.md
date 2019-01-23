@@ -1,4 +1,4 @@
-# Let's coding in paradise
+# Let's code in paradise
 
 ![pic](pic.jpg)
 
@@ -10,22 +10,22 @@ End: 2019-01-21
 
 Briefly.
 
-After a successful launch we have faced with few problems with our blockchain:
+After a successful launch we have faced a few problems with our blockchain:
 - not enough validators
 - rapid blocks generation
 - confused naming
 
-Good news: we have solved it already, but validators still [welcome](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md)!
+Good news: we have solved it already, but validators are still [welcome](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md)!
 
-Secondly, we've prepared [whitepaper 0.3](https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md). It's still draft, but with launched testnet with economic incentives, it has a weight.
+Secondly, we've prepared a [whitepaper 0.3](https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md). It's still a draft, but for launched testnet with economic incentives it has a weight.
 
-I need hardly remind for all who care about web3 and decentralized search engine to join the discussion at our [telegram dev chat](https://t.me/fuckgoogle).
+I need to  remind once again for all who care about web3 and decentralized search engine to join the discussion in our [telegram dev chat](https://t.me/fuckgoogle).
 
-Thirdly we've updated Chaingear UI and soon it will deploy to mainnet, so probably at my next report, I'll glad to announce you the most expensive database!
+Thirdly we've updated Chaingear UI and soon it will be deployed to mainnet, so probably at my next report, I'll glad to announce you the most expensive database!
 
-For sure it will be available at our [Cyb](https://github.com/cybercongress/cyb/releases).
+For sure it will be available in our [Cyb](https://github.com/cybercongress/cyb/releases).
 
-Finally, our Block is near to the end and we're ready to planing new achievements for the next Block 3. The last sprint of the Block 2 has started. We are on Samui :)
+Finally, our Block is near to the end and we're ready to plan new achievements for the next Block 3. The last sprint of the Block 2 has started. We are on Samui now :)
 
 ### Changelog
 
