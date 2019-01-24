@@ -64,7 +64,7 @@ Stars | Forks | PRs
 
 ### KPI's as at 2019/01/22
 
-- cyberd: 4 of 146 active validators (1 of them jailed)
+- cyberd: 3 of 146 active validators (+1 jailed)
 - cyb: yes [release](https://github.com/cybercongress/cyb/releases/tag/v0.1.1);
 - chaingear: 0 of 100 ETH take from chaingear;
 - [#39](https://gitcoin.co/profile/cybercongress) organization on gitcoin.co;
