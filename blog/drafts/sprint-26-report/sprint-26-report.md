@@ -17,7 +17,7 @@ After a successful launch we have faced a few problems with our blockchain:
 
 Good news: we have solved it already, but validators are still [welcome](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md)!
 
-Secondly, we've prepared a [whitepaper 0.3](https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md). It's still a draft, but for launched testnet with economic incentives it has a weight.
+Secondly, we've prepared a [whitepaper 0.4](https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md). It's still immature, but for launched testnet with economic incentives it makes sense.
 
 I need to  remind once again for all who care about web3 and decentralized search engine to join the discussion in our [telegram dev chat](https://t.me/fuckgoogle).
 
