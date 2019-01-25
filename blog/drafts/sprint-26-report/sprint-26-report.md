@@ -19,7 +19,7 @@ Good news: we have solved it already, but validators are still [welcome](https:/
 
 Secondly, we've prepared a [whitepaper 0.4](https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md). It's still immature, but for launched testnet with economic incentives it makes sense.
 
-I need to  remind once again for all who care about web3 and decentralized search engine to join the discussion in our [telegram dev chat](https://t.me/fuckgoogle).
+I need to remind once again for all who care about web3 and decentralized search engine to join the discussion in our [telegram dev chat](https://t.me/fuckgoogle).
 
 Thirdly we've updated Chaingear UI and soon it will be deployed to mainnet, so probably at my next report, I'll glad to announce you the most expensive database!
 
