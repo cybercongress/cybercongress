@@ -63,7 +63,7 @@
 - [Посмотреть презентацию](http://ipfs.io/ipfs/QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH)
 - [Стать валидатором](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md)
 - [Скачать браузер Cyb](https://cyb.ai/)
-- [Узнать про дистрибьюцию](см. ниже)
+- [Узнать про дистрибьюцию](https://github.com/cybercongress/congress/blob/master/blog/drafts/CYB_and_CBD_distribition/distribution.md)
 - [В блог](https://steemit.com/@cybercongress)
 
 Спасибо за поддержку проекта :-)
