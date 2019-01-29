@@ -1,32 +1,34 @@
-The goal of this post make description of cybercongress, our values and goals.
+The goal of this post is to draw a description of cybercongress, of our values and goals.
 
-
-Points to cover:
+Points that are covered:
 - Who we are
 - Our history
 - How we do things
-- How much progress we have made
+- How much progress have we made
 - What is unique and impressive about us
 - Summary of the most powerful facts
 
 #### We are cybercongress
-The blockchain technology has opened the opportunity for development, which was impossible before. We are sovereign self-funded company of developers, engineers, scientists and craftmens who create the basis for a new type of existence. We introduce and experiment with a fundamentally new approach to self-management and the development of a community oriented towards our set of values and goals.
+The blockchain technology has opened the opportunity for development, which was impossible before. We are a sovereign self-funded company of developers, engineers, scientists and craftmens that are creating the basis for a new type of existence. We introduce and experiment with a fundamentally new approach to self-management, and the development of an orientated community towards our set of values and goals.
 
 #### Our history
-Our history is just beginning but talking about our history we must make special mention of the cyber•Fund. In April 2018 @xhipster, @litvintech and @hleb-albau established a new company. As a result we created an [agreement](https://github.com/cybercongress/congress/blob/master/agreement.md) and explained who we are, for what we are and our values and goals. This is very powerful and important thing what we made as init of our work. @xhipster had very exciting and beautiful time with cyber•Fund and we tried to bear in mind the mistakes of cyber•Fund initiation. Development of new Agreement was start with incredible analysis of @xhipster experience. 
+Our history is still young, but in discussing it, we must make a special mention of cyber•Fund. 
+In April 2018 @xhipster, @litvintech and @hleb-albau established a new company. As a result we created an [agreement](https://github.com/cybercongress/congress/blob/master/agreement.md) and explained in it - who we are, for what we stand and our values and goals. This is a very powerful and an important thing that we made for our initiation. 
+@xhipster had spend some very exciting and amzaing time with cyber•Fund and we tried to bear in mind the mistakes of the initiation proccess of cyber•Fund. Development of a new agreement from start, with an incredible analysis based on the experience @xhipster had. 
 
-Cyber•Fund was created in November 2013. In November 2015 we developed cyber•Fund: Genesis Agreement. It was one of the first formal charter signed by participants on Blockchain with proof of existence and hash of this doc. As you see we totally formalized our mission only after two years. In fact two years @xhipster didn't know what to do! Second very important point is that they didn't define goals in an Agreement. That's why they moving toward sometimes. But really big problem what @xhipster see now in a retrospective is that we didn't define values. This had impeded the development of cyber•Fund. That has led to fork cyber•Congress from cyber•Fund and cyber•Academy from cyber•Events. Now we defined our values in an cyber•Congress Agreement and we hope that Congress will not repeati failures of the cyber•Fund's past. We're very young but we have huge experience. Our goals and values isn't just a general words. For us they are direct orders how to grow up. We clearly define what we need to do and what we absolutely don't need to do. Also we decided to abandon fiat money as it possible and third-party money to. We held a investment round inside the team and to farm 582 ETH. It's enough to deliver MVP coming year. If we're wrong we'll attract one more round. Attracting money from the team is a significant motivation for the team to do something and we are glad to tell that all teammates support this initiative.
+Cyber•Fund was created in November 2013. In November 2015 we developed cyber•Fund: Genesis Agreement. It was one of the first formal charters signed by participants on the Blockchain with proof of existence and a hash of this doc. As you can see, we totally formalized our mission only after two years had passed. In fact, for two years @xhipster didn't know what to do! The second very important point is that they didn't define goals in the Agreement. That's why the movement forward took a while. But, the real big problem that @xhipster sees now, in retrospective, is that the values weren't defined. This had impeded the development of cyber•Fund. That has led to the forks of cyber•Congress from cyber•Fund, and cyber•Academy from cyber•Events. Now we defined our values in the cyber•Congress Agreement, and we hope that the Congress will not repeat  th failures of cyber•Funds past. We're very young, but we have huge experience. Our goals and values aren't just general words. For us - they are direct orders on how to move forward. We clearly define what we need to do and what we absolutely don't need to do. Also, we decided to abandon fiat money, as it is possible to do. And, to abandon third-party money too. We held an investment round inside the team and we managed to "harvest" 582 ETH. It's enough to deliver an MVP over the coming year. If we are wrong, we'll attract another round. Attracting money from the team is a significant motivation for the team to do something and we are glad to see that all the teammates support this initiative.
 
-So what exactly is Congress? Congress is a for profit/non profit entity. We think this Hybrid is first in industry ever. It is not a fund therefore congress have no and will have no obligations. It's self funded entity. Drop processing model is:
+So what exactly is the Congress? The Congress is a "for profit/non profit" entity. We think that this Hybrid is the first in the industry. It is not a fund, and therefore the Congress has none, and will not have any obligations. It's a self funded entity. The drop model is the following:
   - 60% to delf through pumping tokens under management
   - 20% to Congress members
   - 20% to teams
 
-It's a first incentive model. The second one is working then Congress member want to leave Congress or Congress decide to liquidate itself. In those cases:
-  - 50% to members
-  - 25% to teams
-  - 25% to community
-  Namely 50% of member funds will stay at the Congress and dropping with first model.
+This is the first incentive model. 
+The second one comes into working when a Congress member wants to leave the Congress or the Congress decides to liquidate itself. In those cases:
+  - 50% goes to members
+  - 25% goes to teams
+  - 25% goes to the community
+  Namely, 50% of members funds will stay in the Congress and dropping with first model.
 
 #### Our values
 We believe that our principles should be aligned with our values, thus helping us to achieve our goals:
@@ -41,7 +43,7 @@ We believe that our principles should be aligned with our values, thus helping u
 - Free will. We reject corporate slavery bullshit, such as conflict of interest or NDA
 - Engineering is marketing. We would rather spend our resources on engineering then marketing
 - Physical liberty. Limitations for physical liberty can be economic, but not authoritative
-- Automation. Everything that can be automated, must be automated transactions
+- Automation. Everything that can be automated, must be automated
 - Decentralization. Everything that can be decentralized, shall be decentralized
 - Always on the edge. We try to offer alternatives to outdated technologies such as emails
 
@@ -74,23 +76,23 @@ Here is changeTheWorld oriented team:
 
 @xhipster - architector and visioner. Also cybernomics guru.
 
-@litvintech - creator and experimenter. Also blockchain husband.
+@litvintech - creator and experimenter. Also a blockchain husband.
 
-@hleb-albau - developer and engineer. Also guy who know how it does.
+@hleb-albau - developer and engineer. Also the guy who knows how its done.
 
-@asadovka - PM and solver. Also guy who count tokens.
+@asadovka - PM and solver. Also the guy who counts tokens.
 
-@pechalka - JS, frontend and fullstack developer. Also guy who look at blockchain with passion and sadness.
+@pechalka - JS, frontend and fullstack developer. Also the guy who looks at blockchain with passion and sadness.
 
-@vstavetski - Kotlin and backend developer. Also guy who like Honda tuning.
+@vstavetski - Kotlin and backend developer. Also the guy who likes Honda tuning.
 
-@savetheales - community manager. Also guy who like tasks on gitcoin.
+@savetheales - community manager. Also the guy who like tasks on gitcoin.
 
-@olga584 - tech and graph designer. Also girl.
+@olga584 - tech and graph designer. Also a girl.
 
-@arturalbov - Kotlin and Go backend developer. Also young guy with big ambitions.
+@arturalbov - Kotlin and Go backend developer. Also the young guy with big ambitions.
 
-Also only fitting to tell about operation processes in our team. As you see we have no CEO. We think that is bullshit to delegate all management tools to one person. We have 2 of 3 multisig. It's a agile and simple way to negotiate.
+Is is fitting to explain the operation processes within our team. As you see - we have no CEO. We think that it is bullshit to delegate all the management tools to one single person. We have 2 of 3 multisignature accounts. It's an agile and a simple way to negotiate.
 
 #### Current project
 Here is full stack of our projects:
@@ -102,12 +104,12 @@ Here is full stack of our projects:
 - [cyber-markets](https://github.com/cybercongress/cyber-markets) - toolchain for trades/orders parsing and processing
 - [chaingear](https://github.com/cybercongress/chaingear) - the Metaregistry for your registry
 
-Our development process is structured on two-weeks sprints and 4-5 months blocks. In August 2018 our first block has finished. We have faced with out-of-focus problem and lack of resources as a result. So we have develop new [roadmap](https://github.com/cybercongress/congress/blob/master/Reports/second-block.md) on the next block with understandable metrics and milestones. So for the next five months we will focus on [cyberd](https://github.com/cybercongress/cyberd) and [cyb](https://github.com/cybercongress/cyb). Also on a [cybernode](https://github.com/cybercongress/cybernode) in those new role.
+Our development process is structured on two-weeks sprints and 4-5 months long blocks. In August 2018 our first block was finished. We have faced with out-of-focus problem and lack of resources as a result. So we have developed a new [roadmap](https://github.com/cybercongress/congress/blob/master/Reports/second-block.md) for the next block with understandable metrics and milestones. So for the next five months we will focus on [cyberd](https://github.com/cybercongress/cyberd) and [cyb](https://github.com/cybercongress/cyb). Also, we will focus on [cybernode](https://github.com/cybercongress/cybernode) within the new role.
 
-In addition we intend to integrate [chaingear](https://github.com/cybercongress/chaingear) in [cyb](https://github.com/cybercongress/cyb) as dapp. Another projects have not been forgotten. They will developing through the community on the [gitcoin](https://gitcoin.co/). So you're welcome.
+In addition, we intend to integrate [chaingear](https://github.com/cybercongress/chaingear) in [cyb](https://github.com/cybercongress/cyb) as a dapp. Other projects have not been forgotten. They will be developing through our community on [gitcoin](https://gitcoin.co/). So you're welcome to join.
 
 #### Contacts
-According our values we decide use next communication channels:
+According to our values we have decided to use the following communication channels:
 
 - [reddit](https://www.reddit.com/r/cybercongress)
 - [steemit](https://steemit.com/@cybercongress)
@@ -118,12 +120,13 @@ According our values we decide use next communication channels:
 And [github](https://github.com/cybercongress) of course!
 
 #### Summarize
-Cyber•Congress is not only about the software. Is not only about hardware, development, blockchain or whatever. Is not only about cybernomics and progress. It about principal new existence model.
+Cyber•Congress is not only about the software. Is not only about hardware, development, blockchain or whatever. It is not only about cybernomics and progress. It about a principal new existence model.
 
-We intend to aim for this with passion and patience till our goals will not be achieved. And so on. Probably.
+We intend to aim for this with passion and patience, untill our goals will not be achieved. And so on. Probably.
 
 #### What you can find in our blog?
+In our blog you will find actual information about the state of the project. Also, you can enjoy our regular column "Top 10 gitcoin tasks" - a report about our work and tutorials. All of this content will be created by our teammates therefore it will be alive, honest and useful.
 
-In our blog you will find actual information about project states. Also you can enjoy our regular column "Top 10 gitcoin tasks", reports about our work and tutorials. All of this content will be created by our teammates therefore it will life, honest and useful.
-We will share not just dev things but organization processes and structure too. Will discuss problems and so on.
+We will share, not just the dev things, but organization processes and structure too. We will discuss problems and so on.
+
 Enjoy!
