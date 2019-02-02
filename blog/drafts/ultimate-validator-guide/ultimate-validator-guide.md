@@ -4,41 +4,6 @@
 
 The cyberd is a public Proof-Of-Stake (PoS) blockchain, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
 
-# Why to do this
-
-![](http://cloudflare-ipfs.com/ipfs/QmZzMWV6GZeRH8rXMkb1FTXnSx19Bx9LVMXmkJXtqUF6ir)
-
-# Knowledge graph
-
-network of content identificators
-
-
--> CIDs are web3 links
--> agents generate knowledge graph
--> hyperlink != cyberlink
--> agents make cyberlinks relevant to themselves
--> linkchain
-
-? what algorithm we are using to process graph
-
-# Relevance machine
-proof of relevance using
-consensus computer
-
--> Consensus: tendermint
--> Rank: fast, predictive, deterministic ...
--> Initial reputation: rank of ether addresses
--> Spam: limit broadband by stake
--> Motivation: prediction market on link relevance
--> Scalability: sharding of domains
--> Privacy: *
-
-# Consensus
-about tendermint
-
-# Distribution
-![](https://cloudflare-ipfs.com/ipfs/QmSn6iU53MS4hr3xRYS18YAAt1vkmgnn2JYzjuLYiWDrVG)
-
 # Validators
 The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - only validators with big stake stay in a pool.
 
@@ -56,7 +21,7 @@ Software: Docker, Ubuntu 16.04/18.04 LTS
 
 ## Third-party software
 
-Cyberd main distribution unit is [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from container, nvidia drivers version **410+** and [nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on host system. For great user experience we propose you to use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already have and configure necessary software.
+Cyberd main distribution unit is [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For great user experience, we propose you to use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already had and configured necessary software.
 
 #### Docker installation
 
@@ -161,7 +126,7 @@ driver   : nvidia-driver-396 - third-party free
 driver   : nvidia-driver-415 - third-party free recommended
 driver   : xserver-xorg-video-nouveau - distro free builtin
 ```
-3. We need **410+** drivers release. As we see v415 is recommended. The command below will install recommended version of drivers.
+3. We need **410+** drivers release. As we see v415 is recommended. The command below will install the recommended version of drivers.
 
 ```bash
 sudo ubuntu-drivers autoinstall
@@ -321,7 +286,7 @@ The possible output looks like this:
 ```
 {"node_info":{"protocol_version":{"p2p":"6","block":"9","app":"0"},"id":"93b776d3eb3f3ce9d9bda7164bc8af3acacff7b6","listen_addr":"tcp://0.0.0.0:26656","network":"euler-1","version":"0.29.1","channels":"4020212223303800","moniker":"anonymous","other":{"tx_index":"on","rpc_address":"tcp://0.0.0.0:26657"}},"sync_info":{"latest_block_hash":"686B4E65415D4E56D3B406153C965C0897D0CE27004E9CABF65064B6A0ED4240","latest_app_hash":"0A1F6D260945FD6E926785F07D41049B8060C60A132F5BA49DD54F7B1C5B2522","latest_block_height":"45533","latest_block_time":"2019-02-01T09:49:19.771375108Z","catching_up":false},"validator_info":{"address":"66098853CF3B61C4313DD487BA21EDF8DECACDF0","pub_key":{"type":"tendermint/PubKeyEd25519","value":"uZrCCdZTJoHE1/v+EvhtZufJgA3zAm1bN4uZA3RyvoY="},"voting_power":"0"}}
 ```
-Your node start to syncing. The syncing process you can see in terminal. Open new tab and run following command:
+Your node has started to sync. The syncing process you can see in the terminal. Open a new tab and run following command:
 
 ```bash
 docker logs cyberd --follow
@@ -417,34 +382,17 @@ docker exec -ti cyberd cyberdcli query stake validators --trust-node=true
 
 If you see your `<your_node_nickname>` with status `Bonded` and Jailed `false` everything must be good. You are validating the network.
 
+# Maintenance of validator
 
-# Working with validator
-#### monitoring
-??? is it means logs? described above.
-
-#### importing of keys
-??? the same thing. Described above.
-
-#### get balance
-
-#### get validators
-#### staking
-#### transfer
 #### jailing
 
 If your validator go under slashing conditions it first go to jail. After this event operator must unjail it manually.
 
 ```bash
-docker exec -ti cyberd cyberdcli tx slashing unjail --from=<your-wallet> --chain-id=<chain-id>
+docker exec -ti cyberd cyberdcli tx slashing unjail --from=<your_key_name> --chain-id=euler-1
 ```
 
-#### bandwidth
-
-#### explorer soon...
-
-# Maintenance of validator
-
-# Upgrading of validator
+#### Upgrading of validator
 
 Updating is easy as pulling the new docker container and launching it again
 
@@ -465,17 +413,10 @@ Don't forget to unjail if you was jailed during update.
 put more gpu
 sharding soon
 
-# Concept of useful testnet
-- Links are persistent
-- Ranks can be refined
-- Balances to be transferred
-
-# Connect to CYB, the web3 browser
-
 # Call to you, validator
 
-As at 2019/02/01 there 7 active validators. This is enough to support net, but this is not enoght for quality grow. We looking for validators. Join us!
-
-# PS: about indexing and building graph
+As at 2019/02/01 there 7 active validators. This is enough to support net, but this is not enough for quality grow. We looking for validators. Join us!
 
 # Connect to us, #fuckgoogle
+
+Subscribe at [Steemit](https://steemit.com/@cybercongress), [Reddit](https://www.reddit.com/r/cybercongress/), [Twitter](https://twitter.com/cyber_devs), [Telegram channel](https://t.me/cybercongress) and join our community in [@fuckgoogle](https://t.me/fuckgoogle)
