@@ -99,7 +99,7 @@ docker pull portainer/portainer
 2. Now run Portainer using the simple docker command below.
 
 ```bash
-docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+docker run -d --restart always -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
 
 3. Open your browser and go to:
@@ -320,7 +320,7 @@ After your node successful synced you can run validator.
 
 #### Prepare stake address
 
-If you already have address with CYB and know seed phrase just restore it into your local keystore.
+If you already have address with CYB and know seed phrase or private key just restore it into your local keystore.
 ```bash
 docker exec -ti cyberd cyberdcli keys add <your_key_name> --recover
 docker exec cyberd cyberdcli keys show <your_key_name>
