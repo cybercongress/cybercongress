@@ -2,12 +2,25 @@
 
 # What is this
 
-The cyberd is a public Proof-Of-Stake (PoS) blockchain, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
+The cyberd is a public Delegated Proof-of-Stake (DPoS) based on Tendermint Byzantine Fault-Tolerant, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
 
 # Validators
 The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - top 146 with staked tokens will in a active validators set.
 
 # Validators requirements
+
+Minimal requirements for the next two weeks (until the middle of February):
+
+```
+CPU: 4 cores
+RAM: 16 GB
+SSD: 256 GB
+Connection: 100Mb, Fiber, Stable and low-latency connection
+GPU: GeForce 1070-1080, CUDA
+Software: Docker, Ubuntu 16.04/18.04 LTS
+```
+Recommended requirements:
+
 ```
 CPU: 6 cores
 RAM: 64 GB
@@ -95,9 +108,9 @@ docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portaine
 localhost:9000
 ```
 
-![](portainer_start.jpg)
+![](portainer_start.png)
 
-4. Chose `local` tab, click `connect`, set password. All containers will be available at `containers` tab.
+4. Set password, chose `local` tab and click `connect`. All containers will be available at `containers` tab.
 
 #### Nvidia drivers installation
 
@@ -296,7 +309,7 @@ Or go to `localhost:9000` and open logs at cyberd container:
 
 ![](cyberd_logs.jpg)
 
-Syncing does not take a lot of time. Approximately 10-30 minutes. It depend on your internet bandwidth and connection. Once you see in logs that blocks syncing for 1 second your node is synced.
+Syncing has started. Syncing time depends on your internet bandwidth, connection and blockchain height. As at 2019/02/03 syncing time approximately 15-20 minutes. Once you see in logs that blocks syncing for 1 second your node is synced.
 
 Additional information available by API endpoint at `localhost:26657`
 
