@@ -55,10 +55,19 @@ sudo apt-get install \
      software-properties-common
 ```
 
+> May require `curl` installation `apt-get install curl`
+
 3. Add Docker’s official GPG key:
 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+```bash
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
 ```
 
 4. Update the apt package index.
@@ -117,7 +126,10 @@ localhost:9000
 1. To proceed first add the `ppa:graphics-drivers/ppa` repository into your system:
 
 ```bash
-sudo add-apt-repository ppa:graphics-drivers/ppa`
+sudo add-apt-repository ppa:graphics-drivers/ppa
+```
+
+```bash
 sudo apt update
 ```
 
