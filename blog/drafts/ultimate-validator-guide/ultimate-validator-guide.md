@@ -1,11 +1,11 @@
-# Ultimate cyberd validator guide. Testnet: Euler-1.
+# Ultimate cyberd validator setup. Testnet: Euler-1.
 
 # What is this
 
 The cyberd is a public Proof-Of-Stake (PoS) blockchain, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
 
 # Validators
-The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - only validators with big stake stay in a pool.
+The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - top 146 with staked tokens will in a active validators set.
 
 # Validators requirements
 ```
@@ -265,7 +265,7 @@ Your machine is ready to launch fullnode.
 
 ## Cyberd fullnode launching
 
-1. Create folders for keys and data storing:
+1. Create folders for keys and data storing where you want:
 
 ``` bash
 mkdir cyberd
@@ -275,7 +275,7 @@ mkdir cyberdcli
 2. Run fullnode
 
 ```bash
-docker run -d --name=cyberd --restart always --runtime=nvidia  -p 26656:26656 -p 26657:26657 -p 26660:26660  -v /root/cyberd:/root/.cyberd  -v /root/cyberdcli:/root/.cyberdcli  cyberd/cyberd:euler-1
+docker run -d --name=cyberd --restart always --runtime=nvidia  -p 26656:26656 -p 26657:26657 -p 26660:26660  -v /<path_to_cyberd>/cyberd:/root/.cyberd  -v /<path_to_cyberdcli>/cyberdcli:/root/.cyberdcli  cyberd/cyberd:euler-1
 ```
 3. After successful container pulling and launch run to check if your node is connected to the testnet:
 
