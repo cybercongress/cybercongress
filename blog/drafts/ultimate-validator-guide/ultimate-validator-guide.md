@@ -307,7 +307,7 @@ After your node successful synced you can run validator.
 
 #### Prepare stake address
 
-If you already have address with CYB and know seed phrase just restore it into your local keystore.
+If you already have address with CYB and know seed phrase or private key just restore it into your local keystore.
 ```bash
 docker exec -ti cyberd cyberdcli keys add <your_key_name> --recover
 docker exec cyberd cyberdcli keys show <your_key_name>
