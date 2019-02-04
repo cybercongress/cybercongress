@@ -2,9 +2,10 @@
 
 # What is this
 
-The cyberd is a public Delegated Proof-of-Stake (DPoS) based on Tendermint Byzantine Fault-Tolerant, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
+The cyberd is a public Delegated Proof-of-Stake (DPoS) protocol based on Tendermint Byzantine Fault-Tolerant consensus, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
 
 # Validators
+
 The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - top 146 with staked tokens will in a active validators set.
 
 # Validators requirements
@@ -34,7 +35,7 @@ Software: Docker, Ubuntu 16.04/18.04 LTS
 
 ## Third-party software
 
-Cyberd main distribution unit is [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For great user experience, we propose you to use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already had and configured necessary software.
+Cyberd main distribution unit is a [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For great user experience, we propose you to use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already had and configured necessary software.
 
 #### Docker installation
 
