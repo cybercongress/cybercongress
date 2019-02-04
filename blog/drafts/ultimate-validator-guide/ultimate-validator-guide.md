@@ -10,6 +10,8 @@ The maximum number of validators is 146. If number of active validators is less 
 
 # Validators requirements
 
+Rank calculation on a cyberd is benefit GPU computation. They easy to parallelize that why is the best way is to use GPU.
+
 Minimal requirements for the next two weeks (until the middle of February):
 
 ```
@@ -210,7 +212,7 @@ You should see this:
 +-----------------------------------------------------------------------------+
 ```
 
-### Install nvidia container runtime for docker
+### Install Nvidia container runtime for docker
 
 1. Add the package repositories
 
@@ -403,7 +405,7 @@ docker exec -ti cyberd cyberdcli tx staking create-validator \
 #### Verify that you validating
 
 ```bash
-docker exec -ti cyberd cyberdcli query stake validators --trust-node=true
+docker exec -ti cyberd cyberdcli query staking validators --trust-node=true
 ```
 
 If you see your `<your_node_nickname>` with status `Bonded` and Jailed `false` everything must be good. You are validating the network.
@@ -436,12 +438,15 @@ docker run -d --name=cyberd --restart always --runtime=nvidia \
 
 Don't forget to unjail if you was jailed during update.
 
-put more gpu
-sharding soon
+The rank calculation has a linear relationship between GPU memory usage and links quantity. A number of links indefinitely increasing, but the potential of vertical scaling is limited.
+
+Understanding this, we are looking for solutions to calculate the same amount of links with fewer capacity.
 
 # Call to you, validator
 
-As at 2019/02/01 there 7 active validators. This is enough to support net, but this is not enough for quality grow. We looking for validators. Join us!
+For now it is time and opportunity go up against blackbox search engines. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.
+
+As at 2019/02/04 there 9 active validators and 1 jailed. This is enough to support net, but this is not enough for quality grow. We looking for validators. Join us!
 
 # Connect to us, #fuckgoogle
 
