@@ -49,6 +49,7 @@ payouts = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
 github = "Pechalka"
 telegram = "LuzhkovskyAndrey"
 keybase = "andrewluzkovsky"
+ipfs = "QmTXAhG5MMmZ3oC1M9NAoSznCRZfxCu1HomZ7pBt6ACTfA"
 cyber = "cyber1xege0g92p6exmzjv58u7vh3s5zkz75v4euzyxe"
 
 [vstavetski]
@@ -58,6 +59,7 @@ payouts = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
 github = "vstavetski"
 telegram = "vstavetski"
 keybase = "vstavetski"
+ipfs = "QmbLz93QnULR9PBC79bAPZzSQ7mwVx21wed4GQkKxSPF71"
 cyber = "cyber1gs92s58t6rkallnml8ufdzrz3038dcylrcjyqd"
 
 [savetheales]
@@ -77,6 +79,7 @@ payouts = "0x9d7d6E753F055E40d3767337300e722E934086c1"
 github = "Olga584"
 telegram = "OlgaBessonova"
 keybase = "olgabessonova"
+ipfs = "QmQkdzN2Yo9UJ8PxGrhwCnnTwevag1t67QmSMcNPWJNPvC"
 cyber = "cyber1up7dk03v4d898vqgmc2y32y7duuylgx8a6r9d8"
 
 [arturalbov]
@@ -86,6 +89,7 @@ payouts = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
 github = "arturalbov"
 telegram = "arturalbov"
 keybase = "arturalbov"
+ipfs = "QmduaPLxeVPEWcRRCFYFdXLg85SgeVhf4A7D48NJdrdCu9"
 cyber = "cyber1rl3xnsrkpjfwejqfy7v4kntu64hzxy8dk65q98"
 
 [dimakorzhovnik]
@@ -95,4 +99,5 @@ payouts = "0xE8298160C9E8cabd8F2711B92529E0aFE8FB01FB"
 github = "dimakorzhovnik"
 telegram = "korzhovnik_dima"
 keybase = "dimakorzhovnik"
+ipfs = "QmciKaXo9bSF3BsV2JLponqmrWqbvGiw5qEG6epQsRKFTA"
 cyber = "cyber177gvvqtn7xl8qvl6yw4vax9raz80fx66aukc94"
