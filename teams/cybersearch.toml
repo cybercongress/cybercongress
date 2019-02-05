@@ -10,7 +10,7 @@ github = "hleb-albau"
 telegram = "hleb_albau"
 keybase = "hleb_albau"
 ipfs = "QmSQ7YJHZA4kZxMYx8YjBwo7wiLofgse15Gf6bPqyEdFfh"
-cyber = "cbd1rqudjcrdwqedffxufmqgsleuguhm7pka6snns3"
+cyber = "cyber1rqudjcrdwqedffxufmqgsleuguhm7pkayhwy0y"
 
 [litvintech]
 name = "Valery Litvin"
@@ -20,7 +20,7 @@ github = "litvintech"
 telegram = "litvintech"
 keybase = "litvintech"
 ipfs = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
-cyber = "cbd1s3748ghvcwvrws3kxsdc8xnan3qhv77740gnnl"
+cyber = "cyber1s3748ghvcwvrws3kxsdc8xnan3qhv777tg4yv2"
 
 [xhipster]
 name = "Dima Starodubcev"
@@ -30,7 +30,7 @@ github = "xhipster"
 telegram = "xhipster"
 keybase = "21xhipster"
 ipfs = "QmV9P23ZC2GCsDanZwZQHWEKdnd2VyXwzgM5x7XA7iMgnp"
-cyber = "cbd1hlu0kqwvxmhjjsezr00jdrvs2k537mqhrv02ja"
+cyber = "cyber1hlu0kqwvxmhjjsezr00jdrvs2k537mqhatjadg"
 
 [asadovka]
 name = "Siarhei Sadau"
@@ -49,7 +49,7 @@ payouts = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
 github = "Pechalka"
 telegram = "LuzhkovskyAndrey"
 keybase = "andrewluzkovsky"
-cyber = "cbd1xege0g92p6exmzjv58u7vh3s5zkz75v48mlnev"
+cyber = "cyber1xege0g92p6exmzjv58u7vh3s5zkz75v4euzyxe"
 
 [vstavetski]
 name = "Valentin Stavetski"
@@ -58,7 +58,7 @@ payouts = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
 github = "vstavetski"
 telegram = "vstavetski"
 keybase = "vstavetski"
-cyber = "cbd1gs92s58t6rkallnml8ufdzrz3038dcylal0nlc"
+cyber = "cyber1gs92s58t6rkallnml8ufdzrz3038dcylrcjyqd"
 
 [savetheales]
 name = "Ales Puchilo"
@@ -68,8 +68,7 @@ github = "SaveTheAles"
 telegram = "savetheales"
 keybase = "savetheales"
 ipfs = "QmTL3gftAjBZ7WU4GppYg7odQymraN66VFk1NkQyEbbBNj"
-cyber = "cbd139wwxt9tpyrhg2d3llve8ysldv5haq9jlls6zu"
-
+cyber = "cyber1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4878e0"
 
 [olga584]
 name = "Olga Bessonova"
@@ -78,7 +77,7 @@ payouts = "0x9d7d6E753F055E40d3767337300e722E934086c1"
 github = "Olga584"
 telegram = "OlgaBessonova"
 keybase = "olgabessonova"
-cyber = "cbd1up7dk03v4d898vqgmc2y32y7duuylgx8ra7jjj"
+cyber = "cyber1up7dk03v4d898vqgmc2y32y7duuylgx8a6r9d8"
 
 [arturalbov]
 name = "Artur Albau"
@@ -87,7 +86,7 @@ payouts = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
 github = "arturalbov"
 telegram = "arturalbov"
 keybase = "arturalbov"
-cyber = "cbd1rl3xnsrkpjfwejqfy7v4kntu64hzxy8dgafh6j"
+cyber = "cyber1rl3xnsrkpjfwejqfy7v4kntu64hzxy8dk65q98"
 
 [dimakorzhovnik]
 name = "Dima Korzhovnik"
