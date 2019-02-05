@@ -1,6 +1,6 @@
 # The show must go on
 
-![pic]()
+![pic](pic.png)
 
 Start: 2019-01-21
 
