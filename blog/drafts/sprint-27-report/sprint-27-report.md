@@ -8,14 +8,14 @@ End: 2019-02-01
 
 ### Сonclusion
 
-This sprint was not to easy for us. We had worked on bug fixing and improvements, and, also, adapted to the new climate.
+This sprint was not easy for us. We had worked on bug fixing and improvements, and, also, adapted to the new climate.
 
 What exactly is ready?
 Testnet [Euler](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1) drives like hell. It's too easy now to [launch own node or validator](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and start linking principally new Internet.
 
 Is it hard to? Alright! Testnet Euler is now available in [cyb](https://github.com/cybercongress/cyb/releases/tag/v0.1.2). So you can link the new Internet with great UX.
 
-And finally, [Chaingear](https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib) had deployed to [Mainnet](https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca). This is a good reason to register some popular domain as someone already made. So `.com` and `.porn` are busy already :)
+And finally, [Chaingear](https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib) was deployed to [Mainnet](https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca). This is a good reason to register some popular domain as someone already made. So `.com` and `.porn` are busy already :)
 
 But what am I going to say?
 
@@ -44,6 +44,7 @@ Today, exactly today we can say: "cyber•Search destined to be"! Our 3 repos in
 
 - [Simple .txqueue app #67 cyb](https://github.com/cybercongress/cyb/issues/67)
 - [Landing pages for key projects #36 congress](https://github.com/cybercongress/congress/issues/36)
+- [Smart secret storage](https://github.com/cybercongress/cyb/issues/150)
 
 
 Burndown | Storypoints done
