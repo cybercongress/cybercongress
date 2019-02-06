@@ -25,9 +25,9 @@ Today, exactly today we can say: "cyber•Search destined to be"! Our 3 repos in
 
 ### Changelog
 
-- #### [Cyberd bugs fixing, genesis distribution fixing, change tokens from CBD to CYB, bandwidth specification improvement, change account address structure](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
-- #### [Cyb release 0.1.2 bugs fixing, UPD interfaces, merged .help app, cyberd node connection available, fixed send function](https://github.com/cybercongress/cyb/releases/tag/v0.1.2)
-- #### [Chaingear launched in Mainnet](https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib)
+- #### [Cyberd release 0.1.1: 19 features, 10 bugs, 1 epic](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
+- #### [Cyb release 0.1.2: 4 features, 5 bugs, 1 epic](https://github.com/cybercongress/cyb/releases/tag/v0.1.2)
+- #### [Chaingear release 0.1.1 in Mainnet: 1 epic](https://github.com/cybercongress/chaingear/releases)
 
  ---
 
