@@ -215,12 +215,34 @@ docker exec -ti cyberd cyberdcli tx staking unbond
   --chain-id=<testnet_chain_id>
 ```
 
+cyber1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4878e0
+cybervaloper1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4xvhhf
 
+18075045310322.937748814370000000cyb
+299738894.424487345540000000cyb
+
+reward from one
+docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
+  --from=ales \
+  --only-from-validator=cybervaloper1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4xvhhf \
+  --chain-id=euler-1
+
+comission
+docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
+  --from=ales \
+  --is-validator \
+  --chain-id=euler-1
 
 ???
-docker exec -ti cyberd cyberdcli query distr slashes
+docker exec -ti cyberd cyberdcli query distr slashes BUG!!!
 docker exec -ti cyberd cyberdcli query staking unbonding-delegation
 docker exec -ti cyberd cyberdcli query staking unbonding-delegations
 docker exec -ti cyberd cyberdcli query staking redelegation
 docker exec -ti cyberd cyberdcli query staking redelegations
 docker exec -ti cyberd cyberdcli query staking redelegations-from
+
+docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=ales \
+  --website cybercongress.ai \
+  --details trusted validator \
+  --chain-id=euler-1
