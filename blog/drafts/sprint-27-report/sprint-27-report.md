@@ -23,7 +23,7 @@ Today, exactly today we can say: "cyber•Search destined to be"! Our 3 repos in
 
 
 
-### Changelog
+### Releases
 
 - #### [Cyberd release 0.1.1: 19 features, 10 bugs, 1 epic](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
 - #### [Cyb release 0.1.2: 4 features, 5 bugs, 1 epic](https://github.com/cybercongress/cyb/releases/tag/v0.1.2)
