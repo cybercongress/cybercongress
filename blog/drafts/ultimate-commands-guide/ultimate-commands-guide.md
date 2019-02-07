@@ -8,7 +8,7 @@
 
   **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
 
-  **link** - reference between CID key and CID value. Transaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Linking time 100 s.
+  **link** - reference between CID key and CID value. Link message cost is `100*n`, where `n` is quantity of links in message. Other messages cost is `500`. Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks
 
   **liquid tokens** - transferable tokens in cyberd blockchain
 
@@ -73,7 +73,7 @@ docker exec cyberd cyberdcli query staking pool --trust-node
 docker exec -ti cyberd cyberdcli keys add <your_key_name> --recover
 ```
 
-##### Import an account by ETH private key and store it in local keystore
+##### Import an account by private key and store it in local keystore (private key could be your ETH private key)
 ```bash
 docker exec -ti cyberd cyberdcli keys add import_private <your_key_name>
 ```
@@ -91,7 +91,7 @@ docker exec cyberd cyberdcli keys show <your_key_name>
 
 ##### Show account balance.
 Return account number, balance, public key in 16 and sequence.
->Don't work if from current account no external transactions.
+>Don't work if from current account no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238)
 
 ```bash
 docker exec cyberd cyberdcli query account <your_key_address>
