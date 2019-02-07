@@ -6,7 +6,7 @@
 
   `your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100`.
 
-  Messages cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full regeneration time 24 hours
+  Messages cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
 
   **commission** -  tokens that you've earned with validation. You can take them at any time.
 
