@@ -6,7 +6,7 @@ Anyone who violates this code of conduct may be immediately ignored by our Great
 
 ## Our Culture and Values
 
-- Contributing. All contribution are welcome! We don't care about contributor's gender, race, religion, form, abilities, age and skin colour. We waiting for contribution from community regardless who is it: robot, humanoid or cosmic entity. All what we need is coincidence of values. We want to evolve open source community as hard as it possible.
+- Contributing. All contributions are welcome! We don't care about contributor's gender, race, religion, form, abilities, age and skin colour. We are waiting for contributions from any form of life: robot, humanoid or cosmic entity. All what we need is coincidence of values. We want to evolve open source community as hard as it possible.
 - Security. We don't work with fiat and paper hassle, but with digital signatures only.
 - Anonymity and privacy. If someone chooses to stay anonymous or private, it is her right to do so.
 - Open source software. Everything we run in production should be open source.
@@ -62,19 +62,19 @@ We are going to advance and deploy the following technologies available at the m
 
 ## Expected Behaviors
 
-We expect participants to communicate professionally and thoughtfully. We call out common situations where this is especially important. For example: when people disagree, when people join a project midstream, when people are unclear in their communication style, and when you feel the need to leave the community. We expect participants in this community to conduct themselves professionally. Since our primary mode of communication is text on an online forum (e.g. issue, pull request, comment, email, or chat text) devoid of vocal tone, gestures, or other context that is often vital to understanding, it is especially important that you convey these attitudes in text. This includes the following behaviors:
+We expect participants to communicate professionally and thoughtfully. We call out common situations where it is especially important. For example: when people disagree, when people join a project midstream, when people are unclear in their communication style, and when you feel the need to leave the community. We expect participants in this community to conduct themselves professionally. Since our primary mode of communication is text on an online forum (e.g. issue, pull request, comment, email, or chat text) devoid of vocal tone, gestures, or other context that is often vital to understanding, it is especially important that you convey these attitudes in text. This includes the following behaviors:
 
 **Assume positive intent.**
-When someone posts something we expect community members will assume positive intent on the part of the post. We may choose to disagree with the idea and reject the suggestion, but we expect that it was made in order to be supportive of the community goals.
+When someone posts something we expect that community members will assume positive intent on the part of the post. We may choose to disagree with the idea and reject the suggestion, but we expect that it was made in order to be supportive of the community goals.
 
 **Respectful to participants.**
-We expect participants will disagree on aspects of this project. Disagreements must remain professional. Even if we reject someone’s idea, we continue to welcome their participation. And if your idea is rejected, be more persuasive not bitter.
+We expect that participants will disagree on aspects of this project. Disagreements must remain professional. Even if we reject someone’s idea, we continue to welcome their participation. And if your idea is rejected, be more persuasive not bitter.
 
 **Seek to understand.**
 Open Source projects can be learning experiences. When someone poses something you find disagreeable or you don’t understand it, inquire about it. Ask, explore, challenge, and then assert if you agree or disagree.
 
 **Welcoming to new members.**
-New members bring fresh perspectives. Many will raised questions that have been addressed before, You can point them to existing discussions for them to get up to speed. Don’t punish them for being new to the project -- everyone is new to every project once.
+New members bring fresh perspectives. Most will raise questions that have been addressed before. You can point them to existing discussions for them to get up to speed. Don’t punish them for being new to the project -- everyone is new to every project once.
 
 **Kind to beginners.**
 Beginners use open source projects to get experience. They might not be talented coders yet, and projects should not accept poor quality code. But we were all beginners once, and we need to to reject code with kindness.
@@ -91,7 +91,7 @@ There may come a time where you stop believing in the project direction or get f
 
 ## Unacceptable Behaviors
 
-We call out examples of behaviors which cause members to lose their good standing in the community. These include insulting people on the basis of their protected-class status, threatening words, or unwanted sexual attention. Rather than fighting back, please report every incident directly to the project *Response Team*.  Participants in this open source community remain in good standing when they do not conduct themselves in a manner that violates this Code of Conduct. Misconduct includes:
+We call out examples of behavior which cause members to lose their good standing in the community. These include insulting people on the basis of their protected-class status, threatening words, or unwanted sexual attention. Rather than fighting back, please report every incident directly to the project *Response Team*.  Participants in this open source community remain in good standing when they do not conduct themselves in a manner that violates this Code of Conduct. Misconduct includes:
 
 Calling out project members by their identity or background in a deliberately negative or insulting manner. This includes but is not limited to slurs or insinuations related to protected or suspect classes such as race, color, citizenship, national origin, political belief, religion, sexual orientation, gender identity and expression, age, size, culture, ethnicity, genetic features, language, profession, membership of a national minority, mental or physical ability.
 - Insulting remarks about a person’s lifestyle practices.
