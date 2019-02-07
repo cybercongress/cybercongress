@@ -14,9 +14,9 @@
 
   **local keystore** - store with keys in you local machine
 
-  **rewards** - tokens that you've earned with delegation. You can take them at any time.
+  **rewards** - tokens that you've earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at **delegator** section.
 
-  **<comission_rate_percentage>** - must be fraction >0 and <=1
+  **<comission_rate_percentage>** - the commission that validator get for the work. Must be fraction >0 and <=1
 
   **<delegator_address>** - delegator address. Starts with `cyber` most often coinciding with **<key_address>**
 
@@ -26,7 +26,7 @@
 
   **<operator_address>** - validator address. Starts with `cybervaloper`
 
-  **<shares_percentage>** - must be fraction >0 and <=1
+  **<shares_percentage>** - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction >0 and <=1
 
   **<testnet_chain_id>** - version of testnet.
 
