@@ -8,7 +8,7 @@
 
   **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
 
-  **link** - reference between CID key and CID value. ransaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Linking time 100 s.
+  **link** - reference between CID key and CID value. Transaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Linking time 100 s.
 
   **liquid tokens** - transferable tokens in cyberd blockchain
 
