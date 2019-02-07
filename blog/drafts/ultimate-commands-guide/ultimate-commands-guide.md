@@ -2,13 +2,17 @@
 
 ## Glossary
 
-  **Bandwidth** - 1 bandwidth of approximately 55 600 000 cyb. The recovered unit of your account. Depends on your cyb count. Used to complete transactions in the cyberd blockchain. Transaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Full regeneration time 24 hours
+  **Bandwidth** - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:
+
+  `your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100`.
+
+  Messages cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full regeneration time 24 hours
 
   **commission** -  tokens that you've earned with validation. You can take them at any time.
 
   **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
 
-  **link** - reference between CID key and CID value. Link message cost is `100*n`, where `n` is quantity of links in message. Other messages cost is `500`. Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks
+  **link** - reference between CID key and CID value. Link message cost is `100*n`, where `n` is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks (from 100 to 200 seconds).
 
   **liquid tokens** - transferable tokens in cyberd blockchain
 
