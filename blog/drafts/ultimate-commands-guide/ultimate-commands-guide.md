@@ -1,4 +1,4 @@
-# Ultimate validator maintenance guide. Testnet: Euler-1.
+# Ultimate cyberd CLI guide. Testnet: Euler-1.
 
 ## Glossary
 
