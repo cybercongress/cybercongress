@@ -1,76 +1,111 @@
 # Ultimate validator maintenance guide. Testnet: Euler-1.
 
-
 ## Glossary
-  **<your_key_name>**
-  **<operator_address>**
+
+  **Bandwidth** - 1 bandwidth of approximately 55 600 000 cyb. The recovered unit of your account. Depends on your cyb count. Used to complete transactions in the cyberd blockchain. Transaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Full regeneration time 24 hours
+
+  **commission** -  tokens that you've earned with validation. You can take them at any time.
+
+  **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
+
+  **link** - reference between CID key and CID value. ransaction costs from 8 to 800 bandwidth - recalculate by price sliding window. Linking time 100 s.
+
+  **liquid tokens** - transferable tokens in cyberd blockchain
+
+  **local keystore** - store with keys in you local machine
+
+  **rewards** - tokens that you've earned with delegation. You can take them at any time.
+
+  **<comission_rate_percentage>** - must be fraction >0 and <=1
+
+  **<delegator_address>** - delegator address. Starts with `cyber` most often coinciding with **<key_address>**
+
+  **<key_address>** - account address. Starts with `cyber`
+
+  **<key_name>** - name of account in cybercli
+
+  **<operator_address>** - validator address. Starts with `cybervaloper`
+
+  **<shares_percentage>** - must be fraction >0 and <=1
+
+  **<testnet_chain_id>** - version of testnet.
+
 ## General commands
 
 ##### Show all validators
-
+Return set of all active and jailed validators.
 ```bash
-docker exec cyberd cyberdcli query staking validators --trust-node=true
+docker exec cyberd cyberdcli query staking validators --trust-node
 ```
 
 ##### Show chain status
-
+Return general chain information
 ```bash
-docker exec cyberd cyberdcli status
-  --indent
+docker exec cyberd cyberdcli status --indent
 ```
 
 ##### Distribution params
 ```bash
-docker exec -cyberd cyberdcli query distr params
+docker exec cyberd cyberdcli query distr params --trust-node
 ```
 
 ##### The amount of outstanding rewards
+Return the sum of rewards in a pool
 ```bash
-docker exec -ti cyberd cyberdcli query distr outstanding-rewards
+docker exec cyberd cyberdcli query distr outstanding-rewards --trust-node
 ```
 
 ##### Staking params
+Chain staking info
 ```bash
-docker exec -ti cyberd cyberdcli query staking params
+docker exec cyberd cyberdcli query staking params --trust-node
 ```
 
 ##### Staking pool
 ```bash
-docker exec -ti cyberd cyberdcli query staking pool
+docker exec cyberd cyberdcli query staking pool --trust-node
 ```
 
 ## Account management
 
+##### Import an account by seed phrase and store it in local keystore
+```bash
+docker exec -ti cyberd cyberdcli keys add <your_key_name> --recover
+```
+
+##### Import an account by ETH private key and store it in local keystore
+```bash
+docker exec -ti cyberd cyberdcli keys add import_private <your_key_name>
+```
+
+##### Create a new account
+```bash
+docker exec -ti cyberd cyberdcli keys add <your_key_name>
+```
+
 ##### Show account information
+Name, address and public key of current account
 ```bash
 docker exec cyberd cyberdcli keys show <your_key_name>
 ```
 
-##### Show account balance, pubkey in 16, account number and sequence
-```bash
-docker exec cyberd cyberdcli query account <your_account_address>
-```
+##### Show account balance.
+Return account number, balance, public key in 16 and sequence.
+>Don't work if from current account no external transactions.
 
-##### Send tokens
 ```bash
-docker exec cyberd cyberdcli tx send \
-  --from=<your_key_name> \
-  --to=<cyber_address_to_send_tokens> \
-  --account-number=<account_number> \
-  --amount=<amount>cyb \
-  --sequence=<your_current_sequence> \
-  --trust-node \
-  --chain-id=<testnet_chain_id>
+docker exec cyberd cyberdcli query account <your_key_address>
 ```
 
 ##### List existing keys
+Return all keys in cyberdcli
 ```bash
-docker exec -ti cyberd cyberdcli keys list
+docker exec cyberd cyberdcli keys list
 ```
 
 ##### Delete account from cybercli
 ```bash
-docker exec -ti cyberd cyberdcli keys delete <key_name_to_remove>
+docker exec -ti cyberd cyberdcli keys delete <deleting_key_name>
 ```
 
 ##### Update account password
@@ -78,15 +113,24 @@ docker exec -ti cyberd cyberdcli keys delete <key_name_to_remove>
 docker exec -ti cyberd cyberdcli keys update <your_key_name>
 ```
 
-##### Linking content
+##### Send tokens
 ```bash
-docker exec -ti cyberd cyberdcli link
+docker exec -ti cyberd cyberdcli tx send \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
+  --to=<key_address_to_send_tokens> \
+  --amount=<amount>cyb \
+  --chain-id=<testnet_chain_id>
+```
+
+##### Linking content
+
+>Just ipfs hashes available as a CID
+
+```bash
+docker exec -ti cyberd cyberdcli link \
+  --from=<your_key_name> \
   --cid-from=<key_phrase_to_link> \
-  --cid-to=<kontent_that_you_want_to_link> \
-  --trust-node \
+  --cid-to=<content_that_you_want_to_link> \
   --chain-id=<testnet_chain_id>
 ```
 
@@ -94,56 +138,78 @@ docker exec -ti cyberd cyberdcli link
 
 ##### Get all validators
 ```bash
-docker exec -ti cyberd cyberdcli query staking validators \
-    --trust-node=true
+docker exec cyberd cyberdcli query staking validators \
+    --trust-node
 ```
 
 ##### The amount of commission
+
+Available to withdraw validator comission.
 ```bash
-docker exec -ti cyberd cyberdcli query distr commission <validator_address>
+docker exec cyberd cyberdcli query distr commission <operator_address>
 ```
 
 ##### State of current validator
 ```bash
-docker exec -ti cyberd cyberdcli query staking validator <validator_address>
+docker exec cyberd cyberdcli query staking validator <operator_address>
 ```
 
 ##### Return all delegations to validator
 ```bash
-docker exec -ti cyberd cyberdcli query staking delegations-to <validator_address>
+docker exec cyberd cyberdcli query staking delegations-to <operator_address>
 ```
 
-##### Edit an existing validator account
+##### Edit commission in existing validator account
 ```bash
 docker exec -ti cyberd cyberdcli tx staking edit-validator \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
   --commission-rate=<new_comission_rate_percentage> \
-  --trust-node \
+  --chain-id=<testnet_chain_id>
+```
+
+##### Withdraw comission for either a delegation  
+```bash
+docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
+  --from=<your_key_name> \
+  --chain-id=<testnet_chain_id> \
+  --is-validator
+```
+
+
+##### Edit site and description in existing validator account
+
+>Will be available at description section
+
+```bash
+docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=<your_key_name> \
+  --details="<description>" \
+  --website=<your_website> \
   --chain-id=<testnet_chain_id>
 ```
 
 ##### Unjail validator previously jailed for downtime
 ```bash
-docker exec -ti cyberd cyberdcli tx slashing unjail
+docker exec -ti cyberd cyberdcli tx slashing unjail \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
-  --trust-node \
   --chain-id=<testnet_chain_id>
+```
+
+##### Get info about redelegation process from validator
+```bash
+docker exec -ti cyberd cyberdcli query staking redelegations-from <operator_address>
 ```
 
 ## Delegator commands
 
 ##### Return distribution delegator rewards according current validator
 ```bash
-docker exec -ti cyberd cyberdcli query distr rewards <delegator_address> <validator_address>
+docker exec -ti cyberd cyberdcli query distr rewards <delegator_address> <operator_address>
 ```
 
 ##### Return delegator shares with current validator
 ```bash
-docker exec -ti cyberd cyberdcli query staking delegation <delegator_address> <validator_address>
+docker exec -ti cyberd cyberdcli query staking delegation <delegator_address> <operator_address>
 ```
 
 ##### Return all delegations made from one delegator
@@ -153,26 +219,21 @@ docker exec -ti cyberd cyberdcli query staking delegations <delegator_address>
 
 ##### Return all unbonding delegatations from a validator
 ```bash
-docker exec -ti cyberd cyberdcli query staking unbonding-delegations-from <validator_address>
+docker exec -ti cyberd cyberdcli query staking unbonding-delegations-from <operator_address>
 ```
 
-##### ??? withdraw rewards for either a delegation or a validator
+##### Withdraw rewards for either a delegation  
 ```bash
 docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
-  --trust-node \
-  --chain-id=<testnet_chain_id>
+  --chain-id=<testnet_chain_id> \
+  --only-from-validator=<operator_address>
 ```
 
-##### ??? change the default withdraw address for rewards associated with an address
+##### Change the default withdraw address for rewards associated with an address
 ```bash
 docker exec -ti cyberd cyberdcli tx distr set-withdraw-addr <your_new_address> \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
-  --trust-node \
   --chain-id=<testnet_chain_id>
 ```
 
@@ -180,69 +241,73 @@ docker exec -ti cyberd cyberdcli tx distr set-withdraw-addr <your_new_address> \
 ```bash
 docker exec -ti cyberd cyberdcli tx staking delegate \
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
   --amount=<amount>cyb \
-  --validator=<validator_address> \
-  --trust-node \
+  --validator=<operator_address> \
   --chain-id=<testnet_chain_id>
 ```
 
-##### ??? Redelegate illiquid tokens from one validator to another
+##### Redelegate illiquid tokens from one validator to another in absolute cyb value
+>3 weeks for redelegation. Amount must be less than already delegated.
+
 ```bash
 docker exec -ti cyberd cyberdcli tx staking redelegate
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
-  --addr-validator-dest=<new_validator_address> \
-  --addr-validator-source=<old_validator_address> \
-  --shares-amount string
-  --shares-fraction string
-  --trust-node \
+  --addr-validator-dest=<new_operator_address> \
+  --addr-validator-source=<old_operator_address> \
+  --shares-amount=<amount>cyb
   --chain-id=<testnet_chain_id>
 ```
 
-##### ??? unbond shares from a validator
+##### Redelegate illiquid tokens from one validator to another in percentages
+>3 weeks for redelegation.
+
+```bash
+docker exec -ti cyberd cyberdcli tx staking redelegate
+  --from=<your_key_name> \
+  --addr-validator-dest=<new_operator_address> \
+  --addr-validator-source=<old_operator_address> \
+  --shares-fraction=<shares_percentage> \
+  --chain-id=<testnet_chain_id>
+```
+
+##### Unbond shares from a validator in absolute cyb value
+>3 weeks unbonding.
+
 ```bash
 docker exec -ti cyberd cyberdcli tx staking unbond
   --from=<your_key_name> \
-  --account-number=<account_number> \
-  --sequence=<your_current_sequence> \
-  --shares-amount
-  --shares-fraction
-  --validator==<validator_address> \
-  --trust-node \
+  --shares-amount=<amount>cyb
+  --validator==<operator_address> \
   --chain-id=<testnet_chain_id>
 ```
 
-cyber1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4878e0
-cybervaloper1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4xvhhf
+##### Unbond shares from a validator in percentages
+>3 weeks unbonding.
 
-18075045310322.937748814370000000cyb
-299738894.424487345540000000cyb
+```bash
+docker exec -ti cyberd cyberdcli tx staking unbond
+  --from=<your_key_name> \
+  --shares-fraction=<shares_percentage> \
+  --validator==<operator_address> \
+  --chain-id=<testnet_chain_id>
+```
 
-reward from one
-docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
-  --from=ales \
-  --only-from-validator=cybervaloper1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4xvhhf \
-  --chain-id=euler-1
+##### Get info about unbonding delegation process to current validator
+```bash
+docker exec -ti cyberd cyberdcli query staking unbonding-delegation <delegator_address> <operator_address>
+```
 
-comission
-docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
-  --from=ales \
-  --is-validator \
-  --chain-id=euler-1
+##### Get info about unbonding delegation process to all unbonded validators
+```bash
+docker exec -ti cyberd cyberdcli query staking unbonding-delegation <delegator_address>
+```
 
-???
-docker exec -ti cyberd cyberdcli query distr slashes BUG!!!
-docker exec -ti cyberd cyberdcli query staking unbonding-delegation
-docker exec -ti cyberd cyberdcli query staking unbonding-delegations
-docker exec -ti cyberd cyberdcli query staking redelegation
-docker exec -ti cyberd cyberdcli query staking redelegations
-docker exec -ti cyberd cyberdcli query staking redelegations-from
+##### Get info about redelegation process from to current validator
+```bash
+docker exec -ti cyberd cyberdcli query staking redelegation <delegator_address> <old_operator_address> <new_operator_address>
+```
 
-docker exec -ti cyberd cyberdcli tx staking edit-validator \
-  --from=ales \
-  --website cybercongress.ai \
-  --details trusted validator \
-  --chain-id=euler-1
+##### Get info about all redelegation processes by one delegator
+```bash
+docker exec -ti cyberd cyberdcli query staking redelegations <delegator_address>
+```
