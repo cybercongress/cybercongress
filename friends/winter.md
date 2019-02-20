@@ -33,7 +33,7 @@ We have decided to structure the winter round, that has 2 equal, in its meaning,
 ```
 Contributors, that will donate ETH or DAI
 to the cyberCongress multi-signature address 0xb52b7eda722249499e3a28b5bb6c778ee0ac462c
-in between the 10.11.2018 and the 20.02.2019 (included) GMT, will be allocated:
+in between the 10.11.2018 and the 05.03.2019 (included) GMT, will be allocated:
 - 2.1153% CBD in the case that the size of the donations will not reach 2000 ETH
 - 3.1153% CBD in the case that the size of the donations will be higher than 2000 ETH
 - 4.1153% CBD in the case that the size of the donations will be higher than 5000 ETH
@@ -103,7 +103,7 @@ Thank you for supporting our project :-)
 
 - формирование стартового трастового сета валидаторов
 
-На данный момент в сети всего 3 валидатора из 146.
+На данный момент в сети всего до 10 валидаторов из 146.
 
 ![euler-first-validators](https://ipfs.io/ipfs/QmRs8TFAbmsGgYkYqry2uYvGuhvPVGwBSvme36PupAzCCN)
 
@@ -116,7 +116,7 @@ Thank you for supporting our project :-)
 ```
 Донорам которые перечислят ETH или DAI
 на мультисиг киберКонгресса 0xb52b7eda722249499e3a28b5bb6c778ee0ac462c
-в срок с 10.11.2018 по 20.02.2019 включительно по GMT аллоцируется:
+в срок с 10.11.2018 по 05.03.2019 включительно по GMT аллоцируется:
 - 2.1153% CBD в случае если объем донатов не превысит 2000 ETH и
 - 3.1153% CBD в случае если объем донатов превысит 2000 ETH
 - 4.1153% CBD в случае если объем донатов превысит 5000 ETH
