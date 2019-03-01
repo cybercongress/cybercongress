@@ -27,7 +27,7 @@ jobs:
           command: |
             # We need to remove current files in folder to avoid duplicating renamed files
             rm -rf ./wiki/docs/blog/*
-            cp -r ~/build/blog/releases. ./wiki/docs/blog/
+            cp -r ~/build/blog/releases/. ./wiki/docs/blog/
             git add -N wiki/docs/blog
             diff=$(git diff wiki/docs/blog/)
             if [[  -n  "$diff" ]]; then
