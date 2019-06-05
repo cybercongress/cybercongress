@@ -2,16 +2,6 @@
 
 title = "Team registry"
 
-[hleb-albau]
-name = "Hleb Albau"
-gitcoin = "0x00725d89a2a2fb3b21fd1035b579cbcde4a0991b"
-payouts = "0x002b9c5b537a1b6004ed720f32cc808fd6210f26"
-github = "hleb-albau"
-telegram = "hleb_albau"
-keybase = "hleb_albau"
-ipfs = "QmSQ7YJHZA4kZxMYx8YjBwo7wiLofgse15Gf6bPqyEdFfh"
-cyber = "cyber1rqudjcrdwqedffxufmqgsleuguhm7pkayhwy0y"
-
 [litvintech]
 name = "Valery Litvin"
 gitcoin = "0xf103D2db8024F4B885433ADAF72032Ac58304e03"
@@ -32,36 +22,6 @@ keybase = "21xhipster"
 ipfs = "QmV9P23ZC2GCsDanZwZQHWEKdnd2VyXwzgM5x7XA7iMgnp"
 cyber = "cyber1hlu0kqwvxmhjjsezr00jdrvs2k537mqhatjadg"
 
-[asadovka]
-name = "Siarhei Sadau"
-gitcoin = "0x318a6c1d757bD1938CefAa681c4CbC5380B34c47"
-payouts = "0x63e65bc441334b27d2178f81f2d701e4e58c158a"
-github = "asadovka"
-telegram = "asadovka"
-keybase = "asadovka"
-ipfs-node = "QmSnY29DkNQ5cRfkAn9z2MAp44t8sottganXTkjvS9GCfx"
-cyber = "cyber14d92r4svhl4qa3g6q48tjekarw2kt67nvcqwg7"
-
-[pechalka]
-name = "Andrew Luzhkovsky"
-gitcoin = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
-payouts = "0x5d01F31f6EdA95489cA1E3c6357A9627fA2983DE"
-github = "Pechalka"
-telegram = "LuzhkovskyAndrey"
-keybase = "andrewluzkovsky"
-ipfs = "QmTXAhG5MMmZ3oC1M9NAoSznCRZfxCu1HomZ7pBt6ACTfA"
-cyber = "cyber1xege0g92p6exmzjv58u7vh3s5zkz75v4euzyxe"
-
-[vstavetski]
-name = "Valentin Stavetski"
-gitcoin = "0x379a23083a58b2b89f4dd307ad55f732bb5a20ef"
-payouts = "0x4585C7EAA2cB96d4b59e868929EfaBEeb8e65b07"
-github = "vstavetski"
-telegram = "vstavetski"
-keybase = "vstavetski"
-ipfs = "QmbLz93QnULR9PBC79bAPZzSQ7mwVx21wed4GQkKxSPF71"
-cyber = "cyber1gs92s58t6rkallnml8ufdzrz3038dcylrcjyqd"
-
 [savetheales]
 name = "Ales Puchilo"
 gitcoin = "0x00466845B9906578ac86cBA4C2Dda0F2c46461F6"
@@ -71,26 +31,6 @@ telegram = "savetheales"
 keybase = "savetheales"
 ipfs = "QmTL3gftAjBZ7WU4GppYg7odQymraN66VFk1NkQyEbbBNj"
 cyber = "cyber1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4878e0"
-
-[olga584]
-name = "Volha Biassonava"
-gitcoin = "0x9d7d6E753F055E40d3767337300e722E934086c1"
-payouts = "0x9d7d6E753F055E40d3767337300e722E934086c1"
-github = "Olga584"
-telegram = "OlgaBessonova"
-keybase = "olgabessonova"
-ipfs = "QmQkdzN2Yo9UJ8PxGrhwCnnTwevag1t67QmSMcNPWJNPvC"
-cyber = "cyber1up7dk03v4d898vqgmc2y32y7duuylgx8a6r9d8"
-
-[arturalbov]
-name = "Artur Albau"
-gitcoin = "0x006A1FD66F89B0d7F57d52dCe7d5Bf57DB20279f"
-payouts = "0x00d3C9033570b8ADEA9C18780325A45635C55805"
-github = "arturalbov"
-telegram = "arturalbov"
-keybase = "arturalbov"
-ipfs = "QmduaPLxeVPEWcRRCFYFdXLg85SgeVhf4A7D48NJdrdCu9"
-cyber = "cyber1rl3xnsrkpjfwejqfy7v4kntu64hzxy8dk65q98"
 
 [dimakorzhovnik]
 name = "Dima Korzhovnik"
