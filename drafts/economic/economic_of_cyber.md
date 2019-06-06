@@ -2,7 +2,7 @@
 
 ![cyberd](cyberd.png)
 
-`Cyberd` or interplanetary search engine & knowledge consensus computer is cosmos SDK based blockchain with unique property creating bonds between IPFS CIDs and storing them at knowledge graph with weighted ranks. To understand the **economic structure** of `cyberd` we should look closely at the **key principles of the cyberd**, **basic incentives for all different participants** and ** the possible influence of these principles on their behavior**.
+`Cyberd` or interplanetary search engine & knowledge consensus computer is cosmos SDK based blockchain with unique property creating bonds between IPFS CIDs and storing them at knowledge graph with weighted ranks. To understand the **economic structure** of `cyberd` we should look closely at the **key principles of the cyberd**, **basic incentives for all different participants** and **the possible influence of these principles on their behavior**.
 
 ## ... key principles of the cyberd ...
 
