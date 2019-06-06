@@ -29,7 +29,7 @@ Delegators are eligible for inflation reward as well but they have to pay commis
 #### Users
 If we compare cyberd network with some search engine, users are consumers and service providers. Developers, entrepreneurs, SEO, buyers, and searchers who want to utilize the advantages of a decentralized search engine. Here we're putting `bandwidth` definition. `Cyberd` refused to the transaction or message fees in favor of resource credits as a method of decreasing network load. The main goal of that model is to reduce daily network growth to given constant, say less than 3gb per day. Bandwidth value depends on the network load and account balance, namely, the less network load, the cheaper bandwidth price, or the bigger your balance the bigger your bandwidth value. The activity of this group measures the overall value of the network and can have a significant impact on demand for the token.
 
-<p align="center">![bandwidth](Bandwidth.png)</p>
+![bandwidth](Bandwidth.png)
 <p align="center">Decreasing bandwidth value with sending transaction or linking. No commission</p>
 
 Full user bandwidth recovering goes in 24h.
@@ -40,7 +40,7 @@ Like the Cosmos Hub economy and reward distribution, `cyberd` relies on the infl
 
 There are one fundamental stream of revenue for validators - inflation.
 
-<p align="center">![rewards distribution](distr.png)</p>
+![rewards distribution](distr.png)
 
 #### Block reward
 Block reward distributing amongst all validators proportionally to their voting power. This reward is paid in CYBs.
