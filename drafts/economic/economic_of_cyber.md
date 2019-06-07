@@ -27,12 +27,20 @@ This group consists of CYB token holders who have not enough skills or resources
 Delegators are eligible for inflation reward as well but they have to pay commission, which varies within existing validators. There is no way for validators to steal bonded tokens but there are still other risks related to choosing the validator. Decisions based solely on a low commission rate is not always the best decision for delegators.
 
 #### Users
-If we compare cyberd network with some search engine, users are consumers and service providers. Developers, entrepreneurs, SEO, buyers, and searchers who want to utilize the advantages of a decentralized search engine. Here we're putting `bandwidth` definition. `Cyberd` refused to the transaction or message fees in favor of resource credits as a method of decreasing network load. The main goal of that model is to reduce daily network growth to given constant, say less than 3gb per day. Bandwidth value depends on the network load and account balance, namely, the less network load, the cheaper bandwidth price, or the bigger your balance the bigger your bandwidth value. The activity of this group measures the overall value of the network and can have a significant impact on demand for the token.
+If we compare cyberd network with some search engine, users are consumers and service providers. Developers, entrepreneurs, SEO, buyers, and searchers who want to utilize the advantages of a decentralized search engine. Here we're can understand the true value of `CYB` tokens. `Cyberd` refused to the transaction or message fees in favor of resource credits as a method of decreasing network load. The main goal of that model is to reduce daily network growth to given constant, say less than 3gb per day. In `cyberd` resource credits named **bandwidth**. The user bandwidth value is the ability of users to send messages, make links and do transactions. More bandwidth points, more opportunities. Bandwidth price depends on the network load, namely, the less network load, the cheaper bandwidth price. At the current `cyberd` set up general messages costs:
+
+| Type of transaction | Cost in BP |
+| ------------- |:-------------:|
+| Link|  K * 100 |
+| NonLink | 5 \* K * 100 |
+| Send | 3 \* K * 100 |
+
+**K** is the price coefficient. It's calculated as the ratio of current network load and maximum network load. This coefficient recalculated every minute. The minimal value of **K** is `0.01`. **BP** it's a user's bandwidth points. Full user bandwidth recovering goes in 24h.
 
 ![bandwidth](Bandwidth.png)
 <p align="center">Decreasing bandwidth value with sending transaction or linking. No commission</p>
 
-Full user bandwidth recovering goes in 24h.
+The activity of this group measures the overall value of the network and can have a significant impact on demand for the token.
 
 ## ... economic structure ... and reward distribution
 
