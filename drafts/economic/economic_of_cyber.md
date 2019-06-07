@@ -2,14 +2,16 @@
 
 ![cyberd](cyberd.png)
 
-`Cyberd` or interplanetary search engine & knowledge consensus computer is cosmos SDK based blockchain with unique property creating bonds between IPFS CIDs and storing them at knowledge graph with weighted ranks. To understand the **economic structure** of `cyberd` we should look closely at the **key principles of the cyberd**, **basic incentives for all different participants** and **the possible influence of these principles on their behavior**.
+`Cyberd` or interplanetary search engine & knowledge consensus computer is [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) based blockchain implementation of `cyber` protocol with unique property of creating relations between IPFS CIDs and storing them as the knowledge graph with weighted ranks. To understand the economic structure of `cyberd` we should look closely at the:
+- key principles of the cyberd
+- basic incentives for all different participants
+- the possible influence of these principles on their behavior
 
-## ... key principles of the cyberd ...
+## Key principles of the cyberd
 
-In other words, `cyberd` is application-specific blockchain or Cosmos Zone with sovereign economic and specifications. `Cyberd` represents a knowledge graph as a weighted graph of directed links between content addresses or content identifications or CIDs.
+`cyberd` is an application-specific blockchain or Cosmos Zone with sovereign economics and specification. `Cyberd` represents a knowledge graph as a weighted graph of directed links between content addresses or content identifications or CIDs.
 
 Like a Cosmos ecosystem, `cyberd` utilizes Tendermint - practical Byzantine fault tolerance (PBFT) consensus mechanism. It means that finalizing blocks depends on 2/3 plus one quorum of all validators agreed on the current state of the network in order to reach the consensus.
-
 
 ## ... basic incentives for all different participants ...
 
