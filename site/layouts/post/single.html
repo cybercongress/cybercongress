@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" }}
+
+  <div class="container">
+
+    {{ partial "translations" . }}
+
+    <div class="post">
+      <h1>{{ .Title }}</h1>
+      <p class="date">by {{ .Params.author }} on {{ dateFormat "2006-01-02" .Date }}</p>
+
+      <p>{{ partial "translation-disclaimer" . }}</p>
+
+      {{ .Content }}
+
+      {{ if eq .Language.Lang "en" }}
+          <h2 id="comments">Comments</h2>
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://discuss.ipfs.io/',
+              discourseEmbedUrl: 'https://ipfs.io/blog/{{ .URL }}' };
+              if (window.location.hostname === 'blog.ipfs.io') {
+                (function() {
+                  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                })();
+              } else {
+                 // hide comment section when loaded from hostnames
+                 // other than the one whitelisted at discuss.ipfs.io
+                 document.getElementById('comments').style.display = 'none';
+                 document.getElementById('discourse-comments').style.display = 'none';
+              }
+          </script>
+      {{ end }}
+    </div>
+  </div> <!-- container -->
+
+  {{ partial "footer.html" . }}
+
+
+
+</body>
+</html>

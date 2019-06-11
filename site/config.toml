@@ -1,0 +1,47 @@
+baseURL = "/"
+relativeURLs = true
+googleAnalytics = "UA-52930282-2"
+ignoreFiles = [ "\\.js\\.tmp*"]
+title= "cyber•Congress"
+
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+hasCJKLanguage = true
+enableMissingTranslationPlaceholders = false
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  domain = ""
+  name = "cyber•Congress"
+  title = "cyber•Congress"
+  description = "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open."
+  author = "cyber•Congress"
+  github = ""
+  social = [ { title = "Twitter", link = "https://twitter.com/cyber_devs" },
+    { title = "Telegram", link = "https://t.me/fuckgoogle" },
+    { title = "Reddit", link = "https://www.reddit.com/r/cybercongress/" },
+    { title = "Steemit", link = "https://steemit.com/@cybercongress" },
+    { title = "Medium", link = "https://medium.com" },
+    { title = "YouTube", link = "https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured" } ]
+  BookToC = 3
+  BookMenuBundleCyb = '/docs/cyb/menu'
+  BookMenuBundleCyberd = '/docs/cyberd/menu'
+  BookMenuBundleChaingear = '/docs/chaingear/menu'
+  BookMenuBundleJsAmino = '/docs/js-amino/menu'
+  # BookSection = '/docs/cyb'
+  BookEnableJS = true
+  pygmentsCodeFences = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[languages]
+    [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 0
+    [languages.zh-cn]
+    languageName = "中文（中国）"
+    contentDir = "content-i18n/zh-cn"
+    languageCode = "zh-cn"
+    weight = 10

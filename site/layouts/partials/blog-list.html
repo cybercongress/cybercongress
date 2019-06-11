@@ -1,0 +1,21 @@
+{{ range .Data.Pages }}
+  <article class="entry">
+    <header>
+      <h2 class="entry-title">
+        <a href="{{ .Permalink }}" rel="bookmark" title="Permalink to {{ .Title }}">{{ .Title }}</a>
+      </h2>
+    </header>
+    <footer class="post-info">
+      <abbr class="published" title="{{ dateFormat " 2006-01-02T15:04 " .Date }}">
+      {{ dateFormat "Mon 02 January 2006" .Date }}
+      </abbr>
+      <address class="vcard author">By
+        <a class="url fn" href="/author/{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+      </address>
+    </footer>
+    <div class="entry-content"> {{ .Summary }} </div>
+    <div class="read-more-link">
+      <a href="{{ .RelPermalink }}">Continue reading »</a>
+    </div>          
+  </article>
+{{ end }}

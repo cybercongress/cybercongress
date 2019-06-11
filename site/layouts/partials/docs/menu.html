@@ -1,0 +1,23 @@
+<nav>
+    {{ partial "docs/brand" . }}
+{{ partial "docs/inject/menu-before" . }}
+
+
+{{ if (eq .Params.project "cyb") }}
+  {{ partial "docs/menu-bundle-cyb" . }}
+{{ else if (eq .Params.project "cyberd") }}
+  {{ partial "docs/menu-bundle-cyberd" . }}
+{{ else if (eq .Params.project "chaingear") }}
+  {{ partial "docs/menu-bundle-chaingear" . }}
+{{ else if (eq .Params.project "js-amino") }}
+  {{ partial "docs/menu-bundle-js-amino" . }}
+{{ else }}
+  {{ partial "docs/menu-filetree" . }}
+{{ end }}
+
+{{ partial "docs/inject/menu-after" . }}
+</nav>
+
+{{ if .Site.Params.BookEnableJS }}
+  {{ template "jsmenu" . }}
+{{ end }}
