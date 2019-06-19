@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html{{ with .Site.Language.Lang }} lang="{{ . }}" {{ end }}>
+
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body>
+    {{ partial "header.html" }}
+
+    <div class="container home">
+
+      <p id='index' class="meta">
+        <a href="{{ "/index.xml" | absURL }}" class="rss"><img src="/img/icon-rss.svg" /> Available as RSS</a>
+      </p>
+
+      <h1 class='color-white'>Cyberlog</h1>
+
+      <p>This is the cyber•Congress Cyberlog, a series of communications about the
+        <a href="#/products">cyber•Congress Project</a>. These posts are written by the cyber•Congress
+        team, and members of the broader community. The subject matter is broad:
+        project news, protocol explanations, development stories, usage examples,
+        application spotlights, and more.</p>
+
+      {{ $pages := (where (where .Site.Pages "Section" "post") "Kind" "page") }}
+      {{ range .Site.Home.Translations }}
+      {{ if eq .Site.Language.Lang  "en" }}
+      {{ $pages = $pages | lang.Merge (where (where .Site.Pages "Section" "post") "Kind" "page") }}
+      {{ end }}
+      {{ end }}
+
+      <p>cyberlog entries: {{ len $pages }}</p>
+
+      <ul class="list-unstyled post-list">
+
+        {{ range sort $pages }}
+        <li>
+          <div class='articles__summary'>
+            <!-- <div class='articles__summary-header'>
+              <span class='user__name'>
+                  {{ .Params.author }}
+                  •
+              </span>
+              <span class="timestamp__time">{{ dateFormat "2006-01-02" .Date }}</span>
+            </div> -->
+            <div class='articles__content'>
+              <div class='articles__content-blok articles__content-blok--img'>
+                <a href="{{ .RelPermalink }}">
+                  <span class='articles__img-container'>
+                    <img src="{{.Params.Img}}" />
+                  </span>
+                </a>
+              </div>
+              <div class='articles__content-blok articles__content-blok--text'>
+
+                <a href="{{ .RelPermalink }}">
+                  <span class='articles__content-title'>{{ .Title }}</span>
+                  <div class='articles__summary-header'>
+                    <span class='user__name'>
+                      {{ .Params.author }}
+                      •
+                    </span>
+                    <span class="timestamp__time">{{ dateFormat "2006-01-02" .Date }}</span>
+                  </div>
+                  <p>{{ .Summary }}</p>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </li>
+        {{ end }}
+      </ul>
+
+    </div> <!-- container -->
+
+    {{ partial "footer.html" . }}
+  </body>
+
+  </html>

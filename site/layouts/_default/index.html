@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="home">
+    {{ partial "header.html" (dict "hero" "homepage" "baseUrl" ($.Param " baseURL ") "page" .) }}
+
+    <div class="container">
+
+        {{ partial "implementations.html" . }}
+
+        {{ partial "team.html" . }}
+
+        
+
+        <div class="content-wrapper">
+            {{ partial "latest.html" . }}
+        </div>
+    </div>
+
+    {{ partial "footer.html" . }}
+    <script src="/js/common.js"></script>
+    <script src="/js/header-and-latest.js"></script>
+</body>
+
+</html>

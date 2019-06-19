@@ -1,0 +1,4 @@
+<div id="{{ .Get "id" }}"></div>
+<script>
+  asciinema.player.js.CreatePlayer('{{ .Get "id" }}', '{{ .Get "data" }}', { width: {{ .Get "width" }}, height: {{ .Get "height" }} });
+</script>
