@@ -14,10 +14,10 @@ In reason of providing user functionality to describe their custom database data
 This brings us to tokenized (**C** _RU_ **D**) operations (and inner in Schema) in Database and public (_C_ **R** _UD_) plus tokenized (_CR_ **U** _D_) Storage operation.
 
 ## Chaingear inheritance 
-![chaingear_inheritance](mermaid/contracts-chaingear_inheritance.svg)
+![chaingear_inheritance](/docs/chaingear/mermaid/contracts-chaingear_inheritance.svg)
 
 ## Database inheritance
-![database_inheritance](mermaid/contracts-database_inheritance.svg)
+![database_inheritance](/docs/chaingear/mermaid/contracts-database_inheritance.svg)
 
 ### /chaingear
 - **_Chaingear_** allows any user to create his own database. 

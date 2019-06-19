@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # Ultimate cyberd CLI guide. Testnet: Euler-3
 
 ## If something wrong...

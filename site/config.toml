@@ -21,7 +21,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     { title = "Telegram", link = "https://t.me/fuckgoogle" },
     { title = "Reddit", link = "https://www.reddit.com/r/cybercongress/" },
     { title = "Steemit", link = "https://steemit.com/@cybercongress" },
-    { title = "Medium", link = "https://medium.com" },
     { title = "YouTube", link = "https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured" } ]
   BookToC = 3
   BookMenuBundleCyb = '/docs/cyb/menu'

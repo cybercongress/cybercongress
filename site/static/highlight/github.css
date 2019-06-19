@@ -152,7 +152,7 @@
 .nginx .hljs-variable,
 .xml .hljs-tag,
 .scss .hljs-variable {
-  color: #333333;
+  color: #fff;
 }
 
 .bash .hljs-title,

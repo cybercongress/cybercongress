@@ -3,9 +3,9 @@ project: cyberd
 ---
 # cyberd: Computing the knowledge from web3
 
-Notes on [`euler`](https://github.com/cybercongress/cyberd/releases/tag/v0.1.0) release of `cyber://` protocol [reference implementation](https://github.com/cybercongress/cyberd) using Go.
+Notes on [`cyber`](https://github.com/cybercongress/cyberd/releases/tag/v0.1.0) release of `cyber://` protocol [reference implementation](https://github.com/cybercongress/cyberd) using Go.
 
-[cyber•Congress](https://cybercongress.ai/): @xhipster, @litvintech, @hleb-albau, @arturalbov, @belya
+[cyber•Congress](https://cybercongress.ai/): @xhipster, @litvintech, @hleb-albau, @arturalbov
 
 ## Abstract
 
@@ -17,25 +17,22 @@ Original protocols of the Internet such as TCP/IP, DNS, URL, and HTTPS brought a
 
 Other properties while being not so critical are very desirable: offline and real-time. Average internet user being offline must have the ability to work with the state it has and after acquiring connection being able to sync with global state and continue to verify state's validity in realtime while having a connection. Now, these properties offered on the app level while such properties must be integrated into lower level protocols.
 
-The emergence of a [web3 stack](https://github.com/w3f/Web3-wiki/wiki) creates an opportunity for a new kind of Internet. We call it web3. It has a promise to remove problems of a conventional protocol stack and add to the web better speed and more accessible connection. However, as usual in a story with a new stack, new problems emerge. One of such problem is general-purpose search. Existing general-purpose search engines are restrictive centralized databases everybody forced to trust. These search engines were designed primarily for client-server architecture based on TCP/IP, DNS, URL and HTTPS protocols. Web3 creates a challenge and opportunity for a search engine based on developing technologies and specifically designed for them. Surprisingly the permission-less blockchain architecture itself allows organizing general purpose search engine in a way inaccessible for previous architectures.
+The emergence of a [web3 stack](https://github.com/w3f/Web3-wiki/wiki) creates an opportunity for a new kind of Internet. Community call it web3. We call it "The Great Web" as it is expected that some low level conventions must become immutable and not being changed for decades. e.g. immutable content links. It has a promise to remove problems of a conventional protocol stack and add to the web better speed and more accessible connection. However, as usual in a story with a new stack, new problems emerge. One of such problem is general-purpose search. Existing general-purpose search engines are restrictive centralized databases everybody forced to trust. These search engines were designed primarily for client-server architecture based on TCP/IP, DNS, URL and HTTPS protocols. Web3 creates a challenge and opportunity for a search engine based on developing technologies and specifically designed for them. Surprisingly the permission-less blockchain architecture itself allows organizing general purpose search engine in a way inaccessible for previous architectures.
 
 ## On adversarial examples problem
 
-[Conventional architecture of search engines](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6) where one entity process and rank all the shit suffers from one hard but the particular problem that still has not been solved even by brilliant Google scientists: [adversarial examples problem](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9). The problem Google acknowledge is that it is rather hard to algorithmically reason either this particular sample is adversarial or not independently on how cool the learning technology is. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.
+[Conventional architecture of search engines](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6) there one entity process and rank all the shit suffers from one hard but the particular problem that still has not been solved even by brilliant Google scientists: [adversarial examples problem](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9). The problem Google acknowledge is that it is rather hard to algorithmically reason either this particular sample is adversarial or not independently on how cool the learning technology is. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.
 
-## Cyber protocol at `euler`
+## Cyber protocol at `cyber`
 
-- compute `euler` inception of cyber protocol based on Satoshi lottery and CBD balances
+- compute `cyber` inception of cyber protocol based on the Genesis distribution rules
 - def knowledge graph state
 - take cyberlinks
 - check the validity of signatures
 - check bandwidth limit
 - check the validity of CIDv0
-- if signatures, bandwidth limit, and CIDv0 are ok than cyberlink is valid
-- for every valid cyberlink emit prediction as an array of CIDv0
-- every round calculate cyber•rank deltas for the knowledge graph
-- every round distribute CYB based on defined rules
-- apply more secure consensus state based on CBD balances 6 times up to `merkle`
+- if signatures, bandwidth limit, and CIDv0 are valid than cyberlink is valid
+- every round calculate cyber•rank deltas for the knowledge graph and distribute CYB
 
 ## Knowledge graph
 
@@ -43,7 +40,7 @@ We represent a knowledge graph as a weighted graph of directed links between con
 
 ![knowledge_graph.png](https://ipfs.io/ipfs/QmejVRS9irYb6eXGDZNM9YEuFyb3a5jn4EWh3MRC3LVRij)
 
-Content addresses are essentially a web3 links. Instead of using nonobvious and mutable thing:
+Content addresses are essentially a web3 links. Instead of using non-obvious and mutable thing:
 ```
 https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
 ```
@@ -60,9 +57,9 @@ Using content addresses for building a knowledge graph we get [so much needed](h
 - accessible
 - technology agnostic
 
-Web3 agents generate our knowledge graph. Web3 agents include itself to the knowledge graph by transacting only once. Thereby they prove the existence of private keys for content addresses of revealed public keys.
+Web3 agents generate our knowledge graph. Web3 agents include itself to the knowledge graph by transacting only once. Thereby they prove the existence of private keys for content addresses of revealed public keys. Using this basic proof mechanics consensus computer could have provable differentiation between subjects and objects in a knowledge grapth.
 
-Our `euler` implementation is based on [`cosmos-sdk`](https://github.com/cosmos/cosmos-sdk) identities and [cidv0](https://github.com/multiformats/cid#cidv0) content addresses.
+Our `cyber` implementation is based on [`cosmos-sdk`](https://github.com/cosmos/cosmos-sdk) identities and [cidv0](https://github.com/multiformats/cid#cidv0) content addresses.
 
 Web 3 agents generate knowledge graph by applying cyberlinks.
 
@@ -70,7 +67,7 @@ Web 3 agents generate knowledge graph by applying cyberlinks.
 
 To understand cyberlinks, we need to understand the difference between URL link and IPFS link. URL link points to the location of content, but IPFS link point to the content itself. The difference in web architecture based on location links and content links is drastical, hence require new approaches.
 
-Cyberlink is an approach to link two content addresses semantically.
+Cyberlink is an approach to link two content addresses semantically:
 
 ```
 QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS
@@ -99,11 +96,9 @@ Using this simple principle, all interacting agents can reach consensus around i
 
 Also using the following link: `QmNedUe2wktW65xXxWqcR8EWWssHVMXm3Ly4GKiRRSEBkn` the one can signal the start and stop of execution in the knowledge graph.
 
-If web3 agents expand native IPFS links with something semantically richer as [DURA](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md) links than web3 agents can easier to reach consensus on the rules for program execution.
+If web3 agents expand native IPFS links with something semantically richer as [DURA](https://github.com/cybercongress/cyb/blob/master/docs/dura.md) links than web3 agents can easier reach consensus on the rules for program execution. Indeed, DURA protocol is a proper implementation of a cyberlinks concept.
 
-Indeed, DURA protocol is a proper implementation of a cyberlinks concept.
-
-`euler` implementation of cyberlinks based on DURA specification is available in `.cyber` app of browser `cyb`.
+`cyber` implementation of cyberlinks based on DURA specification is available in `.cyber` app of browser `cyb`.
 
 Based on cyberlinks we can compute the relevance of subjects and objects in a knowledge graph. That is why we need a consensus computer.
 
@@ -116,9 +111,9 @@ A consensus computer has a capacity in terms of fundamental computing resources 
 Ideal consensus computer is a computer in which:
 
 ```
-the sum of all *individual agents* computations and memory
+the sum of all computations and memory available for individuals
 is equal to
-the sum of all verified by agents computations and memory of a *consensus computer*
+the sum of all verified computations and memory of a *consensus computer*
 ```
 
 We know that:
@@ -131,21 +126,41 @@ Hence we will not be able to achieve an ideal consensus computer ever. CAP theor
 
 However, this theory can work as a performance indicator of a consensus computer.
 
-The `euler` implementation is a 64-bit consensus computer of the relevance for 64-byte string space that is as far from ideal at least as 1/146.
+Tendermint is the following
+
+The `cyber` implementation is a 64-bit consensus computer of the relevance for 64-byte string space that is as far from ideal at least as 1/146, because we have 146 validators who verify the same computation using the knowledge graph of the same size.
 
 We must bind computational, storage and bandwidth supply of relevance machine with maximized demand of queries. Computation and storage in case of basic relevance machine can be easily predicted based on bandwidth, but bandwidth requires a limiting mechanism.
 
-Bandwidth limiting mechanism is work in progress. Current notes on implementation are in [the docs](https://github.com/cybercongress/cyberd/blob/master/docs/bandwidth.md).
+## Bandwidth
 
-So agents must have CYB tokens in accordance to their will of learning the knowledge graph. However, proposed mechanics of CYB tokens work not only as spam protection but as the economic regulation mechanism to align the ability of validators to process knowledge graph and market demand for processing.
+`Bounded stake` - stake, that deducted from your acc coins and put as depositto take part in consensus. Due to passive inflation model and slashing, deposit not match 1-to-1 to final reward. So, for example, stakeholders may wish to set up a script, that will periodically withdraw and rebound rewards to increase their bounded stake. `Active stake` - currently available for direct transfer, not-bounded stake.
+
+`Bandwidth stake` = `active stake + bounded stake`.
+
+Cyberd use a very simple bandwidth model. Main goal of that model is to reduce daily network growth to given constant, say 3gb per day.
+
+Thus, here we introduce `resource credits`, or RS. Each message type have assigned RS cost. There is constant `DesirableNetworkBandwidthForRecoveryPeriod` determining desirable for `RecoveryPeriod` spent RS value. `RecoveryPeriod` is defining how fast user can recover their bandwidth from 0 to user max bandwidth. User has maximum RS proportional to his stake by formula:
+
+`user_max_rc = bandwidth_stake * DesirableNetworkBandwidthForRecoveryPeriod`
+
+There is period `AdjustPricePeriod` summing how much RS was spent for that period `AdjustPricePeriodTotalSpent`. Also, there is constant `AdjustPricePeriodDesiredSpent`, used to calculate network loading.
+
+`AdjustPricePeriodTotalSpent / AdjustPricePeriodDesiredSpent` ratio is called fractional reserve ratio. If network usage is low, fractional reserve ratio adjust message cost (by simple multiplication) to allow user with lower stake to do more transactions.
+If resource demand increase, fractional reserve ratio goes `>1` thus increase messages cost and limiting final tx count for some long-term period (RC recovery will be `<` then RC spending).
+
+There are only few ways to change acc bandwidth stake:
+
+1. Direct coins transfer.
+2. When distribution payouts occurs. For example, when validator change his commission rates, all delegations will be automatically unbounded. Another example, delegator itself unbound some part or full share.
+
+So agents must have CYB tokens in accordance to their will of learning the knowledge graph. The more agents will learn the knowledge graph the more valuable the graph become. However, proposed mechanics of CYB tokens work not only as spam protection but as the economic regulation mechanism to align the ability of validators to process knowledge graph and market demand for processing.
 
 ## Relevance machine
 
-Relevance machine is a machine that transition knowledge graph state based on some reputation score of agents.
+We define relevance machine is a machine that transition knowledge graph state based on the will of agents to learn the knowledge graph. This machine enables simple construction for search question querying and answers delivering.
 
-This machine enables simple construction for search question querying and answers delivering.
-
-The reputation score is projected on every agent's cyberlink. A simple rule prevents agents abuse: one content address can be voted by a token only once. So it does not matter for ranking from how much accounts you voted. The only sum of their balances matters.
+The will is projected on every agent's cyberlink. A simple rule prevents abuse by agents: one content address can be voted by a token only once. So it does not matter for ranking from how much accounts you voted. The only sum of their balances matters.
 
 A useful property of a relevance machine is that it must have inductive reasoning property or follows the blackbox principle.
 
@@ -165,36 +180,27 @@ Also, one useful property of relevance machine is that it needs to store neither
 
 So relevance machine can implement [aggressive pruning strategies](QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb) such as pruning all history of knowledge graph formation or forgetting links that become non-relevant.
 
-The pruning group of features can be implemented in `nash`.
-
-`euler` implementation of relevance machine is based on the most straightforward mechanism which is called cyber•Rank.
+`cyber` implementation of relevance machine is based on the most straightforward mechanism which is called cyber•Rank.
 
 ## cyber•Rank
 
 Ranking using consensus computer is hard because consensus computers bring serious resource bounds. e.g. [Nebulas](https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh) still fail to deliver something useful on-chain. First, we must ask ourselves why do we need to compute and store the rank on-chain, and not go [Colony](https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj) or [Truebit](https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD) way?
 
-If rank computed inside consensus computer, you have an easy content distribution of the rank as well as an easy way to build provable applications on top of the rank. Hence we decided to follow more cosmic architecture. In the next section, we describe the proof of relevance mechanism which allows the network to scale with the help of domain-specific relevance machines that works in parallel.
+If rank computed inside consensus computer, you have an easy content distribution of the rank as well as an easy way to build provable applications on top of the rank. Hence we decided to follow more cosmic architecture. In the next section, we describe the proof of relevance mechanism which allows the network to scale with the help of domain-specific relevance machines that works in parallel thanks to IBC protocol.
 
 Eventually, relevance machine needs to find (1) deterministic algorithm that allows computing a rank for a continuously appended network to scale the consensus computer to orders of magnitude that of Google. Perfect algorithm (2) must have linear memory and computation complexity. The most importantly it must have (3) highest provable prediction capabilities for the existence of relevant links.                   
 
-After some research, we found that we can not find silver bullet here. We find an algorithm that probably satisfies our criteria: [SpringRank](https://ipfs.io/ipfs/QmNvxWTXQaAqjEouZQXTV4wDB5ryW4PGcaxe2Lukv1BxuM). An original idea of the algorithm came to Caterina from physics. Links represented as a system of springs with some energy, and the task of computing the ranks is the task of finding a relaxed state of springs.
-
-However, we got at least 3 problems with SpringRank:
-1. We were not able to implement it on-chain fast using Go in `euler`.
-2. We were not able to prove it for knowledge graph because we did not have provable knowledge graph yet.
-3. Also, we were not able to prove it by applying it for the Ethereum blockchain during computing the genesis file for `euler`. It could work, but for the time being it is better to call this kind of distribution a lottery.
-
-So we decided to find some more basic bulletproof way to bootstrap the network: a rank from which Lary and Sergey have bootstrapped a previous network. The problem with original PageRank is that it is not resistant to sybil attacks.
+After some research, we found that we can not find silver bullet here. So we decided to find some more basic bulletproof way to bootstrap the network: a rank from which Larry and Sergey have bootstrapped a previous network. The problem with original PageRank is that it is not resistant to sybil attacks.
 
 Token weighted [PageRank](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf) limited by token-weighted bandwidth do not have inherent problems of naive PageRank and is resistant to sybil attacks. For the time being, we will call it cyber•Rank until something better emerge.
 
 In the centre of spam protection system is an assumption that write operations can be executed only by those who have a vested interest in the evolutionary success of a relevance machine. Every 1% of stake in consensus computer gives the ability to use 1% of possible network bandwidth and computing capabilities.
 
-As nobody uses all possessed bandwidth, we can safely use 10x fractional reserves with 2-minute recalculation target.
+As nobody uses all possessed bandwidth, we can safely use up to 100x fractional reserves with 2-minute recalculation target.
 
-We would love to discuss the problem of vote buying mainly. Vote buying by itself is not such bad. The problem with vote buying appears in the systems where voting affects the allocation of inflation in the system like [Steem](QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3) or any state-based system. So vote buying can become easily profitable for adversary employing a zero-sum game without a necessity to add value. Our original idea of a decentralized search was based on this approach, but we reject this idea completely removing incentive on consensus level for knowledge graph formation completely. In our setting in which every participant must bring some value to the system to affect predictive model vote buying become NP-hard problem hence is useful for the system.
+We would love to discuss the problem of vote buying mainly. Vote buying by itself is not such bad. The problem with vote buying appears in the systems where voting affects the allocation of inflation in the system like [Steem](QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3) or any state-based system. So vote buying can become easily profitable for adversary employing a zero-sum game without a necessity to add value. Our original idea of a decentralized search was based on this approach, but we reject this idea removing incentive on consensus level for knowledge graph formation completely. In our setting in which every participant must bring some value to the system to affect predictive model vote buying become NP-hard problem hence is useful for the system.
 
-To switch from one algorithm to another, we are going to make simulations and experiment with economic a/b testing based on winning chains through hard spoons.
+We understand that the ranking mechanism will always remain red herring. That is why we expect to rely on on-chain governance mechanism to define the wining one. We would love to switch from one algorithm to another, based on economic a/b testing through hard spoons of domain specific relevance machines though.  
 
 Consensus computer based on relevance machine for cyber•Rank can answer and deliver relevant results for any given search request in the 64 byte CID space. However, to build a network of domain-specific relevance machines, it is not enough. Consensus computers must have the ability to prove relevance for each other.
 
@@ -294,15 +300,7 @@ _Last block merkle tree_ necessary to participate in consensus till the start of
 1. Restored current rank context and new rank context without rank values (links, user stakes, and merkle tree).
 2. Restored current rank context without rank values. Restored new rank context only with links and user stakes.
 
-A node can participate in consensus but cannot provide rank values (and merkle proofs) till two rank calculation iterations finished (current and next).
-
-Search index should be run in parallel and do not influence the work of the consensus machine. The validator should be able to turn off index support. Maybe even make it a separate daemon.
-
-_Base idea._ Always submit new links to index and take rank values from current context (insert in sorted array operation). When a new rank state is submitted trigger index to update rank values and do sortings (in most cases new arrays will be almost sorted).
-
-Need to solve the problem of adjusting arrays capacity (not to copy arrays each time newly linked cid added). A possible solution is to adjust capacity with reserve before resorting array.
-
-Todo: Therefore for building index, we need to find a sorting algorithm that will be fast on almost sorted arrays. Also, we should implement it for GPU so it should better be parallelizable: Mergesort(Timsort), Heapsort, Smoothsort ...
+A node can participate in consensus but cannot provide rank values (and merkle proofs) till two rank calculation iterations finished (current and next). Search index should be run in parallel and do not influence the work of the consensus machine. The validator should be able to turn off index support.
 
 Now we have proof of rank of any given content address. While the relevance is still subjective by nature, we have a collective proof that something was relevant for some community at some point in time.
 
@@ -310,11 +308,11 @@ Now we have proof of rank of any given content address. While the relevance is s
 For any given CID it is possible to prove the relevance
 ```
 
-Using this type of proof any two [IBC compatible](https://ipfs.io/ipfs/QmdCeixQUHBjGnKfwbB1dxf4X8xnadL8xWmmEnQah5n7x2) consensus computers can proof the relevance to each other so that domain-specific relevance machines can flourish. Thanks to inter-blockchain communication protocol you basically can launch your own domain-specific search engine either private or public by forking cyberd which is focused on the _common public knowledge_. So in our search architecture, domain-specific relevance machine can learn from common knowledge. We are going to work on IBC during `smith` implementation.
+Using this type of proof any two [IBC compatible](https://ipfs.io/ipfs/QmdCeixQUHBjGnKfwbB1dxf4X8xnadL8xWmmEnQah5n7x2) consensus computers can proof the relevance to each other so that domain-specific relevance machines can flourish. Thanks to inter-blockchain communication protocol you basically can either launch your own domain-specific search engine by forking cyberd which is focused on the _common public knowledge_, or plug cyberd as module in existing chain, e.g. Cosmos Hub.  So in our search architecture, domain-specific relevance machine can learn from common knowledge.
 
 ![rm-network.png](https://ipfs.io/ipfs/QmdfgdkaU8CKXD7ow983vZ2LjJjz8Um9JA5buwQ1aaXT6Q)
 
-In our relevance for commons `euler` implementation proof of relevance root hash is computed on Cuda GPUs every round.
+In our relevance for commons `cyber` implementation proof of relevance root hash is computed on Cuda GPUs every round.
 
 ## Speed and scalability
 
@@ -322,9 +320,9 @@ We need speedy confirmation times to feels like the usual web app. It is a stron
 
 Proposed blockchain design is based on [Tendermint consensus](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) algorithm with 146 validators and has very fast 1 second finality time. Average confirmation timeframe at half the second with asynchronous interaction make complex blockchain search almost invisible for agents.
 
-Let us say that our node implementation based on `cosmos-sdk` can process 10k transactions per second. Thus every day at least 8.64 million agents can submit 100 cyberlinks each and impact results simultaneously. That is enough to verify all assumptions in the wild. As blockchain technology evolves we want to check that every hypothesis work before scale it further. Moreover, proposed design needs demand for full bandwidth in order the relevance become valuable. That is why we strongly focus on accessible, but provable distribution to millions from inception.
+Let us say that our node implementation based on `cosmos-sdk` can process 10k transactions per second. Thus every day at least 8.64 million agents can submit 100 cyberlinks each and impact results simultaneously. That is enough to verify all assumptions in the wild. As blockchain technology evolves we want to check that every hypothesis work before scale it further. Moreover, proposed design needs demand for full bandwidth in order the relevance become valuable. That is why we strongly focus on accessible, but provable distribution from inception.
 
-## Implementation in a browser
+## In-browser implementation
 
 We wanted to imagine how that could work in a web3 browser. To our disappointment we [was not able](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) to find the web3 browser that can showcase the coolness of the proposed approach in action. That is why we decide to develop the web3 browser [cyb](https://github.com/cybercongress/cyb/blob/master/docs/cyb.md) that has sample application .cyber for interacting with `cyber://` protocol.
 
@@ -332,88 +330,90 @@ We wanted to imagine how that could work in a web3 browser. To our disappointmen
 
 ![search-results](https://ipfs.io/ipfs/QmSSyqEqh9oSC4voDDYwEAuQczeJCyRfsx4gqecSyTcVWs)
 
-## From Inception to Genesis
+## Philosophical approach toward distribution
 
-It is trivial to develop `euler` like proof-of-concept implementation, but it is hard to achieve stable protocol `merkle` a lot of CYB value on which can exist. `euler` is Inception that already happened, `merkle` is Genesis that is far away. That is why we decide to innovate a bit on the going main net process. We do not have CYB balances and rank guaranties before `merkle` but we can have exponentially growing semantic core which can be improved based on measurements and observations during development and gradual transfer of value since `euler`. So think that Genesis or `merkle` is very stable and can store semantic core and value, but all releases before can store the whole semantic core and only part of the value you would love to store due to weak security guarantees. The percents of CYB value to be distributed based on CBD balances:
+While designing the initial distribution structure for Cyber protocol we aimed to achieve the following goals:
 
-```toml
-euler  =  1
-smith  =  4
-darwin =  8
-turing = 15
-nash   = 21
-weiner = 25
-merkle = 27
-```
+- Develop provable and transparent distribution in accordance with best industry practices
+- Allow equal participation irrespectively of political, regulatory or any other restrictions which may be imposed by outside agents
+- Prevent attacks on privacy such as instalment of KYC requirements
+- Spread distribution in time to grant equal access to all agents to initial distribution without any limitations such as hard caps or any other restrictions
+- Honour genesis Cosmos investors for development of technology which made possible simplified development of Cyber protocol
+- Attract the most professional validators from Cosmos ecosystem for bootstrapping the network
+- Allow easy early access for active users of Ethereum ecosystem in order to accelerate growth of the Knowledge graph
+- Decentralize management of auction donations starting from day 0
+- Honour 30 months of cyber•Congress R&D and community behind it
 
-To secure the value of CYB before Genesis 100 CBD ERC-20 tokens [are issued](https://etherscan.io/token/0x136c1121f21c29415D8cd71F8Bb140C7fF187033) by [cyberFoundation](https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e). So snapshot balances are computed 7 times based on CBD.
+The goal of creating alternative to a Google-like structure requires extraordinary effort of different groups. Create fund managed via decentralized engine such as Aragon DAO filled with ETH and managed by agents who participated in initial distribution. This approach will allows to safeguard from excessive market dumping of native platform CYB tokens in the first years of work, whereby ensuring stable development. Additionally this allows to diversify underlying platform and migrate from Cosmos to other engines should the need arise.
 
-Essentially CBD substance is distributed by cyberFoundation in the following proportion:
+While choosing token for donations we followed three main criteria: the token must be (1) one of the most liquid, (2) the most promising, so a community can secure a solid investment bag for be competitive even comparing to giants like Google and (3) have technical ability to execute auction and resulting organization without relying on any third party. So the only system matches this criteria is Ethereum, hence the primary token of donations will be ETH. That is why we decide to create 2 tokens: THC and CYB:
 
-- `Proof-of-use: 70%` is allocated to web3 agents according to some probabilistic algorithm. E.g., first `euler` proof-of-use distribution we call Satoshi Lottery is allocated to key owned Ethereum addresses based on ongoing research. First allocation is based on SpringRank.
-- `Proof-of-code: 15%` is allocated for direct contribution to the code base. E.g., as assigned by cyberFoundation to cyberCongress contribution including team is 11.2% and the other 3.8% allocated to developers community projects such as Gitcoin community and cyberColony based experimental organization.
-- `Proof-of-value: 15%` is allocated for a direct contribution of funds. 8% of this value either has been already contributed nor has some reservation for ongoing contributions by close friends and 7% is going to be distributed during Eos-like auction not defined precisely yet. All contribution from the auction will go to Aragon based cyberFoundation and will be managed by CBD token holders.
+- THC is a creative cyber proto substance. THC being an Ethereum ERC-20 compatible token have utility value in form of control cyber•Foundation (Aragon DAO) ETH from auction proceeds. THC was emitted during the creation of cyber•Foundation as Aragon organization. Creative power of THC came from ability to receive 1 CYB per each 1 THC for locking it during cyber•Auction.
+- CYB is native token of sovereign Cyber protocol under Tendermint consensus algorithm. It's also has 2 primary uses: (1) is a staking for consensus and (2) is bandwidth limiting for submitting links and computing the rank.
 
-Details of code and value distribution can be produced by cyberFoundation.
+Both tokens remains functional and will track value independently due to very different utility nature.
 
-Except for 7 CBD based distributions, CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity. So validators decide where the tokens can flow further.
+Initial distribution happens in a 3 different by nature and goals epochs and is spread in time for almost 2 years:
 
-## Validators incentive
+1. Pre-genesis: 5% CYB auction for ATOM holders is needed to launch cyber protocol on top of
+2. Genesis: Launch of main net and Game of Thrones: needed to involve the most active Ethereum and Cosmos crypto players into an engaging game with ability to fully understand and test a software using real network and incentives. Game of Thrones is a kind of distribution game with some discount for attraction of necessary critical mass in order to make possible of learning the early knowledge graph by the most intelligent community.
+3. Post Genesis: Continuous distribution of CYB based on cyber•Auction proceeds: needed in order to involve into initial distribution existing crypto community and beyond.
 
-Validators are the essential building block of the proposed architecture. Hence we want to bring them a better incentive to participate before the main net. In our case validators will compute and process requests for billions edge knowledge graph hence it would be naive to expect that it is possible to expect to prepare such a network for production for free. In the beginning, inflation must be high enough to compensate risks of early investments into the ecosystem.
+## Pre-genesis
 
-This is approximation of year inflation expressed in percents defined for testnets:
+Only 2 distribution events happens happens prior to Genesis:
 
-```toml
-euler  = 200
-smith  = 134
-darwin =  90
-turing =  60
-nash   =  40
-weiner =  27
-merkle =  18
-```
+1. 700 000 000 000 000 THC tokens are minted by cyber•Foundation. Allocations of THC tokens is the following:
 
-The scheme motivates developers to release earlier to be less diluted from holding CBD and honour validators if development is going slower than expected.
+- 100 000 000 000 000 THC is allocated to cyber•Congress
+- 600 000 000 000 000 THC is allocated to cyber•Auction contract
 
-After Genesis starting inflation rate will become fixed at `1 000 000 000` CYB per block.
+2. At the start of `euler-5` donation round in ATOMs started. Purpose of this round is to involve real validators at a genesis. 5% of CYB will be allocated to participants of this donation round.
 
-[Join](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md).
+## Genesis and Game of Thrones
 
-Once we have validators, we can think about first million web3 agents.
+Genesis of `cyber` protocol will contains 1 000 000 000 000 000 CYB (One Quadrillion CYB) broken down as follows:
 
-## Satoshi Lottery
+-  50 000 000 000 000 CYB as drop for all ATOM stakeholders
+- 100 000 000 000 000 CYB for top 80% ETH holders by stake excluding contracts
+-  50 000 000 000 000 CYB for pre-genesis contributors in ATOMs
+- 100 000 000 000 000 CYB for THC holders at Genesis
+- 100 000 000 000 000 CYB under multisig managed by cyberCongress for manual distribution after Game of Thrones for ATOM donors
+- 100 000 000 000 000 CYB under multisig managed by cyberCongress for manual distribution after Game of Thrones for those who stake THC until the end of cyber•Auction
+- 500 000 000 000 000 CYB under multisig managed by cyberCongress for manual distributions during cyber•Auction for those who stake THC until the end of cyber•Auction
 
-Satoshi Lottery is the inception version of the proof-of-use distribution that already happens in the tenth birthday of Bitcoin Genesis at 3 Jan 2019. It is a highly experimental way of provable distribution. The basic idea is that a comprehensive set of agents receive CYB tokens because they behave well. The basic algorithm is of 5 steps:
+Game of Thrones - is a game between ATOM and ETH holders for being the greatest. As a result of 21 day auction after Genesis every community earn 10% of CYB. In order to make the game run smoothly we concisely adding arbitrage opportunity in the form of significant discount to ATOM holders, because the system needs provably professional validators and delegators at the beginning and basically for free.
 
-```
-- Compute SpringRank for Ethereum addresses
-- Sort by SpringRank
-- Filter top 1M addresses by SpringRank
-- Compute CYB balances based on CBD
-- Create genesis for cyber protocol
-```
+We can describe the discount in the following terms: Currently buying power of all ATOMs against all ETHs based on current caps is about 1/24. Given that 10% of CYB will be distributed based on donation in ATOMs and 10% of CYB will be distributed based on donations in ETHs the discount for every ATOM donation during Game of Thrones is about 24x which is significant enough to encourage participation based on arbitrage opportunity during the first 21 days of Genesis auction and stimulate the price of ATOMs as appreciation for all cosmic community.
 
-Translation todo: [Tolik's article](http://127.0.0.1:8080/ipfs/QmS4YuH377EyzAjH84AR4EZKrnT879pMz4VKXcDNuej9DZ) have to be translated here.
+## Post-genesis and cyber•Auction
 
-Next test net we will improve the logic of the lottery based on received data and repeat this every test net until Genesis.
+Post Genesis stage called cyber•Auction starts after the end of the Game of Thrones and lasts 600 rounds 23 hours each. During this phase CYBs are continuously distributed based on locked THC bough in continuous auction.
 
-Soon you will be able to verify either you were lucky enough to receive CYB or not just searching your ethereum address. If you were, you will be able to claim CYB even without compromising your Ethereum keys.
+The role of cyber•Auction is twofold:
 
-## Inception
+- It creates non-exlusive long lasting and provable game of initial distribution without necessity to spend energy on proof of work. It is crucial that early knowledge graph were created in some sense fairly by engaged community which was formed during a non-exclusive game.
+- As a result of auction community will has access to all raised resources under Aragon organisation. We believe in a true decentralized nature of the thing we created so we do not want to grab all the money from the funding as we already funded the creation of the system ourselves and we kindly ask fair 10% CYB cut for pre-genesis investors, founders and developers. Competing with Google is challenging and will be more viable if community will sits on the bag of ever-growing ETH. Given current growth rate of ETH this bag can be very compelling in some years after launch. Also this bag can be the source of alternative implementation of the protocol if Cosmos based system will fail, or in the cased the community just want to diversify technology involved, e.g. ETH2, Polkadot or whatever.
 
-The genesis file for `euler` containing lottery results and CBD based distribution has the following cid:
-```
-Qma5U4joYWEf41ku16g9cQr6fADsxCPsiWeYZBxpnpu1D4
-```
+After genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity. So stakeholders decide where the tokens can flow further.
 
-`132307` accounts with  `8 274 000 000 000 000` CYB tokens has been created in Inception of the network.
+After Genesis inflation adjusted using `TokensPerBlock` parameter. Given that the network has 1 second target block and ~7% target inflation the starting parameter will be 50 MCYB.
 
-Amount of created tokens is consist of the following sources:
-- 1% of CYB value allocated to `euler` testnet based on proof-of-use distribution as planned
-- 0.7% of CYB value allocated to `euler` testnet based on proof-of-value and proof-of-code distribution except 11.8 CBD due to bug. Appropriate corrections will be done during scheduled hardfork.
+There is no currently such thing as maximum amount of CYB due to continuous inflation paid to validators. Currently CYB is implemented using 64int so creation of more CYB make significantly more expensive compute state changes and rank. We expect that lifetime monetary strategy must be established by governance system after complete initial distribution of CYB and activation of smart contract functionality.
 
-## Possible applications
+The following rules apply for CYBs under cyber•Auction multisig:
+- will not delegate its stake and as result will remain as passive stake until become distributed
+- after the end of cyber•Auction all remaining CYBs will be provably burned
+
+## Role of ATOMs
+
+Overall 15% of CYB will be distributed based on donations in ATOMs during 2 rounds:
+-  50 000 000 000 000 CYB for genesis ATOM contributors
+- 100 000 000 000 000 CYB for ATOM contributors at the start of Smith Epoch
+
+All ATOM donations goes to cyber•Congress multisig. The role of ATOM donations is the following: thanks to ATOM we want to secure lifetime commitment of cyber•Congress in the development of Cosmos and Cyber ecosystems. ATOM donations to cyber•Congress will allow us to use staking rewards for continuous funding of the Cyber protocol without necessity to dump CYBs
+
+## Applications of knowledge graph
 
 A lot of cool applications can be built on top of proposed architecture:
 
@@ -458,21 +458,9 @@ _Language convergence_. A programmer should not care about what language do the 
 
 This is sure not the exhaustive list of possible applications but very exciting, though.
 
-## Economic protection is `smith`
+## Apps on top of knowledge graph
 
-About private knowledge on relevance. Explain the difference between private cyberlinks and private relevance machines.
-
-The plan for learning the beast. How cyberlink ipfs, wiki, bitcoin and ethereum?
-
-## Ability to evolve is `darwin`
-
-About the importance of alternative implementation.
-
-## `turing` is about computing more
-
-Ability to programmatically extend state based on proven knowledge graph is of paramount importance. Thus we consider that WASM programs will be available for execution in cyber consensus computer on top of knowledge graph.
-
-Our approach to the economics of consensus computer is that users buy an amount of RAM, CPU, and GPU as they want to execute programs. OpenCypher or GraphQL like language can be provided to explore semantics of the knowledge graph. The following list is simple programs we can envision that can be built on top of simple relevance machine.
+Our approach to the economics of consensus computer is that users buy an amount of RAM, CPU, and GPU as they want to execute programs. OpenCypher or GraphQL like language can be provided to explore semantics of the knowledge graph. The following list is simple programs [we can envision](https://medium.com/@karpathy/software-2-0-a64152b37c35) that can be built on top of simple relevance machine with support of onchain WASM-like VM.
 
 _Self prediction_. A consensus computer can continuously build a knowledge graph by itself predicting the existence of cyberlinks and applying these predictions to a state of itself. Hence a consensus computer can participate in the economic consensus of the cyber protocol.
 
@@ -488,43 +476,9 @@ _Prediction markets on link relevance_. We can move the idea further by the rank
 
 _Private cyberlinks_. Privacy is foundational. While we are committed to privacy achieving implementation of private cyberlinks is unfeasible for our team up to Genesis. Hence it is up to the community to work on wasm programs that can be executed on top of the protocol. The problem is to compute cyberRank based on cyberlink submitted by a web3 agent without revealing neither previous request nor public keys of a web3 agent. Zero-knowledge proofs, in general, are very expensive. We believe that privacy of search should be must by design, but not sure that we know how to implement it. [Coda]() like recursive snarks and [mimblewimble]() constructions, in theory, can solve part of the privacy issue, but they are new, untested and anyway will be more expensive regarding computations than a transparent alternative.
 
-## In a search for equilibria is `nash`
-
-We need to find answers for a lot of hard questions regarding consensus variables and its default values. So we decide to stick to a community generated feedback on the road to Genesis and continuously adjust them to keep going better.
-
-On scalability trilemma ...
-
-Decentralization comes with costs and slowness. We want to find a good balance between speed, reliance, and ability to scale, as we believe all three are sensitive for widespread web3 adoption.
-
-That is the area of research for us now. We need real economic measurements to apply a scientific method for this class of challenges.
-
-## On faster evolution at `weiner`
-
-The primary purpose of `wiener` stage is to be able to update the consensus of a network from a consensus computer state using some on-chain upgrade mechanism.
-
-Evolvability and governance are connected tightly.
-
-Ability to reflect input from the world and output changes of itself is an essential evolutionary feature. Hence, thanks to `cosmos-sdk` `euler` implementation have basic but compelling features such as on-chain voting with vetos and abstain that drastically simplified open discussions for a change. So we are going to use this feature from the inception of the network.
-
-However, we can go in a different direction than `cosmos-sdk` offers. Following ideas from [Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS) in `weiner` we can define the current state of a protocol as the immutable content address that included in round merkle root.
-
-Also instead of formal governance procedure, we would love to check the hypothesis that changing state of a protocol is possible indeed using relevance machine itself.
-
-Starting protocol can be as simple as follows:
-
-> The closer some content address to `QmRBKYsQ4FPEtHeGBRuUZEfNXQfvNiJFXvbyrdF4Y7pqfh` the more probability that it becomes the winning during an upgrade. The closest protocol to `cyber-protocol-current` is the protocol which is the most relevant to users.
-
-Hence it is up to nodes to signal `cyber-protocol-current` by sending cyberlinks with semantics like `<cQmRBKYsQ4FPEtHeGBRuUZEfNXQfvNiJFXvbyrdF4Y7pqfh> <cid-of-protocol>`.
-
-## Genesis is secure as `merkle`
-
-Before unleashing our creature, we need to have strong assurance that implementations are secure. Merkle is our final genesis release after security audits and more formalism.
-
-After this release, the network of relevance machines become fully functional and evolvable.
-
 ## Conclusion
 
-We define and implement a protocol for provable communications of consensus computers on relevance. The protocol is based on a simple idea of content defined knowledge graphs which are generated by web3 agents using cyberlinks. Cyberlinks are processed by a consensus computer using a concept we call relevance machine. `euler` consensus computer is based on `CIDv0` and uses `go-ipfs` and `cosmos-sdk` as a foundation. IPFS provide significant benefits regarding resources consumption. CIDv0 as primary objects are robust in its simplicity. For every CIDv0 cyber•rank is computed by a consensus computer with no single point of failure. Cyber•rank is CYB weighted PageRank with economic protection from sybil attacks and selfish voting. Every round merkle root of the rank tree is published so every computer can prove to any computer a relevance value for a given CID. Sybil resistance is based on bandwidth limiting. Embedded ability to execute programs offer inspiring apps. Starting primary goal is indexing of peer-to-peer systems with self-authenticated data either stateless, such as IPFS, Swarm, DAT, Git, BitTorrent, or stateful such as Bitcoin, Ethereum and other blockchains and tangles. Proposed semantics of linking offers a robust mechanism for predicting meaningful relations between objects by a consensus computer itself. The source code of a relevance machine is open source. Every bit of data accumulated by a consensus computer is available for everybody if the one has resources to process it. The performance of proposed software implementation is sufficient for seamless user interactions. Scalability of proposed implementation is enough to index all self-authenticated data that exist today and serve it to millions of web3 agents. The blockchain is managed by a decentralized autonomous organization which functions under Tendermint consensus algorithm with standard governance module. Thought a system provide necessary utility to offer an alternative for conventional search engines it is not limited to this use case either. The system is extendable for numerous applications and, e.g. makes it possible to design economically rational self-owned robots that can autonomously understand objects around them.
+We define and implement a protocol for provable communications of consensus computers on relevance. The protocol is based on a simple idea of content defined knowledge graphs which are generated by web3 agents using cyberlinks. Cyberlinks are processed by a consensus computer using a concept we call relevance machine. `cyber` consensus computer is based on `CIDv0` and uses `go-ipfs` and `cosmos-sdk` as a foundation. IPFS provide significant benefits regarding resources consumption. CIDv0 as primary objects are robust in its simplicity. For every CIDv0 cyber•rank is computed by a consensus computer with no single point of failure. Cyber•rank is CYB weighted PageRank with economic protection from sybil attacks and selfish voting. Every round merkle root of the rank tree is published so every computer can prove to any computer a relevance value for a given CID. Sybil resistance is based on bandwidth limiting. Embedded ability to execute programs offer inspiring apps. Starting primary goal is indexing of peer-to-peer systems with self-authenticated data either stateless, such as IPFS, Swarm, DAT, Git, BitTorrent, or stateful such as Bitcoin, Ethereum and other blockchains and tangles. Proposed semantics of linking offers a robust mechanism for predicting meaningful relations between objects by a consensus computer itself. The source code of a relevance machine is open source. Every bit of data accumulated by a consensus computer is available for everybody if the one has resources to process it. The performance of proposed software implementation is sufficient for seamless user interactions. Scalability of proposed implementation is enough to index all self-authenticated data that exist today and serve it to millions of web3 agents. The blockchain is managed by a decentralized autonomous organization which functions under Tendermint consensus algorithm with standard governance module. Thought a system provide necessary utility to offer an alternative for conventional search engines it is not limited to this use case either. The system is extendable for numerous applications and, e.g. makes it possible to design economically rational self-owned robots that can autonomously understand objects around them.
 
 ## References
 
@@ -538,7 +492,6 @@ We define and implement a protocol for provable communications of consensus comp
 - [DAT](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
 - [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
 - [CIDv0](https://github.com/multiformats/cid#cidv0)
-- [Bandwidth in cyber network](https://github.com/cybercongress/cyberd/blob/master/docs/bandwidth.md)
 - [Thermodynamics of predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
 - [DURA](https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md)
 - [Nebulas](https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh)
@@ -551,13 +504,12 @@ We define and implement a protocol for provable communications of consensus comp
 - [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ)
 - [Comparison of web3 browsers](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md)
 - [Cyb](https://github.com/cybercongress/cyb/blob/master/docs/cyb.md)
-- [CBD](https://etherscan.io/token/0x136c1121f21c29415D8cd71F8Bb140C7fF187033)
 - [cyberFoundation in Aragon](https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e)
 - [How to become validator in cyber protocol](/docs/how_to_become_validator.md)
-- [Tolik's article on Satoshi Lottery](http://ipfs.io/ipfs/QmV2kjvY1QvY17sPgBDRGd13vaaks1zmFj867Ez5mbXz1y/genesis-explanation.html)
 - [Top 10000 english words](https://github.com/first20hours/google-10000-english)
 - [Multilingual neural machine translation](https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1)
 - [Foam](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG)
 - [Coda](https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk)
 - [Mimblewimble](https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg)
 - [Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS)
+- [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)

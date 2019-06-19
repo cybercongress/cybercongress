@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # Decentralization must be decentralized
 
 January 3, 2019, we've launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we'll has in the future. Thanks to our testers and validators we're finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.
