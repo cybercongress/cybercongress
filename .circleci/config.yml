@@ -25,7 +25,6 @@ jobs:
             git init
             git config user.email "cybercongress42@gmail.com"
             git config user.name "Cyber Admin"
-            git config commit.gpgsign true
             git add .
             git commit -m "Deploy to gh-pages"
             git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
