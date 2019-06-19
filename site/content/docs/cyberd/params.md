@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # ://cyber staking and distribution overview
 
 ## Params

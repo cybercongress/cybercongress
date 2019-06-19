@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # Decentralization must be decentralized
 
 January 3, 2019, we've launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we'll has in the future. Thanks to our testers and validators we're finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.
@@ -71,7 +74,7 @@ Go to cyberd daemon folder, then go to `config` folder and open `config.toml` fi
 
 Find `peer to peer configuration options` section and edit `external_address` variable with your IP address and port `26656`
 
-![peer_to_peer_config](../img/guide.jpg)
+![peer_to_peer_config](https://ipfs.io/ipfs/QmQRqM4PbPt8cbDN49nAktT23XWfCixbfzfyUEkSyDUWYP)
 
 Restart cyberd container.
 

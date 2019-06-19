@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # API reference 
 
 Cyberd provides a [JSON-RPC](http://json-rpc.org/wiki/specification) API. Http endpoint is served under 

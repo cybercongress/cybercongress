@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # Supported GPU list for cyberd validators
 
 We use GPUs for parallel rank calculations.
