@@ -25,7 +25,7 @@ jobs:
             git config user.name "Cyber Admin"
             cd public
             git add -f .
-            git commit -m "deployed $CIRCLE_SHA1 [skip ci]"
+            git commit -m "deployed $CIRCLE_SHA1 [ci skip]"
             git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
             cd ..
             rm -rf public/
