@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------------
+*
+* TYPOGRAPHY
+*
+--------------------------------------------------------------------*/
+//
+// *
+//  * @license
+//  * MyFonts Webfont Build ID 3229221, 2016-06-06T23:59:29-0400
+//  *
+//  * The fonts listed in this notice are subject to the End User License
+//  * Agreement(s) entered into by the website owner. All other parties are
+//  * explicitly restricted from using the Licensed ../fonts(s).
+//  *
+//  * You may obtain a valid license at the URLs below.
+//  *
+//  * Webfont: FormularMono by Brownfox
+//  * URL: http://www.myfonts.com/fonts/brownfox/formular/mono/
+//  * Copyright: Copyright (c) 2014 by Vyacheslav Kirilenko, Gayane Bagdasaryan. All rights reserved.
+//  *
+//  * Webfont: BrandonTextWeb-BoldItalic by HVD Fonts
+//  * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold-italic/
+//  * Copyright: Copyright (c) 2015 by Hannes von Doehren. All rights reserved.
+//  *
+//  * Webfont: BrandonTextWeb-Bold by HVD Fonts
+//  * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold/
+//  * Copyright: Copyright (c) 2015 by Hannes von Doehren. All rights reserved.
+//  *
+//  * Webfont: BrandonTextWeb-Italic by HVD Fonts
+//  * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/italic/
+//  * Copyright: Copyright (c) 2015 by Hannes von Doehren. All rights reserved.
+//  *
+//  * Webfont: BrandonTextWeb-Regular by HVD Fonts
+//  * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/regular/
+//  * Copyright: Copyright (c) 2015 by Hannes von Doehren. All rights reserved.
+//  *
+//  *
+//  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3229221
+//  * Licensed pageviews: 10,000
+//  *
+//  * © 2016 MyFonts Inc
+
+// @import url("//hello.myfonts.net/count/314625");
+
+@font-face {
+  font-family: 'FormularMono';
+  src: url('../fonts/314625_0_0.eot');
+  src: url('../fonts/314625_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314625_0_0.woff2') format('woff2'),url('../fonts/314625_0_0.woff') format('woff'),url('../fonts/314625_0_0.ttf') format('truetype');
+}
+
+/*
+@font-face {
+  font-family: 'BrandonTextWeb-BoldItalic';
+  src: url('../fonts/314625_1_0.eot');
+  src: url('../fonts/314625_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314625_1_0.woff2') format('woff2'),url('../fonts/314625_1_0.woff') format('woff'),url('../fonts/314625_1_0.ttf') format('truetype');
+}
+*/
+
+@font-face {
+  font-family: 'BrandonTextWeb-Bold';
+  src: url('../fonts/314625_2_0.eot');
+  src: url('../fonts/314625_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314625_2_0.woff2') format('woff2'),url('../fonts/314625_2_0.woff') format('woff'),url('../fonts/314625_2_0.ttf') format('truetype');
+}
+
+/*
+@font-face {
+  font-family: 'BrandonTextWeb-Italic';
+  src: url('../fonts/314625_3_0.eot');
+  src: url('../fonts/314625_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314625_3_0.woff2') format('woff2'),url('../fonts/314625_3_0.woff') format('woff'),url('../fonts/314625_3_0.ttf') format('truetype');
+}
+*/
+
+@font-face {
+  font-family: 'Play';
+  src: url('../fonts/Play-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Play-Bold';
+  src: url('../fonts/Play-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BrandonTextWeb-Regular';
+  src: url('../fonts/314625_4_0.eot');
+  src: url('../fonts/314625_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314625_4_0.woff2') format('woff2'),url('../fonts/314625_4_0.woff') format('woff'),url('../fonts/314625_4_0.ttf') format('truetype');
+}
+
+
+body {
+  font-family: 'Play', @font-aktiv;
+  font-style: normal;
+}
+
+code, pre {
+  font-family: 'FormularMono';
+  font-variant-ligatures: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Play';
+  font-weight: 200;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  strong {
+    color: inherit;
+    font-family: 'Play-Bold';
+  }
+}
+
+h5 {
+  font-weight: 400;
+  color: @white;
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+p a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: lighten(@white, 25%);
+
+  &:hover {
+    color: lighten(@brand-blue, 35%);
+    border-bottom: 1px solid lighten(@brand-blue, 35%);
+  }
+}
+
+footer a, header a {
+  color: @brand-teal;
+  &:hover {
+    color: lighten(@brand-teal, 35%);
+  }
+}
+
+p {
+  font-size: 1.1em;
+}
+
+h4,h5,h6,p {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,5 @@
+#CYB table of content. Observe the correct tabulation. Do not change the tabulation of the header.
+  - cyb:
+    - Whitepaper: cyb/cyb.md
+    - Web3 vision: cyb/web3-vision.md
+    - App guidelines: cyb/app-guidelines.md

@@ -1,0 +1,14 @@
+{
+  "i18n__translations_available_header": {
+    "other": "This page is also available in other languages:"
+  },
+  "i18n__translation_disclaimer": {
+    "other": "Disclaimer: It is difficult to perfectly translate technical concepts from one language to another, so note that we cannot guarantee the accuracy of this translation."
+  },
+  "i18n__translation_disclaimer_link": {
+    "other": "Original text can be found here."
+  },
+  "i18n__translation_missing": {
+    "other": "We are unable to provide translation of this post at this time. Showing original in English."
+  }
+}

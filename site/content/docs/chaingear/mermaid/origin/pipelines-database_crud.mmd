@@ -1,0 +1,54 @@
+sequenceDiagram
+    participant A as Admin
+    participant S as Database's Safe
+    participant R as Database
+    participant EC as Storage
+    participant U1 as User 1
+    participant 721 as Database's ERC721
+    participant U2 as User 2
+    participant U3 as User 3/Funder
+    
+    A->>+R: initializeDatabase
+    R-->>EC: constructor
+    R-->>-A: returns EntryCore address
+    Note over A, EC: User sets smart-contract with their custom Schema for Database, should implements ISchema
+    
+    A->>R: updateCreateEntryPermissionGroup
+    Note over A, R: Available OnlyAdmin, Whitelist, AllUsers groups
+    
+    U1->>+R: createEntry
+    R-->>EC: createEntry ID = 0
+    R-->721: mint ID = 0
+    R-->>-U1: returns entryID ID = 0
+    Note over U1, R: Creates new entry object and entry meta and initializes <br/> associated token
+    
+    U1->>EC: updateEntry ID = 0
+    Note over U2, EC: User 1 as token owner sets fields of Entry object <br/> with provided EntryID
+    
+    U1->>+EC: entryInfo ID=0
+    EC-->>-U1: returns entry information
+    
+    U1->>+R: transferFrom FROM = U1 TO = U2 ID = 0 
+    R-->721: removeTokenFrom ID = 0 FROM = U1
+    R-->-721: addTokenTo ID = 0 TO = U2
+    Note over U1, R: Transfer token to new owner
+    
+    U2->>EC: updateEntry ID = 0
+    Note over U2, EC: User 2 as token owner sets fields of Entry object <br/> with provided EntryID
+    
+    U3->>+EC: entryInfo ID = 0
+    EC-->>-U3: returns entry information
+    
+    U3->>+R: fundEntry ID = 0 funds = 1ETH
+    R-->>-S: transfer = 1ETH
+    Note over S, U2: Funded ETHs goes to Database's Safe contract, ETHs adds to balance and amount for accounting stores in Database in EntryMeta.
+    
+    U2->>+R: claimEntryFund claim = 1ETH
+    R-->>S: claim = 1ETH
+    S-->>-U2: transfer = 1ETH
+    Note over S, U2: Owner of Entry claim funds and Database checks balance for existing claim amount, subtract them in Entry meta, calls <br/> Database's Safe to send funds to User.
+    
+    U2->>+R: deleteEntry ID = 0
+    R-->721: burn ID = 0
+    R-->>-EC: deleteEntry ID = 0
+    Note over R, U2: Database burns associated to Entry NFT token and deletes entry object in EntryCore.

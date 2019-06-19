@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------------
+*
+* FOOTER
+*
+--------------------------------------------------------------------*/
+
+.footer-primary {
+  padding: 50px 0 20px;
+  // background: @brand-blue no-repeat center center;
+  // background-image: url(../img/footer-stars.png),
+  //                   url(../img/footer-bg.png);
+  background-color: #242323e3;
+  background-size: 1700px 400px, cover;
+  color: white;
+  margin-top: 60px;
+
+  .grid-flex-container {
+    margin-bottom: 0;
+  }
+  a { 
+    color: @color-gravity;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}
+
+ul.sitemap {
+  li {
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  li.sitemap-head {
+    font-weight: 400;
+    font-style: normal;
+    // text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.share-links {
+  li {
+    display: inline-block;
+  }
+
+  a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: transparent no-repeat;
+    background-size: contain;
+    text-align: left;
+    text-indent: -9999em;
+
+    &.Twitter {
+      background-image: url(../img/icon-social-twitter.svg);
+    }
+    &.Telegram {
+      background-image: url(../img/icon-social-telegram.svg);
+    }
+    &.Reddit {
+      background-image: url(../img/icon-social-reddit.svg);
+    }
+    &.Google {
+      background-image: url(../img/icon-social-google.svg);
+    }
+    &.YouTube {
+      background-image: url(../img/icon-social-youtube.svg);
+    }
+    &.Steemit {
+      background-image: url(../img/icon-social-steemit.svg);
+    }
+    &.Medium {
+      background-image: url(../img/icon-social-medium.svg);
+    }
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
+
+@media screen and (max-width: @breakpoint-mid-mobile) {
+  ul.sitemap {
+    li:not(.sitemap-head) {
+      margin: 5px 15px 0 0;
+      display: inline-block;
+    }
+  }
+
+  .share-links {
+    margin: 50px 0 20px;
+    text-align: center;
+
+    a {
+      margin: 0 10px;
+    }
+  }
+}
+
+@media screen and (min-width: @breakpoint-mid-mobile + 1) {
+  .sitemap-menu {
+    max-width: 430px;
+    width: 60%;
+    float: left;
+  }
+
+  .share-links {
+    width: 40%;
+    float: right;
+    text-align: right;
+
+    a {
+      margin-left: 20px;
+    }
+  }
+
+  .footer-copyright {
+    clear: both;
+    margin: 85px 0 0;
+  }
+}

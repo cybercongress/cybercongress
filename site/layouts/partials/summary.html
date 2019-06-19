@@ -1,0 +1,5 @@
+<div class="summary">
+  <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+  <p><span class="date">by {{ .Params.author }} on {{ dateFormat "2006-01-02" .Date }}</span></p>
+  <p>{{ .Summary }}</p>
+</div>

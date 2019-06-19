@@ -1,0 +1,34 @@
+<header class="header-has-logo"{{ if eq .page.Params.pagetype "subdoc"}}{{ else }} id="stars"{{ end }}>
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="/" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="/"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="/#propducts">Products</a></li>
+        <li><a href="/#team" {{ if eq .page.Type "team" }}class="current-item"{{ end }}>Team</a></li>
+        <li><a href="/docs/cyberd/cyberd/" {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"{{ end }}>Docs</a></li>
+        <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"{{ end }}>Blog</a></li>
+      </ul>
+    </nav>
+    {{ if eq .hero "homepage" }}
+      <div class="hero hero-home">
+        <div class="hero-text">
+          <h2 class="headline-main">Cyberd: like google but cyber</h2>
+          <span class="divider"></span>
+          <h3 class="subhead-main">Testnet euler-4 is alive</h3>
+          <div class="cta">
+            <a class="button-gravity" href="/docs/cyberd/help/run_validator/">Become a validator</a>
+            <a class="button-gravity" href="/docs/cyberd/cyberd/">Whitepaper</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
