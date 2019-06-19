@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # cyberd: Computing the knowledge from web3
 
 Notes on [`cyber`](https://github.com/cybercongress/cyberd/releases/tag/v0.1.0) release of `cyber://` protocol [reference implementation](https://github.com/cybercongress/cyberd) using Go.

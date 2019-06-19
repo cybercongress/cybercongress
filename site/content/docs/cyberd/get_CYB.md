@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 
 ## How to get CYB?
 

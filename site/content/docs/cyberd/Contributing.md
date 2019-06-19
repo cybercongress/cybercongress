@@ -1,3 +1,6 @@
+---
+project: cyberd
+---
 # Contributing to cyberd
 Thank you for considering a contribution to **cyberd**! This guide explains how to:
 * Get started
