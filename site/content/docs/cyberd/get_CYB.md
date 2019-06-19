@@ -1,6 +1,4 @@
----
-project: cyberd
----
+
 ## How to get CYB?
 
 There are 3 ways to get tokens that allow you to participate in testnet either as a validator or as an search agent:

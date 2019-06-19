@@ -1,6 +1,3 @@
----
-project: cyberd
----
 # Launch network
 
 ## Export state from previous network

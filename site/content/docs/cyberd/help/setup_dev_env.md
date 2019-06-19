@@ -1,6 +1,3 @@
----
-project: cyberd
----
 # Setup development environment
 
 ## Prestart
@@ -9,21 +6,21 @@ project: cyberd
 
 ## Import project to GoLand
 Open Project in GoLand by selecting: Open Project -> selecting cloned repository root folder
-![Open project](/docs/cyberd/img/open-project.png)
+![Open project](../img/open-project.png)
 
 Enable **go mod** package management
-![Enable go mod](/docs/cyberd/img/enable-go-mod.png)
+![Enable go mod](../img/enable-go-mod.png)
 Wait for dependency downloading and indexation
 
 ## Add Run Configurations
 Add testnet configuration
-![Generate testnet](/docs/cyberd/img/generate-testnet.png)
+![Generate testnet](../img/generate-testnet.png)
 
 Add run configuration
-![Run node](/docs/cyberd/img/run-node.png)
+![Run node](../img/run-node.png)
 
 Add reset configuration
-![Reset node data](/docs/cyberd/img/reset-node-data.png)
+![Reset node data](../img/reset-node-data.png)
 
 ## Running Node
 
