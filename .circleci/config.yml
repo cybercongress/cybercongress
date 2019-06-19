@@ -13,28 +13,20 @@ jobs:
   update_doc:
     working_directory: ~/build
     docker:
-      - image: squidfunk/mkdocs-material
+      - image: circleci/node:10.15.1-browsers
     steps:
       - checkout
       - run:
-          name: Update Blogs
-          working_directory: ~/workdir
           command: |
-            git clone -q --depth 1 https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/library.git
-      - deploy:
-          name: Update blogs from congress repo
-          working_directory: ~/workdir/library
-          command: |
-            # We need to remove current files in folder to avoid duplicating renamed files
-            rm -rf ./wiki/docs/blog/*
-            cp -r ~/build/blog/releases/. ./wiki/docs/blog/
-            git add -N wiki/docs/blog
-            diff=$(git diff wiki/docs/blog/)
-            if [[  -n  "$diff" ]]; then
-              git config user.email "cybercongress42@gmail.com"
-              git config user.name "Cyber Admin"
-              git add wiki/docs/blog/
-              git commit -m "Circle CI: Update Blog"
-              # Push quietly to prevent showing the token in log
-              git push -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/library.git master
-            fi
+            rm -rf public/
+            make build
+            cd public
+            git init
+            git config user.email "cybercongress42@gmail.com"
+            git config user.name "Cyber Admin"
+            git config commit.gpgsign true
+            git add -N .
+            git commit -m "Deploy to gh-pages"
+            git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
+            cd ..
+            rm -rf public/
