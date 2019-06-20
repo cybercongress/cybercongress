@@ -9,7 +9,6 @@
       <label for="menu-toggle"></label>
       <ul class="list-unstyled list-inline cf">
         <li><a href="/#propducts">Products</a></li>
-        <li><a href="/#team" {{ if eq .page.Type "team" }}class="current-item" {{ end }}>Team</a></li>
         <li><a href="/docs/cyberd/cyberd/"
             {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"
             {{ end }}>Docs</a></li>
