@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant 721 as Chaingear's ERC721
+    participant U1 as User 1
+    participant CC as Chaingear
+    participant R as Database, ID 0
+    participant U2 as User 2
+
+    
+    U1->>+CC: createDatabase
+    CC-->721: mint token ID = 0 to = User1
+    CC-->>-U1: return Database address, Database Token ID = 0
+    Note over 721, CC: Initializing ERC721 Database token for User 1 in Chaingear, <br/> creates new Database and sets User 1 as Database administrator
+    
+    U1->>+CC: transferFrom to = User2
+    CC-->>R: transferAdminRights to = User2
+    CC-->721: removeTokenFrom User1
+    CC-->-721: addTokenTo User2
+    Note over 721, R: Chaingear transfers token from User 1 to User 2 and also sets User 2 as administrator
+    
+    U2->>+CC: getDatabase ID = 0
+    CC-->>-U2: returns Database metainfromation
+    
+    U2->>+R: updateEntryCreationFee
+    Note over U2, R: User 2 as admin now may set fees <br/> for entry creation in Database
+    
+    U2->>+CC: deleteDatabase ID = 0
+    CC-->>R: transferOwnership to = User2
+    CC-->>-721: burn ID = 0
+    Note over 721, U2: User deletes Database from chaingear and burns their token and getting after that owner control to Database contract. <br/> Chaingear only deletes associated structure, burns token and transfers ownership.
