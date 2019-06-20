@@ -1,9 +1,13 @@
 version: 2
-jobs:
-  - update_docs:
-      filters:
-        branches:
-          only: master
+
+workflows:
+  version: 2
+  default_workflow:
+    jobs:
+      - update_docs:
+          filters:
+            branches:
+              only: master
 
 update_docs:
     steps:
