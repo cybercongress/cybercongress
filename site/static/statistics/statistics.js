@@ -28,11 +28,13 @@ async function fetchAsync (url) {
     const bandwidthPricePromise = fetchAsync (`${nodeUrl}/current_bandwidth_price`);
     const latestBlockPromise = fetchAsync (`${nodeUrl}/block`);
     const validatorsPromise = fetchAsync (`${nodeUrl}/staking/validators`);
+    const statusPromise = fetchAsync (`${nodeUrl}/status`);
 
 
 
-      Promise.all([indexStatsPromise, stakingPromise, bandwidthPricePromise, latestBlockPromise, validatorsPromise])
-          .then(([indexStats, staking, bandwidthPrice, latestBlock, validators]) => {
+
+      Promise.all([indexStatsPromise, stakingPromise, bandwidthPricePromise, latestBlockPromise, validatorsPromise, statusPromise])
+          .then(([indexStats, staking, bandwidthPrice, latestBlock, validators, status]) => {
               const response = {
                  ...indexStats,
                  notBondedTokens: staking.not_bonded_tokens,
@@ -40,6 +42,7 @@ async function fetchAsync (url) {
                  price: bandwidthPrice.price,
                  txCount: latestBlock.block_meta.header.total_txs,
                  validatorsActive: validators,
+                 testnet: status.node_info.network,
 
               };
               const links = +response.linksCount
@@ -59,24 +62,30 @@ async function fetchAsync (url) {
               const txCount = +response.txCount;
               const lastBlock = +response.height;
 
+              const nameTestnet = response.testnet;
+
                document.getElementById('cyberlinks').innerHTML = formatNumber(links);
                document.getElementById('contentIds').innerHTML = formatNumber(cids);
                document.getElementById('accounts').innerHTML = formatNumber(account);
 
-               document.getElementById('totalGCYB').innerHTML = formatNumber((totalCyb / 1000000000).toFixed(0));
-               document.getElementById('stakedCYB').innerHTML = formatNumber(stakedCyb);
-               document.getElementById('price').innerHTML = formatNumber(linkPrice);
+              //  document.getElementById('totalGCYB').innerHTML = formatNumber((totalCyb / 1000000000).toFixed(0));
+              //  document.getElementById('stakedCYB').innerHTML = formatNumber(stakedCyb);
+              //  document.getElementById('price').innerHTML = formatNumber(linkPrice);
 
-               document.getElementById('validator').innerHTML = formatNumber(activeValidatorsCount);
-               document.getElementById('transactions').innerHTML = formatNumber(txCount);
+              //  document.getElementById('validator').innerHTML = formatNumber(activeValidatorsCount);
+              //  document.getElementById('transactions').innerHTML = formatNumber(txCount);
                document.getElementById('lastBlock').innerHTML = formatNumber(lastBlock);
+
+               document.getElementById('testnet').innerHTML = nameTestnet;
+
+
 
 
               resolve(response);
             
           });
   });
-  
+
 getStatistics();
 
 let websocket;
