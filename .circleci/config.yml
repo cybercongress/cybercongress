@@ -32,4 +32,4 @@ jobs:
             git config user.name "Cyber Admin"
             git add public
             git commit -m "Circle CI: Update Site [skip ci]"
-            git push -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
+            git push -q -f https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
