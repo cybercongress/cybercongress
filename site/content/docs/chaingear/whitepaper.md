@@ -65,37 +65,36 @@ Our solution is save in database contract schema's definition which allow determ
 
 ### Workflows
 #### Chaingear setup and Database creation/schema initialization pipeline
-![general_pipeline](https://ipfs.io/ipfs/QmZVeUKGA7HYwD1FyRmCU3HDJBbB15rbFdhwvVaxDuSbFT)
+![general_pipeline](img/pipelines-general_pipeline.svg)
 
 #### Database CRUD/Entry-token pipeline
-![database_crud](https://ipfs.io/ipfs/QmeBpNQu5HvLVwhBWUVLzm56cwztVZhke2sCsubdz6sS72)
+![database_crud](img/pipelines-database_crud.svg)
 
 #### Chaingear's Database-token pipeline
-![chaingear_tokenized](https://ipfs.io/ipfs/QmY68YRCT7cTBPdF3am75jjjwwiPnaj9d8Jx6EptwWUMJR)
+![chaingear_tokenized](img/pipelines-chaingear_tokenized.svg)
 
 ### Inheritance
 #### Chaingear inheritance
-![chaingear_inheritance](https://ipfs.io/QmVXmaE5s5yJdaLXjgmyj3UcpzdWhQuiLgwfpYEvQaKsSt)
+![chaingear_inheritance](img/contracts-chaingear_inheritance.svg)
 
 #### Database inheritance
-![database_inheritance](https://ipfs.io/QmfMXbFCk8hHwiWLbHZRVmaspg2BNtG5DzrXKBp58LtuzD)
+![database_inheritance](img/contracts-database_inheritance.svg)
 
 ### web3 Application
 #### General
 | | |
 |-|-|
-|![chaingear-general](https://ipfs.io/QmXAPgzUU5KVg1CczuWqngR2uheufgFEUKZ6uNNoNjzPZu)|![database-token](https://ipfs.io/QmfLudBHAQJzcAYvNCLo3JeQA8AkPs24sXzarF6YYBwwEo)|
+|![chaingear-general](img/chaingear.png)|![database-token](img/database-token.png)|
 
 #### Database
 | | |
 |-|-|
-|![database-admin](https://ipfs.io/QmRVbtwHpfdpXSRevEo4XqZnkVwNNM1gj89H9dNYwD6DJY)|![entry-token](https://ipfs.io/QmezvV7HQDZYNW1eXKLMn1G1yTuRPwfVummS5aemX3JTA1)|
+|![database-admin](img/database-admin.png)|![entry-token](img/entry-token.png)|
 
 #### Database Deploy and Schema designer
 | | |
 |-|-|
-|![database](https://ipfs.io/QmcPBKPELxuG7TdbGTfemvy6D7nVMu677SWhdsNyPWnLoL)|
-![schema-gen](https://ipfs.io/QmcjCAiVVVf59BqNW1aVv7uBeqGp1xMMPMuEQ38Y4qV7aa)|
+|![database](img/database-deploy.png)|![schema-gen](img/schema-gen.png)|
 
 ### Future work and releases
 - Design and architecture, security
