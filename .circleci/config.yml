@@ -2,25 +2,17 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.15.1-browsers
+      - image: felicianotech/docker-hugo:0.50
+    working_directory: ~/project
     steps:
       - checkout
       - run:
+          name: "Run Hugo"
           command: |
-            rm -rf public/
-            make build
-            cd public
-            git init
-            git config user.email "cybercongress42@gmail.com"
-            git config user.name "Cyber Admin"
-            git config commit.gpgsign false
-            git add .
-            git commit -m "Deploy to gh-pages [skip CI]"
-            git push --force --quiet https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
-            cd ..
-            rm -rf public/
-workflows:
-  version: 2
-  build-deploy:
-    jobs:
-      - build
+          cd site
+          HUGO_ENV=production hugo -v -s src/
+      - run:
+          name: "Test Website"
+          command: |
+          cd site
+          htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
