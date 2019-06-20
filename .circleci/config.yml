@@ -8,11 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: |
-          cd site
-          HUGO_ENV=production hugo -v -s src/
+          command: HUGO_ENV=production hugo -v -s src/
       - run:
           name: "Test Website"
-          command: |
-          cd site
-          htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
