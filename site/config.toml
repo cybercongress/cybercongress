@@ -11,7 +11,7 @@ enableMissingTranslationPlaceholders = false
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-  domain = ""
+  domain = "https://cybercongress.ai"
   name = "cyber•Congress"
   title = "cyber•Congress"
   description = "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open."
