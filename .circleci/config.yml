@@ -13,6 +13,8 @@ workflows:
 jobs:
   update_doc:
     working_directory: ~/workdir
+    docker:
+      - image: circleci/node:10.15.1-browsers
     steps:
       - checkout
       - run:
@@ -22,8 +24,6 @@ jobs:
       - deploy:
           name: Update site from congress repo
           working_directory: ~/workdir/congress
-          docker:
-            - image: circleci/node:10.15.1-browsers
           command: |
             cd site
             rm -rf public/
