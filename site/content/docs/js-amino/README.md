@@ -2,7 +2,7 @@
 project: js-amino
 ---
 <h1 align="center">
-  <img src="img/logo.png"
+  <img src="../img/logo.png"
   alt="js-amino" width="470"></a>
 </h1>
 
@@ -12,38 +12,6 @@ project: js-amino
 </div>
 
 <br />
-
-
-<div align="center">
-<img src="https://img.shields.io/github/issues-raw/cybercongress/js-amino.svg?color=green&style=flat-square" alt="opened issues"/>
-<img src="https://img.shields.io/github/issues-closed-raw/cybercongress/js-amino.svg?color=blue&style=flat-square" alt="closed issues" />
-<img src="https://img.shields.io/github/issues-pr-closed/cybercongress/js-amino.svg?color=green&style=flat-square" alt="closed PR"/>
-</div>
-<br/>
-<div align="center">
-<a href="https://circleci.com/gh/cybercongress/js-amino/tree/master"><img src="https://circleci.com/gh/cybercongress/js-amino/tree/master.svg?style=svg"></a>
-<a href='https://coveralls.io/github/cybercongress/js-amino?branch=30-add-ci-components-for-release'><img src='https://coveralls.io/repos/github/cybercongress/js-amino/badge.svg?branch=30-add-ci-components-for-release' alt='Coverage Status' /></a>
-</div>
-<br/>
-<div align="center">
-<img src="https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square" alt="contributors"/>
-  <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat-square" alt="Contributions Welcome" />
-  <a href="https://t.me/fuckgoogle"> <img src="https://img.shields.io/badge/Join%20Us%20On-Telegram-2599D2.svg?style=flat-square" alt="Join Us On Telegram" /></a>
-  <img src="https://img.shields.io/github/license/cybercongress/js-amino.svg?style=flat-square" alt="MIT license"/>
-</div>
-<br/>
-
-[![NPM](https://nodei.co/npm/js-amino.png)](https://npmjs.org/package/@cybercongress/js-amino)
-
-
-<div align="center">
-  <sub>Built and maintenance by
-  <a href="https://github.com/cybercongress/js-amino/graphs/contributors">
-    contributors
-  </a>
-  and
-  <a href="https://twitter.com/cyber_devs">cyber•Congress</a>
-</div>
 
 For more information spec, please refer: https://github.com/tendermint/go-amino
 
@@ -227,16 +195,6 @@ Decoded data:
 ## Contributing Guide
 
 Contribution are welcome! Please read this [guide](https://github.com/cybercongress/js-amino/blob/master/CONTRIBUTING.md) before contributing.
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://github.com/Thunnini"><img src="https://avatars2.githubusercontent.com/u/16339680?v=4" width="100px;" alt="JungHwan Tony Yun"/><br /><sub><b>JungHwan Tony Yun</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=Thunnini" title="Code">💻</a></td><td align="center"><a href="https://www.linkedin.com/in/do-ngoc-tan-64260072/"><img src="https://avatars3.githubusercontent.com/u/8816061?v=4" width="100px;" alt="TanNgocDo"/><br /><sub><b>TanNgocDo</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=TanNgocDo" title="Code">💻</a> <a href="#maintenance-TanNgocDo" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/philipstanislaus"><img src="https://avatars1.githubusercontent.com/u/6912756?v=4" width="100px;" alt="philipstanislaus"/><br /><sub><b>philipstanislaus</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=philipstanislaus" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/SaveTheAles"><img src="https://avatars0.githubusercontent.com/u/36516972?v=4" width="100px;" alt="Ales Puchilo"/><br /><sub><b>Ales Puchilo</b></sub></a><br /><a href="#projectManagement-SaveTheAles" title="Project Management">📆</a></td><td align="center"><a href="https://github.com/litvintech"><img src="https://avatars2.githubusercontent.com/u/1690657?v=4" width="100px;" alt="Valery Litvin"/><br /><sub><b>Valery Litvin</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=litvintech" title="Code">💻</a></td><td align="center"><a href="https://github.com/cyberadmin"><img src="https://avatars1.githubusercontent.com/u/36439031?v=4" width="100px;" alt="Cyber Admin"/><br /><sub><b>Cyber Admin</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=cyberadmin" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/ethanfrey"><img src="https://avatars3.githubusercontent.com/u/5689864?v=4" width="100px;" alt="Ethan Frey"/><br /><sub><b>Ethan Frey</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=ethanfrey" title="Tests">⚠️</a></td></tr></table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
