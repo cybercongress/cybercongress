@@ -37,21 +37,6 @@ Run `npm i js-amino`
 
 1. Run `npm test`
 
-## To Do:
-1. Full support for Time encoding and decoding
-2. More Unit test
-3. Benchmarking
-
-## Gitcoin program
-
-We want to pay you for your contribution! We constantly fund our issues on [gitcoin](https://gitcoin.co/profile/cybercongress) and attach good description for them with project state and user stories. We try to answer to comments regular in issues and in our [devChat](https://t.me/fuckgoogle).
-
-<a href="https://gitcoin.co/explorer?q=js-amino">
-    <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/js-amino">
-</a>
-
-## Our cosmos ecosystem initiative
-
 ## Usage (MsgMultiSend example)
 
 ```js
