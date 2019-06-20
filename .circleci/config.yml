@@ -4,28 +4,32 @@ workflows:
   version: 2
   default_workflow:
     jobs:
-      - update_docs:
+      - update_doc:
           filters:
             branches:
               only: master
-          steps:
-            - checkout
-            - run:
-              name: Update Docs
-              working_directory: ~/workdir
-              command: |
-                git clone -q --depth 1 https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git
-            - deploy:
-              name: Update site from congress repo
-              working_directory: ~/workdir/congress
-              docker:
-                - image: circleci/node:10.15.1-browsers
-              command: |
-                cd site
-                rm -rf public/
-                make build
-                git config user.email "cybercongress42@gmail.com"
-                git config user.name "Cyber Admin"
-                git add public
-                git commit -m "Circle CI: Update Site [skip ci]"
-                git push -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
+
+
+jobs:
+  update_doc:
+    working_directory: ~/workdir
+    steps:
+      - checkout
+      - run:
+          name: Update Docs
+          command: |
+            git clone -q --depth 1 https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git
+      - deploy:
+          name: Update site from congress repo
+          working_directory: ~/workdir/congress
+          docker:
+            - image: circleci/node:10.15.1-browsers
+          command: |
+            cd site
+            rm -rf public/
+            make build
+            git config user.email "cybercongress42@gmail.com"
+            git config user.name "Cyber Admin"
+            git add public
+            git commit -m "Circle CI: Update Site [skip ci]"
+            git push -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
