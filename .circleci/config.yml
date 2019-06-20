@@ -2,31 +2,49 @@ version: 2
 
 workflows:
   version: 2
-  default_workflow:
+  build:
     jobs:
-      - update_doc:
+      - build
+      - deploy:
+          requires:
+            - build
           filters:
             branches:
               only: master
 
 jobs:
-  update_doc:
-    working_directory: ~/build
+  build:
     docker:
-      - image: circleci/node:10.15.1-browsers
+      - image: cibuilds/hugo:latest
+    working_directory: ~/blog
+    environment:
+      HUGO_BUILD_DIR: public
+    steps:
+      - run: apk update && apk add git
+      - checkout
+      - run: HUGO_ENV=production hugo -F -v -d $HUGO_BUILD_DIR
+      - persist_to_workspace:
+          root: public
+          paths: site/.
+  deploy:
+    docker:
+      - image: node:8.10.0
     steps:
       - checkout
+      - attach_workspace:
+          at: public
       - run:
+          name: Disable jekyll builds
+          command: touch public/.nojekyll
+      - run:
+          name: Custom Domain
+          command: echo "cybercongress.ai" > public/CNAME
+      - run:
+          name: Install and configure dependencies
           command: |
-            cd site
-            rm -rf public/
-            make build
-            cd public
-            git init
+            npm install -g --silent gh-pages@2.0.1
             git config user.email "cybercongress42@gmail.com"
             git config user.name "Cyber Admin"
-            git add .
-            git commit -m "deployed $CIRCLE_SHA1 [ci skip]"
-            git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
-            cd ..
-            rm -rf public/
+      - run:
+          name: Deploy docs to gh-pages branch
+          command: gh-pages --dotfiles --message "[skip ci] Updates" --dist public
