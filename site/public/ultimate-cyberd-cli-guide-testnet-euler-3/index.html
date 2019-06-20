@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Ultimate cyberd CLI guide. Testnet: Euler-3</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="savetheales" />
+
+  <link rel="canonical" href="../ultimate-cyberd-cli-guide-testnet-euler-3/" />
+  <link rel="alternate" href="../ultimate-cyberd-cli-guide-testnet-euler-3/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="Ultimate cyberd CLI guide. Testnet: Euler-3" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/ultimate-cyberd-cli-guide-testnet-euler-3/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="Ultimate cyberd CLI guide. Testnet: Euler-3" />
+<meta name="twitter:creator" content="savetheales" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../highlight/github-gist.css" />
+<link rel="stylesheet" href="../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="alternate feed" href="../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../asciinema/asciinema-player.js"></script>
+<script src="../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+<body>
+  <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../#propducts">Products</a></li>
+        <li><a href="../#team" >Team</a></li>
+        <li><a href="../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    
+
+
+    <div class="post">
+      <h1>Ultimate cyberd CLI guide. Testnet: Euler-3</h1>
+      <p class="date">by savetheales on 2019-03-04</p>
+
+      <p>
+</p>
+
+      
+
+<h2 id="if-something-wrong">If something wrong&hellip;</h2>
+
+<p>First of all I would like to encourage you to use  <code>--help</code> feature if you want to get better experience of using cyberdcli. This is really easy way to find all necessary commands with options and flags.</p>
+
+<p>For example you can enter:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli --help
+</code></pre>
+
+<p>You should see this message:</p>
+
+<pre><code class="language-bash">  Command line interface for interacting with cyberd
+
+  Usage:
+    cyberdcli [command]
+
+  Available Commands:
+    status      Query remote node for status
+    query       Querying subcommands
+    tx          Transactions subcommands
+
+    keys        Add or view local private keys
+
+    rest-server Start LCD (light-client daemon), a local REST server
+
+    version     Print the app version
+    link        Create and sign a link tx
+    help        Help about any command
+
+  Flags:
+        --chain-id string   Chain Id of cyberd node
+    -e, --encoding string   Binary encoding (hex|b64|btc) (default &quot;hex&quot;)
+    -h, --help              help for cyberdcli
+        --home string       directory for config and data (default &quot;/root/.cyberdcli&quot;)
+    -o, --output string     Output format (text|json) (default &quot;text&quot;)
+        --trace             print out full stack trace on errors
+</code></pre>
+
+<p>Help feature working as a stairs - you can use it with any command to find available options, subcommands and flags. For example lets explore <code>query</code> subcommands:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli query --help
+</code></pre>
+
+<p>now, you can see subcommand structure:</p>
+
+<pre><code class="language-bash">  Usage:
+  cyberdcli query [command]
+</code></pre>
+
+<p>and available subcommands and flags:</p>
+
+<pre><code class="language-bash">  Available Commands:
+  tendermint-validator-set Get the full tendermint validator set at given height
+  block                    Get verified data for a the block at given height
+  txs                      Search for all transactions that match the given tags.
+  tx                       Matches this txhash over all committed blocks
+
+  account                  Query account balance
+  gov                      Querying commands for the governance module
+  distr                    Querying commands for the distribution module
+  staking                  Querying commands for the staking module
+  slashing                 Querying commands for the slashing module
+
+  Flags:
+    -h, --help   help for query
+
+  Global Flags:
+        --chain-id string   Chain Id of cyberd node
+    -e, --encoding string   Binary encoding (hex|b64|btc) (default &quot;hex&quot;)
+        --home string       directory for config and data (default &quot;/root/.cyberdcli&quot;)
+    -o, --output string     Output format (text|json) (default &quot;text&quot;)
+        --trace             print out full stack trace on errors
+</code></pre>
+
+<p>Alright, lets explore <code>account</code> subcommand:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli query account --help
+</code></pre>
+
+<p>Now we see all options available at this subcommands, namely, account address and flags:</p>
+
+<pre><code class="language-bash">  Usage:
+  cyberdcli query account [address] [flags]
+</code></pre>
+
+<p>In most cases you need just two extra flags:</p>
+
+<pre><code class="language-bash">  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<p>That it. This is very useful ability for using cyberdcli and troubleshooting.</p>
+
+<h2 id="glossary">Glossary</h2>
+
+<p><strong>Bandwidth</strong> - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:</p>
+
+<p><code>your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100</code>.</p>
+
+<p>Messages cost is <code>500</code> (exclude link). Transaction consists of one or more messages <code>m_1, m_2, ..., m_n</code>. Transaction cost is <code>300 + c_1 + c_2 ... + c_n</code>, where <code>c_i</code> - cost of <code>m_i</code> message. Full bandwidth regeneration time is 86400 blocks (24 hours)</p>
+
+<p><strong>commission</strong> -  tokens that you&rsquo;ve earned with validation. You can take them at any time.</p>
+
+<p><strong>illiquid tokens</strong> - non-transferable tokens that you&rsquo;ve delegated to the validator. Delegation process duration - 1 block. <strong>Unbonding</strong> process, or taking back share - 3 weeks.</p>
+
+<p><strong>link</strong> - reference between CID key and CID value. Link message cost is <code>100*n</code>, where <code>n</code> is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks (from 100 to 200 seconds).</p>
+
+<p><strong>liquid tokens</strong> - transferable tokens in cyberd blockchain</p>
+
+<p><strong>local keystore</strong> - store with keys in you local machine</p>
+
+<p><strong>rewards</strong> - tokens that you&rsquo;ve earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at <strong>delegator</strong> section.</p>
+
+<p><strong><comission_rate_percentage></strong> - the commission that validator get for the work. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><delegator_address></strong> - delegator address. Starts with <code>cyber</code> most often coinciding with <strong><key_address></strong></p>
+
+<p><strong><key_address></strong> - account address. Starts with <code>cyber</code></p>
+
+<p><strong><key_name></strong> - name of account in cybercli</p>
+
+<p><strong><operator_address></strong> - validator address. Starts with <code>cybervaloper</code></p>
+
+<p><strong><shares_percentage></strong> - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><testnet_chain_id></strong> - version of testnet.</p>
+
+<h2 id="general-commands">General commands</h2>
+
+<h5 id="show-all-validators">Show all validators</h5>
+
+<p>Return set of all active and jailed validators.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators --trust-node
+</code></pre>
+
+<h5 id="show-chain-status">Show chain status</h5>
+
+<p>Return general chain information</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli status --indent
+</code></pre>
+
+<h5 id="distribution-params">Distribution params</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr params --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-outstanding-rewards">The amount of outstanding rewards</h5>
+
+<p>Return the sum of rewards in a pool</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr outstanding-rewards --trust-node
+</code></pre>
+
+<h5 id="staking-params">Staking params</h5>
+
+<p>Chain staking info</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking params --trust-node
+</code></pre>
+
+<h5 id="staking-pool">Staking pool</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking pool --trust-node
+</code></pre>
+
+<h2 id="account-management">Account management</h2>
+
+<h5 id="import-an-account-by-seed-phrase-and-store-it-in-local-keystore">Import an account by seed phrase and store it in local keystore</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt; --recover
+</code></pre>
+
+<h5 id="import-an-account-by-private-key-and-store-it-in-local-keystore-private-key-could-be-your-eth-private-key">Import an account by private key and store it in local keystore (private key could be your ETH private key)</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add import_private &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="create-a-new-account">Create a new account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-information">Show account information</h5>
+
+<p>Name, address and public key of current account</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-balance">Show account balance.</h5>
+
+<p>Return account number, balance, public key in 16 and sequence.
+&gt;Don&rsquo;t work if from current account no outgoing transactions. <a href="https://github.com/cybercongress/cyberd/issues/238">Issue in progress</a></p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query account &lt;your_key_address&gt;
+</code></pre>
+
+<h5 id="list-existing-keys">List existing keys</h5>
+
+<p>Return all keys in cyberdcli</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys list
+</code></pre>
+
+<h5 id="delete-account-from-cybercli">Delete account from cybercli</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys delete &lt;deleting_key_name&gt;
+</code></pre>
+
+<h5 id="update-account-password">Update account password</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys update &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="send-tokens">Send tokens</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx send &lt;to_address&gt; &lt;amount_cyb&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="linking-content">Linking content</h5>
+
+<blockquote>
+<p>Just ipfs hashes available as a CID</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli link \
+  --from=&lt;your_key_name&gt; \
+  --cid-from=&lt;key_phrase_to_link&gt; \
+  --cid-to=&lt;content_that_you_want_to_link&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h2 id="validator-commands">Validator commands</h2>
+
+<h5 id="get-all-validators">Get all validators</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators \
+    --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-commission">The amount of commission</h5>
+
+<p>Available to withdraw validator commission.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr commission &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="state-of-current-validator">State of current validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validator &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-to-validator">Return all delegations to validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking delegations-to &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="edit-commission-in-existing-validator-account">Edit commission in existing validator account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --commission-rate=&lt;new_comission_rate_percentage&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="withdraw-commission-for-either-a-delegation">Withdraw commission for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards &lt;operator_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt; \
+  --commission
+</code></pre>
+
+<h5 id="edit-site-and-description-in-existing-validator-account">Edit site and description in existing validator account</h5>
+
+<blockquote>
+<p>Will be available at description section</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --details=&quot;&lt;description&gt;&quot; \
+  --website=&lt;your_website&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unjail-validator-previously-jailed-for-downtime">Unjail validator previously jailed for downtime</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx slashing unjail \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-validator">Get info about redelegation process from validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h2 id="delegator-commands">Delegator commands</h2>
+
+<h5 id="return-distribution-delegator-rewards-according-current-validator">Return distribution delegator rewards according current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query distr rewards &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-delegator-shares-with-current-validator">Return delegator shares with current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-made-from-one-delegator">Return all delegations made from one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegations &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="return-all-unbonding-delegatations-from-a-validator">Return all unbonding delegatations from a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="withdraw-rewards-for-either-a-delegation">Withdraw rewards for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards &lt;operator_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="withdraw-all-delegation-rewards">Withdraw all delegation rewards</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-all-rewards \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="change-the-default-withdraw-address-for-rewards-associated-with-an-address">Change the default withdraw address for rewards associated with an address</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr set-withdraw-addr &lt;your_new_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="delegate-liquid-tokens-to-a-validator">Delegate liquid tokens to a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking delegate &lt;operator_address&gt; &lt;amount_cyb&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-absolute-cyb-value">Redelegate illiquid tokens from one validator to another in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks for redelegation. Amount must be less than already delegated.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate &lt;old_operator_address&gt; &lt;new_operator_address&gt; &lt;amount_cyb&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-percentages">Redelegate illiquid tokens from one validator to another in percentages</h5>
+
+<blockquote>
+<p>3 weeks for redelegation.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate &lt;old_operator_address&gt; &lt;new_operator_address&gt; &lt;shares_percentage&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-absolute-cyb-value">Unbond shares from a validator in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond &lt;operator_address&gt; &lt;amount_cyb&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-percentages">Unbond shares from a validator in percentages</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond &lt;operator_address&gt; &lt;shares_percentage&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-current-validator">Get info about unbonding delegation process to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-all-unbonded-validators">Get info about unbonding delegation process to all unbonded validators</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-to-current-validator">Get info about redelegation process from to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegation &lt;delegator_address&gt; &lt;old_operator_address&gt; &lt;new_operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-all-redelegation-processes-by-one-delegator">Get info about all redelegation processes by one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations &lt;delegator_address&gt;
+</code></pre>
+
+
+      
+          <h2 id="comments">Comments</h2>
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://discuss.ipfs.io/',
+              discourseEmbedUrl: 'https://ipfs.io/blog/ultimate-cyberd-cli-guide-testnet-euler-3' };
+              if (window.location.hostname === 'blog.ipfs.io') {
+                (function() {
+                  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                })();
+              } else {
+                 
+                 
+                 document.getElementById('comments').style.display = 'none';
+                 document.getElementById('discourse-comments').style.display = 'none';
+              }
+          </script>
+      
+    </div>
+  </div> 
+
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cyber•Congress</title>
+    <link>/docs/cyb/</link>
+    <description>Recent content on cyber•Congress</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/docs/cyb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/cyb/app-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyb/app-guidelines/</guid>
+      <description>DApp guidelines @asadovka
+What is App? App in Cyb is a one or multi page application. It can be a simple html file as a frontend and may include smart contract logic as a backend. Apps should be available through IPFS hash.
+App structure Cyb CLI can automatically generate structure for your App. All you need to do is just type some commands, come up with a name and develop!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyb/cyb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyb/cyb/</guid>
+      <description>Cyb: web3 browser @xhipster @asadovka
+Concept. Definitions are work in progress.
+Current implementation is not in comply with spec yet
+Abstract Cyb is a friendly software robot who helps you explore the universes. Put it simply it just a web3 browser. At the very beginning Cyb is focusing on developers and advanced blockchain users who are able to work with private keys and transactions. But we see how Cyb becomes friendly for everyone who wants to interact with consensus computers in a web of the third generation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyb/dura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyb/dura/</guid>
+      <description>DURA: a missing piece for &amp;ldquo;The Great Web&amp;rdquo; @xhipster cyberCongress
+Abstract Originally an idea of web3 was inspired by Gavin Wood in 2014. A vision of Gavin was around 4 implementable concepts: content addressing, cryptographic identities, consensus computing and browsers. In parallel an idea of Interplanetary File System has been developed by Juan Benet. IPFS creates a foundation for web3: a system of content addressing and cryptographic identities. Since 2014 consensus computing has suffered insanely rapid development so one more missing piece is also in place.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyb/web3-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyb/web3-vision/</guid>
+      <description>DURA: a missing piece for web3 @xhipster cyberCongress
+Early draft for web3 summit. Looking for a feedback.
+Abstract Originally an idea of web3 was inspired by Gavin Wood in 2014. A vision of Gavin was around 4 implementable concepts: content addressing, cryptographic identities, consensus computing and browsers. In parallel an idea of Interplanetary File System has been developed by Juan Benet. IPFS creates a foundation for web3: a system of content addressing and cryptographic identities.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/changelog/</guid>
+      <description>Change Log Unreleased Full Changelog
+Fixed bugs:
+ Error during rewards withdrawal #302  Closed issues:
+ Exclude at the current stage the consideration of the behavioural factor in the search for ordinary users #327 New distribution #316 Cyberadmin telegram-bot for cyberd #281 Slow node start-up. #138  Merged pull requests:
+ update run_validator #325 (wimel) Some Dan&amp;rsquo;s fixes #323 (marzipanstar) Proposal of the new distribution #322 (xhipster) Add goveralls support for test coverage #305 (arturalbov)  v0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/contributing/</guid>
+      <description>Contributing to cyberd Thank you for considering a contribution to cyberd! This guide explains how to: * Get started * Development workflow * Get help if you encounter trouble
+Get in touch Before starting to work on a feature or a fix, please open an issue to discuss the use case or bug with us. This can save both you and us a lot of time. For any non-trivial change, we&amp;rsquo;ll ask you to create a short design document explaining:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/cyberd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/cyberd/</guid>
+      <description>cyberd: Computing the knowledge from web3 Notes on cyber release of cyber:// protocol reference implementation using Go.
+cyber•Congress: @xhipster, @litvintech, @hleb-albau, @arturalbov
+Abstract A consensus computer allows computing of provably relevant answers without opinionated blackbox intermediaries such as Google, Youtube, Amazon or Facebook. Stateless content-addressable peer-to-peer communication networks such as IPFS and stateful consensus computers such as Ethereum provide part of the solution, but there are at least three problems associated with implementation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/get_cyb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/get_cyb/</guid>
+      <description>How to get CYB? There are 3 ways to get tokens that allow you to participate in testnet either as a validator or as an search agent:
+ Get it for free. 1 million Ethereum addresses have been included in the genesis block of cyber protocol based on the ranking defined in paper. You can verify how many tokens had been allocated to your address, by downloading web3 browser Cyb and searching for genesis there.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/keystore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/keystore/</guid>
+      <description> Keystore management </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/launch_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/launch_network/</guid>
+      <description>Launch network Export state from previous network To export network at given state you should have fullnode stopped at required height. You can use any existing fullnode\validator node, or sync new node from the begging.
+Note: use fail-before-height flag to stop node before given height. Example:
+docker run -d --runtime=nvidia -v /cyberd/daemon:/root/.cyberd cyberd/cyberd:euler-x cyberd start --fail-before-height=322  Assuming you node files are located under /cyberd/daemon path and current chain is euler-x, run export command</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/params/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/params/</guid>
+      <description>://cyber staking and distribution overview Params    Module Param Value Comment     Staking UnbondingTime 3 weeks time duration of unbonding   Staking MaxValidators 146 maximum number of active validators set   Staking MaxEntries 7 max entries for either unbonding delegation or redelegation per delegator/validator pair(delegator/validator/validator for redelegation)         Consensus MaxBytes 1mb block max bytes limit         Rank RankCalcWindow 100 full rank recalculation window         Distr CommunityTax 0% community funding tax, not used   Distr BaseProposerReward 1% % of block inflation goes to proposer   Distr BonusProposerReward 4% addition reward, calculated as % of included votes from validators set         Slashing MaxEvidenceAge 3weeks misbehaviour evidence max age   Slashing SignedBlocksWindow 30min window to calculate validators liveness   Slashing MinSignedPerWindow 70% min singed block for window to not be jailed   Slashing DowntimeJailDuration 0 unjail delay   Slashing SlashFractionDoubleSign 20% % of stake reduction for double sign   Slashing SlashFractionDowntime 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/port_forwarding_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/port_forwarding_guide/</guid>
+      <description>Decentralization must be decentralized January 3, 2019, we&amp;rsquo;ve launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we&amp;rsquo;ll has in the future. Thanks to our testers and validators we&amp;rsquo;re finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/rpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/rpc/</guid>
+      <description>API reference Cyberd provides a JSON-RPC API. Http endpoint is served under localhost:20657. WebSockets are the preferred transport for cyberd RPC and are used by applications such as cyb. Default WebSocket connection endpoint for cyberd is ws://localhost:20657/websocket. There are test endpoints available at http://earth.cybernode.ai:34657 and ws://earth.cybernode.ai:34657/websocket.
+
+Standard Methods Query Example Query http endpoint using curl:
+curl --data &#39;{&amp;quot;method&amp;quot;:&amp;quot;status&amp;quot;,&amp;quot;params&amp;quot;:[],&amp;quot;id&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;}&#39; \ -H &amp;quot;Content-Type: application/json&amp;quot; -X POST earth.cybernode.ai:34657  Query ws endpoint from js:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/run_validator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/run_validator/</guid>
+      <description>Join Cyberd Network As Validator Note. Currently active dev testnet is euler-4 (substitute  with that value).
+Prepare your server First, you have to setup a server. You are supposed to run your validator node all time, so you will need a reliable server to keep it running. Also, you may consider to use any cloud services like AWS.
+Cyberd is based on Cosmos SDK written in Go. It should work on any platform which can compile and run programs in Go.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/setup_dev_env/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/setup_dev_env/</guid>
+      <description>Setup development environment Prestart  Install Golang 1.11+ Install GoLand IDE  Import project to GoLand Open Project in GoLand by selecting: Open Project -&amp;gt; selecting cloned repository root folder Enable go mod package management Wait for dependency downloading and indexation
+Add Run Configurations Add testnet configuration Add run configuration Add reset configuration Running Node Before node running, execute generate testnet run configuration. Folder mytestnet will be added to the project root.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/supported_gpu_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/supported_gpu_list/</guid>
+      <description>Supported GPU list for cyberd validators We use GPUs for parallel rank calculations.
+|GPU|Supported|Tested|CUDA cores|Memory|Year of production| |-|-|-|-|-|-| |GEFORCE RTX 2080 Ti|:white_check_mark:|:x:|4352|11GB GDDR 6|2018| |GEFORCE RTX 2080)|:white_check_mark:|:x:|4352|11GB GDDR 6|2018| |GEFORCE RTX 2070|:white_check_mark:|:x:|2304|8 GB GDDR6|2019| |GeForce RTX 2060|:white_check_mark:|:x:|1920|6 GB GDDR6|2019| |GEFORCE GTX 1660 Ti|:white_check_mark:|:x:|1536|6GB GDDR6|2019| |GEFORCE GTX 1660|:white_check_mark:|:x:|1408|6GB GDDR5|2019| |GEFORCE GTX 1650|:white_check_mark:|:x:|896|4GB GDDR5|2019| |GeForce GTX 1080|:white_check_mark:|:white_check_mark:|2560|8 GB GDDR5X|2016| |GeForce GTX 980|:white_check_mark:|:x:|2048|4 GB GDDR5|2014| |TITAN Xp|:white_check_mark:|:x:|3840|12 GB GDDR5|2017| |GeForce GTX 1080 Ti|:white_check_mark:|:white_check_mark:|3584|11 GB GDDR5X|2017| |GeForce GTX 980 Ti|:white_check_mark:|:x:|2816|6 GB GDDR5|2015| |GeForce GTX 1070 Ti|:white_check_mark:|:white_check_mark:|2432|8 GB GDDR5|2017| |GeForce GTX 1070|:white_check_mark:|:white_check_mark:|1920|8 GB GDDR5|2016| |GeForce GTX 970|:white_check_mark:|:x:|1664|4 GB GDDR5|2015| |GEFORCE GTX 1060 6GB|:white_check_mark:|:white_check_mark:|1280|6 GB GDDR5|2016| |GeForce GTX 1050 Ti 4GB|:white_check_mark:|:x:|768|4 GB GDDR5|2016| |GeForce GTX 745 (OEM) 4GB|:white_check_mark:|:x:|768|4 GB GDDR3|2014| |GeForce GTX TITAN X|:white_check_mark:|:x:|3072|12 GB GDDR5|2016| |GeForce GTX TITAN Z|:white_check_mark:|:x:|5760|12 GB GDDR5|2014| |GeForce GTX TITAN Black|:white_check_mark:|:x:|2880|6 GB GDDR5|2014| |GeForce GTX 770|:white_check_mark:|:x:|1536|4 GB GDDR5|2013|</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/cyberd/ultimate-commands-guide_v2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cyberd/ultimate-commands-guide_v2/</guid>
+      <description>Ultimate cyberd CLI guide. Testnet: Euler-3 If something wrong&amp;hellip; First of all I would like to encourage you to use --help feature if you want to get better experience of using cyberdcli. This is really easy way to find all necessary commands with options and flags.
+For example you can enter:
+docker exec cyberd cyberdcli --help  You should see this message:
+Command line interface for interacting with cyberd Usage: cyberdcli [command] Available Commands: status Query remote node for status query Querying subcommands tx Transactions subcommands keys Add or view local private keys rest-server Start LCD (light-client daemon), a local REST server version Print the app version link Create and sign a link tx help Help about any command Flags: --chain-id string Chain Id of cyberd node -e, --encoding string Binary encoding (hex|b64|btc) (default &amp;quot;hex&amp;quot;) -h, --help help for cyberdcli --home string directory for config and data (default &amp;quot;/root/.</description>
+    </item>
+    
+  </channel>
+</rss>

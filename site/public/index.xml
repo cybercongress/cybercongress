@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cyber•Congress</title>
+    <link>/</link>
+    <image>
+      <url>/img/ipfs-logo-256-ice.png</url>
+      <title>cyber•Congress</title>
+      <link>/</link>
+    </image>
+    <description>Recent content on cyber•Congress</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Can Cosmos be bigger than Ethereum?</title>
+      <link>/can-cosmos-be-bigger-than-ethereum/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/can-cosmos-be-bigger-than-ethereum/</guid>
+      <description>Today for most humans is just another day. But historically this day is important because the Genesis of Cosmos Hub happens.
+ 0D9BB9FA6EB9D64E80CF920EB917B1124F298B12C92BE7FD5328564C6D85D087
+ Almost 4 years ago in a day of Ethereum Genesis, I wrote a post on its bright future. This accelerating future is happening right now.
+Current post is not the comparison between Ethereum and Cosmos or Polkadot or other amazing p2p technology. Nor it is an overview of the technology.</description>
+      <content:encoded><![CDATA[
+
+<p>Today for most humans is just another day. But historically this day is important because <a href="https://www.mintscan.io/blocks/0">the Genesis of Cosmos Hub</a> happens.</p>
+
+<blockquote>
+<p>0D9BB9FA6EB9D64E80CF920EB917B1124F298B12C92BE7FD5328564C6D85D087</p>
+</blockquote>
+
+<p>Almost 4 years ago in a day of Ethereum Genesis, I wrote a <a href="https://blog.cyber.fund/ethereum-yet-another-next-big-thing-7168157480bc">post</a> on its bright future. This accelerating future is happening right now.</p>
+
+<p>Current post is not the comparison between Ethereum and Cosmos or Polkadot or other amazing p2p technology. Nor it is an overview of the technology. It is not speculation though. This post will be shorter thus more concise. Let me speak from my heart, and I will give you my personal story and impressions on the 5 years long (almost) silent development of the technology which I believe will be more impactful for the future of web than HTTP and HTML combined.</p>
+
+<h2 id="story">Story</h2>
+
+<p>It happens that I meet amazing humans before they impact the state of the world. The same was with Jae and Brain. I met those guys in Bucharest in February 2017.</p>
+
+<p>Those time I were looking for more efficient consensus alternatives because lighting (not LN) hit my brain one month before: I realize that thanks to IPFS a better Google is finally possible. One piece was missing though: efficient consensus algo. I started a comparison of DPOS based chains as the most performant at that time and finally came to a Tendermint chat with a question on performance for a search engine. Guys in a chat answered me that it seems that 30k-40k tps is achievable under some setting. I was happy because that was clearly enough for PoC. I start to dig, and to the moment I met guys after one month I was already impressed by Tendermint developments not only because of the consensus engine. I saw that guys were thinking deeper.</p>
+
+<p>It was February 22, 2017 when <a href="https://twitter.com/Lomashuk">Kostya</a>, <a href="https://twitter.com/21xhipster">me</a>, <a href="https://twitter.com/jaekwon">Jae</a> and <a href="https://twitter.com/crainbf">Brain</a> spent almost 2 hours on the discussion of the beast.</p>
+
+<blockquote>
+<p>The resume was that cosmos based search engine is crazy but clean enough, and undoubtedly doable idea.</p>
+</blockquote>
+
+<p>After the talk I made this selfie:</p>
+
+<p><img src="https://img.esteem.ws/650wch2mb6.jpg" alt="https://cloudflare-ipfs.com/ipfs/Qmen8quD7g61NDJP7evYfphDavvWFnfu1PoiHt5x7nSPFx" /></p>
+
+<p>Looking into the past, I want to thank you guys for this talk. Because those talk gave me belief to work last two years on <a href="https://cyberd.ai">the cyber</a> protocol and the power to spend on it (almost) all my money I earned on Ethereum :-)</p>
+
+<h2 id="impressions">Impressions</h2>
+
+<p>After two years of discovering the technology and launching a working network using it I have the following impressions:</p>
+
+<ul>
+<li>cosmos-sdk can be a bootstrap 2.0: you can build a planet-scale performant, sovereign and intelligent thing in minutes.</li>
+<li>tendermint is the cruelest consensus algo with cosmos hub slashing settings. It will suck all validator blood in the name of the liveness and safety of the network.</li>
+<li>inter-blockchain communication is essential but still missing piece of the stack. I cannot see a bright future without this piece.</li>
+<li>the architecture of consensus computers with a clear distinction of network, transaction and block protocols will rule them all.</li>
+<li>cosmos community is the most thoughtful, buidling and responsible in the industry, so I am happy to be a tinny particle of it.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>How do you think if there exists a technology that <a href="https://github.com/cybercongress/cyberd">makes an almighty Google just 7 kloc app</a> using <a href="https://github.com/cosmos/cosmos-sdk">cosmos-sdk</a> and <a href="https://github.com/tendermint">tendermint</a> how far we can go with it?</p>
+
+<p>Let us work together on <strong>The Great Web</strong> and see what happens in the next 5 years ;-) But I will start to think on a crazy adventure to Jupiter and Saturn moons.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Decentralization must be decentralized</title>
+      <link>/decentralization-must-be-decentralized/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/decentralization-must-be-decentralized/</guid>
+      <description>January 3, 2019, we&amp;rsquo;ve launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we&amp;rsquo;ll has in the future. Thanks to our testers and validators we&amp;rsquo;re finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.</description>
+      <content:encoded><![CDATA[
+
+<p>January 3, 2019, we&rsquo;ve launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we&rsquo;ll has in the future. Thanks to our testers and validators we&rsquo;re finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.</p>
+
+<p>An obvious problem of decentralization is that no entity has a global vision of the system, and there is no central authority to direct nodes in making optimal decisions with regard to software updates, routing, or solving consensus. This makes the availability of a decentralized network more difficult to maintain, a factor significant enough to contribute to the failure of a system.</p>
+
+<p>By the way, a huge part of disconnections and, as result, validators jailing happens by this reason.</p>
+
+<p>Cyberd cli can’t automatically configure your router to open port <code>26656</code>, you will need to manually configure your router. We’ve can&rsquo;t make the following instructions to cover all router models; if you need specific help with your router, please ask for help on our <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+
+<p>Enabling inbound connections requires two steps:</p>
+
+<ol>
+<li><p>Giving your computer a static (unchanging) internal IP address by configuring the Dynamic Host Configuration Protocol (DHCP) on your router.</p></li>
+
+<li><p>Forwarding inbound connections from the Internet through your router to your computer where cyberd container can process them.</p></li>
+
+<li><p>Editing cyberd configuration file.</p></li>
+</ol>
+
+<h2 id="configuring-dhcp">Configuring DHCP</h2>
+
+<p>In order for your router to direct incoming port <code>26656</code> connections to your computer, it needs to know your computer’s internal IP address. However, routers usually give computers dynamic IP addresses that change frequently, so we need to ensure your router always gives your computer the same internal IP address.</p>
+
+<p>Start by logging into your router’s administration interface. Most routers can be configured using one of the following URLs, so keep clicking links until you find one that works. If none work, consult your router’s manual.</p>
+
+<pre><code>    http://192.168.0.1 (some Linksys/Cisco models)
+    http://192.168.1.1 (some D-Link/Netgear models)
+    http://192.168.2.1 (some Belkin/SMC models)
+    http://192.168.123.254 (some US Robotics models)
+    http://10.0.1.1 (some Apple models)
+</code></pre>
+
+<p>Upon connecting, you will probably be prompted for a username and password. If you configured a password, enter it now. If not, the Router Passwords site provides a database of known default username and password pairs.</p>
+
+<p>After logging in, you want to search your router’s menus for options related to DHCP, the Dynamic Host Configuration Protocol. These options may also be called Address Reservation.</p>
+
+<p>In the reservation configuration, some routers will display a list of computers and devices currently connected to your network, and then let you select a device to make its current IP address permanent.</p>
+
+<p>If that’s the case, find the computer running cyberd container in the list, select it, and add it to the list of reserved addresses. Make a note of its current IP address—we’ll use the address in the next section.</p>
+
+<p>Other routers require a more manual configuration. For these routers, you will need to look up the fixed address (MAC address) for your computer’s network card and add it to the list.</p>
+
+<p>Open a terminal and type ifconfig. Find the result that best matches your connection—a result starting with wlan indicates a wireless connection. Find the field that starts with HWaddr and copy the immediately following field that looks like <code>01:23:45:67:89:ab</code>. Use that value in the instructions below.</p>
+
+<p>Once you have the MAC address, you can fill it into to your router’s manual DHCP assignment table. Also, choose an IP address and make a note of it for the instructions in the next subsection. After entering this information, click the Add or Save button.</p>
+
+<p>Then reboot your computer to ensure it gets assigned the address you selected and proceed to the Port Forwarding instructions below.</p>
+
+<h2 id="port-forwarding">Port Forwarding</h2>
+
+<p>For this step, you need to know the local IP address of the computer running cyberd container. You should have this information from configuring the DHCP assignment table in the subsection above.</p>
+
+<p>Login to your router using the same steps described near the top of the DHCP subsection. Look for an option called Port Forwarding, Port Assignment, or anything with “Port” in its name. On some routers, this option is buried in an Applications &amp; Gaming menu.</p>
+
+<p>The port forwarding settings should allow you to map an external port on your router to the “internal port” of a device on your network.</p>
+
+<p>Both the external port and the internal port should be <code>26656</code> for cyberd container.</p>
+
+<p>Make sure the IP address you enter is the same one you configured in the previous subsection.</p>
+
+<p>After filling in the details for the mapping, save the entry. You should not need to restart anything. Just ask us in <a href="https://t.me/fuckgoogle">devChat</a> about successful connection.</p>
+
+<p>If you still can’t connect and you use a firewall, you probably need to change your firewall settings. Ubuntu comes with its firewall disabled by default, but if you have enabled it, see the Ubuntu <a href="https://help.ubuntu.com/community/Gufw">wiki page</a> for information about adding port forwarding rules.</p>
+
+<p>If something else went wrong, it’s probably a problem with your router configuration. Re-read the instructions above to see if you missed anything, search the web for help with “port forwarding”, and ask for help on <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+
+<h2 id="configuring-cyberd">Configuring cyberd</h2>
+
+<p>Go to cyberd daemon folder, then go to <code>config</code> folder and open <code>config.toml</code> file for editing.</p>
+
+<p>Find <code>peer to peer configuration options</code> section and edit <code>external_address</code> variable with your IP address and port <code>26656</code></p>
+
+<p><img src="guide.jpg" alt="peer_to_peer_config" /></p>
+
+<p>Restart cyberd container.</p>
+
+<hr />
+
+<p>We call to you, validators, with a proposal to forwarding port <code>26656</code> and make you validator-nodes available to the incoming connection.</p>
+
+<p>Unfortunately, we can&rsquo;t provide all guides for port forwarding because of they different for each router. But if you faced on with some troubles feel free to contact us in our <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Ultimate cyberd CLI guide. Testnet: Euler-3</title>
+      <link>/ultimate-cyberd-cli-guide-testnet-euler-3/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ultimate-cyberd-cli-guide-testnet-euler-3/</guid>
+      <description>If something wrong&amp;hellip; First of all I would like to encourage you to use --help feature if you want to get better experience of using cyberdcli. This is really easy way to find all necessary commands with options and flags.
+For example you can enter:
+docker exec cyberd cyberdcli --help  You should see this message:
+Command line interface for interacting with cyberd Usage: cyberdcli [command] Available Commands: status Query remote node for status query Querying subcommands tx Transactions subcommands keys Add or view local private keys rest-server Start LCD (light-client daemon), a local REST server version Print the app version link Create and sign a link tx help Help about any command Flags: --chain-id string Chain Id of cyberd node -e, --encoding string Binary encoding (hex|b64|btc) (default &amp;quot;hex&amp;quot;) -h, --help help for cyberdcli --home string directory for config and data (default &amp;quot;/root/.</description>
+      <content:encoded><![CDATA[
+
+<h2 id="if-something-wrong">If something wrong&hellip;</h2>
+
+<p>First of all I would like to encourage you to use  <code>--help</code> feature if you want to get better experience of using cyberdcli. This is really easy way to find all necessary commands with options and flags.</p>
+
+<p>For example you can enter:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli --help
+</code></pre>
+
+<p>You should see this message:</p>
+
+<pre><code class="language-bash">  Command line interface for interacting with cyberd
+
+  Usage:
+    cyberdcli [command]
+
+  Available Commands:
+    status      Query remote node for status
+    query       Querying subcommands
+    tx          Transactions subcommands
+
+    keys        Add or view local private keys
+
+    rest-server Start LCD (light-client daemon), a local REST server
+
+    version     Print the app version
+    link        Create and sign a link tx
+    help        Help about any command
+
+  Flags:
+        --chain-id string   Chain Id of cyberd node
+    -e, --encoding string   Binary encoding (hex|b64|btc) (default &quot;hex&quot;)
+    -h, --help              help for cyberdcli
+        --home string       directory for config and data (default &quot;/root/.cyberdcli&quot;)
+    -o, --output string     Output format (text|json) (default &quot;text&quot;)
+        --trace             print out full stack trace on errors
+</code></pre>
+
+<p>Help feature working as a stairs - you can use it with any command to find available options, subcommands and flags. For example lets explore <code>query</code> subcommands:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli query --help
+</code></pre>
+
+<p>now, you can see subcommand structure:</p>
+
+<pre><code class="language-bash">  Usage:
+  cyberdcli query [command]
+</code></pre>
+
+<p>and available subcommands and flags:</p>
+
+<pre><code class="language-bash">  Available Commands:
+  tendermint-validator-set Get the full tendermint validator set at given height
+  block                    Get verified data for a the block at given height
+  txs                      Search for all transactions that match the given tags.
+  tx                       Matches this txhash over all committed blocks
+
+  account                  Query account balance
+  gov                      Querying commands for the governance module
+  distr                    Querying commands for the distribution module
+  staking                  Querying commands for the staking module
+  slashing                 Querying commands for the slashing module
+
+  Flags:
+    -h, --help   help for query
+
+  Global Flags:
+        --chain-id string   Chain Id of cyberd node
+    -e, --encoding string   Binary encoding (hex|b64|btc) (default &quot;hex&quot;)
+        --home string       directory for config and data (default &quot;/root/.cyberdcli&quot;)
+    -o, --output string     Output format (text|json) (default &quot;text&quot;)
+        --trace             print out full stack trace on errors
+</code></pre>
+
+<p>Alright, lets explore <code>account</code> subcommand:</p>
+
+<pre><code class="language-bash">  docker exec cyberd cyberdcli query account --help
+</code></pre>
+
+<p>Now we see all options available at this subcommands, namely, account address and flags:</p>
+
+<pre><code class="language-bash">  Usage:
+  cyberdcli query account [address] [flags]
+</code></pre>
+
+<p>In most cases you need just two extra flags:</p>
+
+<pre><code class="language-bash">  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<p>That it. This is very useful ability for using cyberdcli and troubleshooting.</p>
+
+<h2 id="glossary">Glossary</h2>
+
+<p><strong>Bandwidth</strong> - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:</p>
+
+<p><code>your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100</code>.</p>
+
+<p>Messages cost is <code>500</code> (exclude link). Transaction consists of one or more messages <code>m_1, m_2, ..., m_n</code>. Transaction cost is <code>300 + c_1 + c_2 ... + c_n</code>, where <code>c_i</code> - cost of <code>m_i</code> message. Full bandwidth regeneration time is 86400 blocks (24 hours)</p>
+
+<p><strong>commission</strong> -  tokens that you&rsquo;ve earned with validation. You can take them at any time.</p>
+
+<p><strong>illiquid tokens</strong> - non-transferable tokens that you&rsquo;ve delegated to the validator. Delegation process duration - 1 block. <strong>Unbonding</strong> process, or taking back share - 3 weeks.</p>
+
+<p><strong>link</strong> - reference between CID key and CID value. Link message cost is <code>100*n</code>, where <code>n</code> is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks (from 100 to 200 seconds).</p>
+
+<p><strong>liquid tokens</strong> - transferable tokens in cyberd blockchain</p>
+
+<p><strong>local keystore</strong> - store with keys in you local machine</p>
+
+<p><strong>rewards</strong> - tokens that you&rsquo;ve earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at <strong>delegator</strong> section.</p>
+
+<p><strong><comission_rate_percentage></strong> - the commission that validator get for the work. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><delegator_address></strong> - delegator address. Starts with <code>cyber</code> most often coinciding with <strong><key_address></strong></p>
+
+<p><strong><key_address></strong> - account address. Starts with <code>cyber</code></p>
+
+<p><strong><key_name></strong> - name of account in cybercli</p>
+
+<p><strong><operator_address></strong> - validator address. Starts with <code>cybervaloper</code></p>
+
+<p><strong><shares_percentage></strong> - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><testnet_chain_id></strong> - version of testnet.</p>
+
+<h2 id="general-commands">General commands</h2>
+
+<h5 id="show-all-validators">Show all validators</h5>
+
+<p>Return set of all active and jailed validators.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators --trust-node
+</code></pre>
+
+<h5 id="show-chain-status">Show chain status</h5>
+
+<p>Return general chain information</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli status --indent
+</code></pre>
+
+<h5 id="distribution-params">Distribution params</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr params --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-outstanding-rewards">The amount of outstanding rewards</h5>
+
+<p>Return the sum of rewards in a pool</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr outstanding-rewards --trust-node
+</code></pre>
+
+<h5 id="staking-params">Staking params</h5>
+
+<p>Chain staking info</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking params --trust-node
+</code></pre>
+
+<h5 id="staking-pool">Staking pool</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking pool --trust-node
+</code></pre>
+
+<h2 id="account-management">Account management</h2>
+
+<h5 id="import-an-account-by-seed-phrase-and-store-it-in-local-keystore">Import an account by seed phrase and store it in local keystore</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt; --recover
+</code></pre>
+
+<h5 id="import-an-account-by-private-key-and-store-it-in-local-keystore-private-key-could-be-your-eth-private-key">Import an account by private key and store it in local keystore (private key could be your ETH private key)</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add import_private &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="create-a-new-account">Create a new account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-information">Show account information</h5>
+
+<p>Name, address and public key of current account</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-balance">Show account balance.</h5>
+
+<p>Return account number, balance, public key in 16 and sequence.
+&gt;Don&rsquo;t work if from current account no outgoing transactions. <a href="https://github.com/cybercongress/cyberd/issues/238">Issue in progress</a></p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query account &lt;your_key_address&gt;
+</code></pre>
+
+<h5 id="list-existing-keys">List existing keys</h5>
+
+<p>Return all keys in cyberdcli</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys list
+</code></pre>
+
+<h5 id="delete-account-from-cybercli">Delete account from cybercli</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys delete &lt;deleting_key_name&gt;
+</code></pre>
+
+<h5 id="update-account-password">Update account password</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys update &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="send-tokens">Send tokens</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx send &lt;to_address&gt; &lt;amount_cyb&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="linking-content">Linking content</h5>
+
+<blockquote>
+<p>Just ipfs hashes available as a CID</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli link \
+  --from=&lt;your_key_name&gt; \
+  --cid-from=&lt;key_phrase_to_link&gt; \
+  --cid-to=&lt;content_that_you_want_to_link&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h2 id="validator-commands">Validator commands</h2>
+
+<h5 id="get-all-validators">Get all validators</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators \
+    --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-commission">The amount of commission</h5>
+
+<p>Available to withdraw validator commission.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr commission &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="state-of-current-validator">State of current validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validator &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-to-validator">Return all delegations to validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking delegations-to &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="edit-commission-in-existing-validator-account">Edit commission in existing validator account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --commission-rate=&lt;new_comission_rate_percentage&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="withdraw-commission-for-either-a-delegation">Withdraw commission for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards &lt;operator_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt; \
+  --commission
+</code></pre>
+
+<h5 id="edit-site-and-description-in-existing-validator-account">Edit site and description in existing validator account</h5>
+
+<blockquote>
+<p>Will be available at description section</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --details=&quot;&lt;description&gt;&quot; \
+  --website=&lt;your_website&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unjail-validator-previously-jailed-for-downtime">Unjail validator previously jailed for downtime</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx slashing unjail \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-validator">Get info about redelegation process from validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h2 id="delegator-commands">Delegator commands</h2>
+
+<h5 id="return-distribution-delegator-rewards-according-current-validator">Return distribution delegator rewards according current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query distr rewards &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-delegator-shares-with-current-validator">Return delegator shares with current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-made-from-one-delegator">Return all delegations made from one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegations &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="return-all-unbonding-delegatations-from-a-validator">Return all unbonding delegatations from a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="withdraw-rewards-for-either-a-delegation">Withdraw rewards for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards &lt;operator_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="withdraw-all-delegation-rewards">Withdraw all delegation rewards</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-all-rewards \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="change-the-default-withdraw-address-for-rewards-associated-with-an-address">Change the default withdraw address for rewards associated with an address</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr set-withdraw-addr &lt;your_new_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="delegate-liquid-tokens-to-a-validator">Delegate liquid tokens to a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking delegate &lt;operator_address&gt; &lt;amount_cyb&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-absolute-cyb-value">Redelegate illiquid tokens from one validator to another in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks for redelegation. Amount must be less than already delegated.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate &lt;old_operator_address&gt; &lt;new_operator_address&gt; &lt;amount_cyb&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-percentages">Redelegate illiquid tokens from one validator to another in percentages</h5>
+
+<blockquote>
+<p>3 weeks for redelegation.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate &lt;old_operator_address&gt; &lt;new_operator_address&gt; &lt;shares_percentage&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-absolute-cyb-value">Unbond shares from a validator in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond &lt;operator_address&gt; &lt;amount_cyb&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-percentages">Unbond shares from a validator in percentages</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond &lt;operator_address&gt; &lt;shares_percentage&gt;
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-current-validator">Get info about unbonding delegation process to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-all-unbonded-validators">Get info about unbonding delegation process to all unbonded validators</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-to-current-validator">Get info about redelegation process from to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegation &lt;delegator_address&gt; &lt;old_operator_address&gt; &lt;new_operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-all-redelegation-processes-by-one-delegator">Get info about all redelegation processes by one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations &lt;delegator_address&gt;
+</code></pre>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Ultimate cyberd CLI guide. Testnet: Euler-1.</title>
+      <link>/ultimate-cyberd-cli-guide-testnet-euler-1/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ultimate-cyberd-cli-guide-testnet-euler-1/</guid>
+      <description>Glossary Bandwidth - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:
+your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100.
+Messages cost is 500 (exclude link). Transaction consists of one or more messages m_1, m_2, ..., m_n. Transaction cost is 300 + c_1 + c_2 ... + c_n, where c_i - cost of m_i message. Full bandwidth regeneration time is 86400 blocks (24 hours)</description>
+      <content:encoded><![CDATA[
+
+<h2 id="glossary">Glossary</h2>
+
+<p><strong>Bandwidth</strong> - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:</p>
+
+<p><code>your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100</code>.</p>
+
+<p>Messages cost is <code>500</code> (exclude link). Transaction consists of one or more messages <code>m_1, m_2, ..., m_n</code>. Transaction cost is <code>300 + c_1 + c_2 ... + c_n</code>, where <code>c_i</code> - cost of <code>m_i</code> message. Full bandwidth regeneration time is 86400 blocks (24 hours)</p>
+
+<p><strong>commission</strong> -  tokens that you&rsquo;ve earned with validation. You can take them at any time.</p>
+
+<p><strong>illiquid tokens</strong> - non-transferable tokens that you&rsquo;ve delegated to the validator. Delegation process duration - 1 block. <strong>Unbonding</strong> process, or taking back share - 3 weeks.</p>
+
+<p><strong>link</strong> - reference between CID key and CID value. Link message cost is <code>100*n</code>, where <code>n</code> is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks (from 100 to 200 seconds).</p>
+
+<p><strong>liquid tokens</strong> - transferable tokens in cyberd blockchain</p>
+
+<p><strong>local keystore</strong> - store with keys in you local machine</p>
+
+<p><strong>rewards</strong> - tokens that you&rsquo;ve earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at <strong>delegator</strong> section.</p>
+
+<p><strong><comission_rate_percentage></strong> - the commission that validator get for the work. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><delegator_address></strong> - delegator address. Starts with <code>cyber</code> most often coinciding with <strong><key_address></strong></p>
+
+<p><strong><key_address></strong> - account address. Starts with <code>cyber</code></p>
+
+<p><strong><key_name></strong> - name of account in cybercli</p>
+
+<p><strong><operator_address></strong> - validator address. Starts with <code>cybervaloper</code></p>
+
+<p><strong><shares_percentage></strong> - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction &gt;0 and &lt;=1</p>
+
+<p><strong><testnet_chain_id></strong> - version of testnet.</p>
+
+<h2 id="general-commands">General commands</h2>
+
+<h5 id="show-all-validators">Show all validators</h5>
+
+<p>Return set of all active and jailed validators.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators --trust-node
+</code></pre>
+
+<h5 id="show-chain-status">Show chain status</h5>
+
+<p>Return general chain information</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli status --indent
+</code></pre>
+
+<h5 id="distribution-params">Distribution params</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr params --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-outstanding-rewards">The amount of outstanding rewards</h5>
+
+<p>Return the sum of rewards in a pool</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr outstanding-rewards --trust-node
+</code></pre>
+
+<h5 id="staking-params">Staking params</h5>
+
+<p>Chain staking info</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking params --trust-node
+</code></pre>
+
+<h5 id="staking-pool">Staking pool</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking pool --trust-node
+</code></pre>
+
+<h2 id="account-management">Account management</h2>
+
+<h5 id="import-an-account-by-seed-phrase-and-store-it-in-local-keystore">Import an account by seed phrase and store it in local keystore</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt; --recover
+</code></pre>
+
+<h5 id="import-an-account-by-private-key-and-store-it-in-local-keystore-private-key-could-be-your-eth-private-key">Import an account by private key and store it in local keystore (private key could be your ETH private key)</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add import_private &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="create-a-new-account">Create a new account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-information">Show account information</h5>
+
+<p>Name, address and public key of current account</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="show-account-balance">Show account balance.</h5>
+
+<p>Return account number, balance, public key in 16 and sequence.
+&gt;Don&rsquo;t work if from current account no outgoing transactions. <a href="https://github.com/cybercongress/cyberd/issues/238">Issue in progress</a></p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query account &lt;your_key_address&gt;
+</code></pre>
+
+<h5 id="list-existing-keys">List existing keys</h5>
+
+<p>Return all keys in cyberdcli</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli keys list
+</code></pre>
+
+<h5 id="delete-account-from-cybercli">Delete account from cybercli</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys delete &lt;deleting_key_name&gt;
+</code></pre>
+
+<h5 id="update-account-password">Update account password</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys update &lt;your_key_name&gt;
+</code></pre>
+
+<h5 id="send-tokens">Send tokens</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx send \
+  --from=&lt;your_key_name&gt; \
+  --to=&lt;key_address_to_send_tokens&gt; \
+  --amount=&lt;amount&gt;cyb \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="linking-content">Linking content</h5>
+
+<blockquote>
+<p>Just ipfs hashes available as a CID</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli link \
+  --from=&lt;your_key_name&gt; \
+  --cid-from=&lt;key_phrase_to_link&gt; \
+  --cid-to=&lt;content_that_you_want_to_link&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h2 id="validator-commands">Validator commands</h2>
+
+<h5 id="get-all-validators">Get all validators</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validators \
+    --trust-node
+</code></pre>
+
+<h5 id="the-amount-of-commission">The amount of commission</h5>
+
+<p>Available to withdraw validator comission.</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query distr commission &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="state-of-current-validator">State of current validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking validator &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-to-validator">Return all delegations to validator</h5>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli query staking delegations-to &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="edit-commission-in-existing-validator-account">Edit commission in existing validator account</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --commission-rate=&lt;new_comission_rate_percentage&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="withdraw-comission-for-either-a-delegation">Withdraw comission for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt; \
+  --is-validator
+</code></pre>
+
+<h5 id="edit-site-and-description-in-existing-validator-account">Edit site and description in existing validator account</h5>
+
+<blockquote>
+<p>Will be available at description section</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking edit-validator \
+  --from=&lt;your_key_name&gt; \
+  --details=&quot;&lt;description&gt;&quot; \
+  --website=&lt;your_website&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unjail-validator-previously-jailed-for-downtime">Unjail validator previously jailed for downtime</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx slashing unjail \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-validator">Get info about redelegation process from validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h2 id="delegator-commands">Delegator commands</h2>
+
+<h5 id="return-distribution-delegator-rewards-according-current-validator">Return distribution delegator rewards according current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query distr rewards &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-delegator-shares-with-current-validator">Return delegator shares with current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="return-all-delegations-made-from-one-delegator">Return all delegations made from one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking delegations &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="return-all-unbonding-delegatations-from-a-validator">Return all unbonding delegatations from a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegations-from &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="withdraw-rewards-for-either-a-delegation">Withdraw rewards for either a delegation</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt; \
+  --only-from-validator=&lt;operator_address&gt;
+</code></pre>
+
+<h5 id="change-the-default-withdraw-address-for-rewards-associated-with-an-address">Change the default withdraw address for rewards associated with an address</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx distr set-withdraw-addr &lt;your_new_address&gt; \
+  --from=&lt;your_key_name&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="delegate-liquid-tokens-to-a-validator">Delegate liquid tokens to a validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking delegate \
+  --from=&lt;your_key_name&gt; \
+  --amount=&lt;amount&gt;cyb \
+  --validator=&lt;operator_address&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-absolute-cyb-value">Redelegate illiquid tokens from one validator to another in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks for redelegation. Amount must be less than already delegated.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate
+  --from=&lt;your_key_name&gt; \
+  --addr-validator-dest=&lt;new_operator_address&gt; \
+  --addr-validator-source=&lt;old_operator_address&gt; \
+  --shares-amount=&lt;amount&gt;cyb
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="redelegate-illiquid-tokens-from-one-validator-to-another-in-percentages">Redelegate illiquid tokens from one validator to another in percentages</h5>
+
+<blockquote>
+<p>3 weeks for redelegation.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking redelegate
+  --from=&lt;your_key_name&gt; \
+  --addr-validator-dest=&lt;new_operator_address&gt; \
+  --addr-validator-source=&lt;old_operator_address&gt; \
+  --shares-fraction=&lt;shares_percentage&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-absolute-cyb-value">Unbond shares from a validator in absolute cyb value</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond
+  --from=&lt;your_key_name&gt; \
+  --shares-amount=&lt;amount&gt;cyb
+  --validator==&lt;operator_address&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="unbond-shares-from-a-validator-in-percentages">Unbond shares from a validator in percentages</h5>
+
+<blockquote>
+<p>3 weeks unbonding.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking unbond
+  --from=&lt;your_key_name&gt; \
+  --shares-fraction=&lt;shares_percentage&gt; \
+  --validator==&lt;operator_address&gt; \
+  --chain-id=&lt;testnet_chain_id&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-current-validator">Get info about unbonding delegation process to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt; &lt;operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-unbonding-delegation-process-to-all-unbonded-validators">Get info about unbonding delegation process to all unbonded validators</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking unbonding-delegation &lt;delegator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-redelegation-process-from-to-current-validator">Get info about redelegation process from to current validator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegation &lt;delegator_address&gt; &lt;old_operator_address&gt; &lt;new_operator_address&gt;
+</code></pre>
+
+<h5 id="get-info-about-all-redelegation-processes-by-one-delegator">Get info about all redelegation processes by one delegator</h5>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking redelegations &lt;delegator_address&gt;
+</code></pre>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>The show must go on</title>
+      <link>/sprint-27-report/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/sprint-27-report/</guid>
+      <description>Start: 2019-01-21
+End: 2019-02-01
+Сonclusion This sprint was not easy for us. We had worked on bug fixing and improvements, and, also, adapted to the new climate.
+What exactly is ready? Testnet Euler drives like hell. It&amp;rsquo;s too easy now to launch own node or validator and start linking principally new Internet.
+Is it hard to? Alright! Testnet Euler is now available in cyb. So you can link the new Internet with great UX.</description>
+      <content:encoded><![CDATA[
+
+<p><img src="pic.png" alt="pic" /></p>
+
+<p>Start: 2019-01-21</p>
+
+<p>End: 2019-02-01</p>
+
+<h3 id="сonclusion">Сonclusion</h3>
+
+<p>This sprint was not easy for us. We had worked on bug fixing and improvements, and, also, adapted to the new climate.</p>
+
+<p>What exactly is ready?
+Testnet <a href="https://github.com/cybercongress/cyberd/releases/tag/v0.1.1">Euler</a> drives like hell. It&rsquo;s too easy now to <a href="https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md">launch own node or validator</a> and start linking principally new Internet.</p>
+
+<p>Is it hard to? Alright! Testnet Euler is now available in <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.2">cyb</a>. So you can link the new Internet with great UX.</p>
+
+<p>And finally, <a href="https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib">Chaingear</a> was deployed to <a href="https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca">Mainnet</a>. This is a good reason to register some popular domain as someone already made. So <code>.com</code> and <code>.porn</code> are busy already :)</p>
+
+<p>But what am I going to say?</p>
+
+<p>Today, exactly today we can say: &ldquo;cyber•Search destined to be&rdquo;! Our 3 repos in the complex formed sustainable entrance point to web3. We have started winter round of private donates from friends because in search we trust!</p>
+
+<h3 id="releases">Releases</h3>
+
+<ul>
+<li>#### <a href="https://github.com/cybercongress/cyberd/releases/tag/v0.1.1">Cyberd release 0.1.1: 19 features, 10 bugs, 1 epic</a></li>
+<li>#### <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.2">Cyb release 0.1.2: 4 features, 5 bugs, 1 epic</a></li>
+<li>#### <a href="https://github.com/cybercongress/chaingear/releases">Chaingear release 0.1.1 in Mainnet: 1 epic</a></li>
+</ul>
+
+<hr />
+
+<h3 id="developers-metrics">Developers metrics</h3>
+
+<h5 id="epics-done">Epics done:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/chaingear/issues/997">Deploy to mainnet #997 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/44">Basic articles for help.cyb #44 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/177">Bandwidth Specification Change #177 cyberd</a></li>
+</ul>
+
+<h5 id="epics-next-sprint-todo">Epics next sprint TODO:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/cyb/issues/67">Simple .txqueue app #67 cyb</a></li>
+<li><a href="https://github.com/cybercongress/congress/issues/36">Landing pages for key projects #36 congress</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/150">Smart secret storage</a></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Burndown</th>
+<th align="center">Storypoints done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="BD.png" alt="burndown-report" /></td>
+<td align="center">139</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Stars</th>
+<th align="center">Forks</th>
+<th align="center">PRs</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="cyb-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyb-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyb-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="cyberd-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyberd-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyberd-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="chaingear-stars.png" alt="stars" /></td>
+<td align="center"><img src="chaingear-forks.png" alt="forks" /></td>
+<td align="center"><img src="chaingear-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="congress-stars.png" alt="stars" /></td>
+<td align="center"><img src="congress-forks.png" alt="forks" /></td>
+<td align="center"><img src="congress-PRs.png" alt="PRs" /></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="kpi-s-as-at-2019-02-03">KPI&rsquo;s as at 2019/02/03</h3>
+
+<ul>
+<li>cyberd: 9 of 146 active validators (+1 jailed)</li>
+<li>cyb: yes <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.2">release</a>;</li>
+<li>chaingear: <a href="https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca">20 of 100 ETH</a> take from chaingear;</li>
+<li><a href="https://gitcoin.co/profile/cybercongress">#34</a> organization on gitcoin.co;</li>
+<li>59 of 1000 devs in <a href="https://t.me/fuckgoogle">devChat</a>.</li>
+</ul>
+
+<hr />
+
+<h3 id="community">Community:</h3>
+
+<ul>
+<li><a href="https://t.me/cybercongress">Telegram channel</a>: 32 subscribers;</li>
+<li><a href="https://t.me/fuckgoogle">Telegram devChat</a>: 59 subscribers;</li>
+<li><a href="https://steemit.com/@cybercongress">Steemit</a>: 9 subscribers;</li>
+<li><a href="https://www.reddit.com/r/cybercongress">Reddit</a>: 6 subscribers;</li>
+<li><a href="https://twitter.com/cyber_devs">Twitter</a>: 26 subscribers.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Steemit</th>
+<th align="center">Dev Chat</th>
+<th align="center">Telegram Channel</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="steemit.png" alt="stemmit" /></td>
+<td align="center"><img src="devChat.png" alt="devchat" /></td>
+<td align="center"><img src="telegram.png" alt="telegram" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Twitter</th>
+<th align="center">Reddit</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="twitter.png" alt="twitter" /></td>
+<td align="center"><img src="reddit.png" alt="reddit" /></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Ultimate cyberd validator setup. Testnet: Euler-1.</title>
+      <link>/ultimate-validator-guide/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ultimate-validator-guide/</guid>
+      <description>What is this The cyberd is a public Delegated Proof-of-Stake (DPoS) protocol based on Tendermint Byzantine Fault-Tolerant consensus, meaning that validator&amp;rsquo;s weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.</description>
+      <content:encoded><![CDATA[
+
+<h1 id="what-is-this">What is this</h1>
+
+<p>The cyberd is a public Delegated Proof-of-Stake (DPoS) protocol based on Tendermint Byzantine Fault-Tolerant consensus, meaning that validator&rsquo;s weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.</p>
+
+<h1 id="validators">Validators</h1>
+
+<p>The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - top 146 with staked tokens will in a active validators set.</p>
+
+<h1 id="validators-requirements">Validators requirements</h1>
+
+<p>Rank calculation on a cyberd is benefit GPU computation. They easy to parallelize that why is the best way is to use GPU.</p>
+
+<p>Minimal requirements for the next two weeks (until the middle of February):</p>
+
+<pre><code>CPU: 4 cores
+RAM: 16 GB
+SSD: 256 GB
+Connection: 100Mb, Fiber, Stable and low-latency connection
+GPU: GeForce 1070-1080, CUDA
+Software: Docker, Ubuntu 16.04/18.04 LTS
+</code></pre>
+
+<p>Recommended requirements:</p>
+
+<pre><code>CPU: 6 cores
+RAM: 64 GB
+SSD: 512 GB
+Connection: 100Mb, Fiber, Stable and low-latency connection
+GPU: GeForce 1070-1080, CUDA
+Software: Docker, Ubuntu 16.04/18.04 LTS
+</code></pre>
+
+<h1 id="validator-setup">Validator setup</h1>
+
+<h2 id="third-party-software">Third-party software</h2>
+
+<p>Cyberd main distribution unit is a <a href="https://www.docker.com/">docker</a> container. All images are located in default <a href="https://hub.docker.com/r/cyberd/cyberd/">Dockerhub registry</a>.  In order to access GPU from the container, Nvidia drivers version <strong>410+</strong> and <a href="https://github.com/NVIDIA/nvidia-docker">Nvidia docker runtime</a> should be installed on the host system. For great user experience, we propose you to use <a href="https://portainer.io">portainer</a> - docker containers manager. You can skip any subsection of this if you already had and configured necessary software.</p>
+
+<h4 id="docker-installation">Docker installation</h4>
+
+<ol>
+<li>Update the apt package index:</li>
+</ol>
+
+<pre><code class="language-bash">sudo apt-get update
+</code></pre>
+
+<ol>
+<li>Install packages to allow apt to use a repository over HTTPS:</li>
+</ol>
+
+<pre><code class="language-bash">sudo apt-get install \
+     apt-transport-https \
+     ca-certificates \
+     curl \
+     gnupg-agent \
+     software-properties-common
+</code></pre>
+
+<blockquote>
+<p>May require <code>curl</code> installation <code>apt-get install curl</code></p>
+</blockquote>
+
+<ol>
+<li>Add Docker’s official GPG key:</li>
+</ol>
+
+<pre><code class="language-bash">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</code></pre>
+
+<pre><code class="language-bash">sudo add-apt-repository \
+   &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable&quot;
+</code></pre>
+
+<ol>
+<li>Update the apt package index.</li>
+</ol>
+
+<pre><code class="language-bash">sudo apt-get update
+</code></pre>
+
+<ol>
+<li>Install the latest version of Docker CE and containerd, or go to the next step to install a specific version:</li>
+</ol>
+
+<pre><code class="language-bash">sudo apt-get install docker-ce docker-ce-cli containerd.io
+</code></pre>
+
+<p>If you don’t want to preface the docker command with sudo, create a Unix group called docker and add users to it. When the Docker daemon starts, it creates a Unix socket accessible by members of the docker group.</p>
+
+<ol>
+<li>Create the docker group.</li>
+</ol>
+
+<pre><code class="language-bash">sudo groupadd docker
+</code></pre>
+
+<ol>
+<li>Add your user to the docker group.</li>
+</ol>
+
+<pre><code class="language-bash">sudo usermod -aG docker $USER
+</code></pre>
+
+<ol>
+<li>Reboot the system for the changes to take effect.</li>
+</ol>
+
+<h4 id="portainer-installation">Portainer installation</h4>
+
+<ol>
+<li>Before installing Portainer, download the Portainer image from the DockerHub using the docker pull command below.</li>
+</ol>
+
+<pre><code class="language-bash">docker pull portainer/portainer
+</code></pre>
+
+<ol>
+<li>Now run Portainer using the simple docker command below.</li>
+</ol>
+
+<pre><code class="language-bash">docker run -d --restart always -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+</code></pre>
+
+<ol>
+<li>Open your browser and go to:</li>
+</ol>
+
+<pre><code class="language-bash">localhost:9000
+</code></pre>
+
+<p><img src="portainer_start.png" alt="" /></p>
+
+<ol>
+<li>Set password, chose <code>local</code> tab and click <code>connect</code>. All containers will be available at <code>containers</code> tab.</li>
+</ol>
+
+<h4 id="nvidia-drivers-installation">Nvidia drivers installation</h4>
+
+<ol>
+<li>To proceed first add the <code>ppa:graphics-drivers/ppa</code> repository into your system:</li>
+</ol>
+
+<pre><code class="language-bash">sudo add-apt-repository ppa:graphics-drivers/ppa
+</code></pre>
+
+<pre><code class="language-bash">sudo apt update
+</code></pre>
+
+<ol>
+<li>Next, identify your graphic card model and recommended driver:</li>
+</ol>
+
+<pre><code class="language-bash">ubuntu-drivers devices
+</code></pre>
+
+<p>You should see something like this:</p>
+
+<pre><code class="language-bash">== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00001BA1sv00001462sd000011E4bc03sc00i00
+vendor   : NVIDIA Corporation
+model    : GP104M [GeForce GTX 1070 Mobile]
+driver   : nvidia-driver-390 - third-party free
+driver   : nvidia-driver-410 - third-party free
+driver   : nvidia-driver-396 - third-party free
+driver   : nvidia-driver-415 - third-party free recommended
+driver   : xserver-xorg-video-nouveau - distro free builtin
+</code></pre>
+
+<ol>
+<li>We need <strong>410+</strong> drivers release. As we see v415 is recommended. The command below will install the recommended version of drivers.</li>
+</ol>
+
+<pre><code class="language-bash">sudo ubuntu-drivers autoinstall
+</code></pre>
+
+<p>Drivers will install due approximately 10 minutes.</p>
+
+<pre><code class="language-bash">DKMS: install completed.
+Setting up libxdamage1:i386 (1:1.1.4-3) ...
+Setting up libxext6:i386 (2:1.3.3-1) ...
+Setting up libxfixes3:i386 (1:5.0.3-1) ...
+Setting up libnvidia-decode-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up build-essential (12.4ubuntu1) ...
+Setting up libnvidia-gl-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libnvidia-encode-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up nvidia-driver-415 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libxxf86vm1:i386 (1:1.1.4-1) ...
+Setting up libglx-mesa0:i386 (18.0.5-0ubuntu0~18.04.1) ...
+Setting up libglx0:i386 (1.0.0-2ubuntu2.2) ...
+Setting up libgl1:i386 (1.0.0-2ubuntu2.2) ...
+Setting up libnvidia-ifr1-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libnvidia-fbc1-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for initramfs-tools (0.130ubuntu3.1) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-45-generic
+</code></pre>
+
+<ol>
+<li><p>Reboot the system for the changes to take effect.</p></li>
+
+<li><p>Check installed drivers</p></li>
+</ol>
+
+<pre><code class="language-bash">nvidia-smi
+</code></pre>
+
+<p>You should see this:</p>
+
+<pre><code>+-----------------------------------------------------------------------------+
+| NVIDIA-SMI 415.27       Driver Version: 415.27       CUDA Version: 10.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   54C    P0    36W /  N/A |    445MiB /  8117MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0       882      G   /usr/lib/xorg/Xorg                           302MiB |
+|    0      1046      G   /usr/bin/gnome-shell                         139MiB |
++-----------------------------------------------------------------------------+
+</code></pre>
+
+<h3 id="install-nvidia-container-runtime-for-docker">Install Nvidia container runtime for docker</h3>
+
+<ol>
+<li>Add the package repositories</li>
+</ol>
+
+<pre><code class="language-bash">curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
+    sudo apt-key add -
+</code></pre>
+
+<pre><code class="language-bash">distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+</code></pre>
+
+<pre><code class="language-bash">curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
+   sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+</code></pre>
+
+<p>You should see this:</p>
+
+<pre><code>deb https://nvidia.github.io/libnvidia-container/ubuntu18.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-container-runtime/ubuntu18.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-docker/ubuntu18.04/$(ARCH) /
+</code></pre>
+
+<ol>
+<li>Install nvidia-docker2 and reload the Docker daemon configuration</li>
+</ol>
+
+<pre><code class="language-bash">sudo apt-get update
+</code></pre>
+
+<pre><code class="language-bash">sudo apt-get install -y nvidia-docker2
+</code></pre>
+
+<pre><code class="language-bash">sudo pkill -SIGHUP dockerd
+</code></pre>
+
+<ol>
+<li>Test nvidia-smi with the latest official CUDA image</li>
+</ol>
+
+<pre><code class="language-bash">docker run --runtime=nvidia --rm nvidia/cuda:10.0-base nvidia-smi
+</code></pre>
+
+<p>Output logs must should coincide as earlier:</p>
+
+<pre><code>Unable to find image 'nvidia/cuda:10.0-base' locally
+10.0-base: Pulling from nvidia/cuda
+38e2e6cd5626: Pull complete
+705054bc3f5b: Pull complete
+c7051e069564: Pull complete
+7308e914506c: Pull complete
+5260e5fce42c: Pull complete
+8e2b19e62adb: Pull complete
+Digest: sha256:625491db7e15efcc78a529d3a2e41b77ffb5b002015983fdf90bf28955277d68
+Status: Downloaded newer image for nvidia/cuda:10.0-base
+Fri Feb  1 05:41:12 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 415.27       Driver Version: 415.27       CUDA Version: 10.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   55C    P0    31W /  N/A |    445MiB /  8117MiB |     38%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
+</code></pre>
+
+<p>Your machine is ready to launch fullnode.</p>
+
+<h2 id="cyberd-fullnode-launching">Cyberd fullnode launching</h2>
+
+<ol>
+<li>Create folders for keys and data storing where you want:</li>
+</ol>
+
+<pre><code class="language-bash">mkdir cyberd
+mkdir cyberdcli
+</code></pre>
+
+<ol>
+<li>Run fullnode</li>
+</ol>
+
+<pre><code class="language-bash">docker run -d --name=cyberd --restart always --runtime=nvidia  -p 26656:26656 -p 26657:26657 -p 26660:26660  -v /&lt;path_to_cyberd&gt;/cyberd:/root/.cyberd  -v /&lt;path_to_cyberdcli&gt;/cyberdcli:/root/.cyberdcli  cyberd/cyberd:euler-1
+</code></pre>
+
+<ol>
+<li>After successful container pulling and launch run to check if your node is connected to the testnet:</li>
+</ol>
+
+<pre><code class="language-bash">docker exec cyberd cyberdcli status
+</code></pre>
+
+<p>The possible output looks like this:</p>
+
+<pre><code>{&quot;node_info&quot;:{&quot;protocol_version&quot;:{&quot;p2p&quot;:&quot;6&quot;,&quot;block&quot;:&quot;9&quot;,&quot;app&quot;:&quot;0&quot;},&quot;id&quot;:&quot;93b776d3eb3f3ce9d9bda7164bc8af3acacff7b6&quot;,&quot;listen_addr&quot;:&quot;tcp://0.0.0.0:26656&quot;,&quot;network&quot;:&quot;euler-1&quot;,&quot;version&quot;:&quot;0.29.1&quot;,&quot;channels&quot;:&quot;4020212223303800&quot;,&quot;moniker&quot;:&quot;anonymous&quot;,&quot;other&quot;:{&quot;tx_index&quot;:&quot;on&quot;,&quot;rpc_address&quot;:&quot;tcp://0.0.0.0:26657&quot;}},&quot;sync_info&quot;:{&quot;latest_block_hash&quot;:&quot;686B4E65415D4E56D3B406153C965C0897D0CE27004E9CABF65064B6A0ED4240&quot;,&quot;latest_app_hash&quot;:&quot;0A1F6D260945FD6E926785F07D41049B8060C60A132F5BA49DD54F7B1C5B2522&quot;,&quot;latest_block_height&quot;:&quot;45533&quot;,&quot;latest_block_time&quot;:&quot;2019-02-01T09:49:19.771375108Z&quot;,&quot;catching_up&quot;:false},&quot;validator_info&quot;:{&quot;address&quot;:&quot;66098853CF3B61C4313DD487BA21EDF8DECACDF0&quot;,&quot;pub_key&quot;:{&quot;type&quot;:&quot;tendermint/PubKeyEd25519&quot;,&quot;value&quot;:&quot;uZrCCdZTJoHE1/v+EvhtZufJgA3zAm1bN4uZA3RyvoY=&quot;},&quot;voting_power&quot;:&quot;0&quot;}}
+</code></pre>
+
+<p>Your node has started to sync. The syncing process you can see in the terminal. Open a new tab and run following command:</p>
+
+<pre><code class="language-bash">docker logs cyberd --follow
+</code></pre>
+
+<p>Or go to <code>localhost:9000</code> and open logs at cyberd container:</p>
+
+<p><img src="cyberd_logs.jpg" alt="" /></p>
+
+<p>Syncing has started. Syncing time depends on your internet bandwidth, connection and blockchain height. As at 2019/02/03 syncing time approximately 15-20 minutes. Once you see in logs that blocks syncing for 1 second your node is synced.</p>
+
+<p>Additional information available by API endpoint at <code>localhost:26657</code></p>
+
+<p>f.e. the number of active validators available here <code>localhost:26657/validators</code></p>
+
+<h2 id="validator-start">Validator start</h2>
+
+<p>After your node successful synced you can run validator.</p>
+
+<h4 id="prepare-stake-address">Prepare stake address</h4>
+
+<p>If you already have address with CYB and know seed phrase or private key just restore it into your local keystore.</p>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt; --recover
+docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<p>If you have been lucky enought and your Ethereum address has been included in genesis you can import ethereum private key</p>
+
+<blockquote>
+<p>Please, do not import high value Ethereum accounts. This can not be safe! cyberd software is a new software and is not battle tested yet.</p>
+</blockquote>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add import_private &lt;your_key_name&gt;
+docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<p>If you want to create new acccount use the command below.
+Also, you should send coins to that address to bound them later during validator submitting.</p>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli keys add &lt;your_key_name&gt;
+docker exec cyberd cyberdcli keys show &lt;your_key_name&gt;
+</code></pre>
+
+<p><strong><your_key_name></strong> is any name you pick to represent this key pair.
+You have to refer to this <your_key_name> later when you use the keys to sign transactions.
+It will ask you to enter your password twice to encrypt the key.
+You also need to enter your password when you use your key to sign any transaction.</p>
+
+<p>The command returns the address, public key and a seed phrase which you can use it to
+recover your account if you forget your password later.
+Keep the seed phrase in a safe place in case you have to use them.</p>
+
+<p>The address showing here is your account address. Let’s call this <strong><your_account_address></strong>.
+It stores your assets.</p>
+
+<h4 id="send-create-validator-transaction">Send create validator transaction</h4>
+
+<p>Validators are actors on the network committing new blocks by submitting their votes.
+It refers to the node itself, not a single person or a single account.
+Therefore, the public key here is referring to the node public key,
+not the public key of the address you have just created.</p>
+
+<p>To get the node public key, run the following command:</p>
+
+<pre><code class="language-bash">docker exec cyberd cyberd tendermint show-validator
+</code></pre>
+
+<p>It will return a bech32 public key. Let’s call it <strong><your_node_pubkey></strong>.
+The next step you have to declare a validator candidate.
+The validator candidate is the account which stake the coins.
+So the validator candidate is an account this time.
+To declare a validator candidate, run the following command adjusting stake amount and other fields.</p>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx staking create-validator \
+  --amount=10000000cyb \
+  --pubkey=&lt;your_node_pubkey&gt; \
+  --moniker=&lt;your_node_nickname&gt; \
+  --trust-node \
+  --from=&lt;your_key_name&gt; \
+  --commission-rate=&quot;0.10&quot; \
+  --commission-max-rate=&quot;0.20&quot; \
+  --commission-max-change-rate=&quot;0.01&quot; \
+  --chain-id=euler-1
+</code></pre>
+
+<h4 id="verify-that-you-validating">Verify that you validating</h4>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli query staking validators --trust-node=true
+</code></pre>
+
+<p>If you see your <code>&lt;your_node_nickname&gt;</code> with status <code>Bonded</code> and Jailed <code>false</code> everything must be good. You are validating the network.</p>
+
+<h1 id="maintenance-of-validator">Maintenance of validator</h1>
+
+<h4 id="jailing">jailing</h4>
+
+<p>If your validator go under slashing conditions it first go to jail. After this event operator must unjail it manually.</p>
+
+<pre><code class="language-bash">docker exec -ti cyberd cyberdcli tx slashing unjail --from=&lt;your_key_name&gt; --chain-id=euler-1
+</code></pre>
+
+<h4 id="upgrading-of-validator">Upgrading of validator</h4>
+
+<p>Updating is easy as pulling the new docker container and launching it again</p>
+
+<pre><code class="language-bash">docker stop cyberd
+docker rm cyberd
+docker pull cyberd/cyberd:&lt;testnet_chain_id&gt;
+
+docker run -d --name=cyberd --restart always --runtime=nvidia \
+ -p 26656:26656 -p 26657:26657 -p 26660:26660 \
+ -v /root/cyberd:/root/.cyberd \
+ -v /root/cyberdcli:/root/.cyberdcli \
+ cyberd/cyberd:euler-1
+</code></pre>
+
+<p>Don&rsquo;t forget to unjail if you was jailed during update.</p>
+
+<p>The rank calculation has a linear relationship between GPU memory usage and links quantity. A number of links indefinitely increasing, but the potential of vertical scaling is limited.</p>
+
+<p>Understanding this, we are looking for solutions to calculate the same amount of links with fewer capacity.</p>
+
+<h1 id="call-to-you-validator">Call to you, validator</h1>
+
+<p>For now it is time and opportunity go up against blackbox search engines. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.</p>
+
+<p>As at 2019/02/04 there 9 active validators and 1 jailed. This is enough to support net, but this is not enough for quality grow. We looking for validators. Join us!</p>
+
+<h1 id="connect-to-us-fuckgoogle">Connect to us, #fuckgoogle</h1>
+
+<p>Subscribe at <a href="https://steemit.com/@cybercongress">Steemit</a>, <a href="https://www.reddit.com/r/cybercongress/">Reddit</a>, <a href="https://twitter.com/cyber_devs">Twitter</a>, <a href="https://t.me/cybercongress">Telegram channel</a> and join our community in <a href="https://t.me/fuckgoogle">@fuckgoogle</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cyberd: Computing the knowledge from web3</title>
+      <link>/cyberd-computing-the-knowledge-from-web3/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/cyberd-computing-the-knowledge-from-web3/</guid>
+      <description>cyberd: Computing the knowledge from web3 Notes on euler release of cyber:// protocol reference implementation using Go.
+cyber•Congress: @xhipster, @litvintech, @hleb-albau, @arturalbov, @belya
+cyb: - nick. a friendly software robot who helps you explore universes cyber: - noun. a superintelligent network computer for answers - verb. to do something intelligent, to be very smart cyber:// - web3 protocol for computing answers and knowledge exchange CYB: - ticker. transferable token expressing a will to become smarter CYBER: - ticker.</description>
+      <content:encoded><![CDATA[
+
+<h1 id="cyberd-computing-the-knowledge-from-web3">cyberd: Computing the knowledge from web3</h1>
+
+<p>Notes on <a href="https://github.com/cybercongress/cyberd/releases/tag/v0.1.0"><code>euler</code></a> release of <code>cyber://</code> protocol <a href="https://github.com/cybercongress/cyberd">reference implementation</a> using Go.</p>
+
+<p><a href="https://cybercongress.ai/">cyber•Congress</a>: @xhipster, @litvintech, @hleb-albau, @arturalbov, @belya</p>
+
+<pre><code>cyb:
+- nick. a friendly software robot who helps you explore universes
+
+cyber:
+- noun. a superintelligent network computer for answers
+- verb. to do something intelligent, to be very smart
+
+cyber://
+- web3 protocol for computing answers and knowledge exchange
+
+CYB:
+- ticker. transferable token expressing a will to become smarter
+
+CYBER:
+- ticker. non-transferable token measuring intelligence
+
+CBD:
+- ticker. ERC-20 proto token representing substance from which CYB emerge
+
+cyberlink:
+- link type. expressing connection from one link to another as link-x.link-y
+
+</code></pre>
+
+<h2 id="content">Content</h2>
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+<ul>
+<li><a href="#cyberd-computing-the-knowledge-from-web3">cyberd: Computing the knowledge from web3</a>
+
+<ul>
+<li><a href="#content">Content</a></li>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#introduction-to-web3">Introduction to web3</a></li>
+<li><a href="#on-adversarial-examples-problem">On adversarial examples problem</a></li>
+<li><a href="#cyber-protocol-at-euler">Cyber protocol at <code>euler</code></a></li>
+<li><a href="#knowledge-graph">Knowledge graph</a></li>
+<li><a href="#cyberlinks">Cyberlinks</a></li>
+<li><a href="#notion-of-consensus-computer">Notion of consensus computer</a></li>
+<li><a href="#relevance-machine">Relevance machine</a></li>
+<li><a href="#cyberrank">cyber•Rank</a></li>
+<li><a href="#proof-of-relevance">Proof of relevance</a></li>
+<li><a href="#speed-and-scalability">Speed and scalability</a></li>
+<li><a href="#implementation-in-a-browser">Implementation in a browser</a></li>
+<li><a href="#from-inception-to-genesis">From Inception to Genesis</a></li>
+<li><a href="#validators-incentive">Validators incentive</a></li>
+<li><a href="#satoshi-lottery">Satoshi Lottery</a></li>
+<li><a href="#inception">Inception</a></li>
+<li><a href="#possible-applications">Possible applications</a></li>
+<li><a href="#economic-protection-is-smith">Economic protection is <code>smith</code></a></li>
+<li><a href="#ability-to-evolve-is-darwin">Ability to evolve is <code>darwin</code></a></li>
+<li><a href="#turing-is-about-computing-more"><code>turing</code> is about computing more</a></li>
+<li><a href="#in-a-search-for-equilibria-is-nash">In a search for equilibria is <code>nash</code></a></li>
+<li><a href="#on-faster-evolution-at-weiner">On faster evolution at <code>weiner</code></a></li>
+<li><a href="#genesis-is-secure-as-merkle">Genesis is secure as <code>merkle</code></a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
+
+<!-- /code_chunk_output -->
+
+<h2 id="abstract">Abstract</h2>
+
+<p>A consensus computer allows computing of provably relevant answers without opinionated blackbox intermediaries such as Google, Youtube, Amazon or Facebook. Stateless content-addressable peer-to-peer communication networks such as IPFS and stateful consensus computers such as Ethereum provide part of the solution, but there are at least three problems associated with implementation. Of course, the first problem is the subjective nature of relevance. The second problem is that it is hard to scale consensus computer for a huge knowledge graph. The third problem is that the quality of such a knowledge graph will suffer from different attack surfaces such as sybil, selfish behaviour of interacting agents. In this paper, we (1) define a protocol for provable consensus computing of relevance between IPFS objects based on Tendermint consensus of cyber•rank computed on GPU, (2) discuss implementation details and (3) design distribution and incentive scheme based on our experience. We believe the minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work some applications never existed before emerge. We expand the work including our vision on features we expect to work up to Genesis.</p>
+
+<h2 id="introduction-to-web3">Introduction to web3</h2>
+
+<p>Original protocols of the Internet such as TCP/IP, DNS, URL, and HTTPS brought a web into the point where it is now. Along with all the benefits they have created they brought more problem to the table. Globality being a vital property of the web since inception is under real threat. The speed of connections degrades with network grow and from ubiquitous government interventions into privacy and security of web users. One property, not evident in the beginning, become important with everyday usage of the Internet: its ability to exchange permanent hyperlinks thus they <a href="https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN">would not break after time has passed</a>. Reliance on &ldquo;one at a time ISP&rdquo; architecture allows governments effectively censor packets. It is the last straw in a conventional web stack for every engineer who is concerned about the future of our children.</p>
+
+<p>Other properties while being not so critical are very desirable: offline and real-time. Average internet user being offline must have the ability to work with the state it has and after acquiring connection being able to sync with global state and continue to verify state&rsquo;s validity in realtime while having a connection. Now, these properties offered on the app level while such properties must be integrated into lower level protocols.</p>
+
+<p>The emergence of a <a href="https://github.com/w3f/Web3-wiki/wiki">web3 stack</a> creates an opportunity for a new kind of Internet. We call it web3. It has a promise to remove problems of a conventional protocol stack and add to the web better speed and more accessible connection. However, as usual in a story with a new stack, new problems emerge. One of such problem is general-purpose search. Existing general-purpose search engines are restrictive centralized databases everybody forced to trust. These search engines were designed primarily for client-server architecture based on TCP/IP, DNS, URL and HTTPS protocols. Web3 creates a challenge and opportunity for a search engine based on developing technologies and specifically designed for them. Surprisingly the permission-less blockchain architecture itself allows organizing general purpose search engine in a way inaccessible for previous architectures.</p>
+
+<h2 id="on-adversarial-examples-problem">On adversarial examples problem</h2>
+
+<p><a href="https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6">Conventional architecture of search engines</a> where one entity process and rank all the shit suffers from one hard but the particular problem that still has not been solved even by brilliant Google scientists: <a href="https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9">adversarial examples problem</a>. The problem Google acknowledge is that it is rather hard to algorithmically reason either this particular sample is adversarial or not independently on how cool the learning technology is. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.</p>
+
+<h2 id="cyber-protocol-at-euler">Cyber protocol at <code>euler</code></h2>
+
+<ul>
+<li>compute <code>euler</code> inception of cyber protocol based on Satoshi lottery and CBD balances</li>
+<li>def knowledge graph state</li>
+<li>take cyberlinks</li>
+<li>check the validity of signatures</li>
+<li>check bandwidth limit</li>
+<li>check the validity of CIDv0</li>
+<li>if signatures, bandwidth limit, and CIDv0 are ok than cyberlink is valid</li>
+<li>for every valid cyberlink emit prediction as an array of CIDv0</li>
+<li>every round calculate cyber•rank deltas for the knowledge graph</li>
+<li>every round distribute CYB based on defined rules</li>
+<li>apply more secure consensus state based on CBD balances 6 times up to <code>merkle</code></li>
+</ul>
+
+<h2 id="knowledge-graph">Knowledge graph</h2>
+
+<p>We represent a knowledge graph as a weighted graph of directed links between content addresses or content identifications or CIDs. In this paper, we will use them as synonyms.</p>
+
+<p><img src="https://ipfs.io/ipfs/QmejVRS9irYb6eXGDZNM9YEuFyb3a5jn4EWh3MRC3LVRij" alt="knowledge_graph.png" /></p>
+
+<p>Content addresses are essentially a web3 links. Instead of using nonobvious and mutable thing:</p>
+
+<pre><code>https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
+</code></pre>
+
+<p>we can use pretty much exact thing:</p>
+
+<pre><code>Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuHhttps
+</code></pre>
+
+<p>Using content addresses for building a knowledge graph we get <a href="https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est">so much needed</a> superpowers of <a href="https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps">ipfs</a>-<a href="https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR">like</a> p2p protocols for a search engine:</p>
+
+<ul>
+<li>mesh-network future proof</li>
+<li>interplanetary</li>
+<li>tolerant</li>
+<li>accessible</li>
+<li>technology agnostic</li>
+</ul>
+
+<p>Web3 agents generate our knowledge graph. Web3 agents include itself to the knowledge graph by transacting only once. Thereby they prove the existence of private keys for content addresses of revealed public keys.</p>
+
+<p>Our <code>euler</code> implementation is based on <a href="https://github.com/cosmos/cosmos-sdk"><code>cosmos-sdk</code></a> identities and <a href="https://github.com/multiformats/cid#cidv0">cidv0</a> content addresses.</p>
+
+<p>Web 3 agents generate knowledge graph by applying cyberlinks.</p>
+
+<h2 id="cyberlinks">Cyberlinks</h2>
+
+<p>To understand cyberlinks, we need to understand the difference between URL link and IPFS link. URL link points to the location of content, but IPFS link point to the content itself. The difference in web architecture based on location links and content links is drastical, hence require new approaches.</p>
+
+<p>Cyberlink is an approach to link two content addresses semantically.</p>
+
+<pre><code>QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS
+</code></pre>
+
+<p>This cyberlink means that cyberd presentation on cyberc0n is referencing Tezos whitepaper.</p>
+
+<p>A concept of cyberlink is a convention around simple semantics of communication format in any peer to peer network:</p>
+
+<p><code>&lt;content-address x&gt;.&lt;content-address y&gt;</code></p>
+
+<p>You can see that cyberlink represents a link between two links. Easy peasy!</p>
+
+<p>Cyberlink is a simple yet powerful semantic construction for building a predictive model of the universe.</p>
+
+<p>Cyberlinks can form link chains if exist a series of two cyberlinks from one agent in which the second link in the first cyberlink is equal to the first link in the second cyberlink:</p>
+
+<pre><code>&lt;content-address x&gt;.&lt;content-address y&gt;
+&lt;content-address y&gt;.&lt;content-address z&gt;
+</code></pre>
+
+<p>Using this simple principle, all interacting agents can reach consensus around interpreting clauses. So link chains are helpful for interpreting rich communications around relevance.</p>
+
+<p><img src="https://ipfs.io/ipfs/QmNd15Pa1pzFVv98jmf1uuvPGLxRpptQMVoMidYkj1YvDC" alt="link_chains.png" /></p>
+
+<p>Also using the following link: <code>QmNedUe2wktW65xXxWqcR8EWWssHVMXm3Ly4GKiRRSEBkn</code> the one can signal the start and stop of execution in the knowledge graph.</p>
+
+<p>If web3 agents expand native IPFS links with something semantically richer as <a href="https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md">DURA</a> links than web3 agents can easier to reach consensus on the rules for program execution.</p>
+
+<p>Indeed, DURA protocol is a proper implementation of a cyberlinks concept.</p>
+
+<p><code>euler</code> implementation of cyberlinks based on DURA specification is available in <code>.cyber</code> app of browser <code>cyb</code>.</p>
+
+<p>Based on cyberlinks we can compute the relevance of subjects and objects in a knowledge graph. That is why we need a consensus computer.</p>
+
+<h2 id="notion-of-consensus-computer">Notion of consensus computer</h2>
+
+<p>Consensus computer is an abstract computing machine that emerges from agents interactions.</p>
+
+<p>A consensus computer has a capacity in terms of fundamental computing resources such as memory and computing. To interact with agents, a computer needs a bandwidth.</p>
+
+<p>Ideal consensus computer is a computer in which:</p>
+
+<pre><code>the sum of all *individual agents* computations and memory
+is equal to
+the sum of all verified by agents computations and memory of a *consensus computer*
+</code></pre>
+
+<p>We know that:</p>
+
+<pre><code>verifications of computations &lt; computations + verifications of computations
+</code></pre>
+
+<p>Hence we will not be able to achieve an ideal consensus computer ever. CAP theorem and scalability trilemma also prove this statement.</p>
+
+<p>However, this theory can work as a performance indicator of a consensus computer.</p>
+
+<p>The <code>euler</code> implementation is a 64-bit consensus computer of the relevance for 64-byte string space that is as far from ideal at least as <sup>1</sup>&frasl;<sub>146</sub>.</p>
+
+<p>We must bind computational, storage and bandwidth supply of relevance machine with maximized demand of queries. Computation and storage in case of basic relevance machine can be easily predicted based on bandwidth, but bandwidth requires a limiting mechanism.</p>
+
+<p>Bandwidth limiting mechanism is work in progress. Current notes on implementation are in <a href="https://github.com/cybercongress/cyberd/blob/master/docs/bandwidth.md">the docs</a>.</p>
+
+<p>So agents must have CYB tokens in accordance to their will of learning the knowledge graph. However, proposed mechanics of CYB tokens work not only as spam protection but as the economic regulation mechanism to align the ability of validators to process knowledge graph and market demand for processing.</p>
+
+<h2 id="relevance-machine">Relevance machine</h2>
+
+<p>Relevance machine is a machine that transition knowledge graph state based on some reputation score of agents.</p>
+
+<p>This machine enables simple construction for search question querying and answers delivering.</p>
+
+<p>The reputation score is projected on every agent&rsquo;s cyberlink. A simple rule prevents agents abuse: one content address can be voted by a token only once. So it does not matter for ranking from how much accounts you voted. The only sum of their balances matters.</p>
+
+<p>A useful property of a relevance machine is that it must have inductive reasoning property or follows the blackbox principle.</p>
+
+<pre><code>She must be able to interfere predictions
+without any knowledge about objects
+except who linked, when linked and what was linked.
+</code></pre>
+
+<p>If we assume that a consensus computer must have some information about linked objects the complexity of such model growth unpredictably, hence a requirement for a computer for memory and computations. That is, deduction of meaning inside consensus computer is expensive thus our design depends on the blindness assumption. Instead of deducting a meaning inside consensus computer we design a system in which meaning extraction is incentivized because agents need CYB to compute relevance.</p>
+
+<p>Also, thanks to content addressing the relevance machine following the blackbox principle do not need to store the data but can effectively operate on it.</p>
+
+<p>Human intelligence organized in a way to prune none-relevant and none-important memories with time has passed. The same way can do relevance machine.</p>
+
+<p>Also, one useful property of relevance machine is that it needs to store neither past state nor full current state to remain useful, or more precisely: <em>relevant</em>.</p>
+
+<p>So relevance machine can implement <a href="QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb">aggressive pruning strategies</a> such as pruning all history of knowledge graph formation or forgetting links that become non-relevant.</p>
+
+<p>The pruning group of features can be implemented in <code>nash</code>.</p>
+
+<p><code>euler</code> implementation of relevance machine is based on the most straightforward mechanism which is called cyber•Rank.</p>
+
+<h2 id="cyber-rank">cyber•Rank</h2>
+
+<p>Ranking using consensus computer is hard because consensus computers bring serious resource bounds. e.g. <a href="https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh">Nebulas</a> still fail to deliver something useful on-chain. First, we must ask ourselves why do we need to compute and store the rank on-chain, and not go <a href="https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj">Colony</a> or <a href="https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD">Truebit</a> way?</p>
+
+<p>If rank computed inside consensus computer, you have an easy content distribution of the rank as well as an easy way to build provable applications on top of the rank. Hence we decided to follow more cosmic architecture. In the next section, we describe the proof of relevance mechanism which allows the network to scale with the help of domain-specific relevance machines that works in parallel.</p>
+
+<p>Eventually, relevance machine needs to find (1) deterministic algorithm that allows computing a rank for a continuously appended network to scale the consensus computer to orders of magnitude that of Google. Perfect algorithm (2) must have linear memory and computation complexity. The most importantly it must have (3) highest provable prediction capabilities for the existence of relevant links.</p>
+
+<p>After some research, we found that we can not find silver bullet here. We find an algorithm that probably satisfies our criteria: <a href="https://ipfs.io/ipfs/QmNvxWTXQaAqjEouZQXTV4wDB5ryW4PGcaxe2Lukv1BxuM">SpringRank</a>. An original idea of the algorithm came to Caterina from physics. Links represented as a system of springs with some energy, and the task of computing the ranks is the task of finding a relaxed state of springs.</p>
+
+<p>However, we got at least 3 problems with SpringRank:
+1. We were not able to implement it on-chain fast using Go in <code>euler</code>.
+2. We were not able to prove it for knowledge graph because we did not have provable knowledge graph yet.
+3. Also, we were not able to prove it by applying it for the Ethereum blockchain during computing the genesis file for <code>euler</code>. It could work, but for the time being it is better to call this kind of distribution a lottery.</p>
+
+<p>So we decided to find some more basic bulletproof way to bootstrap the network: a rank from which Lary and Sergey have bootstrapped a previous network. The problem with original PageRank is that it is not resistant to sybil attacks.</p>
+
+<p>Token weighted <a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf">PageRank</a> limited by token-weighted bandwidth do not have inherent problems of naive PageRank and is resistant to sybil attacks. For the time being, we will call it cyber•Rank until something better emerge.</p>
+
+<p>In the centre of spam protection system is an assumption that write operations can be executed only by those who have a vested interest in the evolutionary success of a relevance machine. Every 1% of stake in consensus computer gives the ability to use 1% of possible network bandwidth and computing capabilities.</p>
+
+<p>As nobody uses all possessed bandwidth, we can safely use 10x fractional reserves with 2-minute recalculation target.</p>
+
+<p>We would love to discuss the problem of vote buying mainly. Vote buying by itself is not such bad. The problem with vote buying appears in the systems where voting affects the allocation of inflation in the system like <a href="QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3">Steem</a> or any state-based system. So vote buying can become easily profitable for adversary employing a zero-sum game without a necessity to add value. Our original idea of a decentralized search was based on this approach, but we reject this idea completely removing incentive on consensus level for knowledge graph formation completely. In our setting in which every participant must bring some value to the system to affect predictive model vote buying become NP-hard problem hence is useful for the system.</p>
+
+<p>To switch from one algorithm to another, we are going to make simulations and experiment with economic a/b testing based on winning chains through hard spoons.</p>
+
+<p>Consensus computer based on relevance machine for cyber•Rank can answer and deliver relevant results for any given search request in the 64 byte CID space. However, to build a network of domain-specific relevance machines, it is not enough. Consensus computers must have the ability to prove relevance for each other.</p>
+
+<h2 id="proof-of-relevance">Proof of relevance</h2>
+
+<p>We design a system under the assumption that regarding search such thing as bad behaviour does not exist as anything bad can be in the intention of finding answers. Also, this approach significantly reduces attack surfaces.</p>
+
+<blockquote>
+<p>Ranks are computed on the only fact that something has been searched, thus linked and as a result, affected the predictive model.</p>
+</blockquote>
+
+<p>A good analogy is observing in quantum mechanics. That is why we do not need such things as negative voting. Doing this we remove subjectivity out of the protocol and can define proof of relevance.</p>
+
+<pre><code>Rank state = rank values stored in a one-dimensional array and merkle tree of those values
+</code></pre>
+
+<p>Each new CID gets a unique number. The number starts from zero and incrementing by one for each new CID. So that we can store rank in a one-dimensional array where indices are CID numbers.</p>
+
+<p>Merkle Tree calculated based on <a href="https://tools.ietf.org/html/rfc6962#section-2.1">RFC-6962 standard</a>. Since rank stored in a one-dimensional array where indices are CID numbers (we could say that it ordered by CID numbers) leaves in merkle tree from left to right are <code>SHA-256</code> hashes of rank value. Index of the leaf is CID number. It helps to easily find proofs for specified CID (<code>log n</code> iterations where <code>n</code> is a number of leaves).</p>
+
+<p>To store merkle tree is necessary to split the tree into subtrees with a number of leaves multiply of the power of 2. The smallest one is obviously subtree with only one leaf (and therefore <code>height == 0</code>). Leaf addition looks as follows. Each new leaf is added as subtree with <code>height == 0</code>.
+Then sequentially merge subtrees with the same <code>height</code> from right to left.</p>
+
+<p>Example:</p>
+
+<pre><code>  ┌──┴──┐   │      ┌──┴──┐     │         ┌──┴──┐     │   │
+┌─┴─┐ ┌─┴─┐ │    ┌─┴─┐ ┌─┴─┐ ┌─┴─┐     ┌─┴─┐ ┌─┴─┐ ┌─┴─┐ │
+(5-leaf)         (6-leaf)              (7-leaf)
+</code></pre>
+
+<p>To get merkle root hash - join subtree roots from right to left.</p>
+
+<p>Rank merkle tree can be stored differently:</p>
+
+<p><em>Full tree</em> - all subtrees with all leaves and intermediary nodes<br />
+<em>Short tree</em> - contains only subtrees roots</p>
+
+<p>The trick is that <em>full tree</em> is only necessary for providing merkle proofs. For consensus purposes and updating tree, it&rsquo;s enough to have a <em>short tree</em>. To store merkle tree in database use only a <em>short tree</em>. Marshaling of a short tree with <code>n</code> subtrees (each subtree takes 40 bytes):</p>
+
+<pre><code>&lt;subtree_1_root_hash_bytes&gt;&lt;subtree_1_height_bytes&gt;
+....
+&lt;subtree_n_root_hash_bytes&gt;&lt;subtree_n_height_bytes&gt;
+</code></pre>
+
+<p>For <code>1,099,511,627,775</code> leaves <em>short tree</em> would contain only 40 subtrees roots and take only 1600 bytes.</p>
+
+<p>Let us denote rank state calculation:</p>
+
+<p><code>p</code> - rank calculation period<br />
+<code>lbn</code> - last confirmed block number<br />
+<code>cbn</code> - current block number<br />
+<code>lr</code> -  length of rank values array</p>
+
+<p>For rank storing and calculation we have two separate in-memory contexts:</p>
+
+<ol>
+<li>Current rank context. It includes the last calculated rank state (values and merkle tree) plus
+all links and user stakes submitted to the moment of this rank submission.</li>
+<li>New rank context. It&rsquo;s currently calculating (or already calculated and waiting for submission) rank state. Consists of new calculated rank state (values and merkle tree) plus new incoming links and updated user stakes.</li>
+</ol>
+
+<p>Calculation of new rank state happens once per <code>p</code> blocks and going in parallel.</p>
+
+<p>The iteration starts from block number that <code>≡ 0 (mod p)</code> and goes till next block number that <code>≡ 0 (mod p)</code>.</p>
+
+<p>For block number <code>cbn ≡ 0 (mod p)</code> (including block number 1 cause in cosmos blocks starts from 1):</p>
+
+<ol>
+<li>Check if the rank calculation is finished. If yes then go to (2.) if not - wait till calculation finished
+(actually this situation should not happen because it means that rank calculation period is too short).</li>
+<li>Submit rank, links and user stakes from new rank context to current rank context.</li>
+<li>Store last calculated rank merkle tree root hash.</li>
+<li>Start new rank calculation in parallel (on links and stakes from current rank context).</li>
+</ol>
+
+<p>For each block:</p>
+
+<ol>
+<li>All links go to a new rank context.</li>
+<li>New coming CIDs gets rank equals to zero. We could do it by checking last CIDs number and <code>lr</code> (it equals the number of CIDs that already have rank). Then add CIDs with number <code>&gt;lr</code> to the end of this array with the value equal to zero.</li>
+<li>Update current context merkle tree with CIDs from the previous step</li>
+<li>Store latest merkle tree from current context (let us call it last block merkle tree).</li>
+<li>Check if new rank calculation finished. If yes go to (4.) if not go to next block.</li>
+<li>Push calculated rank state to new rank context. Store merkle tree of newly calculated rank.</li>
+</ol>
+
+<p>To sum up. In <em>current rank context</em>, we have rank state from last calculated iteration (plus, every block, it updates with new CIDs). Moreover, we have links and user stakes that are participating in current rank calculation iteration (whether it finished or not). The <em>new rank context</em> contains links and stakes that will go to next rank calculation and newly calculated rank state (if a calculation is finished) that waiting for submitting.</p>
+
+<p>If we need to restart node firstly, we need to restore both contexts (current and new).
+Load links and user stakes from a database using different versions:
+1. Links and stakes from last calculated rank version <code>v = lbn - (lbn mod n)</code> go to current rank context.
+2. Links and stakes between versions <code>v</code> and <code>lbn</code> go to new rank context.</p>
+
+<p>Also to restart node correctly, we have to store following entities in database:</p>
+
+<ol>
+<li>Last calculated rank hash (merkle tree root)</li>
+<li>A newly calculated rank short merkle tree</li>
+<li>Last block short merkle tree</li>
+</ol>
+
+<p>With <em>last calculated rank hash</em> and <em>newly calculated rank merkle tree</em> we could check if the rank calculation was finished before node restart. If they are equal, then rank wasn&rsquo;t calculated, and we should run the rank calculation. If not we could skip rank calculation and use <em>newly calculated rank merkle tree</em> to participate in consensus when it comes to block number <code>cbn ≡ 0 (mod p)</code> (rank values will not be available until rank calculation happens in next iteration. Still validator can participate in consensus so nothing bad).</p>
+
+<p><em>Last block merkle tree</em> necessary to participate in consensus till the start of next rank calculation iteration. So, after the restart we could end up with two states:
+1. Restored current rank context and new rank context without rank values (links, user stakes, and merkle tree).
+2. Restored current rank context without rank values. Restored new rank context only with links and user stakes.</p>
+
+<p>A node can participate in consensus but cannot provide rank values (and merkle proofs) till two rank calculation iterations finished (current and next).</p>
+
+<p>Search index should be run in parallel and do not influence the work of the consensus machine. The validator should be able to turn off index support. Maybe even make it a separate daemon.</p>
+
+<p><em>Base idea.</em> Always submit new links to index and take rank values from current context (insert in sorted array operation). When a new rank state is submitted trigger index to update rank values and do sortings (in most cases new arrays will be almost sorted).</p>
+
+<p>Need to solve the problem of adjusting arrays capacity (not to copy arrays each time newly linked cid added). A possible solution is to adjust capacity with reserve before resorting array.</p>
+
+<p>Todo: Therefore for building index, we need to find a sorting algorithm that will be fast on almost sorted arrays. Also, we should implement it for GPU so it should better be parallelizable: Mergesort(Timsort), Heapsort, Smoothsort &hellip;</p>
+
+<p>Now we have proof of rank of any given content address. While the relevance is still subjective by nature, we have a collective proof that something was relevant for some community at some point in time.</p>
+
+<pre><code>For any given CID it is possible to prove the relevance
+</code></pre>
+
+<p>Using this type of proof any two <a href="https://ipfs.io/ipfs/QmdCeixQUHBjGnKfwbB1dxf4X8xnadL8xWmmEnQah5n7x2">IBC compatible</a> consensus computers can proof the relevance to each other so that domain-specific relevance machines can flourish. Thanks to inter-blockchain communication protocol you basically can launch your own domain-specific search engine either private or public by forking cyberd which is focused on the <em>common public knowledge</em>. So in our search architecture, domain-specific relevance machine can learn from common knowledge. We are going to work on IBC during <code>smith</code> implementation.</p>
+
+<p><img src="https://ipfs.io/ipfs/QmdfgdkaU8CKXD7ow983vZ2LjJjz8Um9JA5buwQ1aaXT6Q" alt="rm-network.png" /></p>
+
+<p>In our relevance for commons <code>euler</code> implementation proof of relevance root hash is computed on Cuda GPUs every round.</p>
+
+<h2 id="speed-and-scalability">Speed and scalability</h2>
+
+<p>We need speedy confirmation times to feels like the usual web app. It is a strong architecture requirement that shape an economic topology and scalability of the cyber protocol.</p>
+
+<p>Proposed blockchain design is based on <a href="https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ">Tendermint consensus</a> algorithm with 146 validators and has very fast 1 second finality time. Average confirmation timeframe at half the second with asynchronous interaction make complex blockchain search almost invisible for agents.</p>
+
+<p>Let us say that our node implementation based on <code>cosmos-sdk</code> can process 10k transactions per second. Thus every day at least 8.64 million agents can submit 100 cyberlinks each and impact results simultaneously. That is enough to verify all assumptions in the wild. As blockchain technology evolves we want to check that every hypothesis work before scale it further. Moreover, proposed design needs demand for full bandwidth in order the relevance become valuable. That is why we strongly focus on accessible, but provable distribution to millions from inception.</p>
+
+<h2 id="implementation-in-a-browser">Implementation in a browser</h2>
+
+<p>We wanted to imagine how that could work in a web3 browser. To our disappointment we <a href="https://github.com/cybercongress/cyb/blob/master/docs/comparison.md">was not able</a> to find the web3 browser that can showcase the coolness of the proposed approach in action. That is why we decide to develop the web3 browser <a href="https://github.com/cybercongress/cyb/blob/master/docs/cyb.md">cyb</a> that has sample application .cyber for interacting with <code>cyber://</code> protocol.</p>
+
+<p><img src="https://ipfs.io/ipfs/QmbyeY5ySyWiP5XtMSnaiNpJZuzFz3trGxjRJSBQzFehoC" alt="search-main" /></p>
+
+<p><img src="https://ipfs.io/ipfs/QmSSyqEqh9oSC4voDDYwEAuQczeJCyRfsx4gqecSyTcVWs" alt="search-results" /></p>
+
+<h2 id="from-inception-to-genesis">From Inception to Genesis</h2>
+
+<p>It is trivial to develop <code>euler</code> like proof-of-concept implementation, but it is hard to achieve stable protocol <code>merkle</code> a lot of CYB value on which can exist. <code>euler</code> is Inception that already happened, <code>merkle</code> is Genesis that is far away. That is why we decide to innovate a bit on the going main net process. We do not have CYB balances and rank guaranties before <code>merkle</code> but we can have exponentially growing semantic core which can be improved based on measurements and observations during development and gradual transfer of value since <code>euler</code>. So think that Genesis or <code>merkle</code> is very stable and can store semantic core and value, but all releases before can store the whole semantic core and only part of the value you would love to store due to weak security guarantees. The percents of CYB value to be distributed based on CBD balances:</p>
+
+<pre><code class="language-toml">euler  =  1
+smith  =  4
+darwin =  8
+turing = 15
+nash   = 21
+weiner = 25
+merkle = 27
+</code></pre>
+
+<p>To secure the value of CYB before Genesis 100 CBD ERC-20 tokens <a href="https://etherscan.io/token/0x136c1121f21c29415D8cd71F8Bb140C7fF187033">are issued</a> by <a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e">cyberFoundation</a>. So snapshot balances are computed 7 times based on CBD.</p>
+
+<p>Essentially CBD substance is distributed by cyberFoundation in the following proportion:</p>
+
+<ul>
+<li><code>Proof-of-use: 70%</code> is allocated to web3 agents according to some probabilistic algorithm. E.g., first <code>euler</code> proof-of-use distribution we call Satoshi Lottery is allocated to key owned Ethereum addresses based on ongoing research. First allocation is based on SpringRank.</li>
+<li><code>Proof-of-code: 15%</code> is allocated for direct contribution to the code base. E.g., as assigned by cyberFoundation to cyberCongress contribution including team is 11.2% and the other 3.8% allocated to developers community projects such as Gitcoin community and cyberColony based experimental organization.</li>
+<li><code>Proof-of-value: 15%</code> is allocated for a direct contribution of funds. 8% of this value either has been already contributed nor has some reservation for ongoing contributions by close friends and 7% is going to be distributed during Eos-like auction not defined precisely yet. All contribution from the auction will go to Aragon based cyberFoundation and will be managed by CBD token holders.</li>
+</ul>
+
+<p>Details of code and value distribution can be produced by cyberFoundation.</p>
+
+<p>Except for 7 CBD based distributions, CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity. So validators decide where the tokens can flow further.</p>
+
+<h2 id="validators-incentive">Validators incentive</h2>
+
+<p>Validators are the essential building block of the proposed architecture. Hence we want to bring them a better incentive to participate before the main net. In our case validators will compute and process requests for billions edge knowledge graph hence it would be naive to expect that it is possible to expect to prepare such a network for production for free. In the beginning, inflation must be high enough to compensate risks of early investments into the ecosystem.</p>
+
+<p>This is approximation of year inflation expressed in percents defined for testnets:</p>
+
+<pre><code class="language-toml">euler  = 200
+smith  = 134
+darwin =  90
+turing =  60
+nash   =  40
+weiner =  27
+merkle =  18
+</code></pre>
+
+<p>The scheme motivates developers to release earlier to be less diluted from holding CBD and honour validators if development is going slower than expected.</p>
+
+<p>After Genesis starting inflation rate will become fixed at <code>1 000 000 000</code> CYB per block.</p>
+
+<p><a href="https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md">Join</a>.</p>
+
+<p>Once we have validators, we can think about first million web3 agents.</p>
+
+<h2 id="satoshi-lottery">Satoshi Lottery</h2>
+
+<p>Satoshi Lottery is the inception version of the proof-of-use distribution that already happens in the tenth birthday of Bitcoin Genesis at 3 Jan 2019. It is a highly experimental way of provable distribution. The basic idea is that a comprehensive set of agents receive CYB tokens because they behave well. The basic algorithm is of 5 steps:</p>
+
+<pre><code>- Compute SpringRank for Ethereum addresses
+- Sort by SpringRank
+- Filter top 1M addresses by SpringRank
+- Compute CYB balances based on CBD
+- Create genesis for cyber protocol
+</code></pre>
+
+<p>Translation todo: <a href="http://127.0.0.1:8080/ipfs/QmS4YuH377EyzAjH84AR4EZKrnT879pMz4VKXcDNuej9DZ">Tolik&rsquo;s article</a> have to be translated here.</p>
+
+<p>Next test net we will improve the logic of the lottery based on received data and repeat this every test net until Genesis.</p>
+
+<p>Soon you will be able to verify either you were lucky enough to receive CYB or not just searching your ethereum address. If you were, you will be able to claim CYB even without compromising your Ethereum keys.</p>
+
+<h2 id="inception">Inception</h2>
+
+<p>The genesis file for <code>euler</code> containing lottery results and CBD based distribution has the following cid:</p>
+
+<pre><code>Qma5U4joYWEf41ku16g9cQr6fADsxCPsiWeYZBxpnpu1D4
+</code></pre>
+
+<p><code>132307</code> accounts with  <code>8 274 000 000 000 000</code> CYB tokens has been created in Inception of the network.</p>
+
+<p>Amount of created tokens is consist of the following sources:
+- 1% of CYB value allocated to <code>euler</code> testnet based on proof-of-use distribution as planned
+- 0.7% of CYB value allocated to <code>euler</code> testnet based on proof-of-value and proof-of-code distribution except 11.8 CBD due to bug. Appropriate corrections will be done during scheduled hardfork.</p>
+
+<h2 id="possible-applications">Possible applications</h2>
+
+<p>A lot of cool applications can be built on top of proposed architecture:</p>
+
+<p><em>Web3 browsers</em>. It easy to imagine the emergence of a full-blown blockchain browser. Currently, there are several efforts for developing browsers around blockchains and distributed tech. Among them are Beaker, Mist, Brave, and Metamask. All of them suffer from trying to embed web2 in web3. Our approach is a bit different. We consider web2 as the unsafe subset of web3. That is why we decide to develop a web3 browser that can showcase the cyber approach to answer questions better.</p>
+
+<p><em>Programmable semantic cores</em>. Currently, the most popular keywords in a gigantic semantic core of Google are keywords of apps such as youtube, facebook, github, etc. However, developers have very limited possibility to explain Google how to better structure results. The cyber approach brings this power back to developers. On any given user input string in any application relevant answer can be computed either globally, in the context of an app, a user, a geo or in all of them combined.</p>
+
+<p><em>Search actions</em>. Proposed design enable native support for blockchain asset related activity. It is trivial to design applications which are (1) owned by creators, (2) appear right in search results and (3) allow a transact-able call to actions with (4) provable attribution of a conversion to search query. e-Commerce has never been so easy for everybody.</p>
+
+<p><em>Offline search</em>. IPFS make possible easy retrieval of documents from surroundings without a global internet connection. cyberd can itself can be distributed using IPFS. That creates a possibility for ubiquitous offline search.</p>
+
+<p><em>Command tools</em>. Command line tools can rely on relevant and structured answers from a search engine. That practically means that the following CLI tool is possible to implement</p>
+
+<pre><code>&gt;  cyberd earn using 100 gb hdd
+
+Enjoy the following predictions:
+- apt install go-filecoin:     0.001   BTC per month per GB
+- apt install siad:            0.0001  BTC per month per GB
+- apt install storjd:          0.00008 BTC per month per GB
+
+According to the best prediction, I made a decision try `mine go-filecoin`
+
+Git clone ...
+Building go-filecoin
+Starting go-filecoin
+Creating a wallet using @xhipster seed
+You address is ....
+Placing bids ...
+Waiting for incoming storage requests ...
+
+</code></pre>
+
+<p>Search from CLI tools will inevitably create a highly competitive market of a dedicated semantic core for bots.</p>
+
+<p><em>Autonomous robots</em>. Blockchain technology enables the creation of devices which can earn, store, spend and invest digital assets by themselves.</p>
+
+<blockquote>
+<p>If a robot can earn, store, spend and invest she can do everything you can do</p>
+</blockquote>
+
+<p>What is needed is a simple yet powerful state reality tool with the ability to find particular things. cyberd offers minimalistic but continuously self-improving data source that provides necessary tools for programming economically rational robots. According to <a href="https://github.com/first20hours/google-10000-english">top-10000 english words</a> the most popular word in English is defined article <code>the</code> that means a pointer to a particular thing. That fact can be explained as the following: particular things are the most important for us. So the nature of our current semantic computing is to find unique things. Hence the understanding of unique things become essential for robots too.</p>
+
+<p><em>Language convergence</em>. A programmer should not care about what language do the user use. We don&rsquo;t need to know about what language user is searching in. Entire UTF-8 spectrum is at work. A semantic core is open so competition for answering can become distributed across different domain-specific areas, including semantic cores of different languages. The unified approach creates an opportunity for cyber•Bahasa. Since the Internet, we observe a process of rapid language convergence. We use more truly global words across the entire planet independently of our nationality, language and race, Name the Internet. The dream of truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make that dream come true. It is not hard to predict that the shorter a word, the more its cyber•rank will be. Global publicly available list of symbols, words, and phrases sorted by cyber•rank with corresponding links provided by cyberd can be the foundation for the emergence of genuinely global language everybody can accept. Recent <a href="https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1">scientific advances</a> in machine translation are breathtaking but meaningless for those who wish to apply them without Google scale trained model. Proposed cyber•rank offers precisely this.</p>
+
+<p>This is sure not the exhaustive list of possible applications but very exciting, though.</p>
+
+<h2 id="economic-protection-is-smith">Economic protection is <code>smith</code></h2>
+
+<p>About private knowledge on relevance. Explain the difference between private cyberlinks and private relevance machines.</p>
+
+<p>The plan for learning the beast. How cyberlink ipfs, wiki, bitcoin and ethereum?</p>
+
+<h2 id="ability-to-evolve-is-darwin">Ability to evolve is <code>darwin</code></h2>
+
+<p>About the importance of alternative implementation.</p>
+
+<h2 id="turing-is-about-computing-more"><code>turing</code> is about computing more</h2>
+
+<p>Ability to programmatically extend state based on proven knowledge graph is of paramount importance. Thus we consider that WASM programs will be available for execution in cyber consensus computer on top of knowledge graph.</p>
+
+<p>Our approach to the economics of consensus computer is that users buy an amount of RAM, CPU, and GPU as they want to execute programs. OpenCypher or GraphQL like language can be provided to explore semantics of the knowledge graph. The following list is simple programs we can envision that can be built on top of simple relevance machine.</p>
+
+<p><em>Self prediction</em>. A consensus computer can continuously build a knowledge graph by itself predicting the existence of cyberlinks and applying these predictions to a state of itself. Hence a consensus computer can participate in the economic consensus of the cyber protocol.</p>
+
+<p><em>Universal oracle.</em> A consensus computer can store the most relevant data in the key-value store, where the key is cid and value is bytes of actual content. She is doing it by making a decision every round about which cid value she want to prune and which she wants to apply based on the utility measure of content addresses in the knowledge graph. To compute utility measure validators check availability and size of content for the top-ranked content address in the knowledge graph, then weight on the size of cids and its ranks. The emergent key-value store will be available to write for consensus computer only and not agents, but values can be used in programs.</p>
+
+<p><em>Proof of location</em>. It is possible to construct cyberlinks with proof-of-location based on some existing protocol such as <a href="https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG">Foam</a>. So location-based search also can become provable if web3 agents will mine triangulations and attaching proof of location for every link chain.</p>
+
+<p><em>Proof of web3 agent</em>. Agents are a subset of content addresses with one fundamental property: consensus computer can prove the existence of private keys for content addresses for the subset of knowledge graph even if those addresses has never transacted in its own chain. Hence it is possible to compute much provable stuff on top of that knowledge. E.g., some inflation can be distributed to addresses that have never transacted in the cyber network but have the provable link.</p>
+
+<p><em>Motivation for read requests</em>. It would be great to create cybernomics not only for write requests to consensus computer but from read requests also. So read requests can be two order of magnitude cheaper, but guaranteed. Read requests to a search engine can be provided by the second tier of nodes which earn CYB tokens in state channels. We consider implementing state channels based on HTLC and proof verification which unlocks amount earned for already served requests.</p>
+
+<p><em>Prediction markets on link relevance</em>. We can move the idea further by the ranking of knowledge graph based on prediction market on links relevance. An app that allow betting on link relevance can become a unique source of truth for the direction of terms as well as motivate agents to submit more links.</p>
+
+<p><em>Private cyberlinks</em>. Privacy is foundational. While we are committed to privacy achieving implementation of private cyberlinks is unfeasible for our team up to Genesis. Hence it is up to the community to work on wasm programs that can be executed on top of the protocol. The problem is to compute cyberRank based on cyberlink submitted by a web3 agent without revealing neither previous request nor public keys of a web3 agent. Zero-knowledge proofs, in general, are very expensive. We believe that privacy of search should be must by design, but not sure that we know how to implement it. [Coda]() like recursive snarks and [mimblewimble]() constructions, in theory, can solve part of the privacy issue, but they are new, untested and anyway will be more expensive regarding computations than a transparent alternative.</p>
+
+<h2 id="in-a-search-for-equilibria-is-nash">In a search for equilibria is <code>nash</code></h2>
+
+<p>We need to find answers for a lot of hard questions regarding consensus variables and its default values. So we decide to stick to a community generated feedback on the road to Genesis and continuously adjust them to keep going better.</p>
+
+<p>On scalability trilemma &hellip;</p>
+
+<p>Decentralization comes with costs and slowness. We want to find a good balance between speed, reliance, and ability to scale, as we believe all three are sensitive for widespread web3 adoption.</p>
+
+<p>That is the area of research for us now. We need real economic measurements to apply a scientific method for this class of challenges.</p>
+
+<h2 id="on-faster-evolution-at-weiner">On faster evolution at <code>weiner</code></h2>
+
+<p>The primary purpose of <code>wiener</code> stage is to be able to update the consensus of a network from a consensus computer state using some on-chain upgrade mechanism.</p>
+
+<p>Evolvability and governance are connected tightly.</p>
+
+<p>Ability to reflect input from the world and output changes of itself is an essential evolutionary feature. Hence, thanks to <code>cosmos-sdk</code> <code>euler</code> implementation have basic but compelling features such as on-chain voting with vetos and abstain that drastically simplified open discussions for a change. So we are going to use this feature from the inception of the network.</p>
+
+<p>However, we can go in a different direction than <code>cosmos-sdk</code> offers. Following ideas from <a href="https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS">Tezos</a> in <code>weiner</code> we can define the current state of a protocol as the immutable content address that included in round merkle root.</p>
+
+<p>Also instead of formal governance procedure, we would love to check the hypothesis that changing state of a protocol is possible indeed using relevance machine itself.</p>
+
+<p>Starting protocol can be as simple as follows:</p>
+
+<blockquote>
+<p>The closer some content address to <code>QmRBKYsQ4FPEtHeGBRuUZEfNXQfvNiJFXvbyrdF4Y7pqfh</code> the more probability that it becomes the winning during an upgrade. The closest protocol to <code>cyber-protocol-current</code> is the protocol which is the most relevant to users.</p>
+</blockquote>
+
+<p>Hence it is up to nodes to signal <code>cyber-protocol-current</code> by sending cyberlinks with semantics like <code>&lt;cQmRBKYsQ4FPEtHeGBRuUZEfNXQfvNiJFXvbyrdF4Y7pqfh&gt; &lt;cid-of-protocol&gt;</code>.</p>
+
+<h2 id="genesis-is-secure-as-merkle">Genesis is secure as <code>merkle</code></h2>
+
+<p>Before unleashing our creature, we need to have strong assurance that implementations are secure. Merkle is our final genesis release after security audits and more formalism.</p>
+
+<p>After this release, the network of relevance machines become fully functional and evolvable.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We define and implement a protocol for provable communications of consensus computers on relevance. The protocol is based on a simple idea of content defined knowledge graphs which are generated by web3 agents using cyberlinks. Cyberlinks are processed by a consensus computer using a concept we call relevance machine. <code>euler</code> consensus computer is based on <code>CIDv0</code> and uses <code>go-ipfs</code> and <code>cosmos-sdk</code> as a foundation. IPFS provide significant benefits regarding resources consumption. CIDv0 as primary objects are robust in its simplicity. For every CIDv0 cyber•rank is computed by a consensus computer with no single point of failure. Cyber•rank is CYB weighted PageRank with economic protection from sybil attacks and selfish voting. Every round merkle root of the rank tree is published so every computer can prove to any computer a relevance value for a given CID. Sybil resistance is based on bandwidth limiting. Embedded ability to execute programs offer inspiring apps. Starting primary goal is indexing of peer-to-peer systems with self-authenticated data either stateless, such as IPFS, Swarm, DAT, Git, BitTorrent, or stateful such as Bitcoin, Ethereum and other blockchains and tangles. Proposed semantics of linking offers a robust mechanism for predicting meaningful relations between objects by a consensus computer itself. The source code of a relevance machine is open source. Every bit of data accumulated by a consensus computer is available for everybody if the one has resources to process it. The performance of proposed software implementation is sufficient for seamless user interactions. Scalability of proposed implementation is enough to index all self-authenticated data that exist today and serve it to millions of web3 agents. The blockchain is managed by a decentralized autonomous organization which functions under Tendermint consensus algorithm with standard governance module. Thought a system provide necessary utility to offer an alternative for conventional search engines it is not limited to this use case either. The system is extendable for numerous applications and, e.g. makes it possible to design economically rational self-owned robots that can autonomously understand objects around them.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://github.com/cybercongress/cyberd">cyberd</a></li>
+<li><a href="https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN">Scholarly context adrift</a></li>
+<li><a href="https://github.com/w3f/Web3-wiki/wiki">Web3 stack</a></li>
+<li><a href="https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6">Search engines information retrieval in practice</a></li>
+<li><a href="https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9.ifps">Motivating game for adversarial example research</a></li>
+<li><a href="https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est">An idea of decentralized search</a></li>
+<li><a href="https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps">IPFS</a></li>
+<li><a href="https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR">DAT</a></li>
+<li><a href="https://github.com/cosmos/cosmos-sdk">cosmos-sdk</a></li>
+<li><a href="https://github.com/multiformats/cid#cidv0">CIDv0</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/bandwidth.md">Bandwidth in cyber network</a></li>
+<li><a href="https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb">Thermodynamics of predictions</a></li>
+<li><a href="https://github.com/cybercongress/cyb/blob/master/docs/web3-vision.md">DURA</a></li>
+<li><a href="https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh">Nebulas</a></li>
+<li><a href="https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj">Colony</a></li>
+<li><a href="https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD">Truebit</a></li>
+<li><a href="https://ipfs.io/ipfs/QmNvxWTXQaAqjEouZQXTV4wDB5ryW4PGcaxe2Lukv1BxuM">SpringRank</a></li>
+<li><a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf">PageRank</a></li>
+<li><a href="https://tools.ietf.org/html/rfc6962#section-2.1">RFC-6962</a></li>
+<li><a href="https://ipfs.io/ipfs/QmdCeixQUHBjGnKfwbB1dxf4X8xnadL8xWmmEnQah5n7x2">IBC protocol</a></li>
+<li><a href="https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ">Tendermint</a></li>
+<li><a href="https://github.com/cybercongress/cyb/blob/master/docs/comparison.md">Comparison of web3 browsers</a></li>
+<li><a href="https://github.com/cybercongress/cyb/blob/master/docs/cyb.md">Cyb</a></li>
+<li><a href="https://etherscan.io/token/0x136c1121f21c29415D8cd71F8Bb140C7fF187033">CBD</a></li>
+<li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e">cyberFoundation in Aragon</a></li>
+<li><a href="/docs/how_to_become_validator.md">How to become validator in cyber protocol</a></li>
+<li><a href="http://ipfs.io/ipfs/QmV2kjvY1QvY17sPgBDRGd13vaaks1zmFj867Ez5mbXz1y/genesis-explanation.html">Tolik&rsquo;s article on Satoshi Lottery</a></li>
+<li><a href="https://github.com/first20hours/google-10000-english">Top 10000 english words</a></li>
+<li><a href="https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1">Multilingual neural machine translation</a></li>
+<li><a href="https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG">Foam</a></li>
+<li><a href="https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk">Coda</a></li>
+<li><a href="https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg">Mimblewimble</a></li>
+<li><a href="https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS">Tezos</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Let&#39;s code in paradise</title>
+      <link>/sprint-26-report/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/sprint-26-report/</guid>
+      <description>Start: 2019-01-08
+End: 2019-01-21
+Сonclusion Briefly.
+After a successful launch we have faced a few problems with our blockchain: - not enough validators - rapid blocks generation - confused naming
+Good news: we have solved it already, but validators are still welcome!
+Secondly, we&amp;rsquo;ve prepared a whitepaper 0.4. It&amp;rsquo;s still immature, but for launched testnet with economic incentives it makes sense.
+I need to remind once again for all who care about web3 and decentralized search engine to join the discussion in our telegram dev chat.</description>
+      <content:encoded><![CDATA[
+
+<p><img src="pic.jpg" alt="pic" /></p>
+
+<p>Start: 2019-01-08</p>
+
+<p>End: 2019-01-21</p>
+
+<h3 id="сonclusion">Сonclusion</h3>
+
+<p>Briefly.</p>
+
+<p>After a successful launch we have faced a few problems with our blockchain:
+- not enough validators
+- rapid blocks generation
+- confused naming</p>
+
+<p>Good news: we have solved it already, but validators are still <a href="https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md">welcome</a>!</p>
+
+<p>Secondly, we&rsquo;ve prepared a <a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper 0.4</a>. It&rsquo;s still immature, but for launched testnet with economic incentives it makes sense.</p>
+
+<p>I need to remind once again for all who care about web3 and decentralized search engine to join the discussion in our <a href="https://t.me/fuckgoogle">telegram dev chat</a>.</p>
+
+<p>Thirdly we&rsquo;ve updated Chaingear UI and soon it will be deployed to mainnet, so probably at my next report, I&rsquo;ll glad to announce you the most expensive database!</p>
+
+<p>For sure it will be available in our <a href="https://github.com/cybercongress/cyb/releases">Cyb</a>.</p>
+
+<p>Finally, our Block is near to the end and we&rsquo;re ready to plan new achievements for the next Block 3. The last sprint of the Block 2 has started. We are on Samui now :)</p>
+
+<h3 id="changelog">Changelog</h3>
+
+<ul>
+<li>#### <a href="https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#unreleased">Cyberd bugs fixing, import private keys from Ethereum with CLI</a></li>
+<li>#### <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.1">Cyb release 0.1.1 bugs fixing, UPD frontend</a></li>
+</ul>
+
+<hr />
+
+<h3 id="developers-metrics">Developers metrics</h3>
+
+<h5 id="epics-done">Epics done:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/chaingear/issues/1029">Update UI for chaingear app #1029 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/congress/issues/36">Landing pages for key projects #36 congress</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/25">Whitepaper 0.3 #25 cyberd</a></li>
+</ul>
+
+<h5 id="epics-next-sprint-todo">Epics next sprint TODO:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/chaingear/issues/997">Deploy to mainnet #997 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/44">Basic articles for help.cyb #44 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/67">Simple .txqueue app #67 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/177">Bandwidth Specification Change #177 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/congress/issues/162">Web3 blog of cybercongress #162 congress</a></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Burndown</th>
+<th align="center">Storypoints done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="BD.png" alt="burndown-report" /></td>
+<td align="center">141</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Stars</th>
+<th align="center">Forks</th>
+<th align="center">PRs</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="cyb-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyb-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyb-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="cyberd-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyberd-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyberd-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="chaingear-stars.png" alt="stars" /></td>
+<td align="center"><img src="chaingear-forks.png" alt="forks" /></td>
+<td align="center"><img src="chaingear-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="congress-stars.png" alt="stars" /></td>
+<td align="center"><img src="congress-forks.png" alt="forks" /></td>
+<td align="center"><img src="congress-PRs.png" alt="PRs" /></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="kpi-s-as-at-2019-01-22">KPI&rsquo;s as at 2019/01/22</h3>
+
+<ul>
+<li>cyberd: 3 of 146 active validators (+1 jailed)</li>
+<li>cyb: yes <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.1">release</a>;</li>
+<li>chaingear: 0 of 100 ETH take from chaingear;</li>
+<li><a href="https://gitcoin.co/profile/cybercongress">#39</a> organization on gitcoin.co;</li>
+<li>43 of 1000 devs in <a href="https://t.me/fuckgoogle">devChat</a>.</li>
+</ul>
+
+<hr />
+
+<h3 id="community">Community:</h3>
+
+<ul>
+<li><a href="https://t.me/cybercongress">Telegram channel</a>: 30 subscribers;</li>
+<li><a href="https://t.me/fuckgoogle">Telegram devChat</a>: 43 subscribers;</li>
+<li><a href="https://steemit.com/@cybercongress">Steemit</a>: 8 subscribers;</li>
+<li><a href="https://www.reddit.com/r/cybercongress">Reddit</a>: 6 subscribers;</li>
+<li><a href="https://twitter.com/cyber_devs">Twitter</a>: 23 subscribers.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Steemit</th>
+<th align="center">Dev Chat</th>
+<th align="center">Telegram Channel</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="steemit.png" alt="stemmit" /></td>
+<td align="center"><img src="devChat.png" alt="devchat" /></td>
+<td align="center"><img src="telegram.png" alt="telegram" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Twitter</th>
+<th align="center">Reddit</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="twitter.png" alt="twitter" /></td>
+<td align="center"><img src="reddit.png" alt="reddit" /></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>42</title>
+      <link>/sprint-25-report/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/sprint-25-report/</guid>
+      <description>Start: 2018-12-17
+End: 2018-12-28
+Сonclusion 42 . This number has haunted us. I&amp;rsquo;m not kidding. 42 participants came to our conference, cyberc0n, and now there are 42 members in our dev chat. Mystic&amp;hellip;
+However it was a new year sprint! We have done quite a lot in this sprint and are proud of that!
+What exactly we are proud of? First public testnet. What does it mean for you? You can do your best for the future Internet with testing our chain as a validator.</description>
+      <content:encoded><![CDATA[
+
+<p><img src="pic.png" alt="pic" /></p>
+
+<p>Start: 2018-12-17</p>
+
+<p>End: 2018-12-28</p>
+
+<h3 id="сonclusion">Сonclusion</h3>
+
+<p>42 . This number has haunted us. I&rsquo;m not kidding. 42 participants came to our conference, cyberc0n, and now there are 42 members in our dev chat. Mystic&hellip;</p>
+
+<p>However it was a new year sprint! We have done quite a lot in this sprint and are proud of that!</p>
+
+<p>What exactly we are proud of? <a href="https://github.com/cybercongress/cyberd/releases/tag/0.1.0">First public testnet</a>. What does it mean for you? You can do your best for the future Internet with testing our chain as a validator. Follow full explanation <a href="https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md">here</a> and join our <a href="https://t.me/fuckgoogle">dev Chat</a> finally!</p>
+
+<p>Future of browsers has it first serious release :) Welcome to <a href="https://github.com/cybercongress/cyberd/releases">Cyb 0.1.0 - Euler</a>! For us, it&rsquo;s the best way to experience web3 at this moment. Try Chaingear in Kovan with Cyb, explore IPFS content and finally play Dragonereum with Cyb! We&rsquo;re waiting for your bug reports and feature requests as soon as possible! We have <a href="https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb">tutorials</a> for you, so don&rsquo;t hesitate to contact us.</p>
+
+<p>Good news is that Chaingear has deployed to mainnet, but we need some more polishments before you can actually use it.</p>
+
+<p>Finally, we&rsquo;re glad to announce our substance! It guarantees everyone a warm place in Genesis of Cyber protocol. This substance called CBD and is accounted <a href="https://etherscan.io/token/0x136c1121f21c29415d8cd71f8bb140c7ff187033#balances">here</a>. This substance is not the final product and serves as transparency tool for Genesis and decision-making in cyberFoundation. Oh yeah. Yeeeeeh! Now we have <a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e">cyberFoundation - the Aragon organization</a>!</p>
+
+<p>The purpose of this organization is to empower community around Cyber protocol. The upcoming golas are:
+- distribution of CBD substance
+- formation of community in Aragon organization around cyber:// protocol development
+- boost utility of CBD tokens through integration with current Ethereum projects of cyberCongress</p>
+
+<p>That is it! :) One sprint left before the current block and we&rsquo;ll departure to Thailand for brainstorming, planning, and development. It just got a few loose ends to tie up and&hellip; continue to work :)</p>
+
+<h3 id="changelog">Changelog</h3>
+
+<ul>
+<li>#### <a href="https://github.com/cybercongress/cyberd/releases/tag/v0.1.0">Cyberd release 0.1.0 - Euler</a></li>
+<li>#### <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.0">Cyb release 0.1.0 - Euler</a></li>
+</ul>
+
+<hr />
+
+<h3 id="developers-metrics">Developers metrics</h3>
+
+<h5 id="epics-done">Epics done:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/cyberd/issues/73">Launch testnet Euler #73 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/109">Release notes for 0.1 #109 cyb</a></li>
+</ul>
+
+<h5 id="epics-next-sprint-todo">Epics next sprint TODO:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/chaingear/issues/997">Deploy to mainnet #997 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/44">Basic .help app #44 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/25">Whitepaper 0.3 #25 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/27">Distribution #27 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/chaingear/issues/1029">Update UI for chaingear app #1029 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/cyberdesign/issues/18">Design refactoring #18 cyberdesign</a></li>
+<li><a href="https://github.com/cybercongress/congress/issues/36">Landing pages for key projects #36 congress</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/67">Simple .txqueue app #67 cyb</a></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Burndown</th>
+<th align="center">Storypoints done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="BD.png" alt="burndown-report" /></td>
+<td align="center">163</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Stars</th>
+<th align="center">Forks</th>
+<th align="center">PRs</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="cyb-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyb-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyb-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="cyberd-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyberd-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyberd-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="chaingear-stars.png" alt="stars" /></td>
+<td align="center"><img src="chaingear-forks.png" alt="forks" /></td>
+<td align="center"><img src="chaingear-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="congress-stars.png" alt="stars" /></td>
+<td align="center"><img src="congress-forks.png" alt="forks" /></td>
+<td align="center"><img src="congress-PRs.png" alt="PRs" /></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="kpi-s-as-at-2019-01-08">KPI&rsquo;s as at 2019/01/08</h3>
+
+<ul>
+<li>cyberd: <a href="https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#010-2019-01-03">1 of the 7</a> PoC iteration;</li>
+<li>cyb: yes <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.0">release</a>;</li>
+<li>chaingear: 0 of 100 ETH take from chaingear;</li>
+<li><a href="https://gitcoin.co/profile/cybercongress">#41</a> organization on gitcoin.co;</li>
+<li>42 of 1000 devs in <a href="https://t.me/fuckgoogle">devChat</a>.</li>
+</ul>
+
+<hr />
+
+<h3 id="community">Community:</h3>
+
+<ul>
+<li><a href="https://t.me/cybercongress">Telegram channel</a>: 29 subscribers;</li>
+<li><a href="https://t.me/fuckgoogle">Telegram devChat</a>: 42 subscribers;</li>
+<li><a href="https://steemit.com/@cybercongress">Steemit</a>: 8 subscribers;</li>
+<li><a href="https://www.reddit.com/r/cybercongress">Reddit</a>: 6 subscribers;</li>
+<li><a href="https://twitter.com/cyber_devs">Twitter</a>: 22 subscribers.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Steemit</th>
+<th align="center">Dev Chat</th>
+<th align="center">Telegram Channel</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="steemit.png" alt="stemmit" /></td>
+<td align="center"><img src="devChat.png" alt="devchat" /></td>
+<td align="center"><img src="telegram.png" alt="telegram" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Twitter</th>
+<th align="center">Reddit</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="twitter.png" alt="twitter" /></td>
+<td align="center"><img src="reddit.png" alt="reddit" /></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Sacred Rave</title>
+      <link>/sprint-24-report/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/sprint-24-report/</guid>
+      <description>Start: 2018-11-26
+End: 2018-12-17
+Сonclusion We have a rich and crazy sprint. A lot of things happened during the last three weeks. And&amp;hellip; You know what? We want to collect just good things among the array of events.
+First of all, let&amp;rsquo;s speak about our products state. Soon, on Bitcoin genesis block 10th year anniversary, 2019.01.03, we&amp;rsquo;ll launch cyberd first testnet - Euler, Cyb 0.1.0 Euler release, and Chaingear mainnet with updated UI.</description>
+      <content:encoded><![CDATA[
+
+<p><img src="pic.jpg" alt="pic" /></p>
+
+<p>Start: 2018-11-26</p>
+
+<p>End: 2018-12-17</p>
+
+<h3 id="сonclusion">Сonclusion</h3>
+
+<p>We have a rich and crazy sprint. A lot of things happened during the last three weeks. And&hellip; You know what? We want to collect just good things among the array of events.</p>
+
+<p>First of all, let&rsquo;s speak about our products state. Soon, on Bitcoin genesis block 10th year anniversary, 2019.01.03,  we&rsquo;ll launch cyberd first testnet - Euler, Cyb 0.1.0 Euler release, and Chaingear mainnet with updated UI. It should be a great step to the new world.</p>
+
+<p>Cyb serves as the rabbit hole of Web3 World with decentralized search, games, services, storage, databases and so on. So far, Cyb shows the best user experience in playing a Web3 game which is Dragonereum. It is a good sign.</p>
+
+<p>Few words about <a href="https://dapp.dragonereum.io/genesis">Dragonereum</a> as a first Cyb game. Eggs distribution is almost over and I believe that in two weeks I&rsquo;ll write about Gladiators Battles launch.</p>
+
+<p>And finally, about <a href="https://ipfs.io/ipfs/QmWPEkwyTThzQSdky4gje2HhkHU7R5E9WWmazuGBjo8gZd/">cyberc0n</a>. It was our first conference around Web3 and decentralized search. We&rsquo;re very proud of this event from cyber•Congress side and cyber•Academy. Firstly it was an almost Web3-organized conference on Ethereum smart contract. More details about a conference will be in my next post. Secondly&hellip; We thrilled with people who came to us. Be well aware of new decentralized world building difficulty we were happy to understand that we are not alone, but with a strong community.  Not so huge, but really strong. Thanks to all who came!</p>
+
+<p>And sure, if you want to join the discussion around decentralized search, welcome to our <a href="https://t.me/fuckgoogle">telegram dev chats</a> :)</p>
+
+<h3 id="changelog">Changelog</h3>
+
+<ul>
+<li>#### <a href="https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#unreleased">Minor fixes at cyberd</a></li>
+<li>#### <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.0">Cyb Euler pre-release</a></li>
+</ul>
+
+<hr />
+
+<h3 id="developers-metrics">Developers metrics</h3>
+
+<h5 id="epics-done">Epics done:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/cyb/issues/35">Support of Dragonereum #35 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyb/issues/62">Simple history.cyb #62 cyb</a></li>
+<li><a href="https://github.com/cybercongress/cyberdesign/issues/9">Cyb shell design update #9 cyberdesign</a></li>
+</ul>
+
+<h5 id="epics-next-sprint-todo">Epics next sprint TODO:</h5>
+
+<ul>
+<li><a href="https://github.com/cybercongress/cyb/issues/44">Basic .help app #44 cyb</a></li>
+<li><a href="https://github.com/cybercongress/chaingear/issues/998">Launch registry of apps #998 chaingear</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/73">Launch testnet Euler #73 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/25">Whitepaper 0.3 #25 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/cyberd/issues/27">Distribution #27 cyberd</a></li>
+<li><a href="https://github.com/cybercongress/chaingear/issues/1029">Update UI for chaingear app #1029 chaingear</a></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Burndown</th>
+<th align="center">Storypoints done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="BD.png" alt="burndown-report" /></td>
+<td align="center">191</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Stars</th>
+<th align="center">Forks</th>
+<th align="center">PRs</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="cyb-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyb-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyb-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="cyberd-stars.png" alt="stars" /></td>
+<td align="center"><img src="cyberd-forks.png" alt="forks" /></td>
+<td align="center"><img src="cyberd-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="chaingear-stars.png" alt="stars" /></td>
+<td align="center"><img src="chaingear-forks.png" alt="forks" /></td>
+<td align="center"><img src="chaingear-PRs.png" alt="PRs" /></td>
+</tr>
+
+<tr>
+<td align="center"><img src="congress-stars.png" alt="stars" /></td>
+<td align="center"><img src="congress-forks.png" alt="forks" /></td>
+<td align="center"><img src="congress-PRs.png" alt="PRs" /></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="kpi-s-as-at-2018-12-17">KPI&rsquo;s as at 2018/12/17</h3>
+
+<ul>
+<li>cyberd: <a href="https://github.com/cybercongress/cyberd/blob/master/CHANGELOG.md#007-2018-10-25">1 of the 7</a> PoC iteration;</li>
+<li>cyb: yes <a href="https://github.com/cybercongress/cyb/releases/tag/v0.1.0">release</a>;</li>
+<li>chaingear: 0 of 100 ETH take from chaingear;</li>
+<li><a href="https://gitcoin.co/profile/cybercongress">#34</a> organization on gitcoin.co;</li>
+<li>39 of 1000 devs in <a href="https://t.me/fuckgoogle">devChat</a>.</li>
+</ul>
+
+<hr />
+
+<h3 id="community">Community:</h3>
+
+<ul>
+<li><a href="https://t.me/cybercongress">Telegram channel</a>: 27 subscribers;</li>
+<li><a href="https://t.me/fuckgoogle">Telegram devChat</a>: 39 subscribers;</li>
+<li><a href="https://steemit.com/@cybercongress">Steemit</a>: 9 subscribers;</li>
+<li><a href="https://www.reddit.com/r/cybercongress">Reddit</a>: 6 subscribers;</li>
+<li><a href="https://twitter.com/cyber_devs">Twitter</a>: 22 subscribers.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Steemit</th>
+<th align="center">Dev Chat</th>
+<th align="center">Telegram Channel</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="steemit.png" alt="stemmit" /></td>
+<td align="center"><img src="devChat.png" alt="devchat" /></td>
+<td align="center"><img src="telegram.png" alt="telegram" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Twitter</th>
+<th align="center">Reddit</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="twitter.png" alt="twitter" /></td>
+<td align="center"><img src="reddit.png" alt="reddit" /></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

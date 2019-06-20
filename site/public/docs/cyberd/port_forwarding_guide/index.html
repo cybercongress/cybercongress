@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>cyber•Congress</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../../docs/cyberd/port_forwarding_guide/" />
+  <link rel="alternate" href="../../../docs/cyberd/port_forwarding_guide/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="cyber•Congress" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/cyberd/port_forwarding_guide/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="cyber•Congress" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../../css/main.css" />
+<link rel="stylesheet" href="../../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../../img/favicon.png">
+<link rel="alternate feed" href="../../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../../asciinema/asciinema-player.js"></script>
+<script src="../../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../../#propducts">Products</a></li>
+        <li><a href="../../../#team" >Team</a></li>
+        <li><a href="../../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Port Forwarding Guide
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2f cyberd\2fport_forwarding_guide\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../../docs/cyberd/cyberd/">Whitepaper</a></li>
+<li>Usage:
+
+<ul>
+<li><a href="../../../docs/cyberd/run_validator/">Run the validator</a></li>
+<li><a href="../../../docs/cyberd/supported_gpu_list/">Supported GPUs</a></li>
+<li><a href="../../../docs/cyberd/ultimate-commands-guide_v2/">CLI guide</a></li>
+<li><a href="../../../docs/cyberd/get_cyb/">Get CYBs</a></li>
+<li><a href="../../../docs/cyberd/port_forwarding_guide/">Port forwarding</a></li>
+</ul></li>
+<li>Dev environment:
+
+<ul>
+<li><a href="../../../docs/cyberd/setup_dev_env/">Setup development environment</a></li>
+<li><a href="../../../docs/cyberd/launch_network/">Network launch</a></li>
+</ul></li>
+<li>Specs:
+
+<ul>
+<li><a href="../../../docs/cyberd/rpc/">RPC</a></li>
+<li><a href="../../../docs/cyberd/params/">Network parameters</a></li>
+</ul></li>
+<li><a href="../../../docs/cyberd/changelog/">CHANGELOG</a></li>
+<li><a href="../../../docs/cyberd/contributing/">CONTRIBUTING</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../../docs/cyb/dura/">cyb</a>
+            <a href="../../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 id="decentralization-must-be-decentralized">Decentralization must be decentralized</h1>
+
+<p>January 3, 2019, we&rsquo;ve launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we&rsquo;ll has in the future. Thanks to our testers and validators we&rsquo;re finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.</p>
+
+<p>An obvious problem of decentralization is that no entity has a global vision of the system, and there is no central authority to direct nodes in making optimal decisions with regard to software updates, routing, or solving consensus. This makes the availability of a decentralized network more difficult to maintain, a factor significant enough to contribute to the failure of a system.</p>
+
+<p>By the way, a huge part of disconnections and, as result, validators jailing happens by this reason.</p>
+
+<p>Cyberd cli can’t automatically configure your router to open port <code>26656</code>, you will need to manually configure your router. We’ve can&rsquo;t make the following instructions to cover all router models; if you need specific help with your router, please ask for help on our <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+
+<p>Enabling inbound connections requires two steps:</p>
+
+<ol>
+<li><p>Giving your computer a static (unchanging) internal IP address by configuring the Dynamic Host Configuration Protocol (DHCP) on your router.</p></li>
+
+<li><p>Forwarding inbound connections from the Internet through your router to your computer where cyberd container can process them.</p></li>
+
+<li><p>Editing cyberd configuration file.</p></li>
+</ol>
+
+<h2 id="configuring-dhcp">Configuring DHCP</h2>
+
+<p>In order for your router to direct incoming port <code>26656</code> connections to your computer, it needs to know your computer’s internal IP address. However, routers usually give computers dynamic IP addresses that change frequently, so we need to ensure your router always gives your computer the same internal IP address.</p>
+
+<p>Start by logging into your router’s administration interface. Most routers can be configured using one of the following URLs, so keep clicking links until you find one that works. If none work, consult your router’s manual.</p>
+
+<pre><code>    http://192.168.0.1 (some Linksys/Cisco models)
+    http://192.168.1.1 (some D-Link/Netgear models)
+    http://192.168.2.1 (some Belkin/SMC models)
+    http://192.168.123.254 (some US Robotics models)
+    http://10.0.1.1 (some Apple models)
+</code></pre>
+
+<p>Upon connecting, you will probably be prompted for a username and password. If you configured a password, enter it now. If not, the Router Passwords site provides a database of known default username and password pairs.</p>
+
+<p>After logging in, you want to search your router’s menus for options related to DHCP, the Dynamic Host Configuration Protocol. These options may also be called Address Reservation.</p>
+
+<p>In the reservation configuration, some routers will display a list of computers and devices currently connected to your network, and then let you select a device to make its current IP address permanent.</p>
+
+<p>If that’s the case, find the computer running cyberd container in the list, select it, and add it to the list of reserved addresses. Make a note of its current IP address—we’ll use the address in the next section.</p>
+
+<p>Other routers require a more manual configuration. For these routers, you will need to look up the fixed address (MAC address) for your computer’s network card and add it to the list.</p>
+
+<p>Open a terminal and type ifconfig. Find the result that best matches your connection—a result starting with wlan indicates a wireless connection. Find the field that starts with HWaddr and copy the immediately following field that looks like <code>01:23:45:67:89:ab</code>. Use that value in the instructions below.</p>
+
+<p>Once you have the MAC address, you can fill it into to your router’s manual DHCP assignment table. Also, choose an IP address and make a note of it for the instructions in the next subsection. After entering this information, click the Add or Save button.</p>
+
+<p>Then reboot your computer to ensure it gets assigned the address you selected and proceed to the Port Forwarding instructions below.</p>
+
+<h2 id="port-forwarding">Port Forwarding</h2>
+
+<p>For this step, you need to know the local IP address of the computer running cyberd container. You should have this information from configuring the DHCP assignment table in the subsection above.</p>
+
+<p>Login to your router using the same steps described near the top of the DHCP subsection. Look for an option called Port Forwarding, Port Assignment, or anything with “Port” in its name. On some routers, this option is buried in an Applications &amp; Gaming menu.</p>
+
+<p>The port forwarding settings should allow you to map an external port on your router to the “internal port” of a device on your network.</p>
+
+<p>Both the external port and the internal port should be <code>26656</code> for cyberd container.</p>
+
+<p>Make sure the IP address you enter is the same one you configured in the previous subsection.</p>
+
+<p>After filling in the details for the mapping, save the entry. You should not need to restart anything. Just ask us in <a href="https://t.me/fuckgoogle">devChat</a> about successful connection.</p>
+
+<p>If you still can’t connect and you use a firewall, you probably need to change your firewall settings. Ubuntu comes with its firewall disabled by default, but if you have enabled it, see the Ubuntu <a href="https://help.ubuntu.com/community/Gufw">wiki page</a> for information about adding port forwarding rules.</p>
+
+<p>If something else went wrong, it’s probably a problem with your router configuration. Re-read the instructions above to see if you missed anything, search the web for help with “port forwarding”, and ask for help on <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+
+<h2 id="configuring-cyberd">Configuring cyberd</h2>
+
+<p>Go to cyberd daemon folder, then go to <code>config</code> folder and open <code>config.toml</code> file for editing.</p>
+
+<p>Find <code>peer to peer configuration options</code> section and edit <code>external_address</code> variable with your IP address and port <code>26656</code></p>
+
+<p><img src="https://ipfs.io/ipfs/QmQRqM4PbPt8cbDN49nAktT23XWfCixbfzfyUEkSyDUWYP" alt="peer_to_peer_config" /></p>
+
+<p>Restart cyberd container.</p>
+
+<hr />
+
+<p>We call to you, validators, with a proposal to forwarding port <code>26656</code> and make you validator-nodes available to the incoming connection.</p>
+
+<p>Unfortunately, we can&rsquo;t provide all guides for port forwarding because of they different for each router. But if you faced on with some troubles feel free to contact us in our <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#decentralization-must-be-decentralized">Decentralization must be decentralized</a>
+<ul>
+<li><a href="#configuring-dhcp">Configuring DHCP</a></li>
+<li><a href="#port-forwarding">Port Forwarding</a></li>
+<li><a href="#configuring-cyberd">Configuring cyberd</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

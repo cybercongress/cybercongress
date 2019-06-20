@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>How to add own ETH node to your Cyb</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="savetheales" />
+
+  <link rel="canonical" href="../how-to-add-own-eth-node-to-your-cyb/" />
+  <link rel="alternate" href="../how-to-add-own-eth-node-to-your-cyb/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="How to add own ETH node to your Cyb" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/how-to-add-own-eth-node-to-your-cyb/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="How to add own ETH node to your Cyb" />
+<meta name="twitter:creator" content="savetheales" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../highlight/github-gist.css" />
+<link rel="stylesheet" href="../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="alternate feed" href="../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../asciinema/asciinema-player.js"></script>
+<script src="../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+<body>
+  <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../#propducts">Products</a></li>
+        <li><a href="../#team" >Team</a></li>
+        <li><a href="../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    
+
+
+    <div class="post">
+      <h1>How to add own ETH node to your Cyb</h1>
+      <p class="date">by savetheales on 2018-12-04</p>
+
+      <p>
+</p>
+
+      
+
+<p><img src="0.png" alt="" /></p>
+
+<p>by <a href="https://cyb//0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth">@savetheales</a></p>
+
+<p>Hi! As we know from <a href="https://steemit.com/web3/@savetheales/how-to-add-custom-ipfs-node-to-your-cyb">an earlier post</a> we need 3 green lights on the right side of the footer. Today we&rsquo;ll add ETH node to Cyb. We&rsquo;ll use Parity node as an example, but you can try Geth node if you feel strong enough.</p>
+
+<h3 id="installing-parity-node">Installing Parity-node</h3>
+
+<p>The easiest way to install the stable version of Parity is <a href="https://brew.sh/">Homebrew</a>. Run this command in terminal:</p>
+
+<p><code>brew tap paritytech/paritytech</code></p>
+
+<p><code>brew install parity</code></p>
+
+<p>Additional methods you can explore <a href="https://wiki.parity.io/Setup">here</a>, but I still recommend you <a href="https://brew.sh/">Homebrew</a> :)</p>
+
+<h3 id="syncing">Syncing</h3>
+
+<p>After successfull installation run:</p>
+
+<p><code>parity --jsonrpc-cors=&quot;all&quot; --jsonrpc-apis=&quot;all&quot; --jsonrpc-interface=all</code></p>
+
+<p>this command starts syncing of Parity. Actually, the node is available for use by address</p>
+
+<p><code>http://127.0.0.1:8545</code></p>
+
+<p><img src="3.png" alt="result" /></p>
+
+<p>it can sync for 48 hours and more, it depends on your hardware and internet connection. The total size of the synced node at that moment is approximately 80 Gb. After syncing you should see something like this:</p>
+
+<p><img src="4.png" alt="result" /></p>
+
+<p>As you see <code>Syncing</code> is switched to <code>Imported</code>. It means that the node in a valid state.</p>
+
+<h3 id="adding-port-to-cyb">Adding port to Cyb</h3>
+
+<p>Launch Cyb, latest version you can download <a href="https://github.com/cybercongress/cyb/releases">here</a> if you still not have it :). Type <code>settings.cyb</code> in a search field or click on a gear at the top right side.</p>
+
+<p>You need to insert this address <code>http://127.0.0.1:8545</code> opposite <code>ETH NODE</code> like this:</p>
+
+<p><img src="1.png" alt="result" /></p>
+
+<p>That&rsquo;s it ;)</p>
+
+<p>Now you run your own node and use it with Cyb ;)</p>
+
+<p>2 of 3, move on! ;)</p>
+
+<p><img src="2.png" alt="result" /></p>
+
+
+      
+          <h2 id="comments">Comments</h2>
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://discuss.ipfs.io/',
+              discourseEmbedUrl: 'https://ipfs.io/blog/how-to-add-own-eth-node-to-your-cyb' };
+              if (window.location.hostname === 'blog.ipfs.io') {
+                (function() {
+                  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                })();
+              } else {
+                 
+                 
+                 document.getElementById('comments').style.display = 'none';
+                 document.getElementById('discourse-comments').style.display = 'none';
+              }
+          </script>
+      
+    </div>
+  </div> 
+
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

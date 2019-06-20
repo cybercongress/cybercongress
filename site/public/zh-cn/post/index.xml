@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on cyber•Congress</title>
+    <link>/zh-cn/post/</link>
+    <description>Recent content in Posts on cyber•Congress</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPFS 周报-11</title>
+      <link>/zh-cn/45-ipfs-weekly-11/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/zh-cn/45-ipfs-weekly-11/</guid>
+      <description>欢迎回到IPFS周报！👋 InterPlanetary File System (IPFS, 星际文件系统) 是一种新型的，基于内容和身份的，超媒体分发协议。IPFS使得开发完全分布式的应用程序成为可能。</description>
+    </item>
+    
+  </channel>
+</rss>

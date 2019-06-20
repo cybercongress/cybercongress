@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>cyber•Congress</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../../docs/js-amino/contributing/" />
+  <link rel="alternate" href="../../../docs/js-amino/contributing/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="cyber•Congress" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/js-amino/contributing/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="cyber•Congress" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../../css/main.css" />
+<link rel="stylesheet" href="../../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../../img/favicon.png">
+<link rel="alternate feed" href="../../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../../asciinema/asciinema-player.js"></script>
+<script src="../../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../../#propducts">Products</a></li>
+        <li><a href="../../../#team" >Team</a></li>
+        <li><a href="../../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Contributing
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2fjs-amino\2f contributing\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../../docs/js-amino/overview/">Overview</a></li>
+<li><a href="../../../docs/js-amino/changelog/">Changelog</a></li>
+<li><a href="../../../docs/js-amino/contributing/">Contributing</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../../docs/cyb/dura/">cyb</a>
+            <a href="../../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 id="contributing-to-js-amino">Contributing to js-amino</h1>
+
+<p>Thank you for considering a contribution to <strong>js-amino</strong>! This guide explains how to:
+* Get started
+* Development workflow
+* Get help if you encounter trouble</p>
+
+<h2 id="get-in-touch">Get in touch</h2>
+
+<p>Before starting to work on a feature or a fix, please <a href="https://github.com/cybercongress/js-amino/issues/new/choose">open an issue</a> to discuss the use case or bug with us. This can
+save both you and us a lot of time. For any non-trivial change, we&rsquo;ll ask you to create a short design document explaining:</p>
+
+<ul>
+<li>Why is this change done? What&rsquo;s the use case?</li>
+<li>What test cases should it have? What could go wrong?</li>
+<li>How will it roughly be implemented? (We&rsquo;ll happily provide code pointers to save you time)</li>
+</ul>
+
+<h2 id="development-workflow">Development Workflow</h2>
+
+<h3 id="fork-repo">Fork repo</h3>
+
+<p>Fork repo to your account to continue work there.</p>
+
+<h3 id="creating-commits-and-writing-commit-messages">Creating Commits And Writing Commit Messages</h3>
+
+<p>The commit messages that accompany your code changes are an important piece of documentation, please follow these guidelines when writing commit messages:</p>
+
+<ul>
+<li>Keep commits discrete: avoid including multiple unrelated changes in a single commit</li>
+<li>Keep commits self-contained: avoid spreading a single change across multiple commits. A single commit should make sense in isolation</li>
+<li>Include GitHub issue in the commit message on a first line at the beginning. Example:</li>
+</ul>
+
+<pre><code>#123 Refactor CONTRIBUTING.md
+
+--Add Creating Commits And Writing Commit Messages Section
+</code></pre>
+
+<h3 id="submitting-your-change">Submitting Your Change</h3>
+
+<p>After you submit your pull request, a core developer will review it. It is normal that this takes several
+iterations, so don&rsquo;t get discouraged by change requests. They ensure the high quality that we all enjoy.</p>
+
+<h2 id="getting-help">Getting Help</h2>
+
+<p>If you run into any trouble, please reach out to us on the issue you are working on.</p>
+
+<h2 id="our-thanks">Our Thanks</h2>
+
+<p>We deeply appreciate your effort toward improving js-amino. For any contribution, large or small, you will be immortalized
+ in the release notes for the version you&rsquo;ve contributed to.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#contributing-to-js-amino">Contributing to js-amino</a>
+<ul>
+<li><a href="#get-in-touch">Get in touch</a></li>
+<li><a href="#development-workflow">Development Workflow</a>
+<ul>
+<li><a href="#fork-repo">Fork repo</a></li>
+<li><a href="#creating-commits-and-writing-commit-messages">Creating Commits And Writing Commit Messages</a></li>
+<li><a href="#submitting-your-change">Submitting Your Change</a></li>
+</ul></li>
+<li><a href="#getting-help">Getting Help</a></li>
+<li><a href="#our-thanks">Our Thanks</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

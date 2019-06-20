@@ -1,0 +1,5 @@
+#js-amino table of content. Observe the correct tabulation. Do not change the tabulation of the header.
+  - js-amino:
+    - Overview: js-amino/Overview.md
+    - Changelog: js-amino/Changelog.md
+    - Contributing: js-amino/Contributing.md

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>cyber•Congress</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../../docs/cyb/web3-vision/" />
+  <link rel="alternate" href="../../../docs/cyb/web3-vision/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="cyber•Congress" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/cyb/web3-vision/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="cyber•Congress" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../../css/main.css" />
+<link rel="stylesheet" href="../../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../../img/favicon.png">
+<link rel="alternate feed" href="../../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../../asciinema/asciinema-player.js"></script>
+<script src="../../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../../#propducts">Products</a></li>
+        <li><a href="../../../#team" >Team</a></li>
+        <li><a href="../../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Web3 Vision
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2f cyb\2fweb3-vision\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../../docs/cyb/dura/">Web3 vision</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../../docs/cyb/dura/">cyb</a>
+            <a href="../../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 id="dura-a-missing-piece-for-web3">DURA: a missing piece for web3</h1>
+
+<p><a href="https://keybase.io/21xhipster">@xhipster</a>
+<a href="https://github.com/cybercongress">cyberCongress</a></p>
+
+<p>Early draft for web3 summit. Looking for <a href="https://github.com/cybercongress/cyb">a feedback</a>.</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Originally an <a href="http://gavwood.com/web3lt.html">idea of web3</a> was inspired by Gavin Wood in 2014. A vision of Gavin was around 4 implementable concepts: content addressing, cryptographic identities, consensus computing and browsers. In parallel an idea of Interplanetary File System has been developed by Juan Benet. IPFS creates a foundation for web3: a system of content addressing and cryptographic identities. Since 2014 consensus computing has suffered insanely rapid development so one more missing piece is also in place. Still missing piece is a web3 browsing. Some projects such as Metamask has demonstrated a taste of web3. But one critical component in terms of browsing is just not there. URL scheme is outdated in terms of desired web3 properties and needs a drop in replacement. In this paper firstly we discuss necessary properties that we expect from web3. Based on this analysis we propose DURA scheme aka Distributed Unified Resource Address as drop in replacement for URLs that is being implemented in web3 browser <a href="../../../cyb.md">Cyb</a>. We believe DURA is a dump enough scheme (your captain) which can bring up basic consensus across web3 browser vendors due to simplicity, openness and protocol agnostic approach.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><a href="https://tools.ietf.org/search/rfc6454">Conventional protocols</a> of the Internet such as TCP/IP, DNS, HTTPS and URL brought a web into the point there it is now. Along with all benefits they has created this protocols brought more problem into the table. Globality being a key property of the the web since inception is under real threat. Speed of connections degrade with network growth and from ubiquitous government interventions into privacy and security of web users. One property, not obvious in the beginning, become really important with everyday usage of the Internet: its ability to exchange permanent hyperlinks thus they would not break after time have pass. Reliance on one at a time internet service provider architecture allow governments censor packets. This fact is the last straw in conventional web stack for every engineer who is concerned about the future of our children. Other properties while being not so critical are very desirable: offline and real-time. Average internet user being offline must have ability to work with the state it has and after acquiring connection being able to sync with global state and continue verify state&rsquo;s validity in realtime while having connection. Now this properties offered on app level while such properties must be integrated into lower level protocols: into
+very core of web3.</p>
+
+<h2 id="speed">Speed</h2>
+
+<p>Usability researches state that interactions that do not make sense in 100 milliseconds are considered as slow by an agent. Achieving such instant speeds is nearly impossible in the current stack of protocols. The following generation of the web must enable instant responses user requests. Necessity for lookup a location of resource using remote machine is an obvious bottleneck for reaching desired properties.</p>
+
+<h2 id="globality">Globality</h2>
+
+<p>Current internet is starting to split into regions mutually inaccessible for each other. China is de facto such a region. Some countries are very close to joining the club. It is of paramount importance that web3 would remain global even in the face of government level adversaries.</p>
+
+<h2 id="security">Security</h2>
+
+<p>Current web applications are still in its infancy in term of permission abilities. Security of web apps is a very complicated topic. But one thing is obvious: it is hard to setup a secure system with third party apps without built in authentication system of the code being run on client machine. Current system of mutable resource location based on certificate authorities can not be safe by design.</p>
+
+<h2 id="permanent">Permanent</h2>
+
+<p>We are all experience broken links. IPFS has immunity to this issue. As long as you keep a file anybody can access it using globally defined immutable in time address of this file computed from the file itself.</p>
+
+<h3 id="mesh-ready">Mesh ready</h3>
+
+<p>Current internet paradigm is based on 1 internet provider paradigm. That is basically a bad shit, because in general even if you have 2 or more internet connection like wifi and lte your device and/or operation system don&rsquo;t allow you to get the full possibilities of connectivity enforcing you to use only one connection at a time. Another major bad shit in current internet architecture is that your device is treated as leech by default. Every device keeps data necessary to being useful for surround devices. Huge portion of our network traffic goes not from origin server but from ISP cache. That means that changing a paradigm we can get to very different topology where our neighbors are our web3 providers.</p>
+
+<h2 id="verifiability">Verifiability</h2>
+
+<p>&hellip;</p>
+
+<h2 id="privacy-and-anonymity">Privacy and Anonymity</h2>
+
+<p>&hellip;</p>
+
+<h2 id="offline">Offline</h2>
+
+<p>&hellip;</p>
+
+<h2 id="realtime">Realtime</h2>
+
+<p>&hellip;</p>
+
+<h2 id="roles">Roles</h2>
+
+<p>In a web of the third generation roles are not like in a web2. There is no clear split on users, internet providers and sites. Key difference is such that interactions can happen truly peer to peer the one can be sovereign enough to be their own internet.</p>
+
+<ul>
+<li>Apps. Any content hash can be an app if it is known how to parse it.</li>
+<li>Agents. An app can become an agent if she can prove that she exist by digital signature.</li>
+<li>Providers. Any agent that is able to serve content can be web3 provider.</li>
+</ul>
+
+<h2 id="content-addresses">Content addresses</h2>
+
+<p>To understand why they so important we need to understand a difference in foundational concept of web2 and web3.</p>
+
+<p><em>Web2: Where =&gt; What-How</em>: You must know resource location on a particular server to retrieve it.</p>
+
+<p><em>Web3: What =&gt; How</em>: Instead of location based paradigm web3 is based on the content addressing paradigm. Key point is that we do not need to have knowledge of resource location in order to link to an object. In a web3 the answer to the <em>How</em> is either local or blockchain based registry with simple map between input address and address of an app.</p>
+
+<h2 id="cryptographic-identities">Cryptographic identities</h2>
+
+<p>&hellip;</p>
+
+<h2 id="consensus-computers">Consensus computers</h2>
+
+<p>There are some very exhaustive articles <a href="https://multicoin.capital/2018/07/10/the-web3-stack/">around</a> <a href="https://blockchainhub.net/web3-decentralized-web/">the topic</a> of <a href="https://avc.com/2018/07/the-web-3-stack/">web3</a> which are really about consensus computing part of it.</p>
+
+<p>Worth to note that saying that any particular blockchain or even all blockchains altogether is web3 is like saying that databases is world wide web. Yes databases technology contributed to a development of www, but without several protocols this databases would not become interconnected through billions of web sites. Remember that in order to implement a vision of full web3 potential we need to find drop in replacement for every piece of current protocol stack: IP, TCP, HTTPS, DNS and URL. None of currently deployed blockchain technologies don&rsquo;t have necessary properties to directly replace dinosaurs. I would say that distributed ledger technology is a better database stack for the upcoming web.</p>
+
+<h2 id="dura-scheme">DURA scheme</h2>
+
+<p>Distributed Unified Resource Address or put simply DURA is a more simpler and trustful scheme that has been used in a conventional web. It doesn&rsquo;t requires central authorities such as ICANN or others:</p>
+
+<pre><code>[protocol]://[query].[root-app]/[navigation]
+</code></pre>
+
+<p>We believe that a term <code>cyberlink</code> can be used for DURA links in order to differentiate with <code>hyperlinks</code> of previous internet architecture.</p>
+
+<h2 id="protocol">Protocol</h2>
+
+<pre><code>dura://
+</code></pre>
+
+<p>It is a local handler that every os can handle. Being fully optional it can be very important in the very beginning of web3.</p>
+
+<h2 id="query">Query</h2>
+
+<pre><code>dura://QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+</code></pre>
+
+<p>If a browser is able to understand in which network she can resolve this particular content hash it can resolve it without much ado. Though we expect that IPFS will be not the only system and it become practically hard to say with 100% certainty whether given hash is ipfs hash or swarm or torrent or some other address type. That is there the concept of a root registry came into the game. In some sense it serves as an alternative to a self describing scheme used in CIDs. In some sense its not as it offer visually more sound links for agents. We believe that the root registry and self description concepts are complementary to each other.</p>
+
+<h2 id="root-registry">Root registry</h2>
+
+<p>Current state of DNS root management is outdated. The most bad thing is that we still must to trust the most important things in our lives to strange organizations such as ICANN, IANA.</p>
+
+<p>We can ask ourselves why after 40 years of ubiquitous computer movement we still don&rsquo;t have simple common knowledge about what file extensions must be used with what software?</p>
+
+<p>Our proposal is a concept of a root register. Structure of root register is a simple map between short name and ipfs hash of a program that is being triggered:</p>
+
+<pre><code>com:QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+io:QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+exe:QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+pdf:QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+eth:QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa
+</code></pre>
+
+<p>A name must be letter, number or hypen.</p>
+
+<p>Purpose of a root register is to reach some very basic os and network agnostic agreement about what extensions with what programs must be used. Of course the problem with such registry is that it must be somehow and somewhere maintained.</p>
+
+<h2 id="three-rules-of-a-root-registry">Three rules of a root registry</h2>
+
+<ol>
+<li>Software vendors must compete for a better root registry.</li>
+<li>Software vendors must add setting with a change of a root registry.</li>
+<li>Agents of browsers and operation systems must have ability to overwrite maps for local pleasure.</li>
+</ol>
+
+<p>One of the implementation is a <a href="QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa.md">cyb</a> root registry</p>
+
+<h2 id="root-registry-app">Root registry app</h2>
+
+<pre><code>cyb://QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa.ipfs
+</code></pre>
+
+<p>This is an example of full DURA link that is able get hash of <code>ipfs</code> app in a root registry, than throw predicate into this app and get a desired resource from a peer to peer network.</p>
+
+<pre><code>Note: need to add real case of ipfs DURA app being used in Cyb.
+Note: need to add real case on how web2 link can be resolved using DURA approach.
+</code></pre>
+
+<h2 id="app-navigation">App navigation</h2>
+
+<p>Traditionally its up to developers how to structure navigation within an app. But we believe that some scheme will be invented to differentiate statefull and stateless links as it is very important for</p>
+
+<h2 id="dura-extensions">DURA extensions</h2>
+
+<p>A lot of cool stuff can be implemented using extensions. Extension is any symbol that adds predictable an logical behavior for parsing and rendering of requests.</p>
+
+<p>Examples:
+- local paths
+- connection links
+- URL parameters</p>
+
+<p>Key principle is that semantics is programmable and can be delivered from a distributed network using symbols that has been registered in a root registry.</p>
+
+<h2 id="where-extension">Where extension</h2>
+
+<p>Keyword:
+- <code>/</code> before content address is a local path</p>
+
+<p>Examples:
+/users/xhipster/cybernode.ai
+/ethereum/cybersearch.eth</p>
+
+<h2 id="linkchain-extension">Linkchain extension</h2>
+
+<p>Keyword:
+- <code>@</code> between DURA statements</p>
+
+<p>Examples:
+xhipster.eth@cybercongress.ai</p>
+
+<p>Need to find cyberlinks between two cyberlinks.</p>
+
+<h2 id="reference">Reference</h2>
+
+<p>&hellip;</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#dura-a-missing-piece-for-web3">DURA: a missing piece for web3</a>
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#speed">Speed</a></li>
+<li><a href="#globality">Globality</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#permanent">Permanent</a>
+<ul>
+<li><a href="#mesh-ready">Mesh ready</a></li>
+</ul></li>
+<li><a href="#verifiability">Verifiability</a></li>
+<li><a href="#privacy-and-anonymity">Privacy and Anonymity</a></li>
+<li><a href="#offline">Offline</a></li>
+<li><a href="#realtime">Realtime</a></li>
+<li><a href="#roles">Roles</a></li>
+<li><a href="#content-addresses">Content addresses</a></li>
+<li><a href="#cryptographic-identities">Cryptographic identities</a></li>
+<li><a href="#consensus-computers">Consensus computers</a></li>
+<li><a href="#dura-scheme">DURA scheme</a></li>
+<li><a href="#protocol">Protocol</a></li>
+<li><a href="#query">Query</a></li>
+<li><a href="#root-registry">Root registry</a></li>
+<li><a href="#three-rules-of-a-root-registry">Three rules of a root registry</a></li>
+<li><a href="#root-registry-app">Root registry app</a></li>
+<li><a href="#app-navigation">App navigation</a></li>
+<li><a href="#dura-extensions">DURA extensions</a></li>
+<li><a href="#where-extension">Where extension</a></li>
+<li><a href="#linkchain-extension">Linkchain extension</a></li>
+<li><a href="#reference">Reference</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

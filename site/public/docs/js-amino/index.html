@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Js-amino</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../docs/js-amino/" />
+  <link rel="alternate" href="../../docs/js-amino/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="Js-amino" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/js-amino/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="Js-amino" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../css/main.css" />
+<link rel="stylesheet" href="../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../img/favicon.png">
+<link rel="alternate feed" href="../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../asciinema/asciinema-player.js"></script>
+<script src="../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../#propducts">Products</a></li>
+        <li><a href="../../#team" >Team</a></li>
+        <li><a href="../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    
+    Js-amino
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2fjs-amino\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../docs/js-amino/overview/">Overview</a></li>
+<li><a href="../../docs/js-amino/changelog/">Changelog</a></li>
+<li><a href="../../docs/js-amino/contributing/">Contributing</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../docs/cyb/dura/">cyb</a>
+            <a href="../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 align="center">
+  <img src="../../docs/js-amino/img/logo.png"
+  alt="js-amino" width="470"></a>
+</h1>
+
+<p><h3 align="center">An Implementation of Amino for clients with Javascript</h3>
+<div align="center">
+  Current state: 1.0.0 First major public release
+</div></p>
+
+<p><br /></p>
+
+<div align="center">
+<img src="https://img.shields.io/github/issues-raw/cybercongress/js-amino.svg?color=green&style=flat-square" alt="opened issues"/>
+<img src="https://img.shields.io/github/issues-closed-raw/cybercongress/js-amino.svg?color=blue&style=flat-square" alt="closed issues" />
+<img src="https://img.shields.io/github/issues-pr-closed/cybercongress/js-amino.svg?color=green&style=flat-square" alt="closed PR"/>
+</div>
+<br/>
+<div align="center">
+<a href="https://circleci.com/gh/cybercongress/js-amino/tree/master"><img src="https://circleci.com/gh/cybercongress/js-amino/tree/master.svg?style=svg"></a>
+<a href='https://coveralls.io/github/cybercongress/js-amino?branch=30-add-ci-components-for-release'><img src='https://coveralls.io/repos/github/cybercongress/js-amino/badge.svg?branch=30-add-ci-components-for-release' alt='Coverage Status' /></a>
+</div>
+<br/>
+<div align="center">
+<img src="https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square" alt="contributors"/>
+  <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat-square" alt="Contributions Welcome" />
+  <a href="https://t.me/fuckgoogle"> <img src="https://img.shields.io/badge/Join%20Us%20On-Telegram-2599D2.svg?style=flat-square" alt="Join Us On Telegram" /></a>
+  <img src="https://img.shields.io/github/license/cybercongress/js-amino.svg?style=flat-square" alt="MIT license"/>
+</div>
+<br/>
+
+[![NPM](https://nodei.co/npm/js-amino.png)](https://npmjs.org/package/@cybercongress/js-amino)
+
+
+<div align="center">
+  <sub>Built and maintenance by
+  <a href="https://github.com/cybercongress/js-amino/graphs/contributors">
+    contributors
+  </a>
+  and
+  <a href="https://twitter.com/cyber_devs">cyber•Congress</a>
+</div>
+
+<p>For more information spec, please refer: <a href="https://github.com/tendermint/go-amino">https://github.com/tendermint/go-amino</a></p>
+
+<h2 id="features">Features:</h2>
+
+<ol>
+<li>Encode and Decode simple types: ints 8/16/32/64, booleans, strings, bytes</li>
+<li>Encode and Decode recursive Structs and Interfaces, Arrays</li>
+<li>Encode simple Time data</li>
+</ol>
+
+<h2 id="install-from-npm">Install From NPM:</h2>
+
+<p>Run <code>npm i js-amino</code></p>
+
+<h2 id="install-from-source">Install From Source</h2>
+
+<ol>
+<li>Run <code>npm install</code></li>
+</ol>
+
+<h2 id="running-the-examples">Running The Examples</h2>
+
+<ol>
+<li><code>cd src/examples</code></li>
+<li><code>go get</code></li>
+<li>Run examples, e. g. in Go: <code>go run string.go</code> and in JS <code>node string.js</code></li>
+</ol>
+
+<h2 id="running-the-unit-test">Running The Unit Test</h2>
+
+<ol>
+<li>Run <code>npm test</code></li>
+</ol>
+
+<h2 id="to-do">To Do:</h2>
+
+<ol>
+<li>Full support for Time encoding and decoding</li>
+<li>More Unit test</li>
+<li>Benchmarking</li>
+</ol>
+
+<h2 id="gitcoin-program">Gitcoin program</h2>
+
+<p>We want to pay you for your contribution! We constantly fund our issues on <a href="https://gitcoin.co/profile/cybercongress">gitcoin</a> and attach good description for them with project state and user stories. We try to answer to comments regular in issues and in our <a href="https://t.me/fuckgoogle">devChat</a>.</p>
+
+<p><a href="https://gitcoin.co/explorer?q=js-amino">
+    <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/js-amino">
+</a></p>
+
+<h2 id="our-cosmos-ecosystem-initiative">Our cosmos ecosystem initiative</h2>
+
+<h2 id="usage-msgmultisend-example">Usage (MsgMultiSend example)</h2>
+
+<pre><code class="language-js">const {
+    Codec,
+    FieldOptions,
+    TypeFactory,
+    Utils,
+    Types,
+    WireTypes,
+} = require('../index');
+
+let StdTx = TypeFactory.create('StdTx', [{
+        name: 'msg',
+        type: Types.ArrayInterface,
+    },
+    {
+        name: 'fee',
+        type: Types.Struct,
+    },
+    {
+        name: 'signatures',
+        type: Types.ArrayStruct,
+    },
+    {
+        name: 'memo',
+        type: Types.String,
+    },
+]);
+
+let MsgMultiSend = TypeFactory.create('MsgMultiSend', [{
+        name: &quot;inputs&quot;,
+        type: Types.ArrayStruct
+    },
+    {
+        name: &quot;outputs&quot;,
+        type: Types.ArrayStruct
+    }
+]);
+
+let Coin = TypeFactory.create('coin', [{
+        name: 'denom',
+        type: Types.String,
+    },
+    {
+        name: 'amount',
+        type: Types.String,
+    }
+]);
+
+let Input = TypeFactory.create('input', [{
+        name: 'address',
+        type: Types.String,
+    },
+    {
+        name: 'coins',
+        type: Types.ArrayStruct,
+    }
+]);
+
+let Output = TypeFactory.create('output', [{
+        name: 'address',
+        type: Types.String,
+    },
+    {
+        name: 'coins',
+        type: Types.ArrayStruct,
+    }
+]);
+
+let Fee = TypeFactory.create('fee', [{
+        name: 'amount',
+        type: Types.ArrayStruct,
+    },
+    {
+        name: 'gas',
+        type: Types.Int64,
+    }
+]);
+
+let PubKeySecp256k1 = TypeFactory.create('PubKeySecp256k1', [{
+    name: 's',
+    type: Types.ByteSlice,
+}], Types.ByteSlice)
+
+let Signature = TypeFactory.create('signature', [{
+        name: 'pub_key',
+        type: Types.Interface,
+    },
+    {
+        name: 'signature',
+        type: Types.ByteSlice,
+    }
+])
+
+let codec = new Codec();
+
+codec.registerConcrete(new StdTx(), 'auth/StdTx', {});
+codec.registerConcrete(new MsgMultiSend(), 'cosmos-sdk/MsgMultiSend', {});
+codec.registerConcrete(new PubKeySecp256k1(), 'tendermint/PubKeySecp256k1', {});
+
+let coin = new Coin('cyb', &quot;10000&quot;);
+
+let addressFrom = [ 59,58,243,13,132,163,164,202,233,7,236,93,136,166,181,175,236,69,48,186 ]
+let addressTo = [ 94,222,114,42,196,107,51,203,139,142,219,243,137,60,54,250,139,153,46,168 ]
+
+let input = new Input(addressFrom, [coin]);
+let output = new Output(addressTo, [coin]);
+let sendMultiMsg = new MsgMultiSend([input], [output]);
+let fee = new Fee([new Coin('cyb', '0')], 200000);
+
+let pubKey = new PubKeySecp256k1([2,27,24,0,255,96,147,21,64,29,132,192,108,219,59,134,206,201,126,224,63,160,24,236,170,124,164,95,43,180,6,246,250]);
+let signature = [165,76,109,61,53,129,190,147,52,224,34,106,235,208,224,36,190,25,204,36,226,129,97,109,35,130,217,228,144,106,10,134,14,183,95,252,219,235,22,92,37,53,3,89,111,173,12,158,146,71,82,113,236,241,170,121,217,20,236,23,131,35,80,29];
+
+let sig = new Signature(pubKey, signature);
+let stdTx = new StdTx([sendMultiMsg], fee, [sig], 'elonmusk');
+
+let jsonTx = codec.marshalJson(stdTx);
+let decodedDataTx = new StdTx();
+
+console.log(&quot;Binary stdTx:\n&quot;, (codec.marshalBinary(stdTx)).toString());
+console.log(&quot;Json:\n&quot;, jsonTx);
+codec.unMarshalBinary(codec.marshalBinary(stdTx), decodedDataTx);
+console.log(&quot;Decoded data:\n&quot;, decodedDataTx.JsObject());
+</code></pre>
+
+<pre><code class="language-js">Binary stdTx:
+  220,1,240,98,93,238,10,80,194,104,154,209,10,36,10,20,59,58,243,13,132,163,164,202,233,7,236,93,136,166,181,175,236,69,48,186,18,12,10,3,99,121,98,18,5,49,48,48,48,48,18,36,10,20,94,222,114,42,196,107,51,203,139,142,219,243,137,60,54,250,139,153,46,168,18,12,10,3,99,121,98,18,5,49,48,48,48,48,18,14,10,8,10,3,99,121,98,18,1,48,16,192,154,12,26,106,10,38,235,90,233,135,33,2,27,24,0,255,96,147,21,64,29,132,192,108,219,59,134,206,201,126,224,63,160,24,236,170,124,164,95,43,180,6,246,250,18,64,165,76,109,61,53,129,190,147,52,224,34,106,235,208,224,36,190,25,204,36,226,129,97,109,35,130,217,228,144,106,10,134,14,183,95,252,219,235,22,92,37,53,3,89,111,173,12,158,146,71,82,113,236,241,170,121,217,20,236,23,131,35,80,29,34,8,101,108,111,110,109,117,115,107
+
+Json:
+ {&quot;type&quot;:&quot;auth/StdTx&quot;,&quot;value&quot;:{&quot;msg&quot;:[{&quot;type&quot;:&quot;cosmos-sdk/MsgMultiSend&quot;,&quot;value&quot;:{&quot;inputs&quot;:[{&quot;address&quot;:[59,58,243,13,132,163,164,202,233,7,236,93,136,166,181,175,236,69,48,186],&quot;coins&quot;:[{&quot;denom&quot;:&quot;cyb&quot;,&quot;amount&quot;:&quot;10000&quot;}]}],&quot;outputs&quot;:[{&quot;address&quot;:[94,222,114,42,196,107,51,203,139,142,219,243,137,60,54,250,139,153,46,168],&quot;coins&quot;:[{&quot;denom&quot;:&quot;cyb&quot;,&quot;amount&quot;:&quot;10000&quot;}]}]}}],&quot;fee&quot;:{&quot;amount&quot;:[{&quot;denom&quot;:&quot;cyb&quot;,&quot;amount&quot;:&quot;0&quot;}],&quot;gas&quot;:&quot;200000&quot;},&quot;signatures&quot;:[{&quot;pub_key&quot;:{&quot;type&quot;:&quot;tendermint/PubKeySecp256k1&quot;,&quot;value&quot;:&quot;AhsYAP9gkxVAHYTAbNs7hs7JfuA/oBjsqnykXyu0Bvb6&quot;},&quot;signature&quot;:&quot;pUxtPTWBvpM04CJq69DgJL4ZzCTigWFtI4LZ5JBqCoYOt1/82+sWXCU1A1lvrQyekkdScezxqnnZFOwXgyNQHQ==&quot;}],&quot;memo&quot;:&quot;elonmusk&quot;}}
+
+Decoded data:
+ { msg: [ { inputs: [Array], outputs: [Array] } ],
+  fee: { amount: [ [Object] ], gas: 200000 },
+  signatures: [ { pub_key: [Array], signature: [Array] } ],
+  memo: 'elonmusk' }
+</code></pre>
+
+<h2 id="contributing-guide">Contributing Guide</h2>
+
+<p>Contribution are welcome! Please read this <a href="https://github.com/cybercongress/js-amino/blob/master/CONTRIBUTING.md">guide</a> before contributing.</p>
+
+<h2 id="contributors">Contributors</h2>
+
+<p>Thanks goes to these wonderful people (<a href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):</p>
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore -->
+
+<table><tr><td align="center"><a href="https://github.com/Thunnini"><img src="https://avatars2.githubusercontent.com/u/16339680?v=4" width="100px;" alt="JungHwan Tony Yun"/><br /><sub><b>JungHwan Tony Yun</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=Thunnini" title="Code">💻</a></td><td align="center"><a href="https://www.linkedin.com/in/do-ngoc-tan-64260072/"><img src="https://avatars3.githubusercontent.com/u/8816061?v=4" width="100px;" alt="TanNgocDo"/><br /><sub><b>TanNgocDo</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=TanNgocDo" title="Code">💻</a> <a href="#maintenance-TanNgocDo" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/philipstanislaus"><img src="https://avatars1.githubusercontent.com/u/6912756?v=4" width="100px;" alt="philipstanislaus"/><br /><sub><b>philipstanislaus</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=philipstanislaus" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/SaveTheAles"><img src="https://avatars0.githubusercontent.com/u/36516972?v=4" width="100px;" alt="Ales Puchilo"/><br /><sub><b>Ales Puchilo</b></sub></a><br /><a href="#projectManagement-SaveTheAles" title="Project Management">📆</a></td><td align="center"><a href="https://github.com/litvintech"><img src="https://avatars2.githubusercontent.com/u/1690657?v=4" width="100px;" alt="Valery Litvin"/><br /><sub><b>Valery Litvin</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=litvintech" title="Code">💻</a></td><td align="center"><a href="https://github.com/cyberadmin"><img src="https://avatars1.githubusercontent.com/u/36439031?v=4" width="100px;" alt="Cyber Admin"/><br /><sub><b>Cyber Admin</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=cyberadmin" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/ethanfrey"><img src="https://avatars3.githubusercontent.com/u/5689864?v=4" width="100px;" alt="Ethan Frey"/><br /><sub><b>Ethan Frey</b></sub></a><br /><a href="https://github.com/cybercongress/js-amino/commits?author=ethanfrey" title="Tests">⚠️</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<p>This project follows the <a href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome!</p>
+
+<h2 id="license">License</h2>
+
+<p>Code are licensed under <a href="./LICENSE">MIT</a> license by <a href="https://github.com/cybercongress/js-amino/graphs/contributors">contributors</a></p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#features">Features:</a></li>
+<li><a href="#install-from-npm">Install From NPM:</a></li>
+<li><a href="#install-from-source">Install From Source</a></li>
+<li><a href="#running-the-examples">Running The Examples</a></li>
+<li><a href="#running-the-unit-test">Running The Unit Test</a></li>
+<li><a href="#to-do">To Do:</a></li>
+<li><a href="#gitcoin-program">Gitcoin program</a></li>
+<li><a href="#our-cosmos-ecosystem-initiative">Our cosmos ecosystem initiative</a></li>
+<li><a href="#usage-msgmultisend-example">Usage (MsgMultiSend example)</a></li>
+<li><a href="#contributing-guide">Contributing Guide</a></li>
+<li><a href="#contributors">Contributors</a></li>
+<li><a href="#license">License</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

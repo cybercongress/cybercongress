@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>An idea of decentralized search for web3</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="hipster" />
+
+  <link rel="canonical" href="../an-idea-of-decentralized-search-for-web3/" />
+  <link rel="alternate" href="../an-idea-of-decentralized-search-for-web3/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="An idea of decentralized search for web3" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/an-idea-of-decentralized-search-for-web3/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="An idea of decentralized search for web3" />
+<meta name="twitter:creator" content="hipster" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../highlight/github-gist.css" />
+<link rel="stylesheet" href="../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="alternate feed" href="../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../asciinema/asciinema-player.js"></script>
+<script src="../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+<body>
+  <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../#propducts">Products</a></li>
+        <li><a href="../#team" >Team</a></li>
+        <li><a href="../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    
+
+
+    <div class="post">
+      <h1>An idea of decentralized search for web3</h1>
+      <p class="date">by hipster on 2018-11-30</p>
+
+      <p>
+</p>
+
+      
+
+<p>Web3 [GAV] is coming. This can shift existing web&rsquo;s ubiquitously used client-server architecture to truly peer-to-peer interactions based on stateless IPFS and variety of stateful consensus computers such as Ethereum.</p>
+
+<p>In the following series of posts, I would love to discuss opportunities behind consensus search engine, challenges of crawling, indexing, and evaluation for the next generation web and eventually propose a consensus computer implementation.</p>
+
+<p>But first, let us start a discussion from disadvantages of general-purpose search engines:</p>
+
+<h2 id="no-transparency">No Transparency</h2>
+
+<p>Nobody outside (and probably inside) of Google understands how the ranking really works. This creates a market for black and white SEO. The truth is that if e.g. Google discloses complete details of the ranking algorithm it would be easy for adversaries to game organic search results that kill the quality of results and ad revenue streams. Google&rsquo;s approach to Sybil resistance is, in fact, KYC and captcha. Using modern technologies this problem can be addressed using accountable consensus computer with properly designed economic incentives.</p>
+
+<h2 id="no-access">No Access</h2>
+
+<p>Currently, all search engines are centralized. Nobody is able to add to index as well as participate in improving the quality of search results. However, Google itself internally uses a workforce of <em>search evaluators</em>. It is our belief that user-generated search engine could have a higher quality of results as in a story with almost every website in existence.</p>
+
+<h2 id="broken-incentives">Broken Incentives</h2>
+
+<p>The vast majority of contribution to a search quality is made by users. When any user searches something she extends semantic core. When any user clicks on search results she trains a model. This creates an opportunity to continuously improve ranking model at the expense of users. Then search engines sell users to advertisers at the expense of harming user experience and acquire revenue streams which are not returned back to users at all. This simple loop created Alphabet&rsquo;s ~ $780 billion capitalizations (~ $100 per Earth capita) in 20 years. We need to change that.</p>
+
+<h2 id="central-control">Central Control</h2>
+
+<p>Google become too powerful. It is scary to imagine a future where <em>everything</em> about <em>everybody</em> is known and controlled by <strong>closed</strong> AI corporation. Imagine the world where (1) the only country exist, (2) nobody can control its government and (3) everybody should obey the decision of government without any explanation. There should be open, transparent and accessible <em>alternative</em> with <em>decentralized control</em> built on principles of modern distributed interplanetary content-addressable syberspace [HUAN] and DAO like governance [RALF].</p>
+
+<h2 id="annoying-ads">Annoying Ads</h2>
+
+<p>Separation for organic and ad search results is unnecessary. In fact, all organic ranking decisions are being made by search authority. But for paid search Google use free-market solution to determine a fair ad price for every word in its gigantic semantic core. Historically free market solutions are proven to be more efficient in virtually any area of decision making. Why do not use the same principle for the ranking itself disintermediating annoying ads? Let us imagine that every link (1) can be submitted by everybody, (2) based on this actions some rank can be computed and then (3)those who predict content with higher rank in the future will benefit more. This non-zero-sum game is significantly more Sybil-resistant, hence that is where we are heading.</p>
+
+<h2 id="one-way-trust">One-Way Trust</h2>
+
+<p>Everybody are used to trust Google, Baidu, and Yandex. But Google, Baidu, and Yandex don&rsquo;t trust users. You cannot know what happens inside Google, Baidu, and Yandex because they don&rsquo;t trust us. But they know everything that happens inside us. We want to establish a system where trust is bidirectional between a search engine and agents because search engine ownership is distributed across all its agents based on which all ranking decisions are made.</p>
+
+<h2 id="zero-privacy">Zero Privacy</h2>
+
+<p>All search engines will answer you only if they explicitly know how to map your device with your real identity or pseudo-identity which is tracked by realtime bidding ecosystem. Otherwise, you should prove that you are not a robot every time you search. That harms our privacy. That harms our experience. That basically sucks. Real privacy is very expensive in consensus computers at this stage of development. But we need to find workarounds.</p>
+
+<h2 id="censorship">Censorship</h2>
+
+<blockquote>
+<p>content is censored</p>
+</blockquote>
+
+<h2 id="online-only">Online only</h2>
+
+<p>Worth to note that you cannot search offline even if necessary information is stored next door. If we are cut from the wire or backbone we powerless. Global offline search is not a feature which can be easily deployed even by a multi-billion corporation. This goal is nearly impossible to achieve based on centralized architecture using TCP/IP-DNS-HTTP stack. Only content addressable distributed systems can solve this fundamental problem for the next generation Internet. This future is not about gateway keepers in form of ISPs but about mesh networking and peer-to-peer communications built for interplanetary scale in mind.</p>
+
+<h2 id="weak-security">Weak Security</h2>
+
+<p>What happens if tomorrow my Google account will be blocked? Do we have something to prevent this? Do we have the necessary level of assurance that <em>guarantee</em> us our security based on math and not on the complicated legal tender? All technical solutions are here but to solve this important issue we need some effort from everybody.</p>
+
+<blockquote>
+<p>Because security and privacy is a foundation for life, liberty, and property.</p>
+</blockquote>
+
+<h2 id="principles-of-better-google">Principles of better Google</h2>
+
+<p>A pretty huge amount of problems to fix. Thus we are to declare the <em>principles</em> of a general purpose decentralized and distributed search engine for the upcoming age:</p>
+
+<ul>
+<li>Privacy and Security. Just it.</li>
+<li>Ubiquitous Ownership and Access. Everybody should have a right to possess a piece of it.</li>
+<li>Mesh networks future proof. It should work in every connected surrounding.</li>
+<li>Interplanetary scale. It should work on Earth and Mars.</li>
+<li>Tolerant. In the era of machine learning, it should work for any kind of thinking beasts.</li>
+<li>Open and Accessible. Everybody should be able to bring a bit to a quality of search results.</li>
+<li>Blockchain Agnostic. Foundations behind its design should not rely on any protocol or stack rather be explicitly derived from the nature of the information itself.</li>
+<li>Beautiful. The economics model should not harm the user experience.</li>
+<li>Transparency and Trustfulness. Every piece of its reasoning and behavior must be auditable by everybody.</li>
+<li>No Single Point of Failure. Nobody should have a single key to modify or change it.</li>
+<li>Sybil Attacks Resistant. This resistance should be derived from the properties of a free market but not from some single authority.</li>
+<li>Intelligent. It should answer <em>natural</em> questions with <em>easy to read</em> and <em>provable</em> answers no matter text, media or natural numbers should be involved in the answer.</li>
+</ul>
+
+<h2 id="reference">Reference</h2>
+
+<ul>
+<li>[GAV] - Gavin Wood, <a href="https://ipfs.io/ipfs/QmTptPmvDZ2xSwAPWTF5U1UM7uLbwWqkShHd8fDMKhnaro">ĐApps: What Web 3.0 Looks Like</a></li>
+<li>[HUAN] - Huan Benet, <a href="https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf">IPFS - Content Addressed, Versioned, P2P File System</a></li>
+<li>[RALF] - Ralf Merkle, <a href="https://ipfs.io/ipfs/QmTtDjbRpttnAFXKkfiJMuVtgNkeKEykLATuFG4RiXgm5z">DAOs, Democracy and Governance</a></li>
+</ul>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Help to test cyb, our <a href="http://cyb.ai">web3 browser</a>.
+Follow <a href="https://steemit.com/@cybercongress">cyber•Congress blog</a> to get updates on all web3 movement.</p>
+
+<h2 id="signature">Signature</h2>
+
+<p><a href="QmeaUfujSz6qw7omwqnor7PipwiJ3qSNGitsEydyANzbD5">This content</a> is signed by <a href="0x7C4401aE98F12eF6de39aE24cf9fc51f80EBa16B">xhipster.eth</a> on <a href="0x1aefe91479ed8bc67308babb8f1a292178052509d67c8d6a0724628d077631df">November 30, 2018</a></p>
+
+<h2 id="updates">Updates</h2>
+
+<ul>
+<li>Fixed typos and grammar</li>
+</ul>
+
+
+      
+          <h2 id="comments">Comments</h2>
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://discuss.ipfs.io/',
+              discourseEmbedUrl: 'https://ipfs.io/blog/an-idea-of-decentralized-search-for-web3' };
+              if (window.location.hostname === 'blog.ipfs.io') {
+                (function() {
+                  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                })();
+              } else {
+                 
+                 
+                 document.getElementById('comments').style.display = 'none';
+                 document.getElementById('discourse-comments').style.display = 'none';
+              }
+          </script>
+      
+    </div>
+  </div> 
+
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+sequenceDiagram
+    participant C721 as Chaingear's ERC721
+    participant O as Chaingear Owner
+    participant CC as Chaingear Contract
+    participant RC as Database Builder
+    participant U1 as User 1
+    participant R as Database
+    participant S as Database's Safe
+    participant EC as Database's Storage
+    participant R721 as Database's ERC721 
+    
+    O->>RC: constructor
+    Note over O, RC: Initializing with DatabaseV1 smart-contract
+    
+    O->>CC: constructor
+    Note over O, RC: Also Initializing of ERC721 and SplitPayment
+    
+    O->>RC: setBuilder
+    Note over O, RC: Set chaingear's contract address as builder
+    
+    O->>CC: addDatabaseBuilderVersion
+    Note over O, CC: Add DatabaseBuilderV1 address to </br> list of database builders
+    
+    U1->>+CC: createDatabase
+    CC-->>RC: create
+    RC-->>R: constructor
+    RC-->>CC: returns Database address
+    R-->>S: new
+    CC-->C721: mint ID = 0
+    CC-->>-U1: returns Database address, Database Token ID ID =0
+    Note over R, CC: Initializing ERC721 Database token for User, creates Database and sets User as Database admin
+    
+    U1->>+R: initializeDatabase
+    R-->>EC: constructor
+    R-->>-U1: returns Storage address
+    Note over U1, EC: User sets smart-contract with their custom Schema for Database, should implements </br> ISchema
+    
+    U1->>+R: createEntry
+    R-->>EC: createEntry
+    R-->R721: mint ID = 0
+    R-->>-U1: returns entryID ID = 0
+    Note over U1, EC: Initializing ERC721 Entry token for User, creates empty structured object 
+    
+    U1->>EC: updateEntry ID=0
+    Note over U1, EC: User as token owner sets fields of Entry object with provided EntryID
+    
+    U1->>+EC: entryInfo ID=0
+    EC-->>-U1: returns entry information

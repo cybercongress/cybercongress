@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cyber•Congress</title>
+    <link>/docs/chaingear/</link>
+    <description>Recent content on cyber•Congress</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/docs/chaingear/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/changelog/</guid>
+      <description>Change Log Unreleased Full Changelog
+Closed issues:
+ Create awesome gif for readme #1067 Consensus around basic chaingear utility in Cyb #1066 Remove linter warnings from console #1057 New fee splitting contracts #1055 Check and update cross contract interfaces for contracts #1054 Rewrite beneficiary contract frontend interfaces #1053 Root registry structure #1047 Make .chaingear frontend work with Main Ethereum network #1044 Release first iteration of chaingear paper #1030 Master audit #1001 Deploy to mainnet #997 Decreasing gas consumption, audit #993 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/contributing/</guid>
+      <description> Contributing list  @litvintech - contracts developer/maintainer @pechalka - web3 app developer/maintainer  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/whitepaper/</guid>
+      <description>Chaingear The consensus computer driven database framework litvintech and xhipster, Developer&amp;rsquo;s Board Members, cyber•Congress Position With the rising of decentralized computing and web3 becoming, we need fundamental peace of web3 infrastructure as decentralized databases. But as web3 different to web2 there are new approaches and challenges for their development and operating. In this paper, we are describing principles of Chaingear and their Ethereum PoC - novel Ethereum&amp;rsquo;s open-source framework for developing tokenized databases based on smart-contracts with custom data schema and CRUD+TF operations for interacting with.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/contracts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/contracts/</guid>
+      <description>Contracts Overview Design rationale Main design principle goes from ERC721 NFT tokenization of Databases (in Chaingear/Database of databases) and Entries (in custom user&amp;rsquo;s Database).
+In reason of Databases tokenization in Chaingear which allows token holder acts as administrator of their Databases, Chaingear acts to Database as owner, which sets token holder as administrator on creation phase, changes administrator when holder transfers token to another user, and transfers ownership when user unregister Database in Chaingear, giving them full control to contract.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/help/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/help/development/</guid>
+      <description> Configuring, development and deploying Install npm i  Linting: solium -d contracts  Testing: ganache-cli -p 8545 truffle test  Deploying (for example kovan): truffle migrate --network=  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/overview/</guid>
+      <description>Overview This project allows you to create your own Database of general purpose entries on Ethereum blockchain. Entry type is defined during creation, so you can put into entry any custom logic you want (validation, entry-level permission control). Entries are tokenized as NFT.
+Your creating your database in Chaingear - metadatabase, which are one point of access to all databases. Databases on chaingear level are tokenized as NFT. Chaingear is most expensive database, so you should pay for your database and entry creation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/chaingear/pipelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/chaingear/pipelines/</guid>
+      <description> General Chaingear/Database pipeline Database CRUD/tokenized Entry/Funds pipeline Chaingear tokenized Database pipeline </description>
+    </item>
+    
+  </channel>
+</rss>

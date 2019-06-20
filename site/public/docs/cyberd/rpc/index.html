@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>cyber•Congress</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../../docs/cyberd/rpc/" />
+  <link rel="alternate" href="../../../docs/cyberd/rpc/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="cyber•Congress" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/cyberd/rpc/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="cyber•Congress" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../../css/main.css" />
+<link rel="stylesheet" href="../../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../../img/favicon.png">
+<link rel="alternate feed" href="../../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../../asciinema/asciinema-player.js"></script>
+<script src="../../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../../#propducts">Products</a></li>
+        <li><a href="../../../#team" >Team</a></li>
+        <li><a href="../../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Rpc
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2f cyberd\2frpc\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../../docs/cyberd/cyberd/">Whitepaper</a></li>
+<li>Usage:
+
+<ul>
+<li><a href="../../../docs/cyberd/run_validator/">Run the validator</a></li>
+<li><a href="../../../docs/cyberd/supported_gpu_list/">Supported GPUs</a></li>
+<li><a href="../../../docs/cyberd/ultimate-commands-guide_v2/">CLI guide</a></li>
+<li><a href="../../../docs/cyberd/get_cyb/">Get CYBs</a></li>
+<li><a href="../../../docs/cyberd/port_forwarding_guide/">Port forwarding</a></li>
+</ul></li>
+<li>Dev environment:
+
+<ul>
+<li><a href="../../../docs/cyberd/setup_dev_env/">Setup development environment</a></li>
+<li><a href="../../../docs/cyberd/launch_network/">Network launch</a></li>
+</ul></li>
+<li>Specs:
+
+<ul>
+<li><a href="../../../docs/cyberd/rpc/">RPC</a></li>
+<li><a href="../../../docs/cyberd/params/">Network parameters</a></li>
+</ul></li>
+<li><a href="../../../docs/cyberd/changelog/">CHANGELOG</a></li>
+<li><a href="../../../docs/cyberd/contributing/">CONTRIBUTING</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../../docs/cyb/dura/">cyb</a>
+            <a href="../../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 id="api-reference">API reference</h1>
+
+<p>Cyberd provides a <a href="http://json-rpc.org/wiki/specification">JSON-RPC</a> API. Http endpoint is served under
+ <code>localhost:20657</code>. WebSockets are the preferred transport for cyberd RPC and are used by applications such as cyb.
+ Default WebSocket connection endpoint for cyberd is <code>ws://localhost:20657/websocket</code>. There are test endpoints
+ available at <code>http://earth.cybernode.ai:34657</code> and <code>ws://earth.cybernode.ai:34657/websocket</code>.</p>
+
+<p><br /></p>
+
+<h2 id="standard-methods">Standard Methods</h2>
+
+<h3 id="query-example">Query Example</h3>
+
+<p>Query http endpoint using curl:</p>
+
+<pre><code class="language-bash">curl --data '{&quot;method&quot;:&quot;status&quot;,&quot;params&quot;:[],&quot;id&quot;:&quot;1&quot;,&quot;jsonrpc&quot;:&quot;2.0&quot;}' \
+-H &quot;Content-Type: application/json&quot; -X POST earth.cybernode.ai:34657
+</code></pre>
+
+<p>Query ws endpoint from js:</p>
+
+<pre><code class="language-js">let websocket = new WebSocket(&quot;ws://earth.cybernode.ai:34657/websocket&quot;);
+websocket.send(JSON.stringify({
+  &quot;method&quot;:&quot;status&quot;,
+  &quot;params&quot;:[],
+  &quot;id&quot;:&quot;1&quot;,
+  &quot;jsonrpc&quot;:&quot;2.0&quot;
+}));
+</code></pre>
+
+<h3 id="method-overview">Method Overview</h3>
+
+<p>The following is an overview of the RPC methods and their current status.  Click
+the method name for further details such as parameter and return information.</p>
+
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="#status">status</a></td>
+<td>Get node info, pubkey, latest block hash, app hash, block height and time.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><a href="#account">account</a></td>
+<td>Get account nonce, pubkey, number, and coins.</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><a href="#account-bandwidth">account_bandwidth</a></td>
+<td>Get account bandwidth info for current height.</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><a href="#link-exist">is_link_exist</a></td>
+<td>Return true, if given link exist.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><a href="#current-bandwidth-price">current_bandwidth_price</a></td>
+<td>Returns current bandwidth credit price.</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td><a href="#index-stats">index_stats</a></td>
+<td>Returns current index entities count.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="method-details">Method Details</h3>
+
+<hr />
+
+<p><a name="status"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>status</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Get node info, pubkey, latest block hash, app hash, block height and time.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a name="account"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>account</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>1. address (string, required)<br /></td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Get account nonce, pubkey, number, and coins.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a name="account-bandwidth"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>account_bandwidth</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>1. address (string, required)<br /></td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Get account bandwidth info for current height.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a name="link-exist"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>is_link_exist</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>1. from (cid, required)<br />2. to (cid, required)<br />3. address (string, required)<br /></td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Return true, if given link exist.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a name="current-bandwidth-price"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>current_bandwidth_price</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Returns current bandwidth credit price.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a name="index-stats"/></p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Method</td>
+<td>index_stats</td>
+</tr>
+
+<tr>
+<td>Parameters</td>
+<td>None</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Returns current index entities count.</td>
+</tr>
+
+<tr>
+<td><a href="#method-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<p><br />
+<br /></p>
+
+<h2 id="notifications-websocket-specific">Notifications (WebSocket-specific)</h2>
+
+<p>Cyberd uses standard JSON-RPC notifications to notify clients of changes, rather than requiring clients to poll cyberd
+ for updates. JSON-RPC notifications are a subset of requests, but do not contain an ID. The notification type
+ is categorized by the <code>query</code> params field.</p>
+
+<h3 id="subscribe-example">Subscribe Example</h3>
+
+<p>Subscribe for new blocks header from js:</p>
+
+<pre><code class="language-js"> let websocket = new WebSocket(&quot;ws://earth.cybernode.ai:34657/websocket&quot;);
+ websocket.send(JSON.stringify({
+   &quot;method&quot;: &quot;subscribe&quot;,
+   &quot;params&quot;: [&quot;tm.event='NewBlockHeader'&quot;],
+   &quot;id&quot;: &quot;1&quot;,
+   &quot;jsonrpc&quot;: &quot;2.0&quot;
+ }));
+</code></pre>
+
+<h3 id="events-overview">Events Overview</h3>
+
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Event</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="#NewBlockHeader">NewBlockHeader</a></td>
+<td>Sends block header notification when a new block is committed.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><a href="#CoinsReceived">CoinsReceived</a></td>
+<td>Sends a notification when a new coins is arrived to given address.</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><a href="#CoinsSend">CoinsSend</a></td>
+<td>Sends a notification when a new coins is send from given address.</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><a href="#СidsLinked">СidsLinked</a></td>
+<td>Notification of link created by given address.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><a href="#SignedTxCommitted">SignedTxCommitted</a></td>
+<td>Notify when any tx for given signer is committed.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="events-details">Events Details</h3>
+
+<h4 id="newblockheader">NewBlockHeader</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Event</td>
+<td>NewBlockHeader</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Sends block header notification when a new block is committed.</td>
+</tr>
+
+<tr>
+<td>Query</td>
+<td><code>tm.event='NewBlockHeader'</code></td>
+</tr>
+
+<tr>
+<td><a href="#events-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="coinsreceived">CoinsReceived</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Event</td>
+<td>CoinsReceived</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Sends a notification when a new coins is arrived to given address.</td>
+</tr>
+
+<tr>
+<td>Query</td>
+<td><code>tm.event='EventTx' AND recipient='cbd1sk3uvpacpjm2t3389caqk4gd9n9gkzq2054yds'</code></td>
+</tr>
+
+<tr>
+<td><a href="#events-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="coinssend">CoinsSend</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Event</td>
+<td>CoinsSend</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Sends a notification when a new coins is send from given address.</td>
+</tr>
+
+<tr>
+<td>Query</td>
+<td><code>tm.event='EventTx' AND sender='cbd1sk3uvpacpjm2t3389caqk4gd9n9gkzq2054yds'</code></td>
+</tr>
+
+<tr>
+<td><a href="#events-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="сidslinked">СidsLinked</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Event</td>
+<td>СidsLinked</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Notification of link created by given address.</td>
+</tr>
+
+<tr>
+<td>Query</td>
+<td><code>tm.event='EventTx' AND signer='cbd1sk3uvpacpjm2t3389caqk4gd9n9gkzq2054yds' AND action='link'</code></td>
+</tr>
+
+<tr>
+<td><a href="#events-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="signedtxcommitted">SignedTxCommitted</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Event</td>
+<td>SignedTxCommitted</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td>Notify when any tx for given signer is committed.</td>
+</tr>
+
+<tr>
+<td>Query</td>
+<td><code>tm.event='EventTx' AND signer='cbd1sk3uvpacpjm2t3389caqk4gd9n9gkzq2054yds'</code></td>
+</tr>
+
+<tr>
+<td><a href="#events-overview">Return to Overview</a><br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#api-reference">API reference</a>
+<ul>
+<li><a href="#standard-methods">Standard Methods</a>
+<ul>
+<li><a href="#query-example">Query Example</a></li>
+<li><a href="#method-overview">Method Overview</a></li>
+<li><a href="#method-details">Method Details</a></li>
+</ul></li>
+<li><a href="#notifications-websocket-specific">Notifications (WebSocket-specific)</a>
+<ul>
+<li><a href="#subscribe-example">Subscribe Example</a></li>
+<li><a href="#events-overview">Events Overview</a></li>
+<li><a href="#events-details">Events Details</a>
+<ul>
+<li><a href="#newblockheader">NewBlockHeader</a></li>
+<li><a href="#coinsreceived">CoinsReceived</a></li>
+<li><a href="#coinssend">CoinsSend</a></li>
+<li><a href="#сidslinked">СidsLinked</a></li>
+<li><a href="#signedtxcommitted">SignedTxCommitted</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" >
+
+<head>
+  
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>cyber•Congress</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="cyber•Congress" />
+
+  <link rel="canonical" href="../../docs/chaingear/" />
+  <link rel="alternate" href="../../docs/chaingear/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="cyber•Congress" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/docs/chaingear/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="cyber•Congress" />
+<meta name="twitter:creator" content="cyber•Congress" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../css/main.css" />
+<link rel="stylesheet" href="../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../img/favicon.png">
+<link rel="alternate feed" href="../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../asciinema/asciinema-player.js"></script>
+<script src="../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body id='docs'>
+    <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../#propducts">Products</a></li>
+        <li><a href="../../#team" >Team</a></li>
+        <li><a href="../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+    <header class="docs-header-mob align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    
+    Chaingear
+  
+</strong>
+</header>
+
+    
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container docs">
+    
+    <aside class="book-menu fixed">
+      <nav>
+    <h2 class="book-brand logo">
+  <a href="../../" class="ipfs-logo transition transition-fadeout">cyber•Congress</a>
+  <a href="../../">cyber•Congress</a>
+</h2>
+
+
+
+
+  
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2f chaingear\2f "] {
+      color: #36d6ae;
+  }
+  </style>
+
+<ul>
+<li><a href="../../docs/chaingear/whitepaper/">Whitepaper</a></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+  
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+    </aside>
+
+    <div class="book-page">
+        <div class='project'>
+            <a href="../../docs/cyberd/cyberd/">cyber</a>
+            <a href="../../docs/cyb/dura/">cyb</a>
+            <a href="../../docs/chaingear/whitepaper/">chaingear</a>
+            <a href="../../docs/js-amino/overview/">js-amino</a>
+          </div>
+      
+<article class="markdown">
+
+<h1 id="chaingear">Chaingear</h1>
+
+<h2 id="the-consensus-computer-driven-database-framework">The consensus computer driven database framework</h2>
+
+<h5 id="litvintech-and-xhipster-developer-s-board-members-cyber-congress">litvintech and xhipster, Developer&rsquo;s Board Members, cyber•Congress</h5>
+
+<h3 id="position">Position</h3>
+
+<p>With the rising of decentralized computing and web3 becoming, we need fundamental peace of web3 infrastructure as decentralized databases. But as <a href="https://ipfs.io/ipfs/QmTptPmvDZ2xSwAPWTF5U1UM7uLbwWqkShHd8fDMKhnaro">web3</a> different to web2 there are new approaches and challenges for their development and operating.
+In this paper, we are describing principles of Chaingear and their Ethereum PoC - novel Ethereum&rsquo;s open-source framework for developing tokenized databases based on smart-contracts with custom data schema and CRUD+TF operations for interacting with.</p>
+
+<h3 id="principles-of-chaingear">Principles of Chaingear</h3>
+
+<p>Chaingear is a set of smart contracts which operating in consensus computer with following principles:</p>
+
+<ol>
+<li>Databases creates by user createDatabase call for Chaingear witch mints database-linked NFT token for user and deploys database with support of CRUD+TF operations. Token controls adminship of database.</li>
+<li>Admin initializes database with given table/tables data schema.</li>
+<li>Database admin may set user permissions for entry creation and fee for adding.</li>
+<li>Each entry in database linked to NFT token (primary key) which grants a set of rights for token-entry operation as UPDATE/DELETE and TRANSFER/FUND.</li>
+<li>Chaingear for given platform acts as Consensus Computer Driven Database as a Service</li>
+<li>Application specific business logic should be available to operate on top of database/databases.</li>
+</ol>
+
+<h3 id="chaingear-on-evm-0-1-euler-poc">Chaingear on EVM, 0.1 Euler PoC</h3>
+
+<h3 id="chaingear-1">Chaingear</h3>
+
+<ul>
+<li>Chaingear is database of database which allow deploy new databases from there and creates an associated token for adminship.</li>
+<li>Chaingear allow deploys different types of databases with defined functionality with connects with databases builders.</li>
+<li>Database Builder is a fabric of databases of given type.</li>
+<li>Databases may have their unique code base as an extension to the basic database.</li>
+<li>Database-token may be transferred, sold/traded alongside with their right adminship.</li>
+<li>Chaingear have fees for database creation.</li>
+<li>Chaingear have benefitiaries which may claim collected fees proportional to their shares.</li>
+</ul>
+
+<h3 id="database">Database</h3>
+
+<ul>
+<li>A database is a smart contract which defines NFT tokens linked to entries. User creates database with given name and token symbol for entries.</li>
+<li>After deploy database admin initializes database with data schema table/tables and this allows them or/and other users to create a systematic collection of data, where rights to operations with entry defined by entry-token ownership.</li>
+<li>Entries data lives in Schema contract.</li>
+<li>Each entry may be publicly funded, an entry-token owner may claim collected funds.</li>
+<li>Database admin may set policy for entry creation: {OnlyAdmin, Whitelist, AllUsers} and fee for the entry-token creation and next claim fees.</li>
+<li>Also admin may set multiple database&rsquo;s beneficiaries which may claim collected fees proportional to their shares.</li>
+</ul>
+
+<h4 id="tokenization-and-crud-tf">Tokenization and CRUD+TF</h4>
+
+<ol>
+<li>Operation <strong>CREATE</strong> initialize empty entry and mints token.</li>
+<li><strong>READ</strong> are publicly available with token as primary key.</li>
+<li>Each entry-token grants token-based access to <strong>UPDATE</strong>/<strong>DELETE</strong> operations on entry. <strong>DELETE</strong> operation burns token and deletes entry.</li>
+<li>Each entry-token may be transferred with <strong>TRANSFER</strong> with rights to tokenized operations.</li>
+<li>Each entry-token may be <strong>FUND</strong>. <strong>CLAIM</strong> operation for allocated funds available for token owner.</li>
+</ol>
+
+<h4 id="persistent-sources-and-deterministic-regeneration">Persistent sources and deterministic regeneration</h4>
+
+<p>For interaction with databases, we need ABI for contracts and source code for verification. ABIs and sources may be saved on some nodes and accessed with IPFS, but this access is not guaranteed. The Ethereum itself is persistent storage, and it&rsquo;s a point to save ABIs and source code which guarantees databases operation.
+Our solution is save in database contract schema&rsquo;s definition which allow deterministically regenerate ABI and source code of schema.</p>
+
+<h3 id="gas">Gas</h3>
+
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Gas</th>
+<th>Cost ETH, 10 Gwei/gas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>createDatabase (chg)</td>
+<td>~3.5M</td>
+<td>~0.035</td>
+</tr>
+
+<tr>
+<td>initializeDatabase (db)</td>
+<td>~2-3M</td>
+<td>~0.02-0.03</td>
+</tr>
+
+<tr>
+<td>createEntry (db+st)</td>
+<td>~250-400K</td>
+<td>~ 0.0025-0.004</td>
+</tr>
+
+<tr>
+<td>readEntry* (st)</td>
+<td>-/*</td>
+<td>-/*</td>
+</tr>
+
+<tr>
+<td>updateEntry (st)</td>
+<td>~140-250K</td>
+<td>~0.0014-0.0025</td>
+</tr>
+
+<tr>
+<td>deleteEntry (db+st)</td>
+<td>~180-250K</td>
+<td>~ 0.0018-0.0025</td>
+</tr>
+
+<tr>
+<td>transferFrom (db)</td>
+<td>~100K</td>
+<td>~0.001</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="workflows">Workflows</h3>
+
+<h4 id="chaingear-setup-and-database-creation-schema-initialization-pipeline">Chaingear setup and Database creation/schema initialization pipeline</h4>
+
+<p><img src="../../docs/chaingear/mermaid/pipelines-general_pipeline.svg" alt="general_pipeline" /></p>
+
+<h4 id="database-crud-entry-token-pipeline">Database CRUD/Entry-token pipeline</h4>
+
+<p><img src="../../docs/chaingear/mermaid/pipelines-database_crud.svg" alt="database_crud" /></p>
+
+<h4 id="chaingear-s-database-token-pipeline">Chaingear&rsquo;s Database-token pipeline</h4>
+
+<p><img src="../../docs/chaingear/mermaid/pipelines-chaingear_tokenized.svg" alt="chaingear_tokenized" /></p>
+
+<h3 id="inheritance">Inheritance</h3>
+
+<h4 id="chaingear-inheritance">Chaingear inheritance</h4>
+
+<p><img src="../../docs/chaingear/mermaid/contracts-chaingear_inheritance.svg" alt="chaingear_inheritance" /></p>
+
+<h4 id="database-inheritance">Database inheritance</h4>
+
+<p><img src="../../docs/chaingear/mermaid/contracts-database_inheritance.svg" alt="database_inheritance" /></p>
+
+<h3 id="web3-application">web3 Application</h3>
+
+<h4 id="general">General</h4>
+
+<p>| | |
+|-|-|
+|<img src="../../docs/chaingear/app/chaingear.png" alt="chaingear-general" />|<img src="../../docs/chaingear/app/database-token.png" alt="database-token" />|</p>
+
+<h4 id="database-1">Database</h4>
+
+<p>| | |
+|-|-|
+|<img src="../../docs/chaingear/app/database-admin.png" alt="database-admin" />|<img src="../../docs/chaingear/app/entry-token.png" alt="entry-token" />|</p>
+
+<h4 id="database-deploy-and-schema-designer">Database Deploy and Schema designer</h4>
+
+<p>| | |
+|-|-|
+|<img src="../../docs/chaingear/app/database-deploy.png" alt="database" />|
+<img src="../../docs/chaingear/app/schema-gen.png" alt="schema-gen" />|</p>
+
+<h3 id="future-work-and-releases">Future work and releases</h3>
+
+<ul>
+<li>Design and architecture, security</li>
+<li>Optimization of data writes and reads, column storage</li>
+<li>Advanced indexes.</li>
+<li>Release on new virtual machine</li>
+</ul>
+
+<h3 id="development">Development</h3>
+
+<p>Maintainers: @litvintech, @xhipster, @pechalka</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#chaingear">Chaingear</a>
+<ul>
+<li><a href="#the-consensus-computer-driven-database-framework">The consensus computer driven database framework</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#litvintech-and-xhipster-developer-s-board-members-cyber-congress">litvintech and xhipster, Developer&rsquo;s Board Members, cyber•Congress</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#position">Position</a></li>
+<li><a href="#principles-of-chaingear">Principles of Chaingear</a></li>
+<li><a href="#chaingear-on-evm-0-1-euler-poc">Chaingear on EVM, 0.1 Euler PoC</a></li>
+<li><a href="#chaingear-1">Chaingear</a></li>
+<li><a href="#database">Database</a>
+<ul>
+<li><a href="#tokenization-and-crud-tf">Tokenization and CRUD+TF</a></li>
+<li><a href="#persistent-sources-and-deterministic-regeneration">Persistent sources and deterministic regeneration</a></li>
+</ul></li>
+<li><a href="#gas">Gas</a></li>
+<li><a href="#workflows">Workflows</a>
+<ul>
+<li><a href="#chaingear-setup-and-database-creation-schema-initialization-pipeline">Chaingear setup and Database creation/schema initialization pipeline</a></li>
+<li><a href="#database-crud-entry-token-pipeline">Database CRUD/Entry-token pipeline</a></li>
+<li><a href="#chaingear-s-database-token-pipeline">Chaingear&rsquo;s Database-token pipeline</a></li>
+</ul></li>
+<li><a href="#inheritance">Inheritance</a>
+<ul>
+<li><a href="#chaingear-inheritance">Chaingear inheritance</a></li>
+<li><a href="#database-inheritance">Database inheritance</a></li>
+</ul></li>
+<li><a href="#web3-application">web3 Application</a>
+<ul>
+<li><a href="#general">General</a></li>
+<li><a href="#database-1">Database</a></li>
+<li><a href="#database-deploy-and-schema-designer">Database Deploy and Schema designer</a></li>
+</ul></li>
+<li><a href="#future-work-and-releases">Future work and releases</a></li>
+<li><a href="#development">Development</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

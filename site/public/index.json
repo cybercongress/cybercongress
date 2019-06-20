@@ -1,0 +1,28 @@
+{
+    "posts" : [
+        {
+            "title" : "Can Cosmos be bigger than Ethereum?",
+            "date" : "14 March 2019",
+            "url" : "/can-cosmos-be-bigger-than-ethereum/",
+            "author" : "hipster"
+        },
+        {
+            "title" : "Decentralization must be decentralized",
+            "date" : "06 March 2019",
+            "url" : "/decentralization-must-be-decentralized/",
+            "author" : "savetheales"
+        },
+        {
+            "title" : "Ultimate cyberd CLI guide. Testnet: Euler-3",
+            "date" : "04 March 2019",
+            "url" : "/ultimate-cyberd-cli-guide-testnet-euler-3/",
+            "author" : "savetheales"
+        },
+        {
+            "title" : "Ultimate cyberd CLI guide. Testnet: Euler-1.",
+            "date" : "08 February 2019",
+            "url" : "/ultimate-cyberd-cli-guide-testnet-euler-1/",
+            "author" : "savetheales"
+        }
+        ]
+}

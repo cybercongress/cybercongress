@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>IPFS 周报-11</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="Jenn Turner" />
+
+  <link rel="canonical" href="../../zh-cn/45-ipfs-weekly-11/" />
+  <link rel="alternate" href="../../zh-cn/45-ipfs-weekly-11/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="IPFS 周报-11" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/zh-cn/45-ipfs-weekly-11/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="IPFS 周报-11" />
+<meta name="twitter:creator" content="Jenn Turner" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../../css/main.css" />
+<link rel="stylesheet" href="../../highlight/github-gist.css" />
+<link rel="stylesheet" href="../../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../../img/favicon.png">
+<link rel="alternate feed" href="../../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../../asciinema/asciinema-player.js"></script>
+<script src="../../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+<body>
+  <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../../#propducts">Products</a></li>
+        <li><a href="../../#team" >Team</a></li>
+        <li><a href="../../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    
+
+
+    <div class="post">
+      <h1>IPFS 周报-11</h1>
+      <p class="date">by Jenn Turner on 2018-09-25</p>
+
+      <p>
+</p>
+
+      
+
+<h2 id="欢迎回到ipfs周报">欢迎回到IPFS周报！👋</h2>
+
+<p><a href="https://ipfs.io/">InterPlanetary File System (IPFS, 星际文件系统)</a> 是一种新型的，基于内容和身份的，超媒体分发协议。IPFS使得开发完全分布式的应用程序成为可能。它旨在使网络更快、更安全、更开放。因为这是一个相当大范围的任务，在这篇周报中，我们跟踪、汇总了（IPFS）整个生态系统的发展。</p>
+
+<p>想参与进来吗？点击下面的一些链接，看看我们在GitHub上做了什么，或者在IRC上加入我们（Freenode网络上的#ipfs）。
+希望收到邮件更新吗？订阅我们的每周通讯！</p>
+
+<p>以下是自上一期IPFS周报以来的一些新亮点：</p>
+
+<p>最新进展：
+- IPFS现已有22种语言支持，更多的语言还在加入中。得益于最近的“IPFS本地化”努力，IPFS正在向全世界进发！
+- <a href="https://blog.cloudflare.com/distributed-web-gateway/">CloudFlare 加入了我们的星际任务</a>。尝试下CloudFlare的IPFS网关，该网关是在其第一次的Crypto Week 活动中宣布的。
+- 观看9月18号发布的最新的“<a href="https://www.youtube.com/watch?v=EiJE59uYNAk">动态数据及能力工作小组”会议视频</a>，迅速了解关于身份管理的演示和讨论。
+- 第一次柏林IPFS会议将于10月11日举行！<a href="https://www.meetup.com/IPFS-Berlin/events/254816369/">在此处注册参加Meetup</a>。
+- IPFS的JavaScript实现版本刚刚有了新的主页：<a href="https://js.ipfs.io">js.ipfs.io</a>。</p>
+
+<p>野生态IPFS：
+你有在推特上<a href="https://twitter.com/IPFSbot">关注IPFS</a>吗？对于最新的新闻中提到的ipfs，请查看我们的twitter feed或阅读：<a href="https://awesome.ipfs.io/categories/articles/">关于最棒的ipfs的最新文章</a>。</p>
+
+<ul>
+<li><a href="https://hacks.mozilla.org/2018/09/aragon-ethereum-dweb/">Dweb: Creating Decentralized Organizations with Aragon</a>, （DWeb：使用Aragon来创建去中心化组织）作者：Mozilla Hacks, 2018年9月19日</li>
+<li><a href="https://blog.cloudflare.com/e2e-integrity/">End-to-End Integrity with IPFS</a>, （IPFS的点到点完整性）作者：Cloudflare, 2018年9月17日</li>
+<li><a href="https://www.bleepingcomputer.com/news/technology/cloudflares-ipfs-gateway-makes-it-easy-to-create-distributed-web-sites/">CloudFlare’s IPFS Gateway Makes it Easy to Create Distributed Web Sites</a>, （CloudFlare的网关大大简化了分布式网站的构建）2018年9月17日</li>
+<li><a href="https://medium.com/textileio/an-interview-with-textile-6d52632f611b">An Interview with Textile</a>, （对Textile的采访）（<strong>译者注：该采访由星鉴网完成</strong>）2018年9月13日</li>
+<li><a href="https://medium.com/@kyletut/the-centralized-secret-c7de795ddd9f">The Centralized Secret</a>, （中心化的秘密）2018年9月12日</li>
+<li><a href="https://www.theguardian.com/technology/2018/sep/08/decentralisation-next-big-step-for-the-world-wide-web-dweb-data-internet-censorship-brewster-kahle">Decentralisation: the next big step for the world wide web</a>, （去中心化：万维网的下一个里程碑）作者：The Guardian （卫报），2018年9月8日</li>
+<li><a href="https://medium.com/textileio/swapping-bits-and-distributing-hashes-on-the-decentralized-web-5da98a3507">Swapping bits and distributing hashes on the decentralized web</a>, （在去中心化网络上交换比特，分发哈希），2018年9月4日</li>
+<li><a href="https://medium.com/originprotocol/introducing-origin-messaging-decentralized-secure-and-auditable-13c16fe0f13e">Introducing Origin Messaging: Decentralized, Secure, and Auditable</a>, （起源信息简介：去中心化，安全和审查）作者：Origin，2018年8月29日</li>
+<li><a href="https://hacks.mozilla.org/2018/08/dweb-building-cooperation-and-trust-into-the-web-with-ipfs/">Dweb: Building Cooperation and Trust into the Web with IPFS</a>, （DWeb：使用IPFS技术，将合作与信任融入到网络中）作者：Mozilla Hacks，2018年8月29日</li>
+</ul>
+
+<p>软件更新和新版本发布：</p>
+
+<p>以下是IPFS工具和IPFS生态项目的发布情况：</p>
+
+<ul>
+<li><a href="https://github.com/ipfs/ipfs-cluster/releases/tag/v0.5.0">ipfs-cluster 0.5.0</a> – IPFS Cluster 是一个独立的程序和命令行客户端；可以在IPFS daemon的集群上分配、复制以及追踪pins</li>
+<li><a href="https://github.com/ipfs/go-ipfs/releases/tag/v0.4.17">go-ipfs 0.4.17</a> – IPFS 在 Go 语言上的实现</li>
+<li><a href="https://github.com/ipfs-shipyard/ipfs-companion/releases/tag/v2.5.0.11550">ipfs-companion v2.5.0.11550 (Beta)</a> – 一个大大简化了IPFS资源获取过程的浏览器插件，开发人员和爱好者可以选择使用我们的浏览器插件的手工选择的开发版本</li>
+<li><a href="https://github.com/ipfs/js-ipfs/releases/tag/v0.32.0">js-ipfs v0.32.0</a> – IPFS 在 JavaScript语言上的实现</li>
+<li><a href="https://github.com/ipfs-shipyard/npm-on-ipfs/releases/tag/v0.6.4">npm-on-ipfs v0.6.4</a> – 📦 通过IPFS安装npm模块！</li>
+<li><a href="https://github.com/gritzko/ron/blob/master/docs/Objectives%20for%20RON%2021.md">Replicated Object Notation 2.1</a> – 一个分布式的实时数据格式</li>
+<li>DNSLink Detection in IPFS Companion: 我们的浏览器插件现在可以在默认模式下检测DNSLink，访问<a href="http://docs.ipfs.io/">docs.ipfs.io</a> 或者<a href="https://tr.wikipedia-on-ipfs.org/">tr.wikipedia-on-ipfs.org</a>，你就可以从IPFS，而不是HTTP上加载它，通过以下链接获取更加详细信息:<a href="https://github.com/ipfs-shipyard/ipfs-companion/blob/master/docs/dnslink.md">DNSLink Support in IPFS Companion</a></li>
+<li><a href="https://github.com/qri-io/qri/releases/tag/v0.5.2">Qri 0.5.2</a>, 即 Prune Norwegian Buhund, 在此！</li>
+<li><a href="https://medium.com/graphprotocol/the-graph-development-update-d90321e22748">The Graph Development Update</a>, 2018年9月13日</li>
+<li><a href="https://medium.com/polkadot-network/polkadot-poc-2-is-here-parachains-runtime-upgrades-and-libp2p-networking-7035bb141c25">Polkadot PoC-2 在此</a>: Parachains, 运行更新，libp2p更新</li>
+</ul>
+
+<p>我们喜爱的工具和项目：</p>
+
+<p><a href="https://awesome.ipfs.io/">Awesome IPFS （完美IPFS）</a>是由社区维护和更新的，包括了一系列的工具、项目，以及基本上与IPFS相关的很棒的一切。查看更多，或将你的项目添加到其中，请访问以下Github地址：<a href="https://github.com/ipfs/awesome-ipfs">Awesome IPFS on GitHub</a></p>
+
+<ul>
+<li><a href="https://twitter.com/neocities/status/1039204355763666945">Neocities hit 200K sites this month!</a> （Neocites这个月达到了20万个网站！）</li>
+<li><a href="https://arewedistributedyet.com/">are we distributed yet?</a> （我们已经实现分布式了吗？）</li>
+<li><a href="https://www.pinata.cloud/">Pinata</a>, 轻松自如的在IPFS上部署.</li>
+</ul>
+
+<p>社区活动：</p>
+
+<p>你知道ipfs有一个社区论坛discuss.ipfs.io吗？报名参加关于编码的讨论，教程，请参阅通知并了解即将到来的社区活动。</p>
+
+<ul>
+<li><a href="https://events.ccc.de/2018/09/11/35c3-call-for-participation-and-submission-guidelines/">35th Chaos Communication Congress</a> （第35届混沌通讯议会）CFP 现已开放</li>
+<li>新的见面会提醒:<a href="http://p2p-oresund.org/">peer to peer ÖRESUND</a>, 地点：瑞典马尔默 时间：10月27日</li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfJVVPwvp6RY3MUg1zAVl1g_5y2nGb7WJIMI1Hs6glzm7FLHQ/viewform">在此注册，接收IPFS里斯本会议的通知</a></li>
+</ul>
+
+<p>感谢阅读☺️</p>
+
+<p>以上就是本周关于IPFS一切的新闻。如果我们错过了什么，请回复这个邮件，让我们知道！这样我们就可以在下次周报中介绍您了。</p>
+
+
+      
+    </div>
+  </div> 
+
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

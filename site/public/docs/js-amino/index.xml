@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js-amino on cyber•Congress</title>
+    <link>/docs/js-amino/</link>
+    <description>Recent content in Js-amino on cyber•Congress</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/docs/js-amino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/js-amino/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/js-amino/changelog/</guid>
+      <description>Change Log Unreleased Closed issues:
+ Question: Cosmos SDK types library #41 Encoding of default values #27 Converting type to typ3 with considering options. #24 Typo on field options #23 webpack babel package error #17 publish to npm #16 Add options for encode/decode Like Go-Amino #14 Encoding int32, int64 to signed varint? #9 Bug when encoding byte slice #8 Can I create slice of interface? #7 How to create slice of structs?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/js-amino/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/js-amino/contributing/</guid>
+      <description>Contributing to js-amino Thank you for considering a contribution to js-amino! This guide explains how to: * Get started * Development workflow * Get help if you encounter trouble
+Get in touch Before starting to work on a feature or a fix, please open an issue to discuss the use case or bug with us. This can save both you and us a lot of time. For any non-trivial change, we&amp;rsquo;ll ask you to create a short design document explaining:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/js-amino/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/js-amino/overview/</guid>
+      <description>An Implementation of Amino for clients with Javascript Current state: 1.0.0 First major public release 
+
+         [![NPM](https://nodei.co/npm/js-amino.png)](https://npmjs.org/package/@cybercongress/js-amino) Built and maintenance by contributors  and cyber•Congress  For more information spec, please refer: https://github.com/tendermint/go-amino
+Features:  Encode and Decode simple types: ints 8/16/32/64, booleans, strings, bytes Encode and Decode recursive Structs and Interfaces, Arrays Encode simple Time data  Install From NPM: Run npm i js-amino</description>
+    </item>
+    
+  </channel>
+</rss>

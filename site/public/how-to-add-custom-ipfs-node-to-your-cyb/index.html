@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>How to add own ipfs node to your Cyb</title>
+<meta name="description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="author" content="savetheales" />
+
+  <link rel="canonical" href="../how-to-add-custom-ipfs-node-to-your-cyb/" />
+  <link rel="alternate" href="../how-to-add-custom-ipfs-node-to-your-cyb/" hreflang="x-default">
+
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta property="og:title" content="How to add own ipfs node to your Cyb" />
+<meta property="og:site_name" content="cyber•Congress" />
+<meta property="og:url" content="/how-to-add-custom-ipfs-node-to-your-cyb/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="//img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="cyber•Congress" />
+<meta name="twitter:title" content="How to add own ipfs node to your Cyb" />
+<meta name="twitter:creator" content="savetheales" />
+<meta name="twitter:description" content="A peer-to-peer hypermedia protocol to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="https://cybercongress.ai" />
+<meta name="twitter:image:src" content="//img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../highlight/github-gist.css" />
+<link rel="stylesheet" href="../asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="alternate feed" href="../index.xml" type="application/rss+xml"  title="IPFS Blog" />
+
+<script src="../asciinema/asciinema-player.js"></script>
+<script src="../highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-52930282-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+<body>
+  <header class="header-has-logo" id="stars">
+  <div class="container cf">
+    <h1 class="pull-left logo margin-bottom">
+      <a href="../" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+      <a href="../"><span class='logo-text'>cyber•Congress</span></a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="../#propducts">Products</a></li>
+        <li><a href="../#team" >Team</a></li>
+        <li><a href="../docs/cyberd/cyberd/" >Docs</a></li>
+        <li><a href="../post" >Blog</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#"></a>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    
+
+
+    <div class="post">
+      <h1>How to add own ipfs node to your Cyb</h1>
+      <p class="date">by savetheales on 2018-11-30</p>
+
+      <p>
+</p>
+
+      <p>by <a href="cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth">@savetheales</a></p>
+
+<p>Hey everyone! Today we&rsquo;ll make the glorious step into adulthood! The greatest level of Cyb using is when you have 3 greenlights on the right side of footer ;)</p>
+
+<p><img src="1.png" alt="" /></p>
+
+<p>Cyb uses color indication to show your connection status. Green indicator means that you have connection to local node, yellow one is for remote node and red one is for no connection at all.</p>
+
+<p>So today we intend to add local IPFS node to our Cyb.</p>
+
+<ol>
+<li>IPFS installing</li>
+</ol>
+
+<p>First of all we need to install and initiate IPFS node. If you&rsquo;ve  already did it, you can skip this section.</p>
+
+<p>The easiest way to install IPFS is <a href="https://docs.brew.sh/Installation">homebrew</a>. All you need is just to run in your terminal</p>
+
+<p><code>brew install ipfs</code>,</p>
+
+<p>and then run</p>
+
+<p><code>ipfs init</code> commands.</p>
+
+<p>Other methods you can explore <a href="https://docs.ipfs.io/introduction/install/">here</a>, but I recommend you homebrew :)</p>
+
+<p>Just for test you can write</p>
+
+<p><code>ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme</code></p>
+
+<p>and if you see following text, everything is alright. ;)</p>
+
+<p><img src="2.png" alt="result" /></p>
+
+<ol>
+<li>Start IPFS daemon</li>
+</ol>
+
+<p>So it&rsquo;s time to go online now. Write in your terminal</p>
+
+<p><code>ipfs daemon</code></p>
+
+<p>wait a few seconds. Now you should see</p>
+
+<p><img src="3.png" alt="daemon" /></p>
+
+<p>Good job!</p>
+
+<ol>
+<li><p>The last step is adding local IPFS node to Cyb.</p>
+
+<p>3.1 Download <a href="https://github.com/cybercongress/cyb/releases">latest release</a> according to your platform.</p>
+
+<p>3.2 Type in search field <code>settings.cyb</code> and press <code>Enter</code>. You should see something like this:
+<img src="4.png" alt="result" /></p>
+
+<p><code>settings.cyb</code> means that you open settings page in <code>.сyb</code> app (same as <code>Qm.....Dvd.ipfs</code> command opens ipfs hash in app <code>.ipfs</code>.</p>
+
+<p>3.3 Here you can see addresses of your connections. Default connection type is for our cybernodes. So let&rsquo;s change it!. Put this <code>http://127.0.0.1:8080</code> in IPFS connection filed and click on <code>update</code> button. If everything is correct you should see:</p>
+
+<p><img src="5.png" alt="" /></p></li>
+</ol>
+
+<p>Awesome!!! Now you can use your local IPFS node in Cyb!
+Welcome to your adult life!</p>
+
+<p>In the next post we will learn how to import Metamask account in Cyb;)</p>
+
+<p><strong>Subscribe for our blogs:</strong></p>
+
+<p>Steemit <a href="https://steemit.com/@cybercongress">https://steemit.com/@cybercongress</a></p>
+
+<p>Reddit <a href="https://www.reddit.com/r/cybercongress/">https://www.reddit.com/r/cybercongress/</a></p>
+
+<p>Twitter <a href="https://twitter.com/cyber_devs">https://twitter.com/cyber_devs</a></p>
+
+<p>Telegram channel <a href="https://t.me/cybercongress">https://t.me/cybercongress</a></p>
+
+<p>devChat <a href="https://t.me/fuckgoogle">https://t.me/fuckgoogle</a></p>
+
+<p><a href="https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb">← Previous post</a></p>
+
+
+      
+          <h2 id="comments">Comments</h2>
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://discuss.ipfs.io/',
+              discourseEmbedUrl: 'https://ipfs.io/blog/how-to-add-custom-ipfs-node-to-your-cyb' };
+              if (window.location.hostname === 'blog.ipfs.io') {
+                (function() {
+                  var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                })();
+              } else {
+                 
+                 
+                 document.getElementById('comments').style.display = 'none';
+                 document.getElementById('discourse-comments').style.display = 'none';
+              }
+          </script>
+      
+    </div>
+  </div> 
+
+  <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber•Congress</li>
+            <li><a href="https://cybercongress.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/blob/dev/README.md">agreement</a></li>
+            <li><a href="https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/">cyber•Foundation</a></li>
+
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyber</li>
+            <li><a href="https://cyberd.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyberd/blob/master/docs/cyberd.md">whitepaper</a></li>
+            <li><a href="https://t.me/fuckgoogle">devChat</a></li>
+            <li><a href="#">forum</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">cyb</li>
+            <li><a href="https://cyb.ai/">about</a></li>
+            <li><a href="https://github.com/cybercongress/cyb">github</a></li>
+            <li><a href="https://github.com/cybercongress/cyb/releases">releases</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">chaingear</li>
+            <li><a href="https://cybercongress.github.io/chaingear/">about</a></li>
+            <li><a href="https://github.com/cybercongress/chaingear">github</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap list-unstyled">
+            <li class="sitemap-head">Galt</li>
+            <li><a href="https://galtproject.io/">about</a></li>
+            <li><a href="https://github.com/galtspace">github</a></li>
+            <li><a href="https://docs.galtproject.io/ru/">whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share list-unstyled">
+          
+          <li><a class="Twitter" href="https://twitter.com/cyber_devs">Twitter</a></li>
+          
+          <li><a class="Telegram" href="https://t.me/fuckgoogle">Telegram</a></li>
+          
+          <li><a class="Reddit" href="https://www.reddit.com/r/cybercongress/">Reddit</a></li>
+          
+          <li><a class="Steemit" href="https://steemit.com/@cybercongress">Steemit</a></li>
+          
+          <li><a class="YouTube" href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
