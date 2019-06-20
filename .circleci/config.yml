@@ -21,9 +21,10 @@ jobs:
             cd site
             rm -rf public/
             make build
+            cd public
+            git init
             git config user.email "cybercongress42@gmail.com"
             git config user.name "Cyber Admin"
-            cd public
             git add .
             git commit -m "deployed $CIRCLE_SHA1 [ci skip]"
             git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/cybercongress/congress.git master:gh-pages
