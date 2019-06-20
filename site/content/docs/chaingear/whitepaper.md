@@ -65,36 +65,36 @@ Our solution is save in database contract schema's definition which allow determ
 
 ### Workflows
 #### Chaingear setup and Database creation/schema initialization pipeline
-![general_pipeline](img/pipelines-general_pipeline.svg)
+![general_pipeline](./img/pipelines-general_pipeline.svg)
 
 #### Database CRUD/Entry-token pipeline
-![database_crud](img/pipelines-database_crud.svg)
+![database_crud](./img/pipelines-database_crud.svg)
 
 #### Chaingear's Database-token pipeline
-![chaingear_tokenized](img/pipelines-chaingear_tokenized.svg)
+![chaingear_tokenized](./img/pipelines-chaingear_tokenized.svg)
 
 ### Inheritance
 #### Chaingear inheritance
-![chaingear_inheritance](img/contracts-chaingear_inheritance.svg)
+![chaingear_inheritance](./img/contracts-chaingear_inheritance.svg)
 
 #### Database inheritance
-![database_inheritance](img/contracts-database_inheritance.svg)
+![database_inheritance](./img/contracts-database_inheritance.svg)
 
 ### web3 Application
 #### General
 | | |
 |-|-|
-|![chaingear-general](img/chaingear.png)|![database-token](img/database-token.png)|
+|![chaingear-general](./img/chaingear.png)|![database-token](./img/database-token.png)|
 
 #### Database
 | | |
 |-|-|
-|![database-admin](img/database-admin.png)|![entry-token](img/entry-token.png)|
+|![database-admin](./img/database-admin.png)|![entry-token](./img/entry-token.png)|
 
 #### Database Deploy and Schema designer
 | | |
 |-|-|
-|![database](img/database-deploy.png)|![schema-gen](img/schema-gen.png)|
+|![database](./img/database-deploy.png)|![schema-gen](./img/schema-gen.png)|
 
 ### Future work and releases
 - Design and architecture, security
