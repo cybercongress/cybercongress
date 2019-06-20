@@ -1,8 +1,5 @@
----
-project: js-amino
----
 <h1 align="center">
-  <img src="/docs/js-amino/img/logo.png"
+  <img src="img/logo.png"
   alt="js-amino" width="470"></a>
 </h1>
 
