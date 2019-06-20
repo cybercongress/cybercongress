@@ -1,5 +1,9 @@
 
-var nodeUrl ='http://88.198.36.117:26657'
+var nodeUrl ='http://88.198.36.117:26657';
+const wsUrl= 'ws://88.198.36.117:26657/websocket';
+
+
+
 async function fetchAsync (url) {
     let response = await fetch(url);
     let data = await response.json();
@@ -72,9 +76,51 @@ async function fetchAsync (url) {
             
           });
   });
-  console.log(getStatistics());
   
 getStatistics();
+
+let websocket;
+const listenNewBlock = (cb) => {
+    websocket = new WebSocket(wsUrl);
+    websocket.onopen = () => {
+      console.log('WebSocket is connected.');
+        websocket.send(JSON.stringify({
+            "method": "subscribe",
+            "params": ["tm.event='NewBlockHeader'"],
+            "id": "1",
+            "jsonrpc": "2.0",
+        }));
+    };
+
+    websocket.onmessage = (event) => {
+        // cb(event);
+        // var message = event;
+        // console.log(message);
+        getStatistics();
+    };
+};
+
+onNewBlock = (cb) => {
+    if (websocket) {
+        websocket.onclose = () => {
+            listenNewBlock(cb);
+            getStatistics();
+        };
+
+        websocket.close();
+    } else {
+        listenNewBlock(cb);
+    }
+};
+
+unsubscribeNewBlock = () => {
+    if (websocket) {
+        websocket.close();
+        websocket = null;
+    }
+};
+
+onNewBlock();
 
 // async function fetchAsync (url) {
 //     let response = await fetch(url);
