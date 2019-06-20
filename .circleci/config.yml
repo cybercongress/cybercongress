@@ -30,6 +30,7 @@ jobs:
             make build
             cd public
             git init
+            echo "cybercongress.ai" > CNAME
             git config user.email "cybercongress42@gmail.com"
             git config user.name "Cyber Admin"
             git add .
