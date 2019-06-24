@@ -1,5 +1,5 @@
 
-var nodeUrl ='http://88.198.36.117:26657';
+const nodeUrl ='https://herzner1.cybernode.ai';
 const wsUrl= 'ws://88.198.36.117:26657/websocket';
 
 
@@ -113,7 +113,6 @@ onNewBlock = (cb) => {
     if (websocket) {
         websocket.onclose = () => {
             listenNewBlock(cb);
-            getStatistics();
         };
 
         websocket.close();
