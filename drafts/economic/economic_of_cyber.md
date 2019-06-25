@@ -15,7 +15,6 @@ Like a Cosmos ecosystem, `cyberd` utilizes Tendermint - practical Byzantine faul
 
 ## ... basic incentives for all different participants ...
 
-#### Validators
 For `cyberd`, there are 146 possible validators, who are responsible for proposing new blocks and validating transactions. This number will constant until they're ready to increase it or decrease with a government proposal. If there are more validators then the right to participate in consensus will have participants with a higher amount of CYBs bonded.
 
 `Cyberd` validators have the highest impact on network security. They must actively participate in governance and are required to vote on every proposal.
@@ -24,11 +23,9 @@ This group have enough knowledge and resources to maintain infrastructure and ar
 
 And the primary responsibility of validators is continuous rank recalculation in knowledge graph. Every 100 blocks in depends on linker stake, the rank value is assigned to the link and all weights are recalculated by validators GPUs.
 
-#### Delegators
-This group consists of CYB token holders who have not enough skills or resources to run and maintain the infrastructure but still want to increase the network security and earn a share of the inflationary reward by bonding tokens to the validators. It boosts the voting power of validator and the frequency of being chosen as block proposer. In fact, by bonding CYB to validator delegators choose one of the pillars of the blockchain so their choice is very important and affects the level of decentralization.
+Delegators group consists of CYB token holders who have not enough skills or resources to run and maintain the infrastructure but still want to increase the network security and earn a share of the inflationary reward by bonding tokens to the validators. It boosts the voting power of validator and the frequency of being chosen as block proposer. In fact, by bonding CYB to validator delegators choose one of the pillars of the blockchain so their choice is very important and affects the level of decentralization.
 Delegators are eligible for inflation reward as well but they have to pay commission, which varies within existing validators. There is no way for validators to steal bonded tokens but there are still other risks related to choosing the validator. Decisions based solely on a low commission rate is not always the best decision for delegators.
 
-#### Users
 If we compare cyberd network with some search engine, users are consumers and service providers. Developers, entrepreneurs, SEO, buyers, and searchers who want to utilize the advantages of a decentralized search engine. Here we're can understand the true value of `CYB` tokens. `Cyberd` refused to the transaction or message fees in favor of resource credits as a method of decreasing network load. The main goal of that model is to reduce daily network growth to given constant, say less than 3gb per day. In `cyberd` resource credits named **bandwidth**. The user bandwidth value is the ability of users to send messages, make links and do transactions. More bandwidth points, more opportunities. Bandwidth price depends on the network load, namely, the less network load, the cheaper bandwidth price. At the current `cyberd` set up general messages costs:
 
 | Type of transaction | Cost in BP |
@@ -52,10 +49,8 @@ There are one fundamental stream of revenue for validators - inflation.
 
 ![rewards distribution](distr.png)
 
-#### Block reward
 Block reward distributing amongst all validators proportionally to their voting power. This reward is paid in CYBs.
 
-#### Validator’s commission rate
 Represents a percentage from both streams of revenue that delegators pay to a validator. Delegators reward streams are the same as for validators less the commission percentage.
 
 ## ... the possible influence of these principles on their behavior ...
