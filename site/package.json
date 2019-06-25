@@ -4,8 +4,9 @@
   "description": "ipfs blog",
   "main": "index.js",
   "devDependencies": {
+    "axios": "^0.19.0",
     "dnslink-deploy": "^1.0.7",
-    "magnific-popup": "^1.1.0",
+    "hugo-bin": "^0.42.0",
     "imagemin-cli": "^3.0.0",
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-optipng": "^5.2.1",
@@ -13,7 +14,7 @@
     "less": "^2.7.2",
     "less-plugin-autoprefix": "^1.5.1",
     "less-plugin-clean-css": "^1.5.1",
-    "hugo-bin": "^0.42.0",
+    "magnific-popup": "^1.1.0",
     "nodemon": "^1.18.7"
   },
   "scripts": {
