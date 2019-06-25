@@ -13,7 +13,7 @@
 
 Like a Cosmos ecosystem, `cyberd` utilizes Tendermint - practical Byzantine fault tolerance (PBFT) consensus mechanism. It means that finalizing blocks depends on 2/3 plus one quorum of all validators agreed on the current state of the network in order to reach the consensus.
 
-## ... basic incentives for all different participants ...
+## Basic incentives for all different participants
 
 For `cyberd`, there are 146 possible validators, who are responsible for proposing new blocks and validating transactions. This number will constant until they're ready to increase it or decrease with a government proposal. If there are more validators then the right to participate in consensus will have participants with a higher amount of CYBs bonded.
 
@@ -41,7 +41,7 @@ If we compare cyberd network with some search engine, users are consumers and se
 
 The activity of this group measures the overall value of the network and can have a significant impact on demand for the token.
 
-## ... economic structure ... and reward distribution
+## Economic structure and reward distribution
 
 Like the Cosmos Hub economy and reward distribution, `cyberd` relies on the inflationary approach. Unlike Cosmos, in `cyberd` inflation constantly seek to ~7%. It's achieved by tuning `TokensPerBlock` parameter at genesis setup. Given that the network has 1-second target block time and ~7% target inflation the starting parameter will be 50 MCYB.
 
@@ -53,7 +53,7 @@ Block reward distributing amongst all validators proportionally to their voting 
 
 Represents a percentage from both streams of revenue that delegators pay to a validator. Delegators reward streams are the same as for validators less the commission percentage.
 
-## ... the possible influence of these principles on their behavior ...
+## The possible influence of these principles on their behavior
 
 In some circumstances occurs slashing of bonded CYBs. Penalties should increase the responsibility level of participants who are directly involved in decisions associated with network security. Validators have no control over delegator’s stake but if such an event happens both parties lose a percentage of their tokens. This is in order to prevent misbehavior and negligence from validators and bring incentives to delegators to diversify amongst them, perform proper due diligence and choose wisely.
 
