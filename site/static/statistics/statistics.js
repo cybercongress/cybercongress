@@ -1,6 +1,6 @@
 
 const nodeUrl ='https://herzner1.cybernode.ai';
-const wsUrl= 'ws://88.198.36.117:26657/websocket';
+const wsUrl= 'wss://herzner1.cybernode.ai/websocket';
 
 
 
