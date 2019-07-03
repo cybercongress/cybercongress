@@ -22,13 +22,15 @@ So we decide to launch the network as soon as possible. So yep, Houston, we are 
 
 3. Genesis will be launched at some Ethereum and Cosmos block close to 13.00 GMT on 4 of September 2019 in the 21st birthday of Google. It is a soft date (aka shelling point) so if something goes wrong we will delay the Genesis launch for as much as we need days.
 
+Please note, that some whitepaper details can be specified unless it will be published in pdf.
+
 ## Game of Stakes
 
 Worth to note that distribution scheme has been changed for current validators. We are happy to announce that participation incentives now are (a way) better for the most of participants and are payed from cyber•Congress allocation:
 
 - 100 GCYB divided between every active validator in the end of `euler-4` spread evenly between participants.
-- 1000 GCYB is assigned to Game of Stake with some details coming later.
+- 1000 GCYB is assigned to `euler-5` Game of Stake with some details coming later.
 
 ## The interface
 
-In a parallel, the interface development will be developed on behalf of Cyb team. We do not expect that we'll be able to ship everything we want before Genesis, but we'll do our best to offer as much as possible.
+In a parallel, the interface development will be carried out on behalf of Cyb team. We do not expect that we'll be able to ship everything we want before Genesis, but we'll do our best to offer as much as possible.
