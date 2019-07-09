@@ -1,6 +1,6 @@
 ![](https://github.com/cybercongress/congress/blob/master/design/logo_congress_rectangle.png)
 # cyber•Congress: The evolution of species
-[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@npopeka](https://keybase.io/nick4672)
+[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@hleb-albau](https://keybase.io/hleb_albau), [Ethereum ID](0x00725D89a2A2FB3B21Fd1035B579cbCDE4a0991b), [@npopeka](https://keybase.io/nick4672)
 
 Version 2. Unsigned WIP. Version 1 [reference](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
 
