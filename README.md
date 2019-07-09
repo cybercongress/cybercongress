@@ -1,6 +1,6 @@
 ![](https://github.com/cybercongress/congress/blob/master/design/logo_congress_rectangle.png)
 # cyber•Congress: The evolution of species
-[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
+[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@npopeka](https://keybase.io/nick4672)
 
 Version 2. Unsigned WIP. Version 1 [reference](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
 
@@ -151,3 +151,15 @@ This agreement is alive and dynamic. If changes happen, they must be reflected a
 
 ## Validity
 The agreement is valid for cyber•space
+
+## Updates
+
+@hleb-albau left cyber•Congress on his own accord and was replaced by @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845). Replacement was made by executing proposals [№134](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/134) and [№135](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/135) on Ethereum 2of3 multisignature contract: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) by @21xhipster and @litvintech. 
+
+Current cyber•Congress members are:
+- @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
+- @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
+- @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845)
+
+
+
