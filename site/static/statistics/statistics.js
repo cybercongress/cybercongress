@@ -1,5 +1,5 @@
 
-const nodeUrl ='https://herzner1.cybernode.ai';
+const nodeUrl ='https://herzner1.cybernode.ai/api';
 const wsUrl= 'wss://herzner1.cybernode.ai/websocket';
 
 
