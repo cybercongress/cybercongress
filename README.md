@@ -126,7 +126,6 @@ If some team feel the independent need to create a new organization or a fork, t
 - [Forecasting](/forecasting): happens at the end of every sprint
 - [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
 - [Knowledge sharing](/wiki): everything around gathering and transferring of knowledge created inside
-- [Library](/library): maintaining the scientific library
 - [Visual perfection](/design): visual can be fun and sexy
 - [Improvements](/cips): improvement proposals can be merged or spun off.
 
@@ -143,6 +142,9 @@ The current product priority, is the following:
 - cyber•Search
 
 If one wishes to add something to this list, they must create a proposal with some research [here](https://github.com/cybercongress/congress/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Proposal%22)
+
+## Library
+We have The [Library](https://github.com/cybercongress/Library). Please join us, in the pursuit of our goals.
 
 ## Liveness
 This agreement is alive and dynamic. If changes happen, they must be reflected accordingly.
