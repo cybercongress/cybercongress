@@ -134,7 +134,7 @@ If some team feel the need to create a new independent organization or a fork, t
 - [Value management](/values): control of keys and investment decisions
 - [Forecasting](/forecasting): happens at the end of every sprint
 - [Roadmap evolution](https://github.com/orgs/cybercongress/projects/2): keeping the roadmap up to date
-- [Release management](/delivery): definition of release scope and quality control during publishing
+- [Release management](/releases): definition of release scope and quality control during publishing
 - [Sprints management](/sprints): weekly sprints using community oriented and text based approach
 - [Blogging](/blog): ensure clear communications across channels
 - [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
