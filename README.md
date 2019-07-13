@@ -2,7 +2,7 @@
 # cyber•Congress: The evolution of species
 [@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@helb-albau](https://keybase.io/hleb_albau)
 
-Version 2. Unsigned WIP. Version 1 [reference](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
+Version 2
 
 ## The Idea
 
@@ -168,3 +168,7 @@ This agreement is alive and dynamic. If changes happen, they must be reflected a
 ## Validity
 
 The agreement is valid for cyber•space
+
+## Versions
+
+- [Version 1 ](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
