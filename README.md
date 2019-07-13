@@ -110,7 +110,7 @@ If one member is leaving, they receive a one time drop, which is calculated by u
 The other 50% will be split evenly between teams and between the the community.
 The drop, must be executed in a period of 30 calendar days after the initiation of a proposal.
 
-## Liquidation procedure
+## Liquidation
 
 The congress can liquidate itself. If this event happens the following will occur:
 - The software, goes to a public domain;
@@ -139,7 +139,7 @@ If some team feel the need to create a new independent organization or a fork, t
 - [Sprints runs](/sprints): planning of 2-week sprints on Mondays, closing sprints on Fridays
 - [Forecasting](/forecasting): happens at the end of every sprint
 - [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
-- [Knowledge sharing](/wiki): everything around gathering and transferring of knowledge created inside
+- [Knowledge sharing](/site): everything around gathering and transferring of knowledge created inside
 - [Visual perfection](/design): visual can be fun and sexy
 - [Library](/library): maintaining the scientific library
 - [Improvements](/cips): improvement proposals can be merged or spun off.
