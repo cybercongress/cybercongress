@@ -132,17 +132,17 @@ If some team feel the need to create a new independent organization or a fork, t
 ## Functions
 
 - [Value management](/values): control of keys and investment decisions
-- [Community building](/community): continuous development of communities
-- [Blogging](/blog): ensure clear communications across channels
-- [Delivery pipelining](/delivery): improving our development pipeline
 - [Roadmap evolution](https://github.com/orgs/cybercongress/projects/2): keeping the roadmap up to date
+- [Blogging](/blog): ensure clear communications across channels
+- [Community building](/community): continuous development of communities
+- [Release management](/delivery): improving our development pipeline
 - [Sprints management](/sprints): weekly sprints using community oriented and text based approach
 - [Forecasting](/forecasting): happens at the end of every sprint
 - [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
 - [Knowledge sharing](/site): everything around gathering and transferring of knowledge created inside
 - [Visual perfection](/design): visual can be fun and sexy
 - [Library](/library): maintaining the scientific library
-- [Improvements](/cips): improvement proposals can be merged or spun off.
+- [Improvements](/cips): improvement proposals can be merged or spun off
 
 This list of functions is exclusive. If someone wishes to add something, they can try to guess what they need to do in order to complete the task.
 
@@ -153,6 +153,8 @@ This list of functions is exclusive. If someone wishes to add something, they ca
 </a>
 
 ## Products
+
+Every product must have the owner who is responsible for primary review of pull requests and merging them into master branch of involved repos.
 
 The current product priority, is the following:
 - [Cyber](https://github.com/topics/cyber): Interplanetary Deep Thought
