@@ -39,7 +39,7 @@ Helping the evolution of species
 We believe that our principles should be aligned with our values, thus helping us to achieve our goals:
 - Security. We do not work with fiat or with bureaucratic paper hassle. We work only, with digital signatures
 - Anonymity and privacy. If someone chooses to stay anonymous or private, it is their right to do so
-- Open-source software. Everything we run in production must be open-source
+- Open-source software. Everything we run in production must be open-source under cyber licence
 - Open-source hardware. Every piece of hardware that goes into production, must be open-sourced
 - Transparency. Transactional transparency is fundamental to community building
 - Informational freedom. No local laws can prohibit the flow of any information
@@ -118,13 +118,6 @@ The congress can liquidate itself. If this event happens the following will occu
 - Non-transferable tokens will await being transferable;
 - Non-fungible items, will be auctioned;
 - 50% of transferable tokens, will be dropped to members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn;
-
-## Processing incoming drops
-
-If a community, decides to drop to cyber•Congress, they must understand the following guidelines:
-- 60% are dumped back, in favor of our communities and remain under the control of cyber•Congress. cyber•Congress can choose to fully     keep the dropped tokens;
-- 20% of the tokens will be dropped to community members;
-- 20% of the tokens will be dropped to teams;
 
 ## Forks
 
