@@ -150,8 +150,14 @@ This list of functions is exclusive. If someone wishes to add something, they ca
 </a>
 
 ## Products
+
 The current product priority, is the following:
-- cyber•Search
+- [Cyber](https://github.com/topics/cyber): Interplanetary Deep Thought
+- [Cyb](https://github.com/topics/cyb): Personal robot for the Great Web
+- [Galt](https://github.com/topics/galt): Protocol for land ownership
+- [cyber•Academia](https://github.com/topics/cyberacademia): The protocol for better learning by doing
+- [Chaingear](https://github.com/topics/chaingear): Consensus driven database framework
+- [cyber•Labs](https://github.com/topics/cyberlabs): Community of independent open-sourced laboratories
 
 If one wishes to add something to this list, they must create a proposal with some research [here](https://github.com/cybercongress/congress/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Proposal%22)
 
