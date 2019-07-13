@@ -5,12 +5,15 @@
 Version 2. Unsigned WIP. Version 1 [reference](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
 
 ## The Idea
+
 The blockchain technology has opened the opportunity for development, which was impossible before. By this agreement, we define cyber•Congress, as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for a new kind of existence.
 
 ## The Mission
+
 Helping the evolution of species
 
 ## Goals
+
 - Build a strong scientific foundation behind cybernomics
 - Provide an abundant access to information proved by transactions for all species
 - Build an incentivization system for open-source communities and creators
@@ -32,6 +35,7 @@ Helping the evolution of species
 - Participate in the development of Metaverse
 
 ## Values
+
 We believe that our principles should be aligned with our values, thus helping us to achieve our goals:
 - Security. We do not work with fiat or with bureaucratic paper hassle. We work only, with digital signatures
 - Anonymity and privacy. If someone chooses to stay anonymous or private, it is their right to do so
@@ -50,6 +54,7 @@ We believe that our principles should be aligned with our values, thus helping u
 - Always on the edge. We try to offer alternatives to outdated technologies such as emails
 
 ## Stack
+
 We are going to advance and deploy, the following technologies, available at the moment:
 - SAI: digital signatures, neural cryptography, game theory, deep learning, digital DNA;
 - GAI: consensus computers, zero-knowledge proofs, game theory;
@@ -66,6 +71,7 @@ We are going to advance and deploy, the following technologies, available at the
 - Space exploration: BFR and the alternatives, satellites/cubesats;
 
 ## Governance
+
 cyber•Congress is founded by the following cryptographic entities using the [genesis account](0x9f4062F6153Ff4Dbf93F6A6F686eD3C906Bf0684):
 - @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
@@ -87,11 +93,13 @@ cyber•Congress can hire. Our goal is `number of employees = number of members 
 cyber•Congress forms communities around our ideas through investing into different tokens. All drops to the memebrs of the community are computed proportionally to the valuation of assets under control.
 
 ## Adding members
+
 Currently, cyber•Congress can be expanded only to an odd number of members.
 
 If someone wants to become a member - they can. If one member wants to quit the congress - they can. Congress can decide to drop out a member. In any case, they need to create a proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the proposal from here: [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
 
 ## Removing members
+
 If one member is leaving, they receive a one time drop, which is calculated by using the following formula:
 `total valuation of assets under control / number of member * 50%`
 
@@ -99,6 +107,7 @@ The other 50% will be split evenly between teams and between the the community.
 The drop, must be executed in a period of 30 calendar days after the initiation of a proposal.
 
 ## Liquidation procedure
+
 The congress can liquidate itself. If this event happens the following will occur:
 - The software, goes to a public domain;
 - The hardware obtains personal freedom;
@@ -107,15 +116,18 @@ The congress can liquidate itself. If this event happens the following will occu
 - 50% of transferable tokens, will be dropped to community members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn;
 
 ## Processing incoming drops
+
 If a community, decides to drop to cyber•Congress, they must understand the following guidelines:
 - 60% are dumped back, in favor of our communities and remain under the control of cyber•Congress. cyber•Congress can choose to fully     keep the dropped tokens;
 - 20% of the tokens will be dropped to community members;
 - 20% of the tokens will be dropped to teams;
 
 ## Forks
+
 If some team feel the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit such behaviour and are ready, in case the team is self sustainable, to transfer repositories.
 
 ## Functions
+
 - [Value management](/values): control of keys and investment decisions
 - [Community building](/community): continuous development of community on gitcoin
 - [Communications](/blog): ensure clear communications across channels
@@ -144,7 +156,9 @@ The current product priority, is the following:
 If one wishes to add something to this list, they must create a proposal with some research [here](https://github.com/cybercongress/congress/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Proposal%22)
 
 ## Liveness
+
 This agreement is alive and dynamic. If changes happen, they must be reflected accordingly.
 
 ## Validity
+
 The agreement is valid for cyber•space
