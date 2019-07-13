@@ -1,0 +1,23 @@
+# This is document with teams key attributes
+
+title = "Team registry"
+
+[litvintech]
+name = "Valery Litvin"
+gitcoin = "0xf103D2db8024F4B885433ADAF72032Ac58304e03"
+payouts = "0x00cFF8CF7Bff03A9A2a81c01920ffD8cFa7AE9D0"
+github = "litvintech"
+telegram = "litvintech"
+keybase = "litvintech"
+ipfs = "QmXkd1HZKCy5oTdCDPTiU8kzh3kz79AeLmchCQLXetAJvH"
+cyber = "cyber1s3748ghvcwvrws3kxsdc8xnan3qhv777tg4yv2"
+
+[savetheales]
+name = "Ales Puchilo"
+gitcoin = "0x00466845B9906578ac86cBA4C2Dda0F2c46461F6"
+payouts = "0x00CA47db1BE92C1072e973fd8DC4A082f7d70214"
+github = "SaveTheAles"
+telegram = "savetheales"
+keybase = "savetheales"
+ipfs = "QmTL3gftAjBZ7WU4GppYg7odQymraN66VFk1NkQyEbbBNj"
+cyber = "cyber1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4878e0"
