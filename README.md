@@ -86,8 +86,6 @@ All decisions must be proved by a transaction from one of the congress accounts.
 
 We are starting from the simplest but a resilient form of decentralization: a simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains can support more income. We also understand, that decentralization always comes at expenses. For now, we struggle to find an organic growth balance between those kind of expenses and an income. We understand that a flat voting system does not scale to more than 7 members. Thus, if there will be demand for further growth, we will make a decision based on in-depth research in the field.
 
-Member communicate between themselves and between teams only by using provably secure communication channels. At the moment, we use Keybase for communication. If some teams wish to use a more convenient channel, they are welcome to do so.
-
 cyber•Congress can hire. Our goal is `number of employees = number of members * X`, the `X` is `7`.
 
 cyber•Congress forms communities around our ideas through investing into different tokens. All drops to the memebrs of the community are computed proportionally to the valuation of assets under control.
