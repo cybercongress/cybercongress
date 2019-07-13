@@ -117,7 +117,7 @@ The congress can liquidate itself. If this event happens the following will occu
 - The hardware obtains personal freedom;
 - Non-transferable tokens will await being transferable;
 - Non-fungible items, will be auctioned;
-- 50% of transferable tokens, will be dropped to community members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn;
+- 50% of transferable tokens, will be dropped to members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn;
 
 ## Processing incoming drops
 
