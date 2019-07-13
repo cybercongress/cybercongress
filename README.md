@@ -135,7 +135,7 @@ If some team feel the need to create a new independent organization or a fork, t
 - [Community building](/community): continuous development of community on gitcoin
 - [Communications](/blog): ensure clear communications across channels
 - [Delivery pipelining](/delivery): improving our development pipeline
-- [Roadmap evolution](/roadmap): keeping the roadmap up to date and rethink it every block
+- [Roadmap evolution](https://github.com/orgs/cybercongress/projects/2): keeping the roadmap up to date
 - [Sprints runs](/sprints): planning of 2-week sprints on Mondays, closing sprints on Fridays
 - [Forecasting](/forecasting): happens at the end of every sprint
 - [Team ambience](/teams): create cosy environment and help switch from salary-based, to capital-based income
