@@ -1,12 +1,13 @@
-## Operational token
+## Operational tokens
 
-- [ETH](https://ethereum.org). Allow flexible and provable operations
-- [BTC](https://bitcoin.org). Still required sometimes because of widespread adoption
+- [ETH](https://ethereum.org). Primary store of value and unit of account
+- [DAI](https://makerdao.com/en/dai/). Allow securing of operational costs
 
-## Current investments
+## Investments
 
 - [FOAM](https://foam.space/). Allow to prove location to contracts without relying on 3d parties
 - [GALT](http://galtproject.io/). Allow to prove that given point in spacetime is owned by somebody
+- [GOLD](https://dragonereum.io/). First closed loop economy in Ethereum. The game we love
 
 ## Processing incoming drops
 
