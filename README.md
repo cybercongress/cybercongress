@@ -119,9 +119,15 @@ The congress can liquidate itself. If this event happens the following will occu
 - Non-fungible items, will be auctioned;
 - 50% of transferable tokens, will be dropped to members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn;
 
-## Forks
+## Cyber licence
 
-If some team feel the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit such behaviour and are ready, in case the team is self sustainable, to transfer repositories.
+Everything produced by cyber•Congress is published under the most simple, open and accessible license which allows to escape from existing legal tender and save resources for actual software production:
+
+```
+Don’t believe, don’t fear, don’t ask
+```
+
+If some team feel the need to create a new independent organization or a fork, they are free to do so. Congress members will benefit such behaviour and are ready, in case the team is self sustainable, to transfer repositories.
 
 ## Functions
 
