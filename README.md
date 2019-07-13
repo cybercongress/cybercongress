@@ -92,15 +92,19 @@ cyber•Congress can hire. Our goal is `number of employees = number of members 
 
 cyber•Congress forms communities around our ideas through investing into different tokens. All drops to the memebrs of the community are computed proportionally to the valuation of assets under control.
 
-## Adding members
+## Members
+
+Current cyber•Congress members are:
+- @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
+- @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
+- @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845)
 
 Currently, cyber•Congress can be expanded only to an odd number of members.
 
 If someone wants to become a member - they can. If one member wants to quit the congress - they can. Congress can decide to drop out a member. In any case, they need to create a proposal [here](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal). The Congress can fill the proposal from here: [proposals](https://github.com/cybercongress/congress/labels/Type%3A%20Proposal).
 
-## Removing members
-
 If one member is leaving, they receive a one time drop, which is calculated by using the following formula:
+
 `total valuation of assets under control / number of member * 50%`
 
 The other 50% will be split evenly between teams and between the the community.
