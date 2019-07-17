@@ -49,7 +49,7 @@ place so that in case you forget the password, you could eventually regenerate t
 the seed phrase with the following command:
 
 ```bash
-cyberdcli keys add --recover
+cyberdcli keys add <account_name> --recover
 ```
 
 Also, you can import your ETH account to `cyberdcli`:
