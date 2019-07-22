@@ -1,0 +1,28 @@
+<header class="header-has-logo" {{ if eq .page.Params.pagetype "subdoc"}}{{ else }} id="stars" {{ end }}>
+    <div class="container cf">
+        <h1 class="pull-left logo margin-bottom">
+            <a href="/" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
+            <a href="/"><span class='logo-text'>cyber•Congress</span></a>
+        </h1>
+        <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+            <input id="menu-toggle" type="checkbox" class="menu-toggle">
+            <label for="menu-toggle"></label>
+            <ul class="list-unstyled list-inline cf flex align-center">
+                <div class="searchbox">
+                    <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
+                </div>
+                <li><a href="/#propducts">Products</a></li>
+                <li><a href="/docs/cyberd/cyberd/"
+                        {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"
+                        {{ end }}>Docs</a></li>
+                <li><a href="/post"
+                        {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
+                        {{ end }}>Blog</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="view-more">
+        <label>View more</label><a href="#"></a>
+    </div>
+</header>

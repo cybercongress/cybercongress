@@ -5,11 +5,12 @@
 <head>
   <!-- {{ partial "docs/html-head" . }} -->
   <!-- {{ partial "docs/inject/head" . }} -->
-  {{ partial "head.html" . }}
+  {{ partial "docs/inject/head.html" . }}
+
 </head>
 
 <body id='docs'>
-    {{ partial "header.html"  }}
+    {{ partial "docs/header.html"  }}
     {{ partial "docs/mobile-header" . }}
     <!-- {{ partial "header.html" }} -->
   <input type="checkbox" style="display: none" id="menu-control" />

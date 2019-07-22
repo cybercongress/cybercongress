@@ -1,4 +1,4 @@
-[{{ range $index, $page := (sort (where (where .Data.Pages "Section" "docs") "Kind" "page") "Params.date" "desc") }}
+[{{ range $index, $page := .Site.Pages }}
     {{- if ne $page.Type "json" -}}
     {{- if and $index (gt $index 0) -}},{{- end }}
     {
@@ -9,4 +9,3 @@
     }
     {{- end -}}
     {{- end -}}]
-    

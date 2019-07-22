@@ -1,7 +1,7 @@
----
-project: docs
-title: Ista qua aera
----
++++
+title = "DocDock Theme for Hugo"
+description = ""
++++
 # Ista qua aera
 
 ## Tetigisse hac duc omnipotens urbis per sapiente

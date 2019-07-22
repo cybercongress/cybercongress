@@ -1,5 +1,6 @@
 ---
 project: cyberd
+title: 'cyberd: Computing the knowledge from web3'
 ---
 # cyberd: Computing the knowledge from web3
 
