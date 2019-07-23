@@ -120,16 +120,40 @@ mark {
 .searchbox {
     input {
         border: none;
-        color: @color-gravity;
-        border-bottom: 1px solid @white;
+        color: #36d6ae;
+        border-bottom: 1px solid #fff;
         background-color: #000000;
         outline: none;
         padding: 5px;
         padding-top: 0;
+        position: relative;
+        padding-right: 10px;
 
         &:focus {
-            border-bottom: 1px solid @color-gravity;
-            transition: .6s cubic-bezier(0.85, -0.16, 0.6, -0.18);
+            border-bottom: 1px solid #36d6ae;
+            transition: .5s cubic-bezier(0.85, -0.16, 0.6, -0.18);
         }
     }
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
+
+  .cansel {
+      content: url(/img/cansel.svg);
+      position: absolute;
+      top: 44%;
+      left: 47%;
+      cursor: pointer;
+      width: 9px;
+  }
