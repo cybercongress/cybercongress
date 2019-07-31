@@ -13,6 +13,7 @@ project: js-cosmos
 
 **Merged pull requests:**
 
+- Fix contributors places [\#16](https://github.com/cybercongress/js-cosmos/pull/16) ([Jonybang](https://github.com/Jonybang))
 - improve package.json [\#15](https://github.com/cybercongress/js-cosmos/pull/15) ([Jonybang](https://github.com/Jonybang))
 - docs: add SaveTheAles as a contributor [\#13](https://github.com/cybercongress/js-cosmos/pull/13) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add TanNgocDo as a contributor [\#12](https://github.com/cybercongress/js-cosmos/pull/12) ([allcontributors[bot]](https://github.com/apps/allcontributors))
