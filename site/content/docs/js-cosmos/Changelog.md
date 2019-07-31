@@ -8,10 +8,12 @@ project: js-cosmos
 **Closed issues:**
 
 - Prepare 1.0.0 release of js-cosmos [\#4](https://github.com/cybercongress/js-cosmos/issues/4)
+- Structure development of cosmos-js lib [\#2](https://github.com/cybercongress/js-cosmos/issues/2)
 - Create Crypto Module [\#1](https://github.com/cybercongress/js-cosmos/issues/1)
 
 **Merged pull requests:**
 
+- improve package.json [\#15](https://github.com/cybercongress/js-cosmos/pull/15) ([Jonybang](https://github.com/Jonybang))
 - docs: add SaveTheAles as a contributor [\#13](https://github.com/cybercongress/js-cosmos/pull/13) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add TanNgocDo as a contributor [\#12](https://github.com/cybercongress/js-cosmos/pull/12) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add litvintech as a contributor [\#11](https://github.com/cybercongress/js-cosmos/pull/11) ([allcontributors[bot]](https://github.com/apps/allcontributors))
