@@ -14,6 +14,8 @@
             {{ end }}>Docs</a></li>
         <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
             {{ end }}>Blog</a></li>
+        <li><a href="http://ai.cybercongress.ai/" {{ if or (eq .page.Type "forum") (eq .page.Data.Singular "forum") }}class="current-item"
+          {{ end }}>Forum</a></li>
       </ul>
     </nav>
     {{ if eq .hero "homepage" }}
