@@ -27,6 +27,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   BookMenuBundleCyberd = '/docs/cyberd/menu'
   BookMenuBundleChaingear = '/docs/chaingear/menu'
   BookMenuBundleJsAmino = '/docs/js-amino/menu'
+  BookMenuBundleJsCosmos = '/docs/js-cosmos/menu'
+
   # BookSection = '/docs/cyb'
   BookEnableJS = true
   pygmentsCodeFences = true
