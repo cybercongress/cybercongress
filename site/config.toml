@@ -54,8 +54,3 @@ home = [ "HTML", "RSS", "JSON"]
     languageName = "English"
     languageCode = "en"
     weight = 0
-    [languages.zh-cn]
-    languageName = "中文（中国）"
-    contentDir = "content-i18n/zh-cn"
-    languageCode = "zh-cn"
-    weight = 10
