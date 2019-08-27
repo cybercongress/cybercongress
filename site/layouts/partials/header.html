@@ -12,16 +12,16 @@
         <li><a href="/docs/cyberd/cyberd/"
             {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"
             {{ end }}>Docs</a></li>
-        <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
-            {{ end }}>Blog</a></li>
         <li><a href="http://ai.cybercongress.ai/" {{ if or (eq .page.Type "forum") (eq .page.Data.Singular "forum") }}class="current-item"
           {{ end }}>Forum</a></li>
+        <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
+            {{ end }}>Blog</a></li>
       </ul>
     </nav>
     {{ if eq .hero "homepage" }}
     <div class="hero hero-home">
       <div class="hero-text">
-        <h2 class="headline-main">Cyberd: like google but cyber</h2>
+        <h2 class="headline-main">Cyber: like google but cyber</h2>
         <span class="divider"></span>
         <!-- <div class='time-message'>
           Euler-5 testnet will launch in:
