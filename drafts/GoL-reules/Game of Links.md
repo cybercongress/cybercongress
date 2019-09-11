@@ -17,18 +17,18 @@ With the Game of Links start after 15 days of `Euler-5` launch, we will start tr
 
 The end of the Game will define one of 3 control events happens as a result:
 
-\> 90 days will be passed after the Game start
-\> 500.000 ATOMs well be donated after funding start
-\> Knowledge Graph well be increased by 1B links
+-  90 days will be passed after the Game start
+-  500.000 ATOMs well be donated after funding start
+-  Knowledge Graph well be increased by 1B links
 
 In addition to each requirement we add one more: set of `146` active validators must have lasted at least 10.000 blocks. In another case, the Game would be considered as unsuccessful and restarted.
 
 The Game result and distribution significantly influenced by the Funding results. The following criteria form a basis for payouts in the Game of Links:
 
-\> Uptime summary of every validator: 0 TCYB - 3 TCYB
-\> A load of every participant: 0 TCYB - 3 TCYB
-\> Amount of delegated to validator: 0 TCYB - 3 TCYB
-\> The relevance of links submitted: 0 TCYB - 6 TCYB
+-  Uptime summary of every validator: 0 TCYB - 3 TCYB
+-  A load of every participant: 0 TCYB - 3 TCYB
+-  Amount of delegated to validator: 0 TCYB - 3 TCYB
+-  The relevance of links submitted: 0 TCYB - 6 TCYB
 
 Up to 15 TCYB allocated for different performance indicators during GoL proportionally to donation-based allocation. All remaining CYB allocated to a community pool.
 
@@ -48,10 +48,10 @@ Finally, if your case not listed above you can buy tokens at the Auction. Every 
 
 There are four disciplines for playing in the Game of Links:
 
-\> Uptime summary of every validator
-\> A bandwidth load of every participant
-\> Amount of delegated to validators
-\> The relevance of links submitted
+-  Uptime summary of every validator
+-  A bandwidth load of every participant
+-  Amount of delegated to validators
+-  The relevance of links submitted
 
 There are no limits in disciplines quantity participation. By all means. 
 You can set up your own validator to get a reward for validator's uptime or you can link CIDs  and load network bandwidth. You can create a promotion around your validator and collect stakes from users. You can do all of those things together. Just play and monitor the results. 
