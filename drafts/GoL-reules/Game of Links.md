@@ -5,7 +5,7 @@
 
 ## General provision of the Game.
 
-![](euler-5_timeline.png)
+![lifetime](euler-5_timeline.gif)
 
 We want to reproduce the whole process of mainnet launch in `Euler-5` for testing auction, drop and distribution models. As shown in figure above the Game isn't start with `Euler-5` launch. We want to allow some time to participants of the Game for their funds checking and hardware and software setuping. Also, in that 15-days limb the Gamers can decide on what exactly discipline they want to participate and strategize.
 
