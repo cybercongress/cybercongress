@@ -2,6 +2,17 @@
 
 ## Intro
 
+The `Euler-5` launch and the Game of Links are two integral parts of preparing and testing network before mainnet. 
+
+Challenges: 
+
+- Running stable version of cyberd
+- Testing all features of the network
+- Testing all distribution processes before mainnet
+- Loading knowledge graph with links and CIDs
+- Involving reliable and professional  validators for future mainnet
+- Distributing tokens for early adopters, validators and contributors
+- Funding tokens
 
 ## General provision of the Game.
 
@@ -21,7 +32,9 @@ The end of the Game will define 2 of 3 control events happens as a result:
 -  600,000 ATOMs well be donated after funding start
 -  Knowledge Graph well be increased by 1B links
 
-In addition to each requirement we add one more: set of `146` active validators must have lasted at least 10.000 blocks. In another case, the Game would be considered as unsuccessful and restarted.
+In addition to each requirement we add one more: set of `100` active validators must have lasted at least `10.000` blocks. In another case, the Game would be considered as unsuccessful and restarted.
+The total number of `146` validators is to be noted. This way, the hard requirement is `100` during `10,000` blocks. If we'll achieve more we can open additional bonuses. 
+> ***what kind of bonuses?***
 
 The Game result and distribution significantly influenced by the Funding results. The following criteria form a basis for payouts in the Game of Links:
 
@@ -40,7 +53,7 @@ Also, 5 TCYB allocated to the community pool which can be used during testnet fo
 
 First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **N** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **F** snapshot will get the tokens. For more details welcome to [Genesis generation tool]. Check the drop by importing your Ethereum private key in `cyberd cli`.
 
-Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.3% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
+Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
 
 Finally, if your case not listed above you can buy tokens at the Auction. Every day some percent of tokens will up to the Auction. After daily round tokens will drop to each address participated in the round according to shares of participators. 
 
@@ -75,6 +88,8 @@ Participants, which want to get CYBs in Genesis file of mainnet but cannot play,
 
 After funding, donaters ATOMs rewards supposed according to their shares and timestamp of donating. 
 
+If by any reasons the sum of 600,000 ATOMs couldn't be reached the difference goes to proportionally to congress, investors and inventors. 
+
 > ***more explanations about the plot***
 
 ## More about disciplines
@@ -87,7 +102,7 @@ By following formula calculated each validator reward in the block *k*:
 
 
 ![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
-!
+
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
 
@@ -107,9 +122,11 @@ DesirableNetworkLoad | 2000 * 1000 * LinkCost | how much all users in average ca
 
 This way, you can calculate how much bandwidth you need to spend for, let say link something. You need to pay for the message, for the transaction and multiple it by multiplier:
 
-![reward_formula](http://www.sciweavers.org/tex2img.php?eq=Reward_%7Bk%7D%20%3D%20%20%5Cfrac%7Ballocated%5C%20supply%7D%7B%20%5Csum_1%5En%20%20block_%7Bn%7D%20%20.%20%5Csum_1%5Ek%20%20precommit_%7Bk%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+![](http://www.sciweavers.org/tex2img.php?eq=BandwidthPrice%20%3D%20multiplier%28TxCost%20%2B%20LinkCost%29%20%3D%20%5Cfrac%7BCurrentNetworkLoad%7D%7BDesirableNetworkLoad%7D%283LinkCost%20%2B%20LinkCost%29%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
 
 The `multiplier` value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors. 
+
+> Important! The not valid transaction also consume bandwidth, but we count only bandwidth which used for successful linking.
 
 > ***User's bandwidth calculation according to stake***
 
