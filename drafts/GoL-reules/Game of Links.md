@@ -15,10 +15,10 @@ We want to reproduce the whole process of mainnet launch in `Euler-5` for testin
 
 With the Game of Links start after 15 days of `Euler-5` launch, we will start tracking the progress at the Game monitor and store data. Then, and only then. The monitor will be available at the Brain block explorer by cyberd.ai address. 
 
-The end of the Game will define one of 3 control events happens as a result:
+The end of the Game will define 2 of 3 control events happens as a result:
 
 -  90 days will be passed after the Game start
--  500.000 ATOMs well be donated after funding start
+-  600,000 ATOMs well be donated after funding start
 -  Knowledge Graph well be increased by 1B links
 
 In addition to each requirement we add one more: set of `146` active validators must have lasted at least 10.000 blocks. In another case, the Game would be considered as unsuccessful and restarted.
@@ -62,10 +62,10 @@ The mainnet Genesis file depends on Funding process in `Euler-5`, in particular,
 
 ATOMs donated | % of desireble | LT reward | Load reward | Stake reward | Link reward | 
 --- | --- | --- | --- |--- |--- |
-500,000 | 100 | 3 TCYB | 3 TCYB | 3 TCYB | 6 TCYB |
-400,000 | 80 | 2.4 TCYB | 2.4 TCYB | 2.4 TCYB | 4.8 TCYB |
-200,000 | 40 | 1.2 TCYB | 1.2 TCYB | 1.2 TCYB | 2.4 TCYB |
-100,000 | 20 | 0.6 TCYB | 0.6 TCYB | 0.6 TCYB | 1.2 TCYB |
+600,000 | 100 | 3 TCYB | 3 TCYB | 3 TCYB | 6 TCYB |
+480,000 | 80 | 2.4 TCYB | 2.4 TCYB | 2.4 TCYB | 4.8 TCYB |
+240,000 | 40 | 1.2 TCYB | 1.2 TCYB | 1.2 TCYB | 2.4 TCYB |
+120,000 | 20 | 0.6 TCYB | 0.6 TCYB | 0.6 TCYB | 1.2 TCYB |
 
 Other possible cases calculated the same way. 
 
@@ -85,7 +85,9 @@ After funding, donaters ATOMs rewards supposed according to their shares and tim
 
 By following formula calculated each validator reward in the block *k*:
 
-![reward_formula](http://www.sciweavers.org/tex2img.php?eq=Reward_%7Bk%7D%20%3D%20%20%5Cfrac%7Ballocated%5C%20supply%7D%7B%20%5Csum_1%5En%20%20block_%7Bn%7D%20%20.%20%5Csum_1%5Ek%20%20precommit_%7Bk%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+
+![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+!
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
 
@@ -105,7 +107,7 @@ DesirableNetworkLoad | 2000 * 1000 * LinkCost | how much all users in average ca
 
 This way, you can calculate how much bandwidth you need to spend for, let say link something. You need to pay for the message, for the transaction and multiple it by multiplier:
 
-![](http://www.sciweavers.org/tex2img.php?eq=BandwidthPrice%20%3D%20multiplier%28TxCost%20%2B%20LinkCost%29%20%3D%20%5Cfrac%7BCurrentNetworkLoad%7D%7BDesirableNetworkLoad%7D%283LinkCost%20%2B%20LinkCost%29%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+![reward_formula](http://www.sciweavers.org/tex2img.php?eq=Reward_%7Bk%7D%20%3D%20%20%5Cfrac%7Ballocated%5C%20supply%7D%7B%20%5Csum_1%5En%20%20block_%7Bn%7D%20%20.%20%5Csum_1%5Ek%20%20precommit_%7Bk%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
 
 The `multiplier` value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors. 
 
