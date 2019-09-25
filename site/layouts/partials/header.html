@@ -1,8 +1,8 @@
 <header class="header-has-logo" {{ if eq .page.Params.pagetype "subdoc"}}{{ else }} id="stars" {{ end }}>
   <div class="container cf">
     <h1 class="pull-left logo margin-bottom">
-      <a href="/" class="logo ipfs-logo transition transition-fadeout">cyber•Congress</a>
-      <a href="/"><span class='logo-text'>cyber•Congress</span></a>
+      <a href="/" class="logo ipfs-logo transition transition-fadeout">cyber~Congress</a>
+      <a href="/"><span class='logo-text'>cyber~Congress</span></a>
     </h1>
     <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
       <input id="menu-toggle" type="checkbox" class="menu-toggle">
@@ -12,6 +12,8 @@
         <li><a href="/docs/cyberd/cyberd/"
             {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"
             {{ end }}>Docs</a></li>
+        <li><a href="http://ai.cybercongress.ai/" {{ if or (eq .page.Type "forum") (eq .page.Data.Singular "forum") }}class="current-item"
+          {{ end }}>Forum</a></li>
         <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
             {{ end }}>Blog</a></li>
       </ul>
@@ -19,14 +21,35 @@
     {{ if eq .hero "homepage" }}
     <div class="hero hero-home">
       <div class="hero-text">
-        <h2 class="headline-main">Cyberd: like google but cyber</h2>
+        <h2 class="headline-main">Cyber: like google but cyber</h2>
         <span class="divider"></span>
+        <!-- <div class='time-message'>
+          Euler-5 testnet will launch in:
+        </div> -->
+<!-- 
+<div id="deadline-message" class="deadline-message">
+  Time is up!
+</div> -->
+<!-- <div id="countdown" class="countdown">
+  <div class="countdown-number">
+    <span class="days countdown-time"></span>
+  </div>
+  <div class="countdown-number">
+    <span class="hours countdown-time"></span>
+  </div>
+  <div class="countdown-number">
+    <span class="minutes countdown-time"></span>
+  </div>
+  <div class="countdown-number">
+    <span class="seconds countdown-time"></span>
+  </div>
+</div> -->
         <div class='subhead-last-block'>
           <span class="subhead-main">Testnet <span id='testnet'>euler-</span> at block </span>
           <span class='last-block' id='lastBlock'>0</span>
         </div>
           <a class="button-gravity" href="/docs/cyberd/run_validator/">Become a validator</a>
-          <a class="button-gravity" href="/docs/cyberd/cyberd/">Whitepaper</a>
+          <a class="button-gravity" href="https://github.com/cybercongress/cyber">Whitepaper</a>
       </div>
       <div class='statiscs'>
         <div class='grid-flex-container'>
@@ -81,3 +104,59 @@
     <label>View more</label><a href="#"></a>
   </div>
 </header>
+<!-- <script>
+function getTimeRemaining(endtime) {
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor((t / 1000) % 60);
+    var minutes = Math.floor((t / 1000 / 60) % 60);
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    return {
+      total: t,
+      days: days,
+      hours: hours,
+      minutes: minutes,
+      seconds: seconds
+    };
+  }
+  
+  function initializeClock(id, endtime) {
+    var clock = document.getElementById(id);
+    var daysSpan = clock.querySelector(".days");
+    var hoursSpan = clock.querySelector(".hours");
+    var minutesSpan = clock.querySelector(".minutes");
+    var secondsSpan = clock.querySelector(".seconds");
+  
+    function updateClock() {
+      var t = getTimeRemaining(endtime);
+  
+      if (t.total <= 0) {
+        document.getElementById("countdown").className = "hidden";
+        document.getElementById("deadline-message").className = "visible";
+        clearInterval(timeinterval);
+        return true;
+      }
+  
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+      minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    }
+  
+    updateClock();
+    var timeinterval = setInterval(updateClock, 1000);
+
+  }
+
+  var resultGMT;
+  var offset = new Date().getTimezoneOffset();
+    if(offset<0)
+      resultGMT = "GMT+" + (offset/-60);
+    else
+      resultGMT = "GMT-" + offset/60;
+  
+   var deadline="July 30 2019 12:00:00 "+ resultGMT;  
+  //var deadline = "January 01 2018 00:00:00 GMT+0300"; //for Ukraine
+  // var deadline = new Date(Date.parse(new Date()) + 5 * 1000); // for endless timer
+  initializeClock("countdown", deadline);
+</script> -->

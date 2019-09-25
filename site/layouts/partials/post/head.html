@@ -51,29 +51,10 @@
 <script src="/asciinema/asciinema-player.js"></script>
 <script src="/highlight/highlight.js"></script>
 
-<script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
 <script type="text/javascript">
     var baseurl = "{{.Site.BaseURL}}";
 </script>
 
-<!-- <div class="searchbox">
-      <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
-    </div> -->
-<script type="text/javascript" src="{{"js/lunr.min.js" | relURL}}"></script>
-<script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}"></script>
-<script type="text/javascript" src="{{"js/learn.js" | relURL}}"></script>
-<script type="text/javascript" src="{{"js/search.js" | relURL}}"></script>
-
-<script src="{{"js/clipboard.min.js" | relURL}}"></script>
-
-<script src="{{"js/featherlight.min.js" | relURL}}"></script>
-
-{{if eq .Site.Params.highlightClientSide true}}
-<script src="{{"js/highlight.pack.js" | relURL}}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-{{end}}
-
-<script src="{{(printf "theme-%s/script.js" (.Site.Params.themeStyle| default "flex")) | relURL}}"></script>
 
 <script>hljs.initHighlightingOnLoad()</script>
 {{ template "_internal/google_analytics_async.html" . }}

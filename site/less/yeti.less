@@ -192,6 +192,8 @@ html {
   height: 100%;
 }
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   font-family: 'proxima-nova', helvetica neue, helvetica, arial, sans-serif;
   font-size: 16px;
@@ -287,10 +289,10 @@ sup,
 sub {
   font-size: 12px;
 }
-mark {
-  padding: 3px 5px;
-  background: #ffffb3;
-}
+// mark {
+//   padding: 3px 5px;
+//   background: #ffffb3;
+// }
 blockquote {
   margin: 30px 0;
   padding: 0 15px;
@@ -1350,6 +1352,10 @@ form .message {
   .top-nav ul {
     display: none;
     height: 100vh;
+    
+    .searchbox{
+      display: none;
+    }
   }
   .top-nav ul > li {
     padding: 10px;
