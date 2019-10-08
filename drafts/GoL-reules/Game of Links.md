@@ -6,35 +6,42 @@ The `Euler-5` launch and the Game of Links are two integral parts of preparing a
 
 Challenges: 
 
-- Running stable version of cyberd
+- Running stable version of `cyberd`
 - Testing all features of the network
 - Testing all distribution processes before mainnet
 - Loading knowledge graph with links and CIDs
-- Involving reliable and professional  validators for future mainnet
+- Involving reliable and professional validators for future mainnet
 - Distributing tokens for early adopters, validators and contributors
 - Funding tokens
 
-## General provision of the Game.
+> **! Important**
+> In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
+**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after Euler-5 testnet. 
 
-![lifetime](euler-5_timeline.gif)
+We want to reproduce the whole process of mainnet launch in `Euler-5` for testing cyber~Auction, cyber~Drops and all distribution models.
 
-We want to reproduce the whole process of mainnet launch in `Euler-5` for testing auction, drop and distribution models. As shown in figure above the Game isn't start with `Euler-5` launch. We want to allow some time to participants of the Game for their funds checking and hardware and software setuping. Also, in that 15-days limb the Gamers can decide on what exactly discipline they want to participate and strategize.
+## General provision of the Game
 
-`Euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For new incomers, we'll propose to get CYB tokens at the Auction just for less. In the Auction, newbies can buy CYBs or GOLs for uAtoms and Szabos. 
+![lifetime](euler-5_timeline.png)
 
-> ***Few words about the Auction.***
+As shown in figure above the Game start with `Euler-5` launch and the Game of Thrones auction. 
 
-With the Game of Links start after 15 days of `Euler-5` launch, we will start tracking the progress at the Game monitor and store data. Then, and only then. The monitor will be available at the Brain block explorer by cyberd.ai address. 
+`Euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For new incomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
 
-The end of the Game will define 2 of 3 control events happens as a result:
+> **! Important**
+> In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
+**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after Euler-5 testnet.
+
+The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
 
 -  90 days will be passed after the Game start
 -  600,000 ATOMs well be donated after funding start
--  Knowledge Graph well be increased by 1B links
 
-In addition to each requirement we add one more: set of `100` active validators must have lasted at least `10.000` blocks. In another case, the Game would be considered as unsuccessful and restarted.
-The total number of `146` validators is to be noted. This way, the hard requirement is `100` during `10,000` blocks. If we'll achieve more we can open additional bonuses. 
-> ***what kind of bonuses?***
+After the end of the Funding, we will distribute test EUL tokens for participators of the Funding and the final round of the Game of Links will start. 
+
+At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
+
+> ***Few words about the validators bonus.***
 
 The Game result and distribution significantly influenced by the Funding results. The following criteria form a basis for payouts in the Game of Links:
 
@@ -47,6 +54,10 @@ Up to 15 TCYB allocated for different performance indicators during GoL proporti
 
 Also, 5 TCYB allocated to the community pool which can be used during testnet for experimenting with governance. All governance decisions of testnet will be migrated to mainnet.
 
+One more achieve point we want to propose for validators: if the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 0.5% of total supply mainnet tokens to validators in proportional their stakes. If this amount will increase to 146 under the same conditions we will allocate additional 1% of total supply mainnet tokens to validators in proportional their stakes.
+
+---
+
 ## How to start
 
 **1. Get tokens.**
@@ -56,6 +67,8 @@ First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good 
 Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
 
 Finally, if your case not listed above you can buy tokens at the Auction. Every day some percent of tokens will up to the Auction. After daily round tokens will drop to each address participated in the round according to shares of participators. 
+
+> ***Few words about cyber~Auction and Funding mechanics***
 
 **2. Choose disciplines for playing.**
 
