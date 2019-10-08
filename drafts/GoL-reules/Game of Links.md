@@ -4,15 +4,13 @@
 
 The `Euler-5` launch and the Game of Links are two integral parts of preparing and testing network before mainnet. 
 
-Challenges: 
+Goals: 
 
-- Running stable version of `cyberd`
-- Testing all features of the network
+- Public incentivized testing of `[cyberd](https://github.com/cybercongress/cyberd)` before mainnet
 - Testing all distribution processes before mainnet
-- Loading knowledge graph with links and CIDs
-- Involving reliable and professional validators for future mainnet
-- Distributing tokens for early adopters, validators and contributors
-- Funding tokens
+- Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
+- 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
+- 5% CYB distribution for game participants
 
 > **! Important**
 > In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
@@ -26,7 +24,7 @@ We want to reproduce the whole process of mainnet launch in `Euler-5` for testin
 
 As shown in figure above the Game start with `Euler-5` launch and the Game of Thrones auction. 
 
-`Euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For new incomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
+`Euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For newcomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
 
 > **! Important**
 > In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
