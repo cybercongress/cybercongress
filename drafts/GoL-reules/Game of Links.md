@@ -2,33 +2,33 @@
 
 ## Intro
 
-The `Euler-5` launch and the Game of Links are two integral parts of preparing and testing network before mainnet. 
+The `euler-5` launch and the Game of Links are two integral parts of preparing and testing network before mainnet. 
 
 Goals: 
 
-- Public incentivized testing of `[cyberd](https://github.com/cybercongress/cyberd)` before mainnet
+- Public incentivized testing of `(cyberd)[https://github.com/cybercongress/cyberd]` before mainnet
 - Testing all distribution processes before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
 - 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
 - 5% CYB distribution for game participants
 
 > **! Important**
-> In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
-**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after Euler-5 testnet. 
+> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
+**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet. 
 
-We want to reproduce the whole process of mainnet launch in `Euler-5` for testing cyber~Auction, cyber~Drops and all distribution models.
+We want to reproduce the whole process of mainnet launch in `euler-5` for testing cyber~Auction, cyber~Drops and all distribution models.
 
 ## General provision of the Game
 
 ![lifetime](euler-5_timeline.png)
 
-As shown in figure above the Game start with `Euler-5` launch and the Game of Thrones auction. 
+As shown in figure above the Game start with `euler-5` launch and the Game of Thrones auction. 
 
-`Euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For newcomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
+`euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For newcomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
 
 > **! Important**
-> In Euler-5 testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
-**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after Euler-5 testnet.
+> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
+**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet.
 
 The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
 
