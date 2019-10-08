@@ -6,7 +6,7 @@ The `euler-5` launch and the Game of Links are two integral parts of preparing a
 
 Goals: 
 
-- Public incentivized testing of `(cyberd)[https://github.com/cybercongress/cyberd]` before mainnet
+- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) before mainnet
 - Testing all distribution processes before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
 - 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
