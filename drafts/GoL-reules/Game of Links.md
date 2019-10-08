@@ -41,8 +41,6 @@ After the end of the Funding, we will distribute test EUL tokens for participato
 
 At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
 
-> ***Few words about the validators bonus.***
-
 The Game result and distribution significantly influenced by the Funding results. The following criteria form a basis for payouts in the Game of Links:
 
 -  Uptime summary of every validator: 0 TCYB - 3 TCYB
