@@ -32,7 +32,7 @@ In order to remove confusion here is the comparison table of the names for the s
 
 We believe that such measures will help reduce risks associated with the usage of Aragon contracts, Aragon extensions, cyberd software and multisig accounts involved. Thanks for understanding.
 
-## General provision of the Game
+## Provision of the Game
 
 ![lifetime](euler-5_timeline.png)
 
@@ -54,16 +54,19 @@ After the end of the Funding, we will distribute test EUL tokens for participato
 
 At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
 
-The Game result and distribution significantly influenced by the Funding results. The following criteria form a basis for payouts in the Game of Links:
+## Incentives
 
--  Uptime summary of every validator: 0 TCYB - 3 TCYB
--  A load of every participant: 0 TCYB - 3 TCYB
--  Amount of delegated to validator: 0 TCYB - 3 TCYB
--  The relevance of links submitted: 0 TCYB - 6 TCYB
+The Game result and distribution significantly influenced by the Takeoff funding results. The logic is the follosing: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links:
 
-Up to 15 TCYB allocated for different performance indicators during GoL proportionally to donation-based allocation. All remaining CYB allocated to a community pool.
+- Funding: up to 50 TCYB
+- Uptime of validators: up to 10 TCYB
+- Load of every participant: up to 10 TCYB
+- Amount of delegated to validator: up to 10 TCYB
+- The relevance of links submitted: up to 20 TCYB
 
-Also, 5 TCYB allocated to the community pool which can be used during testnet for experimenting with governance. All governance decisions of testnet will be migrated to mainnet.
+## Community pool
+
+Also, {} TCYB allocated to the community pool which can be used during testnet for experimenting with governance. All governance decisions of testnet will be migrated to mainnet.
 
 One more achieve point we want to propose for validators: if the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 0.5% of total supply mainnet tokens to validators in proportional their stakes. If this amount will increase to 146 under the same conditions we will allocate additional 1% of total supply mainnet tokens to validators in proportional their stakes.
 
