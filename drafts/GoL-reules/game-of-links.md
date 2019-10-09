@@ -20,6 +20,18 @@ In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB
 
 We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with partial rewards depending on curcumstances. In this case we are going to count community opinion though.
 
+In order to remove confusion here is the comparison table of the names for the stuff that will happen.
+
+| during `euler-5` testnet | during `cyber` mainnet |
+| --- | --- |
+| Test of Thrones | Game of Thrones |
+| test\~Auction | cyber\~Auction |
+| GOL token  | THC token |
+| EUL token  | CYB token |
+| Takeoff funding | not applicable|
+
+We believe that such measures will help reduce risks associated with the usage of Aragon contracts, Aragon extensions, cyberd software and multisig accounts involved. Thanks for understanding.
+
 ## General provision of the Game
 
 ![lifetime](euler-5_timeline.png)
