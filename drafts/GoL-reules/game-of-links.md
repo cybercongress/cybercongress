@@ -2,12 +2,11 @@
 
 ## Intro
 
-Game of Links starts with `euler-5` launch and ends when a snapshot of the network is done after the final part of the Game of Links. Based on the snapshot Genesis will be computed independently by every validator who will decide to be a part of Genesis. All disciplines are integral part of preparition and testing network before mainnet. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for establishing quality search results from the inception of the network.
+Game of Links starts with `euler-5` launch and ends when a snapshot of the network is done after the Game of Links Final. Based on the snapshot Genesis of `cyber` network will be computed independently by every validator who will decide to be a part of Genesis. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for getting quality search results from the inception of the network. So all disciplines are integral part of preparition and testing network before mainnet. 
 
 Goals: 
 
-- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) before mainnet
-- Testing all distribution processes before mainnet
+- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) and ethereum contracts before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
 - Up to 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
 - Up to 5% CYB distribution for participants of 4 disciplines depending on how much participants win from cyber•Congress
@@ -43,7 +42,7 @@ As shown in figure above the Game start with `euler-5` launch and the Game of Th
 - allocation to cyber\~Congress
 - validators lifetime rewards from `Euler-4`
 
-For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test~Auction as faucet facilities. We expect that in the test~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
+For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test\~Auction as faucet facilities. We expect that in the test\~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
 
 The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
 
