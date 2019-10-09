@@ -2,7 +2,7 @@
 
 ## Intro
 
-The `euler-5` launch and the Game of Links are two integral parts of preparing and testing network before mainnet. 
+The `euler-5` launch and the Game of Links on top of the network are two integral parts of preparing and testing network before mainnet. We want to test all distribution processes, as well as reach critical adoption of infrustrucutre partcipants ahead of laucnh.
 
 Goals: 
 
@@ -13,10 +13,10 @@ Goals:
 - 5% CYB distribution for game participants
 
 > **! Important**
-> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
-**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet. 
+> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. **EUL** tokens have a value as they serve the basis for rewards calcualtion during the game. **GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet.
 
-We want to reproduce the whole process of mainnet launch in `euler-5` for testing cyber~Auction, cyber~Drops and all distribution models.
+> **! Important**
+> We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with partial rewards depending on curcumstances. In this case we are going to count community opinion though.
 
 ## General provision of the Game
 
