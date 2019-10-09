@@ -2,23 +2,23 @@
 
 ## Intro
 
-The `euler-5` launch and the Game of Links on top of the network are two integral parts of preparing and testing network before mainnet. We want to test all distribution processes, as well as reach critical adoption of infrustrucutre partcipants ahead of laucnh.
+Game of Links starts with `euler-5` launch and ends when a snapshot of the network is done after the final part of the Game of Links. Based on the snapshot Genesis will be computed independently by every validator who will decide to be a part of Genesis. All disciplines are integral part of preparition and testing network before mainnet. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for establishing quality search results from the inception of the network.
 
 Goals: 
 
 - Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) before mainnet
 - Testing all distribution processes before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
-- 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
-- 5% CYB distribution for game participants
+- Up to 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
+- Up to 5% CYB distribution for participants of 4 disciplines depending on how much participants win from cyber•Congress
 
 > **! Important**
 
-In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. EUL tokens have minor value as they serve the basis for rewards calcualtion during the game. GOL tokens have tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
+In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** governmence tokens. EUL tokens have minor value as they serve the basis for rewards calcualtion during the game. GOL tokens have tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with partial rewards depending on curcumstances. In this case we are going to count community opinion though.
+We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on curcumstances. In this case we are going to count community opinion though.
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -34,16 +34,16 @@ We believe that such measures will help reduce risks associated with the usage o
 
 ## Provision of the Game
 
-![lifetime](euler-5_timeline.png)
+![lifetime](https://user-images.githubusercontent.com/410789/66513190-ce836b00-eada-11e9-8451-cc75cd67e935.jpg)
 
 As shown in figure above the Game start with `euler-5` launch and the Game of Thrones auction. 
 
 `euler-5` Genesis file will contain:
-- all drops to Ethereum and Cosmos communities
+- all gifts to Ethereum and Cosmos communities
 - allocation to cyber\~Congress
 - validators lifetime rewards from `Euler-4`
 
-For newcomers, we'll propose to get some EUL tokens during the Test of Thrones test~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
+For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test~Auction as faucet facilities. We expect that in the test~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
 
 The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
 
@@ -54,7 +54,7 @@ After the end of the Funding, we will distribute test EUL tokens for participato
 
 At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
 
-## Incentives
+## Takeoff funding and disciplines incentives
 
 The Game result and distribution significantly influenced by the Takeoff funding results. If 600k ATOM is raised during takeoff round 10% of CYB will be distributed. The logic is the following: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links:
 
