@@ -13,10 +13,12 @@ Goals:
 - 5% CYB distribution for game participants
 
 > **! Important**
-> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. **EUL** tokens have a value as they serve the basis for rewards calcualtion during the game. **GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet.
+
+In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. **EUL** tokens have minor value as they serve the basis for rewards calcualtion during the game. **GOL** tokens have tiny value as they will allow to gain some **EUL** during the game. **GOL** tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. **DO NOT** spend significant funds for buying **GOL** on cyber~Auction and **EUL** over the counter. We'll burn **GOL** after `euler-5` testnet as well as resest accounts in `euler` series of experimental networks.
 
 > **! Important**
-> We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with partial rewards depending on curcumstances. In this case we are going to count community opinion though.
+
+We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with partial rewards depending on curcumstances. In this case we are going to count community opinion though.
 
 ## General provision of the Game
 
