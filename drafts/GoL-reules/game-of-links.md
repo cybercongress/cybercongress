@@ -58,6 +58,8 @@ At this time will come key gamers with significant stakes and make a powerful im
 
 The Game result and distribution significantly influenced by the Takeoff funding results. The logic is the follosing: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links:
 
+![chart](https://user-images.githubusercontent.com/410789/66488241-eb557980-eaad-11e9-856d-4bdc95e18958.png)
+
 - Funding: up to 50 TCYB
 - Uptime of validators: up to 10 TCYB
 - Load of every participant: up to 10 TCYB
