@@ -14,7 +14,7 @@ Goals:
 
 > **! Important**
 
-In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. **EUL** tokens have minor value as they serve the basis for rewards calcualtion during the game. **GOL** tokens have tiny value as they will allow to gain some **EUL** during the game. **GOL** tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. **DO NOT** spend significant funds for buying **GOL** on cyber~Auction and **EUL** over the counter. We'll burn **GOL** after `euler-5` testnet as well as resest accounts in `euler` series of experimental networks.
+In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. EUL tokens have minor value as they serve the basis for rewards calcualtion during the game. GOL tokens have tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
 
 > **! Important**
 
@@ -26,11 +26,12 @@ We can not guaranty that everything will goes as expected. Software can be vulnu
 
 As shown in figure above the Game start with `euler-5` launch and the Game of Thrones auction. 
 
-`euler-5` Genesis file will contain all drops to Ethereum and Cosmos communities. Furthermore,  it will contain validators lifetime rewards from `Euler-4`. For newcomers, we'll propose to get EUL tokens at the cyber~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
+`euler-5` Genesis file will contain:
+- all drops to Ethereum and Cosmos communities
+- allocation to cyber\~Congress
+- validators lifetime rewards from `Euler-4`
 
-> **! Important**
-> In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** government tokens. 
-**GOL** tokens are valueless. **DO NOT** spend significant funds for buying them on cyber~Auction. We'll burn them after `euler-5` testnet.
+For newcomers, we'll propose to get some EUL tokens during the Test of Thrones test~Auction just for less. In the cyber~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
 
 The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
 
