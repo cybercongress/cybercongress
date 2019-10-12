@@ -60,7 +60,7 @@ Takeoff funding has 3 key goals:
 - definition of allocation for seed investment participants
 - definition of monetary allocation to Game of Links participants
 
-The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spend during almost 3 years of development. For that 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence the curve defines allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors get 4% of CYB by the means of THC. If zero amount will be raised seed investors get 10%. The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
+The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spend during almost 3 years of development. For that 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence the curve defines allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised seed investors get 10%. The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
 
 ![funding](funding.jpg)
 
