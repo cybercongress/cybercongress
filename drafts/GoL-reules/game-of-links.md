@@ -6,7 +6,7 @@ Game of Links starts with `euler-5` launch and ends when a snapshot of the netwo
 
 Goals: 
 
-- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) and ethereum contracts before mainnet
+- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) and [ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
 - Up to 5% CYB distribution for professional validators who will participate in pregenesis round in ATOMs
 - Up to 5% CYB distribution for participants of 4 disciplines depending on how much participants win from cyber•Congress
@@ -128,13 +128,11 @@ If by any reasons the sum of 600,000 ATOMs couldn't be reached the difference go
 
 By following formula calculated each validator reward in the block *k*:
 
-
 ![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
-
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
 
-For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 500,000 ATOMs on the Auction you will get `3 TCYB / 146  = 20.55 GCYBs` in the Genesis file of mainnet. 
+For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 500,000 ATOMs on the Auction you will get `3 TCYB / 146  = 20.55 GCYBs` in the Genesis file of mainnet.
 
 **A bandwidth load of every participant.** Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions. The main goal of that model is to reduce daily network growth to given constant. 
 
@@ -143,7 +141,7 @@ Each message type has assigned bandwidth cost. You can see it in the table below
 Paramtre | % of desireble | LT reward | 
 --- | --- | --- | 
 MinimumPriceMultiplier | 0.01 | minimum price number (1 means normal price) | 
-LinkCost | 100 | link message cost | 
+LinkCost | 100 | link message cost |
 NonLinkCost | 5 * LinkCost | non link message cost (send, f.e.) |
 TxCost | 3 * LinkCost | tx cost | 
 DesirableNetworkLoad | 2000 * 1000 * LinkCost | how much all users in average can spend for recover period (24h)
