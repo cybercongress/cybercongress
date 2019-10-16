@@ -8,7 +8,7 @@
         if newer versions are available.  However, it is commented out as Hugo's build process fails if
         the remote resource is not found, so it needs https://dimakorzhovnik.github.io/cybercongress/index.json to be accessible
         before it can be used.-->
-        {{ $dataJ := getJSON "https://cybercongress.ai/index.json" }}
+        {{ $dataJ := getJSON "https://cybercongress.ai/post/index.json" }}
         {{ range $dataJ.posts }}
         <li><span class="date">{{ .date }}</span> <a href="{{ .url }}">{{ .title }}</a></li>
         {{ end }}
