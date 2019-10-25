@@ -33,7 +33,7 @@ We believe that such measures will help reduce risks associated with the usage o
 
 ## Provision of the Game
 
-![lifetime](https://user-images.githubusercontent.com/410789/66513190-ce836b00-eada-11e9-8451-cc75cd67e935.jpg)
+![lifetime](e5-workflow_v1.png)
 
 As shown in figure above the Game start with `euler-5` launch and the Game of Thrones auction.
 
