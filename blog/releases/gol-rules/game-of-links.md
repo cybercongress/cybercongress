@@ -66,9 +66,7 @@ The development of the project has been done thanks to investments of 8 people. 
 
 Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves.
 
-The Game result and distribution significantly influenced by the Takeoff funding results. If 600k ATOM is raised during takeoff round 10% of CYB will be distributed. The logic is the following: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links:
-
-Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves. The relationship between donated ATOMs and percentage of CYBs allocated you can see below:
+The Game result and distribution significantly influenced by the Takeoff funding results. If 600k ATOM is raised during takeoff round 10% of CYB will be distributed. The logic is the following: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links
 
 ![game-of-links-distribution](https://user-images.githubusercontent.com/410789/66488352-0fb15600-eaae-11e9-947d-5b7a52b1cdd6.png)
 
