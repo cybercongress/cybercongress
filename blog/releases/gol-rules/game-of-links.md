@@ -8,16 +8,16 @@ Goals:
 
 - Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) and [ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
-- Up to 5% CYB distribution for professional validators who will participate in pre-genesis takeoff funding in ATOMs
-- Up to 5% CYB distribution for participants of 4 disciplines depending on how much participants win from cyber•Congress
+- Up to 6% CYB distribution for professional validators who will participate in pre-genesis takeoff funding depending on the amount of donated ATOMs
+- Up to 4% CYB distribution for participants of 6 disciplines depending on how much participants win from cyber•Congress
 
 > **! Important**
 
-In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** governmence tokens. EUL tokens have minor value as they serve the basis for rewards calcualtion during the game. GOL tokens have tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
+In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** governmence tokens. EUL tokens have minor value as they serve the basis for rewards calculation during the game. GOL tokens have also tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnurable. So if something goes wrong cyber•Congress as organzer **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on curcumstances. In this case we are going to count community opinion though.
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully launch protocol in which we defined the rules of faults handling.
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -29,7 +29,7 @@ In order to remove confusion here is the comparison table of the names for the s
 | EUL token  | CYB token |
 | Takeoff funding | not applicable|
 
-We believe that such measures will help reduce risks associated with the usage of Aragon contracts, Aragon extensions, cyberd software and multisig accounts involved. Thanks for understanding.
+We believe that such measures will help reduce risks associated with the usage of Aragon contracts, Aragon plugins, cyberd software and multisig accounts involved. Thanks for understanding.
 
 ## Provision of the Game
 
@@ -60,7 +60,7 @@ Takeoff funding has 3 key goals:
 - definition of allocation for seed investment participants
 - definition of monetary allocation to Game of Links participants
 
-The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spend during almost 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence the curve defines allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised seed investors get 10%. The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
+The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spend during almost 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence the funding round curve defines allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised seed investors get 9.7% (10% minus community pool allocation). The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
 
 ![funding](funding.jpg)
 
@@ -70,23 +70,22 @@ The Game result and distribution significantly influenced by the Takeoff funding
 
 ![game-of-links-distribution](https://user-images.githubusercontent.com/410789/66488352-0fb15600-eaae-11e9-947d-5b7a52b1cdd6.png)
 
-- Funding: up to 50 TCYB
-- Uptime of validators: up to 10 TCYB
-- Load of every participant: up to 10 TCYB
-- Amount of delegated to validator: up to 10 TCYB
+- Funding: up to 60 TCYB
 - The relevance of links submitted: up to 20 TCYB
+- Load of every participant: up to 10 TCYB
+- Uptime of validators: up to 5 TCYB
+- Full validator set: 7 TCYB
+- Amount of delegated to validator: up to 5 TCYB
+- Community pool: 3 TCYB
 
 ## Community pool
 
-Also, {} TCYB allocated to the community pool which can be used during testnet for experimenting with governance. All governance decisions of testnet will be migrated to mainnet.
+3 TCYB allocated to the community pool both in euler-5 and cyber networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
 
-One more achieve point we want to propose for validators: if the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 0.5% of total supply mainnet tokens to validators in proportional their stakes. If this amount will increase to 146 under the same conditions we will allocate additional 1% of total supply mainnet tokens to validators in proportional their stakes.
+## Full validator set
+If the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 2 TCYB to validators who take part in genesis evenly. If this amount will increase to 146 under the same conditions we will allocate additional 5 TCYB.
 
----
-
-## How to start
-
-**1. Get tokens.**
+## Get tokens
 
 First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **N** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **F** snapshot will get the tokens. For more details welcome to [Genesis generation tool]. Check the drop by importing your Ethereum private key in `cyberd cli`.
 
@@ -96,7 +95,7 @@ Finally, if your case not listed above you can buy tokens at the Auction. Every 
 
 > ***Few words about cyber~Auction and Funding mechanics***
 
-**2. Choose disciplines for playing.**
+## Choose disciplines for playing
 
 There are four disciplines for playing in the Game of Links:
 
@@ -108,7 +107,7 @@ There are four disciplines for playing in the Game of Links:
 There are no limits in disciplines quantity participation. By all means.
 You can set up your own validator to get a reward for validator's uptime or you can link CIDs  and load network bandwidth. You can create a promotion around your validator and collect stakes from users. You can do all of those things together. Just play and monitor the results.
 
-**3. Monitor funding process.**
+## Monitor funding process
 
 The mainnet Genesis file depends on Funding process in `Euler-5`, in particular, how many tokens will allocate for the Game of Links results. Here is an example table of possible results of funding process:
 
@@ -122,16 +121,15 @@ ATOMs donated | % of desireble | LT reward | Load reward | Stake reward | Link r
 Other possible cases calculated the same way.
 
 
-
 After funding, donaters ATOMs rewards supposed according to their shares and timestamp of donating.
 
 If by any reasons the sum of 600,000 ATOMs couldn't be reached the difference goes to proportionally to congress, investors and inventors.
 
 > ***more explanations about the plot***
 
-## More about disciplines
+## Lifetime summary of every validator
 
-**Uptime summary of every validator.** The easiest discipline. You need just set up your validator and monitor its lifetime. The lifetime means validators blocks precommits.
+The easiest discipline. You need just set up your validator and monitor its lifetime. The lifetime means validators blocks precommits.
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
@@ -143,7 +141,9 @@ We need to divide the allocated supply to the sum of blocks in the Game period a
 
 For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 500,000 ATOMs on the Auction you will get `3 TCYB / 146  = 20.55 GCYBs` in the Genesis file of mainnet.
 
-**A bandwidth load of every participant.** Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions. The main goal of that model is to reduce daily network growth to given constant.
+## Load
+
+Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions. The main goal of that model is to reduce daily network growth to given constant.
 
 Each message type has assigned bandwidth cost. You can see it in the table below:
 
@@ -169,7 +169,9 @@ Thus, with the Game start, we'll start tracking bandwidth spent per account and 
 
 **Amount of delegated to validators.** Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate from 0 to 3 TCYBs of Genesis mainnet supply proportionally staked tokens on validators at the last block in the Game.
 
-**The relevance of links submitted.** The most interesting part of the Game. We need to load the knowledge graph with relevant links. By relevant links means whole domains of content and knowledge as like science papers, blogs, knowledgebases and so on.
+## The relevance of links submitted
+
+The most interesting part of the Game. We need to load the knowledge graph with relevant links. By relevant links means whole domains of content and knowledge as like science papers, blogs, knowledgebases and so on.
 
 Users can link everything that they believe important for the future web.
 
