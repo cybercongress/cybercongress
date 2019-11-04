@@ -21,19 +21,19 @@
 
 ## Freetime
 - 30%
-- Validators: running, code sharing,, knowledge exchange
-- Ecosystem projects: advizing, vc, any support
+- Validators: running, code sharing, knowledge exchange
+- Ecosystem projects: advising, VC, any support
 
 ## Ecosystem fund
-- Raized from teammembers
+- Raized from team members
 - 3of5
 - @serejandmyself
 
 ## Proposals
-- Any memeber of the team can create proposals
+- Any member of the team can create proposals
 
 ## Teams
-- Teams compete for available resources supposing even split at start
+- Teams compete for available resources supposing even split at the start
 - cyber: @litvintech
 - cyb: @xhipster
 - ecosystem: @serejandmyself
