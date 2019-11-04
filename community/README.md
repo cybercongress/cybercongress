@@ -1,28 +1,28 @@
-# Lyrics
+# Small talk
 
-If we want to live in a better world, we need to help our communities be happy and sustainable. Learn how to to help each other with best practices from open source communities that exist for decades, share our expertise in consensus technology and market gameplay, do events, projects, experiments, funding and random acts of good will to change the world to be a better place than we've found it.
+If we want to live in a better world we need to help our communities to become happy and sustainable. We need to learn how to to help each other. A good place to start is to use the best practices that have existed for decades and derived from open-source communities. We can share our expertise in consensus technology and market gameplay. Make events,  do projects,  run experiments, funding and random acts of goodwill to change the world to become a better place than the state we've found it in.
 
-We welcome all people, and most passionate if you believe that blockchain is changing the world, that free and open source technologies need to supported, that economics need alternative gameplay rulesets to support our real and virtual infrastructure.
+We welcome all species. We are most passionate if you believe that blockchain is changing the world. That free and open-source technology needs to be supported. That economies require an alternative gameplaying ruleset, to support our real and our virtual infrastructure.
 
 # Gitcoin
 
-As an opensource development team we want to use gitcoin.co service with our projects. Here we propose processes of gitcoin using.
+As an opensource development team, we want to use [gitcoin.co](https://gitcoin.co/) within our projects. We propose the following process for using gitcoin:
 
 ![BP diagramm](https://github.com/cybercongress/congress/blob/master/community/bp_diagramm.svg)
 
-Every sprint we allocate amount of ETH and distribute it for a team to active using gitcoin.
+Every sprint we allocate a certain amount of ETH and distribute it between the team to actively use gitcoin.
 
-> For our first attempt of using this service we distribute 1 ETH for each member.
+> For our first attempt to use this service, we distributed 1 ETH to each member
 
-At the next sprints we want to forecasting general amount of ETH what we want to distribute. Also we'll calculate weighting factors in dependence with issues what prepared to gitcoin push.
+During the next sprints we want to forecast the total amount of ETH that we want to distribute. Also, we'll be calculating the weighting factors, depending on issues prepared for a gitcoin push.
 
 ![Calculating](https://github.com/cybercongress/congress/blob/master/community/eth_calc.gif)
 
 where:
-- Em it's ETH per team member to gitcoin push ;
-- Ipr it's issues prepared by member at current sprint to gitcoin push ;
-- Iall it's all issues prepared to gitcoin at current sprint ;
-- Eall it's ETH for team to gitcoin using.
+- `Em` is the ETH per team member for a gitcoin push 
+- `Ipr` are issues prepared by a member at the current sprint for a gitcoin push 
+- `Iall` are all the issues prepared for gitcoin during the current sprint 
+- `Eall` is the ETH for the team for using gitcoin
 
 
-This is not the final decision. We're stay growing. We'll planned use smart contracts to cover and automate "Gitcoin fund".
+This is not the final version of this document. We're constantly growing. We plan using smart contracts to cover and to automate the "Gitcoin fund".
