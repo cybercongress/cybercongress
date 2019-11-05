@@ -1,10 +1,10 @@
-# Scientific foundations of cybernomics
+# The scientific foundation of cybernomics
 
-The library is work in progress and hopefully lay the foundation of cyber•Congress R&D activities.
+The library is a work in progress and hopefully will lay the foundation of R&D activities for cyber~Congress.
 
 ## Independent robotics section
 
-#### Robonomics: platform for integration of cyber physical systems into human economy  
+#### Robonomics: a platform for integration of cyber-physical systems into human economy  
 *For engineers, smart cities and Industry 4.0 creators*  
 *by Sergey Lonshakov, Aleksandr Krupenkin, Aleksandr Kapitonov PhD, Evgeny Radchenko, Alisher Khassanov, Aleksandr Starostin*
 
@@ -12,7 +12,7 @@ The library is work in progress and hopefully lay the foundation of cyber•Cong
 dura://QmUQCBPr3xvCbqwHjXnDFdcva99pfUjWmXtfWJ1KoxTusF.ipfs
 ```
 
-#### Robot Economics Doctrine
+#### Robot economics doctrine
 
 ```
 dura://QmXBAX5cgmc5E9TTjWQiKqJmoA6tYf8QdeRLJ8wg5zFqHJ.ipfs
@@ -75,7 +75,7 @@ dura://QmVN9HpmymDH4ZLxQxcSjRi4UqrWeUZ2mfjjvVbrdDG2Nz.ipfs
 dura://QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6.ipfs
 ```
 
-#### Solana: A new architecture for a high performance blockchain v0.8.12
+#### Solana: A new architecture for a high-performance blockchain v0.8.12
 *by Anatoly Yakovenko*  
 
 ```
@@ -98,7 +98,7 @@ dura://QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb.ipfs
 
 
 ## Copyrights
-Cybernomics respects freedom of information in comparison with scattered copyright laws. But cybernomics respect will of authors. If you an author and would like to delete the file from this library just pull the request.
+Cybernomics respects freedom of information, in comparison to the scattered copyright laws. Cybernomics also respects the will of authors. If you are an author and would like to delete a file from this library - just make an appropriate pull request.
 
 ## Contributing
-There are no strict rules for contributing yet. Just make pull request if you believe that the work is of paramount importance to cybernomics
+There are no strict rules for contributing. Make a pull request if you believe that a work/paper is of paramount importance to cybernomics
