@@ -1,8 +1,8 @@
-# cyber~Ecosytem
-
-<div style="text-align:center">
- <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
-</div>
+# cyber~Ecosytem 
+ 
+ <p align="center">
+  <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
+</p>
 
 ### cyber~Ecosystem is working towards a common goal: to build a better and a unique new web - the Great Web
 
