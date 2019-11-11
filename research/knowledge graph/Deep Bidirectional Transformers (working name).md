@@ -57,7 +57,7 @@ the possibility that new graphs must be built to achieve this implementation - p
 ### Definition of Done
 My presumption that a definition of "done" in this case would contain 2 steps:
 1) A research document, backed by evidence such as mathematical proofs, some illustration and references to other research
-2) A pull request that offers an implementation of the above research into the cyber protocol
+2) A pull request that offers an implementation of the above research into a seperate crawler repository 
 
 ### Additional Information
 I believe that the following links might come useful:
