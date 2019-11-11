@@ -33,19 +33,16 @@ information, beings can build models / make decisions / ask questions / receive 
 The task can be broken into two parts (1) the research and (2) the implementation. <br><br>
 <b>1)</b> The research should contain some (or all) of the answers to some of the following statements/questions: <br>
 <i>(the research must contain solid proofs and references to previous scientific work)</i> 
-- Describe the current use case and the modern outlook of semantics created by Google (and other custodial and non-custodial implementations)
-- Discuss the use (misuse/abuse, etc) of hardware in the creation of modern digital semantics
+- Describe the current use case and the modern outlook of semantic core created by Google
 - Propose distributed alternatives and their advantages
-- Analyze the depths that semantics are touching on (quantum /physical/others)
+- Analyze the depths that semantics are touching on (quantum/physical/others)
 - Discuss the creation and the possible implementations of the new metaverse
-- Compare the behaviour of possible agents in the new metaverse
+- Analize the behaviour of possible agents in the new metaverse
 - Describe how the new agents can complement to the already existing semantics
 - Discuss the possible creation of (completely) new types of agents
-- Describe how can semantic tunnelling be implemented into the protocol 
+- Describe how can semantic tunnelling aka Inter Knowledge Protocol can be implemented into the protocol 
 - Discuss whether or not future implementations can be based on neurological implementations
-- Illustrate different ML algorithms that can help to implement the above described
-- Compare their advantages and disadvantages
-- Possibly compare distributed and non-distributed advantages of such algorithms
+- Analisis of  ML algorithms that can help to implement the above described
 - Discuss the future outlook of knowledge graphs implemented by new types of agents / their semantics
 
 <b>2)</b> The implementation can have other alternatives, but this is how we see it at the current stage:<br>
