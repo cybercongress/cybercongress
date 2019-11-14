@@ -1,4 +1,6 @@
-## cyber~Ecosystem development paper
+**WORK IN PROGRESS. PLEASE USE WITH A PINCH OF SALT IF YOU SEE THIS MESSAGE**
+
+## cyber~Ecosystem development paper 
 
 ### Abstract
 This paper shall propose a view on the development of cyber~Ecosystem, describe what it is, what are its goals, values and participants. 
