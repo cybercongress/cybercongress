@@ -1,7 +1,8 @@
 ## Community folder
 
-This folder is for any future discussions about community related features:
+This folder is for any future discussions about ally community related features:
 - Grants
 - Proposals
 - Drops
-- Workflow
+- Partenrships
+- Gifts
