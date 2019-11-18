@@ -10,7 +10,7 @@ It is always difficult to create sub-papers, hence, I would like to propose of a
 cyber~Ecosystem is everything that wraps the unwrapped. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications. First, it will do its work manually, but its goal is to automate as much of the work as possible with the help of the future Aragon DAO and the future abilities of Cyber chain. It will also create cyber ~FundClassic to help onboarding hackers, researchers and users. 
 
 ## Content and document workflow
-In this document, I propose to separately describe each of the combining blocks of cyber~Ecosystem in detail and discuss the possible metrics to measure their usefulness and total growth. Describe the role of cyber~Congress and conclude with a visions statement. 
+In this document, I propose to separately describe each of the combining blocks of cyber~ Ecosystem in detail and discuss the possible metrics to measure their usefulness and total growth. Describe the role of cyber~Congress and conclude with a visions statement. 
 
 I will be adding to these blocks and adding more blocks, as time progresses. 
 
