@@ -39,6 +39,7 @@ essentially create a connection between Urbit and Cyber. At a very basic version
 - View their balance 
 - Manage their keys 
 - Send and receive CYB tokens (sign transactions)
+- Allow remote procedure calls, such as viewing block info
 - Create cyberlinks (please see our paper)
 - Be able to upload an [IPFS](https://ipfs.io/) hash from Urbit
 
@@ -48,8 +49,8 @@ Wrap any other calls that will be available. At a very later stage - participate
 
 The grant system at Urbit is usually funded by Tlon, the company that develops Urbit. We propose to fund the project ourselves
 (if Tlon decides to add to our funding, we will be glad, as we believe that our idea benefits both projects) with the following:
-- A liquid payment of XX ETH
-- A stake in Cyber in CYB Tokens equals to: XX CYB
+- A liquid payment of 1500$ in ETH to the day of payment
+- A stake in Cyber in CYB Tokens equals to: 1.5 GCYB
 
 The proposal should and will include:
 - A short background story, explaining what is needed to be created, referencing to this post
@@ -60,9 +61,8 @@ The proposal should and will include:
 
 We assume that the work on such a solution should take between 1 - 3 weeks. The hack should be:
 - 100% open-source 
-- Should be submitted as a PR into a separate repo on our GitHub (?)
-- Should be reviewed by Tlon (?)
-- ANYTHING ELSE (?)
+- Should be submitted as a PR into a separate repo on our GitHub 
+- Should be reviewed by Tlon 
 
 ### Why would this be beneficial to both projects
 I think the benefit to Cyber is obvious, hence there is no need to describe it (however it is pretty much similar to Urbits benefit). Our vision and reasons behind this can be found in the above part of this document "But why Urbit". <br>
