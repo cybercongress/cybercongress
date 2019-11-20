@@ -1,4 +1,4 @@
-**Work in progress, please do not take information in this document for granted if you can see this message (you can help to contribute via an issue or a PR)** 
+**Work in progress (you can help to contribute via an issue or a PR)** 
 
 ### TL;DR
 
