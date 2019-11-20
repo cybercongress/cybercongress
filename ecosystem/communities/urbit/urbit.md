@@ -49,8 +49,8 @@ Wrap any other calls that will be available. At a very later stage - participate
 
 The grant system at Urbit is usually funded by Tlon, the company that develops Urbit. We propose to fund the project ourselves
 (if Tlon decides to add to our funding, we will be glad, as we believe that our idea benefits both projects) with the following:
-- A liquid payment of 1500$ in ETH to the day of payment
-- A stake in Cyber in CYB Tokens equals to: 1.5 GCYB
+- A liquid payment of 1500$ in ETH to the day of payment (to be payed out upon completion of the task)
+- A stake in Cyber in CYB Tokens equals to: 1.5 GCYB (to be payed out after the launch of the mainnet)
 
 The proposal should and will include:
 - A short background story, explaining what is needed to be created, referencing to this post
