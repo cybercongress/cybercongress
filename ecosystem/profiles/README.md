@@ -40,3 +40,5 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 - [Cosmos awesome list](https://github.com/cosmos/awesome)
 
 - [Cosmonauts World website](https://cosmonauts.world/)
+
+- [Subreddit](https://www.reddit.com/r/cybercongress/)
