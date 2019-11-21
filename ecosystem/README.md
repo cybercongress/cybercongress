@@ -11,7 +11,7 @@
 [![gitcoin](https://img.shields.io/badge/Join%20Us%20On-Gitcoin-2599D2.svg?style=flat-square)](https://t.me/fuckgoogle)
 [![twitter](https://img.shields.io/twitter/follow/cyber_devs?label=Follow)](https://twitter.com/@cyber_devs)
 
-### This repository will run publicly to help coordinate collaboration efforts, create communities and develop cyber altogether.
+### This repository will run publicly to help coordinate collaboration efforts, create communities and develop cyber altogether
 
 The coordination of efforts will include: 
 - helping to create a validator pool
@@ -25,7 +25,13 @@ The coordination of efforts will include:
 - creating useful and unique documentation
 - working towards a common goal
 
-## Issues, contributing and Gitcoin program
+### Some important links
+
+- [Protocol White Paper](https://github.com/cybercongress/cyber/blob/master/main.tex)
+- [cyber~Ecosystem paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
+- [cyber~Usecases](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md)
+
+### Issues, contributing and Gitcoin program
 
 If you wish to contribute to cyber~Ecosystem, please open an [issue](https://github.com/cybercongress/congress/issues).
 Large or small: we are always thrilled to receive pull requests and do our best to process them as fast as we can. You can find detailed information in our [contribution guide](https://github.com/cybercongress/congress/blob/12b3fd490276f06ec66d4b82ea346889ecec2179/.github/CONTRIBUTING.md).
@@ -35,14 +41,14 @@ We want to reward you for your contributions! We constantly fund our issues on [
  <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
 </a>
 
-## cyber~Ecosystem is backed by [the following philosophy, please check out our goals and values](https://github.com/cybercongress/congress)
+### cyber~Ecosystem is backed by [the following philosophy](https://github.com/cybercongress/congress)), please check out our goals and values
 
-## License
+### License
 
 Cyber License: Don’t believe, don’t fear, don’t ask.
 
 We will be happy if you fork and launch your own network, copy repositories, take our ideas and so on. Eventually, we will meet each other with the help of IBC.
 
-## Let's #fuckgoogle together
+### Let's #fuckgoogle together
 
 Don't ask: `cyber`
