@@ -41,7 +41,7 @@ We want to reward you for your contributions! We constantly fund our issues on [
  <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
 </a>
 
-### cyber~Ecosystem is backed by [the following philosophy](https://github.com/cybercongress/congress)), please check out our goals and values
+### cyber~Ecosystem is backed by [the following philosophy](https://github.com/cybercongress/congress), please check out our goals and values
 
 ### License
 
