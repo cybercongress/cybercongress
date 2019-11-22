@@ -1,6 +1,6 @@
 
-const nodeUrl ='https://herzner1.cybernode.ai/api';
-const wsUrl= 'wss://herzner1.cybernode.ai/websocket';
+const nodeUrl ='https://titan.cybernode.ai/api';
+const wsUrl= 'wss://titan.cybernode.ai/websocket';
 
 
 
@@ -24,42 +24,16 @@ async function fetchAsync (url) {
   getStatistics = () => new Promise((resolve) => {
     
     const indexStatsPromise = fetchAsync (`${nodeUrl}/index_stats`);
-    const stakingPromise = fetchAsync (`${nodeUrl}/staking/pool`);
-    const bandwidthPricePromise = fetchAsync (`${nodeUrl}/current_bandwidth_price`);
-    const latestBlockPromise = fetchAsync (`${nodeUrl}/block`);
-    const validatorsPromise = fetchAsync (`${nodeUrl}/staking/validators`);
-    const statusPromise = fetchAsync (`${nodeUrl}/status`);
 
-
-
-
-      Promise.all([indexStatsPromise, stakingPromise, bandwidthPricePromise, latestBlockPromise, validatorsPromise, statusPromise])
-          .then(([indexStats, staking, bandwidthPrice, latestBlock, validators, status]) => {
+      Promise.all([indexStatsPromise])
+          .then(([indexStats]) => {
               const response = {
                  ...indexStats,
-                 notBondedTokens: staking.not_bonded_tokens,
-                 bondedTokens: staking.bonded_tokens,
-                 price: bandwidthPrice.price,
-                 txCount: latestBlock.block_meta.header.total_txs,
-                 validatorsActive: validators,
-                 testnet: status.node_info.network,
-
               };
               const links = +response.linksCount
               const cids = +response.cidsCount
               const account = +response.accsCount;
 
-              const bondedTokens = +response.bondedTokens;
-              const notBondedTokens = +response.notBondedTokens;
-      
-              const totalCyb = bondedTokens + notBondedTokens;
-              const stakedCyb = (bondedTokens / totalCyb * 100).toFixed(0);
-              const linkPrice = (400 * +response.price).toFixed(0);
-            
-              const activeValidatorsCount = validators
-              .filter(validator => !validator.jailed)
-              .length;
-              const txCount = +response.txCount;
               const lastBlock = +response.height;
 
               const nameTestnet = response.testnet;
