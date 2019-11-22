@@ -24,11 +24,17 @@ async function fetchAsync (url) {
   getStatistics = () => new Promise((resolve) => {
     
     const indexStatsPromise = fetchAsync (`${nodeUrl}/index_stats`);
+    const statusPromise = fetchAsync (`${nodeUrl}/status`);
 
-      Promise.all([indexStatsPromise])
-          .then(([indexStats]) => {
+
+
+
+      Promise.all([indexStatsPromise, statusPromise])
+          .then(([indexStats, status]) => {
               const response = {
                  ...indexStats,
+                 testnet: status.node_info.network,
+
               };
               const links = +response.linksCount
               const cids = +response.cidsCount
