@@ -42,3 +42,5 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 - [Cosmonauts World website](https://cosmonauts.world/)
 
 - [Subreddit](https://www.reddit.com/r/cybercongress/)
+
+- [IPFS discuss](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786)
