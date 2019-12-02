@@ -42,6 +42,16 @@ keybase = "dimakorzhovnik"
 ipfs = "QmciKaXo9bSF3BsV2JLponqmrWqbvGiw5qEG6epQsRKFTA"
 cyber = "cyber177gvvqtn7xl8qvl6yw4vax9raz80fx66aukc94"
 
+[mrlp4]
+name = "Kirill Laptanovich"
+gitcoin = "0x3a9D2CC504F6d937AdA7f8c8C39BD8D047623584"
+payouts = "0x3a9D2CC504F6d937AdA7f8c8C39BD8D047623584"
+github = "mrlp4"
+telegram = "mrlp4"
+keybase = "mrlp4"
+ipfs = "QmW8Uc5mjwALiCsUUE1uSiykaGMxt9dv5qyB9gdpLhPYnu"
+cyber = "cyber1t0hmc79ht0qja92p6qgxn3ee3a3rzqutgxcvhw"
+
 [serejandmyself]
 name = "Sergey Simanovsky"
 gitcoin = "0x4fd54cd3c329113e0759b52A666Ba2ac1bF4f917"
