@@ -46,9 +46,13 @@ Because we are almost done with post-industrialism. We are slowly and surely mov
 There probably are. But we decided to focus on this because we believe that we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). We believe that our tool can help to play a role in solving if not all, but some of these.
 
 ### Aren't there other things out there that solve all of this?
+We believe that there is a lot of awesome, open-source technology on the market that can commit to making a change in the world. In fact, most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our product is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what we think is broken.
 
 ### What are distributed technologies?
 Distributed technologies are technologies that do not have a central source of power in terms of computing. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
+
+### What is a blockchain
+A blockchain is a distributed ledger into which independent participants write, and read from it information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background.
 
 ### What is web3?
 Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web. 
@@ -62,6 +66,7 @@ IPFS helps to further distribute the web amongst peers (users). It enables const
 A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file. I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
 
 ### What is a Merkle tree?
+A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
 
 ### What is a consensus computer?
 A consensus in computing refers to the process of different computers coming to an agreement on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifacllay and solely for that purpose). 
@@ -93,6 +98,7 @@ You might be surprised to learn that our ranking mechanism is based on no other,
 Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudos (fake) identities to gain influence for himself.
 
 ### What's a token?
+A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in a number of ways and there can be more than one token on one ledger. 
 
 ### What is a transaction?
 In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
@@ -123,10 +129,24 @@ Someone who ranks content with a higher value will see his content ranked higher
 With that, the search is dynamic. The rank of the content is NOT based in that way that older content disappears just because the new content is cooler or Visa-Versa. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
 
 ### What's bandwidth?
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I am able to move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwith in IT relates to information and the ability to pass a certain amount of data from one place to another. 
+
+In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
 
 ### Why search?
+Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
 
 ### Who are validators?
+The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in goverance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+
+### Who are delegators?
+Delegators are usees that delegate their tokens to validators to participate in receiving staking reards. For this validators might charge commission. 
+
+### What is staking?
+Staking is the process of "locking" your tokens to receive rewards.
+
+### What is the purpose of staking?
+The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
 
 ### Who can become one?
 
