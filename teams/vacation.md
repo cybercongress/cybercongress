@@ -1,14 +1,14 @@
 # Vacation policy 
 
-Every team member can make a proposal for vacation. The only main rule is to warn team mates about abscence before sprint planning.
+Every team member can propose a vacation. The only rule is to warn other teammates about absence before a sprint is planned.
 
-Algorithm for vacation proposal is very simple and shall not take more than 5 minutes:
+The algorithm for proposing a vacation is very simple, and should not take over 5 minutes:
 
-1. Open a proposal for vacation [here](https://github.com/cybercongress/cyb/issues/new/choose)
-2. Enter all needed information according to template
-3. Assign congress members for review. This guys can advice you how your activities can be delegated or freezed
-4. Add your vacation to calendar and encode it using the following colors:
-- tomato: is offline
+1. Open a proposal for a vacation [here](https://github.com/cybercongress/cyb/issues/new/choose)
+2. Enter all the needed information according to the template
+3. Assign congress members for a review. They will be able to advise you on your activities, whether they can be delegated or frozen for the duration of the vacation
+4. Add your vacation to the calendar and encode it using the following colours:
+- tomato: offline
 - tangerine: available for emergency cases only
-- banana: available part time
-- basil: out of office but accesable as usually
+- banana: available part-time
+- basil: out of office but accessible as usual

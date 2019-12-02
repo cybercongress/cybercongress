@@ -1,0 +1,79 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>{{ $.Param "title" }}</title>
+<meta name="description" content="{{ $.Param "description" }}" />
+<meta name="author" content="{{ $.Param "author" }}" />
+{{ if .IsTranslated }}
+{{ if eq .Lang "en"}}
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="alternate" href="{{ .Permalink }}" hreflang="x-default">
+{{end}}
+{{ range .Translations }}
+{{ if eq .Lang "en"}}
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="alternate" href="{{ .Permalink }}" hreflang="x-default">
+{{ end}}
+<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
+{{ end}}
+{{ else }}
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="alternate" href="{{ .Permalink }}" hreflang="x-default">
+{{ end }}
+<!-- open graph -->
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ $.Param "description" }}" />
+<meta property="og:title" content="{{ $.Param "title" }}" />
+<meta property="og:site_name" content="{{ .Site.Params.name }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ .Site.BaseURL }}/img/ipfs-logo-256-ice.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+<!--Twitter Cards-->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ .Site.Params.name }}" />
+<meta name="twitter:title" content="{{ $.Param "title" }}" />
+<meta name="twitter:creator" content="{{ $.Param "author" }}" />
+<meta name="twitter:description" content="{{ $.Param "description" }}" />
+<meta name="twitter:domain" content="{{ .Site.Params.domain }}" />
+<meta name="twitter:image:src" content="{{ .Site.BaseURL }}/img/ipfs-logo-256-ice.png" />
+
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="stylesheet" href="/highlight/github-gist.css" />
+<link rel="stylesheet" href="/asciinema/asciinema-player.css" />
+
+<link rel="shortcut icon" href="{{ "/img/newlogo.png" | absURL  }}">
+<link rel="alternate feed" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="IPFS Blog" />
+
+<script src="/asciinema/asciinema-player.js"></script>
+<script src="/highlight/highlight.js"></script>
+
+<script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
+<script type="text/javascript">
+    var baseurl = "{{.Site.BaseURL}}";
+</script>
+
+<!-- <div class="searchbox">
+      <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
+    </div> -->
+<script type="text/javascript" src="{{"js/lunr.min.js" | relURL}}"></script>
+<script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}"></script>
+<script type="text/javascript" src="{{"js/learn.js" | relURL}}"></script>
+<script type="text/javascript" src="{{"js/search.js" | relURL}}"></script>
+
+<script src="{{"js/clipboard.min.js" | relURL}}"></script>
+
+<script src="{{"js/featherlight.min.js" | relURL}}"></script>
+
+{{if eq .Site.Params.highlightClientSide true}}
+<script src="{{"js/highlight.pack.js" | relURL}}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{{end}}
+
+<script src="{{(printf "theme-%s/script.js" (.Site.Params.themeStyle| default "flex")) | relURL}}"></script>
+
+<script>hljs.initHighlightingOnLoad()</script>
+{{ template "_internal/google_analytics_async.html" . }}

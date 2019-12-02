@@ -1,4 +1,4 @@
-# This is document with teams key attributes
+# This is a document with key attributes of current team members
 
 title = "Team registry"
 
@@ -51,3 +51,14 @@ telegram = "mrlp4"
 keybase = "mrlp4"
 ipfs = "QmW8Uc5mjwALiCsUUE1uSiykaGMxt9dv5qyB9gdpLhPYnu"
 cyber = "cyber1t0hmc79ht0qja92p6qgxn3ee3a3rzqutgxcvhw"
+
+[serejandmyself]
+name = "Sergey Simanovsky"
+gitcoin = "0x4fd54cd3c329113e0759b52A666Ba2ac1bF4f917"
+payouts = "0x8B5b28646ADa61d647Fe307b474EEb38532ea714"
+github = "serejandmyself"
+telegram = "serejandmyself"
+keybase = "serejandmyself"
+ipfs = "QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv"
+cyber = "cyber1f7nx65pmayfenpfwzwaamwas4ygmvalqwcexna"
+urbit id = "~dilled-fastyd"

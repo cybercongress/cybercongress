@@ -1,13 +1,12 @@
-{{ $length := (len (where (where .Data.Pages "Section" "post") "Kind" "page")) -}}
-{
-    "posts" : [
-        {{ range $index, $element := first 4 (sort (where (where .Data.Pages "Section" "post") "Kind" "page") "Params.date" "desc") -}}
-        {
-            "title" : {{ .Title | jsonify }},
-            "date" : "{{ .Date.Format "02 January 2006" }}",
-            "url" : "{{ .Permalink }}",
-            "author" : "{{ .Params.author }}"
-        }{{ if and (ne (add $index 1) $length) (ne $index 3) }},{{ end }}
-        {{ end -}}
-    ]
-}
+[{{ range $index, $page := (sort (where (where .Data.Pages "Section" "docs") "Kind" "page") "Params.date" "desc") }}
+    {{- if ne $page.Type "json" -}}
+    {{- if and $index (gt $index 0) -}},{{- end }}
+    {
+        "uri": "{{ $page.Permalink }}",
+        "title": "{{ htmlEscape $page.Title}}",
+        "description": "{{ htmlEscape .Description}}",
+        "content": {{$page.Plain | jsonify}}
+    }
+    {{- end -}}
+    {{- end -}}]
+    

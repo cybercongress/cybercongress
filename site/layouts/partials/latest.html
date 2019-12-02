@@ -8,7 +8,7 @@
         if newer versions are available.  However, it is commented out as Hugo's build process fails if
         the remote resource is not found, so it needs https://dimakorzhovnik.github.io/cybercongress/index.json to be accessible
         before it can be used.-->
-        {{ $dataJ := getJSON "https://cybercongress.ai/index.json" }}
+        {{ $dataJ := getJSON "https://cybercongress.ai/post/index.json" }}
         {{ range $dataJ.posts }}
         <li><span class="date">{{ .date }}</span> <a href="{{ .url }}">{{ .title }}</a></li>
         {{ end }}
@@ -19,23 +19,10 @@
       <ul class="latest-videos list-unstyled cf">
 
         <li>
-          <a class="popup-youtube video-thumb" href="https://www.youtube.com/watch?v=NV-i7ytqL5k">
-            <img src="/images/cyberd.jpg" />
+          <a class="popup-youtube video-thumb" href="https://www.youtube.com/watch?v=YEQy_qcmARQ">
+            <img src="/images/dimanew.jpg" />
           </a>
-          <a class="popup-youtube" href="https://www.youtube.com/watch?v=NV-i7ytqL5k">cyberd: A roadmap to genesis</a>
-        </li>
-        <li>
-          <a class="popup-youtube video-thumb" href="https://www.youtube.com/watch?v=XRZ8jVUok50">
-            <img src="/images/chaingear.jpg" />
-          </a>
-          <a class="popup-youtube" href="https://www.youtube.com/watch?v=XRZ8jVUok50">Chaingear. The novel Ethereum
-            database framework </a>
-        </li>
-        <li id="modal-nofooter">
-          <a class="popup-youtube video-thumb" href="https://www.youtube.com/watch?v=EpI87MxJymc">
-            <img src="/images/cyberCongressHistory.jpg" />
-          </a>
-          <a class="popup-youtube" href="https://www.youtube.com/watch?v=EpI87MxJymc">Cyber Congress History</a>
+          <a class="popup-youtube" href="https://www.youtube.com/watch?v=YEQy_qcmARQ">CYB: Your personal robot on the Great Web - Dmitry Starodubcev</a>
         </li>
       </ul>
     </div>

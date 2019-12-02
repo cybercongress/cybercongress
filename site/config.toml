@@ -2,7 +2,7 @@ baseURL = "/"
 relativeURLs = true
 googleAnalytics = "UA-52930282-2"
 ignoreFiles = [ "\\.js\\.tmp*"]
-title= "cyber•Congress"
+title= "cyber~Congress"
 
 DefaultContentLanguage = "en"
 languageCode = "en-us"
@@ -12,10 +12,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   domain = "https://cybercongress.ai"
-  name = "cyber•Congress"
-  title = "cyber•Congress"
+  name = "cyber~Congress"
+  title = "cyber~Congress"
   description = "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open."
-  author = "cyber•Congress"
+  author = "cyber~Congress"
   github = ""
   social = [ { title = "Twitter", link = "https://twitter.com/cyber_devs" },
     { title = "Telegram", link = "https://t.me/fuckgoogle" },
@@ -27,20 +27,30 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   BookMenuBundleCyberd = '/docs/cyberd/menu'
   BookMenuBundleChaingear = '/docs/chaingear/menu'
   BookMenuBundleJsAmino = '/docs/js-amino/menu'
+  BookMenuBundleJsCosmos = '/docs/js-cosmos/menu'
+
   # BookSection = '/docs/cyb'
   BookEnableJS = true
   pygmentsCodeFences = true
 
+showVisitedLinks = true # default is false
+themeStyle = "flex" # "original" or "flex" # default "flex"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+page = [ "HTML", "JSON" ]
+section = ["HTML", "JSON"]
+home = [ "HTML", "RSS", "JSON"]
 
 [languages]
     [languages.en]
     languageName = "English"
     languageCode = "en"
     weight = 0
-    [languages.zh-cn]
-    languageName = "中文（中国）"
-    contentDir = "content-i18n/zh-cn"
-    languageCode = "zh-cn"
-    weight = 10

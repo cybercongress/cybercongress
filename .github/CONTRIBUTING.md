@@ -1,39 +1,39 @@
 # Contributing rules
 
-Want to contribute to Congress? Awesome! We love contributions from everyone. Let us propose you the best ways for contributing. It makes your help really useful!
+Want to contribute to Congress? Awesome! We love contributions! Let us propose the best ways for contributing. It makes your help useful!
 
 This guide explains how to:
 
 - Get started
 - Use development workflow
-- Get help if you encounter trouble
+- Get help if you encounter difficulty
 
 ## Opening issues
 
-**Open an issue** to report bugs or to propose new features. Also we offer to use our issue templates according to problem types.
+**Open an issue** to report bugs or to propose new features. Also, we suggest using our issue templates according to different problem types.
 
->Note: the problem will be solved as quickly as it is clearly described.
+>Note: the problem will be solved as quickly as clear it is described.
 
 ## Development workflow
 
 >ToDo. Customize it according to your project.
 
-## Proposing pull request
+## Proposing a pull request
 
 
 Pull requests are very welcome.
 
->Note that if you are going to propose drastic changes, be sure to open an issue for discussion first, to make sure that your PR will be accepted before you spend effort coding it.
+>Note that if you are going to propose drastic changes, be sure to open an issue to discuss this first. So you can make sure that your PR will be accepted before you spend effort coding it.
 
-It's better for us if you will open your pull request by following steps:
+It would be awesome if you will open your pull request via the following steps:
 
-- open an issue in which you are interested;
-- fork the repo and create your branch from `master`;
-- play with it and make significant things;
-- if you've added code that should be tested, add tests;
-- if you've changed APIs, update the documentation;
-- ensure the test suite passes;
-- open pull request and write good commit message;
+- open an issue in which you are interested to commit to
+- fork the repo and create your branch from `master`
+- play with it and make significant changes
+- if you've added code that should be tested, add tests
+- if you've changed APIs, update the documentation
+- ensure the test suite passes
+- open a pull request and write a good commit message
 
 For example:
 
@@ -45,33 +45,29 @@ For example:
 ```
 - submit PR;
 
-Before we can merge the contribution we need to discuss changes. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
+Before we can merge the contribution we need to discuss changes. Normally, this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
 
 ## Contributing with gitcoin.co
 
-Alright! You've took an issue from gitcoin.co and want to help us? Try to go this way:
+Alright! You've taken an issue from gitcoin.co and want to help us? Try this:
 
-- click 'start work' at current task in gitcoin.co;
-- carefully study what is written in issue;
-- understand the task;
-- ask the question in the comments to the issue if something isn't clear;
-- fork the repo and create your branch from `master`;
-- play with it and make significant things;
-- if you've added code that should be tested, add tests;
-- if you've changed APIs, update the documentation;
-- ensure the test suite passes;
-- open pull request and write good commit message;
-- submit PR;
-
-Before we can merge the contribution we need to discuss changes. It's normal that this takes several iterations, so don't get discouraged by change requests. They ensure the high quality that we all enjoy.
-
-- ???
+- click 'start work' in the current task in gitcoin.co
+- carefully study what is written in the issue
+- make sure you understand the task
+- ask questions in the comments to the issue if something isn't clear
+- fork the repo and create your branch from `master`
+- play with it and make significant changes
+- if you've added code that should be tested, add tests
+- if you've changed APIs, update the documentation
+- ensure the test suite passes
+- open a pull request and write a good commit message
+- submit the pull request
 - PROFIT
 - take your bounty and make sure - you're AWESOME!  
 
 ## Anything else?
 
-If you still have questions about contributing just comment current issue and we answer you as soon as we can. Also you can join us on [Telegram](https://t.me/fuckgoogle) chat.
+If you still have questions about contributing just open an issue and we will answer you as soon as we can. Also, you can join our [Telegram](https://t.me/fuckgoogle) chat.
 
 ## Our thanks
 
