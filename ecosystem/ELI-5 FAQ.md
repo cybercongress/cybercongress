@@ -74,6 +74,14 @@ A consensus in computing refers to the process of different computers coming to 
 ### What are knowledge graphs?
 Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to Google). 
 
+### What is POS?
+Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+
+### What is BFT?
+
+### Why do you need consensus?
+A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+
 ### What's PageRank?
 It is one of the algorithms used by Google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
 
@@ -126,7 +134,7 @@ No one or rather everyone. Our idea is to design a tool where everyone feels equ
 ### So whoever is richer will always stay on top, right?
 Someone who ranks content with a higher value will see his content ranked higher. That is obvious. With that, he does not have an indexation preference. Here, the principle: first come - first served, will always function. If you were first to index something, then you indexed it before someone else did. I mean if I ate the last ice cream in the fridge, then I ate the last ice cream in the fridge.
 
-With that, the search is dynamic. The rank of the content is NOT based in that way that older content disappears just because the new content is cooler or Visa-Versa. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
+With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
 
 ### What's bandwidth?
 Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I am able to move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwith in IT relates to information and the ability to pass a certain amount of data from one place to another. 
@@ -149,38 +157,71 @@ Staking is the process of "locking" your tokens to receive rewards.
 The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
 
 ### Who can become one?
+Anyone can become a validator if he has the right hardware to run it. Right now, the requirements are as following:
+- CPU: 4 cores (6 is better)
+- RAM: 16 GB (64 would be better)
+- SSD: 256 GB (512 is preferred)
+- Connection: 100 Mbit fiber
+- GPU: CUDA / GeForce 1070/80
+- Software: Linux, Docker
 
 ### Do I need to become a validator?
+It is only up for you to decide if you do. As a validator, you will be entitled to receive rewards out of the inflation for committing your hardware. 
 
 ### How do I become a validator?
+Make sure you have the requirements described above and [follwo this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
 
 ### What are the incentives for becoming a validator?
+You can earn rewards and help to bootstrap the network by running a validator node. Apart from that:
+
+- You can use your cards to take part in computing the knowledge graph and be a part of an interesting project
+- You will be receiving rewards for running a validator, just like in Cosmos (ATOM)
+- You will be eligible to build your reputation in the system and can participate in governance during the mainnet
+- You can receive a commission from delegators on the mainnet
+- You can take part in forming the knowledge graph of the new Great Web
+- Become a web3 provider
 
 ### Are there rewards involved for users?
+Yes. Users can delegate their stake to validators and also receive rewards (although a validator might charge a commission for this). Users are rewarded in terms of their content becoming non-censored and reachable by anyone, anywhere. 
+
+To understand the true values of CYB tokens to users, one must understand that the users are the consumers and the service providers. Developers, entrepreneurs, SEO, buyers, and searchers simultaneously! Essentially, this means that users can build their own knowledge graphs, influence search results, build applications and monetize them.
+
+Cyber provides an opportunity for content and browsing without censorship, advertisement, data re-selling. Completely customizable and personified browsing experience, solely to you.
 
 ### Can this even be monetized?
+It can be. Yes. (to be added)
 
 ### How are users/developers/others benefit from using such a system in comparison to Google, etc?
 
 ### What are the names of your tokens and what does each one do?
+We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token. 
 
 ### How many tokens do you have?
+There are currently 2 tokens.
 
 ### Why do you have 2 tokens?
 
 ### What is the CYB token?
+CYB is a native token of cyber powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting cyberlinks, and (3) expression of will for the computing of cyber~Rank by the agents.
 
 ### What is THC?
+THC is an Ethereum based ERC-20 token that has utility value in the form of control over cyber~ Foundation and the ETH from the distribution games. It is a governance token. The creative powers of THC come from the ability to receive 1 CYB token per each (one) THC token when locking it before the end of cyber~Auction.
+
+### What is governance in cyber?
+the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.  
 
 ### Is there anything else I can do with the tokens?
 
 ### What is a DAO?
+A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
 
-### Whats Aragon?
+### What's Aragon?
 
 ### Whats governance?
+Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
 
 ### Do you have transactional costs?
+No. We use bandwidth instead.
 
 ### What are Resource Credits (RC)?
 
@@ -193,12 +234,16 @@ The purpose of staking is network security. The tokens that are locked, the bett
 ### Why Cyber?
 
 ### What is cyber~Foundation?
+The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
 
 ### What is cyber~Congress?
+The initial intentions of cyber ~Congress can be found [in this document](https://github.com/cybercongress/congress/blob/master/README.md). It helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens. 
 
 ### What is cyber~Ecosystem?
+It is the entity that is responsible for helping to grow the ecosystem. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications
 
 ### Who are cyber~FundClassic?
+It is the future fund to be created and to help applications grow within the cyber ecosystem. 
 
 ### What is cyber~Page?
 
@@ -211,8 +256,10 @@ The purpose of staking is network security. The tokens that are locked, the bett
 ### What are some basic use-cases? 
 
 ### What are the distribution games?
+The distribution games are a way of improving the distribution of tokens to a higher number of a participant in a fairer way. 
 
 ### What do you need them for?
+There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
 
 ### What is Game of Links (GOL)?
 
@@ -221,10 +268,13 @@ The purpose of staking is network security. The tokens that are locked, the bett
 ### What is cyber~Auction?
 
 ### Have you even tested this?
+Yes, we have. There have been numerous private and public tesnets. In fact, as of now, we are still testing the protocl. 
 
 ### Does it work?
+Yes. It works exactly as described in our documentation.
 
 ### Can you explain what are EUL / GOL tokens?
+They are both testnet tokens. EUL is the testing equivalent of CYB and GOL of THC. 
 
 ### What's chaingear?
 
@@ -235,8 +285,19 @@ The purpose of staking is network security. The tokens that are locked, the bett
 ### Can I use it on web2 (normal borwsers / phone, etc)?
 
 ### Can I contribute?
+Depending on what you do, there are several ways to contribute:
+
+- You can help by solving issues / submitting PR (booth technical and non-technical)
+- You can help our research
+- You can spread the word about Cyber on social networks, to your friends, on the internet or in any other possible way
 
 ### Will I be rewarded for my contributions?
+There are several ways someone can get rewarded:
+
+- We actively use GitCoin. This means that we fund some of our tasks and issues. If you are an open-source developer, you can solve issues and get rewarded
+- We constantly announce grants for open-source development and research. For example our Urbit open-source proposal
+- You can gain social weight and social reputation by becoming an early adopter (please make conclusions for yourself, as to what this might gain)
+- If you run a validator node, you are entitled to receive rewards that are described above
 
 ### Whats GitCoin?
 
@@ -251,18 +312,24 @@ The purpose of staking is network security. The tokens that are locked, the bett
 ### Whats Cosmos?
 
 ### Why do you gift these communities?
+The key purpose of those gifts is to increase the initial network participation. This will help to increase participation and give those communities the ability to engage in the protocol. The protocol itself will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
 
 ### What are MCYB / GCYB / TCYB / PCYB?
+Those are representations of the amounts of CYB tokens in megabytes, gigabytes, terabytes, petabytes, etc. I.E. 1GCYB of tokens is 1 Giga (byte) CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1GCYB = 1000000000 CYB`
+
+### How many tokens are there?
+1PCYB of tokens. And 700TTHC. That's a lot, we know.
 
 ### Why do you need so many tokens?
 
 ### So is the inflation endless?
+The inflation in cyberd constantly strives to ~7%.
 
 ### Tell me about your distribution
 
 ### Ok, I get it - so how exactly do you calculate the rank?
 
-### Whats CUDA?
+### What's CUDA?
 
 ### Why do you use GPU?
 
