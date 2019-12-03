@@ -33,34 +33,39 @@ We believe that such measures will help reduce risks associated with the usage o
 
 ## Provision of the Game
 
-As shown in figure above the Game start with `euler-5` launch and the Game of Thrones auction.
+The Game will start with `euler-5` network launch.
 
 `euler-5` Genesis file will contain:
-- all gifts to Ethereum and Cosmos communities
-- allocation to cyber\~Congress
+- all gifts to Ethereum, Cosmos and Urbit communities
+- allocation to cyber\~Congress team, investors, and inventors
 - validators lifetime rewards from `Euler-4`
 
 For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test\~Auction as faucet facilities. We expect that in the test\~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
 
-The Funding will start after approving the government proposal of Funding start and will prolong during 1 of 2 control events happens:
+The takeoff funding will start after approving the government proposal of takeoff funding start and will prolong during 1 of 2 control events happens:
 
--  90 days will be passed after the Game start
--  600,000 ATOMs well be donated after funding start
+-  90 days will be passed after the takeoff funding start
+-  600,000 ATOMs well be donated
 
-After the end of the Funding, we will distribute test EUL tokens for participators of the Funding and the final round of the Game of Links will start.
+After the end of the takeoff funding, we will distribute test EUL tokens for participators of the takeoff funding and the final round of the Game of Links will start.
 
 At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
+
+The final round will be playing for 21 days after EULs distribution.
 
 ## Takeoff funding and disciplines incentives
 
 Takeoff funding has 3 key goals:
-- bootstraping genesis validator set
+- bootstrapping genesis validator set
 - definition of allocation for seed investment participants
 - definition of monetary allocation to Game of Links participants
 
-The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spend during almost 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence the funding round curve defines allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised seed investors get 9.7% (10% minus community pool allocation). The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
+The development of the project has been done thanks to investments of 8 people. ~3200 ETH has been spent during almost 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve(green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors(orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised seed investors get 9.7% (10% minus community pool allocation). The interesting thing is that if amount raised will be below 100k ATOMs participants will have better price when seed investors. In such case seed investors get compensation by gaining more stake though.
 
-![funding](funding.jpg)
+![takeoff-distribution](takeoff_distribution.png)
+[link to interactive plot](https://www.desmos.com/calculator/quvf5h7vae)
+
+The same story with cyber~Congress (orange curve) and inventors of the project (purple curve) except at least 2% as protection and 20% of takeoff funding change in additional bonus.
 
 Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves.
 
@@ -71,7 +76,7 @@ The Game result and distribution significantly influenced by the Takeoff funding
 - Funding: up to 60 TCYB
 - The relevance of links submitted: up to 20 TCYB
 - Load of every participant: up to 10 TCYB
-- Uptime of validators: up to 5 TCYB
+- Lifetime of validators: up to 5 TCYB
 - Full validator set: 7 TCYB
 - Amount of delegated to validator: up to 5 TCYB
 - Community pool: 3 TCYB
@@ -85,7 +90,7 @@ If the set of validators will increase up to 100 and this amount can last during
 
 ## Get tokens
 
-First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **N** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **F** snapshot will get the tokens. For more details welcome to [Genesis generation tool]. Check the drop by importing your Ethereum private key in `cyberd cli`.
+First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **1111000** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **8080808** snapshot will get the tokens. For more details welcome to [launch kit](https://github.com/cybercongress/launch-kit). Check the drop by importing your Ethereum private key in `cyberd cli`.
 
 Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
 
@@ -109,21 +114,18 @@ You can set up your own validator to get a reward for validator's uptime or you 
 
 The mainnet Genesis file depends on Funding process in `Euler-5`, in particular, how many tokens will allocate for the Game of Links results. Here is an example table of possible results of funding process:
 
-ATOMs donated | % of desireble | LT reward | Load reward | Stake reward | Link reward |
---- | --- | --- | --- |--- |--- |
-600,000 | 100 | 3 TCYB | 3 TCYB | 3 TCYB | 6 TCYB |
-480,000 | 80 | 2.4 TCYB | 2.4 TCYB | 2.4 TCYB | 4.8 TCYB |
-240,000 | 40 | 1.2 TCYB | 1.2 TCYB | 1.2 TCYB | 2.4 TCYB |
-120,000 | 20 | 0.6 TCYB | 0.6 TCYB | 0.6 TCYB | 1.2 TCYB |
+| ATOMs donated | % of desireble | Lifetime rewards | Load reward | Stake reward | Link reward |
+| --- | --- | --- | --- |--- |--- |
+| 600,000 | 100 | 5 TCYB | 10 TCYB | 5 TCYB | 20 TCYB |
+| 480,000 | 80  | 4 TCYB | 8 TCYB  | 4 TCYB | 16 TCYB |
+| 240,000 | 40  | 2 TCYB | 4 TCYB  | 2 TCYB | 8 TCYB  |
+| 120,000 | 20  | 1 TCYB | 2 TCYB  | 1 TCYB | 4 TCYB  |
 
 Other possible cases calculated the same way.
 
-
 After funding, donaters ATOMs rewards supposed according to their shares and timestamp of donating.
 
-If by any reasons the sum of 600,000 ATOMs couldn't be reached the difference goes to proportionally to congress, investors and inventors.
-
-> ***more explanations about the plot***
+If for any reason the sum of 600,000 ATOMs couldn't be reached the difference goes to the congress team, investors and inventors according to plot above.
 
 ## Lifetime summary of every validator
 
@@ -132,6 +134,8 @@ The easiest discipline. You need just set up your validator and monitor its life
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
 By following formula calculated each validator reward in the block *k*:
+
+
 
 ![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
 
