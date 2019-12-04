@@ -133,15 +133,19 @@ The easiest discipline. You need just set up your validator and monitor its life
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
-By following formula calculated each validator reward in the block *k*:
+By following formula calculated each validator reward in the block *n* if precommit was:
 
+$$r_{n}=\frac{\frac{1}{block_{max}}\cdot 5TCYB}{V_{n}}$$
 
+<!-- ![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0) -->
 
-![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+The *r* is reward for vlidator at block *n*, the $block_{max}$ is the latest block of the Game, and *V* the amount of validators on block *n*.
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
 
-For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 500,000 ATOMs on the Auction you will get `3 TCYB / 146  = 20.55 GCYBs` in the Genesis file of mainnet.
+For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 600,000 ATOMs on the Auction you will get 
+$$ R = \frac{5\ TCYB}{146} \approx 34.25\ GCYB$$ 
+in the Genesis file of `cyber` network.
 
 ## Load
 
