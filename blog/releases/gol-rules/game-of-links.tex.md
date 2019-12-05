@@ -40,7 +40,7 @@ The Game will start with `euler-5` network launch.
 - allocation to cyber\~Congress team, investors, and inventors
 - validators lifetime rewards from `Euler-4`
 
-For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test\~Auction as faucet facilities. We expect that in the test\~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos.
+For newcomers, we'll propose to get some EUL tokens during the Test of Thrones, test\~Auction as faucet facilities. We expect that in the test\~Auction, newbies can buy EULs or GOLs for uAtoms and Szabos. 
 
 The takeoff funding will start after approving the government proposal of takeoff funding start and will prolong during 1 of 2 control events happens:
 
