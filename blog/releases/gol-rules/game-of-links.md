@@ -36,7 +36,7 @@ We believe that such measures will help reduce risks associated with the usage o
 The Game will start with `euler-5` network launch.
 
 `euler-5` Genesis file will contain:
-- all gifts to Ethereum, Cosmos and Urbit communities
+- all gifts to Ethereum and Cosmos communities
 - allocation to cyber\~Congress team, investors, and inventors
 - validators lifetime rewards from `Euler-4`
 
@@ -90,13 +90,11 @@ If the set of validators will increase up to 100 and this amount can last during
 
 ## Get tokens
 
-First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **1111000** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **8080808** snapshot will get the tokens. For more details welcome to [launch kit](https://github.com/cybercongress/launch-kit). Check the drop by importing your Ethereum private key in `cyberd cli`.
+First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **1111000** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **8080808** snapshot will get the tokens. For more details welcome to [launch kit](https://github.com/cybercongress/launch-kit). Check the drop by importing your Ethereum private key in `cyberd cli`. Also, you can check your ETH address with Urbit galaxies, stars or planets if you have them. Every account which holds galaxies (30%), stars (30%), or planets (40%) at block 9069000 according to the number of objects will be bestowed.
 
 Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
 
 Finally, if your case not listed above you can buy tokens at the Auction. Every day some percent of tokens will up to the Auction. After daily round tokens will drop to each address participated in the round according to shares of participators.
-
-> ***Few words about cyber~Auction and Funding mechanics***
 
 ## Choose disciplines for playing
 
