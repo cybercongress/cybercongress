@@ -102,7 +102,7 @@ Finally, if your case not listed above you can buy tokens at the Auction. Every 
 
 There are four disciplines for playing in the Game of Links:
 
--  Uptime summary of every validator
+-  Life summary of every validator
 -  A bandwidth load of every participant
 -  Amount of delegated to validators
 -  The relevance of links submitted
@@ -147,33 +147,24 @@ For example, if you have an active validator from the start of the Game of Links
 <p align="center"><img src="/blog/releases/gol-rules/tex/4e2214d30aa99727f8ff2f5c2a1ec313.svg?invert_in_darkmode&sanitize=true" align=middle width=220.65281865pt height=33.62942055pt/></p> 
 in the Genesis file of `cyber` network.
 
-## Load
+## A bandwidth load of every participant
 
 Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions. The main goal of that model is to reduce daily network growth to given constant.
 
-Each message type has assigned bandwidth cost. You can see it in the table below:
+Each message type has assigned bandwidth cost.
 
-Paramtre | % of desireble | LT reward |
---- | --- | --- |
-MinimumPriceMultiplier | 0.01 | minimum price number (1 means normal price) |
-LinkCost | 100 | link message cost |
-NonLinkCost | 5 * LinkCost | non link message cost (send, f.e.) |
-TxCost | 3 * LinkCost | tx cost |
-DesirableNetworkLoad | 2000 * 1000 * LinkCost | how much all users in average can spend for recover period (24h)
+All bandwidth spending data available at `?` RPC/LCD. After the game 10 TCYBs will be distributed to players addresses according to their weight coefficient, other words according to how much they spent. It decreases if the network has a low load and increase if high between `0.01` and `inf`.
 
-This way, you can calculate how much bandwidth you need to spend for, let say link something. You need to pay for the message, for the transaction and multiple it by multiplier:
-
-![](http://www.sciweavers.org/tex2img.php?eq=BandwidthPrice%20%3D%20multiplier%28TxCost%20%2B%20LinkCost%29%20%3D%20%5Cfrac%7BCurrentNetworkLoad%7D%7BDesirableNetworkLoad%7D%283LinkCost%20%2B%20LinkCost%29%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+The network has desirable bandwidth in 24 h, so if current bandwidth equals this value it means normal, and the `multiplier` parameter is `1.00`. In other cases, the `multiplier` is correcting for uploading or downloading the network. 
 
 The `multiplier` value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors.
 
-> Important! The not valid transaction also consume bandwidth, but we count only bandwidth which used for successful linking.
+> Important! The not valid transaction also consumes bandwidth, for results counting only bandwidth which used for successful linking.
 
-> ***User's bandwidth calculation according to stake***
 
-Thus, with the Game start, we'll start tracking bandwidth spent per account and after the game, distribute proportionally burned bandwidth allocated CYBs.
+## Amount of delegated to validators
 
-**Amount of delegated to validators.** Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate from 0 to 3 TCYBs of Genesis mainnet supply proportionally staked tokens on validators at the last block in the Game.
+Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate from 0 to 3 TCYBs of Genesis mainnet supply proportionally staked tokens on validators at the last block in the Game.
 
 ## The relevance of links submitted
 
@@ -185,13 +176,9 @@ Users can link everything that they believe important for the future web.
 
 There are 0 to 6 TCYBs allocated for top 1000 CIDs like Google trends f.e. The difference is top 1000 will be ranked by web3 agents or users and counted during the Game.
 
-![](rank.png)
-
 As on picture above, you can see four accounts link some CIDs with top 1 CID with the rank 999. If it will last till the end of the Game those four accounts will get a reward proportionally their shares in Genesis file.
 
 The same situation with all top 1000 CIDs.
-
-![](rank_distr.png)
 
 The reward for the top 1000 CIDs will be decreasing slowly linearly as shown in the picture above
 
