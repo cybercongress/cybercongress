@@ -137,8 +137,6 @@ By following formula calculated each validator reward in the block *n* if precom
 
 <p align="center"><img src="/blog/releases/gol-rules/tex/06c576f0fdc69187d4eeeb0252c7a48a.svg?invert_in_darkmode&sanitize=true" align=middle width=168.7380387pt height=41.352743849999996pt/></p>
 
-<!-- ![](http://www.sciweavers.org/tex2img.php?eq=reward_%7Bk%7D%20%3D%20%20%5Cfrac%7B3%20TCYBs%7D%7B%20%5Csum_0%5En%20%20block_%7Bn%7D%20%5Csum_0%5En%20%20precommit_%7Bn%7D%20%7D%20&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0) -->
-
 The *r* is reward for vlidator at block *n*, the <img src="/blog/releases/gol-rules/tex/6b7ea75590426a183657d8b608970b83.svg?invert_in_darkmode&sanitize=true" align=middle width=62.17247684999999pt height=22.831056599999986pt/> is the latest block of the Game, and *V* the amount of validators on block *n*.
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
@@ -161,28 +159,30 @@ The `multiplier` value recalculates every minute according to network load last 
 
 > Important! The not valid transaction also consumes bandwidth, for results counting only bandwidth which used for successful linking.
 
-
 ## Amount of delegated to validators
 
-Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate from 0 to 3 TCYBs of Genesis mainnet supply proportionally staked tokens on validators at the last block in the Game.
+Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate up to 5 TCYBs proportionally staked tokens on validators at the last block in the Game.
 
 ## The relevance of links submitted
 
-The most interesting part of the Game. We need to load the knowledge graph with relevant links. By relevant links means whole domains of content and knowledge as like science papers, blogs, knowledgebases and so on.
+The most interesting part of the Game. Users can link everything that they believe important for the future web.
 
-Users can link everything that they believe important for the future web.
+There are up to 6 TCYBs allocated for the top 1000 CIDs and top 10 agents linked with that CIDs.
 
-> ***How rank works***
+CYBs will be distributed by top CID by a power law:
 
-There are 0 to 6 TCYBs allocated for top 1000 CIDs like Google trends f.e. The difference is top 1000 will be ranked by web3 agents or users and counted during the Game.
+<p align="center"><img src="/blog/releases/gol-rules/tex/e2345727edbb7768b4245aebab141dc1.svg?invert_in_darkmode&sanitize=true" align=middle width=136.7233857pt height=47.35857885pt/></p>
 
-As on picture above, you can see four accounts link some CIDs with top 1 CID with the rank 999. If it will last till the end of the Game those four accounts will get a reward proportionally their shares in Genesis file.
+This way we can calculate allocation to the top one CID with Euler's method for the sum of harmonic series like:
 
-The same situation with all top 1000 CIDs.
+<p align="center"><img src="/blog/releases/gol-rules/tex/0b80e4bb36bdaeb3e80a59da3ec135c2.svg?invert_in_darkmode&sanitize=true" align=middle width=154.1409936pt height=47.35857885pt/></p>
+<p align="center"><img src="/blog/releases/gol-rules/tex/fe2cf1e135c78201449dc27756b98c07.svg?invert_in_darkmode&sanitize=true" align=middle width=200.97097845pt height=61.83259004999999pt/></p>
+<p align="center"><img src="/blog/releases/gol-rules/tex/d2ae13e4b7c52ecbebe924320bee0149.svg?invert_in_darkmode&sanitize=true" align=middle width=278.76095775pt height=37.147307999999995pt/></p>
 
-The reward for the top 1000 CIDs will be decreasing slowly linearly as shown in the picture above
+Where <img src="/blog/releases/gol-rules/tex/11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize=true" align=middle width=9.423880949999988pt height=14.15524440000002pt/> is Euler–Mascheroni constant =0.57721..., <img src="/blog/releases/gol-rules/tex/6631c51e2108c8128d4e1b3dd8319d52.svg?invert_in_darkmode&sanitize=true" align=middle width=47.23886309999999pt height=27.77565449999998pt/> which approaches 0 as *k* goes to infinity. 
+
+Then, those CYBs will be distributed to agents proportionally their ranks.
 
 > Notice! Only available for reading hashes take part in the Game. Make sure that your content pinned and responded.
-
 
 ## Conclusion
