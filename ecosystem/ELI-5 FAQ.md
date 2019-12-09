@@ -3,7 +3,7 @@
 # The ELI-5 FAQ for Cyber 
 This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be appreciated.
 
-The biggest help will by submitting more questions that you think were unanswered. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag @sereajndmyself in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
+The biggest help will by submitting more questions that you think were unanswered. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag `sereajndmyself` in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
 
 You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all.
 
