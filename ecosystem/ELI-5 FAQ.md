@@ -2,12 +2,20 @@
 # The ELI-5 FAQ for Cyber 
 This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be greatly appreciated.
 
-The biggest help will be submitting more questions, that you think are left unanswered, to this FAQ via a [GitHub issue](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag @sereajndmyself in our [TG channel](https://t.me/fuckgoogle), and leave the question there!
+The biggest help will be submitting more questions, that you think are left unanswered, to this FAQ via a [GitHub issue](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag @sereajndmyself in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
 
-You may skim through questions separately, of course, but I advise you to "buckle up your seat belt" and read it all.
+You may skim through questions separately, of course, but I advise you to `buckle up your seat belt` and read it all.
 
+**But, first:**
 ### What is a FAQ?
-A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions as simple as possible to give the reader a basic overview of a specific subject, and if necessary refer the reader to more detailed information. 
+A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions as simple as possible to give the reader a basic overview of a specific subject, and if necessary, refer the reader to more detailed information. 
+
+### Table of content
+- [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyber)
+- [What Cyber is NOT](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-cyber-is-not)
+- [The philosophy behind Cyber]()
+- [High-level, techonological questions]()
+
 
 ### What is cyber?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology that is used in the first explanation WILL be explained in detail later on in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
@@ -27,8 +35,9 @@ The interesting thing is that such a simple mechanism allows creating a lot of p
 ### What cyber is NOT?
 Cyber is not a commercial product. In fact, it is not a product as such. It is an instrument if you wish, or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
 
-Cyber is not THE new internet. It is a tool that can help to shape and to decentralise (distribute the power of authority) the new coming internet. 
+Cyber is not THE new internet. It is a tool that can help to shape and to decentralise (distribute the power of authority) the new Great Web. 
 
+## The philosophy behind Cyber:
 ### What problem are you trying to solve?
 We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age). 
 
@@ -43,17 +52,89 @@ It should be noted, that by this question I am attempting not just at Google, bu
 ### Why now?
 Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
 
+### Why search?
+Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
+
 ### Aren't there other, more important problems to solve?
 There probably are. But we decided to focus on this because we believe that we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). We believe that our tool can help to play a role in solving if not all, but some of these.
 
 ### Aren't there other things out there that solve all of this?
 We believe that there is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our product is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what we think is broken.
 
+### How are users/developers/others benefit from using such a system in comparison to Google, etc?
+
+### Why do you need consensus within Cyber?
+A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+
+### What is your take on: privacy/censorship/routing?
+We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol. 
+
+We are strongly discouraged by any censorship and view it as a sin against humanity. 
+
+Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
+
+## High-level, IT, blockchain and some explanations:
+### What's a hash?
+A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file. I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
+
 ### What are distributed technologies?
 Distributed technologies are technologies that do not have a central source of power in terms of computing. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
 
+### What is a consensus computer?
+A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose).
+
+### What is a Merkle tree?
+A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
+
 ### What is a blockchain
-A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background.
+A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acylic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of stucturing data). 
+
+### What is a transaction?
+In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+
+### What's a token?
+A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
+
+### What is NFT?
+NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history. 
+
+### What's bandwidth?
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwith in IT relates to information and the ability to pass a certain amount of data from one place to another. 
+
+In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
+
+### What is Sybil resistance?
+Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudos (fake) identities to gain influence for himself.
+
+### What is BFT?
+BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+
+### What is POS?
+Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+
+### What is staking?
+Staking is the process of "locking" your tokens to receive rewards.
+
+### What is the purpose of staking?
+The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
+
+### Who are validators?
+The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+
+### What is a delegator?
+Delegators are usees that delegate their tokens to validators to participate in receiving staking reards. For this validators might charge commission. 
+
+### What are smart contracts?
+Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
+
+### What is a VM?
+A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
+
+### What are knowledge graphs?
+Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to Google). 
+
+### What's PageRank?
+It is one of the algorithms used by Google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
 
 ### What is web3?
 Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web. 
@@ -63,29 +144,31 @@ IPFS is a peer-to-peer (directly connected between two users) protocol, that is 
 
 IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications, etc. 
 
-### What's a hash?
-A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file. I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
+### What's governance?
+Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
 
-### What is a Merkle tree?
-A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
+### What is a DAO?
+A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
 
-### What is a consensus computer?
-A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose). 
+### What's Aragon?
+Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
 
-### What are knowledge graphs?
-Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to Google). 
+### What are prediction markets?
+Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
 
-### What is BFT?
-BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+### What's an entity 
+An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
 
-### What is POS?
-Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+### What's a foundation/congress?
+When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
 
-### Why do you need consensus?
-A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+Congress can be a group of people picked by others to make challenging decisions. 
 
-### What's PageRank?
-It is one of the algorithms used by Google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
+## cyber~Questions:
+### Why Cyber?
+We like that name. That's one reason. We have been using this name throughout our projects for the past 6 -7 years. 
+
+Cyber refers to anything that is to do with the internet, AI, computing. It has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
 ### What exactly are CIDs?
 A CID is a content identificator or an IPFS hash. That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS protocol.
@@ -103,15 +186,6 @@ Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, o
 
 ### How is content ranked in cyber?
 You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
-
-### What is Sybil resistance?
-Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudos (fake) identities to gain influence for himself.
-
-### What's a token?
-A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
-
-### What is a transaction?
-In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
 
 ### How are pages included or excluded from the index?
 Pages are added to the index when someone submits a CID or creates a cyberlink. This is a transaction. Transactions are checked by validators (the computers that make sure you have the balance to submit a transaction) and added to the knowledge graph, which is then accessed by someone who queries the database. 
@@ -138,27 +212,10 @@ Someone who ranks content with a higher value will see his content ranked higher
 
 With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
 
-### What's bandwidth?
-Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwith in IT relates to information and the ability to pass a certain amount of data from one place to another. 
+### How do I become a validator in Cyber?
+Make sure you have the requirements described above and [follow this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
 
-In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
-
-### Why search?
-Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
-
-### Who are validators?
-The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
-
-### Who are delegators?
-Delegators are usees that delegate their tokens to validators to participate in receiving staking reards. For this validators might charge commission. 
-
-### What is staking?
-Staking is the process of "locking" your tokens to receive rewards.
-
-### What is the purpose of staking?
-The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
-
-### Who can become one?
+### What do I need to become a validator in Cyber?
 Anyone can become a validator if he has the right hardware to run it. Right now, the requirements are as following:
 - CPU: 4 cores (6 is better)
 - RAM: 16 GB (64 would be better)
@@ -169,9 +226,6 @@ Anyone can become a validator if he has the right hardware to run it. Right now,
 
 ### Do I need to become a validator?
 It is only up for you to decide if you do. As a validator, you will be entitled to receive rewards out of the inflation for committing your hardware. 
-
-### How do I become a validator?
-Make sure you have the requirements described above and [follow this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
 
 ### What are the incentives for becoming a validator?
 You can earn rewards and help to bootstrap the network by running a validator node. Apart from that:
@@ -191,12 +245,7 @@ To understand the true values of CYB tokens to users, one must understand that t
 Cyber provides an opportunity for content and browsing without censorship, advertisement, data re-selling. Completely customizable and personified browsing experience, solely to you.
 
 ### Can this even be monetized?
-It can be. Yes. (to be added)
-
-### How are users/developers/others benefit from using such a system in comparison to Google, etc?
-
-### What are the names of your tokens and what does each one do?
-We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token. 
+It can be. Yes (to be completed).
 
 ### How many tokens do you have?
 There are currently 2 tokens.
@@ -204,31 +253,30 @@ There are currently 2 tokens.
 ### Why do you have 2 tokens?
 Due to technical limitations, there is no way to have all of the described below characteristics in one token. We do not think that having several tokens is a bad thing. In the future, there might be other tokens on top of the DAO or/and the protocol. Of course, if they are proven to help the economics and the agents of that economics. 
 
+### What are the names of your tokens and what does each one do?
+We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token. 
+
+### How many tokens are there?
+1PCYB of tokens. And 700TTHC. That's a lot, we know.
+
+### What are MCYB / GCYB / TCYB / PCYB?
+Those are representations of the amounts of CYB tokens in megabytes, gigabytes, terabytes, petabytes, etc. I.E. 1GCYB of tokens is 1 Giga (byte) CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1GCYB = 1000000000 CYB`
+
+### Why do you need so many tokens?
+We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc.  
+
+On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things. 
+
 ### What is the CYB token?
 CYB is a native token of cyber powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting cyberlinks, and (3) expression of will for the computing of cyber~Rank by the agents.
 
 ### What is THC?
 THC is an Ethereum based ERC-20 token that has utility value in the form of control over cyber~ Foundation and the ETH from the distribution games. It is a governance token. The creative powers of THC come from the ability to receive 1 CYB token per each (one) THC token when locking it before the end of cyber~Auction.
 
-### What is governance in cyber?
-the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.  
-
 ### Is there anything else I can do with the tokens?
 The usability of both tokens is straightforward. One is the core protocol token, used primarily for bandwidth, protection, security, transacting, etc. The other for governance. 
 
 Of course, other implementations can be applied. For example, both tokens can be used within the realm of prediction markets. Another example is using the protocol token as a means to an end. I.E. paying for a service. 
-
-### What are prediction markets?
-Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
-
-### What is a DAO?
-A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
-
-### What's Aragon?
-Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
-
-### Whats governance?
-Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
 
 ### Do you have transactional costs?
 No. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. 
@@ -236,32 +284,61 @@ No. We use bandwidth instead. This means that transactions are free on one hand,
 ### What are Resource Credits (RC)?
 Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transaction in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc. 
 
-### What is your take on: privacy/censorship/routing?
-We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol. 
+### What are the distribution games?
+The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. 
 
-We are strongly discouraged by any censorship and view it as a sin against humanity. 
+### What do you need them for?
+There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
 
-Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
+### What is Game of Links (GOL)?
+The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers). [Check out more details here](https://github.com/cybercongress/launch-kit/blob/0.1.0/Launch%20FAQ.md#what-are-the-distribution-games).
 
-### How is this AI related?
-First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is). 
+### What is Game of Thrones (GoT)?
+It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100TCYB to the ATOM community for donating ETH. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
 
-In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
+### What is cyber~Auction?
+cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
 
-It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
+The auction will last for 500 rounds that last for 23 hours each (a little over 479 days). Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
 
-### What's an entity 
-An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
+One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
 
-### Whats a foundation/congress?
-When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
+### Can you explain what are EUL / GOL tokens?
+They are both testnet tokens. EUL is the testing equivalent of CYB and GOL of THC. 
 
-Congress can be a group of people picked by others to make challenging decisions. 
+### Tell me about your distribution
+The distribution looks like this:
+There are 700 TTHC tokens (Terabytes are 12 zeros). They are broken down as per follows: (numbers are rounded)
+- 71.4% are for cyber~Auction
+- 14.3% are for GoT
+- 14.3% is allocated to cyber~Congress
 
-### Why Cyber?
-We like that name. That's one reason. We have been using this name throughout our projects for the past 6 -7 years. 
+There are 1PTCYB (a petabyte is 15 zeros). They are broken down per following:
+- 90% for the distribution games (in other words open-sale) and for those who stake THC tokens (including cyber~ Congress)
+- 10% is a gift to Urbit, Cosmos and ETH communities
 
-Cyber refers to anything that is to do with the internet, AI, computing. It has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
+A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md).
+
+### So is the inflation endless?
+The inflation in cyberd constantly strives to ~7%.
+
+### I've read you have gifted other blockchain communities, why?
+The purpose of this is to help the network gain traction at the beginning. To increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. 
+
+### What's Urbit?
+Urbit is your personal server, identity, IP address, VM (virtual machine) and an operational system. It is the new computer science. Improved and more efficient. At the same time, Urbit can help us to envision the initial vision of peer to peer internet. 
+
+### What's Ethereum?
+Ethereum is the largest distributed computer in the world today. It is the lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
+
+### What's Cosmos?
+Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Arther than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
+
+### Why do you gift these particular communities?
+We believe that those gifts can help grow the protocol, as a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
+
+### What is governance in cyber?
+the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.  
 
 ### What is cyber~Foundation?
 The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
@@ -295,24 +372,16 @@ Of course, the most basic use case is a search mechanism (described above). Othe
 - Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
 - Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
 
-### What are the distribution games?
-The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. 
+### How is this AI related?
+First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is). 
 
-### What do you need them for?
-There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
+In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
 
-### What is Game of Links (GOL)?
-The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers). [Check out more details here](https://github.com/cybercongress/launch-kit/blob/0.1.0/Launch%20FAQ.md#what-are-the-distribution-games).
+It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
 
-### What is Game of Thrones (GoT)?
-It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100TCYB to the ATOM community for donating ETH. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
-
-### What is cyber~Auction?
-cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
-
-The auction will last for 500 rounds that last for 23 hours each (a little over 479 days). Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
-
-One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
+## More questions:
+### Why open-source?
+Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner. 
 
 ### Have you even tested this?
 Yes, we have. There have been numerous private and public tesnets. In fact, as of now, we are still testing and improving the protocol. 
@@ -320,14 +389,8 @@ Yes, we have. There have been numerous private and public tesnets. In fact, as o
 ### Does it work?
 Yes. It works exactly as described in our documentation.
 
-### Can you explain what are EUL / GOL tokens?
-They are both testnet tokens. EUL is the testing equivalent of CYB and GOL of THC. 
-
 ### What's chaingear?
 Chaingear is one of our secret weapons. It is not yet fully described by us. But in its essence, it is an ETH based ability for anyone to create a personal or a public database with the help of NFT tokens. For example, one may create the database .porn and then create records in that database. I.E. world.porn, and yes, it works just like a domain-based structure. But it's not a domain-based structure, as it allows you to create other types of databases too.
-
-### What is NFT?
-NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history. 
 
 ### So, how do I join this?
 For now, you can run a validator node to help test, improve and launch the network. This will be the biggest (and probably the most beneficial to all sides) commitment as of now. The launch guide requires some technical skills and experience and can be [found here](https://cybercongress.ai/docs/cyberd/run_validator/).
@@ -358,56 +421,28 @@ There are several ways someone can get rewarded:
 ### Whats GitCoin?
 Gitcoin is a crowdfunding and freelance developers platform that lets you fund different issues from your GitHub, using smart contracts and ETH. 
 
-### What are smart contracts?
-Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
+## White Paper, launch and contacts:
+### Do you have a White Paper?
+Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repositiry](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
-### Why open-source?
-Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner. 
+### When do you launch?
+The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed.  As of the end of 2019, the ETA is summer 2020.
 
-### I've read you have gifted other blockchain communities, why?
-The purpose of this is to help the network gain traction at the beginning. To increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. 
+### Who are the people behind the project?
+We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
 
-### What's Urbit?
-Urbit is your personal server, identity, IP address, VM (virtual machine) and an operational system. It is the new computer science. Improved and more efficient. At the same time, Urbit can help us to envision the initial vision of peer to peer internet. 
+If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums. 
 
-### What is a VM?
-A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
+### Are you Satoshi?
+We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
 
-### What's Ethereum?
-Ethereum is the largest distributed computer in the world today. It is the lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
+### How do I contact you?
+Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
 
-### What's Cosmos?
-Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Arther than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
+### Do you have any normal chats/ a forum maybe?
+We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitHub account. And we have a [TG chat](https://t.me/fuckgoogle).
 
-### Why do you gift these particular communities?
-We believe that those gifts can help grow the protocol, as a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
 
-### What are MCYB / GCYB / TCYB / PCYB?
-Those are representations of the amounts of CYB tokens in megabytes, gigabytes, terabytes, petabytes, etc. I.E. 1GCYB of tokens is 1 Giga (byte) CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1GCYB = 1000000000 CYB`
-
-### How many tokens are there?
-1PCYB of tokens. And 700TTHC. That's a lot, we know.
-
-### Why do you need so many tokens?
-We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc.  
-
-On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things. 
-
-### So is the inflation endless?
-The inflation in cyberd constantly strives to ~7%.
-
-### Tell me about your distribution
-The distribution looks like this:
-There are 700 TTHC tokens (Terabytes are 12 zeros). They are broken down as per follows: (numbers are rounded)
-- 71.4% are for cyber~Auction
-- 14.3% are for GoT
-- 14.3% is allocated to cyber~Congress
-
-There are 1PTCYB (a petabyte is 15 zeros). They are broken down per following:
-- 90% for the distribution games (in other words open-sale) and for those who stake THC tokens (including cyber~ Congress)
-- 10% is a gift to Urbit, Cosmos and ETH communities
-
-A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md).
 
 ### Ok, I get it - so how exactly do you calculate the rank?
 The idea of the ranking mechanism is based on the original PageRank, but with the implementation of a token-backed bandwidth. Or in other words a similar model, but with economic incentives and protections. The rank is dependent on the difference between the weight of the incoming ranks and the weight of the outgoing ranks. The network load is also a property that is calculated to obtain the rank. 
@@ -430,11 +465,6 @@ We already have more plans on how to introduce other computational resources int
 ### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
 When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
 
-### Do you have a White Paper?
-Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repositiry](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
-
-### When do you launch?
-The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed.  As of the end of 2019, the ETA is summer 2020.
 
 ### Why do you need donations?
 Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
@@ -447,19 +477,11 @@ The projects receive donations from users who wish to donate them and participat
 ### Why don't you have KYC/AML?
 Because we do not understand the purpose of this mechanism concerning privacy and decentralization. Anyone is free to do what they want to do. If someone wants to donate and thereafter decided that it's his free will to KYC this donation in some way. It's his free will. It is our free will and our belief that decentralization is not about KYC and/or AML. If you don't agree with this, then you probably aren't ready for decentralization. Simply walk away. 
 
-### Who are the people behind the project?
-We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
-
-If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums. 
 
 ### Why are you so geeky?
 Why not? We think geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
 
-### How do I contact you?
-Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
 
-### Are you Satoshi?
-We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
 
 ### Is this religious?
 Yes. By all means, it is. It is the most anti-religious religion in the wild. 
@@ -501,8 +523,7 @@ You defiantly should! The idea of forking cyber is not just a call to action. It
 
 You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes.  
 
-### Do you have any normal chats/ a forum maybe?
-We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitHub account. And we have a [TG chat](https://t.me/fuckgoogle).
+
 
 ### Do you have any more links for me to read?
 We have a lot:
