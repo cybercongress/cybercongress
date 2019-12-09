@@ -36,7 +36,7 @@ That content is then dynamically ranked with the help of digital tokens and the 
 
 All this is computed (determined with the help of a computer) by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards). 
 
-This allows to search data on the web, rank it, query it (look it up) and create knowledge databases without BlackBox intermediaries (third parties that try to censor data, hide or push specific results to obtain money, track your data, etc). 
+This allows to search data on the web, rank it, query it (look it up) and create knowledge databases without blackbox intermediaries (third parties that try to censor data, hide or push specific results to obtain money, track your data, etc). 
 
 The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result. We will go in-detail further down the document into those. For example: unified semantics, SEO instruments, autonomous robots, and a lot more.
 
@@ -232,7 +232,9 @@ No one or rather everyone. Our idea is to design a tool where everyone feels equ
 ### So whoever is richer will always stay on top, right?
 Someone who ranks content with a higher value will see his content ranked higher. That is obvious. With that, he does not have an indexation preference. Here, the principle: first come - first served, will always function. If you were first to index something, then you indexed it before someone else did. I mean if I ate the last ice cream in the fridge, then I ate the last ice cream in the fridge.
 
-With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
+With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top. 
+
+A comparison to [wisdom of the crowd](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd) can be made, where the collective opinion has a larger weight than that of a single entity.
 
 ### What are some basic use-cases? 
 Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
@@ -304,7 +306,7 @@ We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of t
 ### What are MCYB / GCYB / TCYB / PCYB?
 Those are representations of the amounts of CYB tokens in mega, giga, tera, peta, etc. I.E. 1GCYB of tokens is 1 Giga CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1 GCYB = 1000000000 CYB`
 
-### Why do you need so many tokens?
+### Why do you need so many CYB tokens?
 We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc. 
 
 On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things. 
@@ -375,7 +377,7 @@ Urbit is your personal server, identity, IP address, VM (virtual machine) and an
 Ethereum is the largest distributed computer in the world today. It is the Lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
 
 ### What's Cosmos?
-Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Arther than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
+Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Rather than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
 
 ### Why do you gift these particular communities?
 Those gifts can help grow the protocol. As a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
@@ -421,6 +423,8 @@ Right now there is no question about them. As of now, it is irrelevant in our pr
 
 We already have more plans on how to introduce other computational resources into the picture. For example, this can be a PoW mechanism based on RandomX algorithm. But, once again, as of now ASIC's are out of scope for our current work. 
 
+It should be noted that in our case ASIC's are actually not a bad thing, if they do arise on the horizon. In the case of Cyber ASIC's will help the validators to compute more knowledge onto the knowledge graph, hence making it better!
+
 ### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
 When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
 
@@ -430,8 +434,8 @@ When a user queries the knowledge graph (searches for an answer/searches for a r
 ### Do you have a White Paper?
 Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
-### When do you launch?
-The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020.
+### When are launching a stable mainet?
+The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
 
 ### Who are the people behind the project?
 We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
@@ -466,7 +470,9 @@ Yes. It works exactly as described in our documentation.
 Chaingear is one of our secret weapons. It is not yet fully described by us. But in its essence, it is an ETH based ability for anyone to create a personal or a public database with the help of NFT tokens. For example, one may create the database .porn and then create records in that database. I.E. world.porn, and yes, it works just like a domain-based structure. But it's not a domain-based structure, as it allows you to create other types of databases too.
 
 ### So, how do I join this?
-For now, you can run a validator node to help test, improve and launch the network. This will be the biggest (and probably the most beneficial to all sides) commitment as of now. The launch guide requires some technical skills and experience and can be [found here](https://cybercongress.ai/docs/cyberd/run_validator/).
+You should join to play the Game of Links (described above), check out the [launch-kit](https://github.com/cybercongress/launch-kit) for more information! 
+
+You can run a validator node to help test, improve and launch the network. This will be the biggest (and probably the most beneficial to all sides) commitment as of now. The launch guide requires some technical skills and experience and can be [found here](https://cybercongress.ai/docs/cyberd/run_validator/).
 
 But, you don't have to become a validator. You can use the virus extension to create cyberlinks. You can [join our forum](https://ai.cybercongress.ai/) to discuss any ideas. You can participate in the distribution games and so on.
 
@@ -500,13 +506,13 @@ The projects receive donations from users who wish to donate them and participat
 ### Why do you need donations?
 Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
 
-THC donations will be managed by an Aragon DAO (the community) to help develop the protocol and see it grow. 
+THC donations will be managed by an Aragon DAO (the community) to help develop the protocol in the longterm. 
 
 ### Why don't you have KYC/AML?
 Because we do not understand the purpose of this mechanism concerning privacy and decentralization. Anyone is free to do what they want to do. If someone wants to donate and thereafter decided that it's his free will to KYC this donation in some way. It's his free will. It is our free will and our belief that decentralization is not about KYC and/or AML. If you don't agree with this, then you probably aren't ready for decentralization. Simply walk away. 
 
 ### Is this religious?
-Yes. By all means, it is. It is the most anti-religious religion in the wild. 
+Yes. By all means, it is. It is the most anti-religious techno-religion in the wild. 
 
 ### What is your main target audience?
 Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else. 
@@ -521,7 +527,7 @@ I would lie if I said we weren't. But doesn't it take a bit of craziness, abstra
 Because values are what spins the world around. Our values lay at the core of the technology that we have created. Those values are the driver of that innovation. They are the goal. The technology is the instrument to get there. 
 
 ### Why all species? 
-Because all species should (and will) be equal. 
+Because all species should (and will) have an equal opportunity for secure and transparent communication. 
 
 ### How can all species be intelligent?
 Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. 
