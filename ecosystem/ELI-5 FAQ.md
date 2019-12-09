@@ -10,14 +10,21 @@ You may skim through questions separately, of course, but I advise you to `buckl
 ### What is a FAQ?
 A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions as simple as possible to give the reader a basic overview of a specific subject, and if necessary, refer the reader to more detailed information. 
 
+-------------------------------
+
 ### Table of content
 - [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyber)
 - [What Cyber is NOT](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-cyber-is-not)
-- [The philosophy behind Cyber]()
-- [High-level, techonological questions]()
+- [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
+- [High-level, techonological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
+- [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
+- []()
+- []()
+- []()
 
+---------------------------------
 
-### What is cyber?
+## What is cyber?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology that is used in the first explanation WILL be explained in detail later on in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
 Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information.
@@ -36,6 +43,8 @@ The interesting thing is that such a simple mechanism allows creating a lot of p
 Cyber is not a commercial product. In fact, it is not a product as such. It is an instrument if you wish, or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
 
 Cyber is not THE new internet. It is a tool that can help to shape and to decentralise (distribute the power of authority) the new Great Web. 
+
+---------------------------------
 
 ## The philosophy behind Cyber:
 ### What problem are you trying to solve?
@@ -72,6 +81,8 @@ We believe that privacy should be a fundamental right. As of now, the protocol i
 We are strongly discouraged by any censorship and view it as a sin against humanity. 
 
 Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
+
+---------------------------------
 
 ## High-level, IT, blockchain and some explanations:
 ### What's a hash?
@@ -164,6 +175,8 @@ When talking about construction a foundation is the lowest load-bearing part of 
 
 Congress can be a group of people picked by others to make challenging decisions. 
 
+---------------------------------
+
 ## cyber~Questions:
 ### Why Cyber?
 We like that name. That's one reason. We have been using this name throughout our projects for the past 6 -7 years. 
@@ -212,6 +225,17 @@ Someone who ranks content with a higher value will see his content ranked higher
 
 With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
 
+**cyber~Blocks**
+### What is cyber~Page?
+cyber~Page is the face of the protocol in a way. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
+
+### What is Cyb?
+Cyb is your friendly-robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
+
+### What is cyb~Virus?
+The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck Google right in Google's playground fascinates us. 
+
+**Validators**
 ### How do I become a validator in Cyber?
 Make sure you have the requirements described above and [follow this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
 
@@ -237,6 +261,7 @@ You can earn rewards and help to bootstrap the network by running a validator no
 - You can take part in forming the knowledge graph of the new Great Web
 - Become a web3 provider
 
+**Economy**
 ### Are there rewards involved for users?
 Yes. Users can delegate their stake to validators and also receive rewards (although a validator might charge a commission for this). Users are rewarded in terms of their content becoming non-censored and reachable by anyone, anywhere. 
 
@@ -322,6 +347,7 @@ A complete breakdown of THC and CYB by category can be viewed in the launch-kit 
 ### So is the inflation endless?
 The inflation in cyberd constantly strives to ~7%.
 
+**Gifting**
 ### I've read you have gifted other blockchain communities, why?
 The purpose of this is to help the network gain traction at the beginning. To increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. 
 
@@ -337,6 +363,10 @@ Cosmos is the next evolutionary step in blockchain technology. Just like Ethereu
 ### Why do you gift these particular communities?
 We believe that those gifts can help grow the protocol, as a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
 
+### Are there any aidrops?
+Yes. The gifts are that exactly. 
+
+**Governance and entities**
 ### What is governance in cyber?
 the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.  
 
@@ -352,17 +382,33 @@ It is the entity that is responsible for helping to grow the ecosystem. Its comm
 ### Who are cyber~FundClassic?
 It is the future fund to be created and to help applications grow within the cyber ecosystem. 
 
-### What is cyber~Page?
-cyber~Page is the face of the protocol in a way. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
-
-### What is Cyb?
-Cyb is your friendly-robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
-
-### What is cyb~Virus?
-The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck Google right in Google's playground fascinates us. 
-
 ### Why so many cyb~Entities?
 Why not, is the simple answer. The other answer is to divide the work evenly and equally amongst several entities that are each responsible for their field of work. A browser is an application, while the protocol is the protocol. They are not one entity. Same goes for the governing process. Different entities are responsible for different questions. 
+
+**More about the rank**
+### Ok, I get it - so how exactly do you calculate the rank?
+The idea of the ranking mechanism is based on the original PageRank, but with the implementation of a token-backed bandwidth. Or in other words a similar model, but with economic incentives and protections. The rank is dependent on the difference between the weight of the incoming ranks and the weight of the outgoing ranks. The network load is also a property that is calculated to obtain the rank. 
+
+As of now, the rank accounts for the current intention of the agents, and it encourages rank inflation. This makes sure it cannot be tampered with and that we do not get stuck in the past with content ranking. 
+
+This mechanism is fully described in our white paper. We believe that on-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
+
+### What's CUDA?
+It is an interface communication model created by NVIDIA, that allows many processes to be executed at the same time. It allows developers to use their graphics cards for computing general-purpose computations (usually handled by the processor).
+
+### Why do you use GPU?
+Because we need to process a big amount of computations very quickly. CUDA allows us to do this. More so, this allows using your computer for creating semantics, this is something needed (the use of anyone computational resources) if we want to achieve a more complex matrix with relation to our knowledge and our fundamental needs to search for answers. 
+
+### What about ASICs?
+Right now there is no question about them. As of now, it is irrelevant in our protocol. If such a need will arise, we believe that the governing mechanisms implemented in the protocol will be able to handle this. 
+
+We already have more plans on how to introduce other computational resources into the picture. For example, this can be a PoW mechanism based on RandomX algorithm. But, once again, as of now ASIC's are out of scope for our current work. 
+
+### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
+When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
+
+---------------------------
+
 
 ### What are some basic use-cases? 
 Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
@@ -378,6 +424,34 @@ First, what is AI? AI is the intelligence demonstrated by a machine. This doesn'
 In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
 
 It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
+
+------------------------------
+
+## White Paper, launch and contacts:
+### Do you have a White Paper?
+Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repositiry](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
+
+### When do you launch?
+The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed.  As of the end of 2019, the ETA is summer 2020.
+
+### Who are the people behind the project?
+We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
+
+If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums. 
+
+### Are you Satoshi?
+We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
+
+### Why are you so geeky?
+Why not? We think geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
+
+### How do I contact you?
+Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
+
+### Do you have any normal chats/ a forum maybe?
+We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitHub account. And we have a [TG chat](https://t.me/fuckgoogle).
+
+-------------------------------------
 
 ## More questions:
 ### Why open-source?
@@ -421,67 +495,16 @@ There are several ways someone can get rewarded:
 ### Whats GitCoin?
 Gitcoin is a crowdfunding and freelance developers platform that lets you fund different issues from your GitHub, using smart contracts and ETH. 
 
-## White Paper, launch and contacts:
-### Do you have a White Paper?
-Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repositiry](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
-
-### When do you launch?
-The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed.  As of the end of 2019, the ETA is summer 2020.
-
-### Who are the people behind the project?
-We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
-
-If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums. 
-
-### Are you Satoshi?
-We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
-
-### How do I contact you?
-Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
-
-### Do you have any normal chats/ a forum maybe?
-We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitHub account. And we have a [TG chat](https://t.me/fuckgoogle).
-
-
-
-### Ok, I get it - so how exactly do you calculate the rank?
-The idea of the ranking mechanism is based on the original PageRank, but with the implementation of a token-backed bandwidth. Or in other words a similar model, but with economic incentives and protections. The rank is dependent on the difference between the weight of the incoming ranks and the weight of the outgoing ranks. The network load is also a property that is calculated to obtain the rank. 
-
-As of now, the rank accounts for the current intention of the agents, and it encourages rank inflation. This makes sure it cannot be tampered with and that we do not get stuck in the past with content ranking. 
-
-This mechanism is fully described in our white paper. We believe that on-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
-
-### What's CUDA?
-It is an interface communication model created by NVIDIA, that allows many processes to be executed at the same time. It allows developers to use their graphics cards for computing general-purpose computations (usually handled by the processor).
-
-### Why do you use GPU?
-Because we need to process a big amount of computations very quickly. CUDA allows us to do this. More so, this allows using your computer for creating semantics, this is something needed (the use of anyone computational resources) if we want to achieve a more complex matrix with relation to our knowledge and our fundamental needs to search for answers. 
-
-### What about ASICs?
-Right now there is no question about them. As of now, it is irrelevant in our protocol. If such a need will arise, we believe that the governing mechanisms implemented in the protocol will be able to handle this. 
-
-We already have more plans on how to introduce other computational resources into the picture. For example, this can be a PoW mechanism based on RandomX algorithm. But, once again, as of now ASIC's are out of scope for our current work. 
-
-### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
-When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
-
+### Is this an ICO?
+The projects receive donations from users who wish to donate them and participate in the distribution games. The process can be referred to as an initial community offering. Which is the process where the community understands the value of the proposed idea and decides to donate towards its development for its own benefit. 
 
 ### Why do you need donations?
 Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
 
 THC donations will be managed by an Aragon DAO (the community) to help develop the protocol and see it grow. 
 
-### Is this an ICO?
-The projects receive donations from users who wish to donate them and participate in the distribution games. The process can be referred to as an initial community offering. Which is the process where the community understands the value of the proposed idea and decides to donate towards its development for its own benefit. 
-
 ### Why don't you have KYC/AML?
 Because we do not understand the purpose of this mechanism concerning privacy and decentralization. Anyone is free to do what they want to do. If someone wants to donate and thereafter decided that it's his free will to KYC this donation in some way. It's his free will. It is our free will and our belief that decentralization is not about KYC and/or AML. If you don't agree with this, then you probably aren't ready for decentralization. Simply walk away. 
-
-
-### Why are you so geeky?
-Why not? We think geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
-
-
 
 ### Is this religious?
 Yes. By all means, it is. It is the most anti-religious religion in the wild. 
@@ -507,11 +530,6 @@ Intelligence can be simplified to communication. All species can communicate via
 ### Why do you need all those manifests/researches? How does it help the project?
 We think that it is stupid to achieve any goals without understanding the problem you are trying to solve. Daily, all around the world, people do something... But why do just something, when you can do THE something that needs to be done and that solves the problem you or someone else were trying to solve? We believe that all of this can, and will, help the project as it evolves trust in what we do. Shows that we have an understanding of what and why we do it. And that we are ready to prove the world that it will help to fix broken protocols for the better.
 
-### I don't get it. I'm still confused
-I would advise you to read some of the provided links below. Use [issues](https://github.com/cybercongress/congress/issues) to ask questions that you think were left unanswered.
-
-In general, think of cyber is a completely, brand-new mechanism for obtaining answers. Building universal knowledge and for communicating. 
-
 ### Can I copy what you do?
 Go ahead. Seriously. We are open-source for a reason. YOu may copy, modify, do as you please. 
 Our license agreement is this: `Don’t believe, don’t fear, don’t ask.`
@@ -523,10 +541,15 @@ You defiantly should! The idea of forking cyber is not just a call to action. It
 
 You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes.  
 
+### I don't get it. I'm still confused
+I would advise you to read some of the provided links below. Use [issues](https://github.com/cybercongress/congress/issues) to ask questions that you think were left unanswered.
 
+In general, think of cyber as of a completely, brand-new mechanism for obtaining answers. Of a soft capable of building universal knowledge and communicating. 
 
-### Do you have any more links for me to read?
-We have a lot:
+---------------------------
+
+## Links to check out:
+(in no particular order)
 - [Our White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
 - [IPFS docs](https://docs.ipfs.io/)
 - [Urbit docs](https://urbit.org/docs/)
