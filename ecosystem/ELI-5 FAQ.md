@@ -84,6 +84,9 @@ We are strongly discouraged by any censorship and view it as a sin against any l
 
 Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
 
+### Do you not think that the motto #fuckgoogle is offensive?
+No, because fucking is not for pain, it is for pleasure!
+
 ---------------------------------
 
 ## High-level, IT, blockchain and some explanations:
@@ -173,9 +176,10 @@ Prediction markets are an example of communicating and financial incentives betw
 ### What's an entity 
 An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
 
-### What's a foundation/congress?
+### What's a foundation?
 When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
 
+### What's a congress
 Congress can be a group of people picked by others to make challenging decisions. 
 
 ---------------------------------
@@ -184,7 +188,9 @@ Congress can be a group of people picked by others to make challenging decisions
 ### Why Cyber?
 We like that name. That's one reason. We have been using this name throughout our projects for the past 6 -7 years. 
 
-Cyber refers to anything that is to do with the internet, AI, computing. It has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
+Actually, cyber refers to anything that is very smart. The meaning is rooted from the word `cybernetics` (check out this article on [Wikipedia](https://en.wikipedia.org/wiki/Cybernetics#Subdivisions_of_the_field)) - a science which describes the behaviour of dynamic systems with feedback loops.
+
+In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
 ### What exactly are CIDs?
 A CID is a content identificator or an IPFS hash. That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS protocol.
@@ -193,12 +199,12 @@ A CID is a content identificator or an IPFS hash. That means its a something tha
 Cyberlink is a link between two CIDs or between 2 IPFS hashes. 
 
 ### How is cyberlink different to a hyperlink?
-A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have dame a change will be known). 
+A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
 
 This allows us to make sure that the information in a cyberlink is true. Cyberlinks can also form linkchains of information if they were created by the same user.
 
 ### Is linking that important?
-Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from Google. Google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but to create a trusted model of all the information in the universe!
+Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from Google. Google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
 
 ### How is content ranked in cyber?
 You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
@@ -212,11 +218,11 @@ Pages are not excluded from the index in any way.
 Nope... Not on the protocol level. Not on the database level. Not on the consensus level. Every transaction should and must be routed (passed to its destination whatever it maybe).
 
 ### So what do you do with those who break the law?
-If we obscure from the question of what is the law and by whom it determines, then:
+If we obscure from the question of what is the law and by whom it is determined, then:
 
 There are no bad intentions in wanting to find the answer to something. You might not know something is "bad" until you know what it is. We are born Tabula Rasa - a clean sheet. The answer itself might indeed contain information that someone might see as "bad" or "inappropriate". This is not something we can control. We do not produce the information, we provide the tool to search through it and obtain it. 
 
-It can be assumed that in the future, someone will build applications on top of cyber and might want to filter out information on the application level (the results that the end-users sees and interacts with). This is not encouraged but indeed is up to the developer. We will never do something like this. Regardless if this happens or not, the protocol will NOT be censored and that information will be accessible. 
+It can be assumed that in the future, someone will build applications on top of cyber and might want to filter out information on the application level (the results that the end-users sees and interacts with). This is not encouraged, but indeed is up to the developer. We will never do something like this. Regardless if this happens or not, the protocol will NOT be censored and that information will be accessible. 
 
 This will create a competition between developers to pass the truth to the users.
 
@@ -290,13 +296,13 @@ There are currently 2 tokens.
 Due to technical limitations, there is no way to have all of the described below characteristics in one token. We do not think that having several tokens is a bad thing. In the future, there might be other tokens on top of the DAO or/and the protocol. Of course, if they are proven to help the economics and the agents of that economics. 
 
 ### What are the names of your tokens and what does each one do?
-We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token. 
+We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO. 
 
 ### How many tokens are there?
-1PCYB of tokens. And 700TTHC. That's a lot, we know.
+1 PCYB of tokens (and growing). And 700 TTHC. That's a lot, we know.
 
 ### What are MCYB / GCYB / TCYB / PCYB?
-Those are representations of the amounts of CYB tokens in megabytes, gigabytes, terabytes, petabytes, etc. I.E. 1GCYB of tokens is 1 Giga (byte) CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1GCYB = 1000000000 CYB`
+Those are representations of the amounts of CYB tokens in mega, giga, tera, peta, etc. I.E. 1GCYB of tokens is 1 Giga CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1 GCYB = 1000000000 CYB`
 
 ### Why do you need so many tokens?
 We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc. 
@@ -315,7 +321,7 @@ The usability of both tokens is straightforward. One is the core protocol token,
 Of course, other implementations can be applied. For example, both tokens can be used within the realm of prediction markets. Another example is using the protocol token as a means to an end. I.E. paying for a service. 
 
 ### Do you have transactional costs?
-No. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. 
+Not in Cyber. I.E. CYB tokens do not have transactional costs. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. On the other hand, THC tokens are Ethereum based, so - yes, they have transactional costs withing the Ethereum ecosystem (transactions cost gas).
 
 ### What are Resource Credits (RC)?
 Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transaction in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc. 
@@ -330,7 +336,7 @@ There are 3 distribution games proposed in total. Their goal is to help increase
 The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers). [Check out more details here](https://github.com/cybercongress/launch-kit/blob/0.1.0/Launch%20FAQ.md#what-are-the-distribution-games).
 
 ### What is Game of Thrones (GoT)?
-It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100TCYB to the ATOM community for donating ETH. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
+It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
 
 ### What is cyber~Auction?
 cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
@@ -340,27 +346,27 @@ The auction will last for 500 rounds that last for 23 hours each (a little over 
 One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
 
 ### Can you explain what are EUL / GOL tokens?
-They are both testnet tokens. EUL is the testing equivalent of CYB and GOL of THC. 
+They are both experimental tokens needed to launch the productive equivalent. EUL is the testing equivalent of CYB and GOL of THC. 
 
 ### Tell me about your distribution
 The distribution looks like this:
-There are 700 TTHC tokens (Terabytes are 12 zeros). They are broken down as per follows: (numbers are rounded)
+There are 700 TTHC tokens (Tera are 12 zeros). They are broken down as per follows: (numbers are rounded)
 - 71.4% are for cyber~Auction
 - 14.3% are for GoT
 - 14.3% is allocated to cyber~Congress
 
-There are 1PTCYB (a petabyte is 15 zeros). They are broken down per following:
+There are 1 PTCYB (a peta is 15 zeros). They are broken down per following:
 - 90% for the distribution games (in other words open-sale) and for those who stake THC tokens (including cyber~ Congress)
 - 10% is a gift to Urbit, Cosmos and ETH communities
 
-A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md).
+A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md) and in [our whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
 ### So is the inflation endless?
-The inflation in cyberd constantly strives to ~7%.
+The inflation in cyberd is defined by validators.
 
 **Gifting**
 ### I've read you have gifted other blockchain communities, why?
-The purpose of this is to help the network gain traction at the beginning. To increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. 
+The purpose of this is to help the network gain traction at the beginning. And to increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. We chose these specific communities because they are the best communities, in our opinion, to help to form the knowledge graph and to reach the masses.
 
 ### What's Urbit?
 Urbit is your personal server, identity, IP address, VM (virtual machine) and an operational system. It is the new computer science. Improved and more efficient. At the same time, Urbit can help us to envision the initial vision of peer to peer internet. 
