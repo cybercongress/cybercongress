@@ -18,9 +18,9 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 - [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
 - [High-level, techonological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
 - [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
-- []()
-- []()
-- []()
+- [White Paper, launch and contacts](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#white-paper-launch-and-contacts)
+- [More questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#more-questions)
+- [Very impoerant links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-check-out)
 
 ---------------------------------
 
@@ -225,6 +225,14 @@ Someone who ranks content with a higher value will see his content ranked higher
 
 With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Whatever I stopped ranking will lose rank. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top.
 
+### What are some basic use-cases? 
+Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
+- Personal and autonomous robots and assistants that can study the information you feed them.
+- Cyber gives you the ability to access your database of knowledge. Theoretically, create a personal knowledge graph and query it. This means no more losing information. 
+- Offline search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. cyber itself can be distributed by using IPFS. This creates the possibility for off-line search!
+- Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
+- Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
+
 **cyber~Blocks**
 ### What is cyber~Page?
 cyber~Page is the face of the protocol in a way. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
@@ -407,24 +415,6 @@ We already have more plans on how to introduce other computational resources int
 ### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
 When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
 
----------------------------
-
-
-### What are some basic use-cases? 
-Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
-- Personal and autonomous robots and assistants that can study the information you feed them.
-- Cyber gives you the ability to access your database of knowledge. Theoretically, create a personal knowledge graph and query it. This means no more losing information. 
-- Offline search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. cyber itself can be distributed by using IPFS. This creates the possibility for off-line search!
-- Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
-- Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
-
-### How is this AI related?
-First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is). 
-
-In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
-
-It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
-
 ------------------------------
 
 ## White Paper, launch and contacts:
@@ -529,6 +519,13 @@ Intelligence can be simplified to communication. All species can communicate via
 
 ### Why do you need all those manifests/researches? How does it help the project?
 We think that it is stupid to achieve any goals without understanding the problem you are trying to solve. Daily, all around the world, people do something... But why do just something, when you can do THE something that needs to be done and that solves the problem you or someone else were trying to solve? We believe that all of this can, and will, help the project as it evolves trust in what we do. Shows that we have an understanding of what and why we do it. And that we are ready to prove the world that it will help to fix broken protocols for the better.
+
+### How is this AI related?
+First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is). 
+
+In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
+
+It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
 
 ### Can I copy what you do?
 Go ahead. Seriously. We are open-source for a reason. YOu may copy, modify, do as you please. 
