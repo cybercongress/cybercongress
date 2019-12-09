@@ -1,14 +1,15 @@
 
+
 # The ELI-5 FAQ for Cyber 
-This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be greatly appreciated.
+This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be appreciated.
 
-The biggest help will be submitting more questions, that you think are left unanswered, to this FAQ via a [GitHub issue](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag @sereajndmyself in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
+The biggest help will by submitting more questions that you think were unanswered. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag @sereajndmyself in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
 
-You may skim through questions separately, of course, but I advise you to `buckle up your seat belt` and read it all.
+You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all.
 
 **But, first:**
 ### What is a FAQ?
-A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions as simple as possible to give the reader a basic overview of a specific subject, and if necessary, refer the reader to more detailed information. 
+A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions, as simple as possible, to give the reader a basic overview of a specific subject, and if necessary, refer the reader to more detailed information. 
 
 -------------------------------
 
@@ -16,16 +17,16 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 - [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyber)
 - [What Cyber is NOT](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-cyber-is-not)
 - [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
-- [High-level, techonological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
+- [High-level, technological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
 - [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
 - [White Paper, launch and contacts](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#white-paper-launch-and-contacts)
 - [More questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#more-questions)
-- [Very impoerant links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-check-out)
+- [Very important links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-check-out)
 
 ---------------------------------
 
 ## What is cyber?
-The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology that is used in the first explanation WILL be explained in detail later on in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
+The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
 Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information.
 
@@ -42,7 +43,7 @@ The interesting thing is that such a simple mechanism allows creating a lot of p
 ### What cyber is NOT?
 Cyber is not a commercial product. In fact, it is not a product as such. It is an instrument if you wish, or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
 
-Cyber is not THE new internet. It is a tool that can help to shape and to decentralise (distribute the power of authority) the new Great Web. 
+Cyber is not THE new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the new Great Web. 
 
 ---------------------------------
 
@@ -51,7 +52,7 @@ Cyber is not THE new internet. It is a tool that can help to shape and to decent
 We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age). 
 
 ### Why are you doing this?
-We believe that each person should be able to control their own data, their identity, their knowledge. We believe that the universe can become a better place if our children live in a digital environment where they are in charge of their actions.
+Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
 
 ### What's wrong with Google?
 Google is a brilliant idea. We do not deny this. But Google is the rebel that has overthrown the dictator and became the dictator itself. Google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, Google doesn't care for anyone and will make money on your action and your behalf.
@@ -65,10 +66,10 @@ Because we are almost done with post-industrialism. We are slowly and surely mov
 Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
 
 ### Aren't there other, more important problems to solve?
-There probably are. But we decided to focus on this because we believe that we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). We believe that our tool can help to play a role in solving if not all, but some of these.
+There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.
 
-### Aren't there other things out there that solve all of this?
-We believe that there is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our product is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what we think is broken.
+### Aren't there other things out there that solve this?
+There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our product is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
 
 ### How are users/developers/others benefit from using such a system in comparison to Google, etc?
 
@@ -98,7 +99,7 @@ A consensus in computing refers to the process of different computers agreeing o
 A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
 
 ### What is a blockchain
-A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acylic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of stucturing data). 
+A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
 
 ### What is a transaction?
 In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
@@ -110,12 +111,12 @@ A token in blockchain terms is a digital representation of some certain value, r
 NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history. 
 
 ### What's bandwidth?
-Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwith in IT relates to information and the ability to pass a certain amount of data from one place to another. 
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another. 
 
 In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
 
 ### What is Sybil resistance?
-Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudos (fake) identities to gain influence for himself.
+Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence for himself.
 
 ### What is BFT?
 BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
@@ -133,7 +134,7 @@ The purpose of staking is network security. The tokens that are locked, the bett
 The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
 
 ### What is a delegator?
-Delegators are usees that delegate their tokens to validators to participate in receiving staking reards. For this validators might charge commission. 
+Delegators are uses that delegate their tokens to validators to participate in receiving staking rewards. For this validators might charge commission. 
 
 ### What are smart contracts?
 Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
@@ -190,7 +191,7 @@ A CID is a content identificator or an IPFS hash. That means its a something tha
 Cyberlink is a link between two CIDs or between 2 IPFS hashes. 
 
 ### How is cyberlink different to a hyperlink?
-A hyperlink is dependent on central data servers and packet routing. On the other hand, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have dame a change will be known).  
+A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have dame a change will be known). 
 
 This allows us to make sure that the information in a cyberlink is true. Cyberlinks can also form linkchains of information if they were created by the same user.
 
@@ -238,7 +239,7 @@ Of course, the most basic use case is a search mechanism (described above). Othe
 cyber~Page is the face of the protocol in a way. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
 
 ### What is Cyb?
-Cyb is your friendly-robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
+Cyb is your friendly robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
 
 ### What is cyb~Virus?
 The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck Google right in Google's playground fascinates us. 
@@ -296,7 +297,7 @@ We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of t
 Those are representations of the amounts of CYB tokens in megabytes, gigabytes, terabytes, petabytes, etc. I.E. 1GCYB of tokens is 1 Giga (byte) CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1GCYB = 1000000000 CYB`
 
 ### Why do you need so many tokens?
-We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc.  
+We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc. 
 
 On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things. 
 
@@ -363,20 +364,20 @@ The purpose of this is to help the network gain traction at the beginning. To in
 Urbit is your personal server, identity, IP address, VM (virtual machine) and an operational system. It is the new computer science. Improved and more efficient. At the same time, Urbit can help us to envision the initial vision of peer to peer internet. 
 
 ### What's Ethereum?
-Ethereum is the largest distributed computer in the world today. It is the lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
+Ethereum is the largest distributed computer in the world today. It is the Lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
 
 ### What's Cosmos?
 Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Arther than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
 
 ### Why do you gift these particular communities?
-We believe that those gifts can help grow the protocol, as a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
+Those gifts can help grow the protocol. As a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
 
-### Are there any aidrops?
+### Are there any airdrops?
 Yes. The gifts are that exactly. 
 
 **Governance and entities**
 ### What is governance in cyber?
-the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.  
+the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on. 
 
 ### What is cyber~Foundation?
 The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
@@ -399,7 +400,7 @@ The idea of the ranking mechanism is based on the original PageRank, but with th
 
 As of now, the rank accounts for the current intention of the agents, and it encourages rank inflation. This makes sure it cannot be tampered with and that we do not get stuck in the past with content ranking. 
 
-This mechanism is fully described in our white paper. We believe that on-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
+This mechanism is fully described in our white paper. On-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
 
 ### What's CUDA?
 It is an interface communication model created by NVIDIA, that allows many processes to be executed at the same time. It allows developers to use their graphics cards for computing general-purpose computations (usually handled by the processor).
@@ -419,10 +420,10 @@ When a user queries the knowledge graph (searches for an answer/searches for a r
 
 ## White Paper, launch and contacts:
 ### Do you have a White Paper?
-Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repositiry](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
+Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
 ### When do you launch?
-The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed.  As of the end of 2019, the ETA is summer 2020.
+The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020.
 
 ### Who are the people behind the project?
 We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
@@ -433,7 +434,7 @@ If you wish to, you can skim through our GitHub and easily find links to some of
 We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
 
 ### Why are you so geeky?
-Why not? We think geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
+Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
 
 ### How do I contact you?
 Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
@@ -448,7 +449,7 @@ We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitH
 Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner. 
 
 ### Have you even tested this?
-Yes, we have. There have been numerous private and public tesnets. In fact, as of now, we are still testing and improving the protocol. 
+Yes, we have. There have been numerous private and public testnets. In fact, as of now, we are still testing and improving the protocol. 
 
 ### Does it work?
 Yes. It works exactly as described in our documentation.
@@ -465,7 +466,7 @@ But, you don't have to become a validator. You can use the virus extension to cr
 You can use the cyb~Virus extension if you are a non-technical user. It is HIGHLY unsafe software as of now, so you should only use it at your own risk. 
 
 ### Can I use it on web2 (normal browsers / phone, etc)?
-Depends. You can certainly view and download IPFS hashes via gateways to your phone/web2, etc. We presume that in the future people will be building some kind of bridge between what we do and web2. But we do not see this is a task and shall not work on it. We believe that people should move to web3.
+Depends. You can certainly view and download IPFS hashes via gateways to your phone/web2, etc. We presume that in the future people will be building some kind of bridge between what we do and web2. But we do not see this is a task and shall not work on it. People should move to web3.
 
 ### Can I contribute?
 Depending on what you do, there are several ways to contribute:
@@ -503,7 +504,7 @@ Yes. By all means, it is. It is the most anti-religious religion in the wild.
 Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else. 
 
 ### How do you plan to take over the world/internet?
-By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is working. The idea has proved to be functioning and has a proved and a cemented market demand.  We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else - it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen! 
+By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is working. The idea has proved to be functioning and has a proved and a cemented market demand. We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else - it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen! 
 
 ### I read one of your manifests, are you crazy?
 I would lie if I said we weren't. But doesn't it take a bit of craziness, abstract geniuses and adventurism to change the world? Knowledge is a vital virtue that we possess. But if we were normal, we wouldn't be any different from the rest. 
@@ -536,7 +537,7 @@ Eventually, we will meet each other with the help of IBC or other instruments of
 ### Can I build something on top of cyber?
 You defiantly should! The idea of forking cyber is not just a call to action. It is a call for development. You may build your own specialised search (knowledge graphs) that reference to our general-purpose knowledge graph. You may provide services on top of your own, or our knowledge graph and IPFS (services such as e-commerce, SEO, hosting, identity, etc).
 
-You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes.  
+You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes. 
 
 ### I don't get it. I'm still confused
 I would advise you to read some of the provided links below. Use [issues](https://github.com/cybercongress/congress/issues) to ask questions that you think were left unanswered.
@@ -563,6 +564,8 @@ In general, think of cyber as of a completely, brand-new mechanism for obtaining
 - [Validator docs](https://cybercongress.ai/docs/cyberd/cyberd/)
 - [Aragon website](https://aragon.org/)
 - [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
+
+
 
 
 
