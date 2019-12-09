@@ -69,9 +69,10 @@ Search is a global mechanism that is globally understood by everyone, regardless
 There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.
 
 ### Aren't there other things out there that solve this?
-There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our product is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
+There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
 
 ### How are users/developers/others benefit from using such a system in comparison to Google, etc?
+<img src="https://i.postimg.cc/7hX2GbQC/cyber.png" />
 
 ### Why do you need consensus within Cyber?
 A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
@@ -79,7 +80,7 @@ A consensus is required for nodes to agree on the current state of the ledger at
 ### What is your take on: privacy/censorship/routing?
 We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol. 
 
-We are strongly discouraged by any censorship and view it as a sin against humanity. 
+We are strongly discouraged by any censorship and view it as a sin against any living and/or thinking organism. 
 
 Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
 
@@ -87,10 +88,11 @@ Routing should be always permitted. Transactions should always be permitted to p
 
 ## High-level, IT, blockchain and some explanations:
 ### What's a hash?
-A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file. I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
+A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
+I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
 
 ### What are distributed technologies?
-Distributed technologies are technologies that do not have a central source of power in terms of computing. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
+Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
 
 ### What is a consensus computer?
 A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose).
