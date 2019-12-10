@@ -35,7 +35,9 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 
 - [NVIDIA forum ANN](https://devtalk.nvidia.com/default/topic/1066194/cuda-programming-and-performance/cuda-cards-diversification-looking-for-ideas-validators-programmers-cyber-consensus-computer/)
 
-- [Cosmos forum ANN](https://forum.cosmos.network/t/cyber-like-google-but-cyber-distributed-supercomputer-for-answers-looking-for-validators/2950)
+- [Cosmos forum ANN 1](https://forum.cosmos.network/t/cyber-like-google-but-cyber-distributed-supercomputer-for-answers-looking-for-validators/2950)
+
+- [Cosmos forum ANN 2](https://forum.cosmos.network/t/cyber-a-distributed-super-intelligence-for-provable-and-relevant-answers-explanations-wp-faq/3045)
 
 - [Cosmos awesome list](https://github.com/cosmos/awesome)
 
