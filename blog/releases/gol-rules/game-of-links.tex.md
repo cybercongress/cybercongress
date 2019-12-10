@@ -1,6 +1,6 @@
 # The Game of Links. Goals, rules and provision.
 
-Welcome to the Game of Links - the incentivize testnet of the `cyber` network run of the cyber~Congress. The main goal of the game is to win as much as possible tokens from cyber~Congress. 
+Welcome to the Game of Links - the incentivize testnet of the `cyber` network run of the cyber~Congress. The main goal of the game is to win as much as possible tokens from cyber\~Congress. 
 
 ## Intro
 
