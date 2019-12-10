@@ -107,7 +107,7 @@ Participants, which want to get CYBs in Genesis file of mainnet but cannot play,
 
 The Game result and distribution significantly influenced by the Takeoff funding results. If 600k ATOM is raised during takeoff round 10% of CYB will be distributed. The logic is the following: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links
 
-![game-of-links-distribution](https://user-images.githubusercontent.com/410789/66488352-0fb15600-eaae-11e9-947d-5b7a52b1cdd6.png)
+![game-of-links-distribution](GOL_distribution.png)
 
 | Group | Amount CYB (up to) |
 | --- | ---: |
@@ -167,31 +167,37 @@ The easiest discipline. You need just set up your validator and monitor its life
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
-By following formula calculated each validator reward in the block *n* if precommit was:
+By following formula calculated each validator reward in the block *n* if precommit was and 600,000 ATOMs collected:
 
-$$r_{n}=\frac{\frac{1}{block_{max}}\cdot 5TCYB}{V_{n}}$$
+$$r_{n}=\frac{\frac{1}{block_{max}}\cdot 2\ TCYB}{V_{n}}$$
 
 The *r* is reward for vlidator at block *n*, the $block_{max}$ is the latest block of the Game, and *V* the amount of validators on block *n*.
 
 We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
 
-For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 600,000 ATOMs on the Auction you will get 
-$$ R = \frac{5\ TCYB}{146} \approx 34.25\ GCYB$$ 
+For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 600,000 ATOMs on the Auction you will get
+$$ R = \frac{2\ TCYB}{146} \approx 13.7\ GCYB$$
 in the Genesis file of `cyber` network.
 
 ## A bandwidth load of every participant
 
-Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions. The main goal of that model is to reduce daily network growth to given constant.
+Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions.
 
-Each message type has assigned bandwidth cost.
+Each message type has assigned bandwidth cost. For this discipline we're using ONLY bandwidth spend to linking.
 
-All bandwidth spending data available at `?` RPC/LCD. After the game 10 TCYBs will be distributed to players addresses according to their weight coefficient, other words according to how much they spent. It decreases if the network has a low load and increase if high between `0.01` and `inf`.
+All bandwidth spending data available at ? RPC/LCD. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient, other words according to how much they spent. It decreases if the network has a low load and increase if high between 0.01 and inf.
 
-The network has desirable bandwidth in 24 h, so if current bandwidth equals this value it means normal, and the `multiplier` parameter is `1.00`. In other cases, the `multiplier` is correcting for uploading or downloading the network. 
+The network has desirable bandwidth in 24 h, so if current bandwidth equals this value it means normal, and the multiplier parameter is 1.00. In other cases, the multiplier is correcting for uploading or downloading the network.
 
-The `multiplier` value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors.
+The multiplier value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors.
 
-> Important! The not valid transaction also consumes bandwidth, for results counting only bandwidth which used for successful linking.
+User bandwidth depends on its stake as :
+
+formula
+
+$$ bandwidth_{user} = \frac{stake_{user}}{supply_{current}} \cdot bandwidth_{desirable}$$
+
+The genesis $bandwidth_{desirable}$ param available at [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
 ## Amount of delegated to validators
 
@@ -201,17 +207,17 @@ Validators can earn a reputation in their lifetime rate and infrastructure. It's
 
 The most interesting part of the Game. Users can link everything that they believe important for the future web.
 
-There are up to 6 TCYBs allocated for the top 1000 CIDs and top 10 agents linked with that CIDs.
+There are up to 15 TCYBs allocated for the top 1000 CIDs and top 10 agents linked with that CIDs.
 
 CYBs will be distributed by top CID by a power law:
 
-$$\sum\limits_{i=1}^{1000}\frac{a}{i}=20\ TCYB$$
+$$\sum\limits_{i=1}^{1000}\frac{a}{i}=15\ TCYB$$
 
 This way we can calculate allocation to the top one CID with Euler's method for the sum of harmonic series like:
 
-$$a\sum\limits_{i=1}^{1000}\frac{1}{i}=20\cdot10^{12} \Rightarrow$$
-$$a=\frac{20\cdot10^{12}}{\sum\limits_{i=1}^{1000}\frac{1}{i}}=\frac{20\cdot10^{12}}{\ln i+\gamma+\epsilon_{i}}$$
-$$a=\frac{20\cdot10^{12}}{6.9078+0.5772} \approx 2.67 \cdot 10^{12} CYB$$
+$$a\sum\limits_{i=1}^{1000}\frac{1}{i}=15\cdot10^{12} \Rightarrow$$
+$$a=\frac{15\cdot10^{12}}{\sum\limits_{i=1}^{1000}\frac{1}{i}}=\frac{15\cdot10^{12}}{\ln i+\gamma+\epsilon_{i}}$$
+$$a=\frac{15\cdot10^{12}}{6.9078+0.5772} \approx 2 \cdot 10^{12} CYB$$
 
 Where $\gamma$ is Euler–Mascheroni constant =0.57721..., $\epsilon_{i}\sim\frac{1}{2i}$ which approaches 0 as *k* goes to infinity. 
 
