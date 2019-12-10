@@ -1,5 +1,7 @@
 # The Game of Links. Goals, rules and provision.
 
+Welcome to the Game of Links - the incentivize testnet of the `cyber` network run of the cyber~Congress. The main goal of the game is to win as much as possible tokens from cyber~Congress. 
+
 ## Intro
 
 Game of Links starts with `euler-5` launch and ends when a snapshot of the network is done after the Game of Links Final. Based on the snapshot Genesis of `cyber` network will be computed independently by every validator who will decide to be a part of Genesis. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for getting quality search results from the inception of the network. So all disciplines are integral part of preparition and testing network before mainnet.
@@ -17,7 +19,7 @@ In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully launch protocol in which we defined the rules of faults handling.
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully launch protocol in which we defined the rules of faults handling. More details about crisis protocol [here](https://github.com/cybercongress/launch-kit).
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -30,6 +32,40 @@ In order to remove confusion here is the comparison table of the names for the s
 | Takeoff funding | not applicable|
 
 We believe that such measures will help reduce risks associated with the usage of Aragon contracts, Aragon plugins, cyberd software and multisig accounts involved. Thanks for understanding.
+
+## How to join
+
+There is no face control or KYC for joining the Game. You just need a tool for playing and tokens. You can join the Game as:
+
+- Validator. [Set up]() your own node and start validation.
+- Great Web Agent. The builder of Great Web. Migrate the content from web2 to the Great Web or create yours, and make it searchable. You can link your content with [browser extension](), [web app](), and with [CLI]().
+
+How to get tokens you can explore [below](./game-of-links.md/#get-tokens)
+
+## Get tokens
+
+The distribution in the Genesis file in `euler-5` will be next:
+
+![euler-5-distribution](euler-5_distribution.png)
+
+| Group | Amount EUL |
+| --- | ---: |
+| gifts to Ethereum, Cosmos and Urbit communitites | 100,000,000,000,000 |
+| test of Thrones in Atoms | 5,000,000,000,000 |
+| GOL stakers | 35,000,000,000,000 |
+| Takeoff funding | 180,000,000,000,000 |
+
+Total Genesis supply is 320,000,000,000,000 EULs or 320 TEULs.
+
+The distribution across GOL stakers will be:
+
+![euler-5-GOL-distribution](euler-5_GOL_distribution.png)
+
+First of all, you need to check your ETH and ATOM addresses for EULs drop. Good news for Cosmos community: all addresses on **1111000** Cosmos network block snapshot will get EULs for free. You can check it by importing your Cosmos seed phrase to `cyberd cli` or by adding your ledger device to `cyberdcli`. The Ethereum community much more than Cosmos, so they get eight times more of Cosmos. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **8080808** snapshot will get the tokens by quadratic distribution rule. For more details welcome to [launch kit](https://github.com/cybercongress/launch-kit). Check the drop by importing your Ethereum private key in `cyberd cli`. Also, you can check your ETH address with Urbit galaxies, stars or planets if you have them. Every account which holds galaxies (30%), stars (30%), or planets (40%) at block *N* according to the number of objects will be bestowed.
+
+Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
+
+Finally, if your case not listed above you can buy tokens at the Auction. Every day some percent of tokens will up to the Auction. After daily round tokens will drop to each address participated in the round according to shares of participators.
 
 ## Provision of the Game
 
@@ -73,51 +109,51 @@ The Game result and distribution significantly influenced by the Takeoff funding
 
 ![game-of-links-distribution](https://user-images.githubusercontent.com/410789/66488352-0fb15600-eaae-11e9-947d-5b7a52b1cdd6.png)
 
-- Funding: up to 60 TCYB
-- The relevance of links submitted: up to 20 TCYB
-- Load of every participant: up to 10 TCYB
-- Lifetime of validators: up to 5 TCYB
-- Full validator set: 7 TCYB
-- Amount of delegated to validator: up to 5 TCYB
-- Community pool: 3 TCYB
+| Group | Amount CYB (up to) |
+| --- | ---: |
+| takeoff funding | 60,000,000,000,000 |
+|*disciplines*||
+| relevance | 15,000,000,000,000 |
+| load | 6,000,000,000,000 |
+| delegation | 5,000,000,000,000 |
+| lifetime | 2,000,000,000,000 |
+| *other* ||
+| full validator set | 5,000,000,000,000 |
+| `euler-4` rewards | 5,000,000,000,000 |
+| community pool | 2,000,000,000,000 |
 
-## Community pool
-
-3 TCYB allocated to the community pool both in euler-5 and cyber networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
-
-## Full validator set
-If the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 2 TCYB to validators who take part in genesis evenly. If this amount will increase to 146 under the same conditions we will allocate additional 5 TCYB.
-
-## Get tokens
-
-First of all, you need to check your ETH and ATOM addresses for CYBs drop. Good news for Cosmos community: all addresses on **1111000** Cosmos network block snapshot will get CYBs for free and it would be 1% of Genesis supply. You can check it by importing your Cosmos seed phrase to `cyberd cli`. The Ethereum community much more than Cosmos, so they get 9% of Genesis supply. But not all of them. To avoid details let say that all non-contracts addresses with a balance higher than 0.2 ETH and at least one outgoing transaction at Ethereum network block **8080808** snapshot will get the tokens. For more details welcome to [launch kit](https://github.com/cybercongress/launch-kit). Check the drop by importing your Ethereum private key in `cyberd cli`. Also, you can check your ETH address with Urbit galaxies, stars or planets if you have them. Every account which holds galaxies (30%), stars (30%), or planets (40%) at block 9069000 according to the number of objects will be bestowed.
-
-Secondly, if you were a validator in previous testnet `Euler-4`, for you allocated 0.27% of Genesis supply. Check your addresses which you setup validator(s) by importing seed phrase in `cyberd cli`.
-
-Finally, if your case not listed above you can buy tokens at the Auction. Every day some percent of tokens will up to the Auction. After daily round tokens will drop to each address participated in the round according to shares of participators.
-
-## Choose disciplines for playing
+## Type of disciplines
 
 There are four disciplines for playing in the Game of Links:
 
--  Life summary of every validator
+-  The relevance of links submitted
 -  A bandwidth load of every participant
 -  Amount of delegated to validators
--  The relevance of links submitted
+-  Life summary of every validator
 
 There are no limits in disciplines quantity participation. By all means.
 You can set up your own validator to get a reward for validator's uptime or you can link CIDs  and load network bandwidth. You can create a promotion around your validator and collect stakes from users. You can do all of those things together. Just play and monitor the results.
+
+## Full validator set
+If the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 2 TCYB to validators who take part in genesis evenly. If this amount will increase to 146 under the same conditions we will allocate additional 3 TCYB.
+
+## `euler-4` rewards
+Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future 
+
+## Community pool
+
+2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
 
 ## Monitor funding process
 
 The mainnet Genesis file depends on Funding process in `Euler-5`, in particular, how many tokens will allocate for the Game of Links results. Here is an example table of possible results of funding process:
 
 | ATOMs donated | % of desireble | Lifetime rewards | Load reward | Stake reward | Link reward |
-| --- | --- | --- | --- |--- |--- |
-| 600,000 | 100 | 5 TCYB | 10 TCYB | 5 TCYB | 20 TCYB |
-| 480,000 | 80  | 4 TCYB | 8 TCYB  | 4 TCYB | 16 TCYB |
-| 240,000 | 40  | 2 TCYB | 4 TCYB  | 2 TCYB | 8 TCYB  |
-| 120,000 | 20  | 1 TCYB | 2 TCYB  | 1 TCYB | 4 TCYB  |
+| ---: | ---: | ---: | ---: |---: |---: |
+| 600,000 | 100 | 2 TCYB | 6 TCYB | 5 TCYB | 15 TCYB |
+| 480,000 | 80  | 1.6 TCYB | 4.8 TCYB  | 4 TCYB | 12 TCYB |
+| 240,000 | 40  | 0.8 TCYB | 2.4 TCYB  | 2 TCYB | 4 TCYB  |
+| 120,000 | 20  | 0.4 TCYB | 1.2 TCYB  | 1 TCYB | 2 TCYB  |
 
 Other possible cases calculated the same way.
 
@@ -179,7 +215,7 @@ $$a=\frac{20\cdot10^{12}}{6.9078+0.5772} \approx 2.67 \cdot 10^{12} CYB$$
 
 Where $\gamma$ is Euler–Mascheroni constant =0.57721..., $\epsilon_{i}\sim\frac{1}{2i}$ which approaches 0 as *k* goes to infinity. 
 
-Then, those CYBs will be distributed to agents proportionally their ranks.
+Then, those CYBs will be distributed to top 10 agents by time of submitted links.
 
 > Notice! Only available for reading hashes take part in the Game. Make sure that your content pinned and responded.
 
