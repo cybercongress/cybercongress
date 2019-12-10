@@ -182,6 +182,13 @@ When talking about construction a foundation is the lowest load-bearing part of 
 ### What's a congress
 Congress can be a group of people picked by others to make challenging decisions. 
 
+### What is a hardware wallet in terms of crypto?
+There are numerous ways to store your cryptocurrency (tokens). There are hot wallets. A hot wallet is one with access to the internet. There are two categories. One is when you own your private key (the good way) and in the other - is when you don't own your private key. For example, if you keep your tokens on an exchange (that's a bad way - do not do this!). You should always remember one simple rule: `Not your keys - not your crypto!` 
+
+There are cold wallets. Which are pretty safe if are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net). 
+
+Finally, there are hardware wallets (they can also be hot or cold). A hardware wallet is a small digital device which requires physical access to make a transaction. Usually, they come in the form of a slightly bigger than your typical USB stick which you can connect to your PC and you need to press buttons physically on the device to do anything.  Of course, this drastically increases security, even if the device is considered hot. 
+
 ---------------------------------
 
 ## cyber~Questions:
@@ -197,6 +204,9 @@ A CID is a content identificator or an IPFS hash. That means its a something tha
 
 ### What are cyberlinks?
 Cyberlink is a link between two CIDs or between 2 IPFS hashes. 
+
+### What's DURA?
+DURA (distributed unified resource address) is our equivalent of an URL (an abbreviation for uniform resource locator), which is what you see in your browser when you visit a web2 website. The whole idea behind DURA is very simple. Browse content without relying on any registry service (ICANN). This means no relying on third parties for packet routing. No censorship, etc. Apart from the philosophical stand, DURA's can deliver security, globality and permanent linking. 
 
 ### How is cyberlink different to a hyperlink?
 A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
@@ -428,6 +438,12 @@ It should be noted that in our case ASIC's are actually not a bad thing, if they
 ### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
 When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
 
+**Extra technical questions**
+### What about crawlers and indexing?
+We understand that for the internet to change it means that every single piece of content needs to migrate to the new version of the web. This is an ambitious task. But it can defiantly be accomplished. Once upon a time, people believed that putting telephone lines all around the world was impossible, but it happened. 
+
+To do this we need crawlers. A lot of crawlers that can transfer content. We have created [a basic crawler that you are welcome to use](https://github.com/cybercongress/crawler)(you may need some technical skills to install it).
+
 ------------------------------
 
 ## White Paper, launch and contacts:
@@ -435,7 +451,7 @@ When a user queries the knowledge graph (searches for an answer/searches for a r
 Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
 ### When are launching a stable mainet?
-The network will launch when all the distribution games are over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
+The network will launch when Game of Links is done (the other 2 games are held after the launch). There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
 
 ### Who are the people behind the project?
 We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
@@ -540,7 +556,10 @@ First, what is AI? AI is the intelligence demonstrated by a machine. This doesn'
 
 In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
 
-It is not intelligence, but rather it is - super-intelligence managed by machines and their users. Although some machines (certain algorithms) may not require users to be involved. It is an AI at its core. Just maybe not in the Hollywood sci-fi style... yet...
+### I heard I can use my Ledger device, really?
+Yes! You should. A ledger is a hardware wallet and its possible to sign transactions in Cyber straight out of your Ledger device! Awesome, right?
+
+Follow our [set-up guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/cyberd_Ledger_guide.md) (requires some technical skills). By the way! it is also possible to set up a validator node with a [Ledger device](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/Validator%20launch%20with%20Tendermint%20KMS%20%2B%20Ledger.md).
 
 ### Can I copy what you do?
 Go ahead. Seriously. We are open-source for a reason. YOu may copy, modify, do as you please. 
