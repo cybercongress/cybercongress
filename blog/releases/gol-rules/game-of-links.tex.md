@@ -97,14 +97,15 @@ Takeoff funding has 3 key goals:
 - definition of allocation for cyber\~Congress participants
 - definition of allocation to Game of Links participants
 
-The Game result and distribution significantly influenced by the Takeoff donation results. If 600k ATOM is raised during takeoff round 10% of CYB will be distributed. The logic is the following: the more amount raised the more rewards game of stakes acquire. The following criteria form a basis for payouts in the Game of Links. Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves. The following formula define allocation for takeoff donors. 
+The Game result and allocation significantly influenced by the Takeoff donation results. If 600k ATOM is donated during takeoff round 10% of CYB will be allocated. The logic is the following: the more amount donated the more rewards participants in disciplines acquire, less CYB allocated back to cyber\~Congress. Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves. The following formula define allocation for takeoff donors.
 
-$$ formula $$ 
+$$ formula $$
 
-The development of the project has been done thanks to investments of 10 people. ~3200 ETH has been spent during 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve (green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors (orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised remaining CYB allocated to cyber\~Congress and distribute to seed investors, cyber\~Congress and inventors proportionally.
+The development of the project has been done thanks to donation of 10 people. ~3200 ETH has been spent during 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve (green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors (orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised remaining CYB allocated to cyber\~Congress and distribute to seed investors, cyber\~Congress and inventors proportionally.
 
 ![takeoff-distribution](takeoff_distribution.png)
 
+The following criteria form a basis for payouts in the Game of Links:
 
 ![game-of-links-distribution](GOL_distribution.png)
 
@@ -126,78 +127,22 @@ The development of the project has been done thanks to investments of 10 people.
 
 There are six disciplines for playing in the Game of Links of two types:
 
-Depended on takeoff funding:
+Dependeds on takeoff donation:
 -  The relevance of links submitted
 -  A bandwidth load of every participant
--  Amount of delegated to validators
 -  Life summary of every validator
+-  Amount of delegated to validators
 
-Independent on takeoff funding:
+Independs on takeoff donation:
 - full validator set
 - community pool
+- `euler-4` validators rewards
 
-There are no limits in disciplines quantity participation. By all means.
-You can set up your own validator to get a reward for validator's uptime or you can link CIDs  and load network bandwidth. You can create a promotion around your validator and collect stakes from users. You can do all of those things together. Just play and monitor the results.
-
-## Full validator set
-If the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 2 TCYB to validators who take part in genesis evenly. If this amount will increase to 146 under the same conditions we will allocate additional 3 TCYB.
-
-## `euler-4` rewards
-Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future 
-
-## Community pool
-
-2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
-
-## Lifetime summary of every validator
-
-The easiest discipline. You need just set up your validator and monitor its lifetime. The lifetime means validators blocks precommits.
-
-> Important! Your validator should be in the set of active validators! Watch your stake!
-
-By following formula calculated each validator reward in the block *n* if precommit was and 600,000 ATOMs collected:
-
-$$r_{n}=\frac{\frac{1}{block_{max}}\cdot 2\ TCYB}{V_{n}}$$
-
-The *r* is reward for vlidator at block *n*, the $block_{max}$ is the latest block of the Game, and *V* the amount of validators on block *n*.
-
-We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
-
-For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 600,000 ATOMs on the Auction you will get
-$$ R = \frac{2\ TCYB}{146} \approx 13.7\ GCYB$$
-in the Genesis file of `cyber` network.
-
-## A bandwidth load of every participant
-
-Easy too. According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions.
-
-Each message type has assigned bandwidth cost. For this discipline we're using ONLY bandwidth spend to linking.
-
-All bandwidth spending data available at ? RPC/LCD. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient, other words according to how much they spent. It decreases if the network has a low load and increase if high between 0.01 and inf.
-
-The network has desirable bandwidth in 24 h, so if current bandwidth equals this value it means normal, and the multiplier parameter is 1.00. In other cases, the multiplier is correcting for uploading or downloading the network.
-
-The multiplier value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors.
-
-User bandwidth depends on its stake as:
-
-$$ bandwidth_{user} = \frac{stake_{user}}{supply_{current}} \cdot bandwidth_{desirable}$$
-
-The genesis $bandwidth_{desirable}$ param available at [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
-
-User's reward in case 600,000 ATOMs donated calculating next way:
-
-$$ reward_{user} = \frac{bandwidthSpent_{user}}{bandwidthSpent_{all}}\cdot6\ TCYB $$
-
-## Amount of delegated to validators
-
-Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate up to 5 TCYBs proportionally staked tokens on validators at the last block in the Game. If 600,000 ATOMs will be donated every validator will get:
-
-$$ revard_{validator} = \frac{staked_{validator}}{staked_{all}}\cdot 5\ TCYB $$
+There are no limits participation. By all means. You can set up your own validator to get a reward for validator's uptime or you can link CIDs  and load network bandwidth. You can create a promotion around your validator and collect stakes from users. You can do all of those things together. Just play and monitor the results.
 
 ## The relevance of links submitted
 
-The most interesting part of the Game. Users can link everything that they believe important for the future web.
+The most difficult discipline of the Game. Users can link everything that they believe important for the future web.
 
 There are up to 15 TCYBs allocated for the top 1000 CIDs and top 10 agents linked with that CIDs.
 
@@ -217,5 +162,62 @@ $$a=\frac{reward_{CID}}{\sum\limits_{i=1}^{10}\frac{1}{i}}=\frac{reward_{CID}}{\
 Where $\gamma$ is Euler–Mascheroni constant =0.57721..., $\epsilon_{i}\sim\frac{1}{2i}$ .
 
 > Notice! Only available for reading hashes take part in the Game. Make sure that your content pinned and responded.
+
+## A bandwidth load of every participant
+
+According to our resource credits model, there are no transaction fees. We use bandwidth. The user bandwidth value is the ability of users to send messages, make links and do transactions.
+
+Each message type has assigned bandwidth cost. For this discipline we're using ONLY bandwidth spend to linking.
+
+All bandwidth spending data available at ? RPC/LCD. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient, other words according to how much they spent. It decreases if the network has a low load and increase if high between 0.01 and inf.
+
+The network has desirable bandwidth in 24 h, so if current bandwidth equals this value it means normal, and the multiplier parameter is 1.00. In other cases, the multiplier is correcting for uploading or downloading the network.
+
+The multiplier value recalculates every minute according to network load last 24 h window. You can always find it on the Game monitors.
+
+User bandwidth depends on its stake as:
+
+$$ bandwidth_{user} = \frac{stake_{user}}{supply_{current}} \cdot bandwidth_{desirable}$$
+
+The genesis $bandwidth_{desirable}$ param available at [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
+
+User's reward in case 600,000 ATOMs donated calculating next way:
+
+$$ reward_{user} = \frac{bandwidthSpent_{user}}{bandwidthSpent_{all}}\cdot6\ TCYB $$
+
+## Lifetime summary of every validator
+
+The easiest discipline. You need just set up your validator and monitor its lifetime. The lifetime means validators blocks precommits.
+
+> Important! Your validator should be in the set of active validators! Watch your stake!
+
+By following formula calculated each validator reward in the block *n* if precommit was and 600,000 ATOMs collected:
+
+$$r_{n}=\frac{\frac{1}{block_{max}}\cdot 2\ TCYB}{V_{n}}$$
+
+The *r* is reward for vlidator at block *n*, the $block_{max}$ is the latest block of the Game, and *V* the amount of validators on block *n*.
+
+We need to divide the allocated supply to the sum of blocks in the Game period and to the sum of precommits in the current block.
+
+For example, if you have an active validator from the start of the Game of Links till the end without any block missing and other validators do the same way and it funded 600,000 ATOMs on the Auction you will get
+$$ R = \frac{2\ TCYB}{146} \approx 13.7\ GCYB$$
+in the Genesis file of `cyber` network.
+
+
+## Amount of delegated to validators
+
+Validators can earn a reputation in their lifetime rate and infrastructure. It's somekind of promoting their services in early community. We'll allocate up to 5 TCYBs proportionally staked tokens on validators at the last block in the Game. If 600,000 ATOMs will be donated every validator will get:
+
+$$ revard_{validator} = \frac{staked_{validator}}{staked_{all}}\cdot 5\ TCYB $$
+
+## Full validator set
+If the set of validators will increase up to 100 and this amount can last during 10000 blocks we will allocate an additional 2 TCYB to validators who take part in genesis evenly. If this amount will increase to 146 under the same conditions we will allocate additional 3 TCYB.
+
+## Community pool
+
+2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
+
+## `euler-4` rewards
+Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future 
 
 ## Conclusion
