@@ -1,29 +1,29 @@
-# The Game of Links. Goals, rules and provision.
+# Game of Links rules
 
-Welcome to the Game of Links - the incentivize testnet of the `cyber` network run of the cyber~Congress. The main goal of the game is to win as much as possible tokens from cyber\~Congress. 
+Welcome to the Game of Links - the `euler-5` incentivized testnet for the `cyber` network launch. The Game of Links organized by cyber\~Congress. The main goal of participants is to win as much as possible tokens from cyber\~Congress and its seed investors.
 
 ## Intro
 
-Game of Links starts with `euler-5` launch and ends when a snapshot of the network is done after the Game of Links Final. Based on the snapshot Genesis of `cyber` network will be computed independently by every validator who will decide to be a part of Genesis. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for getting quality search results from the inception of the network. So all disciplines are integral part of preparition and testing network before mainnet.
+Game of Links starts with `euler-5` launch and ends when a snapshot of the network which is produced after the Game of Links Final. Based on the snapshot Genesis of `cyber` network will be computed independently by every validator who will decide to be a part of Genesis. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for getting quality search results from the inception of the network. So all disciplines are integral part of preparition and testing network before mainnet.
 
 Goals:
 
-- Public incentivized testing of [`cyberd`](https://github.com/cybercongress/cyberd) and [ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet
+- Public incentivized testing of [cyberd](https://github.com/cybercongress/cyberd) and [ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet
 - Demonstrating search with an experimental knowledge graph filled with useful cyberlinks
-- Up to 6% CYB distribution for professional validators who will participate in pre-genesis takeoff funding depending on the amount of donated ATOMs
+- Up to 6% CYB distribution for validators who will participate in pre-genesis takeoff donations depending on the amount of donated ATOMs
 - Up to 4% CYB distribution for participants of 6 disciplines depending on how much participants win from cyber•Congress
 
 > **! Important**
 
-In `euler-5` testnet we'll use special named **EUL** tokens against liquid **CYB** in mainnet and **GOL** tokens against **THC** governmence tokens. EUL tokens have minor value as they serve the basis for rewards calculation during the game. GOL tokens have also tiny value as they will allow to gain some EUL during the game. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series.
+In `euler-5` testnet we'll use special named `EUL` tokens against liquid `CYB` in mainnet and `GOL` tokens against `THC` governmence tokens. EUL tokens have minor value as they serve the basis for rewards calculation during the game. GOL tokens have also tiny value as they will allow to gain EUL during the game if vested. Non-vested GOL tokens not have any value. GOL tokens serve (1) as a means to provide incentivized testing of ethereum contracts and (2) in order to protect faucet from spam. DO NOT spend significant funds for buying GOL during Test of Thrones & test~Auction and EUL over the counter. We'll burn GOL after `euler-5` testnet as well as reset accounts in `euler` experimental networks series. All ETHs and ATOMs sent to faucet during the Game of Links are donated to cyber\~Congress because it's cool.
 
-The distribution in the Genesis file in `euler-5` will be next:
+The distribution in the Genesis file of `euler-5` will be the following:
 
 ![euler-5-distribution](euler-5_distribution.png)
 
 | Group | Amount EUL |
 | --- | ---: |
-| Takeoff funding | 100,000,000,000,000 |
+| Takeoff donations | 100,000,000,000,000 |
 | gifts to Ethereum, Cosmos and Urbit communitites | 100,000,000,000,000 |
 | Euler-4 validators | 20,000,000,000,000 |
 | GOL stakers | 20,000,000,000,000 |
@@ -43,7 +43,7 @@ The distribution across GOL stakers will be:
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully launch protocol in which we defined the rules of faults handling. More details about crisis protocol [here](https://github.com/cybercongress/launch-kit).
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. More details about crisis protocol [here](inside link).
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -67,11 +67,11 @@ There is no face control or KYC for joining the Game. You just need a tool for p
 
 How to get tokens?
 
-- **Gifts**. There are 100 TEULs allocated as a gift to Cosmos, Ethereum and Urbtit communities. This is 43.3% of `euler-5` Genesis supply. You can check your balance using `cyberdcli`, cyber.page app, cyb-virus extension just by adding your address (cyber.page) for checking, or by importing your private key (for ethereum), or seed phrase (for cosmos) to CLI and extension. Also, you can use Ledger device for cyber.page app and CLI. The gifting mechanism explained in the [launch-kit repo]().
+- **Gifts**. There are 100 TEULs allocated as a gift to Cosmos, Ethereum and Urbtit communities. This is 43.3% of `euler-5` Genesis supply. You can check your balance using `cyberdcli`, cyber.page app, cyb-virus extension just by adding your address (cyber.page) for checking, or by importing your private key (for ethereum), or seed phrase (for cosmos) to CLI and extension. Also, you can use Ledger device at [cyber.page](cyber.page) app and CLI. The gifting rules defined in the [whitepaper](). The gifting mechanism is implemented in [launch kit]() repo.
 
 - **Faucet**. We want to test the production auction app in `euler-5` and this is a great opportunity for creating faucet based on this app. You can buy GOL tokens and claim EULs for playing. We expect a low price for it, so you can fill your stake by Szhabos and uAtoms.
 
-- **Takeoff round**. You can get tokens if you will participate in takeoff round. There are 100 TEULs allocated for takeoff round participators in `euler-5`. It will drop at the end of takeoff round and this is 43,3% of Genesis supply, so it should be hot in the end.
+- **Takeoff round**. You can get tokens if you will participate in takeoff round. There are 100 TEULs allocated for takeoff round participators in `euler-5`. It will distributed at the end of takeoff round and this is 43,3% of Genesis supply, so it should be hot in the end.
 
 - **Be a validator**. You can earn tokens through inflation as a validator. The `euler-4` validators will get 20 TEULs in `euler-5` for their support.
 
@@ -79,12 +79,12 @@ How to get tokens?
 
 The Game will start with `euler-5` network launch and contract deployment.
 
-The takeoff funding will start after approving the government proposal of takeoff funding start and will prolong during 1 of 2 control events happens:
+The takeoff donation will start after approving the government proposal of takeoff donation start and will last until 1 of 2 control events happens:
 
 -  90 days will be passed after the takeoff funding start
 -  600,000 ATOMs well be donated
 
-After the end of the takeoff funding, we will distribute test EUL tokens for participators of the takeoff funding and the final round of the Game of Links will start.
+After the end of the takeoff donation, we will distribute test EUL tokens for participators of the takeoff. This will start the final round of the Game of Links.
 
 At this time will come key gamers with significant stakes and make a powerful impact on the Game results.
 
