@@ -101,12 +101,9 @@ The Game result and distribution significantly influenced by the Takeoff donatio
 
 $$ formula $$ 
 
-![takeoff-distribution](takeoff_distribution.png)
-
 The development of the project has been done thanks to investments of 10 people. ~3200 ETH has been spent during 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve (green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors (orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised remaining CYB allocated to cyber\~Congress and distribute to seed investors, cyber\~Congress and inventors proportionally.
 
-
-
+![takeoff-distribution](takeoff_distribution.png)
 
 
 ![game-of-links-distribution](GOL_distribution.png)
