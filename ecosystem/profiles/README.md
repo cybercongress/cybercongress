@@ -46,3 +46,7 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 - [Subreddit](https://www.reddit.com/r/cybercongress/)
 
 - [IPFS discuss](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786)
+
+- [IPFS awesome list](https://github.com/ipfs/awesome-ipfs)
+
+- [Aragon wiki](https://wiki.aragon.org/about/projects/)
