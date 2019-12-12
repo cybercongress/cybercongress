@@ -43,7 +43,8 @@ The distribution across GOL stakers will be:
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. More details about crisis protocol [here](inside link).
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. We defined 2 danger zones with probab
+
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -99,11 +100,13 @@ Takeoff funding has 3 key goals:
 
 The Game result and allocation significantly influenced by the Takeoff donation results. If 600k ATOM is donated during takeoff round 10% of CYB will be allocated. The logic is the following: the more amount donated the more rewards participants in disciplines acquire, less CYB allocated back to cyber\~Congress. Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves. The following formula define allocation for takeoff donors.
 
-$$ formula $$
+$$ f(x)= 0.000740464x^3+666.418x^2+233280000x+0.000343014$$
+
+where $f(x)$ is Genesis supply CYBs allocated to takeoff donors, $x$ is ATOMs donated during takeoff donation round.
 
 The development of the project has been done thanks to donation of 10 people. ~3200 ETH has been spent during 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve (green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors (orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised remaining CYB allocated to cyber\~Congress and distribute to seed investors, cyber\~Congress and inventors proportionally.
 
-![takeoff-distribution](takeoff_distribution.png)
+![takeoff-distribution](takeoff_allocation.png)
 
 The following criteria form a basis for payouts in the Game of Links:
 
@@ -122,10 +125,9 @@ The following criteria form a basis for payouts in the Game of Links:
 | *other* ||
 | `euler-4` rewards | 5,000,000,000,000 |
 
-
 ## Type of disciplines
 
-There are six disciplines for playing in the Game of Links of two types:
+There are seven disciplines for playing in the Game of Links of two types:
 
 Dependeds on takeoff donation:
 -  The relevance of links submitted
@@ -134,7 +136,7 @@ Dependeds on takeoff donation:
 -  Amount of delegated to validators
 
 Independs on takeoff donation:
-- full validator set
+- Full validator set
 - community pool
 - `euler-4` validators rewards
 
@@ -148,7 +150,7 @@ There are up to 15 TCYBs allocated for the top 1000 CIDs and top 10 agents linke
 
 CYBs will be distributed by top 1000 CID proportionally it ranks. In case 600,000 ATOMs donated:
 
-$$  = \frac{rank_{CID}}{rank_{top1000}}\cdot 15\ TCYB $$
+$$ reward_{CID} = \frac{rank_{CID}}{rank_{top1000}}\cdot 15\ TCYB $$
 
 Then rewards will be distributed between 10 Agents in submitting link order by a power law:
 
@@ -161,7 +163,7 @@ $$a=\frac{reward_{CID}}{\sum\limits_{i=1}^{10}\frac{1}{i}}=\frac{reward_{CID}}{\
 
 Where $\gamma$ is Euler–Mascheroni constant =0.57721..., $\epsilon_{i}\sim\frac{1}{2i}$ .
 
-> Notice! Only available for reading hashes take part in the Game. Make sure that your content pinned and responded.
+> Notice! Only retrievable CID take part in the Game. We assume Agents also should be content providers responsible for content avaliability. Make sure that your content pinned and responded.
 
 ## A bandwidth load of every participant
 
@@ -218,6 +220,6 @@ If the set of validators will increase up to 100 and this amount can last during
 2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
 
 ## `euler-4` rewards
-Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future 
+Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future.
 
 ## Conclusion
