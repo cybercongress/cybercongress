@@ -43,7 +43,8 @@ The distribution across GOL stakers will be:
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. More details about crisis protocol [here](inside link).
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. We defined 2 danger zones with probab
+
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
 
@@ -99,11 +100,13 @@ Takeoff funding has 3 key goals:
 
 The Game result and allocation significantly influenced by the Takeoff donation results. If 600k ATOM is donated during takeoff round 10% of CYB will be allocated. The logic is the following: the more amount donated the more rewards participants in disciplines acquire, less CYB allocated back to cyber\~Congress. Participants, which want to get CYBs in Genesis file of mainnet but cannot play, can donate ATOMs, therefore, increasing the percentage of payouts for other participants and for themselves. The following formula define allocation for takeoff donors.
 
-<p align="center"><img src="/blog/releases/gol-rules/tex/e71144a6a6022f5db328eab5936bbd88.svg?invert_in_darkmode&sanitize=true" align=middle width=63.4192911pt height=14.611878599999999pt/></p>
+<p align="center"><img src="/blog/releases/gol-rules/tex/963efecc0e14204ae4a1dadeacd5c744.svg?invert_in_darkmode&sanitize=true" align=middle width=458.4939249pt height=18.312383099999998pt/></p>
+
+where <img src="/blog/releases/gol-rules/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/> is Genesis supply CYBs allocated to takeoff donors, <img src="/blog/releases/gol-rules/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is ATOMs donated during takeoff donation round.
 
 The development of the project has been done thanks to donation of 10 people. ~3200 ETH has been spent during 3 years of development. For that at least 4% CYB is allocated for them by means of THC from cyber•Congress allocation. In order to protect seed investors their share will be defined based on the amount raised during takeoff round. In essence, the funding round curve (green curve) defines the allocation of up to 6% CYB for takeoff participants. If takeoff round get 600k ATOMs than seed investors (orange curve) get 4% of CYB by the means of THC and takeoff participants get 6% of CYB directly. If zero amount will be raised remaining CYB allocated to cyber\~Congress and distribute to seed investors, cyber\~Congress and inventors proportionally.
 
-![takeoff-distribution](takeoff_distribution.png)
+![takeoff-distribution](takeoff_allocation.png)
 
 The following criteria form a basis for payouts in the Game of Links:
 
@@ -122,10 +125,9 @@ The following criteria form a basis for payouts in the Game of Links:
 | *other* ||
 | `euler-4` rewards | 5,000,000,000,000 |
 
-
 ## Type of disciplines
 
-There are six disciplines for playing in the Game of Links of two types:
+There are seven disciplines for playing in the Game of Links of two types:
 
 Dependeds on takeoff donation:
 -  The relevance of links submitted
@@ -134,7 +136,7 @@ Dependeds on takeoff donation:
 -  Amount of delegated to validators
 
 Independs on takeoff donation:
-- full validator set
+- Full validator set
 - community pool
 - `euler-4` validators rewards
 
@@ -148,7 +150,7 @@ There are up to 15 TCYBs allocated for the top 1000 CIDs and top 10 agents linke
 
 CYBs will be distributed by top 1000 CID proportionally it ranks. In case 600,000 ATOMs donated:
 
-<p align="center"><img src="/blog/releases/gol-rules/tex/7bcbdf44f479d6d25158074419312a3b.svg?invert_in_darkmode&sanitize=true" align=middle width=186.64001894999998pt height=38.5152603pt/></p>
+<p align="center"><img src="/blog/releases/gol-rules/tex/d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
 
 Then rewards will be distributed between 10 Agents in submitting link order by a power law:
 
@@ -161,7 +163,7 @@ This way we can calculate allocation to the top one CID with Euler's method for 
 
 Where <img src="/blog/releases/gol-rules/tex/11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize=true" align=middle width=9.423880949999988pt height=14.15524440000002pt/> is Euler–Mascheroni constant =0.57721..., <img src="/blog/releases/gol-rules/tex/6631c51e2108c8128d4e1b3dd8319d52.svg?invert_in_darkmode&sanitize=true" align=middle width=47.23886309999999pt height=27.77565449999998pt/> .
 
-> Notice! Only available for reading hashes take part in the Game. Make sure that your content pinned and responded.
+> Notice! Only retrievable CID take part in the Game. We assume Agents also should be content providers responsible for content avaliability. Make sure that your content pinned and responded.
 
 ## A bandwidth load of every participant
 
@@ -218,6 +220,6 @@ If the set of validators will increase up to 100 and this amount can last during
 2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
 
 ## `euler-4` rewards
-Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future 
+Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future.
 
 ## Conclusion
