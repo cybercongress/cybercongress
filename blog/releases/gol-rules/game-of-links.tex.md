@@ -6,6 +6,8 @@ Welcome to the Game of Links - the `euler-5` incentivized testnet for the `cyber
 
 Game of Links starts with `euler-5` launch and ends when a snapshot of the network which is produced after the Game of Links Final. Based on the snapshot Genesis of `cyber` network will be computed independently by every validator who will decide to be a part of Genesis. Key idea of the Game of Links is to establish starting value of relevance in the knowledge graph because its crucual for getting quality search results from the inception of the network. So all disciplines are integral part of preparition and testing network before mainnet.
 
+![timeline](timeline.png)
+
 Goals:
 
 - Public incentivized testing of [cyberd](https://github.com/cybercongress/cyberd) and [ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet
@@ -43,7 +45,30 @@ The distribution across GOL stakers will be:
 
 > **! Important**
 
-We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. We defined 2 danger zones with probab
+We can not guaranty that everything will goes as expected. Software can be vulnerable. So if something goes wrong cyber•Congress as organiser **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards** depending on circumstances. In this case we are going to count community opinion though. Please read carefully [launch protocol]() in which we defined the rules of faults handling. We defined 2 danger zones with probabilities unexpected behavior and one as the intersection of zones: 
+- Network running
+- Contracts running
+- Intersection of them
+
+In case if something goes wrong we've prepared crisis protocol.
+
+If the network will be failed:
+1. Stop contracts (claim app)
+2. Save `euler-5` snapshot
+3. Relaunch `euler-5` with `euler-5` genesis.json
+4. Start contracts (claim app)
+
+If contracts will be failed:
+1. Stop contracts (claim app)
+2. Pool bounty
+3. Redeploy contracts (claim app)
+4. Continue auction
+
+And if it will be fucked up by both sides:
+
+1. Stop contracts (claim app)
+2. Save `euler-5` snapshot
+3. One week for community discussion and cyber\~Congress decision
 
 
 In order to remove confusion here is the comparison table of the names for the stuff that will happen.
@@ -220,6 +245,8 @@ If the set of validators will increase up to 100 and this amount can last during
 2 TCYB allocated to the community pool in `cyber` networkd. During euler-5 we expect from community some experiments with governance. All governance decisions of testnet will be migrated to mainnet.
 
 ## `euler-4` rewards
-Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future.
+Thanks for helping our early validators in `euler-4` testnet. They're running their nodes for the year for the Great future. All rewards in that discipline will be distributed to validators per capita.
 
 ## Conclusion
+
+In fact, at first glance, the `euler-5` distribution and the Game rules look pretty complex. It's true. We expect the `cyber` network will be launch with a load knowledge graph and nice distribution. The Game will help to achieve this. This is a good chance for all of you become early adopters of the #fuckgoogle philosophy and the Great Web. Do it.
