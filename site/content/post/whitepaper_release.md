@@ -11,7 +11,7 @@ by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
 
 2019.12.01 @xhipster and @litvintech have released `cyber: Computing the knowledge of the Great Web` the whitepaper. This is the result of 3 years of painstaking work, discussions, and durability tests. 
 
-This is the idea side by side in implementation, the high risk to be misunderstandable and the Great adherence to the principles. 
+This idea goes side by side with a ready implementation. The high risk to be misunderstood is a Great adherence to the principles.
 
 > How Gavin did that?! He has a polka-dotted background! Give me a black background! 
 
