@@ -28,3 +28,5 @@ We really love this doc and it is only just beginning.
 Don’t believe, don’t fear, don’t ask. 
 
 #fuckgoogle
+
+p.s. This weekend I'll post the Game of Link rules. And remember the date 2019.12.20. This is the launch date.
