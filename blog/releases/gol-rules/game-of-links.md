@@ -187,7 +187,7 @@ According to our resource credits model, there are no transactional fees. We use
 
 Each message type has an assigned bandwidth cost. For this discipline we're using ONLY bandwidth spend on linking.
 
-All bandwidth spending data is available at <?> RPC/LCD. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increase if the load is high - between 0.01 and inf.
+All bandwidth spending data is available at `account_bandwidth?address=` RPC. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increase if the load is high - between 0.01 and inf.
 
 The network has a desirable bandwidth of 24 hours. If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
 
