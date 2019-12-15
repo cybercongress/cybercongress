@@ -42,7 +42,7 @@ The distribution for `euler-5` in the Genesis file, will be the following:
 | Takeoff donations | 100,000,000,000,000 |
 | Gifts to Ethereum, Cosmos and Urbit communities | 100,000,000,000,000 |
 | Euler-4 validators | 20,000,000,000,000 |
-| GOL stakers | 20,000,000,000,000 |
+| GOL stakers | 10,000,000,000,000 |
 | Test of Thrones in ATOMs | 1,000,000,000,000 |
 
 The total Genesis supply is 231,000,000,000,000 EULs or 231 TEULs.
@@ -100,7 +100,7 @@ Thanks for understanding.
 
 ## Faucets
 
-During the Game of Links will available consistently the Test of Thrones and test\~Auction apps as faucets. It will help us to test the contracts before mainnet launch and make easy for participants without tokens or with a small number of tokens join the Game. We've allocated 1 TEUL and 1 TGOL for Cosmos and Ethereum communities respectively for the Test of Thrones and 6 TGOL for test\~Auction. The Test of Thrones, in fact, the zero round of test\~Auction. It would last for 7 days. At that time cosmonauts and ethereums can donate their native tokens, after that the EULs and GOLs will be distributed. Then retains the possibility to donate only in ETHs and claim GOLs daily for 60 days.
+During the Game of Links will available consistently the Test of Thrones and test\~Auction apps as faucets. It will help us to test the contracts before mainnet launch and make easy for participants without tokens or with a small number of tokens join the Game. We've allocated 1 TEUL and 1 TGOL for Cosmos and Ethereum communities respectively for the Test of Thrones and 6 TGOL for test\~Auction. The Test of Thrones, in fact, the zero round of test\~Auction. It would last for 18 days (until 7 Jan 2020). At that time cosmonauts and ethereums can donate their native tokens, after that the EULs and GOLs will be distributed. Then retains the possibility to donate only in ETHs and claim GOLs daily for 60 days.
 
 ## Takeoff donations and disciplines incentives
 
@@ -187,11 +187,11 @@ According to our resource credits model, there are no transactional fees. We use
 
 Each message type has an assigned bandwidth cost. For this discipline we're using ONLY bandwidth spend on linking.
 
-All bandwidth spending data is available at `account_bandwidth?address=` RPC. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increase if the load is high - between 0.01 and inf.
+All bandwidth spending data is available at `account_bandwidth?address=` RPC. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increases if the load is high - between 0.01 and inf. That's mean you can spend the same amount of bandwidth for 1000 links in low network load as with 10 links. The bandwidth spent on linking call Karma.
 
-The network has a desirable bandwidth of 24 hours. If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
+The network has a desirable bandwidth of \~17280 blocks (\~24 h). If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
 
-The value of the multiplier is recalculated every minute according to the load of the network and has a 24-hour window. You can always find it on the Game monitors.
+The value of the multiplier is recalculated every \~12 blocks (1 minute) according to the load of the network and has a \~17280 blocks (\~24 h) window. You can always find it on the Game monitors.
 
 A users bandwidth depends on their stake:
 
@@ -233,7 +233,7 @@ If the set of validators will increase over or is equal to 100, and this number 
 
 ## Community pool
 
-2 TCYB are allocated to the community pool within the `cyber` network. During euler-5 we expect from the community some experiments with governance. All governance decisions of the testnet will be migrated to the mainnet. <needs more details for distribution>
+2 TCYB are allocated to the community pool within the `cyber` network. During euler-5 we expect from the community some experiments with governance. All governance decisions of community pool spend of the testnet will be migrated to the mainnet. The issues for claiming rewards are very various. It can be features development, explorers, graph store and ranking algorithm improvements. Also, it can be marketing tasks like posting, users involving, guides and so on. Finally, it can be community building like meetups, online meetings, dev meetings, conferences, etc.
 
 ## `euler-4` rewards
 A thank you to our early validators for helping to test and secure the `euler-4` testnet. They have kept their nodes running for a year for a Great future.
