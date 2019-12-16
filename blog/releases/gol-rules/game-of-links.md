@@ -44,6 +44,7 @@ The distribution for `euler-5` in the Genesis file, will be the following:
 | Euler-4 validators | 20,000,000,000,000 |
 | GOL stakers | 10,000,000,000,000 |
 | Test of Thrones in ATOMs | 1,000,000,000,000 |
+| Community pool | ?
 
 The total Genesis supply is 231,000,000,000,000 EULs or 231 TEULs.
 
@@ -133,9 +134,10 @@ The following criteria are applied to the Game of Links allocation:
 | load | 6,000,000,000,000 |
 | delegation | 5,000,000,000,000 |
 | full validator set | 5,000,000,000,000 |
+| `euler-4` rewards | 5,000,000,000,000 |
 | lifetime | 2,000,000,000,000 |
 | community pool | 2,000,000,000,000 |
-| `euler-4` rewards | 5,000,000,000,000 |
+
 
 ## Types of disciplines
 
