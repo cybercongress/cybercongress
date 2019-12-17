@@ -18,12 +18,11 @@ and basically everything that is not on-chain.
 | Offline event | 04/12/19 | BitF MSC event |
 | Offline event | 06/12/19 | LZM MSC event |
 | Offline event | 16/12/19 | Polkadot MSC event |
-| Offline event | 18/12/19 | ??? event |
+| Offline event | 18/12/19 | Blockchain trends event |
 | Offline event | 19/12/19 | Dec MSC URB |
 | Offline event | 20-22/12/19 | Hack Party Minsk |
 | Offline event | 26-30/12/19 | CCC |
 | Offline event | Planned | Feb URB |
-| Offline event | Planned | Web3 MSC |
 | Offline event | Planned | Atom comm MSC |
 
 
