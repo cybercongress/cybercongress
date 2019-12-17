@@ -1,7 +1,7 @@
 # Game of Links 
 **Rules, Provision, Description and Participation**
 
-Welcome to the Game of Links! <br>
+Welcome to the Game of Links!
 
 The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game. `euler-5` is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler-5` testnet. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators.
 
@@ -13,7 +13,7 @@ Goals:
 - To carry out publicly incentivized testing of [cyberd](https://github.com/cybercongress/cyberd) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet launch
 - To demonstrate the search, with the use of an experimental knowledge graph filled with useful cyberlinks
 - To distribute up to 6% of CYB tokens to the validators who will participate in pre-genesis takeoff donations. The amount is dependent on the number of donated ATOMs
-- To distribute up to 4% of CYB tokens to the participants of 7 disciplines of the game, depending on how many participants win against cyber/~Congress
+- To distribute up to 4% of CYB tokens to the participants of 7 disciplines of the game, depending on how many participants win against cyber\~Congress
 
 ## Provision for the Game
 
@@ -43,10 +43,10 @@ The distribution for `euler-5` in the Genesis file, will be the following:
 | Gifts to Ethereum, Cosmos and Urbit communities | 100,000,000,000,000 |
 | Euler-4 validators | 20,000,000,000,000 |
 | GOL stakers | 10,000,000,000,000 |
+| Community pool | 2,000,000,000,000 |
 | Test of Thrones in ATOMs | 1,000,000,000,000 |
-| Community pool | ?
 
-The total Genesis supply is 231,000,000,000,000 EULs or 231 TEULs.
+The total Genesis supply is 233,000,000,000,000 EULs or 233 TEULs.
 
 The distribution to those staking GOL tokens will be the following:
 
