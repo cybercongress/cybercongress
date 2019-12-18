@@ -1,8 +1,11 @@
 body.home {
   header {
-    height: 100vh;
-    min-height: 690px;
+    // height: 100vh;
+    // min-height: 690px;
     max-height: 1300px;
+    height: ~"calc(100vh - 80px)";
+    // height: calc(100vh - 80px);
+    // min-height: 600px;
   }
 }
 
@@ -11,7 +14,7 @@ header {
  // background: linear-gradient(to bottom, fade(@blue-space, 100%) 0%,#062b3f 100%);
   padding-top: 20px;
   position: relative;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 
   h1 {
     position: relative;
@@ -79,12 +82,14 @@ a.ipfs-logo {
 
 .hero-text {
   margin-top: 15vh;
-  padding: 130px 0 80px 0;
+  // padding: 130px 0 80px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
   z-index: 2;
+  padding: 0;
+  padding-bottom: 50px;
 }
 
 .hero-home {
@@ -185,7 +190,7 @@ body.subdoc {
 
 @media screen and (max-width: @breakpoint-desktop) {
   .hero:not(.hero-major) {
-    padding: 0 15%;
+    padding: 0 2em;
     z-index: 2;
   }
 }
@@ -205,6 +210,10 @@ body.subdoc {
 @media screen and (max-width: @breakpoint-mid-mobile) {
   .hero-text {
     padding-top: 40px;
+  }
+  .countdown{
+    font-size: 20px !important;
+    white-space: nowrap;
   }
 
   .view-more {
