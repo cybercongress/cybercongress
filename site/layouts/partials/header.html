@@ -12,8 +12,9 @@
         <li><a href="/docs/cyberd/cyberd/"
             {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"
             {{ end }}>Docs</a></li>
-        <li><a href="http://ai.cybercongress.ai/" {{ if or (eq .page.Type "forum") (eq .page.Data.Singular "forum") }}class="current-item"
-          {{ end }}>Forum</a></li>
+        <li><a href="http://ai.cybercongress.ai/"
+            {{ if or (eq .page.Type "forum") (eq .page.Data.Singular "forum") }}class="current-item" {{ end }}>Forum</a>
+        </li>
         <li><a href="/post" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"
             {{ end }}>Blog</a></li>
       </ul>
@@ -26,77 +27,51 @@
         <!-- <div class='time-message'>
           Euler-5 testnet will launch in:
         </div> -->
-<!-- 
-<div id="deadline-message" class="deadline-message">
-  Time is up!
-</div> -->
-<!-- <div id="countdown" class="countdown">
-  <div class="countdown-number">
-    <span class="days countdown-time"></span>
-  </div>
-  <div class="countdown-number">
-    <span class="hours countdown-time"></span>
-  </div>
-  <div class="countdown-number">
-    <span class="minutes countdown-time"></span>
-  </div>
-  <div class="countdown-number">
-    <span class="seconds countdown-time"></span>
-  </div>
-</div> -->
+
         <div class='subhead-last-block'>
-          <span class="subhead-main">Testnet <span id='testnet'>euler-</span> at block </span>
-          <span class='last-block' id='lastBlock'>0</span>
+          <div id="countdown" class="countdown">
+            <div class="countdown-number">
+              <span class="days countdown-time"></span>
+            </div>
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+            </div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+            </div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+            </div>
+          </div>
         </div>
-          <a class="button-gravity" href="/docs/cyberd/run_validator/">Become a validator</a>
-          <a class="button-gravity" href="https://github.com/cybercongress/cyber">Whitepaper</a>
+        <div id="deadline-message" class="deadline-message">
+          <div class='subhead-last-block'>
+            <span class="subhead-main">Testnet <span id='testnet'>euler-</span> at block </span>
+            <span class='last-block' id='lastBlock'>0</span>
+          </div>
+        </div>
+        <a class="button-gravity" href="/docs/cyberd/run_validator/">Become a validator</a>
+        <a class="button-gravity" href="https://github.com/cybercongress/cyber">Whitepaper</a>
       </div>
-      <div class='statiscs'>
-        <div class='grid-flex-container'>
-          <div class='grid-flex-cell card'>
-            <p class='card-value' id='cyberlinks'>0</p>
-            <p class='card-value'>cyberlinks</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='contentIds'>0</p>
-            <p>content ids</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='accounts'>0</p>
-            <p>accounts</p>
-          </div>
-        </div>
-        <!-- <div class='grid-flex-container'>
-          <div class='grid-flex-cell card'>
-            <p id='totalGCYB'>0</p>
-            <p>total GCYB</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='stakedCYB'>0</p>
-            <p>staked CYB (%)</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='price'>0</p>
-            <p>price of cyberlink (BP)</p>
+      <div id="deadline-statiscs" class="deadline-message">
+        <div class='statiscs'>
+          <div class='grid-flex-container'>
+            <div class='grid-flex-cell card'>
+              <p class='card-value' id='cyberlinks'>0</p>
+              <p class='card-value'>cyberlinks</p>
+            </div>
+            <div class='grid-flex-cell card'>
+              <p id='contentIds'>0</p>
+              <p>content ids</p>
+            </div>
+            <div class='grid-flex-cell card'>
+              <p id='accounts'>0</p>
+              <p>accounts</p>
+            </div>
           </div>
         </div>
-        <div class='grid-flex-container'>
-          <div class='grid-flex-cell card'>
-            <p id='validator'>0</p>
-            <p>active validators</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='transactions'>0</p>
-            <p>transactions</p>
-          </div>
-          <div class='grid-flex-cell card'>
-            <p id='lastBlock'>0</p>
-            <p>last block</p>
-          </div>
-        </div> -->
-
-
       </div>
+
     </div>
     {{ end }}
   </div>
@@ -104,8 +79,8 @@
     <label>View more</label><a href="#"></a>
   </div>
 </header>
-<!-- <script>
-function getTimeRemaining(endtime) {
+<script>
+  function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -119,30 +94,31 @@ function getTimeRemaining(endtime) {
       seconds: seconds
     };
   }
-  
+
   function initializeClock(id, endtime) {
     var clock = document.getElementById(id);
     var daysSpan = clock.querySelector(".days");
     var hoursSpan = clock.querySelector(".hours");
     var minutesSpan = clock.querySelector(".minutes");
     var secondsSpan = clock.querySelector(".seconds");
-  
+
     function updateClock() {
       var t = getTimeRemaining(endtime);
-  
+
       if (t.total <= 0) {
         document.getElementById("countdown").className = "hidden";
         document.getElementById("deadline-message").className = "visible";
+        document.getElementById("deadline-statiscs").className = "visible";
         clearInterval(timeinterval);
         return true;
       }
-  
+
       daysSpan.innerHTML = t.days;
       hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
       minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
       secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
     }
-  
+
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
 
@@ -150,13 +126,13 @@ function getTimeRemaining(endtime) {
 
   var resultGMT;
   var offset = new Date().getTimezoneOffset();
-    if(offset<0)
-      resultGMT = "GMT+" + (offset/-60);
-    else
-      resultGMT = "GMT-" + offset/60;
-  
-   var deadline="July 30 2019 12:00:00 "+ resultGMT;  
+  if (offset < 0)
+    resultGMT = "GMT+" + (offset / -60);
+  else
+    resultGMT = "GMT-" + offset / 60;
+
+  var deadline = "December 18 2019 21:18:00 " + resultGMT;
   //var deadline = "January 01 2018 00:00:00 GMT+0300"; //for Ukraine
   // var deadline = new Date(Date.parse(new Date()) + 5 * 1000); // for endless timer
   initializeClock("countdown", deadline);
-</script> -->
+</script>
