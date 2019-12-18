@@ -41,8 +41,8 @@ The distribution for `euler-5` in the Genesis file, will be the following:
 | --- | ---: |
 | Takeoff donations | 100,000,000,000,000 |
 | Gifts to Ethereum, Cosmos and Urbit communities | 100,000,000,000,000 |
-| Euler-4 validators | 20,000,000,000,000 |
-| GOL stakers | 10,000,000,000,000 |
+| Euler-4 validators | 15,000,000,000,000 |
+| GOL stakers | 15,000,000,000,000 |
 | Community pool | 2,000,000,000,000 |
 | Test of Thrones in ATOMs | 1,000,000,000,000 |
 
@@ -54,8 +54,8 @@ The distribution to those staking GOL tokens will be the following:
 
 | Group | Amount of EUL |
 | --- | ---: |
+| cyber\~Congress | 8,000,000,000,000 |
 | test\~Auction | 6,000,000,000,000 |
-| cyber\~Congress | 3,000,000,000,000 |
 | Test of Thrones in ETH | 1,000,000,000,000 |
 
 ## How to participate in the Game
@@ -63,20 +63,20 @@ The distribution to those staking GOL tokens will be the following:
 There is no face control, captchas or KYC to join the Game. All you need is a tool for playing and some tokens.
 
 You may join the Game as a:
-- Validator. [Set up]() your own node and start validating
+- Validator. [Set up](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md) your own node and start validating
 - Great Web Agent. The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the help of a [browser extension](https://github.com/cybercongress/cyb-virus), a [web app](https://cyber.page/#/) or with the use of [CLI](https://github.com/cybercongress/cyberd)
 - Developer. Create cool things and claim your rewards via spend proposals from the community pool
 
 How to get the tokens and which tools to use?
 
 There are several ways to get tokens (and several tools that you can use):
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 43.3% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page]() app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
+- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page]() app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
 - **Faucets**. We want to test the production of the auction app during `euler-5` and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos() and uAtoms(1 millionth of an ATOM).
 
-- **Takeoff round**. You can get tokens if you will participate in the takeoff donations. There are 100 TEULs allocated for takeoff donation participants during `euler-5`. Those will be distributed at the end of the takeoff donation round and account for 43,3% of the Genesis supply. Therefore, their valuation should be much hotter in the end.
+- **Takeoff round**. You can get tokens if you will participate in the takeoff donations. There are 100 TEULs allocated for takeoff donation participants during `euler-5`. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter in the end.
 
 - **Be a validator**. You can obtain tokens through inflation as a validator. The `euler-4` validators get 20 TEULs in `euler-5` for their support of the network.
 
@@ -181,7 +181,7 @@ $$a=\frac{reward_{CID}}{\sum\limits_{i=1}^{10}\frac{1}{i}}=\frac{reward_{CID}}{\
 
 Where $\gamma$ is Euler–Mascheroni constant =0.57721..., $\epsilon_{i}\sim\frac{1}{2i}$ .
 
-> Notice! Only retrievable CIDs take part in the Game. We assume Agents should also be content providers and responsible for content availability. Please make sure that your content is pinned and responding.
+> Notice! Only retrievable CIDs take part in the Game. We assume Agents should also be content providers and responsible for content availability. Please make sure that your content is pinned and responding. Otherwise, the unreachable CIDs will be excluded and rewards will be distributed between `1000 - N` CIDs, where N is the number of unreachable CIDs.
 
 ## The bandwidth load of every participant
 
