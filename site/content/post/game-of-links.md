@@ -5,7 +5,6 @@ title: 'Game of Links'
 author: savetheales
 ---
 
-# Game of Links 
 **Rules, Provision, Description and Participation**
 
 Welcome to the Game of Links!
@@ -77,7 +76,7 @@ You may join the Game as a:
 How to get the tokens and which tools to use?
 
 There are several ways to get tokens (and several tools that you can use):
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page]() app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
+- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page](https://cyber.page/#/) app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
@@ -121,9 +120,9 @@ The results of the Game and the allocation are significantly influenced by the r
 
 Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play can donate ATOMs. Therefore, increasing the percentage of payouts to other participants and themselves. The following formula defines the allocation for takeoff donors:
 
-<p align="center"><img src="/tex/963efecc0e14204ae4a1dadeacd5c744.svg?invert_in_darkmode&sanitize=true" align=middle width=458.4939249pt height=18.312383099999998pt/></p>
+<p align="center"><img src="963efecc0e14204ae4a1dadeacd5c744.svg?invert_in_darkmode&sanitize=true" align=middle width=458.4939249pt height=18.312383099999998pt/></p>
 
-where <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/> is the Genesis supply of CYBs allocated to takeoff donors, <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is the ATOMs donated during the takeoff donation round.
+where <img src="7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/> is the Genesis supply of CYBs allocated to takeoff donors, <img src="332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is the ATOMs donated during the takeoff donation round.
 
 The development of the project has been done thanks to donations from 10 people. ~3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber\~Congress . To protect the seed donators their share will be defined accordingly to the amount donated during the takeoff round. The donations round curve (green curve) defines the allocation of up to 6% of CYB tokens for takeoff participants. If the takeoff round gets 600k ATOMs than seed donators (blue curve)  and cyber\~Congress (orange dotted curve) get 4% of CYB supply per group via the means of THC tokens, and takeoff participants will get 6% of CYB tokens. If nothing has been donated the remaining CYB tokens are allocated to cyber\~Congress and distributed to seed donators and cyber\~Congress proportionally.
 
@@ -175,18 +174,18 @@ CYB tokens will be distributed to the top 1000 CID proportionally to their ranks
 
 In case 600,000 ATOMs are donated:
 
-<p align="center"><img src="/tex/d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
+<p align="center"><img src="d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
 
 Then the rewards will be distributed between 10 Agents in order of submitting links in accordance to the [power law](https://en.wikipedia.org/wiki/Power_law):
 
-<p align="center"><img src="/tex/4550a64f501a3fe4b8068075dc76b2b7.svg?invert_in_darkmode&sanitize=true" align=middle width=141.94894559999997pt height=47.35857885pt/></p>
+<p align="center"><img src="4550a64f501a3fe4b8068075dc76b2b7.svg?invert_in_darkmode&sanitize=true" align=middle width=141.94894559999997pt height=47.35857885pt/></p>
 
 This way we can calculate allocation for the top CID using [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant) for the sum of harmonic series:
 
-<p align="center"><img src="/tex/709b6ed38f7429c7a239d504928eb823.svg?invert_in_darkmode&sanitize=true" align=middle width=174.73419644999998pt height=47.35857885pt/></p>
-<p align="center"><img src="/tex/089376374904beb77e4bcee2c1e21c4d.svg?invert_in_darkmode&sanitize=true" align=middle width=224.02992644999998pt height=59.86724205pt/></p>
+<p align="center"><img src="709b6ed38f7429c7a239d504928eb823.svg?invert_in_darkmode&sanitize=true" align=middle width=174.73419644999998pt height=47.35857885pt/></p>
+<p align="center"><img src="089376374904beb77e4bcee2c1e21c4d.svg?invert_in_darkmode&sanitize=true" align=middle width=224.02992644999998pt height=59.86724205pt/></p>
 
-Where <img src="/tex/11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize=true" align=middle width=9.423880949999988pt height=14.15524440000002pt/> is Euler–Mascheroni constant =0.57721..., <img src="/tex/6631c51e2108c8128d4e1b3dd8319d52.svg?invert_in_darkmode&sanitize=true" align=middle width=47.23886309999999pt height=27.77565449999998pt/> .
+Where <img src="11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize=true" align=middle width=9.423880949999988pt height=14.15524440000002pt/> is Euler–Mascheroni constant =0.57721..., <img src="6631c51e2108c8128d4e1b3dd8319d52.svg?invert_in_darkmode&sanitize=true" align=middle width=47.23886309999999pt height=27.77565449999998pt/> .
 
 > Notice! Only retrievable CIDs take part in the Game. We assume Agents should also be content providers and responsible for content availability. Please make sure that your content is pinned and responding. Otherwise, the unreachable CIDs will be excluded and rewards will be distributed between `1000 - N` CIDs, where N is the number of unreachable CIDs.
 
@@ -198,19 +197,19 @@ Each message type has an assigned bandwidth cost. For this discipline we're usin
 
 All bandwidth spending data is available at `account_bandwidth?address=` RPC. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increases if the load is high - between 0.01 and inf. That's mean you can spend the same amount of bandwidth for 1000 links in low network load as with 10 links. The bandwidth spent on linking call Karma.
 
-The network has a desirable bandwidth of \~17280 blocks (\~24 h). If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
+The network has a desirable bandwidth of 16000 blocks (\~24 h). If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
 
-The value of the multiplier is recalculated every \~12 blocks (1 minute) according to the load of the network and has a \~17280 blocks (\~24 h) window. You can always find it on the Game monitors.
+The value of the multiplier is recalculated every 10 blocks (\~1 minute) according to the load of the network and has a 16000 blocks (\~24 h) window. You can always find it on the Game monitors.
 
 A users bandwidth depends on their stake:
 
-<p align="center"><img src="/tex/4042b9084b919579e8b53b1a534c48c5.svg?invert_in_darkmode&sanitize=true" align=middle width=364.6570521pt height=37.0084374pt/></p>
+<p align="center"><img src="4042b9084b919579e8b53b1a534c48c5.svg?invert_in_darkmode&sanitize=true" align=middle width=364.6570521pt height=37.0084374pt/></p>
 
-The genesis <img src="/tex/6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
+The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
 Users rewards, in case 600,000 ATOMs have been donated, are calculated in the following way:
 
-<p align="center"><img src="/tex/910d658efae8563e12e83ff4a59308c9.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3375745pt height=37.0084374pt/></p>
+<p align="center"><img src="910d658efae8563e12e83ff4a59308c9.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3375745pt height=37.0084374pt/></p>
 
 ## Lifetime summary of every validator
 
@@ -220,14 +219,14 @@ The easiest discipline. You just need to set up your validator node and monitor 
 
 The following formula calculates each validator reward in block *n* if the was a precommit, and if 600,000 ATOMs have been donated:
 
-<p align="center"><img src="/tex/9ca49a45d418b1ea785b2c8eb3507700.svg?invert_in_darkmode&sanitize=true" align=middle width=174.21748245pt height=41.352743849999996pt/></p>
+<p align="center"><img src="9ca49a45d418b1ea785b2c8eb3507700.svg?invert_in_darkmode&sanitize=true" align=middle width=174.21748245pt height=41.352743849999996pt/></p>
 
-The *r* is a reward for validator at block *n*, the <img src="/tex/6b7ea75590426a183657d8b608970b83.svg?invert_in_darkmode&sanitize=true" align=middle width=62.17247684999999pt height=22.831056599999986pt/> is the latest block of the Game, and *V* is the number of validators on block *n*.
+The *r* is a reward for validator at block *n*, the <img src="6b7ea75590426a183657d8b608970b83.svg?invert_in_darkmode&sanitize=true" align=middle width=62.17247684999999pt height=22.831056599999986pt/> is the latest block of the Game, and *V* is the number of validators on block *n*.
 
 We need to divide the allocated supply by the sum of the blocks during the period of the Game and by the sum of the precommits of the current block.
 
 For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 600,000 ATOMs have been donated on the Auction, you will get:
-<p align="center"><img src="/tex/3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
+<p align="center"><img src="3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
 in the Genesis file of `cyber` network.
 
 
@@ -235,7 +234,7 @@ in the Genesis file of `cyber` network.
 
 Validators can earn a reputation based on their lifetime rate and infrastructure. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators at the last block of the Game. If 600,000 ATOMs have been donated, every validator will get:
 
-<p align="center"><img src="/tex/ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
+<p align="center"><img src="ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
 
 ## Full validator set
 If the set of validators will increase over or is equal to 100, and this number of validators can last for 10000 blocks, we will allocate an additional 2 TCYB to validators who take part in genesis. If the number of validators will increase to or over 146, under the same conditions we will allocate an additional 3 TCYB. All rewards in that discipline will be distributed to validators per capita.
