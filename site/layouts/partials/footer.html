@@ -1,7 +1,7 @@
 <footer role="contentinfo" class="footer-primary">
   <div class="container cf">
     <div class="cf">
-      <div class="sitemap-menu grid-flex-container">
+      <!-- <div class="sitemap-menu grid-flex-container">
         <div class="grid-flex-cell">
           <ul class="sitemap list-unstyled">
             <li class="sitemap-head">cyber•Congress</li>
@@ -48,6 +48,13 @@
             <li><a href="https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured">youtube</a></li>
           </ul>
         </div>
+      </div> -->
+      <div class="share-links center">
+        <ul class="share list-unstyled">
+          {{ range .Site.Params.social }}
+          <li><a class="{{ .title }}" target="_blank" href="{{ .link }}">{{ .title }}</a></li>
+          {{ end }}
+        </ul>
       </div>
     </div>
     <p class="footer-copyright center">© Cyber License. Don’t believe, don’t fear, don’t ask.</p>
