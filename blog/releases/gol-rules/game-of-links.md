@@ -64,7 +64,7 @@ There is no face control, captchas or KYC to join the Game. All you need is a to
 
 You may join the Game as a:
 - Validator. [Set up]() your own node and start validating
-- Great Web Agent. The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the help of a [browser extension](), a [web app]() or with the use of [CLI]()
+- Great Web Agent. The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the help of a [browser extension](https://github.com/cybercongress/cyb-virus), a [web app](https://cyber.page/#/) or with the use of [CLI](https://github.com/cybercongress/cyberd)
 - Developer. Create cool things and claim your rewards via spend proposals from the community pool
 
 How to get the tokens and which tools to use?
@@ -72,7 +72,7 @@ How to get the tokens and which tools to use?
 There are several ways to get tokens (and several tools that you can use):
 - **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 43.3% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page]() app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
 
-The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit]() repo.
+The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
 - **Faucets**. We want to test the production of the auction app during `euler-5` and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos() and uAtoms(1 millionth of an ATOM).
 
@@ -174,7 +174,7 @@ Then the rewards will be distributed between 10 Agents in order of submitting li
 
 <p align="center"><img src="/blog/releases/gol-rules/tex/4550a64f501a3fe4b8068075dc76b2b7.svg?invert_in_darkmode&sanitize=true" align=middle width=141.94894559999997pt height=47.35857885pt/></p>
 
-This way we can calculate allocation for the top CID using [Euler's method](https://en.wikipedia.org/wiki/Euler_method) for the sum of harmonic series:
+This way we can calculate allocation for the top CID using [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant) for the sum of harmonic series:
 
 <p align="center"><img src="/blog/releases/gol-rules/tex/709b6ed38f7429c7a239d504928eb823.svg?invert_in_darkmode&sanitize=true" align=middle width=174.73419644999998pt height=47.35857885pt/></p>
 <p align="center"><img src="/blog/releases/gol-rules/tex/089376374904beb77e4bcee2c1e21c4d.svg?invert_in_darkmode&sanitize=true" align=middle width=224.02992644999998pt height=59.86724205pt/></p>
@@ -244,7 +244,7 @@ A thank you to our early validators for helping to test and secure the `euler-4`
 
 We can not guarantee that everything will go as expected. The software can be vulnerable. If anything goes wrong, cyber/~Congress as the organiser of the game, **has the full power** of deciding whether the game must be restarted **without any rewards** or restarted with **partial rewards**, depending on the circumstances. In the case, such a circumstance shall arise we are going to count with community opinions.
 
-Please read the [launch protocol]() very carefully. It defines the rules for fault handling. We define 2 danger zones with probabilities to unexpected behaviour and one zone as an intersection of the defined zones:
+Please read the [launch protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md) very carefully. It defines the rules for fault handling. We define 2 danger zones with probabilities to unexpected behaviour and one zone as an intersection of the defined zones:
 - Network running
 - Contracts running
 - The intersection of the two above
@@ -270,8 +270,17 @@ If everything gets fucked up from both ends, then:
 
 ## Conclusion
 
-At first glance, the `euler-5` distribution and the Game rules look pretty complex. This is not true. A nice UI of [cyber.page](cyber.page) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this. This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web. Do it. Cyber it.
+At first glance, the `euler-5` distribution and the Game rules look pretty complex. This is not true. A nice UI of [cyber.page](https://cyber.page/#/) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this. This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web. Do it. Cyber it.
 
 ## References
-1.
-2.
+1. [The cyber whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
+2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/cyberd)
+3. [Aragon claim app](https://github.com/cybercongress/aragon-claim-app)
+4. [Cyb-virus browser extension](https://github.com/cybercongress/cyb-virus)
+5. [Cyber web app](https://cyber.page/#/)
+6. [Cyberd CLI repo](https://github.com/cybercongress/cyberd)
+7. [Launch kit repo](https://github.com/cybercongress/launch-kit)
+8. [Power law on wikipedia](https://en.wikipedia.org/wiki/Power_law)
+9. [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant)
+10. [Chain params](https://github.com/cybercongress/launch-kit/tree/0.1.0/params)
+11. [The launch protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md)
