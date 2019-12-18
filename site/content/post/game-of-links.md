@@ -16,6 +16,7 @@ The game is part of the distribution games planned in our [whitepaper](https://i
  The key idea behind the Game of Links is to establish a starting value of relevance on the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing the network before its mainnet launch.
 
 Goals:
+
 - To carry out publicly incentivized testing of [cyberd](https://github.com/cybercongress/cyberd) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before mainnet launch
 - To demonstrate the search, with the use of an experimental knowledge graph filled with useful cyberlinks
 - To distribute up to 6% of CYB tokens to the validators who will participate in pre-genesis takeoff donations. The amount is dependent on the number of donated ATOMs
@@ -82,7 +83,7 @@ There are several ways to get tokens (and several tools that you can use):
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
-- **Faucets**. We want to test the production of the auction app during `euler-5` and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos() and uAtoms(1 millionth of an ATOM).
+- **Faucets**. We want to test the production of the auction app during `euler-5` and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
 
 - **Takeoff round**. You can get tokens if you will participate in the takeoff donations. There are 100 TEULs allocated for takeoff donation participants during `euler-5`. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter in the end.
 
@@ -109,11 +110,12 @@ Thanks for understanding.
 
 ## Faucets
 
-During the Game of Links will available consistently the Test of Thrones and test\~Auction apps as faucets. It will help us to test the contracts before mainnet launch and make easy for participants without tokens or with a small number of tokens join the Game. We've allocated 1 TEUL and 1 TGOL for Cosmos and Ethereum communities respectively for the Test of Thrones and 6 TGOL for test\~Auction. The Test of Thrones, in fact, the zero round of test\~Auction. It would last for 18 days (until 7 Jan 2020). At that time cosmonauts and ethereums can donate their native tokens, after that the EULs and GOLs will be distributed. Then retains the possibility to donate only in ETHs and claim GOLs daily for 60 days.
+During the Game of Links will available consistently the Test of Thrones and test\~Auction apps as faucets. It will help us to test the contracts before mainnet launch and make easy for participants without tokens or with a small number of tokens join the Game. We've allocated 1 TEUL and 1 TGOL for Cosmos and Ethereum communities respectively for the Test of Thrones and 6 TGOL for test\~Auction. The Test of Thrones, technically, the zero round of test\~Auction. It would last for 18 days (until 7 Jan 2020). At that time cosmonauts and etherians can donate their native tokens, after that the EULs and GOLs will be distributed. Then retains the possibility to donate only in ETHs and claim GOLs daily for 60 days.
 
 ## Takeoff donations and disciplines incentives
 
 The takeoff donations has 3 key goals:
+
 - bootstrapping the genesis validator set
 - definition of allocation for cyber\~Congress participants
 - definition of allocation to the Game of Links participants
@@ -145,7 +147,6 @@ The following criteria are applied to the Game of Links allocation:
 | `euler-4` rewards | 5,000,000,000,000 |
 | lifetime | 2,000,000,000,000 |
 | community pool | 2,000,000,000,000 |
-
 
 ## Types of disciplines
 
