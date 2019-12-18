@@ -29,7 +29,7 @@ After the end of the takeoff donations, we will distribute EUL tokens to partici
 
 At this time, key players with significant stakes will have a powerful impact on the results of the Game.
 
-The final round will be played for 21 days after EUL token distribution. 
+The final round will be played for 21 days after EUL token distribution.
 
 ## Distribution
 
