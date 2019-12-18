@@ -59,11 +59,13 @@ The distribution to those staking GOL tokens will be the following:
 
 ![euler-5-GOL-distribution](euler-5_GOL_distribution.png)
 
-| Group | Amount of EUL |
+| Group | Amount of GOL |
 | --- | ---: |
 | cyber\~Congress | 8,000,000,000,000 |
 | test\~Auction | 6,000,000,000,000 |
 | Test of Thrones in ETH | 1,000,000,000,000 |
+
+Total GOLs supply for the Game of Links is 15 TCYB
 
 ## How to participate in the Game
 
