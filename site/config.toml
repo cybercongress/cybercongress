@@ -17,10 +17,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   description = "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open."
   author = "cyber~Congress"
   github = ""
-  social = [ { title = "Twitter", link = "https://twitter.com/cyber_devs" },
+  social = [
+    { title = "Cyber-page", link = "https://cyber.page/" },
+    { title = "Cyberd", link = "https://cyberd.ai/" },
+    { title = "Cyb", link = "https://cyb.ai/" },
+    { title = "Aragon", link = "https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330" },
+    { title = "Github", link = "https://github.com/cybercongress" },
+    { title = "Forum", link = "https://ai.cybercongress.ai/" },
+    { title = "Twitter", link = "https://twitter.com/cyber_devs" },
+    { title = "Rss", link = "https://cybercongress.ai/index.xml" },
     { title = "Telegram", link = "https://t.me/fuckgoogle" },
-    { title = "Reddit", link = "https://www.reddit.com/r/cybercongress/" },
-    { title = "Steemit", link = "https://steemit.com/@cybercongress" },
+
+    # { title = "Reddit", link = "https://www.reddit.com/r/cybercongress/" },
+    # { title = "Steemit", link = "https://steemit.com/@cybercongress" },
     { title = "YouTube", link = "https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured" } ]
   BookToC = 3
   BookMenuBundleCyb = '/docs/cyb/menu'
