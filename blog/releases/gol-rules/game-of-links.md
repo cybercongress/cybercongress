@@ -70,7 +70,7 @@ You may join the Game as a:
 How to get the tokens and which tools to use?
 
 There are several ways to get tokens (and several tools that you can use):
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page]() app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
+- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page](https://cyber.page/#/) app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
@@ -191,9 +191,9 @@ Each message type has an assigned bandwidth cost. For this discipline we're usin
 
 All bandwidth spending data is available at `account_bandwidth?address=` RPC. After the game 6 TCYBs will be distributed to players addresses according to their weight coefficient (of spend bandwidth). In other words, per how much bandwidth they have spent on linking during the Game. It decreases if the network has a low load and increases if the load is high - between 0.01 and inf. That's mean you can spend the same amount of bandwidth for 1000 links in low network load as with 10 links. The bandwidth spent on linking call Karma.
 
-The network has a desirable bandwidth of \~17280 blocks (\~24 h). If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
+The network has a desirable bandwidth of 16000 blocks (\~24 h). If the current bandwidth is equal to this value it means everything is normal, and the multiplier parameter is 1.00. In all other cases, the multiplier is corrected dependent on the upload or the download of the network.
 
-The value of the multiplier is recalculated every \~12 blocks (1 minute) according to the load of the network and has a \~17280 blocks (\~24 h) window. You can always find it on the Game monitors.
+The value of the multiplier is recalculated every 10 blocks (\~1 minute) according to the load of the network and has a 16000 blocks (\~24 h) window. You can always find it on the Game monitors.
 
 A users bandwidth depends on their stake:
 
