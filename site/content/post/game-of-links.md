@@ -69,6 +69,7 @@ The distribution to those staking GOL tokens will be the following:
 There is no face control, captchas or KYC to join the Game. All you need is a tool for playing and some tokens.
 
 You may join the Game as a:
+
 - Validator. [Set up](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md) your own node and start validating
 - Great Web Agent. The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the help of a [browser extension](https://github.com/cybercongress/cyb-virus), a [web app](https://cyber.page/#/) or with the use of [CLI](https://github.com/cybercongress/cyberd)
 - Developer. Create cool things and claim your rewards via spend proposals from the community pool
@@ -76,6 +77,7 @@ You may join the Game as a:
 How to get the tokens and which tools to use?
 
 There are several ways to get tokens (and several tools that you can use):
+
 - **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbtit communities. This is 42.9% of the `euler-5` Genesis supply. You can check your balance using `cyberdcli`, the [cyber.page](https://cyber.page/#/) app or via the [cyb-virus]() extension. Simply add your address to the cyber.page app to check your balance. Or, import your private key (for Ethereum) or seed phrase (for Cosmos) to the CLI or to the extension. You can also use your Ledger device with the [cyber.page](cyber.page) app and from the CLI.
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
@@ -150,12 +152,14 @@ The following criteria are applied to the Game of Links allocation:
 There are seven disciplines to participate in the Game of Links, which are subdivided further into 2 different types:
 
 Depending on takeoff donations:
+
 - The relevance of links submitted (the higher the rank of the content, the better)
 - The bandwidth load of every participant (the more you link, the better)
 - Life summary of every validator (the longer your uptime is, the better)
 - The amount delegated to each validator (the more a validator is delegated, the better)
 
 Independent of takeoff donations:
+
 - Full validator set (the more validators there are, the better)
 - Community pool (experiment and participate in governance)
 - `euler-4` validator rewards (rewards distributed to validators for the last testnet)
@@ -227,8 +231,8 @@ We need to divide the allocated supply by the sum of the blocks during the perio
 
 For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 600,000 ATOMs have been donated on the Auction, you will get:
 <p align="center"><img src="3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
-in the Genesis file of `cyber` network.
 
+in the Genesis file of `cyber` network.
 
 ## Amount of delegated to each validator
 
@@ -258,18 +262,21 @@ Please read the [launch protocol](https://github.com/cybercongress/launch-kit/bl
 In case anything goes wrong, we've prepared a crisis protocol.
 
 If the network will fail:
+
 1. Stop the contracts (claim app)
 2. Save `euler-5` snapshot
 3. Relaunch `euler-5` with `euler-5` genesis.json
 4. Start the contracts (claim app)
 
 If the contracts will fail:
+
 1. Stop the contracts (claim app)
 2. Pool bounty
 3. Redeploy the contracts (claim app)
 4. Continue the auction
 
 If everything gets fucked up from both ends, then:
+
 1. Stop the contracts (claim app)
 2. Save `euler-5` snapshot
 3. One week pause for community discussions. And for cyber\~Congress to make a decision
