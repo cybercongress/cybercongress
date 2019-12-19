@@ -1,13 +1,13 @@
 # Team incentives
 
 ## Option for launch
-- 10 TCYB + 10 TTHC for h&a
-- 10 TCYB + 10 TTHC for team at launch
+- 1 TCYB + 1 TTHC for h&a
+- 1 TCYB + 1 TTHC for team at launch
 - subjective evaluation by c&c
 
 ## Option for 1B cap
-- 30 TCYB
-- 30 TTHC
+- 3 TCYB
+- 3 TTHC
 - subjective evaluation by c&c
 
 ## Grants
