@@ -5,7 +5,7 @@ title: Episode I. A new hope
 author: savetheales
 ---
 
-A long time ago somewhere in Cosmos ...
+A long time ago somewhere in Cosmos...
 
 It is a period of digital war. The evil empire swallows the last unoccupied borders of the universe.
 
