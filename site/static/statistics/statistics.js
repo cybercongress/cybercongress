@@ -1,6 +1,6 @@
 
-const nodeUrl ='https://titan.cybernode.ai/api';
-const wsUrl= 'wss://titan.cybernode.ai/websocket';
+const nodeUrl ='https://herzner1.cybernode.ai/api/';
+const wsUrl= 'wss://herzner1.cybernode.ai/websocket';
 
 
 
