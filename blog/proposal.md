@@ -1,15 +1,20 @@
 **DRAFT**
 
-To propose 3 publishing routines dependent on task
+To propose 3 publishing routines dependent on the task
 
-A) Major news: working releases / launches, major media coverage, cyber events, public speches with recording about cyber
+What needs to be done:
+- Identify 3 types of importance and describe what events should be included in each one
+- For each type, add channels
+- For each channel, add the flow of publishing
 
-Twitter, Today in Cosmos, Reddit (cybercongress / cosmos netwrok), own blog, TG group announcment, ? 
+A) Major news: working releases/launches, major media coverage, cyber events, public speeches  about cyber with a recording
 
-B) Important news: articles that are of lesser importnace, other events with our participation, pre anouncemnts, non-major technological updates, governance related 
+Twitter, Today in Cosmos, Reddit (cybercongress / cosmos network), own blog, TG group announcement, ? 
 
-Twitter, Today in Cosmos, Reddit (cybercongress), TG group announcment, ? 
+B) Important news: articles that are of lesser importance, other events with our participation, pre-announcements, non-major technological updates, governance-related 
 
-C) Somewhat importnat news: anything else that might require public reach
+Twitter, Today in Cosmos, Reddit (cybercongress), TG group announcement, ? 
 
-Twitter, TG group announcemnt 
+C) Somewhat important news: anything else that might require public reach
+
+Twitter, TG group announcement 
