@@ -9,12 +9,12 @@ What needs to be done:
 
 A) Major news: working releases/launches, major media coverage, cyber events, public speeches  about cyber with a recording
 
-Twitter, Today in Cosmos, Reddit (cybercongress / cosmos network), own blog, TG group announcement, ? 
+Twitter, Today in Cosmos, Reddit (cybercongress / cosmos network), own blog, TG group announcement, all members social channels
 
 B) Important news: articles that are of lesser importance, other events with our participation, pre-announcements, non-major technological updates, governance-related 
 
-Twitter, Today in Cosmos, Reddit (cybercongress), TG group announcement, ? 
+Twitter, Today in Cosmos, Reddit (cybercongress), TG group announcement, own social channels
 
 C) Somewhat important news: anything else that might require public reach
 
-Twitter, TG group announcement 
+Twitter, TG group announcement, own social channels 
