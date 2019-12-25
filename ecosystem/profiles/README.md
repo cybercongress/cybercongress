@@ -50,3 +50,5 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 - [IPFS awesome list](https://github.com/ipfs/awesome-ipfs)
 
 - [Aragon wiki](https://wiki.aragon.org/about/projects/)
+
+- [Bits Media](https://forum.bits.media/index.php?/topic/160286-cyberlike-google-but-cyber-tendermint-a-distributed-supercomputer-for-answers/)
