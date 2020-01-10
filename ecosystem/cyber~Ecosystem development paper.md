@@ -38,13 +38,14 @@ There are several other communities we view as vital: those are (1) [Ethereum](h
 
 Drops and gifts are part of the proposed onboarding. Other instruments include showcasing our future work, research and values to those communities to find common ground with them. 
 
-Web3 is a very broad term that can onviosuoly include endless amount of projects, (not including the already mentioned Urbit, Cosmos and Ethereum). For now, those are (in no particalur order): (1) [Everpidea](https://github.com/EveripediaNetwork/) (2) [FOAM](https://github.com/f-o-a-m/) (3) [Decentralnad](https://github.com/decentraland) (4) [Steem](https://github.com/steemit/steem) / [Golos](https://github.com/cyberway) communties - not neccaserely in their current implemtations, but we see those communtiies as very vital to helping us index blockahins (5) [Openbazaar](https://github.com/openbazaar) (6) [IOTA](https://github.com/iotaledger) (7) [Melonport](https://github.com/melonproject) (8) [Filecoin](https://github.com/filecoin-project) (9) [Polkadot](https://github.com/paritytech/polkadot) (10) [Augur](https://github.com/AugurProject) (11) [Aragon](https://github.com/aragon) (11) [Bitcoin](https://github.com/bitcoin/) (12)[MaidSafe](https://github.com/maidsafe).
+Web3 is a very broad term that can onviosuoly include endless amount of projects, (not including the already mentioned Urbit, Cosmos and Ethereum). For now, those are (in no particalur order): (1) [Everpidea](https://github.com/EveripediaNetwork/) (2) [FOAM](https://github.com/f-o-a-m/) (3) [Decentralnad](https://github.com/decentraland) (4) [Steem](https://github.com/steemit/steem) / [Golos](https://github.com/cyberway) communties - not neccaserely in their current implemtations, but we see those communtiies as very vital to helping us index blockahins (5) [Openbazaar](https://github.com/openbazaar) (6) [IOTA](https://github.com/iotaledger) (7) [Melonport](https://github.com/melonproject) (8) [Filecoin](https://github.com/filecoin-project) (9) [Polkadot](https://github.com/paritytech/polkadot) (10) [Augur](https://github.com/AugurProject) (11) [Aragon](https://github.com/aragon) (11) [Bitcoin](https://github.com/bitcoin/) (12) [MaidSafe](https://github.com/maidsafe).
 
 Please note, that by the above I want to describe a spectre of modern and efficient computers and their communities, rather than the foundations or organizations standing behind those projects. A distributed computer goes a mile further than the foundation behind it. This means onboarding communities and the ideas behind them rather than the corps behind those projects.
 
 **Metrics and TA**<br>
 *TA*: All types of users | Focus on [#195](https://github.com/cybercongress/congress/issues/195) <br>
-*Measure Metrics*: commMetric | Total number of posts about Cyber to measure overall communtuy involvemnt.
+*Measure Metrics*: commMetric | Total number of posts about Cyber to measure overall community involvemnt.
+As a side metric, the number of links to the WP can also be used.
 
 **Cyberc0n**<br>
 Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was [DEVCON-0](https://ethereum-homestead.readthedocs.io/en/latest/introduction/history-of-ethereum.html), but we believe we can do much better.
@@ -152,6 +153,7 @@ Search is dynamic and quick. It resembles the shaping of core ideas in the human
 | Number of unique Cyb users | p/day | Retention |
 | Amount of cyberlinks committed | p/block | User commitment |
 | % of staked tokens to circulating supply | p/block | Trust in the platform |
+| Amount of delegated tokens | % of circ. supply | Trust in the platform |
 | Amount of transactions | p/day | Real use case |
 | Amount of active validators | p/block | Product security |
 | % of tokens traded out of circulating supply | p/day | Market liquidity |
@@ -166,7 +168,7 @@ This is a table of the block-metrics described above. Those metrics should be us
 
 |NAME of METRIC | WHAT MEASURES | TARGET AUDIENCE | METRIC DESCRIPTION |
 |:----------|:-------------:|:-------------:|------:|
-| commMetric | Community involvement | Users | Total number of posts about Cyber |
+| commMetric | Community involvement | Users | Total number of posts about Cyber + links to WP|
 | conMetric | Event success rate | Event participants | Number of claimed gifts after the event |
 | alienMetric | Partnership and integration quality | Projects and users | Increase in tx's after integration |
 | govMetric | User adoption of governance modules | THC hodlers | Amount of locked THC in proposal contracts | 
