@@ -10,7 +10,7 @@ The list will be updated as we go, [contributions](https://github.com/cybercongr
 **Usecases**<br>
 It is quite difficult to break these by topis as they are all interconnected. Hence, for now, I am not sure how to separate them for easier reading. 
 
-Also, please remember that the below cases are true as of today - partially. Some of them contain my imagination, that requires certain technological implemtnations.
+Also, please remember that the below cases are true as of today - partially. Some of them contain my imagination, that requires certain technological implementations.
 
 *Web3 browsers*:
 We have [already built one - Cyb](https://github.com/cybercongress/cyb). What should be understood, as that Cyb is a personal search application with an inbuilt search engine and another ton of features (like personal robots, the ability to transact, etc). It is your personal app on top of an objective database of knowledge, without any custodial restrictions or any adverts (unless you want to implement them for yourself). What's more important, is that it lacks web2 bullshit. And... you can make your own browser/s on top of Cyber if you have the skills (you can also customize Cyb).
@@ -25,7 +25,7 @@ It is not simply a robot, it is an assistant that with the help of certain instr
 Cyber gives you the ability to access your database of knowledge. Theoretically, create a personal knowledge graph and query it. This means no more losing information. Less time to study a subject. And so on.
 
 *Basic income*:
-Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, it's your decision to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
+Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
 
 *Gamification*:
 There are plenty of examples of how this can be introduced and used. One is, of course, an application that allows personal robots to battle one another and earn rewards. 
@@ -79,7 +79,7 @@ Content can be tied with an agent via a private key if that content is on the kn
 If Cyber grows, then it will be easy to connect with like-minded people and build communities with them. With the help of semantics and the knowledge graph, it will be enough, to just press "find people like me" button, and without giving away any information - it will.
 
 *Amazing social networks*:
-To continue the above thought, if a person does not want to connect physically, just imagine the on-line possibilities this can create. This will allow for naturally created social networks, with like-minded people, based on knowledge, interests and so on. A network where you talk to people that you want. Maybe in VR. Maybe on a digital piece of land. Without revealing who you really are, if you don't want to. Peers will still be able to prove relevance to one another! 
+To continue the above thought, if a person does not want to connect physically, just imagine the on-line possibilities this can create. This will allow for naturally created social networks, with like-minded people, based on knowledge, interests and so on. A network where you talk to people that you want. Maybe in VR. Maybe on a digital piece of land. Without revealing who you are, if you don't want to. Peers will still be able to prove relevance to one another! 
 
 *Motivation for read requests*:
 It would be great to create cybernomics not only for ‘write’ requests to consensus computers but from ‘read’ requests too. Thus, read requests can become orders of magnitude cheaper but still guaranteed. Read requests to a search engine can be provided by the second tier of nodes which earn CYB tokens within state channels. We consider implementing state channels based on HTLC and proof of verification, which unlocks the number of tokens earned for already served requests.
@@ -87,5 +87,6 @@ It would be great to create cybernomics not only for ‘write’ requests to con
 *Prediction markets on link relevance and beyond*:
 An application that allows betting on link relevance can become a unique source of truth for the direction of terms. This can create a whole new prediction market. And not only for links but for anything semantically related. Why prediction markets? Because they are (currently) the perfect example of a peer to peer transactional behaviour, meaning that a variety of such markets can help local economies to evolve.
 
-
+*File-hosting*
+File hosting is a huge market. Memory, in terms of disk space, is something we all possess. Several projects in the space are working on solving the issue. We believe that a ranking mechanism can improve search over disk space by a mile. For example, it can introduce more security in terms of seeing which content is ranked higher and which nodes are more trustworthy. Along with our other ideas, like Karma points (for linking) and Urbit integration into the project, it is safe to say that cyber can become a major player on the file-hosting market. 
 
