@@ -57,7 +57,7 @@ You do not need to. If you were lucky enough to receive a gift, they are yours a
 This isn't the most trivial question for now. There are several ways to do so: 
 - One way is to use your Ledger with [cyber.page](https://cyber.page/#/pocket)(for ATOM only) 
 - The other one is to install [cyberdCLI](https://github.com/cybercongress/cyberd/releases) and create an address (this requires technical skills
-- You can use [cyb~Virus](https://github.com/cybercongress/cyb-virus/releases), the chrome extension. However, this is highly unrecommended right now, as it is very unsafe to use!
+- You can wait until [cyb~Virus](https://github.com/cybercongress/cyb-virus), the chrome extension, is ready. However, for now, it is not!
 - You may wait until we create a wallet on [cyber.page](https://cyber.page/#/), it will then become possible to create an address from there
 
 ### Will the gift burn if I don't take it now?
