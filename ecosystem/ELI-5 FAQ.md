@@ -1,5 +1,3 @@
-
-
 # The ELI-5 FAQ for Cyber 
 This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be appreciated.
 
@@ -26,14 +24,14 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 ---------------------------------
 
 ## What is cyber (the simple answer)?
-Cyber is a decentrlaized Google, for provable and relevant answers. 
+Cyber is a decentrlaized google, for provable and relevant answers. 
 
 ## What is cyber (a detailed answer)?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
 Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information.
 
-Different types of users create links between 2 IPFS hashes (keep on reading to see what this is) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). 
+Different types of users create links between 2 IPFS hashes (keep on reading to see what this is) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... knowledge.  
 
 That content is then dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress).
 
@@ -57,10 +55,10 @@ We are trying to solve the problem of data centralization and data censorship. W
 ### Why are you doing this?
 Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
 
-### What's wrong with Google?
-Google is a brilliant idea. We do not deny this. But Google is the rebel that has overthrown the dictator and became the dictator itself. Google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, Google doesn't care for anyone and will make money on your action and your behalf.
+### What's wrong with google?
+google is a brilliant idea. We do not deny this. But google is the rebel that has overthrown the dictator and became the dictator itself. google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, google doesn't care for anyone and will make money on your action and your behalf.
 
-It should be noted, that by this question I am attempting not just at Google, but at all the mega-digital corporations. Feel free to check out what this can lead to in the shape of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this case is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "break" society.
+It should be noted, that by this question I am attempting not just at google, but at all the mega-digital corporations. Feel free to check out what this can lead to in the shape of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this case is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "break" society.
 
 ### Why now?
 Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
@@ -74,7 +72,7 @@ There probably are. But we decided to focus on this because we understand how to
 ### Aren't there other things out there that solve this?
 There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
 
-### How are users/developers/others benefit from using such a system in comparison to Google, etc?
+### How are users/developers/others benefit from using such a system in comparison to google, etc?
 <img src="https://i.postimg.cc/7hX2GbQC/cyber.png" />
 
 ### Why do you need consensus within Cyber?
@@ -95,7 +93,7 @@ No, because fucking is not for pain, it is for pleasure!
 ## High-level, IT, blockchain and some explanations:
 ### What's a hash?
 A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
-I.E a sha256 hash of cyber is `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
+I.E a sha256 hash of `cyber` is: `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb` 
 
 ### What are distributed technologies?
 Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
@@ -124,7 +122,7 @@ Bandwidth is the amount of information someone can pass through some resource at
 In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
 
 ### What is Sybil resistance?
-Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence for himself.
+Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
 
 ### What is BFT?
 BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
@@ -151,13 +149,15 @@ Smart contracts are programs that can program your protocol to behave in a certa
 A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
 
 ### What are knowledge graphs?
-Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to Google). 
+Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to google). 
 
 ### What's PageRank?
-It is one of the algorithms used by Google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
+It is one of the algorithms used by google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
 
 ### What is web3?
 Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web. 
+
+Often, you might notice the term `Great Web` in our documents. For us, The Great Web is a much better-suited name for the more common term `web3`.
 
 ### What is IPFS?
 IPFS is a peer-to-peer (directly connected between two users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread across high volumes of data and keeps every version of your files. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable or if you may - everlasting. 
@@ -217,13 +217,13 @@ A hyperlink is dependent on central data servers and packet routing. But, IPFS h
 This allows us to make sure that the information in a cyberlink is true. Cyberlinks can also form linkchains of information if they were created by the same user.
 
 ### Is linking that important?
-Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from Google. Google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
+Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from google. google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
 
 ### How is content ranked in cyber?
 You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
 
 ### How are pages included or excluded from the index?
-Pages are added to the index when someone submits a CID or creates a cyberlink. This is a transaction. Transactions are checked by validators (the computers that make sure you have the balance to submit a transaction) and added to the knowledge graph, which is then accessed by someone who queries the database. 
+Pages are added to the index (the word index is about all the information stored on the knowledge graph in the blockchain) when someone submits a CID or creates a cyberlink. This is a transaction. Transactions are checked by validators (the computers that make sure you have the balance to submit a transaction) and added to the knowledge graph, which is then accessed by someone who queries the database. 
 
 Pages are not excluded from the index in any way. 
 
@@ -274,7 +274,7 @@ cyber~Page is the face of the protocol in a way. It allows you to search for thi
 Cyb is your friendly robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
 
 ### What is cyb~Virus?
-The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck Google right in Google's playground fascinates us. 
+The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck google right in google's playground fascinates us. 
 
 **Validators**
 ### How do I become a validator in Cyber?
@@ -480,7 +480,7 @@ If you wish to, you can skim through our GitHub and easily find links to some of
 We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
 
 ### Why are you so geeky?
-Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to Google. 
+Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to google. 
 
 ### How do I contact you?
 Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
