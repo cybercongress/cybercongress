@@ -9,7 +9,7 @@ We chose these specific communities because they are the best communities, in ou
 
 As a result, Cyber will gain a massive benefit via the economic integration of the largest developers, the most innovative and 
 of the most promising communities withing the open-source space. Similary, those communities will gain traction from joining 
-forces with Cyber - the builder of the Greeat Web!
+forces with Cyber - the builder of the Great Web!
 
 Please find a list of the most relevant questions and information about the gifts:
 
