@@ -193,7 +193,7 @@ Finally, there are hardware wallets (they can also be hot or cold). A hardware w
 
 ## cyber~Questions:
 ### Why Cyber?
-We like that name. That's one reason. We have been using this name throughout our projects for the past 6 -7 years. 
+We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years. 
 
 Actually, cyber refers to anything that is very smart. The meaning is rooted from the word `cybernetics` (check out this article on [Wikipedia](https://en.wikipedia.org/wiki/Cybernetics#Subdivisions_of_the_field)) - a science which describes the behaviour of dynamic systems with feedback loops.
 
@@ -253,6 +253,15 @@ Of course, the most basic use case is a search mechanism (described above). Othe
 - Offline search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. cyber itself can be distributed by using IPFS. This creates the possibility for off-line search!
 - Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
 - Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
+
+### How do you use IPFS?
+cyber uses IPFS as the current backbone on which users perform the search. Think about IPFS for cyber, as of the fridge for the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it.
+
+### How do you use Cosmos?
+Cosmos provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc
+
+### Why did you choose Cosmos \ Tendermint?
+It was the most efficient, suitable for our needs and ready to use the network when we started to build. We share the philosophy that Cosmos propagates when it comes to decentralization and openness of information + we believe that the security of the protocol is at a level that suits our requirements. 
 
 **cyber~Blocks**
 ### What is cyber~Page?
@@ -395,6 +404,9 @@ Those gifts can help grow the protocol. As a result, it will gain a massive bene
 ### Are there any airdrops?
 Yes. The gifts are that exactly. 
 
+### How to check if I received any of the gifts? 
+The best way to do so this is to use [cyber.page](https://cyber.page/#/search/), simply enter your ETH / ATOM / URBIT address and see the result instantly! 
+
 **Governance and entities**
 ### What is governance in cyber?
 the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on. 
@@ -421,6 +433,9 @@ The idea of the ranking mechanism is based on the original PageRank, but with th
 As of now, the rank accounts for the current intention of the agents, and it encourages rank inflation. This makes sure it cannot be tampered with and that we do not get stuck in the past with content ranking. 
 
 This mechanism is fully described in our white paper. On-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
+
+### How is the search algorithm safe from abuse?
+This is one of the easiest and the most complicated questions we get asked. Several things prevent abuse. (1) The consensus mechanism (the more nodes, the better), (2) the resource credit model (an economic spam protection mechanism), (3) the thing is, is that the network belongs to the users, governed by the users and is utilized by the users. They are the sole beneficiaries of the network. If you attempt to abuse the search mechanism, the only thing you can abuse is yourself. The network will stay where it stands. This is a difficult concept to grasp, but this is the reality of things for web3.  
 
 ### What's CUDA?
 It is an interface communication model created by NVIDIA, that allows many processes to be executed at the same time. It allows developers to use their graphics cards for computing general-purpose computations (usually handled by the processor).
@@ -482,6 +497,12 @@ Yes, we have. There have been numerous private and public testnets. In fact, as 
 ### Does it work?
 Yes. It works exactly as described in our documentation.
 
+### Is this P2P?
+Not exactly. It is in the sense that users are interacting peer to peer with their computers, without a company in the middle. However, technically a blockchain is also an intermediary. What's good, is that you don't need to trust a blockchain thanks to how it functions. 
+
+### What is the difference with such P2P search engines as YACY?
+YACY (and other P2P similar mechanisms) have plenty of years of work behind their backs, which cyber (still) hasn't. YACY is pure P2P, cyber isn't. It has a blockchain between the users. Also those years of work which YACY and the others have, kind of proven that they don't work. Otherwise, we would not be making cyber. 
+
 ### What's chaingear?
 Chaingear is one of our secret weapons. It is not yet fully described by us. But in its essence, it is an ETH based ability for anyone to create a personal or a public database with the help of NFT tokens. For example, one may create the database .porn and then create records in that database. I.E. world.porn, and yes, it works just like a domain-based structure. But it's not a domain-based structure, as it allows you to create other types of databases too.
 
@@ -494,6 +515,12 @@ But, you don't have to become a validator. You can use the virus extension to cr
 
 ### How do I use it?
 You can use the cyb~Virus extension if you are a non-technical user. It is HIGHLY unsafe software as of now, so you should only use it at your own risk. 
+
+### What is the fastest way to get tokens?
+Play [the Game](https://cybercongress.ai/game-of-links/) of course! Another quick way, is to use future faucets or Kira's [TG bot](https://t.me/fuckgoogle). 
+
+### How many tokens do I need to start using cyber?
+There isn't a specific amount of tokens you need to use the network. This is a very dynamic property. The current statistics can be viewed on [cyber.page](https://cyber.page/#/brain). It should be noted that all transactions require bandwidth (resources). However, transactions don't spend your tokens. The tokens "freeze" for some time, after which, they are released back to the user. This is a spam protection mechanism. 
 
 ### Can I use it on web2 (normal browsers / phone, etc)?
 Depends. You can certainly view and download IPFS hashes via gateways to your phone/web2, etc. We presume that in the future people will be building some kind of bridge between what we do and web2. But we do not see this is a task and shall not work on it. People should move to web3.
