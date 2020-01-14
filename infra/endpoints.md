@@ -6,7 +6,7 @@
 
 + [LCD](https://titan.cybernode.ai/lcd/)
 
-+ [cyberd\.websocket](wss://titan.cybernode.ai/websocket)
++ [cyberd_websocket](wss://titan.cybernode.ai/websocket)
 
 ## Cosmos endpoints
 
@@ -14,7 +14,7 @@
 
 + [LCD](https://deimos.cybernode.ai/gaia_lcd/)
 
-+ [cosmos\.donation\.websocket](wss://deimos.cybernode.ai/)
++ [cosmos_donation_websocket](wss://deimos.cybernode.ai/)
 
 ## Ethereum mainnet parity
 
