@@ -26,7 +26,7 @@ We have gifted 10% of the total supply, broken down as per the following:
 - ETH hodlers with at least 1 outgoing transaction (non-contract addresses only). And a balance bigger than 0.2 ETH at block 
 8080808 
 - ATOM hodlers within Cosmos hub-2 at block 1110000 which held any balance bigger than 0
-- URBIT
+- URBIT aliens that had planets, stars or galaxies on the 18.12.2019 (with at least one outgoint tx on the corresponding ETH address) 
 
 Please note that ATOM and ETH gifts were distributed proportionally to the square root of each account balance during the snapshots.
 
@@ -54,8 +54,14 @@ Simply export your ETH / ATOM account address and use one of the options above
 You do not need to. If you were lucky enough to receive a gift, they are yours already! Cyber addresses can be generated from a Cosmos seed or an ETH private key. This means that if you received a gift, just create an address and it will already have a balance! 
 
 ### How to create a cyber address?
+This isn't the most trivial question for now. There are several ways to do so: 
+- One way is to use your Ledger with [cyber.page](https://cyber.page/#/pocket)(for ATOM only) 
+- The other one is to install [cyberdCLI](https://github.com/cybercongress/cyberd/releases) and create an address (this requires technical skills
+- You can use [cyb~Virus](https://github.com/cybercongress/cyb-virus/releases), the chrome extension. However, this is highly unrecommended right now, as it is very unsafe to use!
+- You may wait until we create a wallet on [cyber.page](https://cyber.page/#/), it will then become possible to create an address from there
 
 ### Will the gift burn if I don't take it now?
+Simply put - no. You don't need to worry about this as long as cyber is alive and you have the keys to claim the gift.
 
 ### So, I've received a gift. What can I do with it now? 
 Start playing [The Game](https://cybercongress.ai/game-of-links/)! By playing you can receive more tokens! The Game of Links
@@ -84,6 +90,9 @@ EUL is the testnet name of CYB. When the mainnet launches, all EUL tokens will b
 
 FYI GOL is the test name for THC (the governance token).
 
+**Important** Euler-5 is a testnet with a different total supply to the cyber mainnet. The supply in the mainnet is larger,
+hence due to change of supply and due to the results of the Game of Links, balances may and will change. Of course, proportions to total supply are kept between the networks. 
+
 ### I know that you have two tokens. Can I get the second one?
 There are no gifts for THC (the governance token) planned for now. You can wait until the start of [cyber~Auction]
 (https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyberauction) and participate to 
@@ -95,6 +104,9 @@ Please refrain from entering your seed / private key anywhere. This is not safe!
 
 It is a good practice to transfer any balance you have out of an address after you have claimed a gift. I.E. if I claimed
 a git using my ETH address and had a balance on that address. It might be a good idea to move that balance out to a new address for extra security.
+
+### Are there any other way to get EUL tokens?
+We will create faucets soon. You may also use Kira's [TG bot](https://t.me/fuckgoogle).
 
 ### Why do I need to take the gift?
 First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have,
