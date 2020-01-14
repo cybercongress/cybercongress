@@ -25,7 +25,10 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 
 ---------------------------------
 
-## What is cyber?
+## What is cyber (the simple answer)?
+Cyber is a decentrlaized Google, for provable and relevant answers. 
+
+## What is cyber (a detailed answer)?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
 Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information.
