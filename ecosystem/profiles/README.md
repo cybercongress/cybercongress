@@ -52,3 +52,7 @@ Our main channel is and will remain our GitHub, backed by our website and (for n
 - [Aragon wiki](https://wiki.aragon.org/about/projects/)
 
 - [Bits Media](https://forum.bits.media/index.php?/topic/160286-cyberlike-google-but-cyber-tendermint-a-distributed-supercomputer-for-answers/)
+
+- [Tendermint Awesome list](https://github.com/tendermint/awesome)
+
+- [DeGoogle tools](https://github.com/tycrek/degoogle)
