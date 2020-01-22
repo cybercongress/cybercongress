@@ -97,3 +97,14 @@ TODO:
 - Deployed and configured monitoring/alerting system for cybercongress backend based on [Grafana](https://github.com/grafana/grafana) and [Prometheus](https://github.com/prometheus/prometheus).
 
 - Created and tested docker setup of [Brain](https://github.com/cybercongress/brain)
+
+## litvintech
+
+1. Upgraded contracts and enchanced frontend of [cyber~Vesting](github.com/cybercongress/aragon-auction-app) Aragon application.
+2. Enchanced frontend of [cyber~Auction](github.com/cybercongress/aragon-auction-app) Aragon application.
+3. Implemented initial version of vesting companion which will send EUL/CYB (cyber) for vested GOL/THC (ethereum) tokens with proofs. Will be published in [launch-kit](https://github.com/cybercongress/launch-kit/) this week.
+4. Tweaked [Juno](https://github.com/fissionlabsio/juno/) to index cyber chain for GOL monitor.
+5. One more repetition of test•Foundation ceremony with @xhipster. New record time!
+6. Discussed cybergraph project with @belya.
+7. Meeting on GOL monitor with @savetheales.
+8. Collaboration with @dimakorzhovnik on inplementation of Vesting app in cyber applicaton.
