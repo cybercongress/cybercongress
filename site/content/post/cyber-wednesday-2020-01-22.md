@@ -38,3 +38,14 @@ Thanks to [TodayInCosomos](https://twitter.com/adriana_kalpa) we have become qui
 
 Considering this report oversees a few weeks of work over the holiday seasons, I might have missed some information and already completed tasks. But hopefully, this draws the larger picture, which shows that we are concentrated on specific TA for the moment:
 validators, cosmos awareness and awareness in specifically targeted communities. 
+
+## @savetheales
+Done:
+
+- Developed backend for cyber.page euler-5 gift checker as IPLD structure
+- Provided concept for gift conversion on mongodb and flaks stack.
+- Provided concept for the Game of Links personal and overall monitors with current won balances. 
+- Continued to research backend stack for the game monitors.
+
+TODO: 
+- Backend for the game monitors with websockets.   
