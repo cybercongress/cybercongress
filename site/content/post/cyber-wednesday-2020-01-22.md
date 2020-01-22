@@ -21,7 +21,9 @@ Last week, we outlined a [new set of guidelines](https://github.com/cybercongres
 ## Cyber bi-weekly report 2020.01.22
 
 ### @serejandmyself
+
 DONE:
+
 - Published several articles in crypto-related media (hackernoon, publish0x, bitcoinews and others)
 - Created a [topic for mentions](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild-any-links-that-mention-cyber-cyb-etc-are-a-fair-game/40) on the forum. Filled it with content
 - Given several interviews (seen in the list)
@@ -43,23 +45,29 @@ DONE:
 - Talked with several players in the Cosmos ecosystem to gain awareness for cyber
 
 TODO:
+
 - Carry on work on forums, chats, SM, validators, partnerships 
 - Submit to forklog hub, work with other media
 - Carry on work on tasks according to the main [ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
 
 
 ### @savetheales
+
 DONE:
+
 - Developed backend for cyber.page euler-5 gift checker as IPLD structure
 - Provided concept for gift conversion on mongodb and flaks stack
 - Provided concept for the Game of Links personal and overall monitors with currently won balances
 - Continued to research backend stack for game monitors 
 
 TODO:
+
 - Backend for the game monitors with WebSockets.   
 
 ### @xhipster
+
 DONE:
+
 - Some advancement on [gift checker](https://cyber.page/#/search/0x002F9CaF40a444f20813DA783D152bdfAF42852F) feature. While everybody can now check their balance, expect better agent experience in the release. Cool thing is that balances loads from ipfs hash using IPLD selectors
 - [Catching errors](https://github.com/cybercongress/dot-cyber/issues?q=is%3Aopen+is%3Aissue+label%3Aerror) in https://cyber.page based in the feedback
 - A lot of minor improvements on faucets
@@ -69,24 +77,31 @@ DONE:
 - Some collaboration with @savethealse on the Game of Links monitor
 
 TODO:
+
 - Next week Ceremony and [next dot-cyber release](https://github.com/cybercongress/dot-cyber/projects/3) are in focus
 
 ### @dimakorzhovnik
-DONE<br> 
+
+DONE
+
 added features:
+
 - Gift lookup [#124](https://github.com/cybercongress/dot-cyber/issues/124)
 - Vesting page [#110](https://github.com/cybercongress/dot-cyber/issues/110)
 
 bugs fixed:
+
 - Remove check for metamask on brain [#131](https://github.com/cybercongress/dot-cyber/issues/131)
 - Display error while linking 2 times [#132](https://github.com/cybercongress/dot-cyber/issues/132)
 
 update page:
+
 - Test of Thrones [#107](https://github.com/cybercongress/dot-cyber/issues/107)(16/20)
 - Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/issues/70)(7/11)
 - Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
 
 TODO: 
+
 - Test of Thrones [#107](https://github.com/cybercongress/dot-cyber/issues/107)(16/20)
 - Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/issues/70)(7/11)
 - Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
@@ -97,13 +112,17 @@ TODO:
 - Bandwidth do not decrease [#128](https://github.com/cybercongress/dot-cyber/issues/128)
 
 ### @mrlp4
+
 DONE:
+
 - In collaboration with @xhipster and some other team members created a roadmap for deploying safe and redundant infrastructure for serving all cyber-related services.
 - Deployed and configured monitoring/alerting system for cybercongress backend based on [Grafana](https://github.com/grafana/grafana) and [Prometheus](https://github.com/prometheus/prometheus).
 - Created and tested docker setup of [Brain](https://github.com/cybercongress/brain)
 
 ### @litvintech
+
 DONE:
+
 - Upgraded contracts and enhanced frontend of [cyber~Vesting](github.com/cybercongress/aragon-auction-app) Aragon application
 - Enhanced the frontend of [cyber~Auction](github.com/cybercongress/aragon-auction-app) Aragon application
 - Implemented the initial version of the vesting companion which will send EUL/CYB (cyber) for vested GOL/THC (Ethereum) tokens with proofs. Will be published in [launch-kit](https://github.com/cybercongress/launch-kit/) this week
@@ -114,8 +133,11 @@ DONE:
 - Collaboration with @dimakorzhovnik on the implementation of Vesting app into cyber application
 
 ### @aha203
-DONE:  
+
+DONE: 
+
 - Defined the scope of work for infrastructure and formalized the infrastructure improvement road map. Visualized and decomposed projects of Cyber ecosystem by their stack of technology. 
 
 TODO: 
+
 - Research of hosting provider services to improve infrastructure resistance and disaster recovery. 
