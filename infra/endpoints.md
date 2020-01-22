@@ -22,7 +22,8 @@
 
 ## Ethereum rinkeby geth
 
-+ [API](http://herzner1.cybernode.ai:8545)
++ [API](https://herzner1.cybernode.ai/geth/)
++ [WS](wss://herzner1.cybernode.ai/gethws/)
 
 ## IPFS cluster
 
