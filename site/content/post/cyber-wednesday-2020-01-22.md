@@ -101,7 +101,7 @@ TODO:
 7. Meeting on GOL monitor with @savetheales
 8. Collaboration with @dimakorzhovnik on the implementation of Vesting app into cyber application
 
-## @aha203
+### @aha203
 DONE:  
 Defined the scope of work for infrastructure and formalized the infrastructure improvement road map. Visualized and decomposed projects of Cyber ecosystem by their stack of technology. 
 
