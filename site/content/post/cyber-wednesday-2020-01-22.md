@@ -61,3 +61,31 @@ TODO:
 7. Some collaboration with @savethealse on the Game of Links monitor.
 
 Next week Ceremony and [next dot-cyber release](https://github.com/cybercongress/dot-cyber/projects/3) is in focus
+
+## @dimakorzhovnik
+
+Done issues:
+
+added features:
+- Gift lookup [#124](https://github.com/cybercongress/dot-cyber/issues/124)
+- Vesting page [#110](https://github.com/cybercongress/dot-cyber/issues/110)
+
+bugs fixed :
+- Remove check for metamask on brain [#131](https://github.com/cybercongress/dot-cyber/issues/131)
+- Display error while linking 2 times [#132](https://github.com/cybercongress/dot-cyber/issues/132)
+
+update page:
+- Test of Thrones [#107](https://github.com/cybercongress/dot-cyber/issues/107)(16/20)
+- Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/issues/70)(7/11)
+- Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
+
+TODO: 
+
+- Test of Thrones [#107](https://github.com/cybercongress/dot-cyber/issues/107)(16/20)
+- Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/issues/70)(7/11)
+- Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
+- Transaction page [#108](https://github.com/cybercongress/dot-cyber/issues/108)
+- Account page [#109](https://github.com/cybercongress/dot-cyber/issues/109)
+- No search path if search from main page [#130](https://github.com/cybercongress/dot-cyber/issues/130)
+- Fix intro [#129](https://github.com/cybercongress/dot-cyber/issues/129)
+- Bandwidth do not decrease [#128](https://github.com/cybercongress/dot-cyber/issues/128)
