@@ -98,13 +98,10 @@ TODO:
 
 - Created and tested docker setup of [Brain](https://github.com/cybercongress/brain)
 
-## litvintech
+## Aha203
 
-1. Upgraded contracts and enchanced frontend of [cyber~Vesting](github.com/cybercongress/aragon-auction-app) Aragon application.
-2. Enchanced frontend of [cyber~Auction](github.com/cybercongress/aragon-auction-app) Aragon application.
-3. Implemented initial version of vesting companion which will send EUL/CYB (cyber) for vested GOL/THC (ethereum) tokens with proofs. Will be published in [launch-kit](https://github.com/cybercongress/launch-kit/) this week.
-4. Tweaked [Juno](https://github.com/fissionlabsio/juno/) to index cyber chain for GOL monitor.
-5. One more repetition of test•Foundation ceremony with @xhipster. New record time!
-6. Discussed cybergraph project with @belya.
-7. Meeting on GOL monitor with @savetheales.
-8. Collaboration with @dimakorzhovnik on inplementation of Vesting app in cyber applicaton.
+DONE  
+Defined infrastructure scope of work and formalized infrastructure improvement road map. Visualized and decomposed projects in Cyber ecosystem by their stack of technology. 
+
+TO DO: 
+Research of hosting provider services to improve infrastructure resistance and disaster recovery. 
