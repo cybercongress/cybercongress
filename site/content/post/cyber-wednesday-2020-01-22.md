@@ -20,7 +20,7 @@ Last week, we outlined a [new set of guidelines](https://github.com/cybercongres
 
 ## Cyber bi-weekly report 2020.01.22
 
-### [ecosystem](https://github.com/cybercongress) (serejandmyself)
+### @serejandmyself
 Over the past few weeks, we have been publishing quite a lot of content in several crypto-related media channels. Those include
 hackernoon, publish0x, bitcoinews and others. A topic for mentions of cyber has been created and I would appreciate it if
 anyone that sees cyber mentioned out in the wild hits that topic with a reply. Remember that any topic is a fair game. You can see
@@ -36,36 +36,31 @@ The [ELI-5 FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/
 
 Thanks to [TodayInCosomos](https://twitter.com/adriana_kalpa) we have become quite a regular mention on the agenda, this can be seen on Twitter. We will be grateful for reposts and comments from the community. I have submitted [several PR's](https://github.com/serejandmyself) to list cyber on different GitHub repos that might have our TA on them, and websites like [cryptomiso](https://www.cryptomiso.com/). We are in talks with several partners across the cosmos ecosystem that might help us to make our presence more established.
 
-Considering this report oversees a few weeks of work over the holiday seasons, I might have missed some information and already completed tasks. But hopefully, this draws the larger picture, which shows that we are concentrated on specific TA for the moment:
-validators, cosmos awareness and awareness in specifically targeted communities.
+Considering this report oversees a few weeks of work over the holiday seasons, I might have missed some information and already completed tasks. But hopefully, this draws the larger picture, which shows that we are concentrated on specific TA for the moment: validators, cosmos awareness and awareness in specifically targeted communities. More on [ecosystem](https://github.com/cybercongress).  
 
-## @savetheales
-Done:
-
+### @savetheales
+DONE:
 - Developed backend for cyber.page euler-5 gift checker as IPLD structure
-- Provided concept for gift conversion on mongodb and flaks stack.
-- Provided concept for the Game of Links personal and overall monitors with current won balances.
-- Continued to research backend stack for the game monitors.
+- Provided concept for gift conversion on mongodb and flaks stack
+- Provided concept for the Game of Links personal and overall monitors with currently won balances
+- Continued to research backend stack for game monitors 
 
 TODO:
-- Backend for the game monitors with websockets.   
+- Backend for the game monitors with WebSockets.   
 
-## @xhipster
-
-1. Some advancement on [gift checker](https://cyber.page/#/search/0x002F9CaF40a444f20813DA783D152bdfAF42852F) feature. While everybody can now check their balance, expect better agent experience in the release. Cool thing is that balances loads from ipfs hash using ipld selectors.
+### @xhipster
+1. Some advancement on [gift checker](https://cyber.page/#/search/0x002F9CaF40a444f20813DA783D152bdfAF42852F) feature. While everybody can now check their balance, expect better agent experience in the release. Cool thing is that balances loads from ipfs hash using IPLD selectors
 2. [Catching errors](https://github.com/cybercongress/dot-cyber/issues?q=is%3Aopen+is%3Aissue+label%3Aerror) in https://cyber.page based in the feedback
 3. A lot of minor improvements on faucets
-4. One more repetition of test•Foundation ceremony with @litvintech
-5. Improvement of development workflow. Now we work with pull request only.
+4. One more repetition of test~Foundation ceremony with @litvintech
+5. Improvement of workflow development. Now we work with pull request only
 6. Research of [Metamask](https://github.com/MetaMask/metamask-extension) and [in3](https://in3.readthedocs.io/en/develop/getting_started.html) codebase for better Cyb architecture
-7. Some collaboration with @savethealse on the Game of Links monitor.
+7. Some collaboration with @savethealse on the Game of Links monitor
 
-Next week Ceremony and [next dot-cyber release](https://github.com/cybercongress/dot-cyber/projects/3) is in focus
+Next week Ceremony and [next dot-cyber release](https://github.com/cybercongress/dot-cyber/projects/3) are in focus
 
-## @dimakorzhovnik
-
-Done issues:
-
+### @dimakorzhovnik
+DONE issues:
 added features:
 - Gift lookup [#124](https://github.com/cybercongress/dot-cyber/issues/124)
 - Vesting page [#110](https://github.com/cybercongress/dot-cyber/issues/110)
@@ -80,7 +75,6 @@ update page:
 - Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
 
 TODO: 
-
 - Test of Thrones [#107](https://github.com/cybercongress/dot-cyber/issues/107)(16/20)
 - Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/issues/70)(7/11)
 - Auction page [#117](https://github.com/cybercongress/dot-cyber/issues/117)(1/3)
@@ -90,18 +84,26 @@ TODO:
 - Fix intro [#129](https://github.com/cybercongress/dot-cyber/issues/129)
 - Bandwidth do not decrease [#128](https://github.com/cybercongress/dot-cyber/issues/128)
 
-## @mrlp4
-
-- In collaboration with @xhipster and some other team members created roadmap for deploying safe and redundand infrastructure for serving all cyber-related services.
+### @mrlp4
+- In collaboration with @xhipster and some other team members created a roadmap for deploying safe and redundant infrastructure for serving all cyber-related services.
 
 - Deployed and configured monitoring/alerting system for cybercongress backend based on [Grafana](https://github.com/grafana/grafana) and [Prometheus](https://github.com/prometheus/prometheus).
 
 - Created and tested docker setup of [Brain](https://github.com/cybercongress/brain)
 
-## Aha203
+### @litvintech
+1. Upgraded contracts and enhanced frontend of [cyber~Vesting](github.com/cybercongress/aragon-auction-app) Aragon application
+2. Enhanced the frontend of [cyber~Auction](github.com/cybercongress/aragon-auction-app) Aragon application
+3. Implemented the initial version of the vesting companion which will send EUL/CYB (cyber) for vested GOL/THC (Ethereum) tokens with proofs. Will be published in [launch-kit](https://github.com/cybercongress/launch-kit/) this week
+4. Tweaked [Juno](https://github.com/fissionlabsio/juno/) to index cyber chain for GOL monitor
+5. One more repetition of test~Foundation ceremony with @xhipster. New record time!
+6. Discussed cybergraph project with @belya
+7. Meeting on GOL monitor with @savetheales
+8. Collaboration with @dimakorzhovnik on the implementation of Vesting app into cyber application
 
-DONE  
-Defined infrastructure scope of work and formalized infrastructure improvement road map. Visualized and decomposed projects in Cyber ecosystem by their stack of technology. 
+## @aha203
+DONE:  
+Defined the scope of work for infrastructure and formalized the infrastructure improvement road map. Visualized and decomposed projects of Cyber ecosystem by their stack of technology. 
 
-TO DO: 
+TODO: 
 Research of hosting provider services to improve infrastructure resistance and disaster recovery. 
