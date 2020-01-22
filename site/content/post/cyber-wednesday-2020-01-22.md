@@ -89,3 +89,11 @@ TODO:
 - No search path if search from main page [#130](https://github.com/cybercongress/dot-cyber/issues/130)
 - Fix intro [#129](https://github.com/cybercongress/dot-cyber/issues/129)
 - Bandwidth do not decrease [#128](https://github.com/cybercongress/dot-cyber/issues/128)
+
+## @mrlp4
+
+- In collaboration with @xhipster and some other team members created roadmap for deploying safe and redundand infrastructure for serving all cyber-related services.
+
+- Deployed and configured monitoring/alerting system for cybercongress backend based on [Grafana](https://github.com/grafana/grafana) and [Prometheus](https://github.com/prometheus/prometheus).
+
+- Created and tested docker setup of [Brain](https://github.com/cybercongress/brain)
