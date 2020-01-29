@@ -54,7 +54,7 @@ Let's take a look at 3 possible examples: <br>
 
 There are NO guidelines or rules for the program itself. Do what you believe will work. 
 
-However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out a *public* GitHub PR template, which will act as an application form. It contains the following questions:
+However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out a *public* GitHub issue template, which will act as an application form. It contains the following questions:
 - Your nick (no need to submit your name) (MUST match the nick on the form!)
 - The group you want to participate in 
 - Your ATOM address
@@ -66,9 +66,9 @@ However, to minimize malicious behaviour we must accept participants manually! W
 - In which year was google founded?
 - A link to your GitHub account if you have one
 
-Please, submit your PR [here](https://github.com/cybercongress/congress/pulls), usign [this]() template!
+Please, submit your issue [here](https://github.com/cybercongress/congress/issues), usign the referral program template!
 
-You should **only start this if you have been manually approved by us**. We will notify you. Other than this, a merged PR with the above details into the repo means an approval. All other submissions will be disqualified. 
+You should **only start this if you have been manually approved by us**. We will notify you. ~~Other than this, a merged PR with the above details into the repo means an approval.~~ All other submissions will be disqualified. 
 
 You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your nick in the memo field. The nick should be the same as was submitted in the PR, otherwise, we will not be able to identify you! This part is vital!
 
