@@ -17,15 +17,14 @@ The donation round in ATOM lasts for either 90 days or until 600k ATOM has been 
 **The program**
 
 Our goal is for the game to succeed. 
-1) For the sake of the distribution and the development of the protocol 
-2) To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
+- For the sake of the distribution and the development of the protocol 
+- To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
 
-To achieve our goals we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. 
+To achieve our goals we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. To achieve this we will offer 2 types of rewards:
+- 10% fix in ATOM for each referred transactions
+- A **possible** extra in CYB tokens via proposals from the community pool
 
-To achieve this we will offer 2 types of rewards to each of the groups described in the table below.
-1) 10% fix in ATOM for each referred transactions
-2) A **possible** add-on in CYB tokens via proposals from the community pool
-
+We outline the following groups for participating in the program:
 
 |GROUP TYPE | % of REWARD | DESCRIPTION |
 |:----------|:-------------:|:------|
@@ -51,7 +50,7 @@ Let's take a look at 3 possible examples: <br>
 
 There are NO guidelines or rules for the program itself. Do what you believe will work. 
 
-However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with malicious behaviour and scam, hence, we ask all interested participants to fill out a *public* GitHub issue template, which will act as an application form. It contains the following questions:
+However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with malicious behaviour and scam, hence, we ask all interested participants to fill out a *public* GitHub issue template, which will act as an application form. The form contains the following questions:
 - Your nick (no need to submit your name) (MUST match the nick on the form!)
 - The group you want to participate in 
 - Your public ATOM address
@@ -65,7 +64,7 @@ However, to minimize malicious behaviour we must accept participants manually! W
 
 Please, submit your issue [here](https://github.com/cybercongress/congress/issues), using the referral program template!
 
-You should **only start this if you have been manually approved by us**. We will notify you. Other than this, a merged issue, into the [parterhip table](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/referral%20program%20parterns.md), with the above details means an approval. All other submissions will be disqualified. 
+You should **only start if you have been manually approved by us**. We will notify you. Other than this, a merged issue, into the [parterhip table](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/referral%20program%20parterns.md), with the above details means an approval. All other submissions will be disqualified. 
 
 You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your ATOM address in the memo field. The address should be the same as was submitted in the issue, otherwise, we will not be able to identify you! This part is vital!
 
