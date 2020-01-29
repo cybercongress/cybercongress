@@ -13,7 +13,7 @@ about: Participate in the referral program
 - [ ] I am agreeing to this information being public
 - [ ] I have answered all the questions below
 
-## Questions:
+## Answers:
 <!--- For each question below, delete the symbols and the question itself and insert your answer instead -->
 
 - <!--- Your nick (no need to submit your name) (MUST match the nick on the form!) (wallets and exploresrs can use the name 
