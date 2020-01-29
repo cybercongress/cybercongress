@@ -17,8 +17,8 @@ The donation round in ATOM lasts for either 90 days or until 600k ATOM has been 
 **The program**
 
 Our goal is for the game to succeed. 
-A) For the sake of the distribution and the development of the protocol 
-B) To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
+1) For the sake of the distribution and the development of the protocol 
+2) To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
 
 To achieve this we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. 
 
