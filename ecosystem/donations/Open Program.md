@@ -54,33 +54,23 @@ Let's take a look at 3 possible examples: <br>
 
 There are NO guidelines or rules for the program itself. Do what you believe will work. 
 
-However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out an application form, which we will process manually. And, as a second layer filter, to submit a pull request to [our GitHub](https://github.com/cybercongress). 
-
-This is [the link to the form](https://forms.gle/m5yrKYAxbJ5mLzTs6), it contains the following questions:
-- Your nick 
+However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out a *public* GitHub PR template, which will act as an application form. It contains the following questions:
+- Your nick (no need to submit your name) (MUST match the nick on the form!)
 - The group you want to participate in 
 - Your ATOM address
-- Some kind of contact
-- A link to your website/blog/explorer, etc
-- Your target audience
+- Some kind of contact (Keybase/Telegram, etc)
+- A link to your website/blog/explorer/wallet, etc
+- Your target audience and its size
 - Your prefered crypto projects
 - How many pages are in the cyber WP?
-- What is the Resource Credit model in cyber?
+- In which year was google founded?
 - A link to your GitHub account if you have one
 
-**After you fill in the form, please kindly wait for our reply!** 
-
-**After we contact you, you will have to submit a pull request [here](https://github.com/cybercongress/congress/pulls)** 
-
-The pull request must contain the following information:
-- Your nick (no need to submit your name) (MUST match the nick on the form!)
-- Any possible public contact info (Keybase/Telegram, etc)
-- A link to your website/blog/youtube/wallet, etc
-- An answer to the following question: In which year was google founded?
+Please, submit your PR [here](https://github.com/cybercongress/congress/pulls), usign [this]() template!
 
 You should **only start this if you have been manually approved by us**. We will notify you. Other than this, a merged PR with the above details into the repo means an approval. All other submissions will be disqualified. 
 
-You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your nick in the memo field. The nick should be the same as was submitted in the form and the PR, otherwise, we will not be able to identify you! This part is vital!
+You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your nick in the memo field. The nick should be the same as was submitted in the PR, otherwise, we will not be able to identify you! This part is vital!
 
 You may, of course, think of any other possible ways to identify yourself, but please make sure you run the idea through us first, as we will need to think of technical implementation. 
 
