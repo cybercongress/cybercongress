@@ -40,14 +40,14 @@ more to those categories.
 
 **How does all of this work?**
 
-Very simple. Dependent on the group above, you get **a % in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your nick**. 
+Very simple. Dependent on the group above, you get **a % in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your ATOM address**. 
 
 You decide how and what to do to achieve this. We believe this will help healthy competition between the participants of the program. 
 
 Let's take a look at 3 possible examples: <br>
 *(Please note, that those are mere examples - you decide how to participate)*
 - A Cosmos explorer decided to participate. It puts out banners from cyber, integrates cyber to reference to its network stats, and finally, adds an option to connect a Ledger device to donate ATOMs. The explorer will have to add a memo field, so we will be able to identify where the transaction came from  
-- A Telegram channel decides that it wants to participate. It adds a pinned message and periodically posts links to information about cyber, avoiding being annoying to its public. Here the channel administrators will have to decide how to convince each donator to put their group name in the memo
+- A Telegram channel decides that it wants to participate. It adds a pinned message and periodically posts links to information about cyber, avoiding being annoying to its public. Here the channel administrators will have to decide how to convince each donator to put their group name in the memo. E.G. Offer chargebacks
 - A Youtuber decided to participate. He makes a video about cyber. Possibly take some interviews with members about what cyber does and why. It is once again, up to him, to decided how to convince participants to put the name of his channel in the memo
 
 **Any guidelines or rules?**
@@ -56,9 +56,10 @@ There are NO guidelines or rules for the program itself. Do what you believe wil
 
 However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out an application form, which we will process manually. And, as a second layer filter, to submit a pull request to [our GitHub](https://github.com/cybercongress). 
 
-This is [the link to the form](https://forms.gle/VpqxS71qjqTNegPr8), it contains the following questions:
+This is [the link to the form](https://forms.gle/m5yrKYAxbJ5mLzTs6), it contains the following questions:
 - Your nick 
 - The group you want to participate in 
+- Your ATOM address
 - Some kind of contact
 - A link to your website/blog/explorer, etc
 - Your target audience
