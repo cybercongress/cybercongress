@@ -20,27 +20,24 @@ Our goal is for the game to succeed.
 1) For the sake of the distribution and the development of the protocol 
 2) To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
 
-To achieve this we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. 
+To achieve our goals we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. 
 
-To do this, we want to stay as open as possible about the rules, but we must outline some guidelines to minimize the risk of the unwanted negative influence of malicious behaviour. 
-
-We want to offer X% from each donation made via a specific category of those who help us. Below is a table of the types of possible participants and the amount of allocated % to that category:
+To achieve this we will offer 2 types of rewards to each of the groups described in the table below.
+1) 10% fix in ATOM for each referred transactions
+2) A **possible** add-on in CYB tokens via proposals from the community pool
 
 
 |GROUP TYPE | % of REWARD | DESCRIPTION |
 |:----------|:-------------:|:------|
-| ATOM Wallets | 7.5% | Onchain wallets that are able to transfer ATOM tokens (i.e. [Cosmostation](https://wallet.cosmostation.io/)) |
-| ATOM explorers | 7.5% | Websites that give reference about cosmos-related transactions, validators, etc (i.e. [The Big Dipper](https://cosmos.bigdipper.live/)) |
-| Bloggers | 5% | Any type of bloggers with an audience. Youtubers, writers on Medium or hackernoon, etc |
-| DR | 5% | Donation relations. People who are in offline contact with donators who wish to participate in the donation round |
-| Crypto channels | 5% | Telegram or other social network groups, with a crypto-related audience, are a game |
-
-We believe that wallets and explorers can help us to reach both of our goals rather efficiently, hence, we consciously allocate 
-more to those categories.
+| ATOM Wallets | 10% | Onchain wallets that are able to transfer ATOM tokens (i.e. [Cosmostation](https://wallet.cosmostation.io/)) |
+| ATOM explorers | 10% | Websites that give reference about cosmos-related transactions, validators, etc (i.e. [The Big Dipper](https://cosmos.bigdipper.live/)) |
+| Bloggers | 10% | Any type of bloggers with an audience. Youtubers, writers on Medium or hackernoon, etc |
+| DR | 10% | Donation relations. People who are in offline contact with donators who wish to participate in the donation round |
+| Crypto channels | 10% | Telegram or other social network groups, with a crypto-related audience, are a game |
 
 **How does all of this work?**
 
-Very simple. Dependent on the group above, you get **a % in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your ATOM address**. 
+**For each referral you will get 10% in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your ATOM address**. 
 
 You decide how and what to do to achieve this. We believe this will help healthy competition between the participants of the program. 
 
@@ -54,10 +51,10 @@ Let's take a look at 3 possible examples: <br>
 
 There are NO guidelines or rules for the program itself. Do what you believe will work. 
 
-However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with scam, hence we ask all interested parties to fill out a *public* GitHub issue template, which will act as an application form. It contains the following questions:
+However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with malicious behaviour and scam, hence, we ask all interested participants to fill out a *public* GitHub issue template, which will act as an application form. It contains the following questions:
 - Your nick (no need to submit your name) (MUST match the nick on the form!)
 - The group you want to participate in 
-- Your ATOM address
+- Your public ATOM address
 - Some kind of contact (Keybase/Telegram, etc)
 - A link to your website/blog/explorer/wallet, etc
 - Your target audience and its size
@@ -66,11 +63,11 @@ However, to minimize malicious behaviour we must accept participants manually! W
 - In which year was google founded?
 - A link to your GitHub account if you have one
 
-Please, submit your issue [here](https://github.com/cybercongress/congress/issues), usign the referral program template!
+Please, submit your issue [here](https://github.com/cybercongress/congress/issues), using the referral program template!
 
-You should **only start this if you have been manually approved by us**. We will notify you. ~~Other than this, a merged PR with the above details into the repo means an approval.~~ All other submissions will be disqualified. 
+You should **only start this if you have been manually approved by us**. We will notify you. Other than this, a merged issue, into the [parterhip table](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/referral%20program%20parterns.md), with the above details means an approval. All other submissions will be disqualified. 
 
-You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your nick in the memo field. The nick should be the same as was submitted in the PR, otherwise, we will not be able to identify you! This part is vital!
+You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your ATOM address in the memo field. The address should be the same as was submitted in the issue, otherwise, we will not be able to identify you! This part is vital!
 
 You may, of course, think of any other possible ways to identify yourself, but please make sure you run the idea through us first, as we will need to think of technical implementation. 
 
