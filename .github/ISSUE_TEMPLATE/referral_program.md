@@ -4,7 +4,7 @@ about: Participate in the referral program
 
 ---
 
-# Issue template for the [open referral program](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/Open%20Program.md) 
+<!--- The open referral program can be found [here](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/Open%20Program.md) --> 
 <!--- Please fill in the following information and remember that it is public -->
 <!--- A merged PR into the repository means an approval -->
 
