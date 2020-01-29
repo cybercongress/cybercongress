@@ -1,4 +1,10 @@
-# A PR template for the [open referral program](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/Open%20Program.md) 
+---
+name: Referral Program 
+about: Participate in the referral program
+
+---
+
+# Issue template for the [open referral program](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/Open%20Program.md) 
 <!--- Please fill in the following information and remember that it is public -->
 <!--- A merged PR into the repository means an approval -->
 
