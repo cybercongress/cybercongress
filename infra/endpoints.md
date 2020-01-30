@@ -18,7 +18,8 @@
 
 ## Ethereum mainnet parity
 
-+ [API](http://titan.cybernode.ai:38645)
++ [API](http://callisto.cybernode.ai/geth/)
++ [WS](wss://callisto.cybernode.ai/gethws/)
 
 ## Ethereum rinkeby geth
 
