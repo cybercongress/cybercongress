@@ -15,7 +15,7 @@ This folder will be dedicated to the #fuckgoogle validator, discussing Cosmos go
 - [Why did we launch #fuckgoogle](https://forum.cosmos.network/t/we-have-launched-our-cosmos-fuckgoogle-validator-join-us-and-stake-our-reasons-for-doing-so-included/3060)
 
 ### A table with voted on proposals (with links to reasoning):
-- 
+- [Already voted on proposals](https://github.com/cybercongress/congress/blob/master/ecosystem/cosmos/Already%20voted%20on%20Cosmos%20governance%20proposals.md)
 
 ### A table of future proposals:
 -
