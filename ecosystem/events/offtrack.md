@@ -8,9 +8,10 @@ and basically everything that is not on-chain.
 |------|------|----------------|
 | Online news | Ongoing | Cosmos Today commitment |
 | Social netwroking | Ongoing | NA |
-| Online interview | Planned | crypto emcee Rom |
+| Online interview | Ongoing | crypto emcee Rom |
+| Online interview | Dec 2019 | Monero Talk |
 | Online podcast | Planned | BB |
-| Online news | Planned | Forklog |
+| Online news | Ongoing | Forklog HUB |
 | Offline interview | 24/11/19 | UT Interview | 
 | Offline event | 08/11/19 | Tezos event |
 | Offline event | 14/11/19 | PostGov event |
