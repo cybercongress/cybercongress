@@ -18,7 +18,7 @@ This folder will be dedicated to the #fuckgoogle validator, discussing Cosmos go
 - [Already voted on proposals](https://github.com/cybercongress/congress/blob/master/ecosystem/cosmos/Already%20voted%20on%20Cosmos%20governance%20proposals.md)
 
 ### A table of future proposals:
--
+- [Future Cosmos governance proposals](https://github.com/cybercongress/congress/blob/master/ecosystem/cosmos/Future%20Cosmos%20proposals.md)
 
 If you want to discuss any of this, simply [open an issue](https://github.com/cybercongress/congress/issues) in this repo.
 
