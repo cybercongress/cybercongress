@@ -31,7 +31,7 @@ setting up a cyber node and infrastructure
 - You can [use your Ledger device](https://cybercongress.ai/docs/cyberd/validator_launch_with_tendermintkms_and_ledger/) to do this
 - Here is [the CLI command list](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/) to take care of your hero
 - Cyber really likes [hardware wallets](https://cybercongress.ai/docs/cyberd/cyberd_ledger_guide/)
-- [Pocket the Ledger](https://cyber.page/#/pocket) and use it to play and sign tx
+- [Pocket a Ledger](https://cyber.page/#/pocket) and use it to play and sign tx
 - If you're unsure how to use [cyber.page](https://cyber.page/), check out [this guide](https://discuss.ipfs.io/t/cyber-page-inter-planetary-search-app-for-web3/7049/2)
 
 ### Can you explain all of this in a paragraph?
