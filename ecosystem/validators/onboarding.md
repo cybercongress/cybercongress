@@ -10,6 +10,7 @@ If you feel comfortable with setting up validators, familiar with what we do alr
 setting up a cyber node and infrastructure
 - How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/cyberd/run_validator/)
 - The rules to [the Game of Links](https://cybercongress.ai/game-of-links/) (the current incentivized testnet)
+- Validators can bootstrap initial fuel [via faucets](https://t.me/InterchainWalletBot), [the Game of Links](https://cybercongress.ai/game-of-links/) and [the gift](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
 
 ### For everything else... 
 If you don't feel like you're sure about what cyber does, what validators do or if you do, but need some additional info - it's below. Regardless of whether you are a professional validator, a miner or just starting up.
@@ -19,7 +20,7 @@ Or just search for [your address here](https://cyber.page/#/search/0x742d35cc663
 - You probably want to know the [economic breakdown](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md#distribution-params)
 - If you are still uncertain about the distribution, check out [the White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
 - The tesntet is incentivized. Read about [the Game of Links](https://cybercongress.ai/game-of-links/) and its distribution
-- Or just [watch this video](https://www.youtube.com/watch?v=mcCn_-GMO_k) 
+- Or just [watch this video](https://www.youtube.com/watch?v=mcCn_-GMO_k)
 - **You are now ready to become a cyber hero and build `The Great Web`**
 - An A-Z [video instruction](https://www.youtube.com/watch?v=AMUatLPfNJM&list=PLOcP3DXQoNUUYQpGYh8cdRKfmXtFLEF0o&index=1) for 
 setting up a cyber node and infrastructure
