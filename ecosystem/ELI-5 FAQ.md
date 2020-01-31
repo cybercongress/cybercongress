@@ -29,9 +29,9 @@ Cyber is a decentrlaized google, for provable and relevant answers.
 ## What is cyber (a detailed answer)?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
-Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information.
+Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google. 
 
-Different types of users create links between 2 IPFS hashes (keep on reading to see what this is) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... knowledge.  
+Users create links between 2 IPFS hashes (keep on reading to see what this is) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... knowledge.  
 
 That content is then dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress).
 
