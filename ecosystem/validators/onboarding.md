@@ -1,7 +1,7 @@
 # This is as an onboarding point for cyber validators
 
 ### The mission
-Cyber is a decentralized google. Its mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and [cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-cyberlinks), and (b) decentralise the infrastructure of search with the help of blockchain.
+Cyber is a decentralized google. Its mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and [cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-cyberlinks), and (b) decentralize the infrastructure of the web with the help of blockchain
 
 ### The short track
 If you don't want to read the whole doc and know what and why you are doing this, simply follow this guide:
