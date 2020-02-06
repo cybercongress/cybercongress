@@ -51,101 +51,164 @@ If you have any suggestions or want to help to make this guide, simply [sumbit a
 Comsonouts do not become who they are if the initail training isn't done properly. In this section, you will find out about some basic terminology that you will need to understnad cyber, and dive right into some of the its basics. Including the history of cyber, how it works, how to use it and our philosophy.
 
 ### Technical questions in plain terms
-**Q:** What are distributed technologies? <br>
-**A:** Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
+**Click on the below questions to expand the answers!**
+<details>
+  <summary> What are distributed technologies? </summary>
+Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
+</details>
 
-**Q:** What is a consensus computer? <br>
-**A:** A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose).
-
-**Q:** What's a hash? <br>
-**A:** A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
+<details>
+  <summary>What is a consensus computer?</summary>
+A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose).
+  </details>
+  
+<details>
+  <summary> What's a hash? </summary>
+A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
 I.E a sha256 hash of `cyber` is: `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb`. 
+</details>
 
-**Q:** What is a Merkle tree? <br>
-**A:** A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
+<details>
+  <summary> What is a Merkle tree?</summary>
+A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
+</details>
 
-**Q:** What is a blockchain? <br>
-**A:** A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
+<details>
+  <summary>What is a blockchain? </summary>
+A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
+</details>
 
-**Q:** What is a transaction? <br>
-**A:** In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+<details>
+  <summary>What is a transaction? </summary>
+In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+</details>
 
-**Q:** What's a token? <br>
-**A:** A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
+<details>
+  <summary>What's a token? </summary>
+A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
+</details>
 
-**Q:** What is NFT? <br>
-**A:** NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history. 
+<details>
+  <summary>What is NFT? </summary>
+NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history.
+</details>
 
-**Q:** What's bandwidth? <br>
-**A:** Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another. <br> 
+<details>
+  <summary>What's bandwidth? </summary>
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another. <br> 
 In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
+</details>
 
-**Q:** What is Sybil resistance? <br>
-**A:** Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
+<details>
+  <summary>What is Sybil resistance? </summary>
+Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
+</details>
 
-**Q:** What is BFT? <br>
-**A:** BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+<details>
+  <summary>What is BFT? </summary>
+FT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+</details>
 
-**Q:** What is POS? <br>
-**A:** Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+<details>
+  <summary> What is POS? </summary>
+Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+</details>
 
-**Q:** What is staking? <br>
-**A:** Staking is the process of "locking" your tokens to receive rewards.
+<details>
+  <summary> What is staking?</summary>
+Staking is the process of "locking" your tokens to receive rewards.
+</details>
 
-**Q:** What is the purpose of staking? <br>
-**A:** The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
+<details>
+  <summary>What is the purpose of staking?  </summary>
+The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
+</details>
 
-**Q:** Who or what are validators? <br>
-**A:** The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+<details>
+  <summary>Who or what are validators? </summary>
+The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+</details>
 
-**Q:** What or who is a delegator? <br>
-**A:** Delegators are uses that delegate their tokens to validators to participate in receiving staking rewards. For this validators might charge commission. 
+<details>
+  <summary>What or who is a delegator? </summary>
+Delegators are uses that delegate their tokens to validators to participate in receiving staking rewards. For this validators might charge commission. 
+</details>
 
-**Q:** What are smart contracts? <br>
-**A:** Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
+<details>
+  <summary>What are smart contracts? </summary>
+Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
+</details>
 
-**Q:** What is a VM? <br>
-**A:** A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
+<details>
+  <summary>What is a VM? </summary>
+A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
+</details>
 
-**Q:** What are knowledge graphs? <br>
-**A:** Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to google). 
+<details>
+  <summary>What are knowledge graphs? </summary>
+Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to google). 
+</details>
 
-**Q:** What's PageRank? <br>
-**A:** It is one of the algorithms used by google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
+<details>
+  <summary>What's PageRank? </summary>
+It is one of the algorithms used by google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
+</details>
 
-**Q:** What is web3? <br>
-**A:** Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web.<br>
+<details>
+  <summary>What is web3? </summary>
+Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web.<br>
 Often, you might notice the term `Great Web` in our documents. For us, The Great Web is a much better-suited name for the more common term `web3`.
+</details>
 
-**Q:** What is IPFS? <br>
-**A:** IPFS is a peer-to-peer (directly connected between two users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread across high volumes of data and keeps every version of your files. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable or if you may - everlasting.<br> 
+<details>
+  <summary>What is IPFS?  </summary>
+IPFS is a peer-to-peer (directly connected between two users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread across high volumes of data and keeps every version of your files. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable or if you may - everlasting.<br> 
 IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications, etc. 
+</details>
 
-**Q:** What's governance? <br>
-**A:** Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
+<details>
+  <summary>What's governance? </summary>
+Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
+</details>
 
-**Q:** What is a DAO? <br>
-**A:** A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
+<details>
+  <summary>What is a DAO? </summary>
+A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
+</details>
 
-**Q:** What's Aragon? <br>
-**A:** Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
+<details>
+  <summary>What's Aragon? </summary>
+Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
+</details>
 
-**Q:** What are prediction markets? <br>
-**A:** Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
 
-**Q:** What's an entity?  <br>
-**A:** An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
+<details>
+  <summary>What are prediction markets? </summary>
+Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
+</details>
 
-**Q:** What's a foundation? <br>
-**A:** When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
+<details>
+  <summary>What's an entity?  </summary>
+An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
+</details>
 
-**Q:** What's a congress? <br>
-**A:** Congress can be a group of people picked by others to make challenging decisions. 
+<details>
+  <summary>What's a foundation? </summary>
+When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
+</details>
 
-**Q:** What is a hardware wallet in terms of crypto? <br>
-**A:** There are numerous ways to store your cryptocurrency (tokens). There are hot wallets. A hot wallet is one with access to the internet. There are two categories. One is when you own your private key (the good way) and in the other - is when you don't own your private key. For example, if you keep your tokens on an exchange (that's a bad way - do not do this!). You should always remember one simple rule: `Not your keys - not your crypto!`<br> 
+<details>
+  <summary>What's a congress? </summary>
+Congress can be a group of people picked by others to make challenging decisions. 
+</details>
+
+<details>
+  <summary>What is a hardware wallet in terms of crypto?  </summary>
+There are numerous ways to store your cryptocurrency (tokens). There are hot wallets. A hot wallet is one with access to the internet. There are two categories. One is when you own your private key (the good way) and in the other - is when you don't own your private key. For example, if you keep your tokens on an exchange (that's a bad way - do not do this!). You should always remember one simple rule: `Not your keys - not your crypto!`<br> 
 There are cold wallets. Which are pretty safe if are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net).<br> 
 Finally, there are hardware wallets (they can also be hot or cold). A hardware wallet is a small digital device which requires physical access to make a transaction. Usually, they come in the form of a slightly bigger than your typical USB stick which you can connect to your PC and you need to press buttons physically on the device to do anything.  Of course, this drastically increases security, even if the device is considered hot. 
+</details>
+
 
 ### Introduction
 - What is cyber
@@ -328,5 +391,4 @@ And this is it. It is submitted and awaits our review. You may and should [open 
 - [Video guides](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos)
 
 ------------------------------------------------------
-
 [![End-of-Google.jpg](https://i.postimg.cc/QNB70gtn/End-of-Google.jpg)](https://postimg.cc/NLcL0HR1)
