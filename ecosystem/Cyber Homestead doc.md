@@ -13,6 +13,7 @@ This section contains the basic things you will need for your cyber journey. Fin
 0.1: Mercury
 
 #### Content
+------------------------------------------------------
 - [Section subtitle: Preperation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-preperation)
 - [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
 - [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
@@ -20,9 +21,18 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 - [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-ground-floor)
 ------------------------------------------------------
+- [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
+------------------------------------------------------
+- [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
+------------------------------------------------------
+- [Section subtitle: `Huston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
+------------------------------------------------------
+- [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
+------------------------------------------------------
 - [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-landing-completed)
 - [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
 - [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#links)
+------------------------------------------------------
 
 #### How to use this guide
 Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about.
