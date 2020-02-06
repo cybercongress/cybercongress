@@ -51,7 +51,7 @@ If you have any suggestions or want to help to make this guide, simply [sumbit a
 Comsonouts do not become who they are if the initail training isn't done properly. In this section, you will find out about some basic terminology that you will need to understnad cyber, and dive right into some of the its basics. Including the history of cyber, how it works, how to use it and our philosophy.
 
 ### Technical questions in plain terms
-**Click on the below questions to expand the answers!**
+Click on the below questions to expand the answer:
 <details>
   <summary> What are distributed technologies? </summary>
 Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
@@ -95,7 +95,7 @@ NFT are non-fungible tokens. Meaning that they are tokens of one type, but each 
 
 <details>
   <summary>What's bandwidth? </summary>
-Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another. <br> 
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another.<br>
 In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
 </details>
 
