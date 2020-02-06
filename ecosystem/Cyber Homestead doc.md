@@ -20,6 +20,12 @@ This section contains the basic things you will need for your cyber journey. Fin
 - [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
 ------------------------------------------------------
 - [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fuelpump-section-subtitle-ground-floor)
+- [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
+- [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
+- [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
+- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-basics)
+- [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
+- [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybercongress-the-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
 ------------------------------------------------------
@@ -141,22 +147,63 @@ IPFS helps to further distribute the web amongst peers (users). It enables const
 There are cold wallets. Which are pretty safe if are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net).<br> 
 Finally, there are hardware wallets (they can also be hot or cold). A hardware wallet is a small digital device which requires physical access to make a transaction. Usually, they come in the form of a slightly bigger than your typical USB stick which you can connect to your PC and you need to press buttons physically on the device to do anything.  Of course, this drastically increases security, even if the device is considered hot. 
 
-#### Introduction
+### Introduction
 - What is cyber
 - What is a relevance machine 
 - What is the Great Web and new gen search-engines
 - How does cyber work
 
-#### The history of cyber
+### The history of cyber
 - Inception
 - Cyber search
 - cyber~Congress
 
-#### Using cyber: basics
+### Using cyber: The very basics
 
-#### The philopophy behind cyber
+### The philopophy behind cyber
+To understand cyber one first needs to understand its philosophy. Our work isn't simply technical. We base our work on our values. If it wasn't for them, we were not be building cyber. To be completely open about our intentions, I will jump into the story of the team behind cyber, and how values are our core driver. The core team knows each other for several years and has worked together previously. At one point, a few years ago we separated our ways, only to realize that whatever we do, we do not share values of others, hence, bringing the team back together.
 
-#### cyber~Congress the DAO and its role
+What do we believe in? Firstly we believe in freedom, privacy and decentralization. We share and propagate the vision of improving this world. We believe that evil stands behind a centralized, bureaucratic approach to technology, governance, communication protocols (money), etc.
+
+We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. With that in mind, what we are trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
+
+**Q:** What problem are you trying to solve? <br>
+**A:** We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age). 
+
+**Q:** Why are you doing this? <br>
+**A:** Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
+
+**Q:** What's wrong with google? <br>
+**A:** google is a brilliant idea. We do not deny this. But google is the rebel that has overthrown the dictator and became the dictator itself. google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, google doesn't care for anyone and will make money on your action and your behalf.<br>
+It should be noted, that by this question I am attempting not just at google, but at all the mega-digital corporations. Feel free to check out what this can lead to in the shape of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this case is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "break" society.
+
+**Q:** Why now? <br>
+**A:** Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
+
+**Q:** Why search? <br>
+**A:** Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
+
+**Q:** Aren't there other, more important problems to solve? <br>
+**A:** There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.
+
+**Q:** Aren't there other things out there that solve this? <br>
+**A:** There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
+
+**Q:** How can users/developers/others benefit from using such a system in comparison to google, etc? <br>
+<img src="https://i.postimg.cc/7hX2GbQC/cyber.png" />
+
+**Q:** Why do you need consensus within Cyber? <br>
+**A:** A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+
+**Q:** What is your take on: privacy/censorship/routing? <br>
+**A:** We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol.<br>
+We are strongly discouraged by any censorship and view it as a sin against any living and/or thinking organism.<br> 
+Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
+
+**Q:** Do you not think that the motto #fuckgoogle is offensive? <br>
+**A:** Fuck no! Fucking is not for pain, it's for pleasure!
+
+### The cyber~Congress DAO and its role
 
 ## :computer: Section subtitle: Prepare for take-off
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
