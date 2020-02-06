@@ -23,11 +23,11 @@ This section contains the basic things you will need for your cyber journey. Fin
 - [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
 - [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
 - [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
-- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
 - [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
 - [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
+- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
 ------------------------------------------------------
@@ -329,16 +329,16 @@ Fuck no! Fucking is not for pain, it's for pleasure!
 </details>
 
 ### The cyber~Congress DAO and its role
-You already learned about the inception of cyber~Congress. If you missed it, catch the videos of the birth of the original cyber~Congress [here](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos).
+You already learned about the inception of cyber~ Congress. If you missed it, catch the videos of the birth of the original cyber~Congress [here](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos).
 
-cyber~Congress was set up as a DAO. The initial intentions of cyber~Congress can be found [in this document:`the evolution of species`](https://github.com/cybercongress/congress/blob/master/README.md). Today that manifest is still being worked on and is still in development. 
+cyber ~Congress was set up as a DAO. The initial intentions of cyber ~Congress can be found [in this document:`the evolution of species`](https://github.com/cybercongress/congress/blob/master/README.md). Today that manifest is still being worked on and is still in development. 
 
 cyber~Congress helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens.
 
 As of today, cyber~Congress is a 2/2 DAO for decision making and a 2/3 DAO in terms of security. However, it should be noted, that some decisions are already wider diversified as the whole team that works on the DAO takes part in most of the decision. In the future, we hope this will become automatized and the DAO will grow. 
 
 There are 3 points on which we should touch when discussing cyber~Congress:
-1) cyber~Congress is the launching DAO behind cyber. For its work, a 14.3% share of the governing token, THC, is allocated to cyber~Congress. This share will be staked during cyber~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
+1) cyber~ Congress is the launching DAO behind cyber. For its work, a 14.3% share of the governing token, THC, is allocated to cyber~Congress. This share will be staked during cyber ~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
 
 2) The manifest outlies the idea that all species should (and will) have an equal opportunity for secure and transparent communication. Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. The main mission of cyber~Congress is `To help the evolution of species!`
 
