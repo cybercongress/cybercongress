@@ -258,6 +258,7 @@ Search is a global mechanism that is globally understood by everyone, regardless
 <details>
   <summary>Aren't there other, more important problems to solve? </summary>
 There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.  
+  </details>
   
 <details>
   <summary>Aren't there other things out there that solve this? </summary>
