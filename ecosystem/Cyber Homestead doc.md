@@ -33,6 +33,7 @@ If you have any suggestions or want to help to make this guide, simply [sumbit a
 
 ## :fuelpump: Section subtitle: Ground floor
 Comsonouts cannot become who they are if the initail training isnt done correctly. In this section you will find out about some basic terminology that you will need to understnad cyber and dive right into some of the basics, including the history of cyber, how it works, how to use it and our philosophy
+
 #### Technical questions in plain terms
 
 #### Introduction
@@ -52,7 +53,12 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 
 #### cyber~Congress the DAO and its role
 
+## :computer: Section subtitle: Prepare for take-off
+This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
+
 #### cyber Entities / cyber~Projects
+
+#### IPFS / Cosmos / Tendermint
 
 #### Community
 - Ecosystem
@@ -64,6 +70,8 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 - Meetups
 - Ambassadors
 
+#### Partenring communities
+
 #### Launch proccess
 - FAQ
 - Distribution games
@@ -73,15 +81,16 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 
 #### Validating cyber
 
-#### IPFS / Cosmos / Tendermint
-
-#### Partenring communities
+## :moneybag: Section subtitle: Beep, beep, beep...
+You can't save the galaxy unless you have the right resources for it. This section will teach you about cybernomics, CYB, THC and will touch again on the distribution and its future impact on the project.
 
 #### Cybernomics
 - tokens and utility
 - transactions
 
 #### CYB and THC
+
+## :rocket: Section subtitle: `Huston` we (don't) have a problem
 
 #### How does cyber work
 - connecting to cyber
@@ -95,6 +104,8 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 #### Subculture
 
 #### Technical guides
+
+## :milky_way: Section subtitle: Colonization
 
 #### Other questions (tor, google, yacy, etc) 
 
