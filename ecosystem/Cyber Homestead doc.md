@@ -1,5 +1,11 @@
 **WORK IN PROGRESS**
 
+# Cyber homestead documentation
+
+<p>
+  <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
+</p>
+
 ### Release version
 0.1: Mercury
 #### Content
