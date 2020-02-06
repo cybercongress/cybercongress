@@ -23,9 +23,9 @@ This section contains the basic things you will need for your cyber journey. Fin
 - [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
 - [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
 - [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
-- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-basics)
+- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
 - [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
-- [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybercongress-the-dao-and-its-role)
+- [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
 ------------------------------------------------------
@@ -205,14 +205,16 @@ Routing should be always permitted. Transactions should always be permitted to p
 
 ### The cyber~Congress DAO and its role
 
+------------------------------------------------------
+
 ## :computer: Section subtitle: Prepare for take-off
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
-#### cyber Entities / cyber~Projects
+### cyber Entities / cyber~Projects
 
-#### IPFS / Cosmos / Tendermint
+### IPFS / Cosmos / Tendermint
 
-#### Community
+### Community
 - Ecosystem
 - Public profiles
 - Blog
@@ -222,53 +224,61 @@ This section will get you acquainted with all the bits and bobs there are to cyb
 - Meetups
 - Ambassadors
 
-#### Partenring communities
+### Partenring communities
 
-#### Launch proccess
+### Launch proccess
 - FAQ
 - Distribution games
 - Launch kit
 
-#### Gift
+### Gift
 
-#### Validating cyber
+### Validating cyber
+
+------------------------------------------------------
 
 ## :moneybag: Section subtitle: Beep, beep, beep...
 You can't save the galaxy unless you have the right resources for it. This section will teach you about cybernomics, CYB, THC and will touch again on the distribution and its future impact on the project.
 
-#### Cybernomics
+### Cybernomics
 - tokens and utility
 - transactions
 
-#### CYB and THC
+### CYB and THC
+
+------------------------------------------------------
 
 ## :rocket: Section subtitle: `Huston` we (don't) have a problem
 
-#### How does cyber work
+### How does cyber work
 - connecting to cyber
 - clients
 - account managment
 
-#### Hardware
+### Hardware
 
-#### Governance
+### Governance
 
-#### Subculture
+### Subculture
 
-#### Technical guides
+### Technical guides
+
+------------------------------------------------------
 
 ## :milky_way: Section subtitle: Colonization
 
-#### Other questions (tor, google, yacy, etc) 
+### Other questions (tor, google, yacy, etc) 
 
-#### FAQ
+### FAQ
 
-#### Glossary
+### Glossary
+
+------------------------------------------------------
 
 ## :fireworks: Section subtitle: Landing completed
 **Congratulations!** You are now a cyber~Cosmonaut and a have all the tools that you need to build the `Great Web`! We salute you for completing this journey. Help us to improve by learning how to submit a PR and find more links that will help you to survive out in the wild.
 
-#### Improving this document
+### Improving this document
 We welcome and eagerly await new builders to help us prepare our spaceships for take-off. Its never been as easy, just do it - [sumbit a pull request with an improvement!](https://github.com/cybercongress/congress/pulls)
 A pull request is essentially a way to contribute to any open-source project on GitHub. Whilst we are not planning to teach you how to use GitHub, we strongly advise you to learn how to use both git and GitHub. It is fairly easy and simple and will be a great tool for you to add to your skills. Check out [this free guide](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). Please note, that to submit a PR, you don't need to read over it, it's even simpler than you might think. 
 
@@ -300,7 +310,7 @@ On the page find the [congress repositry](https://github.com/cybercongress/congr
 
 And this is it. It is submitted and awaits our review. You may and should [open an issue](https://github.com/cybercongress/congress/issues) to speed up and accompany the process.
 
-#### Links
+### Links
 - [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
 - [cyber.page](https://cyber.page/)
 - [cyberd releases](https://github.com/cybercongress/cyberd/releases)
@@ -317,7 +327,6 @@ And this is it. It is submitted and awaits our review. You may and should [open 
 - [Twitter](https://twitter.com/cyber_devs)
 - [Video guides](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos)
 
+------------------------------------------------------
 
-
-
-
+[![End-of-Google.jpg](https://i.postimg.cc/QNB70gtn/End-of-Google.jpg)](https://postimg.cc/NLcL0HR1)
