@@ -6,7 +6,7 @@
   <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
 </p>
 
-## Section subtitle: Preperation
+## :ticket: Section subtitle: Preperation
 This section contains the basic things you will need for your cyber journey. Find out how to use this guide, how to help it evolve and what awaits ahead.
 
 #### Release version
@@ -31,7 +31,7 @@ The guide is, currently, made by the [cyber~Congress team](https://cybercongress
 
 If you have any suggestions or want to help to make this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
 
-## Section subtitle: Ground floor
+## :fuelpump: Section subtitle: Ground floor
 Comsonouts cannot become who they are if the initail training isnt done correctly. In this section you will find out about some basic terminology that you will need to understnad cyber and dive right into some of the basics, including the history of cyber, how it works, how to use it and our philosophy
 #### Technical questions in plain terms
 
@@ -102,7 +102,7 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 
 #### Glossary
 
-## Section subtitle: Landing completed
+## :fireworks: Section subtitle: Landing completed
 **Congratulations!** You are now a cyber~Cosmonaut and a have all the tools that you need to build the `Great Web`! We salute you for completing this journey. Help us to improve by learning how to submit a PR and find more links that will help you to survive out in the wild.
 
 #### Improving this document
