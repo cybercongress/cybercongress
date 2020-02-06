@@ -181,7 +181,6 @@ A DAO is a decentralised autonomous organisation. It is a unity of users that mu
 Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
 </details>
 
-
 <details>
   <summary>What are prediction markets? </summary>
 Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
@@ -208,7 +207,6 @@ There are numerous ways to store your cryptocurrency (tokens). There are hot wal
 There are cold wallets. Which are pretty safe if are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net).<br> 
 Finally, there are hardware wallets (they can also be hot or cold). A hardware wallet is a small digital device which requires physical access to make a transaction. Usually, they come in the form of a slightly bigger than your typical USB stick which you can connect to your PC and you need to press buttons physically on the device to do anything.  Of course, this drastically increases security, even if the device is considered hot. 
 </details>
-
 
 ### Introduction
 - What is cyber
