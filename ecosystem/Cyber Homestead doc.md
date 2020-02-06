@@ -15,29 +15,40 @@ This section contains the basic things you will need for your cyber journey. Fin
 ### Content
 ------------------------------------------------------
 - [Section subtitle: Preperation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ticket-section-subtitle-preperation)
-- [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
-- [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
-- [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
+  * [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
+  * [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
+  * [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
 ------------------------------------------------------
 - [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fuelpump-section-subtitle-ground-floor)
-- [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
-- [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
-- [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
-- [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
-- [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
+  * [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
+  * [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
+  * [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
+  * [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
+  * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
-- [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
+  * [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
+  * etc...
+------------------------------------------------------
+- [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
+  * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
+  * etc...
 ------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
+  * etc...
+------------------------------------------------------
+- [Section subtitle: The deep space](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#pill-section-subtitle-the-deep-space)
+  * [The evolution of spicies](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-evolution-of-spicices)
+  * etc...
 ------------------------------------------------------
 - [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
+  * etc...
 ------------------------------------------------------
 - [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fireworks-section-subtitle-landing-completed)
-- [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
-- [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#links)
+  * [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
+  * [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#links)
 ------------------------------------------------------
 
 ### How to use this guide
