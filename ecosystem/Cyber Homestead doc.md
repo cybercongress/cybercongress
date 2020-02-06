@@ -3,9 +3,9 @@
 ### Release version
 0.1: Mercury
 #### Content
-- [Release version]()
-- [Content]()
-- [How to use this guide]()
+- [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
+- [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
+- [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
 #### How to use this guide
 Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about.
 
