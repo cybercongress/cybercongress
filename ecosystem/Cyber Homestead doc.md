@@ -1,8 +1,18 @@
 **WORK IN PROGRESS**
 
-Content
-How to use this guide
-Release verion
+### Release version
+0.1: Mercury
+#### Content
+- [Release version]()
+- [Content]()
+- [How to use this guide]()
+#### How to use this guide
+Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about.
+
+The guide is, currently, made by the [cyber~Congress team](https://cybercongress.ai/). Its meant to be a knowledge database for everything that there is to know about the beast cyber is. 
+
+If you have any suggestions or want to help to make this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
+
 
 Level 0
 - Technical questions in plain terms (non cyber-related)
