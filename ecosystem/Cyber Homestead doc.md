@@ -239,6 +239,13 @@ When a user creates a cyberlink, he expresses the will to do so by backing this 
 
 Cyber uses Merkle trees to build proofs for the submitted links, creating a provable and auditable chain of information down to the root. The more agents inquire the knowledge graph, the more valuable the knowledge becomes. Based on this, the relevance between cyberlinks can be computed. Via querying and delivering answers in such fashion, a simple mechanism is constructed - the relevance machine. 
 
+**Q:** Why cyber? <br> 
+**A:** We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years.
+
+Actually, cyber refers to anything that is very smart. The meaning is rooted from the word cybernetics (check out this article on Wikipedia) - a science which describes the behaviour of dynamic systems with feedback loops.
+
+In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
+
 ### The history of cyber
 The idea of cyber was incepted in late 2016. The original white paper was written by [@xhipster](https://github.com/xhipster) while still working with cyber·Fund. In 2017 a team of engineers began working on developing the project, that was then called cyber·Search. 
 
@@ -253,8 +260,6 @@ The idea grew bigger and bigger until at one point it became what it is today. c
 The current white paper took 3 years of work to complete. The team that stands behind cyber changed pretty much altogether, but the original idea of making a universal and an intelligent search still stands (*hint: you can see the current team [here](https://github.com/cybercongress/congress/blob/master/teams/cybercongress.toml)*). 
 
 The idea of cyber is still developing. But today it's not raw anymore. Today cyber has a clear vision of abolishing the chains of digital slavery through decentralizing the semantics of the web and its services.  
-
-### Using cyber: The very basics
 
 ### The philopophy behind cyber
 To understand cyber one first needs to understand its philosophy. Our work isn't simply technical. We base our work on our values. If it wasn't for them, we were not be building cyber. To be completely open about our intentions, I will jump into the story of the team behind cyber, and how values are our core driver. The core team knows each other for several years and has worked together previously. At one point, a few years ago we separated our ways, only to realize that whatever we do, we do not share values of others, hence, bringing the team back together.
@@ -324,18 +329,34 @@ Fuck no! Fucking is not for pain, it's for pleasure!
 </details>
 
 ### The cyber~Congress DAO and its role
+You already learned about the inception of cyber~Congress. If you missed it, catch the videos of the birth of the original cyber~Congress [here](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos).
+
+cyber~Congress was set up as a DAO. The initial intentions of cyber~Congress can be found [in this document:`the evolution of species`](https://github.com/cybercongress/congress/blob/master/README.md). Today that manifest is still being worked on and is still in development. 
+
+cyber~Congress helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens.
+
+As of today, cyber~Congress is a 2/2 DAO for decision making and a 2/3 DAO in terms of security. However, it should be noted, that some decisions are already wider diversified as the whole team that works on the DAO takes part in most of the decision. In the future, we hope this will become automatized and the DAO will grow. 
+
+There are 3 points on which we should touch when discussing cyber~Congress:
+1) cyber~Congress is the launching DAO behind cyber. For its work, a 14.3% share of the governing token, THC, is allocated to cyber~Congress. This share will be staked during cyber~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
+
+2) The manifest outlies the idea that all species should (and will) have an equal opportunity for secure and transparent communication. Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. The main mission of cyber~Congress is `To help the evolution of species!`
+
+3) cyber~Congress as a DAO plans on developing cyber, taking part in the governance, launching `cyber~FundClassic`, an ecosystem development fund, that will help cyber to evolve (*hint: further in the document, a whole section is dedicated to the description of the ecosystem*), form strategic partnerships and buidl applications. The DAO plans to stake the received ATOM tokens from the first donation round to its Cosmos [fuckgoogle validator](https://cosmos.bigdipper.live/validator/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u), and support the incentives of the team via the received rewards. The DAO also plans to have a sustainable income flow, described in [this issue](https://github.com/cybercongress/congress/issues/302).
 
 ------------------------------------------------------
 
 ## :computer: Section subtitle: Prepare for take-off
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
-### cyber Entities / cyber~Projects
+### Using cyber: The very basics
 
 ### IPFS / Cosmos / Tendermint
 
-### Community
-- Ecosystem
+### cyber Entities / cyber~Projects
+
+### Ecosystem
+- Community
 - Public profiles
 - Blog
 - Website
@@ -351,9 +372,16 @@ This section will get you acquainted with all the bits and bobs there are to cyb
 - Distribution games
 - Launch kit
 
-### Gift
+------------------------------------------------------
+
+## :nut_and_bolt: Section subtitle: Mama I'm an enginner
 
 ### Validating cyber
+- validator guides
+- video
+- CLI
+- ledger
+- infrustructure set-up
 
 ------------------------------------------------------
 
@@ -366,9 +394,13 @@ You can't save the galaxy unless you have the right resources for it. This secti
 
 ### CYB and THC
 
+(Distribution games, further plans)
+
+### Gift
+
 ------------------------------------------------------
 
-## :rocket: Section subtitle: `Huston` we (don't) have a problem
+## :rocket: Section subtitle: `Houston` we (don't) have a problem
 
 ### How does cyber work
 - connecting to cyber
@@ -382,6 +414,18 @@ You can't save the galaxy unless you have the right resources for it. This secti
 ### Subculture
 
 ### Technical guides
+
+
+------------------------------------------------------
+
+## :pill: Section subtitle: The deep space
+
+### The evolution of spicices
+- research
+- plans
+- crazy thigns
+
+### Usecases
 
 ------------------------------------------------------
 
