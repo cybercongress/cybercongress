@@ -51,7 +51,7 @@ If you have any suggestions or want to help to make this guide, simply [sumbit a
 Comsonouts do not become who they are if the initail training isn't done properly. In this section, you will find out about some basic terminology that you will need to understnad cyber, and dive right into some of the its basics. Including the history of cyber, how it works, how to use it and our philosophy.
 
 ### Technical questions in plain terms
-Click on the below questions to expand the answer:
+*Click on the below questions to expand the answer:*
 <details>
   <summary> What are distributed technologies? </summary>
 Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
@@ -228,7 +228,8 @@ What do we believe in? Firstly we believe in freedom, privacy and decentralizati
 
 We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. With that in mind, what we are trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
 
-Q&A on the philophy behind cyber:
+*Q&A on the philophy behind cyber:*
+
 <details>
   <summary>What problem are you trying to solve? </summary>
 We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age).
