@@ -14,12 +14,12 @@ This section contains the basic things you will need for your cyber journey. Fin
 
 #### Content
 ------------------------------------------------------
-- [Section subtitle: Preperation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-preperation)
+- [Section subtitle: Preperation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ticket-section-subtitle-preperation)
 - [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
 - [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
 - [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
 ------------------------------------------------------
-- [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-ground-floor)
+- [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fuelpump-section-subtitle-ground-floor)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
 ------------------------------------------------------
@@ -29,7 +29,7 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 - [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
 ------------------------------------------------------
-- [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-landing-completed)
+- [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fireworks-section-subtitle-landing-completed)
 - [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
 - [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#links)
 ------------------------------------------------------
