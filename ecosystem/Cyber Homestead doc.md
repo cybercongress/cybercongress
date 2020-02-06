@@ -230,41 +230,63 @@ What do we believe in? Firstly we believe in freedom, privacy and decentralizati
 
 We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. With that in mind, what we are trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
 
-**Q:** What problem are you trying to solve? <br>
-**A:** We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age). 
+Q&A on the philophy behind cyber:
+<details>
+  <summary>What problem are you trying to solve? </summary>
+We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age).
+</details>
 
-**Q:** Why are you doing this? <br>
-**A:** Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
+<details>
+  <summary>Why are you doing this?  </summary>
+Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
+</details>
 
-**Q:** What's wrong with google? <br>
-**A:** google is a brilliant idea. We do not deny this. But google is the rebel that has overthrown the dictator and became the dictator itself. google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, google doesn't care for anyone and will make money on your action and your behalf.<br>
+<details>
+  <summary>What's wrong with google?  </summary>
+google is a brilliant idea. We do not deny this. But google is the rebel that has overthrown the dictator and became the dictator itself. google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, google doesn't care for anyone and will make money on your action and your behalf.<br>
 It should be noted, that by this question I am attempting not just at google, but at all the mega-digital corporations. Feel free to check out what this can lead to in the shape of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this case is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "break" society.
+</details>
 
-**Q:** Why now? <br>
-**A:** Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
+<details>
+  <summary>Why now? </summary>
+Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
+</details>
 
-**Q:** Why search? <br>
-**A:** Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
+<details>
+  <summary>Why search? </summary>
+Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
+</details>
 
-**Q:** Aren't there other, more important problems to solve? <br>
-**A:** There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.
+<details>
+  <summary>Aren't there other, more important problems to solve? </summary>
+There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.  
+  
+<details>
+  <summary>Aren't there other things out there that solve this? </summary>
+There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
+</details>
 
-**Q:** Aren't there other things out there that solve this? <br>
-**A:** There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
-
-**Q:** How can users/developers/others benefit from using such a system in comparison to google, etc? <br>
+<details>
+  <summary>How can users/developers/others benefit from using such a system in comparison to google, etc?  </summary>
 <img src="https://i.postimg.cc/7hX2GbQC/cyber.png" />
+</details>
 
-**Q:** Why do you need consensus within Cyber? <br>
-**A:** A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+<details>
+  <summary>Why do you need consensus within Cyber? </summary>
+A consensus is required for nodes to agree on the current state of the ledger at any given point of time. This is needed to achieve security, transparency, immutability and decentralization. 
+</details>
 
-**Q:** What is your take on: privacy/censorship/routing? <br>
-**A:** We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol.<br>
+<details>
+  <summary>What is your take on: privacy/censorship/routing? </summary>
+We believe that privacy should be a fundamental right. As of now, the protocol is pseudo-private (just like Bitcoin is). I.E. you know which hash linked something and with what weight, but you don't know the real name of the user. With that, we are planning to implement full privacy into the protocol.<br>
 We are strongly discouraged by any censorship and view it as a sin against any living and/or thinking organism.<br> 
 Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
+</details>
 
-**Q:** Do you not think that the motto #fuckgoogle is offensive? <br>
-**A:** Fuck no! Fucking is not for pain, it's for pleasure!
+<details>
+  <summary>Do you not think that the motto #fuckgoogle is offensive? </summary>
+Fuck no! Fucking is not for pain, it's for pleasure!
+</details>
 
 ### The cyber~Congress DAO and its role
 
