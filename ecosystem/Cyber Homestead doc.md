@@ -209,15 +209,50 @@ Finally, there are hardware wallets (they can also be hot or cold). A hardware w
 </details>
 
 ### Introduction
-- What is cyber
-- What is a relevance machine 
-- What is the Great Web and new gen search-engines
-- How does cyber work
+**Q:** What is cyber? <br>
+**A:** Cyber is a decentrlaized google, for provable and relevant answers.
+
+**Q:** What is the main mission of cyber? <br>
+**A:** Its mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and (b) decentralize the infrastructure of the web with the help of blockchain
+
+**Q:** What cyber is NOT? <br>
+**A:** Cyber is NOT a commercial product. It is not a product as such. It is an instrument if you wish or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
+Cyber is NOT the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the new Great Web and the services it has to offer.
+
+**Q:** How does cyber work? <br>
+**A:** Cyber is, essentially, creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google.
+
+Users create links between 2 IPFS hashes (*hint: essentially, an IPFS hash is just a representation of some data*) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... *knowledge*.
+
+That content is then dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress).
+
+All this is computed (determined with the help of a computer) by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards).
+
+This allows to search data on the web, rank it, query it (look it up) and create knowledge databases without blackbox intermediaries (third parties that try to censor data, hide or push specific results to obtain money, track your data, etc).
+
+The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result. We will go in-detail further down the document into those. For example: unified semantics, SEO instruments, autonomous robots, and a lot more.
+
+**Q:** What is a relevance machine? <br>
+**A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
+
+When a user creates a cyberlink, he expresses the will to do so by backing this cyberlink with some weight in CYB tokens. In other words, the user submits to the knowledge graph what is important for him. The meaning extraction for knowledge in the case of cyber is incentivized. The submitted cyberlinks are dynamically ranked and project relevance to those who submitted them. 
+
+Cyber uses Merkle trees to build proofs for the submitted links, creating a provable and auditable chain of information down to the root. The more agents inquire the knowledge graph, the more valuable the knowledge becomes. Based on this, the relevance between cyberlinks can be computed. Via querying and delivering answers in such fashion, a simple mechanism is constructed - the relevance machine. 
 
 ### The history of cyber
-- Inception
-- Cyber search
-- cyber~Congress
+The idea of cyber was incepted in late 2016. The original white paper was written by [@xhipster](https://github.com/xhipster) while still working with cyber·Fund. In 2017 a team of engineers began working on developing the project, that was then called cyber·Search. 
+
+The idea behind cyber·Search was to create a blockchain agnostic explorer, that would enable anyone to search for any metadata within any blockchain. We have a small [retro landing page](https://cybercongress.github.io/cyber-search/) left from those days. 
+
+After some time the team behind cyber·Search left and cyber~Congress was born. If you are curious, [watch those videos](https://www.youtube.com/watch?v=EpI87MxJymc) to see how it happened (*hint: you can also watch some of the original cyber.seach videos on the same youtube channel*). 
+
+The team was dedicating time to research and building. As time progressed, so did cyber·Search. The team grew, the idea grew and eventually, the results of good research, skilled engineering and the development of blockchain technology, led to the transformation of cyber·Search - into cyber, along with the birth of cyber~Rank, the mechanism that ranks information in cyber.  
+
+The idea grew bigger and bigger until at one point it became what it is today. cyber wasn't an explorer anymore, it was now a global and innovative search mechanism for the new web.
+
+The current white paper took 3 years of work to complete. The team that stands behind cyber changed pretty much altogether, but the original idea of making a universal and an intelligent search still stands (*hint: you can see the current team [here](https://github.com/cybercongress/congress/blob/master/teams/cybercongress.toml)*). 
+
+The idea of cyber is still developing. But today it's not raw anymore. Today cyber has a clear vision of abolishing the chains of digital slavery through decentralizing the semantics of the web and its services.  
 
 ### Using cyber: The very basics
 
