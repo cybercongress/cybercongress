@@ -8,13 +8,22 @@
 
 ## Section subtitle: Preperation
 This section contains the basic things you will need for your cyber journey. Find out how to use this guide, how to help it evolve and what awaits ahead.
+
 #### Release version
 0.1: Mercury
+
 #### Content
-- [Section subtitle: Preperation]()
+- [Section subtitle: Preperation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-preperation)
 - [Release version](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#release-version)
 - [Content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#content)
 - [How to use this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-use-this-guide)
+------------------------------------------------------
+- [Section subtitle: Ground floor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-ground-floor)
+------------------------------------------------------
+- [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#section-subtitle-landing-completed)
+- [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
+- [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#links)
+
 #### How to use this guide
 Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about.
 
@@ -24,7 +33,7 @@ If you have any suggestions or want to help to make this guide, simply [sumbit a
 
 ## Section subtitle: Ground floor
 Comsonouts cannot become who they are if the initail training isnt done correctly. In this section you will find out about some basic terminology that you will need to understnad cyber and dive right into some of the basics, including the history of cyber, how it works, how to use it and our philosophy
-#### Technical questions in plain terms (non cyber-related)
+#### Technical questions in plain terms
 
 #### Introduction
 - What is cyber
@@ -93,8 +102,9 @@ Comsonouts cannot become who they are if the initail training isnt done correctl
 
 #### Glossary
 
-## Dection subtitle: Landing completed
+## Section subtitle: Landing completed
 **Congratulations!** You are now a cyber~Cosmonaut and a have all the tools that you need to build the `Great Web`! We salute you for completing this journey. Help us to improve by learning how to submit a PR and find more links that will help you to survive out in the wild.
+
 #### Improving this document
 We welcome and eagerly await new builders to help us prepare our spaceships for take-off. Its never been as easy, just do it - [sumbit a pull request with an improvement!](https://github.com/cybercongress/congress/pulls)
 A pull request is essentially a way to contribute to any open-source project on GitHub. Whilst we are not planning to teach you how to use GitHub, we strongly advise you to learn how to use both git and GitHub. It is fairly easy and simple and will be a great tool for you to add to your skills. Check out [this free guide](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). Please note, that to submit a PR, you don't need to read over it, it's even simpler than you might think. 
