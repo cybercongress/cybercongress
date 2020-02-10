@@ -6,7 +6,7 @@
   <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
 </p>
 
-## :ticket: Section subtitle: Preperation
+## :ticket: Section subtitle: Preparation
 This section contains the basic things you will need for your cyber journey. Find out how to use this guide, how to help it evolve and what awaits ahead.
 
 ### Release version
@@ -59,7 +59,7 @@ The guide is, currently, made by the [cyber~Congress team](https://cybercongress
 If you have any suggestions or want to help to make this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
 
 ## :fuelpump: Section subtitle: Ground floor
-Comsonouts do not become who they are if the initail training isn't done properly. In this section, you will find out about some basic terminology that you will need to understnad cyber, and dive right into some of the its basics. Including the history of cyber, how it works, how to use it and our philosophy.
+Cosmonauts do not become who they are if the initial training isn't done properly. In this section, you will find out about some basic terminology that you will need to understand cyber, and dive right into some of its basics. Including the history of cyber, how it works, how to use it and our philosophy.
 
 ### Technical questions in plain terms
 *Click on the below questions to expand the answer:*
@@ -91,7 +91,7 @@ A blockchain is a distributed ledger into which independent participants write, 
 
 <details>
   <summary>What is a transaction? </summary>
-In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+In terms of a blockchain, a transaction is a process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
 </details>
 
 <details>
@@ -122,7 +122,7 @@ FT is an abbreviation for Byzantine fault tolerance. It is a system that tackles
 
 <details>
   <summary> What is POS? </summary>
-Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main idea is to protect the system through the use of the stake of its participants. 
 </details>
 
 <details>
@@ -221,7 +221,7 @@ Finally, there are hardware wallets (they can also be hot or cold). A hardware w
 
 ### Introduction
 **Q:** What is cyber? <br>
-**A:** Cyber is a decentrlaized google, for provable and relevant answers.
+**A:** Cyber is a decentralized google, for provable and relevant answers.
 
 **Q:** What is the main mission of cyber? <br>
 **A:** Its mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and (b) decentralize the infrastructure of the web with the help of blockchain
@@ -253,7 +253,7 @@ Cyber uses Merkle trees to build proofs for the submitted links, creating a prov
 **Q:** Why cyber? <br> 
 **A:** We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years.
 
-Actually, cyber refers to anything that is very smart. The meaning is rooted from the word cybernetics (check out this article on Wikipedia) - a science which describes the behaviour of dynamic systems with feedback loops.
+Actually, cyber refers to anything that is very smart. The meaning is rooted in the word cybernetics (check out this article on Wikipedia) - a science which describes the behaviour of dynamic systems with feedback loops.
 
 In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
@@ -272,18 +272,18 @@ The current white paper took 3 years of work to complete. The team that stands b
 
 The idea of cyber is still developing. But today it's not raw anymore. Today cyber has a clear vision of abolishing the chains of digital slavery through decentralizing the semantics of the web and its services.  
 
-### The philopophy behind cyber
+### The philosophy behind cyber
 To understand cyber one first needs to understand its philosophy. Our work isn't simply technical. We base our work on our values. If it wasn't for them, we were not be building cyber. To be completely open about our intentions, I will jump into the story of the team behind cyber, and how values are our core driver. The core team knows each other for several years and has worked together previously. At one point, a few years ago we separated our ways, only to realize that whatever we do, we do not share values of others, hence, bringing the team back together.
 
 What do we believe in? Firstly we believe in freedom, privacy and decentralization. We share and propagate the vision of improving this world. We believe that evil stands behind a centralized, bureaucratic approach to technology, governance, communication protocols (money), etc.
 
 We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. With that in mind, what we are trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
 
-*Q&A on the philophy behind cyber:*
+*Q&A on the philosophy behind cyber:*
 
 <details>
   <summary>What problem are you trying to solve? </summary>
-We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age).
+We are trying to solve the problem of data centralization and data censorship. Which in other words, is the decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age).
 </details>
 
 <details>
@@ -314,7 +314,7 @@ There probably are. But we decided to focus on this because we understand how to
   
 <details>
   <summary>Aren't there other things out there that solve this? </summary>
-There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our own work that has arisen from this. It is specifically targeted at fixing what is broken.
+There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our work that has arisen from this. It is specifically targeted at fixing what is broken.
 </details>
 
 <details>
@@ -376,7 +376,7 @@ This section will get you acquainted with all the bits and bobs there are to cyb
 - Meetups
 - Ambassadors
 
-### Partenring communities
+### Partnering communities
 
 ### Launch proccess
 - FAQ
@@ -392,7 +392,7 @@ This section will get you acquainted with all the bits and bobs there are to cyb
 - video
 - CLI
 - ledger
-- infrustructure set-up
+- infrastructure set-up
 
 ------------------------------------------------------
 
@@ -416,7 +416,7 @@ You can't save the galaxy unless you have the right resources for it. This secti
 ### How does cyber work
 - connecting to cyber
 - clients
-- account managment
+- account management
 
 ### Hardware
 
@@ -431,10 +431,10 @@ You can't save the galaxy unless you have the right resources for it. This secti
 
 ## :pill: Section subtitle: The deep space
 
-### The evolution of spicices
+### The evolution of species
 - research
 - plans
-- crazy thigns
+- crazy things
 
 ### Usecases
 
