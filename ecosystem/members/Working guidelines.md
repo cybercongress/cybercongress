@@ -25,8 +25,8 @@ _A proactive thinker and communicator. Tasks and description:_
 
 **Evangelist/Translator coordinator** <br>
 _Manages the work of Evangelists and Translators:_
-Works closely with ecosystem development lead
-Creates new ideas and strategies for amabssaords, evangelists and tramsaltors
+- Works closely with ecosystem development lead
+- Creates new ideas and strategies for amabssaords, evangelists and tramsaltors
 
 **Ambassador/Evangelist**<br>
 _An active community member that helps to preach cyber to the masses:_
@@ -38,5 +38,5 @@ _An active community member that helps to preach cyber to the masses:_
 
 **Translator**<br>
 _Singlur entity (works on a paid job):_
-Translates the required materials and submits them for review
-When possible, promotes hos work in SM
+- Translates the required materials and submits them for review
+- When possible, promotes hos work in SM
