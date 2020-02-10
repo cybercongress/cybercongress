@@ -42,7 +42,7 @@ We also have a community pool and a governance module. This means that contribut
  <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
 </a>
 
-### cyber~Ecosystem is backed by [the following philosophy](https://github.com/cybercongress/congress), please check out our goals and values
+### cyber~Ecosystem is backed by [the following philosophy](https://github.com/cybercongress/congress), check out our goals and values
 
 ### License
 Cyber License: Don’t believe, don’t fear, don’t ask.
