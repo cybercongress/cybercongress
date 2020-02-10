@@ -8,9 +8,13 @@ and basically everything that is not on-chain.
 |------|------|----------------|
 | Online news | Ongoing | Cosmos Today commitment |
 | Social netwroking | Ongoing | NA |
+| Foums | Ongoing | NA |
 | Online interview | Ongoing | crypto emcee Rom |
 | Online interview | Dec 2019 | Monero Talk |
 | Online podcast | Planned | BB |
+| Online podcast | 11/02/2020 | Mediametrics |
+| Online cosmos podcast | Planned | @aha203 |
+| Online publications | Ongoing | NA |
 | Online news | Ongoing | Forklog HUB |
 | Offline interview | 24/11/19 | UT Interview | 
 | Offline event | 08/11/19 | Tezos event |
@@ -23,7 +27,8 @@ and basically everything that is not on-chain.
 | Offline event | 19/12/19 | Dec MSC URB |
 | Offline event | 20-22/12/19 | Hack Party Minsk |
 | Offline event | 26-30/12/19 | CCC |
-| Offline event | Planned | Feb URB |
+| Offline event | 06/02/20 | Business networking MSC |
+| Offline event | 27/02/20| Feb URB |
 | Offline event | Planned | Atom comm MSC |
 
 
