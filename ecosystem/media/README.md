@@ -1,4 +1,7 @@
-## A list of media publications (in alphabetical order) and blog mentions:
+**TOPIC ARCHIVED IN FAVOUR OF FORUM THREAD - [SEE ALL MENTIONS HERE](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild-any-links-that-mention-cyber-cyb-etc-are-a-fair-game/40/38) + [MEDIA PROFILES](https://github.com/cybercongress/congress/tree/master/ecosystem/profiles)**
+
+
+A list of media publications (in alphabetical order) and blog mentions:
 
 **English:**
 - [Crypto Experts Give Their Top Predictions for 2020](https://news.bitcoin.com/crypto-experts-give-their-top-predictions-for-2020/). News Bitcoin. 23/12/2019
