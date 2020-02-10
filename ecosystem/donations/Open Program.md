@@ -1,44 +1,47 @@
-**IF YOU THIS MESSAGE, DO NOT DO ANYTHING DESCRIBED BELOW!**
+# Open Bootstrap Evangelism Program
 
-## Open referral program for cybers donation round
+## Idea
 
-**Introduction**
+Soon according to [the whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) we have to launch distribution games. Current state of blockchain industry is twofold: a good part is that so much innovations happening. The bad part is that huge part of that innovations (especially post-hype) are reliably covered by a thick layer of shitty projects. So we gotta find our way to break through this thick layer of shit. We believe that we have the most important sauce - [working network](https://cyber.page/brain) and [basic application](https://cyber.page). However, since our sauce consist of user generated ingredients in order to move forward the idea of better search we need *more engagement*. But how to get people know about us?
 
-Cyber is a decentralized google for provable and relevant answers built with the help of [IPFS](https://ipfs.io/) and [Tendermint](https://tendermint.com/). 
+Without much ado we want to announce the Genesis Evangelism Program. Acknowledged Evangelists are eligible to 10% of all donations in ATOMs which they generated during Game of Links and Game of Thrones.
 
-In our [WP](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) (page 10) we have outlined the initial problems with distribution in [POS](https://en.wikipedia.org/wiki/Proof_of_stake) networks. We believe that if the initial distribution is designed purposefully, energy efficiently, provably and transparently, access to early knowledge graph will gain in quality and size. 
+## Perks of being a Genesis Evangelist
 
-The overall the distribution process is split into [3 games](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-the-distribution-games). 
-Each game, with a different purpose for the network's deployment. During the first game, [the Game of Links](https://cybercongress.ai/game-of-links/), a donation round takes place. The purpose of this game is for the participants to take as many tokens from [cyber~Congress](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cybercongress) as possible. The better the Game of Links performs, 
-the more % of the network, Cosmos hodlers acquire, the more payouts the participants in the disciplines will receive.
+- Reward in ATOM
+- Early knowledge of the popularity in web3
+- Close, direct and educative communication with founding team
+- Honourable lifetime *Genesis Evangelist of Cyber* title
+- A *possible* extra in CYB tokens via proposal from the community pool
 
-The donation round in ATOM lasts for either 90 days or until 600k ATOM has been donated. Depending on the results up to [100 TCYB](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-mcyb--gcyb--tcyb--pcyb) is allocated to the Game of Links. A detailed description of the Game of Links can be found in [this blog post](https://cybercongress.ai/game-of-links/).
+## How can I become the Genesis Evangelist?
 
-**The program**
 
-Our goal is for the game to succeed. 
-- For the sake of the distribution and the development of the protocol 
-- To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values). 
+## The program
+
+Our goal is for the game to succeed.
+- For the sake of the distribution and the development of the protocol
+- To be able to fund cyber~Congress via [proposals and incentives](https://github.com/cybercongress/congress#values).
 
 To achieve our goals we want to propose an open and a fair referral program to help us to achieve the goal of 600k ATOM during the donation round. To achieve this we will offer 2 types of rewards:
 - 10% fix in ATOM for each referred transactions
-- A **possible** extra in CYB tokens via proposals from the community pool
 
-We outline the following groups for participating in the program:
 
-|GROUP TYPE | % of REWARD | DESCRIPTION |
-|:----------|:-------------:|:------|
-| ATOM Wallets | 10% | Onchain wallets that are able to transfer ATOM tokens (i.e. [Cosmostation](https://wallet.cosmostation.io/)) |
-| ATOM explorers | 10% | Websites that give reference about cosmos-related transactions, validators, etc (i.e. [The Big Dipper](https://cosmos.bigdipper.live/)) |
-| Bloggers | 10% | Any type of bloggers with an audience. Youtubers, writers on Medium or hackernoon, etc |
-| DR | 10% | Donation relations. People who are in offline contact with donators who wish to participate in the donation round |
-| Crypto channels | 10% | Telegram or other social network groups, with a crypto-related audience, are a game |
+Here we outline the following groups for participating in the program:
 
-**How does all of this work?**
+| Role | Mechanism |
+|:----------|:-------------:|
+| ATOM Wallets | Onchain wallets that are able to transfer ATOM tokens (i.e. [Cosmostation](https://wallet.cosmostation.io/)) could either embed donations right in the wallet, or put a link with refferal|
+| ATOM explorers | Websites that give reference about cosmos-related transactions, validators, etc (i.e. [The Big Dipper](https://cosmos.bigdipper.live/)) |
+| Bloggers | Any type of bloggers with an audience. Youtubers, writers on Medium or hackernoon, etc |
+| DR | Donation relations. People who are in offline contact with donators who wish to participate in the donation round |
+| Crypto channels | Telegram or other social network groups, with a crypto-related audience, are a game |
 
-**For each referral you will get 10% in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your ATOM address**. 
+## How does all of this work?
 
-You decide how and what to do to achieve this. We believe this will help healthy competition between the participants of the program. 
+**For each referral you will get 10% in ATOM tokens, after the end of the donation round, for every transaction which contains a memo with your ATOM address**.
+
+You decide how and what to do to achieve this. We believe this will help healthy competition between the participants of the program.
 
 Let's take a look at 3 possible examples: <br>
 *(Please note, that those are mere examples - you decide how to participate)*
@@ -46,31 +49,34 @@ Let's take a look at 3 possible examples: <br>
 - A Telegram channel decides that it wants to participate. It adds a pinned message and periodically posts links to information about cyber, avoiding being annoying to its public. Here the channel administrators will have to decide how to convince each donator to put their group name in the memo. E.G. Offer chargebacks
 - A Youtuber decided to participate. He makes a video about cyber. Possibly takes interviews from team members about what cyber does and why. It is once again, up to him, to decided how to convince participants to put the name of his channel in the memo
 
-**Any guidelines or rules?**
+## Any guidelines or rules?
 
-There are NO guidelines or rules for the program itself. Do what you believe will work. 
+There are NO guidelines or rules for the program itself. Do what you believe will work. However 2 requirements are necessary in order to receive the rewards:
+1. You must become acknowledged Evangelist. We want to exclude scam behaviour and situations when the project has been evangelised by people without proper understanding of the project.
+2. You must have proof that particular donation came thanks to your amazing evangelism. Address or nickname in memo field of donation transaction is such a proof no body can reject.
+
+## How can I become Genesis Evangelist?
 
 However, to minimize malicious behaviour we must accept participants manually! We do not want to deal with malicious behaviour and scam, hence, we ask all interested participants to fill out a *public* GitHub issue template, which will act as an application form. The form contains the following questions:
 - Your nick (no need to submit your name) (MUST match the nick on the form!)
-- The group you want to participate in 
+- The group you want to participate in
 - Your public ATOM address
 - Some kind of contact (Keybase/Telegram, etc)
 - A link to your website/blog/explorer/wallet, etc
 - Your target audience and its size
-- Your prefered crypto projects
+- Your preferred crypto projects
 - How many pages are in the cyber WP?
 - In which year was google founded?
 - A link to your GitHub account if you have one
 
 Please, submit your issue [here](https://github.com/cybercongress/congress/issues), using the referral program template!
 
-You should **only start if you have been manually approved by us**. We will notify you. Other than this, a merged issue, into the [parterhip table](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/referral%20program%20parterns.md), with the above details means an approval. All other submissions will be disqualified. 
+You should **only start if you have been manually approved by us**. We will notify you. Other than this, a merged issue, into the [parterhip table](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/referral%20program%20parterns.md), with the above details means an approval. All other submissions will be disqualified.
 
-You MUST provide some kind of proof that the referral came from you. For example, this can be done in the form of the referral filling out a memo at the time of his donation with your ATOM address in the memo field. The address should be the same as was submitted in the issue, otherwise, we will not be able to identify you! This part is vital!
 
-You may, of course, think of any other possible ways to identify yourself, but please make sure you run the idea through us first, as we will need to think of technical implementation. 
+You may, of course, think of any other possible ways to identify yourself, but please make sure you run the idea through us first, as we will need to think of technical implementation.
 
-**Important links**
+## Important links
 
 - [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
 - [GitHub](https://github.com/cybercongress)
