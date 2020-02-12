@@ -1,6 +1,6 @@
 ---
 date: 2020-02-12
-url: cyber-report1
+url: cyber-report-1
 title: 'cyber~Wednesday Day 1'
 author: serejandmyself
 ---
