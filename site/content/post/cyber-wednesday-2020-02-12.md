@@ -1,5 +1,5 @@
 ---
-date: 2020-02-12
+date: 2020-01-22
 url: cyber-reports
 title: 'cyber~Wednesday Day 1'
 author: serejandmyself
@@ -49,15 +49,19 @@ TODO:
 
 DONE:
 
-- 
+- Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Grpaph and the game monitors 
 
 ONGOING TASKS:
 
-- 
+- Testing and supporting of [cyberindex](https://github.com/cybercongress/cyberindex)
+- Writing first two [tutorials](https://github.com/cybercongress/congress/issues/290)
+- cyber~Congress [videos](https://github.com/cybercongress/congress/issues/303) pin
 
 TODO:
 
-- 
+- Release of cyberindex
+- Support for cyberindex implementation
+- First iteration for eth and btc crawlers concept
 
 ### @xhipster
 
