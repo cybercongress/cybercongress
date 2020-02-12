@@ -1,4 +1,4 @@
-### IBC, a game-changer for the web
+### IBC: a game-changer for the web
 
 **Introduction**
 
