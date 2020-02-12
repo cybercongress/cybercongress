@@ -67,7 +67,7 @@ Todo:
 Done:
 
 - Gave of lot of feedback to @dimakorzhovnik on [cyber.page](https://cyber.page)
-- Participation in one more test~Foundation deployment ceremony
+- Participation in one more [test~Foundation deployment](https://rinkeby.aragon.org/#/tgol24/) ceremony
 - Drafted proposal for [relaunching the GoL](https://github.com/cybercongress/congress/issues/309)
 - Created roadmap of [dot-cyber](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc)
 - Cosmosation [campaign development](https://github.com/cybercongress/congress/issues/304)
