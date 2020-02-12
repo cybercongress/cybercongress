@@ -10,7 +10,7 @@ Cyber aims to make knowledge interoperable. Provable, auditable and verifiable k
 
 **Why does cyber need IBC?**
 
-Cyber can become an oracle of data for other chains. Cyber is a decentralized g**gle for provable and relevant answers. It builds a decentralised knowledge graph, which due to the use of Merkle trees and economic incentives, can easily act as a predictive model for the universe.
+Cyber can become an oracle of data for other chains. Cyber is a decentralized google for provable and relevant answers. It builds a decentralised knowledge graph, which due to the use of Merkle trees and economic incentives, can easily act as a predictive model for the universe.
 
 As cyber is planning on indexing and crawling through a vast amount of data, it can easily become an influential computational source of power amongst users. A truly decentralized root of computation that can help to validate other chains that build knowledge graphs of their own. But, that is by far not it. Due to cybers nature of being able to dynamically rank objects, it can become a market for reputation, ranking and even being able to, calculating bandwidth of other chains via the powers of IBC.
 
@@ -18,7 +18,7 @@ As cyber is planning on indexing and crawling through a vast amount of data, it 
 
 The goal behind cyber as a protocol is not just to stay a source of verifiable knowledge. By forking cyb, a decentralized, personal browser application for web 3, people can create their own, specifically targeted knowledge graphs. Cyber is a general-purpose engine. Search needs to communicate among distributed databases.
 
-Think g**gle. It doesn't search through as many things on the Internet as you might think. In fact, many things like, certain social networks, academic work, etc, stay out of the scope of the big evil beast that g**gle has become. A search engine powered by cyber and IBC can fix this. It can create intercommunication between knowledge graphs.
+Think google. It doesn't search through as many things on the Internet as you might think. In fact, many things like, certain social networks, academic work, etc, stay out of the scope of the big evil beast that google has become. A search engine powered by cyber and IBC can fix this. It can create intercommunication between knowledge graphs.
 
 An interknowledge protocol, powered by IBC, can function in several ways. A) It can subscribe and transfer ranks between chains. B) It can subscribe and transfer forth and back content identificators. C) It can transfer proof of relevance between any two objects for any 2 blockchains (i.e. act as a relevance machine). D) It can help to determine the value of such assets as data.
 
