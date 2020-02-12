@@ -48,7 +48,7 @@ To do:
 
 Done:
 
-- Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Grpaph and the game monitors
+- Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Graph and the game monitors
 
 Ongoing:
 
