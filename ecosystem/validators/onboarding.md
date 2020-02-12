@@ -40,7 +40,7 @@ awesome features described in the docs above.
 
 ### But what about the protocol itself?
 - [cyber~Congress](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cybercongress) is just the launching DAO
-- The donated ATOMs will be used for the [#fuckgoogle Cosmos vlaidator](https://www.mintscan.io/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u). The staking rewards, to support the [development](https://github.com/cybercongress/congress/blob/master/README.md) of the protocol from the team 
+- The donated ATOMs will be used to reach a sustainable flow for cyber~Congress, including staking the [#fuckgoogle Cosmos vlaidator](https://www.mintscan.io/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) and staking to other ecosystem validators. The staking rewards, to support the [development](https://github.com/cybercongress/congress/blob/master/README.md) of the protocol from the team 
 - The protocol will be governed by the validators and [cyber~Foundation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyberfoundation) (they will be in charge of the ETH bags donated during [cyber~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyberauction))
 - After that, the team plans to develop the ecosystem via [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#who-are-cyberfundclassic) 
 - Here are some of our [community development plans](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md) (if you are from Earth, read marketing)
