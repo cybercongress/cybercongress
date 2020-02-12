@@ -27,7 +27,7 @@ Done:
 - Updated [FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
 - Created an [entry point](https://github.com/cybercongress/congress/blob/d98caa14155424e72ceb22b0259df83e3b94fe32/ecosystem/validators/onboarding.md) for validators
 
-Ongoing:
+Ongoing tasks:
 
 - [Social media](https://github.com/cybercongress/congress/tree/master/ecosystem/profiles) interactions
 - Interaction of [forums](https://github.com/cybercongress/congress/tree/master/ecosystem/profiles)
@@ -35,7 +35,7 @@ Ongoing:
 - [Cosmos ecosystem](https://cosmonauts.world/) validator interaction
 - cyber~Ecosystem [development tasks](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
 
-To do:
+Todo:
 
 - Launch [cosmostation campaign](https://github.com/cybercongress/congress/issues/304)
 - Launch [takeoff promo](https://github.com/cybercongress/congress/issues/307)
@@ -50,13 +50,13 @@ Done:
 
 - Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Grpaph and the game monitors
 
-Ongoing:
+Ongoing tasks:
 
 - Testing and supporting of [cyberindex](https://github.com/cybercongress/cyberindex)
 - Writing first two [tutorials](https://github.com/cybercongress/congress/issues/290)
 - cyber~Congress [videos](https://github.com/cybercongress/congress/issues/303) pin
 
-To do:
+Todo:
 
 - Release of cyberindex
 - Support for cyberindex implementation
@@ -72,7 +72,7 @@ Done:
 - Created roadmap of [dot-cyber](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc)
 - Cosmosation [campaign development](https://github.com/cybercongress/congress/issues/304)
 
-Ongoing:
+Ongoing tasks:
 
 - Prepare [Towards game of Links release](https://github.com/cybercongress/dot-cyber/projects/3)
 - Scoping [Ready for Takeoff release](https://github.com/cybercongress/dot-cyber/projects/5)
@@ -80,7 +80,7 @@ Ongoing:
 - Open evangelism program
 - Ongoing takeoff preparations
 
-To do:
+Todo:
 
 - Release [Towards Game of Links](https://github.com/cybercongress/dot-cyber/projects/3)
 - Takeoff [sound plan](https://github.com/cybercongress/congress/issues/220)
@@ -90,26 +90,26 @@ To do:
 
 Done:
 
-- Fix intro #129
-- No search path if search from main page #130
-- A lot of minor improvements on auction, tot, takeoff
-- Transaction page #108
-- Account page #109
+- Fix intro [#129](https://github.com/cybercongress/dot-cyber/issues/129)
+- No search path if search from main page [#130](https://github.com/cybercongress/dot-cyber/issues/130)
+- A lot of minor improvements on [auction, tot, takeoff](https://github.com/cybercongress/dot-cyber/pull/145)
+- Transaction page [#108](https://github.com/cybercongress/dot-cyber/issues/108)
+- Account page [#109](https://github.com/cybercongress/dot-cyber/issues/109)
 - Validator page
 
-Ongoing:
+Ongoing tasks:
 
 - work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
-- work on minor improvements on the pages of the Vesting, Account, Takeoff, Test of Thrones
-- Multitoken pocket #111
-- Gift lookup #124
-- work on minor improvements on the pages of the account, validator, transaction
+- work on minor improvements on the pages of the Vesting, [Account, Takeoff, Test of Thrones](https://github.com/cybercongress/dot-cyber/pull/145)
+- Multitoken pocket [#111](https://github.com/cybercongress/dot-cyber/issues/111)
+- Gift lookup [#124](https://github.com/cybercongress/dot-cyber/issues/124)
+- work on minor improvements on the pages of the [account, validator, transaction](https://github.com/cybercongress/dot-cyber/pull/142)
 
-To do:
+Todo:
 
-- Robot page #118
-- Robots management #125
-- Consistent paths across the app #148
+- Robot page [#118](https://github.com/cybercongress/dot-cyber/issues/118)
+- Robots management [#125](https://github.com/cybercongress/dot-cyber/issues/125)
+- Consistent paths across the app [#148](https://github.com/cybercongress/dot-cyber/issues/148)
 
 ## @mrlp4
 
@@ -118,11 +118,11 @@ Done:
 - Dockerized [cyberindex](https://github.com/cybercongress/cyberindex/pull/2)
 - Brought PR to Juno with [Juno-Docker](https://github.com/fissionlabsio/juno/pull/18)
 
-Ongoing:
+Ongoing tasks:
 
 - Working hard on internal infrastructure setup/cleanup
 
-To do:
+Todo:
 
 - Complete infrastructure setup.
 - Big cyber congress IPFS cluster [setup](https://github.com/cybercongress/congress/issues/300)
@@ -133,7 +133,7 @@ Done:
 
 -
 
-Ongoing:
+Ongoing tasks:
 
 -
 
@@ -143,13 +143,17 @@ Todo:
 
 ## @aha203
 
-Ongoing:
+Done:
 
-- Research of Technical podcasts landscape
 - In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
 - In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
-- Research of Technical podcasts landscape 
+- Research of Technical podcasts landscape
 
-To do:
-- Create podcast roadmap 
+Ongoing tasks:
+
+- Research of Technical podcasts landscape
+
+Todo:
+
+- Create podcast roadmap
 - detail the roadmap and commit issues at Github
