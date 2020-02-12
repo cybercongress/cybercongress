@@ -107,15 +107,17 @@ TODO:
 
 DONE:
 
-- 
+- Dockerized [cyberindex](https://github.com/cybercongress/cyberindex/pull/2)
+- Brought PR to Juno with [Juno-Docker](https://github.com/fissionlabsio/juno/pull/18)
 
 ONGOING TASKS:
 
-- 
+- Working hard on internal infrastructure setup/cleanup
 
 TODO: 
 
-- 
+- Complete infrastructure setup. 
+- Big cyber congress IPFS cluster [setup](https://github.com/cybercongress/congress/issues/300)
 
 ### @litvintech
 
