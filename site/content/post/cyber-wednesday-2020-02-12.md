@@ -7,7 +7,7 @@ author: serejandmyself
 
 # cyber~Wednesday Day 1
 
-Welcome to day 1 of the bi-weekly report from [cyber](https://cyber.page/) !
+Welcome to day 1 of the bi-weekly report from [cyber](https://cyber.page/)!
 
 ## @serejandmyself
 
@@ -60,7 +60,7 @@ To do:
 
 - Release of cyberindex
 - Support for cyberindex implementation
-- First iteration for eth and btc crawlers concept
+- First iteration for ETH and BTC crawlers concept
 
 ## @xhipster
 
@@ -95,10 +95,10 @@ Done:
 - A lot of minor improvements on [auction, tot, takeoff](https://github.com/cybercongress/dot-cyber/pull/145)
 - Transaction page [#108](https://github.com/cybercongress/dot-cyber/issues/108)
 - Account page [#109](https://github.com/cybercongress/dot-cyber/issues/109)
-- Validator page
 
 Ongoing:
 
+- Validator page
 - work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
 - work on minor improvements on the pages of the Vesting, [Account, Takeoff, Test of Thrones](https://github.com/cybercongress/dot-cyber/pull/145)
 - Multitoken pocket [#111](https://github.com/cybercongress/dot-cyber/issues/111)
@@ -130,49 +130,45 @@ To do:
 ## @litvintech
 
 Done:
-1. Researched and debugged issue with cyber node restart. [#453](https://github.com/cybercongress/cyberd/issues/453)
-2. Find and debugged issue with NaN rank's values if agent transfer their full balance. [#455](https://github.com/cybercongress/cyberd/issues/455)
-3. Find and debugged issue with wrong bandwidth consuming during linking in cyber. [#460](https://github.com/cybercongress/cyberd/issues/460)
-4. Started upgrade of cyber to cosmos-sdk v0.38.0 Find issue with release, [commited](https://github.com/cosmos/cosmos-sdk/issues/5570).
-5. Initial cyber~Foundation Aragon setup guide.
-6. [Cyberindex](https://github.com/cybercongress/cyberindex) initial version with tx/msgs indexing and cybergraph support.
-7. cyber~Foundation 2 ceremony setups. One with @xhipster and one personal. [Foundation TGOL24](https://rinkeby.aragon.org/#/tgol24)
-8. Upgraded aragon-{[auction](https://github.com/cybercongress/aragon-auction-app),[vesting](https://github.com/cybercongress/aragon-auction-app)}-app.
-9. Prepared for public release vesting-companion with logging and errors handling. First tests.
-10. Infrastructure upgrade plan with @mrlp4 and @aha203.
--
+
+- Researched and debugged issue with cyber node restart. [#453](https://github.com/cybercongress/cyberd/issues/453)
+- Find and debugged issue with NaN rank's values if an agent transfers their full balance. [#455](https://github.com/cybercongress/cyberd/issues/455)
+- Find and debugged issue with wrong bandwidth-consuming during linking in cyber. [#460](https://github.com/cybercongress/cyberd/issues/460)
+- Started upgrade of cyber to cosmos-SDK v0.38.0 Find an issue with the release, [commited](https://github.com/cosmos/cosmos-sdk/issues/5570)
+- [Cyberindex](https://github.com/cybercongress/cyberindex) initial version with tx/msgs indexing and cybergraph support.
+cyber~Foundation 2 ceremony setups. One with @xhipster and one personal. [Foundation TGOL24](https://rinkeby.aragon.org/#/tgol24)
+- Upgraded aragon-{[auction](https://github.com/cybercongress/aragon-auction-app),[vesting](https://github.com/cybercongress/aragon-auction-app)}-app
 
 Ongoing:
-1. Research on IBC, preparation for Game of Zones.
-2. Documentation for cyber~Foundation setup ceremony.
-3. Research on power delegation for cyber.
-4. Gitcoin program relaunch.
-5. Communication with cosmos/tendermint developers.
-6. Cyber's documentation updates.
--
+
+- Prepared for public release vesting-companion with logging and errors handling. First tests
+- Infrastructure upgrade plan with @mrlp4 and @aha203
+- Initial cyber~Foundation Aragon setup guide.
+- Research on IBC, preparation for Game of Zones.
+- Documentation for cyber~Foundation setup ceremony.
+- Research on power delegation for cyber.
+- Gitcoin program relaunch.
+- Communication with cosmos/tendermint developers.
+- Cyber's documentation updates.
 
 To do:
-1. Upgrade cyber to cosmos-sdk v0.38 [#429](https://github.com/cybercongress/cyberd/issues/429)
-2. Refactor cyber's modules
-3. Upgrade from custom to sdk's storage for links in cyber. [#462](https://github.com/cybercongress/cyberd/issues/462)
-4. Fix issue with NaN in rank's values. [#455](https://github.com/cybercongress/cyberd/issues/455)
-5. Fix issue with wrong bandwidth consuming when linking. [#460](https://github.com/cybercongress/cyberd/issues/460)
-6. Test online upgrades in cyber after sdk's upgrade. 
-7. Add cosmwasm module to cyber. [381](https://github.com/cybercongress/cyberd/issues/381)
-8. Release euler-6-dev0
-9. Apply for cosmwasm first public testnet, prepare and start validator.
--
+
+- Upgrade cyber to cosmos-SDK v0.38 [#429](https://github.com/cybercongress/cyberd/issues/429)
+- Refactor cyber's modules
+- Upgrade from custom to SDK's storage for links in cyber. [#462](https://github.com/cybercongress/cyberd/issues/462)
+- Fix issue with NaN in rank's values. [#455](https://github.com/cybercongress/cyberd/issues/455)
+- Fix issue with wrong bandwidth-consuming when linking. [#460](https://github.com/cybercongress/cyberd/issues/460)
+- Test online upgrades in cyber after SDK's upgrade. 
+- Add cosmwasm module to cyber. [381](https://github.com/cybercongress/cyberd/issues/381)
+- Release euler-6-dev0
+- Apply for cosmwasm first public testnet, prepare and start validator.
 
 ## @aha203
 
-Done:
+Ongoing:
 
 - In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
 - In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
-- Research of Technical podcasts landscape
-
-Ongoing:
-
 - Research of Technical podcasts landscape
 
 To do:
