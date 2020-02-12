@@ -130,15 +130,37 @@ To do:
 ## @litvintech
 
 Done:
-
+1. Researched and debugged issue with cyber node restart. [#453](https://github.com/cybercongress/cyberd/issues/453)
+2. Find and debugged issue with NaN rank's values if agent transfer their full balance. [#455](https://github.com/cybercongress/cyberd/issues/455)
+3. Find and debugged issue with wrong bandwidth consuming during linking in cyber. [#460](https://github.com/cybercongress/cyberd/issues/460)
+4. Started upgrade of cyber to cosmos-sdk v0.38.0 Find issue with release, [commited](https://github.com/cosmos/cosmos-sdk/issues/5570).
+5. Initial cyber~Foundation Aragon setup guide.
+6. [Cyberindex](https://github.com/cybercongress/cyberindex) initial version with tx/msgs indexing and cybergraph support.
+7. cyber~Foundation 2 ceremony setups. One with @xhipster and one personal. [Foundation TGOL24](https://rinkeby.aragon.org/#/tgol24)
+8. Upgraded aragon-{[auction](https://github.com/cybercongress/aragon-auction-app),[vesting](https://github.com/cybercongress/aragon-auction-app)}-app.
+9. Prepared for public release vesting-companion with logging and errors handling. First tests.
+10. Infrastructure upgrade plan with @mrlp4 and @aha203.
 -
 
 Ongoing:
-
+1. Research on IBC, preparation for Game of Zones.
+2. Documentation for cyber~Foundation setup ceremony.
+3. Research on power delegation for cyber.
+4. Gitcoin program relaunch.
+5. Communication with cosmos/tendermint developers.
+6. Cyber's documentation updates.
 -
 
 To do:
-
+1. Upgrade cyber to cosmos-sdk v0.38 [#429](https://github.com/cybercongress/cyberd/issues/429)
+2. Refactor cyber's modules
+3. Upgrade from custom to sdk's storage for links in cyber. [#462](https://github.com/cybercongress/cyberd/issues/462)
+4. Fix issue with NaN in rank's values. [#455](https://github.com/cybercongress/cyberd/issues/455)
+5. Fix issue with wrong bandwidth consuming when linking. [#460](https://github.com/cybercongress/cyberd/issues/460)
+6. Test online upgrades in cyber after sdk's upgrade. 
+7. Add cosmwasm module to cyber. [381](https://github.com/cybercongress/cyberd/issues/381)
+8. Release euler-6-dev0
+9. Apply for cosmwasm first public testnet, prepare and start validator.
 -
 
 ## @aha203
