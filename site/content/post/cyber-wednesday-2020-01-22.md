@@ -1,6 +1,6 @@
 ---
 date: 2020-01-22
-url: cyber-reports
+url: cyber-report0
 title: 'cyber~Wednesday Day 0'
 author: serejandmyself
 ---
