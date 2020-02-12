@@ -27,6 +27,7 @@ DONE:
 - Article in [Futuretimes](https://futuretime.ai/2020/01/24/taking-back-control-with-search/)
 - Updated [ecosystem folder](https://github.com/cybercongress/congress/tree/master/ecosystem)
 - Updated [FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
+- Created an [entry point](https://github.com/cybercongress/congress/blob/d98caa14155424e72ceb22b0259df83e3b94fe32/ecosystem/validators/onboarding.md) for validators
 
 ONGOING TASKS:
 
