@@ -82,16 +82,26 @@ TODO:
 
 DONE:
 
-- 
+- Fix intro #129
+- No search path if search from main page #130
+- A lot of minor improvements on auction, tot, takeoff
+- Transaction page #108
+- Account page #109
+- Validator page
 
 ONGOING TASKS:
 
-- 
-
+- work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
+- work on minor improvements on the pages of the Vesting, Account, Takeoff, Test of Thrones
+- Multitoken pocket #111
+- Gift lookup #124
+- work on minor improvements on the pages of the account, validator, transaction
 
 TODO: 
 
-- 
+- Robot page #118
+- Robots management #125
+- Consistent paths across the app #148
 
 ### @mrlp4
 
