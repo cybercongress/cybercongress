@@ -5,15 +5,13 @@ title: 'cyber~Wednesday Day 1'
 author: serejandmyself
 ---
 
-**cyber~Wednesday Day 1**
+# cyber~Wednesday Day 1
 
-Welcome to day 2 of the bi-weekly report from [cyber](https://cyber.page/)!
+Welcome to day 1 of the bi-weekly report from [cyber](https://cyber.page/) !
 
-## Cyber bi-weekly report 2020.02.12
+## @serejandmyself
 
-### @serejandmyself
-
-DONE:
+Done:
 
 - Together with cyber academy started to [publish videos from cyber~House](https://www.youtube.com/watch?v=AMUatLPfNJM&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT)
 - Started work on [homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
@@ -29,7 +27,7 @@ DONE:
 - Updated [FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
 - Created an [entry point](https://github.com/cybercongress/congress/blob/d98caa14155424e72ceb22b0259df83e3b94fe32/ecosystem/validators/onboarding.md) for validators
 
-ONGOING TASKS:
+Ongoing tasks:
 
 - [Social media](https://github.com/cybercongress/congress/tree/master/ecosystem/profiles) interactions
 - Interaction of [forums](https://github.com/cybercongress/congress/tree/master/ecosystem/profiles)
@@ -37,50 +35,60 @@ ONGOING TASKS:
 - [Cosmos ecosystem](https://cosmonauts.world/) validator interaction
 - cyber~Ecosystem [development tasks](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
 
-TODO:
+Todo:
 
 - Launch [cosmostation campaign](https://github.com/cybercongress/congress/issues/304)
 - Launch [takeoff promo](https://github.com/cybercongress/congress/issues/307)
 - Finish cyber~House [video task](https://github.com/cybercongress/congress/issues/303)
-- Carry on [ongoing tasks](https://github.com/cybercongress/congress/new/master/site/content/post#serejandmyself)
+- Carry on [Ongoing tasks](https://github.com/cybercongress/congress/new/master/site/content/post#serejandmyself)
 - Finish [homestead doc](https://github.com/cybercongress/congress/issues/290)
 - Launch podcasts with @aha203
 
-### @savetheales
+## @savetheales
 
-DONE:
+Done:
 
-- Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Grpaph and the game monitors 
+- Done with pre-release of [backend](https://github.com/cybercongress/cyberindex/projects/1) for cyber~Grpaph and the game monitors
 
-ONGOING TASKS:
+Ongoing tasks:
 
 - Testing and supporting of [cyberindex](https://github.com/cybercongress/cyberindex)
 - Writing first two [tutorials](https://github.com/cybercongress/congress/issues/290)
 - cyber~Congress [videos](https://github.com/cybercongress/congress/issues/303) pin
 
-TODO:
+Todo:
 
 - Release of cyberindex
 - Support for cyberindex implementation
 - First iteration for eth and btc crawlers concept
 
-### @xhipster
+## @xhipster
 
-DONE:
+Done:
 
-- 
+- Gave of lot of feedback to @dimakorzhovnik on [cyber.page](https://cyber.page)
+- Participation in one more test~Foundation deployment ceremony
+- Drafted proposal for [relaunching the GoL](https://github.com/cybercongress/congress/issues/309)
+- Created roadmap of [dot-cyber](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc)
+- Cosmosation [campaign development](https://github.com/cybercongress/congress/issues/304)
 
-ONGOING TASKS:
+Ongoing tasks:
 
-- 
+- Prepare [Towards game of Links release](https://github.com/cybercongress/dot-cyber/projects/3)
+- Scoping [Ready for Takeoff release](https://github.com/cybercongress/dot-cyber/projects/5)
+- Creation of longterm roadmap of the project
+- Open evangelism program
+- Ongoing takeoff preparations
 
-TODO:
+Todo:
 
-- 
+- Release [Towards Game of Links](https://github.com/cybercongress/dot-cyber/projects/3)
+- Takeoff [sound plan](https://github.com/cybercongress/congress/issues/220)
+- Define [better communication process](https://github.com/cybercongress/congress/issues/161)
 
-### @dimakorzhovnik
+## @dimakorzhovnik
 
-DONE:
+Done:
 
 - Fix intro #129
 - No search path if search from main page #130
@@ -89,7 +97,7 @@ DONE:
 - Account page #109
 - Validator page
 
-ONGOING TASKS:
+Ongoing tasks:
 
 - work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
 - work on minor improvements on the pages of the Vesting, Account, Takeoff, Test of Thrones
@@ -97,55 +105,55 @@ ONGOING TASKS:
 - Gift lookup #124
 - work on minor improvements on the pages of the account, validator, transaction
 
-TODO: 
+Todo:
 
 - Robot page #118
 - Robots management #125
 - Consistent paths across the app #148
 
-### @mrlp4
+## @mrlp4
 
-DONE:
+Done:
 
 - Dockerized [cyberindex](https://github.com/cybercongress/cyberindex/pull/2)
 - Brought PR to Juno with [Juno-Docker](https://github.com/fissionlabsio/juno/pull/18)
 
-ONGOING TASKS:
+Ongoing tasks:
 
 - Working hard on internal infrastructure setup/cleanup
 
-TODO: 
+Todo:
 
-- Complete infrastructure setup. 
+- Complete infrastructure setup.
 - Big cyber congress IPFS cluster [setup](https://github.com/cybercongress/congress/issues/300)
 
-### @litvintech
+## @litvintech
 
-DONE:
+Done:
 
-- 
+-
 
-ONGOING TASKS:
+Ongoing tasks:
 
-- 
+-
 
-TODO: 
+Todo:
 
-- 
+-
 
-### @aha203
+## @aha203
 
-DONE:
+Done:
 
 - In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
 - In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
 - Research of Technical podcasts landscape
- 
-ONGOING TASKS:
+
+Ongoing tasks:
 
 - Research of Technical podcasts landscape
- 
-TODO:
+
+Todo:
 
 - Create podcast roadmap
 - detail the roadmap and commit issues at Github
