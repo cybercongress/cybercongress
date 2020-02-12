@@ -143,17 +143,13 @@ Todo:
 
 ## @aha203
 
-Done:
-
-- In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
-- In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
-- Research of Technical podcasts landscape
-
 Ongoing tasks:
 
 - Research of Technical podcasts landscape
+- In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
+- In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
+- Research of Technical podcasts landscape 
 
 Todo:
-
-- Create podcast roadmap
+- Create podcast roadmap 
 - detail the roadmap and commit issues at Github
