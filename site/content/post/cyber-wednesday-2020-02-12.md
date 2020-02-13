@@ -167,11 +167,11 @@ To do:
 
 Ongoing:
 
-- In collaboration with @xhipster, @litvintech and other team members improved a general roadmap for cyber-related services
-- In collaboration with @mrlp4 and @litvintech created a plan for infrastructure improvement
+- In collaboration with @xhipster, @litvintech and other team members, making improvments to the general roadmap for cyber-related services
+- In collaboration with @mrlp4 and @litvintech creating a plan for infrastructure improvement
 - Research of Technical podcasts landscape
 
 To do:
 
 - Create podcast roadmap
-- detail the roadmap and commit issues at Github
+- Detail the roadmap and commit issues at Github
