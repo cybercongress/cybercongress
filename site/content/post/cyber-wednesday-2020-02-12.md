@@ -5,8 +5,6 @@ title: 'cyber~Wednesday Day 1'
 author: serejandmyself
 ---
 
-# cyber~Wednesday Day 1
-
 Welcome to day 1 of the bi-weekly report from [cyber](https://cyber.page/)!
 
 ## @serejandmyself
