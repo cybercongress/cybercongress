@@ -33,7 +33,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Using your Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
-  * [cyber~Ecosystem]()
+  * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
   * [The launch proccess]()
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
@@ -595,21 +595,306 @@ cyber~Admin is an intelligent bot that helps the cyber~Cogress team to work. In 
   </details>
 
 ### cyber~Ecosystem
-- Community
-- Public profiles
-- Blog
-- Website
-- GitHub
-- Gitcoin
-- Cyberc-n
-- Meetups
-- Evangelists
-- Partnering communities
+The cyber~Ecosystem is a subdivision of the metagalaxy. The ecosystem division is working towards a common goal: to build a better and a unique new web: `The Great Web`.
+
+The coordination of efforts include:
+- helping to create a validator pool
+- helping to build communities
+- connecting teams
+- helping R&D
+- cross-promote products and protocols
+- provide strategic grants in the future
+- creating and taking part in governance proposals
+- VC and partnerships
+- creating useful and unique documentation
+- working towards a common goal
+
+To get familiar with the cyber~Cosystem, we strongly suggest you read the [ecoystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md), which includes a view on the development of cyber ~Ecosystem, describe what it is, its goals, values and participants. It should also offer theoretical and practical metrics that can measure the success of the proposed building blocks that will form the growth of the ecosystem. 
+
+Full information about the ecosystem can be found in [the transparency folder](https://github.com/cybercongress/congress/tree/master/ecosystem) of the congress repository.
+
+#### Community
+The work of the ecosystem is made out of various blocks, including:
+- [Community work](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#community-work): One of the main goals is to form a community of scientists, geeks, researches, validators, hackers, web3 agents and users as such (of any other possible category) for Cyber. The goal is to target all of [the relevant communites](https://github.com/cybercongress/congress/issues/289), by which we mean a spectre of modern and efficient computers and their communities, rather than the foundations or organizations standing behind those projects
+- [Cyberc-n](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#cyberc0n): cyber~Congress has already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). Its goal is to achieve a completely sovereign and a self-ruling entity, that humans can help to run
+- [Friendly aliens and partenrships](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#friendly-aliens-and-partenrships):  We need to form strategic partnerships. We believe that developing Cyber means developing computing, rather than developing foundations behind those computers. This means that we will, first of all, look for similar values with our future allies
+- [Governance and proposals](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#governance-and-proposals): This means community governance for pretty much everything. Building applications, developing the protocol, onboarding projects, etc
+- [Hacking and open-source](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#hacking-and-open-source): If there is one thing that we believe in more than all else, it is probably open-source. Hence, we understand the value of building a community of open-source contributors
+- [Research and R&D](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#research-and-rd): We want to prove that our vision of the [Evolution of spicies](https://github.com/cybercongress/congress/blob/master/README.md) can and will uphold. All this requires research. A lot of research. Open-source, funded research that will benefit, not just Cyber, but will benefit the world.
+- [VC](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#vc): All this requires funds. As much as we would love for all to simply help us, distribute our tokens and let the beast live - we are aware that we are leaving in a world spun by money, which in itself isn't bad. Money is simply a communication protocol, alas - one that is broken
+- [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#cyberfundclassic): This fund will be funded out of the personal bag of cyber~Congress and its team members that wish to fund it. However, we believe that a further option of having community members also help to fund should remain open. The idea of the fund is to help buidl applications on top of the protocol
+-[The important generation](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md#the-important-generation): We have stated on many occasions that we must concentrate on younger generations, not simply because they are the users and the engineers of tomorrow. That is, of course - one reason. But the reality is that the young (and the coming) generation has a completely different recognition of what we do. And that is a good thing
+
+#### Communication flow & Blog
+We believe that communication is uber important, hence we define a [communciation proccess](https://github.com/cybercongress/congress/blob/master/teams/communication%20and%20publishing.md) in which we describe the importance of communicating via [cyber~Blog](https://cybercongress.ai/post/) to the [relevant communities](https://github.com/cybercongress/congress/issues/289).
+
+cyber~Congress strongly values the importance of reports, we describe our flow of reporting in [this document](https://github.com/cybercongress/congress/blob/master/teams/team%20reports.md).
+
+We also communicate via other arteries described below:
+
+#### Congress website & cyber.page
+The main gateway to cyber is, of course, [cyber.page](https://cyber.page/), an interface reference to the whole protocol. This is our main landing and targeting page. A road to Rome. Here you will find everything you need to know in order to use cyber. 
+
+We also have a [website](http://cybercongress.ai/) for the DAO behind the launch of cyber: cyber~Congress. On this website you can find information about our projects, some basic statistics and, most importantly [technical docuamnetation](https://cybercongress.ai/docs/cyberd/cyberd/) for cyber and cyb, the [forum](http://ai.cybercongress.ai/) and the [blog](https://cybercongress.ai/post). Via this website and our [GitHub](https://github.com/cybercongress) cyber ~Congress communicates with the outer world. 
+
+#### GitHub
+Of course, everything we do is 100% open-source. Hence GitHub. Our [GitHub](https://github.com/cybercongress) contains many useful repositories filled with love, code and documentation, including the document you are reading right now. 
+
+If you are looking for releases, code sources, want to help us via an issue or a pull request, this is the place to be. Also, this is the quickest place to get an answer to any question you have to the cyber~Congress team. 
+
+#### Public profiles
+There are many public profiles that the cyber~Congress team has created. 
+
+A list of public groups and chats:
+- [GitHub](https://github.com/cybercongress): A place for the code, docs and communication
+- [cyber.page](https://cyber.page/): The main interface and reference to cyber
+- [cyber~Congress DAO website](https://cybercongress.ai/): A place for the teams' projects, docs and blog
+- [cyber~Forum](https://ai.cybercongress.ai/): A forum to communicate about cyber
+- [cyber~Blog](https://cybercongress.ai/post/): One of our main communication arteries for major news
+- [Twitter](https://twitter.com/cyber_devs): One of our main secondary communication tools
+- [Reddit](https://www.reddit.com/r/cybercongress/): Our subreddit 
+- [Telegram fuckgoogle channel](https://t.me/fuckgoogle): A place to talk about cyber and hear the latest news
+- [TG announcments](https://t.me/cybercongress): Telegram announcement channel, not used often
+- [Gitcoin](https://gitcoin.co/profile/cybercongress): We use Gitcoin to fund open-source issues
+- [The Brain](https://cyberd.ai/): The explorer for the protocol
+- [Youtube 1](https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured): Cyber Academies youtube channel that features cyber
+- [Youtube 2](https://www.youtube.com/channel/UC18zbxbAhmleUPebbGApAMg): Our main youtube channel for VIP material
+- [Cosmos discord](https://discord.gg/bdJ6q9): Cosmos discord group (look for ecosystem/cyber)
+- [fuckgoole RIAT](https://riot.im/app/#/room/#fuckgoogle:matrix.org): cyber RIAT channel
+- [Urbit](join ~dilled-fastyd/fuckgoogle): cybers Urbit group
+- [Steemit](https://steemit.com/@cybercongress): Our, not so used, steemit blog
+
+A list of forum profiles:
+- [Discuss IPFS forum](https://discuss.ipfs.io/u/fuckgoogle/summary): Our profile on IPFS forum
+- [Comsos forum profile](https://forum.cosmos.network/u/serejandmyself/summary): Our profile on Cosmos forum
+- [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=5199195): The OG forum ANN
+- [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0): An ANN for miners on BTT
+- [Bit.Media forum ANN](https://forum.bits.media/index.php?/topic/160286-cyber-%D0%B4%D0%B5%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-google-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D1%82%D1%8B%D1%85-%D0%B8-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D1%85-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2/): Our profile on bits.media blockchain forum
+
+A list of constant media profiles:
+- [Forklog hub](https://hub.forklog.com/companies/cyber/): Forklog hub for cyber
+
+Along with this list, on our forum, there is a [public thread for all mentions of cyber in the media
+and social networks](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/40). Fell free to hit the `reply` button to the topic and add something if you see us getting mentioned in the wild. 
+
+A list of profiles in awesome lists:
+- [Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem): A list of awesome Cosmos projects
+- [IPFS awesome list](https://github.com/ipfs/awesome-ipfs): Our profile on IPFS awesome list
+- [Aragon wiki](https://wiki.aragon.org/about/projects/): Our profile on the Aragon wiki
+- [Tendermint awesome list](https://github.com/tendermint/awesome): A profile on the TEndermint awesome list
+- [deGoogle list](https://github.com/tycrek/degoogle): cyber on the degoogle tools list
+
+A list of profiles on projects websites:
+- [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem
+- [IPFS project list](https://blog.ipfs.io/2020-02-10-our-focus-for-2020/): A list of IPFS projects
+
+A list of TG groups that cyber is active in:
+- [Cosmos netowr](https://t.me/cosmosproject): Main Cosmos TG channel
+- [Cosmos VIP]: Invite only channel. Cosmos VIP TG group
+- [Cosmos governance group](https://t.me/hubgov): Cosmos TG governance group
+- [IBC](https://t.me/ibcprotocol): Cosmos TG IBC discussion group
+- [Comnsos DVD](https://t.me/CosmosDVD): Cosmos TG developers group
+- [CosmosRu](https://t.me/CosmosprojectRu): Cosmos Russian TG group
+
+A list of Cosmos RIAT chats that cyber is active in:
+- [Cosmos SDk](https://riot.im/app/#/room/#cosmos-sdk:matrix.org): Cosmos SDK discussions
+- [Game of Zones](https://riot.im/app/#/room/#goz:matrix.org): GoZ discussions
+- [Cosmos Netwrok](https://riot.im/app/#/room/#cosmos:matrix.org): Main Cosmos RIAT channel
+- [Comsos Validators](https://riot.im/app/#/room/#cosmos-validators:matrix.org): RIAT Cosmos validator group
+- [Cosmos Validators Technical Updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org): Technical validator updates
+
+Non Comos related RIAT cahts that cyber present in:
+- [Polkadpt watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org): Polkdaot main RIAt channel
+- [Kusama validator lounge](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders): RIAT Kusama vlaidator channel
+- [Tezos](https://riot.im/app/#/room/#tezos:matrix.org): Tezos RIAT channel
+- [Privacytools general](https://riot.im/app/#/room/#general:privacytools.io): Privacy tools discssuin group
+- [IPFS](https://riot.im/app/#/room/#ipfs:matrix.org): IPFS discssion group
+- [I2P](https://riot.im/app/#/room/#I2p:matrix.org): I2P discusion group
+
+A list of subreddits relevant to cyber:
+- [Aeternity](https://www.reddit.com/r/Aeternity/): AE subreddit
+- [Anarchism](https://www.reddit.com/r/Anarchism/): Subreddit for anarchists
+- [Anarcho_Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/): Discussions about aanrchy
+- [Aragonproject](https://www.reddit.com/r/aragonproject/): Aragon subreddit
+- [Bitcoin](https://www.reddit.com/r/Bitcoin/): BTC subreddit
+- [CCC](https://www.reddit.com/r/ccc/): Chaos communication congress subreddit
+- [Corrtex_Official](https://www.reddit.com/r/Cortex_Official/): Cortex subreddit
+- [Cosmosnetwrork](https://www.reddit.com/r/cosmosnetwork/): Comsos subreedit
+- [CryptoCurrencies](https://www.reddit.com/r/CryptoCurrencies/): Crypto subreddit
+- [CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/): Crypto subreddit
+- [CryptoMarkets](https://www.reddit.com/r/CryptoMarkets/): Crypto trading subreddit
+- [CrytpoTechnology](https://www.reddit.com/r/CryptoTechnology/): Crypto technology subreddit
+- [CUDA](https://www.reddit.com/r/CUDA/): Cuda miners subredidit
+- [Cyber](https://www.reddit.com/r/cyber/): Cyber world subreddit
+- [Cyberpunk](https://www.reddit.com/r/Cyberpunk/): Syberpunk subreddit
+- [deGoogle](https://www.reddit.com/r/degoogle/): Ditch google subreddit
+- [ethdev](https://www.reddit.com/r/ethdev/): ETH developer subreddit
+- [Ethereum](https://www.reddit.com/r/ethereum/): Main ETH subreddit
+- [firstworldanarchists](https://www.reddit.com/r/firstworldanarchists/): Anarchy subreddit
+- [FreeSpeech](https://www.reddit.com/r/FreeSpeech/): Freedom subreddit
+- [Futurology](https://www.reddit.com/r/Futurology/): About future subreddit
+- [github](https://www.reddit.com/r/github/): Github subreddit
+- [google](https://www.reddit.com/r/google/): Google subreddit
+- [grincoin](https://www.reddit.com/r/grincoin/): Grincoin subreddit
+- [hacking](https://www.reddit.com/r/hacking/): hacking subreddit
+- [ipfs](https://www.reddit.com/r/ipfs/): IPFS subreddit
+- [ledgerwallet](https://www.reddit.com/r/ledgerwallet/): Ledger subreddit
+- [Libertarian](https://www.reddit.com/r/Libertarian/): Liberty subreddit
+- [MachineLearning](https://www.reddit.com/r/MachineLearning/): Ml subreddit
+- [Mimblewimble](https://www.reddit.com/r/Mimblewimble/): MW subreddit
+- [Monero](https://www.reddit.com/r/Monero/): Monero subreddit
+- [nvidia](https://www.reddit.com/r/nvidia/): Nvidia subreddit
+- [onions](https://www.reddit.com/r/onions/): Onion subreddit
+- [OpenBazaar](https://www.reddit.com/r/OpenBazaar/): OB subreddit
+- [privacy](https://www.reddit.com/r/privacy/): Privacy subreddit
+- [privacytoolsIO](https://www.reddit.com/r/privacytoolsIO/): Privacytools subreddit
+- [tails](https://www.reddit.com/r/tails/): Tails subreddit
+- [TOR](https://www.reddit.com/r/TOR/): Tor subreddit
+- [web3](https://www.reddit.com/r/web3/): Web3 subreddit
+
+
+#### Gitcoin
+We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
+
+<a href="https://gitcoin.co/explorer?q=cyberd">
+ <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
+</a>
+
+#### Cyberc-n
+Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was DEVCON-0, but we believe we can do much better.
+
+cyber~Congress ha already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons.
+
+In our plans for the coming year, to organise Cyberc1n. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
+
+#### Evangelists
+The idea of an evangelist is to preach about cyber. To bootstrap this we created the Open Bootstrap Evangelism Program (OBEP), which after the bootstrap will, hopefully, carry on thanks to governance commitments and the community pool.
+
+_Mission:_ Increase initial traction. Build strong local and/or online community
+_Tooling:_ cyber tools that help. Creativity
+_General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
+
+For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. Details can [be found here](https://github.com/cybercongress/congress/issues/307). For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens from the ecosystem ~Fund via governance. 
+
+#### Meetups & Hackathons
+One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
+
+#### Partnering communities
+There are many importnat communities that cyber sees as vital for the success of building `the Great Web`, those communities include:
+
+Main communities:
+- [ ] Cosmos
+- [ ] IPFS
+- [ ] ETH
+- [ ] Web3
+- [ ] Urbit 
+- [ ] OB
+- [ ] Privacytools.io
+- [ ] Monero
+- [ ] Aragon
+
+--------------------------------
+
+Miner-related communities:
+
+- [ ] Aeternity
+- [ ] Grin
+- [ ] Cortex
+- [ ] Nvidia miners
+
+--------------------------------
+
+Validator/Staking-related communities:
+
+- [ ] Solana
+- [ ] Polkadot
+- [ ] Tezos
+- [ ] NuCypher
+- [ ] Icon
+- [ ] Loom
+- [ ] Chainlink
+- [ ] Aion
+- [ ] Dash
+
+--------------------------------
+
+Crypto-related to search communities:
+
+- [ ] Ethresearch
+- [ ] ENS
+- [ ] ZIL naming service
+- [ ] Aeternity naming service
+- [ ] Namecoin
+
+--------------------------------
+
+Crypto-related communities:
+
+- [ ] Ethermint 
+- [ ] FOAM
+- [ ] Everpedia
+- [ ] Filecoin
+- [ ] Bitcoin
+- [ ] MaidSafe
+- [ ] IOTA
+- [ ] Augur
+- [ ] Skycoin
+- [ ] Decentraland
+- [ ] MelonPort
+
+--------------------------------
+
+Decentralized social network communities:
+
+- [ ] Steem
+- [ ] Golos
+- [ ] Diaspora
+
+--------------------------------
+
+Other crypto-related communities that might be of interest now or in the future:
+
+- [ ] Gitcoin
+- [ ] Gitcolony
+- [ ] Ledger
+- [ ] Trezor
+
+--------------------------------
+
+Web 2 social networks:
+
+- [ ] Reddit 
+- [ ] Bitcointalk 
+- [ ] Twitter
+- [ ] Github
+- [ ] Ycomb
+- [ ] Cryptography digest newsletter 
+- [ ] Riat/Matrix/Freenode
+- [ ] Bitsmedia
+
+--------------------------------
+
+Media channels:
+
+- [ ] Crypto media - English speaking
+- [ ] Crypto media - Russian speaking
+- [ ] Crypto media - Other [languages](https://github.com/cybercongress/congress/issues/273)
+
+--------------------------------
+
+Offline communities:
+
+- [ ] Under 21
+- [ ] ccc
+
+--------------------------------
+
+The goal of cyber is to communicate with each of those communities via the above-mentioned communication arteries and to deliver the news to those communities. 
 
 ### Launch proccess
-- FAQ
 - Distribution games
 - Launch kit
+- FAQ
 
 ------------------------------------------------------
 
