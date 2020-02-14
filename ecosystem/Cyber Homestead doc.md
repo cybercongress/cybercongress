@@ -31,7 +31,10 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
     * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
     * [Using your Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger)
-  * [IPFS / Cosmos / Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
+  * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
+  * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
+  * [cyber~Ecosystem]()
+  * [The launch proccess]()
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
   * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
@@ -591,17 +594,17 @@ Crawlers will become tools that help masters and builders of the Great Web to mi
 cyber~Admin is an intelligent bot that helps the cyber~Cogress team to work. In fact, he is a full member of the team.
   </details>
 
-### Ecosystem
+### cyber~Ecosystem
 - Community
 - Public profiles
 - Blog
 - Website
 - GitHub
 - Gitcoin
+- Cyberc-n
 - Meetups
 - Evangelists
-
-### Partnering communities
+- Partnering communities
 
 ### Launch proccess
 - FAQ
