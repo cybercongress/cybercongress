@@ -1,11 +1,31 @@
-# IBC: a game-changer for the web
+# IBC: a game-changer for the wolrd wide web
+
+@serejandmyself @xhipster
 
 ## Introduction
 
 Since the rise of blockchain, technology evolves for the sake of decentralization and humanity, rather than feeding megacorps and solitary beneficiaries. But even today, communication in technology, and especially in blockchain, is still an issue. The extent of problems for interoperable protocols has to take into account is astonishing: security, efficiency, horizontal scalability, etc.
 
-Luckily for blockchain and technology, communities like Cosmos are solving this issue. With the birth of such a protocol as IBC, sovereign blockchains will now be able to communicate and swap data.
+Luckily for blockchain and technology, communities like Cosmos are solving this issues. With the birth of IBC, sovereign blockchains will now be able to communicate and swap data. In cyber•Congress we convinced that IBC will do a job for web3 similar to what HTTPS does for web2. In this article we want to discuss IBC as a better alternative to HTTPS and draw some use cases which we were able to imagine while creating cyber - web3 alternative to Google.
 
+## IBC vs HTTPS
+
+Let us establish a good metaphor. In current web almost every site has its own database. If the site wants to exchange information with another site some server side script query (mostly over https://) some trusted domain for required data and write response to site's database. Blockchains are also databases. But because blockchains have some superior properties, such as [SPoF resistance](https://en.wikipedia.org/wiki/Single_point_of_failure) it is not hard to predict that all existing sites will gradually move its operations to this new kind of databases.
+
+Okey, but why this transition happens, indeed? The proper question to ask is what you can do with IBC that you can not do with HTTPS...
+
+@pmarka [once told](https://dealbook.nytimes.com/2014/01/21/why-bitcoin-matters/):
+
+> If you have the money or the asset, you can pay with it; if you don’t, you can’t. This is brand new. This has never existed in digital form before.
+
+Simple answer that anything that can ...
+
+How you can do? Provsable and trustless manner ...
+______________________________________________________________________________
+
+## What is cyber?
+
+A protocol for answers. The problem lies in the
 Cyber dreams to make the knowledge interoperable. Provable, auditable and verifiable knowledge, that can make a foundation for an open and decentralized semantical field for the new Great Web, with a lot more to be yielded as a result.
 
 ## Why does cyber need IBC?
@@ -16,13 +36,14 @@ As cyber is planning on indexing and crawling through a vast amount of data, it 
 
 ## Why does IBC matter for search engines?
 
-Cyber is a general-purpose engine. Search needs to communicate among distributed databases. Think google. It doesn't search through as many things on the Internet as you might think. In fact, many things like, certain social networks, academic work, etc, stay out of the scope of the big evil beast that google has become. A search engine powered by cyber and IBC can fix this. An idea is to create intercommunication between knowledge graphs, so the cyber can supply knowledge on relevance from any chain in a trustless, but provable manner, giving back the informat
+Cyber is a general-purpose engine. Search needs to communicate among distributed databases. Think google. It doesn't search through as many things on the Internet as you might think. In fact, many things like, certain social networks, academic work, etc, stay out of the scope of the big evil beast that google has become. A search engine powered by cyber and IBC can fix this. An idea is to create intercommunication between knowledge graphs, so the cyber can supply knowledge on relevance from any chain in a trustless, but provable manner, giving back the information on the ranking.
+
+
 
 An Inter-Knowledge Protocol or IKP, powered by IBC, can function in several ways:
-- Subscription on relevant content identificators
-- Subscription on ranks for content identificators
-- Determination of value for the data behind content identificator
-
+- Subscription on relevant content identifier
+- Subscription on ranks for content identifier
+- Determination of value for the data behind content identifier
 
 ## Personal knowledge graphs
 
@@ -37,6 +58,10 @@ Different specific knowledge search engines might have different purposes and di
 With the help of IBC, zones within cyber will be able to take advantage of forming a bigger picture and partnering to support one another. This will also help to reduce the burden of indexing knowledge that already exists within the hub itself.
 
 Cyber hub will function as a major artery of the market, becoming a trade hub for domain-specific knowledge graphs. Onchain market makers may provide additional liquidity to projects who choose to fork and use cyberd as a module on their blockchain. So, thanks to IBC tokens can be transferred back and forth.
+
+## Location based search
+
+With the help of IBC, cyber can help other chains, focused on specific ideas with proofs and with value. For example, a location-based search (for chains like FOAM) can also become provable, if web3-agents will mine triangulations and attach ‘proof of location’ for every linked chain.
 
 ## Interchain governance
 
@@ -56,8 +81,6 @@ cyber and cyberlinks provide those super-powers. IKP over IBC helps cyber to spr
 
 Such a simple mechanism that cyber provides, changes the game. It changes the existing semantic field and gives the power of decision making back into the hands of the people. Along the way, creating a place for things like autonomous robots, personal data and knowledge bases, prediction markets, oracles and even predictive modelling of emotional mechanisms with the help of second layer semantics.
 
-## Location based search
-With the help of IBC, cyber can help other chains, focused on specific ideas with proofs and with value. For example, a location-based search (for chains like FOAM) can also become provable, if web3-agents will mine triangulations and attach ‘proof of location’ for every linked chain.
 
 Cyber is a decentralized google, but wouldn't it be fair if anyone could own a piece of google. IBC gives cyber those abilities. To help spread one of the most important assets that humanity created amongst any kind of thinking species.
 
