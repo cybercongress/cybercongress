@@ -10,7 +10,6 @@ Here the are:
 - [telegram](https://t.me/cybercongress)
 - [steem](https://steemit.com/@cybercongress)
 - [twitter](https://twitter.com/cyber_devs)
-- [medium](https://medium.com/cyber-congress)
 
 The main idea is personal posts. Community managers will be posting sprint reports, once a fortnight from ones own name.
 
