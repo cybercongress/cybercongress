@@ -459,8 +459,9 @@ To be continued...
 #### Using your Ledger
 To be continued...
 
-### IPFS / Cosmos / Tendermint
-A lot of the time, cyber is asked: why Cosmos? Or why IPFS? Here are some answers to why:
+### IPFS / Cosmos & Tendermint
+A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
+Here are the answers:
 
  <details>
   <summary>How do you use IPFS? </summary>
@@ -492,7 +493,103 @@ A lot of the time, cyber is asked: why Cosmos? Or why IPFS? Here are some answer
   For now, others do not exist. Polkadot was still tested when we started. Also, we tend to agree more with the philosophy of Cosmos and we hope to be connected to Polka via bridges and relayers when they finally arise.
   </details>
 
-### cyber Entities / cyber~Projects
+### cyber~Metagalaxy
+cyber is a galaxy of smaller components. Why? The simple answer, is why not? The other answer is that we want to divide the work evenly and equally amongst several entities that are each responsible for their field of work. Most importantly, this work has to be done efficiently, and breaking it up into smaller parts - helps a lot. A browser is an application, while the protocol is the protocol. They are not one entity. Same goes for the governing process. Different entities are responsible for different questions.
+
+**A visualization of the metagalaxy:**
+
+To be continued...
+
+**Selected questions about the componnets that make up the galaxy:**  
+  <details>
+  <summary>What is cyber? </summary>
+cyber is the name of the protocol that holds everything together. Think of it as black matter. 
+  </details>
+  
+   <details>
+  <summary>What is cyberd? </summary>
+cyberd is the name for the backbone of cyber and a name of the GitHub repository where the cyber protocol lives.
+  </details>
+  
+  <details>
+  <summary>What is Cyb? </summary>
+Cyb is your friendly robot/personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - a personal customizable web application, provides a better description.
+  </details>
+  
+ <details>
+  <summary>What is cyber~Page? </summary>
+cyber~Page is the gateway of the protocol. It allows you to search for things. Obtain results. View statistics. Use governance procedures. It is part of Cyb.
+  </details>
+  
+   <details>
+  <summary>What is dot~Cyber? </summary>
+dot~Cyber is another name for cyber.page: a reference interface for the cyber protocol.
+  </details>
+  
+  <details>
+  <summary>What is cyber~Congress? </summary>
+The congress is the DAO behind the launch of the protocol. The initial intentions of cyber~Congress can be found in the Evolution of Species. The congress helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens. The congress will launch the protocol, hand it over to the community and remain a functioning entity that commits to the code, improves the protocol and makes it an intergalactic product.
+  </details>
+  
+  <details>
+  <summary>What are the distribution games? </summary>
+This is described in a separate section in detail. In short, those are the technical games that help cyber~Congress and cyber to achieve a better distribution for the protocol and the governance tokens.
+  </details>
+  
+   <details>
+  <summary>What is the vesting app? </summary>
+The vesting application is an app used to vest your tokens during cyber~Auction and claim a 1-1 equivalent amount of tokens in the cyber blockchain after the end of the auction. 
+  </details>
+  
+  <details>
+  <summary>What is governance in cyber? </summary>
+The cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide, by coming to a majority agreement, on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on.
+  </details>
+  
+   <details>
+  <summary>What is cyber~Foundation? </summary>
+It is a community governed DAO. The role of cyber~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
+  </details>
+  
+  <details>
+  <summary>What is cyber~Ecosystem? </summary>
+It is the entity that is responsible for helping to grow the ecosystem. Its common goal: to build a better and a unique new web: the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications.
+  </details>
+  
+  <details>
+  <summary>Who are cyber~FundClassic? </summary>
+It is the future fund to be created and to help applications grow within the cyber ecosystem, with the help of cyber~Congress and cyber~Foundation. 
+  </details>
+  
+   <details>
+  <summary>What is cyb~Virus? </summary>
+The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck google right in google's playground fascinates us.
+  </details>
+
+   <details>
+  <summary>What is the brain? </summary>
+The brain is the explorer of cyber. It shows transactions and statistics.
+  </details>
+  
+   <details>
+  <summary>What is gravity? </summary>
+Gravity is a librabry that contains the visual components of cyb.
+  </details>
+  
+   <details>
+  <summary>Whats Chaingear? </summary>
+Chaingear is one of our secret weapons. It is not yet fully described by us. But in its essence, it is an ETH based ability for anyone to create a personal or a public database with the help of NFT tokens. For example, one may create the database .porn and then create records in that database. I.E. world.porn, and yes, it works just like a domain-based structure. But it's not a domain-based structure, as it allows you to create other types of databases too.
+  </details>
+  
+   <details>
+  <summary>What are crawlers? </summary>
+Crawlers will become tools that help masters and builders of the Great Web to migrate knowledge from web 2 to the new metaverse.
+  </details>
+  
+   <details>
+  <summary>Who is cyber~Admin </summary>
+cyber~Admin is an intelligent bot that helps the cyber~Cogress team to work. In fact, he is a full member of the team.
+  </details>
 
 ### Ecosystem
 - Community
@@ -502,7 +599,7 @@ A lot of the time, cyber is asked: why Cosmos? Or why IPFS? Here are some answer
 - GitHub
 - Gitcoin
 - Meetups
-- Ambassadors
+- Evangelists
 
 ### Partnering communities
 
