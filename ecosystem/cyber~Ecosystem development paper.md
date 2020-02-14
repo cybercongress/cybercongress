@@ -19,7 +19,7 @@ Anyone is welcome to contribute to this work via a PR to this repository. All of
 [Issues](https://github.com/cybercongress/congress/issues) and [PR's](https://github.com/cybercongress/congress/pulls) are a way of communicating. 
 
 ## The forming blocks of cyber~Ecosystem
-**Community work**<br>
+#### Community work
 One of the main goals is to form a community of scientists, geeks, researches, validators, hackers, web3 agents and users as such (of any other possible category) for Cyber. 
 
 This means on and off-line work in the form of creating certain profiles with the necessary communities, forums and chats. Most of the proposed communities to onboard can be found in [this issue](https://github.com/cybercongress/congress/issues/195). I would imagine that sooner or later we will manage to introduce Cyber to all of these communities in a significant manner, so the issue will eventually be closed. But, it will still be viewable for anyone wishing to see what was done, and what is planned for now. 
@@ -42,34 +42,34 @@ Web3 is a very broad term that can onviosuoly include endless amount of projects
 
 Please note, that by the above I want to describe a spectre of modern and efficient computers and their communities, rather than the foundations or organizations standing behind those projects. A distributed computer goes a mile further than the foundation behind it. This means onboarding communities and the ideas behind them rather than the corps behind those projects.
 
-**Metrics and TA**<br>
+**Metrics and TA:**<br>
 *TA*: All types of users | Focus on [#195](https://github.com/cybercongress/congress/issues/195) <br>
 *Measure Metrics*: commMetric | Total number of posts about Cyber to measure overall community involvemnt.
 As a side metric, the number of links to the WP can also be used.
 
-**Cyberc0n**<br>
+#### Cyberc0n
 Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was [DEVCON-0](https://ethereum-homestead.readthedocs.io/en/latest/introduction/history-of-ethereum.html), but we believe we can do much better.
 
 cyber~Congress ha already organised [one self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons. 
 
 In our plans for the coming year, to organise Cyberc0n-1. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
 
-**Metrics and TA**<br>
+**Metrics and TA:**<br>
 *TA*: Event participants <br>
 *Measure Metrics*: conMetric | Total number of participants at the event that claimed a gift after the event.
 
-**Friendly aliens and partenrships**<br>
+#### Friendly aliens and partenrships
 To achieve some of the above goals we need to form strategic partnerships. Mind you, we do not expect any of the above projects to jump the train just because we are awesome. More so, as you can see, we believe that developing Cyber means developing computing, rather than developing foundations behind those computers. This means that we will first of all look for similar values with our future allies. 
 
 Those can be [OS like Tails](https://tails.boum.org/) for example or the above mentioned IPFS protocol community. Those could be anyone sharing our views to overthrow megacorps and build a safe, secure and an efficient web for the future. 
 
 The formation of such partnerships is difficult. For one, because it requires to offer something that doesn't exist yet, but has to be formed out of values and future technology. Hence, for now, I will just leave this at that.
 
-**Metrics and TA**<br>
+**Metrics and TA:**<br>
 *TA*: Projects and users | Focus on newly formed partnerships <br>
 *Measure Metrics*: alienMetric | Watch for changes in tx increase after integration to understand the newly brought value. 
 
-**Governance and proposals**<br>
+#### Governance and proposals
 As described in our paper the donated funds from ETH will be governed by an Aragon DAO. This means community governance for pretty much everything. Building applications, developing the protocol, onboarding projects, etc.
 
 We understand that this is a difficult task. Hence one of the tasks will be to help this evolve naturally. The least we can do is to take part in helping to form those proposals and provide the needed tooling to help the community to act on its will via their proposals. 
@@ -82,7 +82,7 @@ Other than this, governance should be community-based, meaning that the ecosyste
 *TA*: THC hodlers | Users interested in governance. <br>
 *Measure Metrics*: govMetric | Amount of locked THC in proposal contracts to meausre user adoption of governance modules. 
 
-**Hacking and open-source**<br>
+#### Hacking and open-source
 If there is one thing that we believe in more than all else, it is probably open-source. Hence, we understand the value of building a community of open-source contributors. 
 
 As much as the powers of open-source alone can be compared with magic, it is vital to drive what works - forward. Gitcoin offers just the solution for this. Developers are a vital part of a functioning mechanism of any technological product. We will be funding [Gitcoin issues](https://gitcoin.co/cybercongress) to help us develop the protocol (and beyond) and help us to build a distributed hacker community from all over the world.  
@@ -93,7 +93,7 @@ We believe that we need to become part of the Gitcoin community, hence, we will 
 *TA*: Gitcoin (and any open-source) committers to Cyber. <br>
 *Measure Metrics*: hackMetric | To measure Gitcoin success rate and general technological interest | % of paid funds to % of offered funds for issues | Total number of starred (>2), active forks of Congress repos. 
 
-**Research and R&D**<br>
+#### Research and R&D
 All this requires research. A lot of research. Open-source, funded research that will benefit, not just Cyber, but will benefit the world. An example of what I mean [can be found here](https://github.com/cybercongress/congress/blob/master/research/knowledge%20graph/Deep%20Bidirectional%20Transformers%20(working%20name).md), in our first proposal for community research, that will be granted by cyber~Congress. 
 
 We want to prove that our vision of [the Evolution of spicies](https://github.com/cybercongress/congress/blob/master/README.md) can and will uphold. It is vital to the overall success of the protocol. It can prove that all beings and species can communicate. They can control their private keys and can transact, hence communicate their will, which can be further computed onto a knowledge graph - ranked and indexed. Hence, creating truly intergalactic communication. 
@@ -104,7 +104,7 @@ We are hoping that scientists all over the world can see that what we propose vi
 *TA*: Open-source researches and active users. <br>
 *Measure Metrics*: researchMetric | Total amount of outside likes/votes on published research to measure its quality. 
 
-**VC**<br>
+#### VC
 All this requires funds. As much as we would love for all to simply help us, distribute our tokens and let the beast live - we are aware that we are leaving in a world spun by money, which in itself isn't bad. Money is simply a communication protocol, alas - one that is broken. 
 
 Luckily for us, blockchain helps to fix this. In our paper, we describe the donation process, which I will not go into again. What it does mean, is that one of the main tasks of cyber~Ecosystem is to help to receive those donations from some resources. This means a lot of off-line and on-line community work, described above. 
@@ -117,7 +117,7 @@ We want to be clear about our intentions, this means that we do have personal in
 *TA*: Doners. <br>
 *Measure Metrics*: vcMetric | % of target donations that is closed up to a certain date to understand the success of ongoing donations. 
 
-**cyber~FundClassic**<br>
+#### cyber~FundClassic
 The above-mentioned document also mentions the ecosystem~ Fund. This fund will be funded out of the personal bag of cyber~Congress and its team members that wish to fund it. However, I believe that a further option of having community members also help to fund should remain open.
 
 The purpose of cyber~FundClassic is simple - find teams that want to build on top of the Cyber protocol, fund them, help them to buidl. The idea behind it as simple as they get - [Ycombinator](https://www.ycombinator.com/). This means that the fund can be entitled to receive possible future profits from projects that it funds, and so are its funding members.
@@ -126,7 +126,7 @@ The purpose of cyber~FundClassic is simple - find teams that want to build on to
 *TA*: Cyber apps    | Market interest. <br>
 *Measure Metrics*: fundMetric | Total cap of tokens issued on top of the Cyber protocol to measure the adoption of the technology and its market value. 
 
-**The important generation**<br>
+#### The important generation
 We have stated on many occasions that we must concentrate on younger generations, not simply because they are the users and the engineers of tomorrow. That is, of course - one reason. But the reality is that the young (and the coming) generation has a completely different recognition of what we do. And that is a good thing.
 
 We can help to build the paradigm that we are fighting for, maybe even live in it. But it is a battle for us to begin with. Starting with the understanding of the flows of the modern financial systems, to the understanding of digital realms, VR, AI and the importance of how search shapes our thinking. For us, a smartphone will always remain somewhat of a mystical creature. Cryptocurrencies will always remain "digital". And everyday use of cryptography (i.e. private keys) will always be a measure of security. And, yes. It is so. But, it is not inbuilt into us. Just like a photo camera is part of our life, so must be cryptos, private keys, the internet and the digital space. So far, we can only grasp the importance of digital space, younger generations can live it. We understand and value this small but vital difference. 
