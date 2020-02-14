@@ -34,7 +34,17 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
-  * [The launch proccess]()
+    * [Community](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#community)
+    * [Communication flow & Blog](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#communication-flow--blog)
+    * [Congress website & cyber.page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#congress-website--cyberpage)
+    * [GitHub](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#github)
+    * [Public Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles)
+    * [Gitcoin](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#gitcoin)
+    * [Cyberc-n](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberc-n)
+    * [Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#evangelists)
+    * [Meetups & Hackathons](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#meetups--hackathons)
+    * [Partering communities](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#partnering-communities)
+  * [The launch proccess](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launch-proccess)
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
   * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
@@ -661,7 +671,7 @@ A list of public groups and chats:
 - [Youtube 2](https://www.youtube.com/channel/UC18zbxbAhmleUPebbGApAMg): Our main youtube channel for VIP material
 - [Cosmos discord](https://discord.gg/bdJ6q9): Cosmos discord group (look for ecosystem/cyber)
 - [fuckgoole RIAT](https://riot.im/app/#/room/#fuckgoogle:matrix.org): cyber RIAT channel
-- [Urbit](join ~dilled-fastyd/fuckgoogle): cybers Urbit group
+- Urbit: `join ~dilled-fastyd/fuckgoogle` - cybers Urbit group
 - [Steemit](https://steemit.com/@cybercongress): Our, not so used, steemit blog
 
 A list of forum profiles:
