@@ -68,7 +68,9 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 
 ### How to use this guide
-Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about. We also suggest you take advantage of the `cntrl-F` function to search for what you are looking for.
+Until something more interactive comes up, this guide will be shaped as a reading document. 
+
+You may skip through the content by clicking the desired section you wish to read or/and study info about. We also suggest you take advantage of the `cntrl-F` function to search for what you are looking for. If you used the content section to get to any of the sections, then the `back` button on your browser should take you back to the content page again. 
 
 The guide is, currently, made by the [cyber~Congress team](https://cybercongress.ai/). Its meant to be a knowledge database for everything that there is to know about the beast cyber is. 
 
