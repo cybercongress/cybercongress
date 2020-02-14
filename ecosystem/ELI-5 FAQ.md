@@ -24,7 +24,7 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 ---------------------------------
 
 ## What is cyber (the simple answer)?
-Cyber is a decentrlaized google, for provable and relevant answers. 
+Cyber is a decentralized google, for provable and relevant answers. 
 
 ## What is cyber (a detailed answer)?
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
@@ -50,7 +50,7 @@ Cyber is not THE new internet. It is a tool that can help to shape and to decent
 
 ## The philosophy behind Cyber:
 ### What problem are you trying to solve?
-We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge and that we are moving into the digital age). 
+We are trying to solve the problem of data centralization and data censorship. Which in other words, is decentralization of common knowledge (assuming that data is the new knowledge, and that we are moving into the digital age). 
 
 ### Why are you doing this?
 Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
@@ -104,17 +104,17 @@ A consensus in computing refers to the process of different computers agreeing o
 ### What is a Merkle tree?
 A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
 
-### What is a blockchain
+### What is a blockchain?
 A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
 
 ### What is a transaction?
-In terms of a blockchain, a transaction is the process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+In terms of a blockchain, a transaction is a process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
 
 ### What's a token?
 A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
 
 ### What is NFT?
-NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history. 
+NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its characteristics, value and history. 
 
 ### What's bandwidth?
 Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another. 
@@ -125,10 +125,10 @@ In cyber bandwidth plays a major role. It is a spam protection mechanism. It all
 Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
 
 ### What is BFT?
-BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+BFT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement to successfully attack a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
 
 ### What is POS?
-Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main ideas is to protect the system through the use of the stake of its participants. 
+Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main idea is to protect the system through the use of the stake of its participants. 
 
 ### What is staking?
 Staking is the process of "locking" your tokens to receive rewards.
@@ -198,7 +198,7 @@ Finally, there are hardware wallets (they can also be hot or cold). A hardware w
 ### Why Cyber?
 We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years. 
 
-Actually, cyber refers to anything that is very smart. The meaning is rooted from the word `cybernetics` (check out this article on [Wikipedia](https://en.wikipedia.org/wiki/Cybernetics#Subdivisions_of_the_field)) - a science which describes the behaviour of dynamic systems with feedback loops.
+Cyber refers to anything that is very smart. The meaning is rooted from the word `cybernetics` (check out this article on [Wikipedia](https://en.wikipedia.org/wiki/Cybernetics#Subdivisions_of_the_field)) - a science which describes the behaviour of dynamic systems with feedback loops.
 
 In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
@@ -228,14 +228,14 @@ Pages are added to the index (the word index is about all the information stored
 Pages are not excluded from the index in any way. 
 
 ### So is there any censorship?
-Nope... Not on the protocol level. Not on the database level. Not on the consensus level. Every transaction should and must be routed (passed to its destination whatever it maybe).
+Nope... Not on the protocol level. Not on the database level. Not on the consensus level. Every transaction should and must be routed (passed to its destination whatever it may be).
 
 ### So what do you do with those who break the law?
 If we obscure from the question of what is the law and by whom it is determined, then:
 
 There are no bad intentions in wanting to find the answer to something. You might not know something is "bad" until you know what it is. We are born Tabula Rasa - a clean sheet. The answer itself might indeed contain information that someone might see as "bad" or "inappropriate". This is not something we can control. We do not produce the information, we provide the tool to search through it and obtain it. 
 
-It can be assumed that in the future, someone will build applications on top of cyber and might want to filter out information on the application level (the results that the end-users sees and interacts with). This is not encouraged, but indeed is up to the developer. We will never do something like this. Regardless if this happens or not, the protocol will NOT be censored and that information will be accessible. 
+It can be assumed that in the future, someone will build applications on top of cyber and might want to filter out information on the application level (the results that the end-users sees and interacts with). This is not encouraged, but indeed, is up to the developer. We will never do something like this. Regardless if this happens or not, the protocol will NOT be censored and that information will be accessible. 
 
 This will create a competition between developers to pass the truth to the users.
 
@@ -268,7 +268,7 @@ It was the most efficient, suitable for our needs and ready to use the network w
 
 **cyber~Blocks**
 ### What is cyber~Page?
-cyber~Page is the face of the protocol in a way. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
+cyber~Page is the face of the protocol. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
 
 ### What is Cyb?
 Cyb is your friendly robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
@@ -348,7 +348,7 @@ Of course, other implementations can be applied. For example, both tokens can be
 Not in Cyber. I.E. CYB tokens do not have transactional costs. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. On the other hand, THC tokens are Ethereum based, so - yes, they have transactional costs withing the Ethereum ecosystem (transactions cost gas).
 
 ### What are Resource Credits (RC)?
-Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transaction in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc. 
+Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transactions in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc. 
 
 ### What are the distribution games?
 The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. 
@@ -383,7 +383,7 @@ There are 1 PTCYB (a peta is 15 zeros). They are broken down per following:
 - 90% for the distribution games (in other words open-sale) and for those who stake THC tokens (including cyber~ Congress)
 - 10% is a gift to Urbit, Cosmos and ETH communities
 
-A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md) and in [our whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
+A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md) and [our whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
 ### So is the inflation endless?
 The inflation in cyberd is defined by validators.
@@ -451,7 +451,7 @@ Right now there is no question about them. As of now, it is irrelevant in our pr
 
 We already have more plans on how to introduce other computational resources into the picture. For example, this can be a PoW mechanism based on RandomX algorithm. But, once again, as of now ASIC's are out of scope for our current work. 
 
-It should be noted that in our case ASIC's are actually not a bad thing, if they do arise on the horizon. In the case of Cyber ASIC's will help the validators to compute more knowledge onto the knowledge graph, hence making it better!
+It should be noted that in our case ASIC's are not a bad thing if they do arise on the horizon. In the case of Cyber ASIC's will help the validators to compute more knowledge onto the knowledge graph, hence making it better!
 
 ### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
 When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
@@ -468,7 +468,7 @@ To do this we need crawlers. A lot of crawlers that can transfer content. We hav
 ### Do you have a White Paper?
 Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
 
-### When are launching a stable mainet?
+### When are launching a stable mainnet?
 The network will launch when Game of Links is done (the other 2 games are held after the launch). There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
 
 ### Who are the people behind the project?
@@ -598,7 +598,7 @@ Our license agreement is this: `Don’t believe, don’t fear, don’t ask.`
 Eventually, we will meet each other with the help of IBC or other instruments of the free market. 
 
 ### Can I build something on top of cyber?
-You defiantly should! The idea of forking cyber is not just a call to action. It is a call for development. You may build your own specialised search (knowledge graphs) that reference to our general-purpose knowledge graph. You may provide services on top of your own, or our knowledge graph and IPFS (services such as e-commerce, SEO, hosting, identity, etc).
+You defiantly should! The idea of forking cyber is not just a call to action. It is a call for development. You may build your specialised search (knowledge graphs) that reference to our general-purpose knowledge graph. You may provide services on top of your own, or our knowledge graph and IPFS (services such as e-commerce, SEO, hosting, identity, etc).
 
 You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes. 
 
@@ -615,22 +615,15 @@ In general, think of cyber as of a completely, brand-new mechanism for obtaining
 - [IPFS docs](https://docs.ipfs.io/)
 - [Urbit docs](https://urbit.org/docs/)
 - [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf)
-- [Cosoms intro](https://cosmos.network/intro)
+- [Cosmos intro](https://cosmos.network/intro)
 - [ETH wiki](https://github.com/ethereum/wiki/wiki/What-is-Ethereum)
 - [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
-- [Launc kit FAQ](https://github.com/cybercongress/launch-kit/blob/0.1.0/Launch%20FAQ.md)
 - [Distribution and launch model](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md)
 - [Usecases doc](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md)
 - [Our twitter](https://mobile.twitter.com/cyber_devs)
 - [Our Telegram](https://t.me/fuckgoogle)
 - [Our forum](https://ai.cybercongress.ai/)
-- [Validator docs](https://cybercongress.ai/docs/cyberd/cyberd/)
+- [Validator onboarding](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
 - [Aragon website](https://aragon.org/)
 - [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
-
-
-
-
-
-
 
