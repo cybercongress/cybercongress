@@ -28,7 +28,10 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
   * [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
-  * etc...
+    * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
+    * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
+    * [Using your Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger)
+  * [IPFS / Cosmos / Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
   * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
