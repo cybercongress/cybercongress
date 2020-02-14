@@ -52,7 +52,7 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 
 ### How to use this guide
-Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about.
+Until something more interactive comes up, this guide will be shaped as a reading document. You may skip through the content by clicking the desired section you wish to read or/and study info about. We also suggest you take advantage of the `cntrl-F` function to search for what you are looking for.
 
 The guide is, currently, made by the [cyber~Congress team](https://cybercongress.ai/). Its meant to be a knowledge database for everything that there is to know about the beast cyber is. 
 
@@ -361,8 +361,133 @@ There are 3 points on which we should touch when discussing cyber~Congress:
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
 ### Using cyber: The very basics
+#### cyber~Page
+We suggest you start your acquaintance with using cyber from [cyber.page](http://cyber.page/). It is a small taste (it is, currently, in alpha mode) of an IPFS based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol.
+
+First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story`:
+
+<img src="https://i.postimg.cc/KzPkY6qv/Screenshot-from-2020-02-14-14-45-15.png" />
+
+Just turn on the speakers and enjoy the journey:
+
+<img src="https://i.postimg.cc/85NWLkrr/Screenshot-from-2020-02-14-14-47-34.png" />
+
+You are now on the main page. Rest assured, it's working. Let me remind you that when google introduced their notorious sear bar, people were ready to kill. We think simple is good. Black is sexy:
+
+<img src="https://i.postimg.cc/6q7QvFzv/Screenshot-from-2020-02-14-14-49-02.png" />
+
+Try clicking the search box in the middle and search for something original like `cyber`:
+
+<img src="https://i.postimg.cc/yxzZ717N/Screenshot-from-2020-02-14-14-51-12.png" />
+
+This will return some results:
+
+<img src="https://i.postimg.cc/k4wmgwmt/Screenshot-from-2020-02-14-14-53-50.png" />
+
+Those are sparks (snippets), containing cyberlinked hashes, that someone linked, enriched semantically and here they are. The numbers next to the hashes are the current ranks.
+
+The sparks don’t look fantastically attractive. But they will be later. They will even be alive and P2P-style interactive in the future. Let’s click on one of the results (please be patient, the network is still slow and the first time around it might take a while until something loads - this is peer discovery. More so, there is a possibility something won’t even load, as it was unpinned):
+
+(Of course, the results are dynamic, the first hash led me to the cyber WP. Let us know what results you got)
+
+<img src="https://i.postimg.cc/DwY5nXHy/Screenshot-from-2020-02-14-14-56-16.png" />
+
+Let’s click on the brain. That purple essence in the top left corner:
+
+<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+
+This will take us onto the main knowledge page:
+
+<img src="https://i.postimg.cc/GtcSH1Qc/Screenshot-from-2020-02-14-15-00-01.png" />
+
+Here, you may explorer network statistics, validators, economic parameters, % of staked tokens, bandwidth price, etc. To do this, simply click on any of the buttons. I.E. `Cybernomics`, `Bandwidth`, etc
+
+Notice that the top box, at the top, becomes searchable. You can perform search actions from here too. More so, cyber doesn't just understand keywords, it also understands addresses. For example, try searching an ETH address:
+
+<img src="https://i.postimg.cc/y8Pt9jx1/Screenshot-from-2020-02-14-15-08-22.png" />
+
+This will, most likely, take you to the gift page:
+
+(Cyber gifted 10% of its supply to [ETH](https://www.ethereum.org/), [ATOM](https://cosmos.network/) and [URBIT](https://urbit.org/) hodlers)
+
+If the address was lucky and got gifted, you will see something like this:
+
+<img src="https://i.postimg.cc/8z1n1vHq/Screenshot-from-2020-02-14-15-08-56.png" />
+
+(Otherwise, the results will display gift:0)
+
+Now, try clicking the robot in the top right corner: 
+
+(Notice, that when you hover over it, it displays text with links, feel free to explore them)
+
+<img src="https://i.postimg.cc/4x9nxKxQ/Screenshot-from-2020-02-14-15-10-44.png" />
+
+This takes you to the Ledger page:
+
+<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
+
+If you click the bottom button `Put Ledge into the pocket`, it will offer you to connect your Ledger (on this, later on, with different guides):
+
+<img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
+
+Notice that the network is still learning, so if you type in something cyber isn't aware of yet, you will be displayed with this:
+
+<img src="https://i.postimg.cc/gk93qPLs/Screenshot-from-2020-02-14-15-15-24.png" />
+
+However, you will see a result. This is a hash that takes you to an explanation page if you click it:
+
+<img src="https://i.postimg.cc/Qdf2WmYQ/Screenshot-from-2020-02-14-15-17-12.png" />
+
+Let's go back to the brain by clicking it:
+
+<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+
+Notice, how there is a message box, right under the top search box, saying you need tokens. Click on the `Game of Links` green link. This will take you here:
+
+<img src="https://i.postimg.cc/25cLJsc1/Screenshot-from-2020-02-14-15-19-38.png" />
+
+Here, you may find details about the Game of Links, its distribution. Check out the `Masters path` (builder of the Great Web) or the `Heros path` (validators of the Great Web) by clicking on either. The results will help you to understand more details.
+
+For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
+
+#### cyb~Virus
+To be continued...
+
+#### Using your Ledger
+To be continued...
 
 ### IPFS / Cosmos / Tendermint
+A lot of the time, cyber is asked: why Cosmos? Or why IPFS? Here are some answers to why:
+
+ <details>
+  <summary>How do you use IPFS? </summary>
+   cyber uses IPFS as the current backbone on which users perform the search. Think about IPFS for cyber, as of the fridge, and cyber is the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it. If there was no lightbulb, how would you find food in the fridge during those hungry nights?
+  </details>
+  
+ <details>
+  <summary>Why is IPFS better than other protocols? </summary>
+  cyber does not claim that something is better than something else. However, IPFS is revolutionary. It is the first protocol that created content-based addressing, which allowed cyber to build cyberlinks on top of it and change the way we search for information. 
+  </details>
+  
+ <details>
+  <summary>What other protocols are you planning to use? </summary>
+ cyber plans to be protocol agnostic. For both stateless protocols (in which no session information is retained by the receiver): IPFS, Swarm, DAT, Git, BitTorrent, or stateful, such as: Bitcoin, Ethereum, other blockchains and tangles. This means the cyber is smart enough to understand any type of protocol is taught and can truly become the backbone of search for the Great Web. 
+  </details>
+  
+ <details>
+  <summary>Why do use Cosmos/Tendermint? </summary>
+  (1) When we started to build Cosmos was already in mainnet. (2) Cosmos has IBC, a protocol that allows for data transfer between sovereign blockchains. (3) We share the decentralized, non-monolithic philosophy that Cosmos preaches. (4) The security of Tendermint and Cosmos-SDK is top-notch 
+  </details>
+  
+   <details>
+  <summary>How do you use Cosmos? </summary>
+  Cosmos provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc
+  </details>
+  
+  <details>
+  <summary>Why don't you use Polkadot or other solutions? </summary>
+  For now, others do not exist. Polkadot was still tested when we started. Also, we tend to agree more with the philosophy of Cosmos and we hope to be connected to Polka via bridges and relayers when they finally arise.
+  </details>
 
 ### cyber Entities / cyber~Projects
 
