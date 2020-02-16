@@ -657,7 +657,7 @@ If you are looking for releases, code sources, want to help us via an issue or a
 #### Public profiles
 There are many public profiles that the cyber~Congress team has created. 
 
-A list of public groups and chats:
+A list of public profiles, sites and chats:
 - [GitHub](https://github.com/cybercongress): A place for the code, docs and communication
 - [cyber.page](https://cyber.page/): The main interface and reference to cyber
 - [cyber~Congress DAO website](https://cybercongress.ai/): A place for the teams' projects, docs and blog
@@ -692,15 +692,16 @@ and social networks](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-
 A list of profiles in awesome lists:
 - [Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem): A list of awesome Cosmos projects
 - [IPFS awesome list](https://github.com/ipfs/awesome-ipfs): Our profile on IPFS awesome list
-- [Aragon wiki](https://wiki.aragon.org/about/projects/): Our profile on the Aragon wiki
-- [Tendermint awesome list](https://github.com/tendermint/awesome): A profile on the TEndermint awesome list
+- [Tendermint awesome list](https://github.com/tendermint/awesome): A profile on the Tendermint awesome list
 - [deGoogle list](https://github.com/tycrek/degoogle): cyber on the degoogle tools list
+- [Awesome TCR](https://github.com/miguelmota/awesome-token-curated-registries): A list of projects using TCR
 
-A list of profiles on projects websites:
+A list of profiles on other projects websites:
 - [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem
 - [IPFS project list](https://blog.ipfs.io/2020-02-10-our-focus-for-2020/): A list of IPFS projects
+- [Aragon wiki](https://wiki.aragon.org/about/projects/): Our profile on the Aragon wiki
 
-A list of TG groups that cyber is active in:
+A list of TG groups that cyber participates in:
 - [Cosmos netowr](https://t.me/cosmosproject): Main Cosmos TG channel
 - [Cosmos VIP]: Invite only channel. Cosmos VIP TG group
 - [Cosmos governance group](https://t.me/hubgov): Cosmos TG governance group
@@ -708,14 +709,14 @@ A list of TG groups that cyber is active in:
 - [Comnsos DVD](https://t.me/CosmosDVD): Cosmos TG developers group
 - [CosmosRu](https://t.me/CosmosprojectRu): Cosmos Russian TG group
 
-A list of Cosmos RIAT chats that cyber is active in:
+A list of Cosmos RIAT chats that cyber participates in:
 - [Cosmos SDk](https://riot.im/app/#/room/#cosmos-sdk:matrix.org): Cosmos SDK discussions
 - [Game of Zones](https://riot.im/app/#/room/#goz:matrix.org): GoZ discussions
 - [Cosmos Netwrok](https://riot.im/app/#/room/#cosmos:matrix.org): Main Cosmos RIAT channel
 - [Comsos Validators](https://riot.im/app/#/room/#cosmos-validators:matrix.org): RIAT Cosmos validator group
 - [Cosmos Validators Technical Updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org): Technical validator updates
 
-Non Comos related RIAT cahts that cyber present in:
+Non-Cosmos related RIAT chats that cyber is present in:
 - [Polkadpt watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org): Polkdaot main RIAt channel
 - [Kusama validator lounge](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders): RIAT Kusama vlaidator channel
 - [Tezos](https://riot.im/app/#/room/#tezos:matrix.org): Tezos RIAT channel
