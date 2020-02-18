@@ -1045,14 +1045,941 @@ THC donations will be managed by an Aragon DAO (the community) to help develop t
   
 ------------------------------------------------------
 
-## :nut_and_bolt: Section subtitle: Mama I'm an enginner
+## :nut_and_bolt: Section subtitle: Mama I'm an engineer
+By now you should be somewhat familiar with what cyber is and its basics. In this section, we will learn to be engineers. At first, this section was meant to be part of the technical guides and the deep space section. But validating cyber is of uber importance, hence, before we move on, let's see how you can become amongst the first to validate `The Great Web` and earn rewards.
 
 ### Validating cyber
-- validator guides
-- video
-- CLI
-- ledger
-- infrastructure set-up
+#### A cheat code
+You may skip through this and jump straight to the [onboarding guide](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md) for validators, which contains all of the links to mos of the information described below.
+
+#### Questions and answers
+**Q:** How do I become a validator in Cyber?
+**A:** Make sure you have the requirements described in this document and follow this guide
+
+**Q:** What do I need to become a validator in Cyber?
+**A:** Anyone can become a validator if he has the right hardware to run it. Right now, the requirements are as following:
+- CPU: 4 cores (6 is better)
+- RAM: 16 GB (64 would be better)
+- SSD: 256 GB (512 is preferred)
+- Connection: 100 Mbit fiber
+- GPU: CUDA / GeForce 1070/80
+- Software: Linux, Docker
+
+**Q:** Do I need to become a validator?
+**A:** It is only up for you to decide if you do. As a validator, you will be entitled to receive rewards out of the inflation for committing your hardware.
+
+**Q:** What are the incentives for becoming a validator?
+**A:** You can earn rewards and help to bootstrap the network by running a validator node. Apart from that:
+- You can use your cards to take part in computing the knowledge graph and be a part of an interesting project
+- You will be receiving rewards for running a validator, just like in Cosmos (ATOM)
+- You will be eligible to build your reputation in the system and can participate in governance during the mainnet
+- You can receive a commission from delegators on the mainnet
+- You can take part in forming the knowledge graph of the new Great Web
+- Become a web3 provider
+
+ #### Become a hero: launch a node
+ We call validators heroes, this is because they are. They are the heroes that can help to set, run and maintain the right, distributed, open-source, desired infrastructure needed for `The Great Web`.
+ 
+To become a hero, follow this guide:
+
+*Note:* The current active testnet is `euler-5` (substitute <testnet_chain_id> with that value, do not forget to remove the `<` and the `>` symbols).
+
+**Prepare your server**
+First, you have to set up a server.
+You should run your validator node all the time. This means that you will need a reliable server to keep it running.
+Also, you may consider using any cloud service with dedicated GPU, like Hetzner (or a local machine).
+
+Cyberd is based on Cosmos SDK and written in Go.
+It should work on any platform which can compile and run programs in Go.
+However, we strongly recommend running the validator node on a Linux server.
+
+Rank calculation in cyberd is beneficial to GPU computation.
+They are easy to parallelize. This is why it is best to use GPU.
+
+Recommended requirements:
+```js
+CPU: 6 cores
+RAM: 32 GB
+SSD: 256 GB
+Connection: 100Mb, Fiber, Stable and low-latency connection
+GPU: Nvidia GeForce(or Tesla/Titan/Quadro) with CUDA-cores; at least 6gb of memory*
+Software: Docker, Ubuntu 16.04/18.04 LTS
+```
+
+*Cyberd runs well on consumer-grade cards like Geforce GTX 1070, but expecting load growth we advise using Error Correction compatible cards from Tesla or Quadro families.
+
+But, of course, the hardware is your own choice and technically it might be possible to run the chain on "even - 1 CUDA core GPU", but, you should be aware of stability and a decline in calculation speed.
+
+**Third-party software**
+The main distribution unit for Cyberd is a [Docker](https://www.docker.com/) container. All images are located in the default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/). To access the GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For better user experience, we propose you use [portainer](https://portainer.io) - a docker containers manager. You can skip any subsection of this guide if you already have any of the necessary software configured.
+
+**Docker installation**
+Simply, copy the commands below into your CLI.
+
+1. Update the apt package index:
+```bash
+sudo apt-get update
+```
+
+2. Install packages to allow apt to use a repository over HTTPS:
+```bash
+sudo apt-get install \
+     apt-transport-https \
+     ca-certificates \
+     curl \
+     gnupg-agent \
+     software-properties-common
+```
+
+ It may require installing `curl` - `apt-get install curl`
+
+3. Add Docker’s official GPG key:
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+```bash
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+
+4. Update the apt package index:
+```bash
+sudo apt-get update
+```
+
+5. Install the latest version of Docker CE and containerd or skip to the next step to install a specific version (as of Nov 2019 version 19.03 is required):
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+If you don’t want to preface docker commands with sudo create a Unix group called docker and add users to that group. When the Docker daemon starts it creates a Unix socket accessible by members of the docker group.
+
+6. Create the docker group:
+```bash
+sudo groupadd docker
+```
+
+7. Add your user to the docker group:
+```bash
+sudo usermod -aG docker $YOUR-USER-NAME
+```
+
+8. Reboot the system for the changes to take effect.
+
+**Portainer installation (optional)**
+1. Before installing Portainer, download the Portainer image from the DockerHub using the docker pull command below:
+```bash
+docker pull portainer/portainer
+```
+
+2. Now, run Portainer by using the simple docker command from below:
+```bash
+docker run -d --restart always -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
+
+3. Open your browser and go to:
+```bash
+localhost:9000
+```
+
+![portainer](https://ipfs.io/ipfs/QmS42MJxjUB7Cu1GoJeE6eBmWkjHTZdgiAUcX4Qqy9NR3M)
+
+4. Create a username and set a password. Chose the `local` tab and click `connect`.
+All the containers will be available in the `containers` tab on your dashboard.
+
+**Nvidia drivers installation**
+1. To proceed, first add the `ppa:graphics-drivers/ppa` repository into your system (you might see some warnings - press `enter`):
+```bash
+sudo add-apt-repository ppa:graphics-drivers/ppa
+```
+
+```bash
+sudo apt update
+```
+
+2. Install Ubuntu-drivers:
+```bash
+sudo apt install -y ubuntu-drivers-common
+```
+
+3. Next, identify your graphic card model and the recommended drivers:
+```bash
+ubuntu-drivers devices
+```
+
+You should see something similar to this this:
+```bash
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00001BA1sv00001462sd000011E4bc03sc00i00
+vendor   : NVIDIA Corporation
+model    : GP104M [GeForce GTX 1070 Mobile]
+driver   : nvidia-driver-418 - third-party free
+driver   : nvidia-driver-410 - third-party free
+driver   : nvidia-driver-430 - third-party free
+driver   : nvidia-driver-440 - third-party free recommended
+driver   : xserver-xorg-video-nouveau - distro free builtin
+```
+
+4. We need the *410+* drivers release. As you can see v440 is recommended. The command below will install the recommended version of drivers:
+```bash
+sudo ubuntu-drivers autoinstall
+```
+
+Drivers will install for approximately 10 minutes.
+
+```bash
+DKMS: install completed.
+Setting up libxdamage1:i386 (1:1.1.4-3) ...
+Setting up libxext6:i386 (2:1.3.3-1) ...
+Setting up libxfixes3:i386 (1:5.0.3-1) ...
+Setting up libnvidia-decode-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up build-essential (12.4ubuntu1) ...
+Setting up libnvidia-gl-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libnvidia-encode-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up nvidia-driver-415 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libxxf86vm1:i386 (1:1.1.4-1) ...
+Setting up libglx-mesa0:i386 (18.0.5-0ubuntu0~18.04.1) ...
+Setting up libglx0:i386 (1.0.0-2ubuntu2.2) ...
+Setting up libgl1:i386 (1.0.0-2ubuntu2.2) ...
+Setting up libnvidia-ifr1-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Setting up libnvidia-fbc1-415:i386 (415.27-0ubuntu0~gpu18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for initramfs-tools (0.130ubuntu3.1) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-45-generic
+```
+
+5. Reboot the system for the changes to take effect.
+
+6. Check the installed drivers:
+```bash
+nvidia-smi
+```
+
+You should see this:
+(Some version/driver numbers might differ. You also might have some processes already running)
+
+```bash
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.26       Driver Version: 430.14       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:01:00.0 Off |                  N/A |
+| 26%   36C    P5    26W / 180W |      0MiB /  8119MiB |      2%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
+
+**Install Nvidia container runtime for docker**
+1. Add package repositories:
+```bash
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+```
+
+```bash
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+```
+
+```bash
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+```
+
+You should see this:
+```bash
+deb https://nvidia.github.io/libnvidia-container/ubuntu18.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-container-runtime/ubuntu18.04/$(ARCH) /
+deb https://nvidia.github.io/nvidia-docker/ubuntu18.04/$(ARCH) /
+```
+
+2. Install nvidia-docker2 and reload the Docker daemon configuration:
+```bash
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+```
+
+```bash
+sudo systemctl restart docker
+
+```
+
+3. Test nvidia-smi with the latest official CUDA image:
+```bash
+docker run --gpus all nvidia/cuda:10.0-base nvidia-smi
+```
+
+Output logs should coincide as earlier:
+```bash
+Unable to find image 'nvidia/cuda:10.0-base' locally
+10.0-base: Pulling from nvidia/cuda
+38e2e6cd5626: Pull complete
+705054bc3f5b: Pull complete
+c7051e069564: Pull complete
+7308e914506c: Pull complete
+5260e5fce42c: Pull complete
+8e2b19e62adb: Pull complete
+Digest: sha256:625491db7e15efcc78a529d3a2e41b77ffb5b002015983fdf90bf28955277d68
+Status: Downloaded newer image for nvidia/cuda:10.0-base
+Fri Nov  1 05:41:12 2019
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.26      Driver Version: 440.26       CUDA Version: 10.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   55C    P0    31W /  N/A |    445MiB /  8117MiB |     38%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
+```
+
+Your machine is now ready to launch the fullnode.
+
+**Cyberd fullnode launching**
+1. Create folders for keys and data storing where you want, for example:
+``` bash
+mkdir /cyberd-dev/cyberd
+mkdir /cyberd-dev/cyberdcli
+```
+
+2. Run the fullnode:
+(This will pull and extract the image from cyberd/cyberd)
+```bash
+docker run -d --gpus all --name=euler-5 --restart always -p 26656:26656 -p 26657:26657 -p 1317:1317 -e ALLOW_SEARCH=true -v /cyberd-dev/cyberd:/root/.cyberd  -v /cyberd-dev/cyberdcli:/root/.cyberdcli  cyberd/cyberd:euler-5
+```
+
+3. After successful pulling of the container and launching, run to check if your node is connected to the testnet:
+```bash
+docker exec euler-5 cyberdcli status
+```
+
+A possible output looks like this:
+```bash
+{"node_info":{"protocol_version":{"p2p":"6","block":"9","app":"0"},"id":"93b776d3eb3f3ce9d9bda7164bc8af3acacff7b6","listen_addr":"tcp://0.0.0.0:26656","network":"euler-5","version":"0.32.7","channels":"4020212223303800","moniker":"anon","other":{"tx_index":"on","rpc_address":"tcp://0.0.0.0:26657"}},"sync_info":{"latest_block_hash":"686B4E65415D4E56D3B406153C965C0897D0CE27004E9CABF65064B6A0ED4240","latest_app_hash":"0A1F6D260945FD6E926785F07D41049B8060C60A132F5BA49DD54F7B1C5B2522","latest_block_height":"4553","latest_block_time":"2019-11-24T09:49:19.771375108Z","catching_up":false},"validator_info":{"address":"66098853CF3B61C4313DD487BA21EDF8DECACDF0","pub_key":{"type":"tendermint/PubKeyEd25519","value":"uZrCCdZTJoHE1/v+EvhtZufJgA3zAm1bN4uZA3RyvoY="},"voting_power":"0"}}
+```
+
+Your node has started to sync. If that didn't happen, check your config.toml file located at /<your euler-5 directory>/cyberd/config/config.toml and add at least a couple of addresses to <persistent_peers = ""> and <seeds = "">, some of those you can fing on our [forum](https://ai.cybercongress.ai/t/euler-5-testnet/38).
+
+You can follow the syncing process in the terminal. Open a new tab and run the following command:
+```bash
+docker logs euler-5 --follow
+```
+
+Additional information about the chain is available via an API endpoint at: `localhost:26657` (access via your browser)
+
+e.i. the number of active validators is available at: `localhost:26657/validators`
+
+*After your node has successfully synced, you can run a validator.*
+
+**Prepare the staking address**
+We included 1 million Ethereum addresses, over 8000 Cosmos addresses and all of `euler-4` validators address into the genesis, so there's a huge chance that you already have some EUL tokens. Here are 3 ways to check this:
+
+If you already have a cyberd address with EUL and know the seed phrase or your private key, just restore it into your local keystore:
+```bash
+docker exec -ti euler-5 cyberdcli keys add <your_key_name> --recover
+docker exec euler-5 cyberdcli keys show <your_key_name>
+```
+
+If you have an Ethereum address that had ~0.2Eth or more at block 8080808 (on the ETH network), you can import your Ethereum private key. To do this, please check out our Ethereum [gift tool](qhttps://github.com/cybercongress/launch-kit/tree/0.1.0/ethereum_gift_tool)
+
+> Please do not import high-value Ethereum accounts. This is not safe! cyberd software is new and has not been battle-tested yet.
+
+```bash
+docker exec -ti euler-5 cyberdcli keys add import_private <your_key_name>
+docker exec euler-5 cyberdcli keys show <your_key_name>
+```
+
+If you want to create a new account, use the command below:
+(You should send coins to that address to bound them later during the submitting of the validator)
+
+```bash
+docker exec -ti euler-5 cyberdcli keys add <your_key_name>
+docker exec euler-5 cyberdcli keys show <your_key_name>
+```
+
+You could use your ledger device with the Cosmos app installed on it to sign and store cyber addresses: [guide here](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/cyberd_Ledger_guide.md).
+In common case use the --ledger flag, with your commands:
+
+```bash
+docker exec -ti euler-5 cyberdcli keys add <your_key_name> --ledger
+```
+
+**<your_key_name>** is any name you pick to represent this key pair.
+You have to refer to this parameter <your_key_name> later, when you use the keys to sign transactions.
+It will ask you to enter your password twice to encrypt the key.
+You will also need to enter your password when you use your key to sign any transaction.
+
+The command returns the address, a public key and a seed phrase, which you can use to
+recover your account if you forget your password later.
+Keep the seed phrase at a safe place (preferably, not hot storage) in case you have to use it.
+
+The address shown here is your account address. Let’s call this **<your_account_address>**.
+It stores your assets.
+
+**Send the create validator transaction**
+Validators are actors on the network committing to new blocks by submitting their votes.
+This refers to the node itself, not a single person or a single account.
+Therefore, the public key here is referring to the nodes public key,
+not the public key of the address you have just created.
+
+To get the nodes public key, run the following command:
+
+```bash
+docker exec euler-5 cyberd Tendermint show-validator
+```
+
+It will return a bech32 public key. Let’s call it **<your_node_pubkey>**.
+The next step is to declare a validator candidate.
+The validator candidate is the account which stakes the coins.
+So the validator candidate is an account this time.
+To declare a validator candidate, run the following command adjusting the stake amount and the other fields:
+
+```bash
+docker exec -ti euler-5 cyberdcli tx staking create-validator \
+  --amount=10000000eul \
+  --min-self-delegation "1000000" \
+  --pubkey=<your_node_pubkey> \
+  --moniker=<your_node_nickname> \
+  --trust-node \
+  --from=<your_key_name> \
+  --commission-rate="0.10" \
+  --commission-max-rate="0.20" \
+  --commission-max-change-rate="0.01" \
+  --chain-id=euler-5
+```
+
+**Verify that you are validating**
+```bash
+docker exec -ti euler-5 cyberdcli query staking validators --trust-node=true
+```
+
+If you see your `<your_node_nickname>` with status `Bonded` and Jailed `false` everything is good.
+You are validating the network.
+
+#### A video guide 
+We have an awesome video guide that will help you to set-up your infrastructure. It contains additional details and addons for the above guide, make sure to watch it:
+
+https://www.youtube.com/watch?v=AMUatLPfNJM&t=1747s
+
+#### Maintenance of the validator
+**Jailing**
+
+If your validator got slashed, it will be jailed.
+After such an event, the operator must unjail the validator manually:
+
+```bash
+docker exec -ti euler-5 cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-5
+```
+
+#### CLI guide 
+By now you should be familiar working with the validator, any existing command can be executed from the CLI (command-line interface). Here is a list of commands that you can use:
+
+First of all, we would like to encourage you to use the `--help` feature if you want to get a better experience of using cyberdcli. This is a really easy way of finding all the necessary commands with the right options and flags.
+
+  For example, you may enter:
+  ```bash
+  docker exec euler-5 cyberdcli --help
+  ```
+
+  You should see this message:
+  ```bash
+  Command-line interface for interacting with cyberd
+
+Usage:
+  cyberdcli [command]
+
+Available Commands:
+  status      Query remote node for status
+  config      Create or query an application CLI configuration file
+  query       Querying subcommands
+  tx          Transactions subcommands
+
+  rest-server Start LCD (light-client daemon), a local REST server
+
+  keys        Add or view local private keys
+
+  version     Print the app version
+  link        Create and sign a link tx
+  help        Help about any command
+
+Flags:
+      --chain-id string   Chain ID of tendermint node
+  -e, --encoding string   Binary encoding (hex|b64|btc) (default "hex")
+  -h, --help              help for cyberdcli
+      --home string       directory for config and data (default "/root/.cyberdcli")
+  -o, --output string     Output format (text|json) (default "text")
+      --trace             print out full stack trace on errors
+  ```
+
+The help feature is embedded, you can use it with any command to find any available options, subcommands and flags. For example, lets explore the `query` subcommands:
+  ```bash
+  docker exec euler-5 cyberdcli query --help
+  ```
+
+  You can see the subcommand structure:
+  ```bash
+  Usage:
+  cyberdcli query [command]
+  ```
+
+  And the available subcommands and flags:
+  ```bash
+Available Commands:
+  account                  Query account balance
+
+  Tendermint-validator-set Get the full Tendermint validator set at a given height
+  block                    Get verified data for a the block at a given height
+  txs                      Query for paginated transactions that match a set of tags
+  tx                       Query for a transaction by hash in a committed block
+
+  staking                  Querying commands for the staking module
+  slashing                 Querying commands for the slashing module
+  supply                   Querying commands for the supply module
+  bandwidth                Querying commands for the bandwidth module
+  auth                     Querying commands for the auth module
+  mint                     Querying commands for the minting module
+  distribution             Querying commands for the distribution module
+  gov                      Querying commands for the governance module
+  rank                     Querying commands for the rank module
+
+Flags:
+  -h, --help   help for query
+
+Global Flags:
+      --chain-id string   Chain ID of tendermint node
+  -e, --encoding string   Binary encoding (hex|b64|btc) (default "hex")
+      --home string       directory for config and data (default "/root/.cyberdcli")
+  -o, --output string     Output format (text|json) (default "text")
+      --trace             print out full stack trace on errors
+  ```
+
+Let's explore the `account` subcommand:
+  ```bash
+  docker exec euler-5 cyberdcli query account --help
+  ```
+
+We now see all the options available for this subcommand, namely, account address and flags:
+  ```bash
+  Usage:
+  cyberdcli query account [address] [flags]
+  ```
+
+  In most cases you just need 2 extra flags:
+  ```bash
+  --from=<your_key_name> \
+  --chain-id=euler-5
+  ```
+
+That's it. It is a very useful ability to be able to use cyberdcli for troubleshooting.
+
+**General commands**
+*Show all validators:* Return a set of all active and jailed validators.
+```bash
+docker exec euler-5 cyberdcli query staking validators --trust-node
+```
+
+*Show chain status:* Return the general chain information
+```bash
+docker exec euler-5 cyberdcli status --indent
+```
+
+*Distribution params:*
+```bash
+docker exec euler-5 cyberdcli query distribution params --trust-node
+```
+
+*The number of outstanding rewards for validator:* Return the sum of outstanding rewards for a validator
+```bash
+docker exec euler-5 cyberdcli query distribution validator-outstanding-rewards <operator_address> --trust-node
+```
+
+**Staking params**
+*Chain staking info:*
+```bash
+docker exec euler-5 cyberdcli query staking params --trust-node
+```
+
+**Staking pool**
+```bash
+docker exec euler-5 cyberdcli query staking pool --trust-node
+```
+
+**Account management**
+*Import an account via seed phrase and store it in the local keystore:*
+```bash
+docker exec -ti euler-5 cyberdcli keys add <your_key_name> --recover
+```
+
+*Import an account via private key and store it in the local keystore (the private key could be your ETH private key):*
+```bash
+docker exec -ti euler-5 cyberdcli keys add import_private <your_key_name>
+```
+
+*Create a new account:*
+```bash
+docker exec -ti euler-5 cyberdcli keys add <your_key_name>
+```
+
+*Show account information:* Name, address and public key of the current account
+```bash
+docker exec euler-5 cyberdcli keys show <your_key_name>
+```
+*Show account balance:* Returns account number, balance and the public key in 16 and sequence. Don't work if the current account has no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238).
+```bash
+docker exec euler-5 cyberdcli query account <your_key_address>
+```
+
+*List existing keys:* Returns all keys in cyberdcli
+```bash
+docker exec euler-5 cyberdcli keys list
+```
+
+*Delete account from cybercli:*
+```bash
+docker exec -ti euler-5 cyberdcli keys delete <deleting_key_name>
+```
+
+*Update account password:*
+```bash
+docker exec -ti euler-5 cyberdcli keys update <your_key_name>
+```
+
+*Send tokens:*
+```bash
+docker exec -ti euler-5 cyberdcli tx send <from_key_or_address> <to_address> <amount_eul> \
+  --chain-id=euler-5
+```
+
+*Linking content:* Only IPFS hashes available as CIDs
+
+```bash
+docker exec -ti euler-5 cyberdcli link \
+  --from=<your_key_name> \
+  --cid-from=<key_phrase_to_link> \
+  --cid-to=<content_that_you_want_to_link> \
+  --chain-id=euler-5
+```
+
+**Validator commands**
+*Get all validators:*
+```bash
+docker exec euler-5 cyberdcli query staking validators \
+    --trust-node
+```
+
+*The amount of commission:* Sum of validator commission available to withdraw
+```bash
+docker exec euler-5 cyberdcli query distribution commission <operator_address>
+```
+
+*State of the current validator:*
+```bash
+docker exec eiler-5 cyberdcli query staking validator <operator_address>
+```
+
+*Return all delegations to a validator:*
+```bash
+docker exec euler-5 cyberdcli query staking delegations-to <operator_address>
+```
+
+*Edit commission for and existing validator account:*
+```bash
+docker exec -ti euler-5 cyberdcli tx staking edit-validator \
+  --from=<your_key_name> \
+  --commission-rate=<new_comission_rate_percentage> \
+  --chain-id=euler-5
+```
+
+*Withdraw the commission for either a delegation:*
+```bash
+docker exec -ti euler-5 cyberdcli tx distribution withdraw-rewards <operator_address> \
+  --from=<your_key_name> \
+  --chain-id=euler-5 \
+  --commission
+```
+
+*Edit site and description information for an existing validator account:* Will be available at the description section
+```bash
+docker exec -ti euler-5 cyberdcli tx staking edit-validator \
+  --from=<your_key_name> \
+  --details="<description>" \
+  --website=<your_website> \
+  --chain-id=euler-5
+```
+
+*Unjail a validator previously jailed for downtime:*
+```bash
+docker exec -ti euler-5 cyberdcli tx slashing unjail \
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Get info about redelegation process from a validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking redelegations-from <operator_address>
+```
+
+**Delegator commands**
+*Return distribution delegator rewards according to the current validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query distribution rewards <delegator_address> <operator_address>
+```
+
+*Return outstanding delegator shares with the current validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking delegation <delegator_address> <operator_address>
+```
+
+*Return any delegations made from a delegator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking delegations <delegator_address>
+```
+
+*Return all the unbonding delegatations from a validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking unbonding-delegations-from <operator_address>
+```
+
+*Withdraw rewards for a delegation:*
+```bash
+docker exec -ti euler-5 cyberdcli tx distribution withdraw-rewards <operator_address> \
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Withdraw all delegation rewards:*
+```bash
+docker exec -ti euler-5 cyberdcli tx distribution withdraw-all-rewards \
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Change the default withdrawal address for rewards associated with an address:*
+```bash
+docker exec -ti euler-5 cyberdcli tx distribution set-withdraw-addr <your_new_address> \
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Delegate liquid tokens to a validator:*
+```bash
+docker exec -ti euler-5 cyberdcli tx staking delegate <operator_address> <amount_cyb> \
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Redelegate illiquid tokens from one validator to another in absolute cyb value:* Instant redelegation. Amount must be less than already delegated
+```bash
+docker exec -ti euler-5 cyberdcli tx staking redelegate <old_operator_address> <new_operator_address> <amount_cyb> --from=<your_key_name> --chain-id=euler-5
+```
+
+*Redelegate illiquid tokens from one validator to another in percentages terms:*
+```bash
+docker exec -ti euler-5 cyberdcli tx staking redelegate <old_operator_address> <new_operator_address> <shares_percentage>
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Unbond shares from a validator in absolute cyb value:* 5 days for unbonding
+```bash
+docker exec -ti euler-5 cyberdcli tx staking unbond <operator_address> <amount_cyb>
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Unbond shares from a validator in percentages:* 5 days unbonding.
+```bash
+docker exec -ti euler-5 cyberdcli tx staking unbond <operator_address> <shares_percentage>
+  --from=<your_key_name> \
+  --chain-id=euler-5
+```
+
+*Get info about an unbonding delegation process to the current validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking unbonding-delegation <delegator_address> <operator_address>
+```
+
+*Get info about an unbonding delegation process to all unbonded validators:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking unbonding-delegation <delegator_address>
+```
+
+*Get info about a redelegation process from to current validator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking redelegation <delegator_address> <old_operator_address> <new_operator_address>
+```
+
+*Get info about all redelegation processes by one delegator:*
+```bash
+docker exec -ti euler-5 cyberdcli query staking redelegations <delegator_address>
+```
+
+#### Validator launch with Tendermint KMS + Leger Nano
+In this guide, you'll find the full information on how to set up your validator at cyberd by using Tenderming KMS and Ledger nano S as a keystore.
+
+**Preparing your Ledger:**
+We assume you have one. If not, only buy them from trusted sources!
+
+First of all, we'll need to prepare the Ledger to be able to work with Tendermint KMS.
+We need to install the Tendermint app onto the Ledger using Ledger Live.
+
+*Note: at the moment, you might need to enable the `developer mode` in Ledger Live settings*
+
+If you have (initially) set up your Ledger on a different machine than the one with cyberd, you should make sure that the Ledger device is recognized by Ledger Live. The best way to do this is by installing [Ledger Live](https://shop.ledger.com/pages/ledger-live) onto that particular machine and attempting to connect the Ledger device to it. This will show any possible issues or/and error codes (if they exist, of course). To deal with them, please use the [Fix connection issues](https://support.ledger.com/hc/en-us/articles/115005165269-Fix-connection-issues) guide from Ledger.
+
+**Installing Tendermint KMS onto the node:**
+Normally, this has to be done according to the Tendermint [guide](https://github.com/tendermint/kms), but we will need a few extras (all instructions have been tested on KMS v0.6.3).
+
+**Installation**
+You will need the following prerequisites:
+- *Rust* (stable; 1.35+) [install](https://rustup.rs/)
+- *C compiler*: e.g. gcc, clang
+- *pkg-config*
+- *libusb* (1.0+) : for Debian/Ubuntu: `apt install libusb-1.0-0-dev`
+
+NOTE (x86_64 only): Configure `RUSTFLAGS` environment variable:
+`export RUSTFLAGS=-Ctarget-feature=+aes,+ssse3`  (generally it would be necessary to add these flags to ~/.bash-profile or ~/.profile to make them available after re-login).
+
+We are ready to install KMS. There are 2 ways to do this: compile from source or install with Rusts `cargo-install`. We'll use the first option.
+
+**Compiling from source code:**
+`tmkms` can be compiled directly from the git repository source code, using the following commands:
+
+``` js
+git clone https://github.com/tendermint/kms.git && cd kms
+cargo build --release --features=ledgertm,softsign
+```
+
+If successful, it will produce the `tmkms` executable located at:
+`./target/release/tmkms`.
+
+**KMS configuration:**
+After compiling, we should create a settings file - `tmkms.toml`, the `secret_connection.key` file and adjust cyberd node settings.
+
+First of all, we need to generate a connection key that will be used for communication with the Ledger device. To do this `cd` to the directory with tmkms executable and run the following (path to save the file is optional):
+
+```py
+cd <your_KMS_directory>/target/release/
+./tmkms softsign keygen ~/.tmkms/secret_connection.key
+```
+
+Once you are done with the connection key, proceed to the config file. It could be created anywhere. It is possible to specify the path to it during tmkms launch.
+
+Here is an example of the `tmkms.toml` config file, working with v0.6.3 of KMS:
+
+```py
+[[chain]]
+id = "<current_chain_id>"
+key_format = { type = "bech32", account_key_prefix = "cyberpub", consensus_key_prefix = "cybervalconspub" }
+## Validator configuration
+[[validator]]
+addr = "tcp://localhost:26658"
+chain_id = "<current_chain_id>"
+reconnect = true # true is the default
+secret_key = "<path_to_secret_connection.key>"
+# enable the `ledger` feature
+[[providers.ledgertm]]
+chain_ids = ["<current_chain_id>"]
+```
+
+**Retrieve the validator key:**
+The last step is to retrieve the validator key that you will be using in cyberd. The Ledger device must be connected, unlocked and has the Tendermint app opened on it.  
+
+Start `tmkms` with the following command:
+
+```c
+tmkms start -c ~/.tmkms/tmkms.toml
+```
+
+The output should look something like this:
+
+```bash
+13:28:35 [info] tmkms 0.6.3 starting up...
+13:28:35 [info] [keyring:ledgertm] added consensus key cybervalconspub1zcjduepq8jv0uxx2fw4ur6gj2r3wgs374n6ys5edh9pc4rseqqcaq2yyzy2q0fhx5q
+13:28:35 [info] KMS node ID: C0E0DBA8AA82D597E8F893993E66398DDE8F89B0
+```
+
+KMS may complain about the impossibility to connect to cyberd. That's fine, we'll fix this in the next section.
+
+The output indicates the validator key that is linked to this particular device:
+
+```bash
+cybervalconspub1zcjduepq8jv0uxx2fw4ur6gj2r3wgs374n6ys5edh9pc4rseqqcaq2yyzy2q0fhx5q
+```
+
+Take *note* of the validator pubkey that appears on your screen. We will use it in the next section.
+
+**Configuration of Cyberd:**
+Before we start validating, it's necessary to enable a communication port at `cyberd` itself.  In the config file: `<your_cyberd_location>/cyberd/config/config.toml`, modify the `priv_validator_laddr` value to create a listening address/port. The port should be set according to the `[[validator]] addr =` value of your `tmkms.toml` file.
+
+Example of `config.toml`:
+
+```py
+# TCP or UNIX socket address for Tendermint to listen on for
+# connections from an external PrivValidator process
+priv_validator_laddr = "tcp://127.0.0.1:26658"
+```
+
+*NOTE: if you will try to launch cyberd after enabling  `priv_validator_laddr`, and without the `tmkms` app running simultaneously, it will likely NOT start.*
+
+To process further, we assume that `cyberd` node is synced on your machine and there were no validators created previously on that particular node. Also, you should have an imported account to `cyberdcli` that has enough bandwidth and EUL to start validator.
+
+We also assume that the Ledger device is connected, unlocked and has the Tendermint app open.
+
+One last thing: `tmkms` should be launched under a different console session on the same machine.
+
+#### Validator Glossary
+**Hero:** A validator node
+
+**Ledger:** A hardware wallet
+
+**Bandwidth:** Used to complete transactions in the cyberd blockchain. The amount of your bandwidth is calculated in the following way:
+`your_eul_tokens / all_eul_tokens_in_cyberd * 2000*1000*100`
+
+Messages cost is `500` (excluding linking). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
+
+**Commission:**  The tokens that you've earned via validating from delegators. You may take them at any time
+
+**Delegetaors:** Users that have sent (delegated) tokens to your validator node 
+
+**Illiquid tokens:** Non-transferable tokens that you've delegated to the validator. Delegation process duration: 1 block
+
+**Unbonding:** The process of taking back your share (delegated tokens + any rewards).  5 days (for `euler-5` only)
+
+**Link:** A reference between a CID key and a CID value. Link message cost is `100*n`, where `n` is the number of links in a message. Link finalization time is 1 block. New rank for CIDs of links will be recalculated at a period of 100 to 200 blocks (from 100 to 200 seconds)
+
+**Liquid tokens:**  Transferable tokens within the cyber blockchain
+
+**Local keystore:** A store with keys on your local machine
+
+**Rewards** Tokens that you've earned via delegation. To reduce network load all the rewards are stored in a pool. You can take your part of the bounty at any time
+
+**<comission_rate_percentage>** The commission that a validator gets for their work. Must be a fraction >0 and <=1
+
+**<delegator_address>** Delegator address. Starts with `cyber` most often coinciding with **<key_address>**
+
+**<key_address>** An account address. Starts with `cyber`
+
+**<key_name>** The name of an account in cybercli
+
+**<operator_address>** Validator address. Starts with `cybervaloper`
+
+**<shares_percentage>** The part of illiquid tokens that you want to unbond or redelegate. Must be a fraction >0 and <=1
+
+**<testnet_chain_id>** The current version of the testnet (currently `euler-5`).
 
 ------------------------------------------------------
 
