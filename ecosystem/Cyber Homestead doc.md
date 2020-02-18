@@ -50,8 +50,15 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [The launch protocol and initial GoL details](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol-and-initial-gol-details)
     * [Launch FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#lucnh-faq)
 ------------------------------------------------------
-- [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
+- [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer)
   * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
+    * [A cheat code](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-cheat-code)
+    * [Questions and answers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions-and-answers)
+    * [Become a hero: launch a node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#become-a-hero-launch-a-node)
+    * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
+    * [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide)
+    * [Validator launch with Tendermint KMS + Leger Nano](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-launch-with-tendermint-kms--leger-nano)
+    * [Validator glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-glossary)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
   * etc...
@@ -1053,10 +1060,10 @@ By now you should be somewhat familiar with what cyber is and its basics. In thi
 You may skip through this and jump straight to the [onboarding guide](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md) for validators, which contains all of the links to mos of the information described below.
 
 #### Questions and answers
-**Q:** How do I become a validator in Cyber?
+**Q:** How do I become a validator in Cyber? <br>
 **A:** Make sure you have the requirements described in this document and follow this guide
 
-**Q:** What do I need to become a validator in Cyber?
+**Q:** What do I need to become a validator in Cyber? <br>
 **A:** Anyone can become a validator if he has the right hardware to run it. Right now, the requirements are as following:
 - CPU: 4 cores (6 is better)
 - RAM: 16 GB (64 would be better)
@@ -1065,10 +1072,10 @@ You may skip through this and jump straight to the [onboarding guide](https://gi
 - GPU: CUDA / GeForce 1070/80
 - Software: Linux, Docker
 
-**Q:** Do I need to become a validator?
+**Q:** Do I need to become a validator?<br>
 **A:** It is only up for you to decide if you do. As a validator, you will be entitled to receive rewards out of the inflation for committing your hardware.
 
-**Q:** What are the incentives for becoming a validator?
+**Q:** What are the incentives for becoming a validator?<br>
 **A:** You can earn rewards and help to bootstrap the network by running a validator node. Apart from that:
 - You can use your cards to take part in computing the knowledge graph and be a part of an interesting project
 - You will be receiving rewards for running a validator, just like in Cosmos (ATOM)
@@ -1078,13 +1085,11 @@ You may skip through this and jump straight to the [onboarding guide](https://gi
 - Become a web3 provider
 
  #### Become a hero: launch a node
- We call validators heroes, this is because they are. They are the heroes that can help to set, run and maintain the right, distributed, open-source, desired infrastructure needed for `The Great Web`.
- 
-To become a hero, follow this guide:
+ We call validators `Heroes`, this is because they are. They are the heroes that can help to set, run and maintain the right, distributed, open-source, desired infrastructure needed for `The Great Web`. To become a hero, follow the below guide.
 
 *Note:* The current active testnet is `euler-5` (substitute <testnet_chain_id> with that value, do not forget to remove the `<` and the `>` symbols).
 
-**Prepare your server**
+##### Prepare your server
 First, you have to set up a server.
 You should run your validator node all the time. This means that you will need a reliable server to keep it running.
 Also, you may consider using any cloud service with dedicated GPU, like Hetzner (or a local machine).
