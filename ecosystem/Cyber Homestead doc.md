@@ -44,7 +44,11 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#evangelists)
     * [Meetups & Hackathons](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#meetups--hackathons)
     * [Partering communities](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#partnering-communities)
-  * [The launch proccess](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launch-proccess)
+  * [The launch proccess](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launch-process)
+    * [Full launch roadmap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#full-launch-roadmap)
+    * [Distribution games introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#distribution-games-introduction)
+    * [The launch protocol and initial GoL details](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol-and-initial-gol-details)
+    * [Launch FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#lucnh-faq)
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-enginner)
   * [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validating-cyber)
@@ -795,7 +799,7 @@ One of the main goals for cyber~Congress and the evangelist team will be to crea
 #### Partnering communities
 There are many importnat communities that cyber sees as vital for the success of building `the Great Web`, those communities include:
 
-(The idea behind publishing these, is that you may copy this task-list or print it out and help cyber to get more traction within these communitites)
+(The idea behind publishing these as a check-list, is that you may copy this task-list or print it out and help cyber to get more traction within these communitites. Feel free to include any [mentions here](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/40/51))
 
 Main communities:
 - [ ] Cosmos
