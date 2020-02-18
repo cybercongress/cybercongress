@@ -5,30 +5,36 @@ The biggest help will by submitting more questions that you think were unanswere
 
 You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all.
 
-**But, first:**
+*But, first:*
 ## What is a FAQ?
 A FAQ is a list of frequently asked question that tries to gather as much as possible information about the project in one place. The purpose of this is to answer questions, as simple as possible, to give the reader a basic overview of a specific subject, and if necessary, refer the reader to more detailed information. 
 
 -------------------------------
 
 ## Table of content
-- [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-cyber)
-- [What Cyber is NOT](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-cyber-is-not)
+- [Content table](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#table-of-content)
+- [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber)
 - [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
 - [High-level, technological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
 - [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
+- [cyber~Blocks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberblocks)
+- [cyber~Entities](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberentities)
+- [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#validating-cyber)
+- [cyber~Economy](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cybereconomy)
+- [cyber~Gift](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cybergift)
+- [cyber~Rank](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberrank)
 - [White Paper, launch and contacts](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#white-paper-launch-and-contacts)
-- [More questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#more-questions)
-- [Very important links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-check-out)
+- [Other questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#more-questions)
+- [Relevant links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-various-relevant-resources)
 
 ---------------------------------
 
 ## Like google, but cyber:
 #### What is cyber?
-Simple answer:<br>
+*Simple answer:*<br>
 Cyber is a decentralized google, for provable and relevant answers. 
 
-Detailed answer:<br>
+*Detailed answer:*<br>
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
 
 Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google. 
@@ -179,6 +185,25 @@ Cyb is your friendly robot / personal browser application. One one hand it is a 
 #### What is cyb~Virus?
 The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck google right in google's playground fascinates us. 
 
+## cyber~Entities:
+#### What is governance in cyber?
+the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on. 
+
+#### What is cyber~Foundation?
+The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
+
+#### What is cyber~Congress?
+The initial intentions of cyber ~Congress can be found [in this document](https://github.com/cybercongress/congress/blob/master/README.md). It helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens. 
+
+#### What is cyber~Ecosystem?
+It is the entity that is responsible for helping to grow the ecosystem. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications
+
+#### Who are cyber~FundClassic?
+It is the future fund to be created and to help applications grow within the cyber ecosystem. 
+
+#### Why so many cyb~Entities?
+Why not, is the simple answer. The other answer is to divide the work evenly and equally amongst several entities that are each responsible for their field of work. A browser is an application, while the protocol is the protocol. They are not one entity. Same goes for the governing process. Different entities are responsible for different questions. 
+
 ## Validating cyber:
 #### How do I become a validator in Cyber?
 Make sure you have the requirements described above and [follow this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
@@ -312,25 +337,6 @@ Yes. The gifts are that exactly.
 
 #### How to check if I received any of the gifts? 
 The best way to do so this is to use [cyber.page](https://cyber.page/#/search/), simply enter your ETH / ATOM / URBIT address and see the result instantly! 
-
-## cyber~Entities:
-#### What is governance in cyber?
-the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on. 
-
-#### What is cyber~Foundation?
-The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
-
-#### What is cyber~Congress?
-The initial intentions of cyber ~Congress can be found [in this document](https://github.com/cybercongress/congress/blob/master/README.md). It helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens. 
-
-#### What is cyber~Ecosystem?
-It is the entity that is responsible for helping to grow the ecosystem. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications
-
-#### Who are cyber~FundClassic?
-It is the future fund to be created and to help applications grow within the cyber ecosystem. 
-
-#### Why so many cyb~Entities?
-Why not, is the simple answer. The other answer is to divide the work evenly and equally amongst several entities that are each responsible for their field of work. A browser is an application, while the protocol is the protocol. They are not one entity. Same goes for the governing process. Different entities are responsible for different questions. 
 
 ## cyber~Rank:
 #### Ok, I get it - so how exactly do you calculate the rank?
