@@ -79,4 +79,10 @@ Such a simple mechanism that cyber provides, changes the game. It changes the ex
 
 Cyber is a decentralized google. Wouldn't it be fair if anyone could own a piece of google? IBC gives cyber those abilities. To help spread one of the most important assets that humanity created amongst any kind of thinking species.
 
+## A note to the cyber community participating in GoZ and IKC PoC
+
+We are going to release 2 cyber zones based on the latest and up to date Cosmos-SDK release. This will include IBC support with Cosmwasm integration. We will prepare the required documentation and our team will also participate in GoZ disciplines. Testing not just IBC but also IKC over IBC. 
+
+This will include plans to release cyberlinks transfer between different cyber chains and will become the first case of communication between knowledge graphs. In the case of inter-graph communication, the transferred cyberlinks from one chain to another will belong to the source-chain that made the transfer.  
+
 _Don’t believe. Don’t fear. Don’t ask. Cyber_
