@@ -56,12 +56,33 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Questions and answers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions-and-answers)
     * [Become a hero: launch a node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#become-a-hero-launch-a-node)
       * [Prepare your server](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-your-server)
-      * []()
-      * []()
-      * []()
+      * [Third-party software](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#third-party-software)
+      * [Docker installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#docker-installation)
+      * [Portainer installation (optional)](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#portainer-installation-optional)
+      * [Nvidia drivers installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nvidia-drivers-installation)
+      * [Install Nvidia container runtime for docker](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#install-nvidia-container-runtime-for-docker)
+      * [Cyberd fullnode launching](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberd-fullnode-launching)
+      * [Prepare the staking address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-the-staking-address)
+      * [Send the create validator transaction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#send-the-create-validator-transaction)
+      * [Verify that you're validating](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#verify-that-youre-validating)
+    * [A video guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-video-guide)
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
+      * [Jailing](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#jailing)
     * [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide)
+      * [General commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-commands)
+      * [Staking params](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#staking-params)
+      * [Staking pool](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#staking-pool)
+      * [Account management](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#account-management)
+      * [Validator commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-commands)
+      * [Delegator commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#delegator-commands)
     * [Validator launch with Tendermint KMS + Leger Nano](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-launch-with-tendermint-kms--leger-nano)
+       * [Preparing your Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#preparing-your-ledger)
+       * [Installing Tendermint KMS onto the node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#installing-tendermint-kms-onto-the-node)
+       * [Installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#installation)
+       * [Compiling from source code](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#compiling-from-source-code)
+       * [KMS configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#kms-configuration)
+       * [Retrieve the validator key](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#retrieve-the-validator-key)
+       * [Configuration of Cyberd](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#configuration-of-cyberd)
     * [Validator glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-glossary)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
@@ -1481,7 +1502,7 @@ You are validating the network.
 #### A video guide 
 We have an awesome video guide that will help you to set-up your infrastructure. It contains additional details and addons for the above guide, make sure to watch it:
 
-https://www.youtube.com/watch?v=AMUatLPfNJM&t=1747s
+[![Validating video guide](https://i.postimg.cc/KjyBtBcz/Screenshot-from-2020-02-18-18-47-25.png)](https://www.youtube.com/watch?v=AMUatLPfNJM&t=1747s)
 
 #### Maintenance of the validator
 ##### Jailing
