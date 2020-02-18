@@ -795,6 +795,8 @@ One of the main goals for cyber~Congress and the evangelist team will be to crea
 #### Partnering communities
 There are many importnat communities that cyber sees as vital for the success of building `the Great Web`, those communities include:
 
+(The idea behind publishing these, is that you may copy this task-list or print it out and help cyber to get more traction within these communitites)
+
 Main communities:
 - [ ] Cosmos
 - [ ] IPFS
@@ -904,11 +906,139 @@ Offline communities:
 
 The goal of cyber is to communicate with each of those communities via the above-mentioned communication arteries and to deliver the news to those communities. 
 
-### Launch proccess
-- Distribution games
-- Launch kit
-- FAQ
+### Launch process
+As of writing this document, cyber is still in public testing. The current public, incentivized testnet is `euler-5`, it is also the chain-id.
 
+The launch of cyber considers many different aspects, and we believe that to grasp cyber fully, one must also be familiar with the launch process. This is also a move to cement the launch process as a transparent event.
+
+In this section, we will concentrate on the period of post-euler-5 and up to the end of cyber~Auction, which ends 500 days after the launch of the mainnet. However, the full process is described below.
+
+#### Full launch roadmap
+- 2016: First WP draft, research, self-funding (this part applies throughout the current lifetime of the protocol)
+- 2017: Evolution of cyber~Search into cyber, development work
+- 2018: Protocol development, first implementations
+- 2018.11.10 - 2019.03.05: Launch of the `Winter round for friends` public [donations](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md), protocol development, public testing
+- 2019: Protocol development, public testing
+- 2019.01.31: Release of [euler-1](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
+- 2019.06.28: The release of [Barcelona](https://github.com/cybercongress/cyb/releases/tag/0.1.4), cybs demo for the IPFS community
+- 2019.12.02: Release of the final [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
+- 2019.12.20: [Launch of Game of Links and euler-5](https://github.com/cybercongress/congress/pull/316/files#diff-41de23aee25953091ba5a3c0ae012855)
+- Here and thereafter the dates are subject to change due to dynamic properties and development work
+- 2020, end of winter - the beginning of spring: Launch of governance and vesting apps/modules
+- 2020, spring: Launch of public donation round
+- 2020, 90 days or 600k ATOM after the previous event: End of Game of Links
+- 2020, (presumably) summer: Launch of the mainnet and Game of thrones
+- 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
+- 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 479 days
+
+#### Distribution games introduction
+The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
+
+**Q:** What is Game of Links (GoL)?<br>
+**A:** The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers).
+
+**Q:** What is Game of Thrones (GoT)? <br>
+**A:** It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
+
+**Q:** What is cyber~Auction?<br>
+**A:** cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
+
+The auction will last for 500 rounds that last for 23 hours each (a little over 479 days). Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
+
+One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
+
+*(Hint: A thorough guide on the games is in the beep, beep, beep section) 
+
+#### The launch protocol and initial GoL details
+For the slightly technically advanced users, there is a [laucnh-kit repository](https://github.com/cybercongress/launch-kit) that can take you through each part of the Genesis launch protocol. Here, we will concentrate on the main parts of it.
+
+Here is the full visualization of the launch protocol:
+
+<img src="https://i.postimg.cc/mDcz3JRV/launch-protocol-v2.png" />
+
+And, here you can see the details of the launch process from euler-5, to the end of Game of Thrones:
+
+<img src="https://i.postimg.cc/QN9nR8hm/timeline.png" />
+
+#### Lucnh FAQ
+
+  <details>
+  <summary>Why the procedure is so complex? </summary>
+ It isn't. It might seem like this to the naked eye. The reasons behind it are the desire to separate each detail of the protocol and work on it thoroughly, to use all of the experience that our team has and not to repeat the mistakes of other projects.
+  </details>
+  
+ <details>
+  <summary>Can you describe the launch process in a paragraph? </summary>
+From 2016-2019 we were working on researching, developing and publicly testing the protocol. At the end of 2019, we launched the first leg of the distribution games, made to increase initial traction, test the protocol and achieve good distribution. The first part is the game of links, which is an incentivized game with different technical disciplines and a public donation round in ATOMs to the cyber~Congress DAO. The second parts are made out of Game of Thornes, the game between ETH and ATOM communities to outbid each other and get more tokens from cyber~Congress, and cyber ~Auction, the 479-day long auction, in equal windows with public ETH donations to the community DAO governing the protocol. GoT is window 0 of the auction. The auction takes part after the launch of the mainnet.
+  </details>
+  
+   <details>
+  <summary>How to get involved at this stage? </summary>
+Play the Game of Links. launch a validator. Submit links to the knowledge graph. Helps us to get traction. Become an evangelist. Help us to test the governance, etc.
+  </details>
+  
+ <details>
+  <summary>Do you have a White Paper? </summary>
+Yes, it can be found via this IPFS link: https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ
+  </details>
+  
+   <details>
+  <summary>When are you launching a stable mainnet? </summary>
+The network will launch when Game of Links is done (the other 2 games are held after the launch). There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
+  </details>
+  
+ <details>
+  <summary>Who are the people behind the project? </summary>
+We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve. If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums.
+  </details>
+  
+ <details>
+  <summary>How do I contact you? </summary>
+Via our GitHub, via our forum or our TG chat. All links are at the end of this document. 
+  </details>
+  
+   <details>
+  <summary> So, How do I use it?</summary>
+Please see the Using cyber: the very basics section for this.
+  </details>
+  
+ <details>
+  <summary>What is the fastest way to get tokens? </summary>
+Play the Game of course! Another quick way is to use future faucets or Kira's TG bot, which you can find on our TG channel.
+  </details>
+  
+   <details>
+  <summary>How many tokens do I need to start using cyber? </summary>
+There isn't a specific amount of tokens you need to use the network. This is a very dynamic property. The current statistics can be viewed on cyber.page. It should be noted that all transactions require bandwidth (resources). However, transactions don't spend your tokens. The tokens "freeze" for some time, after which, they are released back to the user. This is a spam protection mechanism.
+  </details>
+  
+ <details>
+  <summary>Can I contribute? </summary>
+Other than in the ways described in the section about how to get involved, you may also try to solve issues, submit PRs or help us with research. 
+  </details>
+  
+   <details>
+  <summary>Will I be rewarded for my contributions? </summary>
+There are several ways someone can get rewarded:
+We actively use GitCoin. This means that we fund some of our tasks and issues. If you are an open-source developer, you can solve issues and get rewarded.
+We constantly announce grants for open-source development and research. For example our Urbit open-source proposal
+You can gain social weight and social reputation by becoming an early adopter (please make conclusions for yourself, as to what this might gain).
+If you run a validator node, you are entitled to receive rewards that are described above.
+You can take advantage of the community pool.
+You can be a part of the OBEP. 
+  </details>
+  
+   <details>
+  <summary>Is this an ICO? </summary>
+The projects receive donations from users who wish to donate them and participate in the distribution games. The process can be referred to as an initial community offering. Which is the process where the community understands the value of the proposed idea and decides to donate towards its development for its own benefit.
+  </details>
+  
+   <details>
+  <summary>Why do you need donations? </summary>
+Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
+THC donations will be managed by an Aragon DAO (the community) to help develop the protocol in the longterm.
+  </details>
+  
 ------------------------------------------------------
 
 ## :nut_and_bolt: Section subtitle: Mama I'm an enginner
