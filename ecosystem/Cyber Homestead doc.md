@@ -56,6 +56,9 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Questions and answers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions-and-answers)
     * [Become a hero: launch a node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#become-a-hero-launch-a-node)
       * [Prepare your server](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-your-server)
+      * []()
+      * []()
+      * []()
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
     * [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide)
     * [Validator launch with Tendermint KMS + Leger Nano](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-launch-with-tendermint-kms--leger-nano)
@@ -1112,14 +1115,14 @@ GPU: Nvidia GeForce(or Tesla/Titan/Quadro) with CUDA-cores; at least 6gb of memo
 Software: Docker, Ubuntu 16.04/18.04 LTS
 ```
 
-*Cyberd runs well on consumer-grade cards like Geforce GTX 1070, but expecting load growth we advise using Error Correction compatible cards from Tesla or Quadro families.
+*Cyberd runs well on consumer-grade cards like Geforce GTX 1070, but expecting load growth we advise using Error Correction compatible cards from Tesla or Quadro families.*
 
 But, of course, the hardware is your own choice and technically it might be possible to run the chain on "even - 1 CUDA core GPU", but, you should be aware of stability and a decline in calculation speed.
 
-**Third-party software**
-The main distribution unit for Cyberd is a [Docker](https://www.docker.com/) container. All images are located in the default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/). To access the GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For better user experience, we propose you use [portainer](https://portainer.io) - a docker containers manager. You can skip any subsection of this guide if you already have any of the necessary software configured.
+##### Third-party software
+The main distribution unit for Cyberd is a [Docker](https://www.docker.com/) container. All images are located in the default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/). To access the GPU from the container, Nvidia drivers version *410+* and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For better user experience, we propose you use [portainer](https://portainer.io) - a docker containers manager. You can skip any subsection of this guide if you already have any of the necessary software configured.
 
-**Docker installation**
+##### Docker installation
 Simply, copy the commands below into your CLI.
 
 1. Update the apt package index:
@@ -1175,7 +1178,7 @@ sudo usermod -aG docker $YOUR-USER-NAME
 
 8. Reboot the system for the changes to take effect.
 
-**Portainer installation (optional)**
+##### Portainer installation (optional)
 1. Before installing Portainer, download the Portainer image from the DockerHub using the docker pull command below:
 ```bash
 docker pull portainer/portainer
@@ -1196,7 +1199,7 @@ localhost:9000
 4. Create a username and set a password. Chose the `local` tab and click `connect`.
 All the containers will be available in the `containers` tab on your dashboard.
 
-**Nvidia drivers installation**
+##### Nvidia drivers installation
 1. To proceed, first add the `ppa:graphics-drivers/ppa` repository into your system (you might see some warnings - press `enter`):
 ```bash
 sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -1286,7 +1289,7 @@ You should see this:
 +-----------------------------------------------------------------------------+
 ```
 
-**Install Nvidia container runtime for docker**
+##### Install Nvidia container runtime for docker
 1. Add package repositories:
 ```bash
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
@@ -1354,7 +1357,7 @@ Fri Nov  1 05:41:12 2019
 
 Your machine is now ready to launch the fullnode.
 
-**Cyberd fullnode launching**
+##### Cyberd fullnode launching
 1. Create folders for keys and data storing where you want, for example:
 ``` bash
 mkdir /cyberd-dev/cyberd
@@ -1390,7 +1393,7 @@ e.i. the number of active validators is available at: `localhost:26657/validator
 
 *After your node has successfully synced, you can run a validator.*
 
-**Prepare the staking address**
+##### Prepare the staking address
 We included 1 million Ethereum addresses, over 8000 Cosmos addresses and all of `euler-4` validators address into the genesis, so there's a huge chance that you already have some EUL tokens. Here are 3 ways to check this:
 
 If you already have a cyberd address with EUL and know the seed phrase or your private key, just restore it into your local keystore:
@@ -1435,7 +1438,7 @@ Keep the seed phrase at a safe place (preferably, not hot storage) in case you h
 The address shown here is your account address. Let’s call this **<your_account_address>**.
 It stores your assets.
 
-**Send the create validator transaction**
+##### Send the create validator transaction
 Validators are actors on the network committing to new blocks by submitting their votes.
 This refers to the node itself, not a single person or a single account.
 Therefore, the public key here is referring to the nodes public key,
@@ -1467,7 +1470,7 @@ docker exec -ti euler-5 cyberdcli tx staking create-validator \
   --chain-id=euler-5
 ```
 
-**Verify that you are validating**
+##### Verify that you're validating
 ```bash
 docker exec -ti euler-5 cyberdcli query staking validators --trust-node=true
 ```
@@ -1481,7 +1484,7 @@ We have an awesome video guide that will help you to set-up your infrastructure.
 https://www.youtube.com/watch?v=AMUatLPfNJM&t=1747s
 
 #### Maintenance of the validator
-**Jailing**
+##### Jailing
 
 If your validator got slashed, it will be jailed.
 After such an event, the operator must unjail the validator manually:
@@ -1591,7 +1594,7 @@ We now see all the options available for this subcommand, namely, account addres
 
 That's it. It is a very useful ability to be able to use cyberdcli for troubleshooting.
 
-**General commands**
+##### General commands
 *Show all validators:* Return a set of all active and jailed validators.
 ```bash
 docker exec euler-5 cyberdcli query staking validators --trust-node
@@ -1612,18 +1615,18 @@ docker exec euler-5 cyberdcli query distribution params --trust-node
 docker exec euler-5 cyberdcli query distribution validator-outstanding-rewards <operator_address> --trust-node
 ```
 
-**Staking params**
+##### Staking params
 *Chain staking info:*
 ```bash
 docker exec euler-5 cyberdcli query staking params --trust-node
 ```
 
-**Staking pool**
+##### Staking pool
 ```bash
 docker exec euler-5 cyberdcli query staking pool --trust-node
 ```
 
-**Account management**
+##### Account management
 *Import an account via seed phrase and store it in the local keystore:*
 ```bash
 docker exec -ti euler-5 cyberdcli keys add <your_key_name> --recover
@@ -1679,7 +1682,7 @@ docker exec -ti euler-5 cyberdcli link \
   --chain-id=euler-5
 ```
 
-**Validator commands**
+##### Validator commands
 *Get all validators:*
 ```bash
 docker exec euler-5 cyberdcli query staking validators \
@@ -1738,7 +1741,7 @@ docker exec -ti euler-5 cyberdcli tx slashing unjail \
 docker exec -ti euler-5 cyberdcli query staking redelegations-from <operator_address>
 ```
 
-**Delegator commands**
+##### Delegator commands
 *Return distribution delegator rewards according to the current validator:*
 ```bash
 docker exec -ti euler-5 cyberdcli query distribution rewards <delegator_address> <operator_address>
@@ -1836,7 +1839,7 @@ docker exec -ti euler-5 cyberdcli query staking redelegations <delegator_address
 #### Validator launch with Tendermint KMS + Leger Nano
 In this guide, you'll find the full information on how to set up your validator at cyberd by using Tenderming KMS and Ledger nano S as a keystore.
 
-**Preparing your Ledger:**
+##### Preparing your Ledger
 We assume you have one. If not, only buy them from trusted sources!
 
 First of all, we'll need to prepare the Ledger to be able to work with Tendermint KMS.
@@ -1846,10 +1849,10 @@ We need to install the Tendermint app onto the Ledger using Ledger Live.
 
 If you have (initially) set up your Ledger on a different machine than the one with cyberd, you should make sure that the Ledger device is recognized by Ledger Live. The best way to do this is by installing [Ledger Live](https://shop.ledger.com/pages/ledger-live) onto that particular machine and attempting to connect the Ledger device to it. This will show any possible issues or/and error codes (if they exist, of course). To deal with them, please use the [Fix connection issues](https://support.ledger.com/hc/en-us/articles/115005165269-Fix-connection-issues) guide from Ledger.
 
-**Installing Tendermint KMS onto the node:**
+##### Installing Tendermint KMS onto the node
 Normally, this has to be done according to the Tendermint [guide](https://github.com/tendermint/kms), but we will need a few extras (all instructions have been tested on KMS v0.6.3).
 
-**Installation**
+##### Installation
 You will need the following prerequisites:
 - *Rust* (stable; 1.35+) [install](https://rustup.rs/)
 - *C compiler*: e.g. gcc, clang
@@ -1861,7 +1864,7 @@ NOTE (x86_64 only): Configure `RUSTFLAGS` environment variable:
 
 We are ready to install KMS. There are 2 ways to do this: compile from source or install with Rusts `cargo-install`. We'll use the first option.
 
-**Compiling from source code:**
+##### Compiling from source code
 `tmkms` can be compiled directly from the git repository source code, using the following commands:
 
 ``` js
@@ -1872,7 +1875,7 @@ cargo build --release --features=ledgertm,softsign
 If successful, it will produce the `tmkms` executable located at:
 `./target/release/tmkms`.
 
-**KMS configuration:**
+##### KMS configuration
 After compiling, we should create a settings file - `tmkms.toml`, the `secret_connection.key` file and adjust cyberd node settings.
 
 First of all, we need to generate a connection key that will be used for communication with the Ledger device. To do this `cd` to the directory with tmkms executable and run the following (path to save the file is optional):
@@ -1901,7 +1904,7 @@ secret_key = "<path_to_secret_connection.key>"
 chain_ids = ["<current_chain_id>"]
 ```
 
-**Retrieve the validator key:**
+##### Retrieve the validator key
 The last step is to retrieve the validator key that you will be using in cyberd. The Ledger device must be connected, unlocked and has the Tendermint app opened on it.  
 
 Start `tmkms` with the following command:
@@ -1928,7 +1931,7 @@ cybervalconspub1zcjduepq8jv0uxx2fw4ur6gj2r3wgs374n6ys5edh9pc4rseqqcaq2yyzy2q0fhx
 
 Take *note* of the validator pubkey that appears on your screen. We will use it in the next section.
 
-**Configuration of Cyberd:**
+##### Configuration of Cyberd
 Before we start validating, it's necessary to enable a communication port at `cyberd` itself.  In the config file: `<your_cyberd_location>/cyberd/config/config.toml`, modify the `priv_validator_laddr` value to create a listening address/port. The port should be set according to the `[[validator]] addr =` value of your `tmkms.toml` file.
 
 Example of `config.toml`:
