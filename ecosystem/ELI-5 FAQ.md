@@ -13,7 +13,7 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 
 ## Table of content
 - [Content table](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#table-of-content)
-- [What is Cyber - a high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber)
+- [What is Cyber: high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber)
 - [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
 - [High-level, technological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
 - [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
