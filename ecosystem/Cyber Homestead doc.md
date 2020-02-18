@@ -55,6 +55,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [A cheat code](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-cheat-code)
     * [Questions and answers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions-and-answers)
     * [Become a hero: launch a node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#become-a-hero-launch-a-node)
+      * [Prepare your server](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-your-server)
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
     * [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide)
     * [Validator launch with Tendermint KMS + Leger Nano](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-launch-with-tendermint-kms--leger-nano)
