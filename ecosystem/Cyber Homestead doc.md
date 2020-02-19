@@ -950,7 +950,7 @@ The launch of cyber considers many different aspects, and we believe that to gra
 In this section, we will concentrate on the period of post-euler-5 and up to the end of cyber~Auction, which ends 500 days after the launch of the mainnet. However, the full process is described below.
 
 #### Full launch roadmap
-- 2016: First WP draft, research, self-funding (this part applies throughout the current lifetime of the protocol)
+- 2016: [First WP draft](https://github.com/xhipster/cyber-origin/blob/master/cyber%E2%80%A2Chain.md), research, self-funding (this part applies throughout the current lifetime of the protocol)
 - 2017: Evolution of cyber~Search into cyber, development work
 - 2018: Protocol development, first implementations
 - 2018.11.10 - 2019.03.05: Launch of the `Winter round for friends` public [donations](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md), protocol development, public testing
@@ -2014,21 +2014,113 @@ Messages cost is `500` (excluding linking). Transaction consists of one or more 
 ------------------------------------------------------
 
 ## :moneybag: Section subtitle: Beep, beep, beep...
+> You are now off Earth and in orbit. Earth is still seen in the illuminatros. Before we leave our solar system, you decide to improve your knowledge. 
+
 You can't save the galaxy unless you have the right resources for it. This section will teach you about cybernomics, CYB, THC and will touch again on the distribution and its future impact on the project.
 
 ### Cybernomics
-- tokens and utility
-- transactions
+**Q:** What is cybernomics? <br>
+**A:** As explained by [@xhipster](https://github.com/xhipster/cybernomics), Cybernomics is a scientific study of provable control, computing and communication in intelligent beings and amongst them (grammar changed). This means that by cybernomic we can refer to an intellegent communciation economy. Cyber offers such an economic model, where computaion, inicnitives, communciation, utility, bandwidth and third-party storage all come together to shape a useful model. Backed by cybers distribution model, conissitng out of techical games, gifts, inflation, computation and karma. 
+
+The purpose of this section is to examine this model, mention possible futrue plans (depndedt on governance proposal decisions) and describe its value.
+
+### General questions
+<details>
+  <summary>How many tokens do you have? </summary>
+There are currently 2 tokens + Karma
+</details>
+
+<details>
+  <summary>Why do you have 2 tokens? </summary>
+Due to technical limitations, there is no way to have all of the described below characteristics in one token. We do not think that having several tokens is a bad thing. In the future, there might be other tokens on top of the DAO or/and the protocol. Of course, if they are proven to help the economics and the agents of that economics.
+</details>
+
+<details>
+  <summary>What are the names of your tokens and what does each one do? </summary>
+We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO.
+</details>
+
+<details>
+  <summary>What is Karma </summary>
+You can think of Karma as of your useful reputation. Karma is calculated from your contribution to the knowldge grapph (submitted cyberlinks). Its non-transfarbale and you cannot trade it. However you can, of course, sell your private key with a vertain amoutn of Karma in it. But would you sell your soul?
+</details>
+
+<details>
+  <summary>How many tokens are there? </summary>
+1 PCYB of tokens (and growing). And 700 TTHC.
+</details>
+
+<details>
+  <summary>What are MCYB / GCYB / TCYB / PCYB? </summary>
+Those are representations of the amounts of CYB tokens in mega, giga, tera, peta, etc. I.E. 1GCYB of tokens is 1 Giga CYB of tokens or 1 with 9 zeros, which equals to 1 billion. 1 GCYB = 1000000000 CYB
+</details>
+
+<details>
+  <summary>Why do you need so many CYB tokens? </summary>
+We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc.
+On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things.
+</details>
+
+<details>
+  <summary>What is the CYB token? </summary>
+CYB is a native token of cyber powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting cyberlinks, and (3) expression of will for the computing of cyber~Rank by the agents.
+</details>
+
+<details>
+  <summary>What is THC? </summary>
+THC is an Ethereum based ERC-20 token that has utility value in the form of control over cyber~ Foundation and the ETH from the distribution games. It is a governance token. The creative powers of THC come from the ability to receive 1 CYB token per each (one) THC token when locking it before the end of cyber~Auction.
+</details>
+
+<details>
+  <summary>Is there anything else I can do with the tokens? </summary>
+Not in Cyber. I.E. CYB tokens do not have transactional costs. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. On the other hand, THC tokens are Ethereum based, so - yes, they have transactional costs withing the Ethereum ecosystem (transactions cost gas).
+</details>
+
+<details>
+  <summary>What are Resource Credits (RC)? </summary>
+Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transactions in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc.
+</details>
+
+<details>
+  <summary>What are the distribution games? </summary>
+The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process.
+</details>
+
+<details>
+  <summary>What do you need them for? </summary>
+There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
+</details>
+
+<details>
+  <summary>Can you explain what are EUL / GOL tokens? </summary>
+They are both experimental tokens needed to launch the productive equivalent. EUL is the testing equivalent of CYB and GOL of THC.
+</details>
+
+<details>
+  <summary>Is the inflation model endless? </summary>
+The inflation in cyberd is defined by validators.
+</details>
+
+### The distribution games in detail
+We have already mentioned the distirubution games briefly. Their purpose is to increase traction and improve distribution. 
 
 ### CYB and THC
 
-(Distribution games, further plans)
+- tokens and utility
+- transactions
 
 ### Gift
+
+### cyber~Congress pot
+
+### Possible future amendments
 
 ------------------------------------------------------
 
 ## :rocket: Section subtitle: `Houston` we (don't) have a problem
+> How typical is it for a spaceship to break when you least wait for it... Earth is not seen to the naked eye anymore, but you don't really miss home. Let's upgrade our knowledge by actaulyl doing things this time.
+
+This section will teach you about hardware, governance and survival in deep space. After this we will be true cosmonouats. Lets dive in in hardware and technical guides of cyber.
 
 ### How does cyber work
 - connecting to cyber
@@ -2047,6 +2139,9 @@ You can't save the galaxy unless you have the right resources for it. This secti
 ------------------------------------------------------
 
 ## :pill: Section subtitle: The deep space
+> Oh well... It's deep space. No more Milky Way. Strange planets around you. You are a billion light years away from Earth
+
+This section will dive into the undived. We will talk about the things that were left out before. The deep librabry of cyber. Some parts of this section might sound a bit crazy, some... not as crazy.
 
 ### The evolution of species
 - research
@@ -2058,6 +2153,9 @@ You can't save the galaxy unless you have the right resources for it. This secti
 ------------------------------------------------------
 
 ## :milky_way: Section subtitle: Colonization
+> We finally made it to our destination. The elgoog planet (or whatever else you wnat to call it)...
+
+This section will talk about some of the things you will need to know for colonozing deep space planets. In places, it might go over things you already know. 
 
 ### Other questions (tor, google, yacy, etc) 
 
