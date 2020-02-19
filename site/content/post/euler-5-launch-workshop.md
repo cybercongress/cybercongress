@@ -5,7 +5,7 @@ title: 'euler-5' workshop videos
 author: serejandmyself
 ---
 
-> Sometimes stories do not begin as they should. Sometimes stories even miss the beginning... In the depth of the faraway galaxy, which light is barely even seen from Earth, hope is born. A hope that one day good will overcome evil. Shaderrign through the darkness of the Cosmos and space debris a ray of light comes to Earth... 
+> Sometimes stories do not begin as they should. Sometimes stories even miss the beginning... In the depth of the faraway galaxy, which light is barely even seen from Earth, hope is born. A hope that one day good will overcome evil. Shaderrign through the darkness of the Cosmos and space debris a ray of light comes to Earth...
 
 On the 20 December 2019 AD (Earth time), after almost a year of hard work, we released [Episode 1](https://cybercongress.ai/euler-5-release/). A day after, the sexy, public launch of Euler-5 took place. Today we are publishing the videos from the euler-5 launch workshop, straight out of cyber~House. We believe these videos are a must-watch, for anyone who believes that a better google is doable.
 
@@ -32,15 +32,19 @@ The ceremonial launch of the euler-5 testnet, in which we talk about what cyber 
 - [Game of Links](https://cybercongress.ai/game-of-links/)
 - [Donations](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-the-distribution-games)
 
-Links to [video in IPFS](https://ipfs.io/ipfs/QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pKS), [white paper in IPFS](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) and [youtube video](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6) 
+Links to [video in IPFS](https://ipfs.io/ipfs/QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pKS), [white paper in IPFS](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) and [youtube video](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6)
 
 ## Cyber Roadmap by @litvintech
 
 The most exciting talk. In which [@litvintech](https://github.com/litvintech) outlines further work on [cyberd](https://github.com/cybercongress/cyberd):
 
 - Rank calculation scaling
+- On-chain upgrades
+- IBC
+- CosmWasm
 - Inter Knowledge Protocol (IKP) on top of IBC
 - 1-hop discovery of content
+- Delegation
 - Knowledge Graph Interface (KGI)
 - Community pool
 
@@ -52,9 +56,9 @@ An overview of cybs roadmap and development, your friendly, immortal robot for t
 
 - What is [Cyb](https://github.com/cybercongress/cyb)?
 - What is a [cyberlink](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-cyberlinks)?
-- [Gravity](https://github.com/cybercongress/gravity)
-- [js~Cyber](https://cybercongress.ai/docs/cyberd/rpc/)
-- [dot~Cyber](https://cyber.page/)
+- [dot~Cyber upcoming features](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc)
+- [Importance of Gravity](https://github.com/cybercongress/gravity) and [js~Cyber](https://cybercongress.ai/docs/cyberd/rpc/)
+- Philosophy behind Cyb
 
 Links to [video in IPFS](https://ipfs.io/ipfs/QmQWdLA8ppSCE1YALwRCwqRpvThLgpbD1acN7netCuTGZZ), [presentation in IPFS](https://ipfs.io/ipfs/Qma1KS62j699c77RrDWq6CCfTSypB8mmLJAYZrzicTd6jj) and [youtube video](https://www.youtube.com/watch?v=rMOJ9Z_jjcc&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=4)
 
@@ -89,7 +93,7 @@ Links to [video in IPFS](https://ipfs.io/ipfs/QmYxLd6QhrCZx4weuT4W4B8pZ365xF6Ywt
 
 A step-by-step video guide of how to set up your cyber node and configure it correctly:
 
-- [Launching&Requirements](https://cybercongress.ai/docs/cyberd/run_validator/)
+- [Launching & Requirements](https://cybercongress.ai/docs/cyberd/run_validator/)
 - Docker installation
 - [Launching with Ledger](https://cybercongress.ai/docs/cyberd/validator_launch_with_tendermintkms_and_ledger/)
 - Configuring your node
