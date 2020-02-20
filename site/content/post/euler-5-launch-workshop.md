@@ -13,13 +13,13 @@ On the 20 December 2019 AD (Earth time), after almost a year of hard work, we re
 
 Long story short, thanks to [cyber•Academy](https://www.youtube.com/cyberacademy) here is your [must-have euler-5 playlist](https://www.youtube.com/playlist?list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT):
 
-- [The ceremonial launch of Euler 5](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#ceremonial-launch) by cyber•Academy
-- [Cyber Roadmap](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#cyber-roadmap-by-litvintech) by @litvintech
-- [Cyb Roadmap](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#cyb-roadmap-by-xhipster) by @xhipster
-- [Ecosystem and Community](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#ecosystem-and-community-by-serejandmyself) by @serejandmyself
-- [Node and Infrastructure set-up](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#node-and-infrastructure-set-up-by-mrlp4) by @mrlp4
-- [Game of Links](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#game-of-links-by-savetheales) by @savetheales
-- [Unedited footage](https://github.com/cybercongress/congress/blob/b078e0bdc5da594036baa8c6425786103635498b/site/content/post/euler-5-launch-workshop.md#unedited-footage-by-cyberacademy) by cyber•Academy
+- [The ceremonial launch of Euler 5](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6) by cyber•Academy
+- [Cyber Roadmap](https://www.youtube.com/watch?v=cyiNKco4HUk&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=2) by @litvintech
+- [Cyb Roadmap](https://www.youtube.com/watch?v=rMOJ9Z_jjcc&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=4) by @xhipster
+- [Ecosystem and Community](https://www.youtube.com/watch?v=BA2G3APAlUA&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=3) by @serejandmyself
+- [Node and Infrastructure set-up](https://www.youtube.com/watch?v=AMUatLPfNJM&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=1) by @mrlp4
+- [Game of Links](https://www.youtube.com/watch?v=mcCn_-GMO_k&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=5) by @savetheales
+- [Unedited footage](https://www.youtube.com/watch?v=tpoKq-fCXhM&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=7) by cyber•Academy
 
 ## Ceremonial launch
 
