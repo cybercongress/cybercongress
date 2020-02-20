@@ -5,7 +5,7 @@ title: 'euler-5 workshop videos'
 author: serejandmyself
 ---
 
-> Sometimes stories do not begin as they should. Sometimes stories even miss the beginning... In the depth of the faraway galaxy, which light is barely even seen from Earth, hope is born. A hope that one day good will overcome evil. Shaderrign through the darkness of the Cosmos and space debris a ray of light comes to Earth...
+> Sometimes, stories do not occur as expected. Often, they might not even have a beginning... In the depth of a faraway galaxy, the light of which is barely even seen from Earth, hope is born. Hope that one day good will overcome darkness. Scattered through the night of the Cosmos and bypassing space debris, a ray of light reaches Earth...
 
 On the 20 December 2019 AD (Earth time), after almost a year of hard work, we released [Episode 1](https://cybercongress.ai/euler-5-release/). A day after, the sexy, public launch of Euler-5 took place. Today we are publishing the videos from the euler-5 launch workshop, straight out of cyber~House. We believe these videos are a must-watch, for anyone who believes that a better google is doable.
 
