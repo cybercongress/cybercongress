@@ -731,6 +731,7 @@ A list of profiles in awesome lists:
 - [Tendermint awesome list](https://github.com/tendermint/awesome): A profile on the Tendermint awesome list
 - [deGoogle list](https://github.com/tycrek/degoogle): cyber on the degoogle tools list
 - [Awesome TCR](https://github.com/miguelmota/awesome-token-curated-registries): A list of projects using TCR
+- [Awesome blockchain AI](https://github.com/steven2358/awesome-blockchain-ai): Blockchain AI-related list
 
 A list of profiles on other projects websites:
 - [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem
