@@ -1,7 +1,7 @@
 ---
 date: 2020-02-14
 url: euler-5-launch
-title: 'euler-5' workshop videos
+title: 'euler-5 workshop videos'
 author: serejandmyself
 ---
 
