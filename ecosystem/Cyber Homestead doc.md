@@ -804,7 +804,7 @@ Main communities:
   - [Monero subreddit](https://www.reddit.com/r/Monero/)
 - Aragon:
   - [Aragon subreddit](https://www.reddit.com/r/aragonproject/)
-  - [cyber forum profile link]()
+  - [cyber forum profile link](https://forum.aragon.org/t/cyber-a-dao-for-a-decentralized-search-engine-and-web3/1887)
   - [cybers listing on Aragon wiki](https://wiki.aragon.org/about/projects/)
  - Solana:
  
