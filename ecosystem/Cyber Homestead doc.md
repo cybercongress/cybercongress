@@ -926,6 +926,7 @@ Web 2 social networks:
 --------------------------------
 
 Media channels:
+
 - Non-crypto media:
   - [cybers mentions in the wild](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild)
 
