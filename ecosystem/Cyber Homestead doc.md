@@ -712,19 +712,6 @@ A list of public profiles, sites and chats:
 - Urbit: `join ~dilled-fastyd/fuckgoogle` - cybers Urbit group
 - [Steemit](https://steemit.com/@cybercongress): Our, not so used, steemit blog
 
-A list of forum profiles:
-- [Discuss IPFS forum](https://discuss.ipfs.io/u/fuckgoogle/summary): Our profile on IPFS forum
-- [Comsos forum profile](https://forum.cosmos.network/u/serejandmyself/summary): Our profile on Cosmos forum
-- [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=5199195): The OG forum ANN
-- [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0): An ANN for miners on BTT
-- [Bit.Media forum ANN](https://forum.bits.media/index.php?/topic/160286-cyber-%D0%B4%D0%B5%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-google-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D1%82%D1%8B%D1%85-%D0%B8-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D1%85-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2/): Our profile on bits.media blockchain forum
-
-A list of constant media profiles:
-- [Forklog hub](https://hub.forklog.com/companies/cyber/): Forklog hub for cyber
-
-Along with this list, on our forum, there is a [public thread for all mentions of cyber in the media
-and social networks](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/40). Fell free to hit the `reply` button to the topic and add something if you see us getting mentioned in the wild. 
-
 A list of profiles in awesome lists:
 - [Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem): A list of awesome Cosmos projects
 - [IPFS awesome list](https://github.com/ipfs/awesome-ipfs): Our profile on IPFS awesome list
@@ -734,74 +721,14 @@ A list of profiles in awesome lists:
 - [Awesome blockchain AI](https://github.com/steven2358/awesome-blockchain-ai): Blockchain AI-related list
 
 A list of profiles on other projects websites:
-- [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem
+- [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem website
+- [Cosmos community forum](https://forum.cosmos.network/t/list-of-projects-in-cosmos-tendermint-ecosystem/243/14): At number 16
 - [IPFS project list](https://blog.ipfs.io/2020-02-10-our-focus-for-2020/): A list of IPFS projects
 - [Aragon wiki](https://wiki.aragon.org/about/projects/): Our profile on the Aragon wiki
 
-A list of TG groups that cyber participates in:
-- [Cosmos netowr](https://t.me/cosmosproject): Main Cosmos TG channel
-- [Cosmos VIP]: Invite only channel. Cosmos VIP TG group
-- [Cosmos governance group](https://t.me/hubgov): Cosmos TG governance group
-- [IBC](https://t.me/ibcprotocol): Cosmos TG IBC discussion group
-- [Comnsos DVD](https://t.me/CosmosDVD): Cosmos TG developers group
-- [CosmosRu](https://t.me/CosmosprojectRu): Cosmos Russian TG group
-
-A list of Cosmos RIAT chats that cyber participates in:
-- [Cosmos SDk](https://riot.im/app/#/room/#cosmos-sdk:matrix.org): Cosmos SDK discussions
-- [Game of Zones](https://riot.im/app/#/room/#goz:matrix.org): GoZ discussions
-- [Cosmos Netwrok](https://riot.im/app/#/room/#cosmos:matrix.org): Main Cosmos RIAT channel
-- [Comsos Validators](https://riot.im/app/#/room/#cosmos-validators:matrix.org): RIAT Cosmos validator group
-- [Cosmos Validators Technical Updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org): Technical validator updates
-
-Non-Cosmos related RIAT chats that cyber is present in:
-- [Polkadpt watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org): Polkdaot main RIAt channel
-- [Kusama validator lounge](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders): RIAT Kusama vlaidator channel
-- [Tezos](https://riot.im/app/#/room/#tezos:matrix.org): Tezos RIAT channel
-- [Privacytools general](https://riot.im/app/#/room/#general:privacytools.io): Privacy tools discssuin group
-- [IPFS](https://riot.im/app/#/room/#ipfs:matrix.org): IPFS discssion group
-- [I2P](https://riot.im/app/#/room/#I2p:matrix.org): I2P discusion group
-
-A list of subreddits relevant to cyber:
-- [Aeternity](https://www.reddit.com/r/Aeternity/): AE subreddit
-- [Anarchism](https://www.reddit.com/r/Anarchism/): Subreddit for anarchists
-- [Anarcho_Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/): Discussions about aanrchy
-- [Aragonproject](https://www.reddit.com/r/aragonproject/): Aragon subreddit
-- [Bitcoin](https://www.reddit.com/r/Bitcoin/): BTC subreddit
-- [CCC](https://www.reddit.com/r/ccc/): Chaos communication congress subreddit
-- [Corrtex_Official](https://www.reddit.com/r/Cortex_Official/): Cortex subreddit
-- [Cosmosnetwrork](https://www.reddit.com/r/cosmosnetwork/): Comsos subreedit
-- [CryptoCurrencies](https://www.reddit.com/r/CryptoCurrencies/): Crypto subreddit
-- [CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/): Crypto subreddit
-- [CryptoMarkets](https://www.reddit.com/r/CryptoMarkets/): Crypto trading subreddit
-- [CrytpoTechnology](https://www.reddit.com/r/CryptoTechnology/): Crypto technology subreddit
-- [CUDA](https://www.reddit.com/r/CUDA/): Cuda miners subredidit
-- [Cyber](https://www.reddit.com/r/cyber/): Cyber world subreddit
-- [Cyberpunk](https://www.reddit.com/r/Cyberpunk/): Syberpunk subreddit
-- [deGoogle](https://www.reddit.com/r/degoogle/): Ditch google subreddit
-- [ethdev](https://www.reddit.com/r/ethdev/): ETH developer subreddit
-- [Ethereum](https://www.reddit.com/r/ethereum/): Main ETH subreddit
-- [firstworldanarchists](https://www.reddit.com/r/firstworldanarchists/): Anarchy subreddit
-- [FreeSpeech](https://www.reddit.com/r/FreeSpeech/): Freedom subreddit
-- [Futurology](https://www.reddit.com/r/Futurology/): About future subreddit
-- [github](https://www.reddit.com/r/github/): Github subreddit
-- [google](https://www.reddit.com/r/google/): Google subreddit
-- [grincoin](https://www.reddit.com/r/grincoin/): Grincoin subreddit
-- [hacking](https://www.reddit.com/r/hacking/): hacking subreddit
-- [ipfs](https://www.reddit.com/r/ipfs/): IPFS subreddit
-- [ledgerwallet](https://www.reddit.com/r/ledgerwallet/): Ledger subreddit
-- [Libertarian](https://www.reddit.com/r/Libertarian/): Liberty subreddit
-- [MachineLearning](https://www.reddit.com/r/MachineLearning/): Ml subreddit
-- [Mimblewimble](https://www.reddit.com/r/Mimblewimble/): MW subreddit
-- [Monero](https://www.reddit.com/r/Monero/): Monero subreddit
-- [nvidia](https://www.reddit.com/r/nvidia/): Nvidia subreddit
-- [onions](https://www.reddit.com/r/onions/): Onion subreddit
-- [OpenBazaar](https://www.reddit.com/r/OpenBazaar/): OB subreddit
-- [privacy](https://www.reddit.com/r/privacy/): Privacy subreddit
-- [privacytoolsIO](https://www.reddit.com/r/privacytoolsIO/): Privacytools subreddit
-- [tails](https://www.reddit.com/r/tails/): Tails subreddit
-- [TOR](https://www.reddit.com/r/TOR/): Tor subreddit
-- [web3](https://www.reddit.com/r/web3/): Web3 subreddit
-
+A list of constant media profiles:
+- [All cyber media mentions](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild): Fell free to hit the `reply` button to the topic and add something if you see us getting mentioned in the wild.
+- [Forklog hub](https://hub.forklog.com/companies/cyber/): Forklog hub for cyber
 
 #### Gitcoin
 We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
@@ -830,114 +757,195 @@ For this cyber~Congress has allocated a community pool and set out guidelines, d
 One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
 
 #### Partnering communities
-There are many importnat communities that cyber sees as vital for the success of building `the Great Web`, those communities include:
-
-(The idea behind publishing these as a check-list, is that you may copy this task-list or print it out and help cyber to get more traction within these communitites. Feel free to include any [mentions here](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/40/51))
+There are many importnat communities that cyber sees as vital for the success of building `the Great Web`. The idea behind publishing these, is that you may copy this list or print it out and help cyber to get more traction within these communitites. Feel free to include any [mentions here](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/)
 
 Main communities:
-- [ ] Cosmos
-- [ ] IPFS
-- [ ] ETH
-- [ ] Web3
-- [ ] Urbit 
-- [ ] OB
-- [ ] Privacytools.io
-- [ ] Monero
-- [ ] Aragon
+- Cosmos: 
+  - [Cosmos cyber forum link](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/9) 
+  - [Cosmos gift forum link](https://forum.cosmos.network/t/we-have-dropped-a-gift-on-over-1-million-eth-atom-and-urbit-addresses-including-over-10k-atom-addresses/3132/4)
+  - [Cosmos GoL forum link](https://forum.cosmos.network/t/cyber-bootstrap-yourself-with-some-fuel-eul-tokens-to-save-the-galaxy-from-extinction-by-playing-the-game-of-links-an-incentivized-game-for-euler-5-a-tesnet-of-cyber/3126/3)
+  - [Cosmos fuckgoogle validator forum link](https://forum.cosmos.network/t/we-have-launched-our-cosmos-fuckgoogle-validator-join-us-and-stake-our-reasons-for-doing-so-included/3060/2)
+  - [Cosmos TG network group](https://t.me/cosmosproject)
+  - Cosmos TG VIP channel (invite only)
+  - [Cosmos TG governance group](https://t.me/hubgov)
+  - [Cosmos TG IBC channel](https://t.me/ibcprotocol)
+  - [Cosmos TG DVD (developers) channel](https://t.me/CosmosDVD)
+  - [Cosmos TG CosmosRu group](https://t.me/CosmosprojectRu)
+  - [Cosmos RIAT SDK discussions](https://riot.im/app/#/room/#cosmos-sdk:matrix.org)
+  - [Cosmos RIAT GoZ discussions](https://riot.im/app/#/room/#goz:matrix.org)
+  - [Cosmos RIAT channel](https://riot.im/app/#/room/#cosmos:matrix.org)
+  - [Cosmos RIAT validator group](https://riot.im/app/#/room/#cosmos-validators:matrix.org)
+  - [Cosmos RIAT Technical validator updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org)
+  - [Cosmos subreddit](https://www.reddit.com/r/cosmosnetwork/)
+  - [cybers listing on Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem)
+  - [cybers listing on Tendermint awesome list](https://github.com/tendermint/awesome)
+  - [cybers listing on cosmonauts.world](https://github.com/lovincyrus/cosmonauts-world)
+- IPFS: 
+  - [IPFS cyber forum link](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786/6) 
+  - [IPFS cyber.page forum link](https://discuss.ipfs.io/t/cyber-page-inter-planetary-search-app-for-web3/7049/3) 
+  - [IPFS RIAT chat group](https://riot.im/app/#/room/#ipfs:matrix.org) 
+  - [IPFS subreddit](https://www.reddit.com/r/ipfs/)
+  - [cybers listing on IPFS awesome list](https://github.com/ipfs/awesome-ipfs)
+- ETH: 
+  - [ETH subreddit](https://www.reddit.com/r/ethereum)
+  - [ethdev subreddit](https://www.reddit.com/r/ethdev/)
+  - [ETH forum profile link]()
+- Web3:
+  - [Web3 subreddit](https://www.reddit.com/r/web3/)
+- Urbit:
+  - [Urbit Live TG group](https://t.me/UrbitLiveGroup)
+- Open Bazaar:
+  - [OB subreddit](https://www.reddit.com/r/OpenBazaar/)
+- Privacytools.io:
+  - [PT subreddit](https://www.reddit.com/r/privacytoolsIO/)
+  - [PT RIAT chat](https://riot.im/app/#/room/#general:privacytools.io)
+  - [PT cyber GH discussion issue](https://github.com/privacytoolsIO/privacytools.io)
+- Monero:
+  - [Monero subreddit](https://www.reddit.com/r/Monero/)
+- Aragon:
+  - [Aragon subreddit](https://www.reddit.com/r/aragonproject/)
+  - [cyber forum profile link]()
+  - [cybers listing on Aragon wiki](https://wiki.aragon.org/about/projects/)
+ - Solana:
+ 
 
 --------------------------------
 
 Miner-related communities:
 
-- [ ] Aeternity
-- [ ] Grin
-- [ ] Cortex
-- [ ] Nvidia miners
+- Aeternity:
+  - [AE subreddit](https://www.reddit.com/r/Aeternity/)
+- Grin: 
+  - [cyber forum link](https://forum.grin.mw/t/a-shout-out-to-the-miners-of-grin-uncategorized-because-its-not-about-mining-grin-directly/6966)
+  - [Grin subreddit](https://www.reddit.com/r/grincoin/)
+- Cortex:
+  - [Cortex subreddit](https://www.reddit.com/r/Cortex_Official/) 
+- Nvidia miners:
+  - [Nvidia subreddit](https://www.reddit.com/r/nvidia/)
+  - [CUDA subreddit](https://www.reddit.com/r/CUDA/)
+  - [Nvidia cybers forum link]()
 
 --------------------------------
 
 Validator/Staking-related communities:
 
-- [ ] Solana
-- [ ] Polkadot
-- [ ] Tezos
-- [ ] NuCypher
-- [ ] Icon
-- [ ] Loom
-- [ ] Chainlink
-- [ ] Aion
-- [ ] Dash
+- Polkadot:
+  - [PD RIAT chat](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
+  - [Kusama RIAT chat](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders)
+- Tezos:
+  - [Tezos RIAT chat](https://riot.im/app/#/room/#tezos:matrix.org)
+- NuCypher:
+- Icon:
+- Loom:
+- Chainlink:
+- Aion:
+- Dash:
 
 --------------------------------
 
 Crypto-related to search communities:
 
-- [ ] Ethresearch
-- [ ] ENS
-- [ ] ZIL naming service
-- [ ] Aeternity naming service
-- [ ] Namecoin
+- Ethresearch:
+- ENS:
+- ZIL naming service:
+- Aeternity naming service:
+- Namecoin:
 
 --------------------------------
 
 Crypto-related communities:
 
-- [ ] Ethermint 
-- [ ] FOAM
-- [ ] Everpedia
-- [ ] Filecoin
-- [ ] Bitcoin
-- [ ] MaidSafe
-- [ ] IOTA
-- [ ] Augur
-- [ ] Skycoin
-- [ ] Decentraland
-- [ ] MelonPort
+- Ethermint: 
+- FOAM:
+- Everpedia:
+- Filecoin:
+- Bitcoin:
+  - [BTC subreddit](https://www.reddit.com/r/Bitcoin/)
+- MaidSafe:
+- IOTA:
+- Augur:
+- Skycoin:
+- Decentraland:
+- MelonPort:
 
 --------------------------------
 
 Decentralized social network communities:
 
-- [ ] Steem
-- [ ] Golos
-- [ ] Diaspora
+- Steem:
+  - [cybercongress profile](https://steemit.com/@cybercongress)
+- Golos:
+- Diaspora:
 
 --------------------------------
 
 Other crypto-related communities that might be of interest now or in the future:
 
-- [ ] Gitcoin
-- [ ] Gitcolony
-- [ ] Ledger
-- [ ] Trezor
+- Gitcoin:
+- Gitcolony:
+- Ledger:
+  - [Ledger subreddit](https://www.reddit.com/r/ledgerwallet/)
+- Trezor:
 
 --------------------------------
 
 Web 2 social networks:
 
-- [ ] Reddit 
-- [ ] Bitcointalk 
-- [ ] Twitter
-- [ ] Github
-- [ ] Ycomb
-- [ ] Cryptography digest newsletter 
-- [ ] Riat/Matrix/Freenode
-- [ ] Bitsmedia
+- Reddit:
+  - [Anarchism](https://www.reddit.com/r/Anarchism/): Subreddit for anarchists
+  - [Anarcho_Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/): Discussions about anarchy
+  - [CryptoCurrencies](https://www.reddit.com/r/CryptoCurrencies/): Crypto subreddit
+  - [CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/): Crypto subreddit
+  - [CryptoMarkets](https://www.reddit.com/r/CryptoMarkets/): Crypto trading subreddit
+  - [CrytpoTechnology](https://www.reddit.com/r/CryptoTechnology/): Crypto technology subreddit
+  - [Cyber](https://www.reddit.com/r/cyber/): Cyber world subreddit
+  - [Cyberpunk](https://www.reddit.com/r/Cyberpunk/): Cyberpunk subreddit
+  - [deGoogle](https://www.reddit.com/r/degoogle/): Ditch google subreddit
+  - [firstworldanarchists](https://www.reddit.com/r/firstworldanarchists/): Anarchy subreddit
+  - [FreeSpeech](https://www.reddit.com/r/FreeSpeech/): Freedom subreddit
+  - [Futurology](https://www.reddit.com/r/Futurology/): About future subreddit
+  - [github](https://www.reddit.com/r/github/): Github subreddit
+  - [google](https://www.reddit.com/r/google/): Google subreddit
+  - [hacking](https://www.reddit.com/r/hacking/): hacking subreddit
+  - [Libertarian](https://www.reddit.com/r/Libertarian/): Liberty subreddit
+  - [MachineLearning](https://www.reddit.com/r/MachineLearning/): ML subreddit
+  - [Mimblewimble](https://www.reddit.com/r/Mimblewimble/): MW subreddit
+  - [onions](https://www.reddit.com/r/onions/): Onion subreddit
+  - [privacy](https://www.reddit.com/r/privacy/): Privacy subreddit
+  - [tails](https://www.reddit.com/r/tails/): Tails subreddit
+  - [TOR](https://www.reddit.com/r/TOR/): Tor subreddit
+- Bitcointalk:
+  - [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=5199195)
+  - [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0)
+- Ycomb:
+  - [Ycomb news]()
+- Cryptography digest newsletter: 
+- Bitsmedia:
+  - [cybers profile link](https://forum.bits.media/index.php?/topic/160286-cyber-%D0%B4%D0%B5%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-google-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D1%82%D1%8B%D1%85-%D0%B8-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D1%85-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2/)
 
 --------------------------------
 
 Media channels:
+- Non-crypto media:
+  - [cybers mentions in the wild](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild)
 
-- [ ] Crypto media - English speaking
-- [ ] Crypto media - Russian speaking
-- [ ] Crypto media - Other [languages](https://github.com/cybercongress/congress/issues/273)
+- Crypto media:
+  - [Forklog hub](https://hub.forklog.com/companies/cyber/)
 
 --------------------------------
 
 Offline communities:
 
-- [ ] Under 21
-- [ ] ccc
+- Under 21:
+- ccc:
+  - [ccc subreddit](https://www.reddit.com/r/ccc/)
+
+--------------------------------
+
+Other communities:
+
+- I2P:
+  - [I2P RIAT chat](https://riot.im/app/#/room/#I2p:matrix.org)
 
 --------------------------------
 
