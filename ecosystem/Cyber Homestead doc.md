@@ -316,7 +316,9 @@ The idea of cyber was incepted in late 2016. The original white paper was writte
 
 The idea behind cyber·Search was to create a blockchain agnostic explorer, that would enable anyone to search for any metadata within any blockchain. We have a small [retro landing page](https://cybercongress.github.io/cyber-search/) left from those days. 
 
-After some time the team behind cyber·Search left and cyber~Congress was born. If you are curious, [watch those videos](https://www.youtube.com/watch?v=EpI87MxJymc) to see how it happened (*hint: you can also watch some of the original cyber.seach videos on the same youtube channel*). 
+After some time the team behind cyber·Search left and cyber~Congress was born. If you are curious, [watch those videos](https://www.youtube.com/watch?v=EpI87MxJymc) to see how it happened (*hint: you can also watch some of the original cyber·Search videos on the same youtube channel*). 
+
+(*hint: you may also see the [launch roadmap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#full-launch-roadmap) for a historical timeline*)
 
 The team was dedicating time to research and building. As time progressed, so did cyber·Search. The team grew, the idea grew and eventually, the results of good research, skilled engineering and the development of blockchain technology, led to the transformation of cyber·Search - into cyber, along with the birth of cyber~Rank, the mechanism that ranks information in cyber.  
 
