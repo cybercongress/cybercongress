@@ -961,6 +961,7 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 
 #### Full launch roadmap
 - 2016: [First WP draft](https://github.com/xhipster/cyber-origin/blob/master/cyber%E2%80%A2Chain.md), research, self-funding (this part applies throughout the current lifetime of the protocol)
+- 2017: One of the first, public [presentations](https://docs.google.com/presentation/d/1nsPwHLBu5UArQ4zbN1yaGUj8LBgEpCEFqVe6iKP5XLg/pub?start=false&loop=false&delayms=3000&slide=id.g20ef74535d_0_33) of cyber·Search
 - 2017: Evolution of cyber~Search into cyber, development work
 - 2018: Protocol development, first implementations
 - 2018.11.10 - 2019.03.05: Launch of the `Winter round for friends` public [donations](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md), protocol development, public testing
