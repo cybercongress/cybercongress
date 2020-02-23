@@ -88,3 +88,5 @@ npm start
 ```
 
 The IPFS Desktop app will launch and should appear in your OS menu bar.
+
+***The content partially copied from https://github.com/ipfs-shipyard/ipfs-desktop/blob/master/README.md***
