@@ -791,7 +791,7 @@ Main communities:
 - ETH: 
   - [ETH subreddit](https://www.reddit.com/r/ethereum)
   - [ethdev subreddit](https://www.reddit.com/r/ethdev/)
-  - [ETH forum profile link]()
+  - [DAO talk cyber profile link](https://daotalk.org/t/cyber-a-dao-for-a-decentralized-search-engine-and-web3/1178)
 - Web3:
   - [Web3 subreddit](https://www.reddit.com/r/web3/)
 - Urbit:
