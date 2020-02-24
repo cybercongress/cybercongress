@@ -52,23 +52,21 @@ Given the circumstances, an agents' karma was compromised by the bug described b
 
 The solution is in migrating cyberlinks. It is possible to export all of the cyberlinks made by an agent to an IPLD-like structure and add an opportunity for the agents to make their cyberlinks again in the new testnet, with one single transaction. In other words: in the new testnet, the agents can get their links from the previous testnet by a query to an IPLD structure, generate a transaction with all their previously made cyberlinks, sign it and broadcast it to the new network using their ledger via the [cyber.page app](https://cyber.page/pocket) or manually, via CLI.
 
-It would also be cool to create a small guide with an additional script for transaction generation and signing (UNSURE WHY WE NEED THIS SENTENCE).
-
 This lets us cover two of the migration points: cyberlinks and karma. The weakness of that method is that anyone can relink all the previously made cyberlinks before the original discoverers.
 
 The migration of the precommits is complex. To avoid any additional changes in the distribution, we propose to save the state of the precommits in [a .csv file](https://github.com/cybercongress/launch-kit/tree/0.1.0/game_rewards_calculations) at a certain block height and use it for the Game of Links recalculations after the Game. Thus, we can avoid major changes in the distribution and make the migration a smoother process.
 
 The stake of the validators should be burned. The complexity of changing distribution parameters is much higher than the error of the final stake results.
 
-Additionally, we are now able to test the genesis ceremony (LINK - WHAT IS IT?) and parameters discussion. The [launch-kit repo](https://github.com/cybercongress/launch-kit) is ready for newcomers and it seems possible to do this now.
+Additionally, we are now able to test the `genesis ceremony` and hold parameters discussion. The `genesis ceremony`  is the process of signing the genesis file by validators who want to participate in the initial transaction of the network. Validators can sign the Genesis before the launch and start validating from the first block. The [launch-kit repo](https://github.com/cybercongress/launch-kit) is now ready for newcomers and it seems possible to do this now.
 
 The workflow should be fairly easy:
 1. Announce network halt at a given block height
 2. Export precommits and cyberlinks on a given block
-3. Import the UI for cyber.page to cyberlinks (NEEDS EXPLANATION)
-4. Create a guide for importing cyberlinks via the CLI (WE CREATE IT?)
+3. Import the required UI for cyber.page to migrate cyberlinks
+4. Create a guide for importing cyberlinks via the CLI 
 4. Generate Genesis
-5. Genesis ceremony (LINK)
+5. [Genesis ceremony](https://github.com/cybercongress/launch-kit/blob/0.1.0/gen_txs/README.md)
 6. Relaunch
 
 Comments and ideas are welcome in [309](https://github.com/cybercongress/congress/issues/309).
