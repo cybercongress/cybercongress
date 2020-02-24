@@ -1,5 +1,7 @@
 # IPFS Companion
 
+***The content is partially copied from https://github.com/ipfs-shipyard/ipfs-companion/blob/master/README.md***
+
 Upgrade your browser with [IPFS](https://ipfs.io/) super powers
 
 ![demo of v2.8.0](https://user-images.githubusercontent.com/157609/55318231-938ce480-5472-11e9-8624-b0021a34c1a4.gif)
@@ -98,5 +100,3 @@ We recommend installing the stable release via your browser's add-on store.
 
 **Note:** `ipfs-companion` is designed to retrieve content from a locally running IPFS daemon.  
 Make sure [IPFS is installed](https://docs.ipfs.io/introduction/usage/) on your computer.
-
-***The content partially copied from https://github.com/ipfs-shipyard/ipfs-companion/blob/master/README.md***
