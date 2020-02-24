@@ -1,5 +1,8 @@
 # IPFS desktop guide
 
+
+***The content is partially copied from https://github.com/ipfs-shipyard/ipfs-desktop/blob/master/README.md***
+
 An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. https://ipfs.io. You don't need the command line to run an IPFS node. Just install IPFS Desktop and have all the power of IPFS in your hands. Powered by Web UI. IPFS Desktop allows you to run your IPFS Node on your machine without having to bother with command line tools. With it, you have the power of Web UI on tip of your hands plus a handful of shortcuts you can find on settings.
 
 ## Download the latest release
@@ -88,5 +91,3 @@ npm start
 ```
 
 The IPFS Desktop app will launch and should appear in your OS menu bar.
-
-***The content partially copied from https://github.com/ipfs-shipyard/ipfs-desktop/blob/master/README.md***
