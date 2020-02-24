@@ -50,7 +50,7 @@ To update the chain me propose the following state migration (read the [full pro
 
 Given the circumstances, an agents' karma was compromised by the bug described by @litvintech, so there is no sense to migrate karma values between testnets.
 
-The solution is in migrating cyberlinks. It is possible to export all of the cyberlinks made by an agent to an IPLD-like structure and add an opportunity for the agents to make their cyberlinks again in the new testnet, with one single transaction. In other words: in the new testnet, the agents can get their links from the previous testnet by a query to an IPLD structure, generate a transaction with all their previously made cyberlinks, sign it and broadcast it to the new network using their ledger via the [cyber.page app](https://cyber.page/pocket) or manually, via CLI.
+The solution is in migrating cyberlinks. It is possible to export all of the cyberlinks made by an agent to an IPLD-like structure and add an opportunity for the agents to make their cyberlinks again in the new testnet, with one single transaction. In other words: in the new testnet, the agents can get their links from the previous testnet by a query to an IPLD structure, generate a transaction with all their previously made cyberlinks, sign it and broadcast it to the new network using their ledger via the [cyber.page app](https://cyber.page/pocket) or manually, via [CLI](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/).
 
 This lets us cover two of the migration points: cyberlinks and karma. The weakness of that method is that anyone can relink all the previously made cyberlinks before the original discoverers.
 
