@@ -10,6 +10,7 @@ author: serejandmyself
 Due to the blocking error described in [#309](https://github.com/cybercongress/congress/issues/309), we shall activate the [crisis protocol](https://github.com/cybercongress/congress/blob/master/site/content/post/game-of-links.md#crisis-protocol) and migrate from euler 5 -> euler-6.
 
 The migration will include:
+
 - A rewritten storage for using the latest SDK features (such as IAVL with in-memory data, which periodically flushes to disk. This was introduced in SDK 0.38.0 for high I/O performing chain, such as ours)
 - During calculation, we now catch NaN values and assign zero values to them
 - Bandwidth consumption during linking is fixed and now consumes/regenerates energy as should
@@ -42,6 +43,7 @@ All of this is now solved, and plenty of other new features are introduced in th
 To update the chain we plan to implement the following migration process. (Read the [full internal proposal here](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md)).
 
 4 major things should be taken into account:
+
 - Cyberlinks made by an agent
 - Karma of an agent
 - Precommits by a validator
@@ -60,6 +62,7 @@ The stake of the validators should be burned. The complexity of changing distrib
 Additionally, we are now able to test the `genesis ceremony` and hold parameters discussion. The `genesis ceremony`  is the process of signing the genesis file by validators who want to participate in the initial transaction of the network. Validators can sign the Genesis before the launch and start validating from the first block. The [launch-kit repo](https://github.com/cybercongress/launch-kit) is now ready for newcomers and it seems possible to do this now.
 
 The workflow should be fairly easy:
+
 1. Announce network halt at a given block height
 2. Export precommits and cyberlinks on a given block
 3. Import the required UI for cyber.page to migrate cyberlinks
