@@ -1,16 +1,15 @@
 ---
 date: 2020-02-24
-url: euler-6-proposal
-title: 'State migration proposal euler-5 -> euler-6'
+url: euler-6-migration
+title: 'State migration proccess from euler-5 -> euler-6'
 author: serejandmyself
 ---
 
 > Summary: Currently we have at least one blocking error to continue the Game of Links on top of the euler-5 network: a bandwidth limiting bug which removes the ability to correctly load the network. According to the outlined launch protocol of euler-5, we have to act and relaunch the network.
 
-Due to the blocking error described in [#309](https://github.com/cybercongress/congress/issues/309), we propose to activate the [crisis protocol](https://github.com/cybercongress/congress/blob/master/site/content/post/game-of-links.md#crisis-protocol) and migrate from euler 5 -> euler-6.
+Due to the blocking error described in [#309](https://github.com/cybercongress/congress/issues/309), we shall activate the [crisis protocol](https://github.com/cybercongress/congress/blob/master/site/content/post/game-of-links.md#crisis-protocol) and migrate from euler 5 -> euler-6.
 
 The migration will include:
-- NEEDS HELP (PLEASE LIST ALL FIXES HERE preferably with links)
 - A rewritten storage for using the latest SDK features (such as IAVL with in-memory data, which periodically flushes to disk. This was introduced in SDK 0.38.0 for high I/O performing chain, such as ours)
 - During calculation, we now catch NaN values and assign zero values to them
 - Bandwidth consumption during linking is fixed and now consumes/regenerates energy as should
@@ -39,8 +38,8 @@ We also found an issue with the consumption of bandwidth during linking. It was 
 
 All of this is now solved, and plenty of other new features are introduced in the new release!
 
-## State migration proposal by @SaveTheAles
-To update the chain me propose the following state migration (read the [full proposal here](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md)).
+## State migration process by @SaveTheAles
+To update the chain we plan to implement the following migration process. (Read the [full internal proposal here](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md)).
 
 4 major things should be taken into account:
 - Cyberlinks made by an agent
@@ -54,9 +53,9 @@ The solution is in migrating cyberlinks. It is possible to export all of the cyb
 
 This lets us cover two of the migration points: cyberlinks and karma. **The weakness of that method is that anyone can relink all the previously made cyberlinks before the original discoverers.**
 
-The migration of the precommits is complex. To avoid any additional changes in the distribution, we propose to save the state of the precommits in [a .csv file](https://github.com/cybercongress/launch-kit/tree/0.1.0/game_rewards_calculations) at a certain block height and use it for the Game of Links recalculations after the Game. Thus, we can avoid major changes in the distribution and make the migration a smoother process.
+The migration of the precommits is complex. To avoid any additional changes in the distribution, we will save the state of the precommits in [a .csv file](https://github.com/cybercongress/launch-kit/tree/0.1.0/game_rewards_calculations) at a certain block height and use it for the Game of Links recalculations after the Game. Thus, we can avoid major changes in the distribution and make the migration a smoother process.
 
-The stake of the validators should be burned. The complexity of changing distribution parameters is much higher than the error of the final stake results.
+The stake of the validators should be burned. The complexity of changing distribution parameters is much higher than the error of the final stake results. This means that the accounts in euler-6 genesis file will be the same as those of euler-5.
 
 Additionally, we are now able to test the `genesis ceremony` and hold parameters discussion. The `genesis ceremony`  is the process of signing the genesis file by validators who want to participate in the initial transaction of the network. Validators can sign the Genesis before the launch and start validating from the first block. The [launch-kit repo](https://github.com/cybercongress/launch-kit) is now ready for newcomers and it seems possible to do this now.
 
