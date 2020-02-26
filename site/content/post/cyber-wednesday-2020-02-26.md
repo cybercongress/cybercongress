@@ -49,23 +49,35 @@ Done:
 
 Ongoing:
 
-- [Add `cyber` addresses](https://github.com/cybercongress/dot-cyber/issues/124) for gift IPLD structure 
+- [Add `cyber` addresses](https://github.com/cybercongress/dot-cyber/issues/124) for gift IPLD structure
 - Euler-6 devnet manual tests
 - Release of Launch kit repo
 
 To do:
 
-- Start sparks (snippets) discussion with init specs schema 
+- Start sparks (snippets) discussion with init specs schema
 - Cyberindex for cosmos-SDK38 release
-- Cyberindex for cosmos-SDK36 release 
+- Cyberindex for cosmos-SDK36 release
 
 ## @xhipster
 
 Done:
+- Review and merge of [full featured explorer](https://github.com/cybercongress/dot-cyber/pull/142)
+- Complete reengineering of [dot-cyber roadmap](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc) according to euler-6 schedule and community feedback. 3 upcoming release in roadmap looks really stable and well scoped now.
+- Created first draft of [high level roadmap](https://github.com/orgs/cybercongress/projects/2) as a part of [better communication process](https://github.com/cybercongress/congress/issues/161). Waiting for the feedback.
 
 Ongoing:
+- [Scoping Takeoff](https://github.com/cybercongress/congress/issues/220)
+- Release of [cyb•Explorer](https://github.com/cybercongress/dot-cyber/projects/3)
+- Define [better communication process](https://github.com/cybercongress/congress/issues/161)
+- [Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
+- Start the process of [cleaning up congress repos](https://github.com/cybercongress/congress/issues/287)
 
 To do:
+- Takeoff [sound plan](https://github.com/cybercongress/congress/issues/220)
+- Design [import of cyberlinks](https://github.com/cybercongress/dot-cyber/issues/206)
+- Start to provide sketch mockups to @dimakorzhovnik
+- Groom everything in [cyb•Explorer release](https://github.com/cybercongress/dot-cyber/projects/3)
 
 ## @dimakorzhovnik
 
@@ -109,4 +121,3 @@ Done:
 Ongoing:
 
 To do:
-
