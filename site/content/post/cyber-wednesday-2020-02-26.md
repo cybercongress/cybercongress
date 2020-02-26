@@ -100,11 +100,16 @@ To do:
 
 ## @mrlp4
 
-Done:
+Done: 
+- Set new IPFS [cluster](https://github.com/cybercongress/congress/issues/317)
 
-Ongoing:
+Ongoing: 
+- Infra setup for apps and services of Euler-6
+- Testing of Euler-6-RC with [test-script](https://github.com/cybercongress/go-cyber/pull/474)
 
-To do:
+To do: 
+- Update to [swagger-ui](https://github.com/cybercongress/go-cyber/issues/461)
+- Helper for rewards [management](https://github.com/cybercongress/go-cyber/issues/468)
 
 ## @litvintech
 
