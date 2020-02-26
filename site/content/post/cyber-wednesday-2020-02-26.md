@@ -138,6 +138,8 @@ Done:
 
 - cyber\~Foundation: initial cyber~Foundation Aragon ceremony draft guide [released](https://github.com/cybercongress/cyber-foundation/blob/master/foundation.md)
 
+- infrastructure: support @mrpl4 to bootstrap IPFS cluster
+
 Ongoing:
 - Research on IBC, preparation for Game of Zones.
 - Gitcoin program relaunch.
