@@ -136,6 +136,8 @@ Done:
 - dot-cyber: succesfull initial experiment with cyb-snap integration
 - dot-cyber: non-succesfull initial experiment ipfs node [integration](https://github.com/fission-suite/get-ipfs) 
 
+- cyber\~Foundation: initial cyber~Foundation Aragon ceremony draft guide [released](https://github.com/cybercongress/cyber-foundation/blob/master/foundation.md)
+
 Ongoing:
 - Research on IBC, preparation for Game of Zones.
 - Gitcoin program relaunch.
