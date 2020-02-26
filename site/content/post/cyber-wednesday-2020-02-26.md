@@ -71,9 +71,20 @@ To do:
 
 Done:
 
+- Block page [#179](https://github.com/cybercongress/dot-cyber/pull/142)
+- Hero page [#178](https://github.com/cybercongress/dot-cyber/pull/142)
+- Transaction page [#108](https://github.com/cybercongress/dot-cyber/pull/142)
+- Contract page [#109](https://github.com/cybercongress/dot-cyber/pull/142)
+- Heroes page fixes [#172](https://github.com/cybercongress/dot-cyber/pull/176)
+- Fix tics in header [#180](https://github.com/cybercongress/dot-cyber/pull/181)
+
 Ongoing:
 
+- work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
+
 To do:
+
+- dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
 
 ## @mrlp4
 
