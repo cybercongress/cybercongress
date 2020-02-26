@@ -122,7 +122,12 @@ To do:
 ## @aha203
 
 Done:
+- [preparing visualisation for Launch-kit](https://github.com/cybercongress/launch-kit/blob/0.1.0/pic/launch_Kit_%20Euler-6.sketch)
+- Created first draft of [Cyber-process](https://github.com/cybercongress/congress/pull/324)
 
 Ongoing:
+- Coordination of [launch euler-6](https://github.com/cybercongress/go-cyber/projects/6)
 
 To do:
+-  In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
+- Prepare trailer for podcust
