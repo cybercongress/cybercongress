@@ -49,7 +49,7 @@ Done:
 
 Ongoing:
 
-- [Add `cyber` addresses](https://github.com/cybercongress/dot-cyber/issues/124) for gift IPLD structure
+- [Add 'cyber' addresses](https://github.com/cybercongress/dot-cyber/issues/124) for gift IPLD structure
 - Euler-6 devnet manual tests
 - Release of Launch kit repo
 
@@ -63,7 +63,7 @@ To do:
 
 Done:
 - Review and merge of [full featured explorer](https://github.com/cybercongress/dot-cyber/pull/142)
-- Complete reengineering of [dot-cyber roadmap](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc) according to euler-6 schedule and community feedback. 3 upcoming release in roadmap looks really stable and well scoped now.
+- Complete reengineering of [dot-cyber roadmap](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc) according to euler-6 schedule and community feedback. 3 upcoming releases in the roadmap seem stable and well-scoped now.
 - Created first draft of [high level roadmap](https://github.com/orgs/cybercongress/projects/2) as a part of [better communication process](https://github.com/cybercongress/congress/issues/161). Waiting for the feedback.
 
 Ongoing:
@@ -100,14 +100,14 @@ To do:
 
 ## @mrlp4
 
-Done: 
+Done:
 - Set new IPFS [cluster](https://github.com/cybercongress/congress/issues/317)
 
-Ongoing: 
+Ongoing:
 - Infra setup for apps and services of Euler-6
 - Testing of Euler-6-RC with [test-script](https://github.com/cybercongress/go-cyber/pull/474)
 
-To do: 
+To do:
 - Update to [swagger-ui](https://github.com/cybercongress/go-cyber/issues/461)
 - Helper for rewards [management](https://github.com/cybercongress/go-cyber/issues/468)
 
