@@ -43,9 +43,21 @@ To do:
 
 Done:
 
+- [RC](https://github.com/cybercongress/launch-kit/releases/tag/v0.1.0-RC) for launch-kit repo
+- Add [two](https://github.com/cybercongress/congress/pull/321) guide articles about IPFS
+- Develop e-5 -> e-6 [internal proposal](https://github.com/cybercongress/congress/pull/322)
+
 Ongoing:
 
+- [Add `cyber` addresses](https://github.com/cybercongress/dot-cyber/issues/124) for gift IPLD structure 
+- Euler-6 devnet manual tests
+- Release of Launch kit repo
+
 To do:
+
+- Start sparks (snippets) discussion with init specs schema 
+- Cyberindex for cosmos-SDK38 release
+- Cyberindex for cosmos-SDK36 release 
 
 ## @xhipster
 
