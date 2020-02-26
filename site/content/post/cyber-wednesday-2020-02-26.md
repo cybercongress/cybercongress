@@ -114,10 +114,64 @@ To do:
 ## @litvintech
 
 Done:
+- cyber: upgraded cyber to cosmos-SDK v0.38.1 [#449](https://github.com/cybercongress/cyberd/issues/429) On-chain upgrades!
+- cyber: added cosmwasm module to cyber. [#381](https://github.com/cybercongress/cyberd/issues/381) Smart contracts!
+- cyber: upgraded from custom to SDK's storage for links in cyber. [#462](https://github.com/cybercongress/cyberd/issues/462)
+- cyber: fixed issue with NaN in rank's values. [#455](https://github.com/cybercongress/cyberd/issues/455)
+- cyber: fixed issue with wrong bandwidth-consuming when linking. [#460](https://github.com/cybercongress/cyberd/issues/460)
+- cyber: added events to cyberlinks msgs [#454](https://github.com/cybercongress/go-cyber/issues/454)
+- cyber: launched Euler-6's euler-6-dev0 development testnet
+
+- cyberindex: fixed indexing more than one msg/link in tx [#20](https://github.com/cybercongress/cyberindex/issues/20)
+- cyberindex: released branch cyberindex-38-33 for Euler-6 and bumped sdk/tm/cyber versions [#22](https://github.com/cybercongress/cyberindex/issues/22)
+
+- cyb-snap: researched Metamask snaps and [released PoC](github.com/cybercongress/cyb-snap) cyb-snap with linking/send support
+
+- aragon-auction-app: released [Release Candidate 1](https://github.com/cybercongress/aragon-auction-app/releases/tag/v1.0.0-rc1) for cyber~Foundation
+- aragon-vesting-app: released [Release Candidate 1](https://github.com/cybercongress/aragon-vesting-app/releases/tag/v1.0.0-rc1) for cyber~Foundation
+
+- cyber-wasm-contracts: [repository](https://github.com/cybercongress/cyber-wasm-contracts/) released for WASM contracts for cyber. First contract [evangelism](https://github.com/cybercongress/cyber-wasm-contracts/tree/master/evangelism) for our Evangelism program for Game of Links.
+
+- dot-cyber: succesfull initial experiment with Iframe for content preview
+- dot-cyber: succesfull initial experiment with cyb-snap integration
+- dot-cyber: non-succesfull initial experiment ipfs node [integration](https://github.com/fission-suite/get-ipfs) 
 
 Ongoing:
+- Research on IBC, preparation for Game of Zones.
+- Gitcoin program relaunch.
+- Communication with cosmos/tendermint developers.
+- Cyber's documentation updates.
+- Support IPFS node integration in cyber.page
 
 To do:
+- cyber: rename cyberdcli to cyb [#481](https://github.com/cybercongress/go-cyber/issues/481)
+- cyber: rename cyberd/Link msg to cyber/Link [#480](https://github.com/cybercongress/go-cyber/issues/480)
+- cyber: add cosmwasm as build stage for Docker [#470](https://github.com/cybercongress/go-cyber/issues/470)
+- cyber: release Euler-RC1 [#463](https://github.com/cybercongress/go-cyber/issues/463)
+- cyber: test online upgrades in Euler-6. [#464](https://github.com/cybercongress/go-cyber/issues/464)
+- cyber: deploy and test evangelism contract in Euler-6 [#479](https://github.com/cybercongress/go-cyber/issues/479)
+- cyber: support @mrlp4 to add configuration for swagger [#461](https://github.com/cybercongress/go-cyber/issues/461)
+
+- cyber\~Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
+
+- aragon-auction-app: support @dimakorzhovnik to fix personal rewards calculations [#5](https://github.com/cybercongress/aragon-auction-app/issues/5)
+
+- launch-kit: release vesting-companion [#18](https://github.com/cybercongress/launch-kit/issues/18)
+
+- cyber-js: add cyberlinks support [#1](https://github.com/cybercongress/cyber-js/issues/1)
+
+- cyb-snap: remove confirmation requests [#1](https://github.com/cybercongress/cyb-snap/issues/1)
+- cyb-snap: upgrade to cyber-js [#2](https://github.com/cybercongress/cyb-snap/issues/2)
+
+- evangelism contract: Add icon to evangelist record [#1](https://github.com/cybercongress/cyber-wasm-contracts/issues/1), 
+- evangelism contract: Add faithful agents for evangelists [#2](https://github.com/cybercongress/cyber-wasm-contracts/issues/2)
+
+- cyberindex: release for Euler-5 [#23](https://github.com/cybercongress/cyberindex/issues/24)
+- cyberindex: release for Euler-6 [#24](https://github.com/cybercongress/cyberindex/issues/24)
+
+- Personal support cosmwasm development with Gitcoin for [Add DB.Iterator to callbacks](https://github.com/confio/cosmwasm/issues/53)
+
+- Apply fuckgoogle validator for Cosmwasm first public testnet [#314](https://github.com/cybercongress/congress/issues/314)
 
 ## @aha203
 
