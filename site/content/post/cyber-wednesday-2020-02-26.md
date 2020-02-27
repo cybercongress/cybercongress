@@ -62,11 +62,13 @@ To do:
 ## @xhipster
 
 Done:
+
 - Review and merge of [full featured explorer](https://github.com/cybercongress/dot-cyber/pull/142)
 - Complete reengineering of [dot-cyber roadmap](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc) according to euler-6 schedule and community feedback. 3 upcoming releases in the roadmap seem stable and well-scoped now.
 - Created first draft of [high level roadmap](https://github.com/orgs/cybercongress/projects/2) as a part of [better communication process](https://github.com/cybercongress/congress/issues/161). Waiting for feedback.
 
 Ongoing:
+
 - [Scoping Takeoff](https://github.com/cybercongress/congress/issues/220)
 - Release of [cyb•Explorer](https://github.com/cybercongress/dot-cyber/projects/3)
 - Define [better communication process](https://github.com/cybercongress/congress/issues/161)
@@ -74,6 +76,7 @@ Ongoing:
 - Start the process of [cleaning up congress repos](https://github.com/cybercongress/congress/issues/287)
 
 To do:
+
 - Takeoff [sound plan](https://github.com/cybercongress/congress/issues/220)
 - Design [import of cyberlinks](https://github.com/cybercongress/dot-cyber/issues/206)
 - Start to provide sketch mockups to @dimakorzhovnik
@@ -101,19 +104,23 @@ To do:
 ## @mrlp4
 
 Done:
+
 - Set new IPFS [cluster](https://github.com/cybercongress/congress/issues/317)
 
 Ongoing:
+
 - Infra setup for apps and services of Euler-6
 - Testing of Euler-6-RC with [test-script](https://github.com/cybercongress/go-cyber/pull/474)
 
 To do:
+
 - Update to [swagger-ui](https://github.com/cybercongress/go-cyber/issues/461)
 - Helper for rewards [management](https://github.com/cybercongress/go-cyber/issues/468)
 
 ## @litvintech
 
 Done:
+
 - cyber: upgraded cyber to cosmos-SDK v0.38.1 [#449](https://github.com/cybercongress/cyberd/issues/429) On-chain upgrades!
 - cyber: added cosmwasm module to cyber. [#381](https://github.com/cybercongress/cyberd/issues/381) Smart contracts!
 - cyber: upgraded from custom to SDK's storage for links in cyber. [#462](https://github.com/cybercongress/cyberd/issues/462)
@@ -141,6 +148,7 @@ Done:
 - infrastructure: support @mrpl4 to bootstrap IPFS cluster
 
 Ongoing:
+
 - Research on IBC, preparation for Game of Zones.
 - Gitcoin program relaunch.
 - Communication with cosmos/tendermint developers.
@@ -148,6 +156,7 @@ Ongoing:
 - Support IPFS node integration in cyber.page
 
 To do:
+
 - cyber: rename cyberdcli to cyb [#481](https://github.com/cybercongress/go-cyber/issues/481)
 - cyber: rename cyberd/Link msg to cyber/Link [#480](https://github.com/cybercongress/go-cyber/issues/480)
 - cyber: add cosmwasm as build stage for Docker [#470](https://github.com/cybercongress/go-cyber/issues/470)
@@ -180,12 +189,15 @@ To do:
 ## @aha203
 
 Done:
+
 - [Prepared visualisation for Launch-kit](https://github.com/cybercongress/launch-kit/blob/0.1.0/pic/launch_Kit_%20Euler-6.sketch)
 - Created first draft of [Cyber-process](https://github.com/cybercongress/congress/pull/324)
 
 Ongoing:
+
 - Coordination of [launch euler-6](https://github.com/cybercongress/go-cyber/projects/6)
 
 To do:
+
 -  In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
 - Prepare trailer for podcasts
