@@ -64,7 +64,7 @@ To do:
 Done:
 - Review and merge of [full featured explorer](https://github.com/cybercongress/dot-cyber/pull/142)
 - Complete reengineering of [dot-cyber roadmap](https://github.com/cybercongress/dot-cyber/projects?query=is%3Aopen+sort%3Aname-asc) according to euler-6 schedule and community feedback. 3 upcoming releases in the roadmap seem stable and well-scoped now.
-- Created first draft of [high level roadmap](https://github.com/orgs/cybercongress/projects/2) as a part of [better communication process](https://github.com/cybercongress/congress/issues/161). Waiting for the feedback.
+- Created first draft of [high level roadmap](https://github.com/orgs/cybercongress/projects/2) as a part of [better communication process](https://github.com/cybercongress/congress/issues/161). Waiting for feedback.
 
 Ongoing:
 - [Scoping Takeoff](https://github.com/cybercongress/congress/issues/220)
@@ -92,7 +92,7 @@ Done:
 
 Ongoing:
 
-- work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
+- Work on dot-cyber [release](https://github.com/cybercongress/dot-cyber/projects/3)
 
 To do:
 
@@ -132,9 +132,9 @@ Done:
 
 - cyber-wasm-contracts: [repository](https://github.com/cybercongress/cyber-wasm-contracts/) released for WASM contracts for cyber. First contract [evangelism](https://github.com/cybercongress/cyber-wasm-contracts/tree/master/evangelism) for our Evangelism program for Game of Links.
 
-- dot-cyber: succesfull initial experiment with Iframe for content preview
-- dot-cyber: succesfull initial experiment with cyb-snap integration
-- dot-cyber: non-succesfull initial experiment ipfs node [integration](https://github.com/fission-suite/get-ipfs) 
+- dot-cyber: successful initial experiment with Iframe for content preview
+- dot-cyber: successful initial experiment with cyb-snap integration
+- dot-cyber: none-successful initial experiment ipfs node [integration](https://github.com/fission-suite/get-ipfs) 
 
 - cyber\~Foundation: initial cyber~Foundation Aragon ceremony draft guide [released](https://github.com/cybercongress/cyber-foundation/blob/master/foundation.md)
 
@@ -180,7 +180,7 @@ To do:
 ## @aha203
 
 Done:
-- [preparing visualisation for Launch-kit](https://github.com/cybercongress/launch-kit/blob/0.1.0/pic/launch_Kit_%20Euler-6.sketch)
+- [Prepared visualisation for Launch-kit](https://github.com/cybercongress/launch-kit/blob/0.1.0/pic/launch_Kit_%20Euler-6.sketch)
 - Created first draft of [Cyber-process](https://github.com/cybercongress/congress/pull/324)
 
 Ongoing:
@@ -188,4 +188,4 @@ Ongoing:
 
 To do:
 -  In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
-- Prepare trailer for podcust
+- Prepare trailer for podcasts
