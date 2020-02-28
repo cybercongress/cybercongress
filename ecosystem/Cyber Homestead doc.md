@@ -732,6 +732,9 @@ A list of constant media profiles:
 - [All cyber media mentions](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild): Fell free to hit the `reply` button to the topic and add something if you see us getting mentioned in the wild.
 - [Forklog hub](https://hub.forklog.com/companies/cyber/): Forklog hub for cyber
 
+A list of economic profiles:
+- [Stakingrewards](https://www.stakingrewards.com/asset/cyber): Calculate your rewards as a delegator or a validator 
+
 #### Gitcoin
 We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
 
