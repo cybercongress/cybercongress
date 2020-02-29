@@ -766,10 +766,11 @@ There are many importnat communities that cyber sees as vital for the success of
 
 Main communities:
 - Cosmos: 
-  - [Cosmos cyber forum link](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/9) 
-  - [Cosmos gift forum link](https://forum.cosmos.network/t/we-have-dropped-a-gift-on-over-1-million-eth-atom-and-urbit-addresses-including-over-10k-atom-addresses/3132/4)
-  - [Cosmos GoL forum link](https://forum.cosmos.network/t/cyber-bootstrap-yourself-with-some-fuel-eul-tokens-to-save-the-galaxy-from-extinction-by-playing-the-game-of-links-an-incentivized-game-for-euler-5-a-tesnet-of-cyber/3126/3)
-  - [Cosmos fuckgoogle validator forum link](https://forum.cosmos.network/t/we-have-launched-our-cosmos-fuckgoogle-validator-join-us-and-stake-our-reasons-for-doing-so-included/3060/2)
+  - [Cosmos cyber forum thread](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/9) 
+  - [Cosmos gift forum thread](https://forum.cosmos.network/t/we-have-dropped-a-gift-on-over-1-million-eth-atom-and-urbit-addresses-including-over-10k-atom-addresses/3132/4)
+  - [Cosmos GoL forum thread](https://forum.cosmos.network/t/cyber-bootstrap-yourself-with-some-fuel-eul-tokens-to-save-the-galaxy-from-extinction-by-playing-the-game-of-links-an-incentivized-game-for-euler-5-a-tesnet-of-cyber/3126/3)
+  - [Cosmos fuckgoogle validator forum thread](https://forum.cosmos.network/t/we-have-launched-our-cosmos-fuckgoogle-validator-join-us-and-stake-our-reasons-for-doing-so-included/3060/2)
+  - [Cosmos metamask snap forum thread](https://forum.cosmos.network/t/multichain-metamask-snap-for-cosmos-chains/3360)
   - [Cosmos TG network group](https://t.me/cosmosproject)
   - Cosmos TG VIP channel (invite only)
   - [Cosmos TG governance group](https://t.me/hubgov)
@@ -786,15 +787,15 @@ Main communities:
   - [cybers listing on Tendermint awesome list](https://github.com/tendermint/awesome)
   - [cybers listing on cosmonauts.world](https://github.com/lovincyrus/cosmonauts-world)
 - IPFS: 
-  - [IPFS cyber forum link](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786/6) 
-  - [IPFS cyber.page forum link](https://discuss.ipfs.io/t/cyber-page-inter-planetary-search-app-for-web3/7049/3) 
+  - [IPFS cyber forum thread](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786/6) 
+  - [IPFS cyber.page forum thread](https://discuss.ipfs.io/t/cyber-page-inter-planetary-search-app-for-web3/7049/3) 
   - [IPFS RIAT chat group](https://riot.im/app/#/room/#ipfs:matrix.org) 
   - [IPFS subreddit](https://www.reddit.com/r/ipfs/)
   - [cybers listing on IPFS awesome list](https://github.com/ipfs/awesome-ipfs)
 - ETH: 
   - [ETH subreddit](https://www.reddit.com/r/ethereum)
   - [ethdev subreddit](https://www.reddit.com/r/ethdev/)
-  - [DAO talk cyber profile link](https://daotalk.org/t/cyber-a-dao-for-a-decentralized-search-engine-and-web3/1178)
+  - [DAO talk cyber profile thread](https://daotalk.org/t/cyber-a-dao-for-a-decentralized-search-engine-and-web3/1178)
 - Web3:
   - [Web3 subreddit](https://www.reddit.com/r/web3/)
 - Urbit:
