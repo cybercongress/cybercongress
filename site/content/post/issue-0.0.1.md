@@ -22,6 +22,7 @@ Because due to its underlying properties, even thousands of years into the futur
 [Frozen Milk](https://www.artstation.com/artwork/nVY2O), Francis Tneh
 
 ## Cyberware
+
 - [aragon-court](https://github.com/aragon/aragon-court) [1.1.1](https://github.com/aragon/aragon-court/releases/tag/v1.1.1): A new kind of court [becomes operational](https://court.aragon.org)
 - [decentraland-explorer](https://github.com/decentraland/explorer) [6.4.5](https://github.com/decentraland/explorer/releases/tag/6.4.5): The Decentraland world becomes [real](http://play.decentraland.org/) and [decentralized](https://mainnet.aragon.org/#/dcl.eth)
 - [status-react](https://github.com/status-im/status-react) [1.0](https://our.status.im/announcing-status-version-1-0/): First real client for the Great Web
@@ -34,6 +35,7 @@ Because due to its underlying properties, even thousands of years into the futur
 - [in3](https://github.com/slockit/in3) & [in3-contracts](https://github.com/slockit/in3-contracts) [2.1.0](https://github.com/slockit/in3-contracts/releases/tag/v2.1.0): Hopefully, a reliable read for dapps
 
 ## Matter
+
 - You can [freeze the time and start milking](https://medium.com/dragonfly-research/flash-loans-why-flash-attacks-will-be-the-new-normal-5144e23ac75a)
 - [Blinder](https://ipfs.io/ipfs/QmThXtxKsWxcegoxHegEJJErubtbBTUrWzDu6NzCjvi741): A step towards more robust, anonymous and censorship-resistant networks
 - [Stateless Ethereum](https://blog.ethereum.org/2020/01/28/eth1x-files-the-stateless-ethereum-tech-tree/)
