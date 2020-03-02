@@ -56,3 +56,7 @@ Because due to its underlying properties, even thousands of years into the futur
 ## Contribute
 
 If you want your cyberware or matter to be included in the next issue, fork the [great-web](https://github.com/cybercongress/great-web) and pull request a link.
+
+## Discuss
+
+You can discuss the issue on [ai.cybercongress.ai](https://ai.cybercongress.ai/t/the-great-web-journal/56)
