@@ -6,12 +6,16 @@ author: xhipster
 ---
 
 ```
-There is so much amazing development happening in crypto right now across communities. I believe that our movement needs a better feeling of direction. The Great Web journal tries to fill a visionary gap behind the most important transformation in contemporary history.
+There is so much amazing development happening in crypto right now across communities.
+I believe that our movement needs a better feeling of direction.
+The Great Web journal tries to fill a visionary gap
+behind the most important transformation in contemporary history.
 ```
 
 ## Why the new Web is Great?
 
 Because due to its underlying properties, even thousands of years into the future, the Great Web will remain **permanent**, **trustful** and **accessible** thanks to:
+
 - Content addressing allows us to have links which will last for centuries
 - Cryptographic proofs allow us to differentiate the truth
 - Open source is the only way to trust the underlying cyberware
