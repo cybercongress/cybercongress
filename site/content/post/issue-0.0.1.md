@@ -1,6 +1,6 @@
 ---
 date: 2020-03-01
-url: great-web-0.0.1
+url: great-web-001
 title: 'The Great Web Journal: Time stoppers'
 author: xhipster
 ---
