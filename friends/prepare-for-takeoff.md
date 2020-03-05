@@ -10,6 +10,7 @@ Valerka and I decided that we had gained the necessary critical mass to take off
 - [Deploy test~Foundation in mainnet](https://github.com/cybercongress/cyber-foundation/issues/1)
 - [Launch Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
 - Launch [cyberCongress 2.0](https://github.com/cybercongress/congress/pull/224)
+- [Release of cyber~Index](https://github.com/cybercongress/cyberindex/issues/24)
 - [Release of dot-cyber](https://github.com/cybercongress/dot-cyber/issues/183) with facets, governance and donates
 
 ## Plan
@@ -35,6 +36,7 @@ After the start of donations, much will change in the project. There will be mor
 - [Задеплоить test~фаундейшн в мейннет](https://github.com/cybercongress/cyber-foundation/issues/1)
 - [Запустить Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
 - [Зарелизить cyberCongress 2.0](https://github.com/cybercongress/congress/pull/224)
+- [Зарелизить сyber~Index](https://github.com/cybercongress/cyberindex/issues/24)
 - [Зарелизить dot-cyber](https://github.com/cybercongress/dot-cyber/issues/183) c фасетами, говернансом и донатами
 
 ## План
