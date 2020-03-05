@@ -25,11 +25,12 @@ Valerka and I decided that we had gained the necessary critical mass to take off
 - [Deploy test~Foundation in mainnet](https://github.com/cybercongress/cyber-foundation/issues/1)
 - [Launch Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
 - Launch [cyberCongress 2.0](https://github.com/cybercongress/congress/pull/224)
+- [Release of cyber~Index](https://github.com/cybercongress/cyberindex/issues/24)
 - [Release of dot-cyber](https://github.com/cybercongress/dot-cyber/issues/183) with facets, governance and donates
 
 ## Plan
 - Until March 25, we need to roll out all the functionality we need, and freeze features.
-- Until April 1, we need to test everything and [submit the Takeoff proposal](https://github.com/cybercongress/congress/issues/220) with a specific date of Takeoff.
+- Until April 1, we need to test everything and [submit the Takeoff proposal](httpss://github.com/cybercongress/congress/issues/220) with a specific date of Takeoff.
 - If during the testing of euler-6 unpredictability occurs, then we will delay, but we will account for days.
 
 ## Spirit
