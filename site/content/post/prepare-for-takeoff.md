@@ -13,8 +13,6 @@ its time to the final preparation.
 Are your ready for Takeoff?
 ```
 
-# Prepare for Takeoff
-
 Dear comrades! This is a very important letter for our small company!
 
 ## Goal
