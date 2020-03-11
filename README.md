@@ -1,69 +1,32 @@
 ![](https://github.com/cybercongress/congress/blob/master/design/logo_congress_rectangle.png)
 # cyber•Congress: The evolution of species
-[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech), [@hleb-albau](https://keybase.io/hleb_albau), [@npopeka](https://keybase.io/nick4672)
+[@21xhipster](https://keybase.io/21xhipster), [@litvintech](https://keybase.io/litvintech)
 
-Version 2. Unsigned WIP. Version 1 [reference](https://github.com/cybercongress/congress/blob/b9df983446cfb20179b6d5da6bdd9c6d21cecdaa/agreement.md).
+Version 2
 
 ## The Idea
-Blockchain technology has opened the opportunity for development which was previously impossible. By this agreement, we define cyber•Congress, as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create the foundation for a new kind of existence.
+
+By this agreement, we define cyber•Congress, as a sovereign self-funded community of scientists, developers, engineers and craftsmen who create on its mission the foundation for a new kind of existence.
 
 ## The Mission
 Helping the evolution of species
 
-## Goals
-- Build a strong scientific foundation behind cybernomics
-- Provide an abundant access to information proved by transactions for all species
-- Build an incentivization system for open-source communities and creators
-- Make consensus computers more usable, scalable, performant and cheaper
-- Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications across universes
-- Integrate post-quantum cryptography
-- Develop open-source technologies for self-sustainable living
-- Find an open approach for creating self-aware, self-replicating and economically independent robots
-- Create mainstream tools for biological engineering and body augmentations
-- Integrate cybernomics into humans, robots, animals, plants and other thinking formation
-- Demolish all state borders across the universe
-- Find an open approach for creating incentivized and decentralized AI
-- Switch governmentally inclined business models from violent taxing to non-violent
-- Create technologies for accessible space exploration and transportation
-- Create technologies for the transfer of human consciousness to an electronic and digital environment
-- Significantly extend living capabilities for all species up to - but not limited, to 10k years;
-- Create the foundation for thermoregulation and for terraforming the Earth and other nearby planets
-- Build the foundation for the emergence of a unified spacetime ownership registry
-- Participate in the development of Metaverse
-
 ## Values
-We believe that our principles should be aligned with our values, thus helping us to achieve our goals:
-- Security. We do not work with fiat or with bureaucratic paper hassle. We work with digital signatures only
-- Anonymity and privacy. If someone chooses to stay anonymous or private - it is their right to do so
-- Open-source software. Everything we run in production must be open-source
-- Open-source hardware. Every piece of hardware that goes into production, must be open-sourced
+We believe that we are united by the values we share, thus helping us to achieve our goals:
+- Security. We work with digital signatures only
+- Anonymity. If someone chooses to stay anonymous or private - it is their right to do so
+- Open-source. Everything we run in production must be open-source either software or hardware.
 - Transparency. Transactional transparency is fundamental to community building
 - Informational freedom. No local laws can prohibit the flow of any information
 - Economic freedom. Nobody has the right to prevent or block transactions
 - Free will. We reject corporate slavery bullshit, such as conflict of interest or NDA
-- Capital, not salary. Helping to switch from, a dragging to the bottom salary - to a capital-based passive income for all
-- Engineering is marketing. We would rather spend our resources on engineering than on marketing
+- Capital, not salary. Helping to switch our team from selling time to selling knowledge
+- Engineering is marketing. We would rather spend our resources on engineering of marketing, then on marketing itself.
 - Physical liberty. Limitations for physical liberty can be economic, but not authoritative
 - Automation. Everything that can be automated, must be automated
 - Intelligence. An entity can be treated as intelligent if they can control their private keys and can sign transactions
-- Decentralization. Everything that can be decentralized, shall be decentralized
-- Always on the edge. We try to offer alternatives to outdated technologies such as emails
-
-## Stack
-We are going to advance and deploy, the following technologies, available at the moment:
-- SAI: digital signatures, neural cryptography, game theory, deep learning, digital DNA
-- GAI: consensus computers, zero-knowledge proofs, game theory;
-- Prediction markets: decentralized oracles/prediction schemes - such as Augur
-- Autonomous robotics: learning, self-replicating, economically independent robots - such as the Robonomics
-- 3D printing: SLA, DLP, FDM, SLS, SLM, EBM and others
-- Computer brain interfaces and digitization of the mind: Open BCI and machine learning algorithms
-- VR/AR: OSVR, HTC Vive, Oculus Rift, Microsoft Hololens, Google Tango, HEP
-- Mesh networks: SDR, Skycoin, single-board computers, lightning networks, game theory, state channels
-- Location protocols: proof-of-location such as Foam, beacon technology
-- Sustainable energy: solar, wind, geothermal, thermonuclear fusion
-- Сontemporary computing: quantum, ternary and neuromorphic chips, ASICs, TPUs, memory convergence
-- Biological engineering: DNA sequencing => biological circuits => CRISPR => incubation and learning
-- Space exploration: BFR and the alternatives, satellites/cubesats
+- Decentralization. Everything that has a single point of failure may not have it
+- Build for centuries. We believe our grandchildren could use what we built
 
 ## Governance
 cyber•Congress is founded by the following cryptographic entities using the [genesis account](0x9f4062F6153Ff4Dbf93F6A6F686eD3C906Bf0684):
@@ -154,12 +117,9 @@ The agreement is valid for cyber•space
 
 ## Updates
 
-@hleb-albau left cyber•Congress on his own accord and was replaced by @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845). Replacement was made by executing proposals [№134](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/134) and [№135](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/135) on Ethereum 2of3 multisignature contract: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) by @21xhipster and @litvintech. 
+@hleb-albau left cyber•Congress on his own accord and was replaced by @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845). Replacement was made by executing proposals [№134](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/134) and [№135](https://multisig.galtproject.io/#/0xb52b7eda722249499e3a28b5bb6c778ee0ac462c/proposal/135) on Ethereum 2of3 multisignature contract: [0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c](https://etherscan.io/address/0xB52B7EdA722249499e3a28B5BB6c778ee0Ac462c) by @21xhipster and @litvintech.
 
 Current cyber•Congress members are:
 - @21xhipster: [Keybase ID](https://keybase.io/21xhipster), [Ethereum ID](0xfbb2a29dff113d518893c00387f6d5492898354e)
 - @litvintech: [Keybase ID](https://keybase.io/litvintech), [Ethereum ID](0x00B8Fe1A1A2b899418702e32A96E276Ff56A4D05)
 - @npopeka: [Keybase ID](https://keybase.io/nick4672), [Ethereum ID](0xE46c088b5DD483cDa2400EE70296baD4903fC845)
-
-
-
