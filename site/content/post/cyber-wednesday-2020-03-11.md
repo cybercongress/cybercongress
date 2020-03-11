@@ -52,11 +52,13 @@ To do:
 ## @xhipster
 
 Done:
+
 - [Scoping Takeoff](https://cybercongress.ai/prepare-for-takeoff/)
 - First issue of [the Great Web Journal](https://cybercongress.ai/great-web-001/)
 - [Gift lookup](https://github.com/cybercongress/dot-cyber/pull/211)
 
 Ongoing:
+
 - Define [better communication process](https://github.com/cybercongress/congress/issues/161)
 - [Cleaning up congress repo](https://github.com/cybercongress/congress/issues/287)
 - Pushing forward [Ready for Takeoff](https://github.com/cybercongress/dot-cyber/issues/183) release
