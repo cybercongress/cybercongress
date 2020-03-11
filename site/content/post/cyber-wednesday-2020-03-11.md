@@ -35,7 +35,7 @@ To do:
 
 Done:
 
-- [Added](https://github.com/cybercongress/dot-cyber/issues/124) the new IPLD structure for a gift lookup page
+- [Added](https://github.com/cybercongress/dot-cyber/issues/124) a new IPLD structure to the gift lookup page
 - [cyberindex v0.1.37](https://github.com/cybercongress/cyberindex/releases/tag/v0.1.37) release for cosmos-sdk v37.32 based networks
 - [cyberindex v0.1.38](https://github.com/cybercongress/cyberindex/releases/tag/v0.1.38) release for cosmos-sdk v38.33 based networks
 - 3 iterations of euler-6 [manual tests](https://github.com/cybercongress/go-cyber/pull/474/files)
@@ -46,7 +46,7 @@ Ongoing:
 
 To do:
 
-- Release of Launch kit repo (will be done with euler-6 tests passed)
+- Release of Launch kit repo (will be done when euler-6 tests have passed)
 - Start sparks (snippets) discussion with init specs schema
 
 ## @xhipster
@@ -67,25 +67,19 @@ Ongoing:
 
 Done:
 
--Gift lookup [#211](https://github.com/cybercongress/dot-cyber/pull/211)
+- Gift lookup [#211](https://github.com/cybercongress/dot-cyber/pull/211)
 
 Ongoing:
 
--Load search results from embeded ipfs node [#53](https://github.com/cybercongress/dot-cyber/issues/53)
--Realtime Game of Links monitor [#150](https://github.com/cybercongress/dot-cyber/issues/150)
+- Load search results from embedded IPFS node [#53](https://github.com/cybercongress/dot-cyber/issues/53)
+- Realtime Game of Links monitor [#150](https://github.com/cybercongress/dot-cyber/issues/150)
 
 ## @mrlp4
-
-Done:
-
--
 
 Ongoing:
 
 - Swagger ui for [cybernode](https://github.com/cybercongress/go-cyber/issues/461)
-
-- Cosmoswasm node setup
-
+- CosmWasm node setup
 - Euler-6 [tests](https://github.com/cybercongress/go-cyber/pull/474)
 
 To do:
@@ -95,6 +89,7 @@ To do:
 ## @litvintech
 
 Done:
+
 - cyber: provided NewEventManager to links handler [#488](https://github.com/cybercongress/go-cyber/issues/488)
 - cyber: upgrade cosmwasm to 0.7 [#484](https://github.com/cybercongress/go-cyber/issues/484)
 - cyber: applied infinite gas meter to ante handler [#483](https://github.com/cybercongress/go-cyber/issues/483) [#467](https://github.com/cybercongress/go-cyber/issues/467)
@@ -107,22 +102,24 @@ Done:
 - cyb-snap: added standart cosmos-sdk msgs [#2](https://github.com/cybercongress/cyb-snap/issues/2)
 - cyb-snap: [released](https://github.com/cybercongress/cyb-snap/releases/tag/v1.0.0) v1.0.0
 - cyberindex: [released]((https://github.com/cybercongress/cyberindex/releases)) for Euler-5/6
-- Personal support cosmwasm development with Gitcoin for [Add DB.Iterator to callbacks](https://github.com/confio/cosmwasm/issues/53)
+- Personal support of CosmWasm development with Gitcoin for [Add DB.Iterator to callbacks](https://github.com/confio/cosmwasm/issues/53)
 
 Ongoing:
-- Research on IBC, preparation for Game of Zones.
-- Gitcoin program relaunch.
-- Communication with cosmos/tendermint developers.
-- Cyber's documentation updates.
-- Support IPFS node integration in cyber.page
+
+- Research on IBC, preparation for Game of Zones
+- Gitcoin program relaunch
+- Communication with cosmos/tendermint developers
+- Cyber's documentation updates
+- Support IPFS node integration into cyber.page
 
 To do:
+
 - cyber: release Euler-RC1 [#463](https://github.com/cybercongress/go-cyber/issues/463)
 - cyber: test online upgrades in Euler-6. [#464](https://github.com/cybercongress/go-cyber/issues/464)
 - cyber: deploy first WASM contract to Euler-6 [#479](https://github.com/cybercongress/go-cyber/issues/479)
-- cyber: refactore cyber http client for crawler use [#493](https://github.com/cybercongress/go-cyber/issues/493)
+- cyber: refactor cyber HTTP client for crawler use [#493](https://github.com/cybercongress/go-cyber/issues/493)
 - cyber: support @mrlp4 to add configuration for swagger [#461](https://github.com/cybercongress/go-cyber/issues/461)
-- cyber\~Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
+- cyber~ Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
 - aragon-auction-app: support @dimakorzhovnik to fix personal rewards calculations [#5](https://github.com/cybercongress/aragon-auction-app/issues/5)
 - launch-kit: release vesting-companion [#18](https://github.com/cybercongress/launch-kit/issues/18)
 - Apply fuckgoogle validator for Cosmwasm first public testnet [#314](https://github.com/cybercongress/congress/issues/314)
@@ -130,9 +127,11 @@ To do:
 ## @aha203
 
 Done:
+
 - Finalize description of [Cyber-process](https://github.com/cybercongress/congress/pull/324)
 
 Ongoing:
+
 - Coordination of [launch euler-6](https://github.com/cybercongress/go-cyber/projects/6)
 - In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
 - Prepare trailer for podcasts
