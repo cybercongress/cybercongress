@@ -101,17 +101,12 @@ Done:
 - cyber: renamed cyberd/Link msg to cyber/Link [#480](https://github.com/cybercongress/go-cyber/issues/480)
 - cyber: added cosmwasm as build stage for Docker [#470](https://github.com/cybercongress/go-cyber/issues/470)
 - cyber: refactored module to go-cyber [#478](https://github.com/cybercongress/go-cyber/issues/478)
-
-
 - cyb-snap: remove confirmation requests [#1](https://github.com/cybercongress/cyb-snap/issues/1)
 - cyb-snap: added state for chain configuration [#4](https://github.com/cybercongress/cyb-snap/issues/4)
 - cyb-snap: added standart cosmos-sdk msgs [#2](https://github.com/cybercongress/cyb-snap/issues/2)
 - cyb-snap: [released](https://github.com/cybercongress/cyb-snap/releases/tag/v1.0.0) v1.0.0
-
 - cyberindex: [released]((https://github.com/cybercongress/cyberindex/releases)) for Euler-5/6
-
 - Personal support cosmwasm development with Gitcoin for [Add DB.Iterator to callbacks](https://github.com/confio/cosmwasm/issues/53)
-
 
 Ongoing:
 - Research on IBC, preparation for Game of Zones.
