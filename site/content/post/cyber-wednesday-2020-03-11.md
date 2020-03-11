@@ -67,15 +67,12 @@ Ongoing:
 
 Done:
 
--
+-Gift lookup [#211](https://github.com/cybercongress/dot-cyber/pull/211)
 
 Ongoing:
 
--
-
-To do:
-
--
+-Load search results from embeded ipfs node [#53](https://github.com/cybercongress/dot-cyber/issues/53)
+-Realtime Game of Links monitor [#150](https://github.com/cybercongress/dot-cyber/issues/150)
 
 ## @mrlp4
 
