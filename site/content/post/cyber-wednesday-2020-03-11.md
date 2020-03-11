@@ -35,15 +35,19 @@ To do:
 
 Done:
 
-- 
+- [Added](https://github.com/cybercongress/dot-cyber/issues/124) the new IPLD structure for a gift lookup page
+- [cyberindex v0.1.37](https://github.com/cybercongress/cyberindex/releases/tag/v0.1.37) release for cosmos-sdk v37.32 based networks
+- [cyberindex v0.1.38](https://github.com/cybercongress/cyberindex/releases/tag/v0.1.38) release for cosmos-sdk v38.33 based networks
+- 3 iterations of euler-6 [manual tests](https://github.com/cybercongress/go-cyber/pull/474/files)
 
 Ongoing:
 
-- 
+- Euler-6 [manual tests](https://github.com/cybercongress/go-cyber/pull/474/files)
 
 To do:
 
-- 
+- Release of Launch kit repo (will be done with euler-6 tests passed)
+- Start sparks (snippets) discussion with init specs schema
 
 ## @xhipster
 
