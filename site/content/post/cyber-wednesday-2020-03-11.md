@@ -85,11 +85,15 @@ Done:
 
 Ongoing:
 
--
+- Swagger ui for [cybernode](https://github.com/cybercongress/go-cyber/issues/461)
+
+- Cosmoswasm node setup
+
+- Euler-6 [tests](https://github.com/cybercongress/go-cyber/pull/474)
 
 To do:
 
--
+- Withdraw-redelegete [script](https://github.com/cybercongress/go-cyber/issues/468)
 
 ## @litvintech
 
