@@ -61,6 +61,7 @@ Ongoing:
 - [Cleaning up congress repo](https://github.com/cybercongress/congress/issues/287)
 - Pushing forward [Ready for Takeoff](https://github.com/cybercongress/dot-cyber/issues/183) release
 - [Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
+- cyber~Foundation: initial cyber~Foundation Aragon [ceremony guide](https://github.com/cybercongress/congress/issues/325)
 
 ## @dimakorzhovnik
 
