@@ -94,16 +94,46 @@ To do:
 ## @litvintech
 
 Done:
+- cyber: provided NewEventManager to links handler [#488](https://github.com/cybercongress/go-cyber/issues/488)
+- cyber: upgrade cosmwasm to 0.7 [#484](https://github.com/cybercongress/go-cyber/issues/484)
+- cyber: applied infinite gas meter to ante handler [#483](https://github.com/cybercongress/go-cyber/issues/483) [#467](https://github.com/cybercongress/go-cyber/issues/467)
+- cyber: fixed iteratation over links storage [#482](https://github.com/cybercongress/go-cyber/issues/482)
+- cyber: renamed cyberd/Link msg to cyber/Link [#480](https://github.com/cybercongress/go-cyber/issues/480)
+- cyber: added cosmwasm as build stage for Docker [#470](https://github.com/cybercongress/go-cyber/issues/470)
+- cyber: refactored module to go-cyber [#478](https://github.com/cybercongress/go-cyber/issues/478)
 
-- 
+
+- cyb-snap: remove confirmation requests [#1](https://github.com/cybercongress/cyb-snap/issues/1)
+- cyb-snap: added state for chain configuration [#4](https://github.com/cybercongress/cyb-snap/issues/4)
+- cyb-snap: added standart cosmos-sdk msgs [#2](https://github.com/cybercongress/cyb-snap/issues/2)
+- cyb-snap: [released](https://github.com/cybercongress/cyb-snap/releases/tag/v1.0.0) v1.0.0 
+
+- cyberindex: [released]((https://github.com/cybercongress/cyberindex/releases)) for Euler-5/6
+
+- Personal support cosmwasm development with Gitcoin for [Add DB.Iterator to callbacks](https://github.com/confio/cosmwasm/issues/53)
+
 
 Ongoing:
-
-- 
+- Research on IBC, preparation for Game of Zones.
+- Gitcoin program relaunch.
+- Communication with cosmos/tendermint developers.
+- Cyber's documentation updates.
+- Support IPFS node integration in cyber.page
 
 To do:
+- cyber: release Euler-RC1 [#463](https://github.com/cybercongress/go-cyber/issues/463)
+- cyber: test online upgrades in Euler-6. [#464](https://github.com/cybercongress/go-cyber/issues/464)
+- cyber: deploy first WASM contract to Euler-6 [#479](https://github.com/cybercongress/go-cyber/issues/479)
+- cyber: refactore cyber http client for crawler use [#493](https://github.com/cybercongress/go-cyber/issues/493)
+- cyber: support @mrlp4 to add configuration for swagger [#461](https://github.com/cybercongress/go-cyber/issues/461)
 
-- 
+- cyber\~Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
+
+- aragon-auction-app: support @dimakorzhovnik to fix personal rewards calculations [#5](https://github.com/cybercongress/aragon-auction-app/issues/5)
+
+- launch-kit: release vesting-companion [#18](https://github.com/cybercongress/launch-kit/issues/18)
+
+- Apply fuckgoogle validator for Cosmwasm first public testnet [#314](https://github.com/cybercongress/congress/issues/314)
 
 
 ## @aha203
