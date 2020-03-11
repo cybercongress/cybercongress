@@ -24,7 +24,7 @@ Ongoing:
 To do:
 
 - Add initial thoughts to [cyber~Foundation](https://github.com/cybercongress/cyber-foundation)
-- Finish [guides for homestead doc](https://github.com/cybercongress/congress/tree/master/ecosystem/guides) with @savetheales 
+- Finish [guides for homestead doc](https://github.com/cybercongress/congress/tree/master/ecosystem/guides) with @savetheales
 - Resume the 'Great Web' course [on FB and YouTube campaign](https://www.youtube.com/watch?v=z8eXzAMSkq0&list=PLVgXf-V4TQc3q7NDPZhO8ASQEn3jHtM84)
 - Outline final details for [OBEP](https://github.com/cybercongress/congress/issues/307)
 - Finish spreading [euler-5 workshop videos](https://cybercongress.ai/euler-5-launch/) amongst partnering communities
@@ -52,44 +52,43 @@ To do:
 ## @xhipster
 
 Done:
-
-- 
+- [Scoping Takeoff](https://cybercongress.ai/prepare-for-takeoff/)
+- First issue of [the Great Web Journal](https://cybercongress.ai/great-web-001/)
+- [Gift lookup](https://github.com/cybercongress/dot-cyber/pull/211)
 
 Ongoing:
-
-- 
-
-To do:
-
-- 
+- Define [better communication process](https://github.com/cybercongress/congress/issues/161)
+- [Cleaning up congress repo](https://github.com/cybercongress/congress/issues/287)
+- Pushing forward [Ready for Takeoff](https://github.com/cybercongress/dot-cyber/issues/183) release
+- [Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
 
 ## @dimakorzhovnik
 
 Done:
 
-- 
+-
 
 Ongoing:
 
-- 
+-
 
 To do:
 
-- 
+-
 
 ## @mrlp4
 
 Done:
 
-- 
+-
 
 Ongoing:
 
-- 
+-
 
 To do:
 
-- 
+-
 
 ## @litvintech
 
@@ -106,7 +105,7 @@ Done:
 - cyb-snap: remove confirmation requests [#1](https://github.com/cybercongress/cyb-snap/issues/1)
 - cyb-snap: added state for chain configuration [#4](https://github.com/cybercongress/cyb-snap/issues/4)
 - cyb-snap: added standart cosmos-sdk msgs [#2](https://github.com/cybercongress/cyb-snap/issues/2)
-- cyb-snap: [released](https://github.com/cybercongress/cyb-snap/releases/tag/v1.0.0) v1.0.0 
+- cyb-snap: [released](https://github.com/cybercongress/cyb-snap/releases/tag/v1.0.0) v1.0.0
 
 - cyberindex: [released]((https://github.com/cybercongress/cyberindex/releases)) for Euler-5/6
 
