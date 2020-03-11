@@ -61,7 +61,7 @@ Ongoing:
 - [Cleaning up congress repo](https://github.com/cybercongress/congress/issues/287)
 - Pushing forward [Ready for Takeoff](https://github.com/cybercongress/dot-cyber/issues/183) release
 - [Open Bootstrap Evangelism Program](https://github.com/cybercongress/congress/issues/307)
-- cyber~Foundation: initial cyber~Foundation Aragon [ceremony guide](https://github.com/cybercongress/congress/issues/325)
+- cyber~Foundation: initial cyber ~Foundation Aragon [ceremony guide](https://github.com/cybercongress/congress/issues/325)
 
 ## @dimakorzhovnik
 
@@ -119,7 +119,7 @@ To do:
 - cyber: deploy first WASM contract to Euler-6 [#479](https://github.com/cybercongress/go-cyber/issues/479)
 - cyber: refactor cyber HTTP client for crawler use [#493](https://github.com/cybercongress/go-cyber/issues/493)
 - cyber: support @mrlp4 to add configuration for swagger [#461](https://github.com/cybercongress/go-cyber/issues/461)
-- cyber~ Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
+- cyber~Foundation: initial cyber ~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
 - aragon-auction-app: support @dimakorzhovnik to fix personal rewards calculations [#5](https://github.com/cybercongress/aragon-auction-app/issues/5)
 - launch-kit: release vesting-companion [#18](https://github.com/cybercongress/launch-kit/issues/18)
 - Apply fuckgoogle validator for Cosmwasm first public testnet [#314](https://github.com/cybercongress/congress/issues/314)
