@@ -106,8 +106,8 @@ To do:
 
 Done:
 - Finalize description of [Cyber-process](https://github.com/cybercongress/congress/pull/324)
-- In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
 
 Ongoing:
 - Coordination of [launch euler-6](https://github.com/cybercongress/go-cyber/projects/6)
+- In coordination with @litvintech, @savetheales, and @mrlp4 prepare the full [RoadMap for Cyber Protocol](https://github.com/orgs/cybercongress/projects/2)
 - Prepare trailer for podcasts
