@@ -28,4 +28,4 @@
 
 ## IPFS cluster
 
-gateway -
++ gateway: https://io.cybernode.ai/ipfs/
