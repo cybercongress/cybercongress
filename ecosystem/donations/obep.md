@@ -65,7 +65,7 @@ Payouts will only be done if the results are cyberlinked and content proof exist
 
 We are not defining quality terms. Most likely, you will still receive a reward for shitty content if the task was done, but expect to be disqualified from the programm, or educated, depending on your will to learn. 
 
-Coordinator aka @serejandmyself will have a personal incentive in the form of evangelist attraction. For the first 3 evangelists, he will receive 30 GCYB. For every next evangelist, the reward is 5 GCYB.
+Coordinator aka @serejandmyself will have a personal incentive in the form of evangelist attraction. For the first evangelists (not including team members of cyber~Congress) the cordinator recieves 15 GCYB. For every next evangelist (not including team members of cyber~Congress) the reward lowers by 10%. 
 
 ## Source
 The source of ATOM rewards are the donations during the Takeoff and Game of Links. cyber~Congress is responsible for paying out this variety of reward. The source of the CYB rewards is the community pool. The coordinator will propose this program to the community and will manage a `1 TCYB` budget. The monetary rules are the following:
