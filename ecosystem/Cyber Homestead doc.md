@@ -813,7 +813,9 @@ Main communities:
   - [cyber forum profile link](https://forum.aragon.org/t/cyber-a-dao-for-a-decentralized-search-engine-and-web3/1887)
   - [cybers listing on Aragon wiki](https://wiki.aragon.org/about/projects/)
  - Solana:
- 
+    - [cyber forum profile link](https://forums.solana.com/t/cyber-a-decentralized-google-that-utilizes-tendermint-ipfs-and-cuda-experience-swap-between-validators/341)
+    - [Solana subreddit](https://www.reddit.com/r/solana)
+    - [Solana discord](https://discord.gg/453896)
 
 --------------------------------
 
