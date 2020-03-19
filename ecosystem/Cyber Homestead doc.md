@@ -823,6 +823,7 @@ Miner-related communities:
 
 - Aeternity:
   - [AE subreddit](https://www.reddit.com/r/Aeternity/)
+  - [cyber forum link](https://forum.aeternity.com/t/cyber-offtopic-discussion-about-miner-computation-diversification-and-web3/6484)
 - Grin: 
   - [cyber forum link](https://forum.grin.mw/t/a-shout-out-to-the-miners-of-grin-uncategorized-because-its-not-about-mining-grin-directly/6966)
   - [Grin subreddit](https://www.reddit.com/r/grincoin/)
