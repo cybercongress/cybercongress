@@ -767,6 +767,7 @@ There are many importnat communities that cyber sees as vital for the success of
 Main communities:
 - Cosmos: 
   - [Cosmos cyber forum thread](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/9) 
+  - [Cosmos cyber.page forum thread](https://forum.cosmos.network/t/cyber-page-the-gateway-app-to-web3/3449/2)
   - [Cosmos gift forum thread](https://forum.cosmos.network/t/we-have-dropped-a-gift-on-over-1-million-eth-atom-and-urbit-addresses-including-over-10k-atom-addresses/3132/4)
   - [Cosmos GoL forum thread](https://forum.cosmos.network/t/cyber-bootstrap-yourself-with-some-fuel-eul-tokens-to-save-the-galaxy-from-extinction-by-playing-the-game-of-links-an-incentivized-game-for-euler-5-a-tesnet-of-cyber/3126/3)
   - [Cosmos fuckgoogle validator forum thread](https://forum.cosmos.network/t/we-have-launched-our-cosmos-fuckgoogle-validator-join-us-and-stake-our-reasons-for-doing-so-included/3060/2)
