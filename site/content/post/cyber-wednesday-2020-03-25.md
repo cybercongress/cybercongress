@@ -11,9 +11,24 @@ Welcome to day 4 of the bi-weekly [cyber](https://cyber.page/) report!
 
 Done:
 
+- Finilised [initial proption of OBEP](https://github.com/cybercongress/congress/issues/307) with @hipster
+- Started to add thoughts to [cyber~Foundation](https://github.com/cybercongress/cyber-foundation) repo
+- Added new profiles to [partnering communities](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#partnering-communities) (along with videos)
+- Added [new sections to homestead](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
+- Proposed [rank for Karma levels](https://github.com/cybercongress/dot-cyber/issues/215)
+
 Ongoing:
 
+- Recorded the first podcast with @aha203, still in work 
+- Carry on [homestead doc](https://github.com/cybercongress/congress/issues/290)
+- [Social media](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles) and [partnering communities](https://github.com/cybercongress/congress/blob/master/ecosystem
+- Offline work in Berlin
+
 To do:
+
+- Finish [guides for homestead doc](https://github.com/cybercongress/congress/tree/master/ecosystem/guides) with @savetheales
+- Resume the 'Great Web' course [on FB and YouTube campaign](https://www.youtube.com/watch?v=z8eXzAMSkq0&list=PLVgXf-V4TQc3q7NDPZhO8ASQEn3jHtM84)
+- Prepare and work with info related to the launch protocol (including posts and guides)
 
 ## @savetheales
 
