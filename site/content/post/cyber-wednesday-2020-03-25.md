@@ -39,11 +39,13 @@ To do:
 
 ## @xhipster
 
-Done:
+Currently on sick leave
 
-Ongoing:
+Done: 
 
-To do:
+- [Various work on dot~Cyber](https://github.com/cybercongress/dot-cyber)
+- Various work on [roadmap](https://github.com/orgs/cybercongress/projects/2)
+- Work with @serejandmyself on [OBEP](https://github.com/cybercongress/congress/issues/307)
 
 ## @dimakorzhovnik
 
