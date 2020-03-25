@@ -93,13 +93,11 @@ Done:
 Ongoing: 
 
 - [Testing](https://github.com/cybercongress/go-cyber/pull/474) Euler-6 chain
-
 - Online updates [testing](https://github.com/cybercongress/go-cyber/issues/464)
 
 To do:
 
 - Update docs for [euler-6](https://github.com/cybercongress/go-cyber/issues/503)
-
 - Finalize [swagger.yml](https://github.com/cybercongress/go-cyber/issues/461)
 
 ## @litvintech
@@ -117,3 +115,21 @@ Done:
 Ongoing:
 
 To do:
+
+-------------------------------------------------------
+
+Important note to [GoL participants](https://cybercongress.ai/game-of-links/):
+
+There are 7 disciplines for GoL, one of which is a reward for lifetime of validators. 
+
+After modelling the current situation, the cyber~Congress team has concluded that the original description of the reward should be adjusted. Our proposition follows below, but first, why?
+
+This discipline is easily abused, especially with the current size of the network. For example, a byzantine participant might start up several validators from one machine towards the end of GoL or a participant starting and then switching off nodes to obtain reward units. 
+
+The only provable way is to count the pre-commits of a given validator. In other words, the blocks that a particular validator has signed. If a pre-commit is absent, we know for certain that a validator did not take part in its approval. 
+
+We propose to:
+1) Offer the reward only to those validators who were present at the time of the rewards
+2) The reward will be distributed not evenly as planned to all validators, but proportionally to their precommits to the network, up to block 10,000 of the current network. In this case euler-6
+
+If you have any feedback, please feel welcome to share it with us via [GitHub](https://github.com/cybercongress) or [TG](https://t.me/fuckgoogle).
