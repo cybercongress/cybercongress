@@ -2463,12 +2463,136 @@ Please note, that all of the games will be tested during the testnets with EUL a
 | Takeoff donations  | 	Not applicable | 
 
 ### Gift
+Cyber has gifted 3 communities as per the commitment to do so in our [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
+
+Those are the Ethereum (8%), Cosmos (1%) and Urbit (1%) communities. 
+
+The purpose of those gifts is to help the network gain traction in the beginning and to increase the initial participation. 
+This will help to increase cooperation and give more participants the ability to engage in the protocol. 
+We chose these specific communities because they are the best communities, in our opinion, to help to form the knowledge graph and to reach the masses.
+
+As a result, Cyber will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space. Similary, those communities will gain traction from joining forces with Cyber - the builder of the Great Web!
+
+<details>
+  <summary>What token did you gift? </summary>
+We have gifted CYB, the main ecosystem utility token needed to use the protocol.
+</details>
+
+<details>
+  <summary>How much did you gift? </summary>
+We have gifted 10% of the total supply, broken down as per the following: Ethereum: 8%, Cosmos: 1%, Urbit: 1%.
+</details>
+
+<details>
+  <summary>Who received the gift? </summary>
+ETH hodlers with at least 1 outgoing transaction (non-contract addresses only). And a balance bigger than 0.2 ETH at block 8080808.
+ATOM hodlers within Cosmos hub-2 at block 1110000 which held any balance bigger than 0.
+URBIT aliens that had planets, stars or galaxies on the 18.12.2019 (with at least one outgoint tx on the corresponding ETH address).
+
+Please note that ATOM and ETH gifts were distributed proportionally to the square root of each account balance during the snapshots.
+</details>
+
+<details>
+  <summary>How many addresses received gifts? </summary>
+Ethereum: 998015 addresses. Cosmos: 10715. Urbit: 884.
+</details>
+
+<details>
+  <summary> Was anyone else gifted?</summary>
+Not exactly. However, there were 76 validator addresses in Euler-4 (one of our public testnets) that received tokens for their work.
+</details>
+
+<details>
+  <summary>How do I check the balance of my gift? </summary>
+There are at least 3 ways to do so:
+The easiest and the quickest: go to cyber.page and just enter your ETH or ATOM address in the search bar. This will result in a EUL (testnet token) balance if you met the requirements for the gift.
+You may connect your ledger device on cyber.page to check out the ATOM gift balance. Simply connect your ledger and follow the steps.
+You may use gift tools from the launch-kit to check your gift balance (this requires some technical skills)
+</details>
+
+<details>
+  <summary>How do I check my balance if my tokens are on a Ledger? </summary>
+Simply export your ETH / ATOM account address and use one of the options above
+</details>
+
+<details>
+  <summary>How do I claim my gift? </summary>
+You do not need to. If you were lucky enough to receive a gift, they are yours already! Cyber addresses can be generated from a Cosmos seed or an ETH private key. This means that if you received a gift, just create an address and it will already have a balance!
+</details>
+
+<details>
+  <summary>How to create a cyber address? </summary>
+One way is to use your Ledger with cyber.page (for ATOM only).
+The other one is to install cyberdCLI and create an address (this requires technical skills.
+</details>
+
+<details>
+  <summary>Will the gift burn if I don't take it now? </summary>
+Simply put - no. You don't need to worry about this as long as cyber is alive and you have the keys to claim the gift.
+</details>
+
+<details>
+  <summary>So, I've received a gift. What can I do with it now? </summary>
+Start playing The Game! By playing you can receive more tokens! The Game of Links is a game with a lot of technical disciplines and incentives. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators.
+
+If you have your tokens on a Ledger account from an ATOM gift, simply go on cyber.page, follow the instructions closely and start linking!
+
+Other ways to participate in the game is to install cyberdcli and add your ledger account as a cold wallet with the --ledger flag.
+
+In all other cases, look for your Cosmos seed or ETh private key, install cyberdcli and play from the CLI. Of course, you may also set-up a validator node and participate in the other disciplines. Find more information in this blog post.
+</details>
+
+<details>
+  <summary> What else can I do with the tokens?</summary>
+HODL...
+</details>
+
+<details>
+  <summary>But I want CYB, and I received EUL. What's going on? </summary>
+EUL is the testnet name of CYB. When the mainnet launches, all EUL tokens will be converted to CYB tokens.
+
+FYI GOL is the test name for THC (the governance token).
+
+Important Euler-5 is a testnet with a different total supply to the cyber mainnet. The supply in the mainnet is larger, hence due to change of supply and due to the results of the Game of Links, balances may and will change. Of course, proportions to total supply are kept between the networks.
+</details>
+
+<details>
+  <summary>How do I know my ETH / ATOM / URBIT keys are safe? </summary>
+Your keys are stored locally with you. We do not ask for your keys. If you did not enter them anywhere, we do not know them. Please refrain from entering your seed / private key anywhere. This is not safe!
+
+It is a good practice to transfer any balance you have out of an address after you have claimed a gift. I.E. if I claimed a git using my ETH address and had a balance on that address. It might be a good idea to move that balance out to a new address for extra security.
+</details>
+
+<details>
+  <summary>Why do I need to take the gift? </summary>
+First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have, the more options open up to you in regards to search, building the knowledge graph and creating the new Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of.
+</details>
 
 ### cyber~Congress's pot
+The pot that cyber~Congress accounts for is dependent on dynamic parameters. It can be broken into 2 categories:
+
+- Any self-funded funds from team members and/or inventors
+- Donated ATOMs during seed, takeoff, etc donation rounds
+
+- Up to 6% of CYB tokens to the DAO, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+- Up to 3% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+
+In other words, up to 97 TTHC (the governance token) is allocated to inventors and team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md). Those THC tokens can (and will) be vested for the period of cyber~Acution to receive an equal amount of CYB tokens. This means that cyber~Congress might posses between 9-10% (including incentives) of CYB and THC tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
+
+From those funds, a certain portion will be allocated towards the creation of [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#who-are-cyberfundclassic), which will be a for-profit DAO responsible for finding teams that develop cyber and fund them with initial bags.  
+
+Apart from this, cyber~Congress will also hold a certain amount of ATOMs donated during the takeoff donation round and some ATOMs that will be donated during GoT. 
 
 ### Possible future amendments
+In the future, cyber~Congress or any other user might propose amendments to the economy via governance proposals. It will be up to the governance to decide whether or not these amendments will take place. 
 
 ### Where is the money Lebowski?
+We can break the understanding of this into 3 categories. Before we do that. It is vital to understand that the real value of computers and protocols comes from utility, development and adoption on a later stage. We see 4 groups that have various interests in the protocol:
+
+- cyber~Congress: it is up to cyber ~Congress to reach a sustainable flow of income and to obtain funding from governance proposals as either the or one of the developing teams
+- Evangelists: the ambassadors of cyber. As we see it, they possess both, a speculative interest and in sharing the idea of changing the world. Their value comes mainly from building a social knowledge graph, referring donators, participating in games, etc
+- Heroes: the validators of cyber. Possibly large donators, but primarily infrastructure providers. Earn from supplying infrastructure and inflation
+- Masters: the users of cyber. The largest group. They can have an income from inflation via delegating to heroes. They can also take part in shaping up web3, providing services, marketing, advertising, selling goods, creating markets, etc, in the new Great Web
 
 ------------------------------------------------------
 
