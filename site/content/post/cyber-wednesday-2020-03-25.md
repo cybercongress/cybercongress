@@ -19,9 +19,23 @@ To do:
 
 Done:
 
+- Yet another euler-6 [test iteration](https://github.com/cybercongress/go-cyber/pull/474/files)
+- Added views for [karma and precommits](https://github.com/cybercongress/cyberindex/commit/b08052a745fa8fad039cda6e77bf2df1b298c6b8) top subjects for GoL monitors
+- Added rebyc.cybernode.ai sandbox for dot-cyber [project](https://github.com/cybercongress/dot-cyber/issues/182)
+
+
 Ongoing:
 
+- Launch-kit tests and release preparations
+
 To do:
+
+- Read-through of foundation ceremony draft
+- Patch for GoL rules feat. @serejandmyself
+- Euler-5 precommits stats and links export
+- Blogpost about that
+- Develop proposal of takeoff donation start feat. @serejandmyself
+- Blogposts about test~Auction and Claim mechanics feat. @serejandmyself
 
 ## @xhipster
 
