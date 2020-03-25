@@ -634,7 +634,7 @@ You can see that it has the name of the image in the box at the bottom. To the r
 
 If the Ledge device isn't connected, you will need to connect it as described above, if it is, you will see something like this:
 
-<img src="https://i.postimg.cc/XJdQ0Nst/Screenshot-from-2020-03-25-13-37-21.png" />
+<img src="https://i.postimg.cc/0jB7FLpb/Screenshot-from-2020-03-25-13-37-21.png" />
 
 Click `Cyber it`. As you can see the screen tells you to confirm that the transaction matches what is on your Ledger. Make sure it does and use your Ledger to move the arrows right until you confirm the info:
 
