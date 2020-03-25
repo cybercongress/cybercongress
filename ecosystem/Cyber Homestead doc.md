@@ -97,6 +97,10 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Game of Thrones or GoT](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got)
     * [cyber~Auction or auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction)
   * [Understanding what goes where](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where)
+    * []()
+    * []()
+    * []()
+    * []()
   * [CYB and THC](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyb-and-thc)
     * [CYB]()
     * [THC]()
@@ -2397,6 +2401,49 @@ One more mega important part of the auction to remember, are the creative powers
 6 TGOL have been allocated for the test~Auction. There will be a mock period of 60 days, during which community can donate in ETH and claim GOL tokens on a daily basis.  
 
 ### Understanding what goes where
+The economics of cyber can be confusing at first sight. It isn't. Let's try to go over what pot goes where, why and to whom.
+
+There are 4 parts that we can break in cybernomics to understand it easier:
+
+- The donation rounds
+- The distribution games
+- The gift
+- The tokens and their utility
+
+#### Donation rounds
+We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with pots of funds so that they can develop the protocol. 
+
+- Self-funding: The project has been self-funded over a few years with a sum closing to ~3200 ETH summed up with the winter round (not including 2020)
+- Public winter round for friends: Was a public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
+- Takeoff round: The takeoff donation round is a round where up to 600k ATOM is donated to the cyber~Congress DAO via distribution games (more below). This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302), including things like ATOM staking, etc
+- Auction round: Is broken into 2 parts, a 21 day round and equal rounds for 479 days. During the first 21 days, ETH and ATOM are donated to the cyber~Congress DAO via the use of the auction. For the larger period of the auction. I.E. 479 days, ETH is donated to the cyber ~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the second part of the auction, THC tokens can be vested and locked to later, receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
+
+In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber~Foundation in charge of the ETH donated during the auction. And cyber ~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals made by cyber ~Foundation and will remain as one of the entities that commits to the protocol over its remaining lifetime.
+
+#### The distribution games
+There are 3 distribution games, described above. Their purpose is to achieve the best possible distribution, gain initial traction and test all of the network's possibilities. 
+
+- Game of Links: includes in itself the takeoff donation round. Started with euler-5 and will finish when the takeoff donation round is over. Its purpose is to distribute tokens from cyber~Congress to the participants. Aimed at initial believers of the protocol
+- Game of Thrones: Can be thought of as the final part of GoL or window 0 of the auction. A 21-day game in which ETH and ATOM communities battle it out for the biggest pot. Aimed at speculators
+- cyber~Auction: a 479-day long auction, which charges cyber~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
+
+#### The gift
+cyber has dropped 10% of its supply to 3 communities:
+
+- ETH: 8%, being the biggest dev community in the field 
+- ATOM: 1%, being the engine that backs cyber and the biggest growing community of devs
+- URBIT: 1%, being the most technologically advanced community in the field
+
+The purpose of the gift is to get initial traction, attract the best communities, test interest, achieve a better distribution. There were over 1 million addresses that were eligible to receive the gift (more below).
+
+#### The tokens and their utility
+Meaning that there are 2 utility tokens in the economy (+1 bonus points token):
+
+- CYB: The main token. Needed to create cyberlinks, transact, build the knowledge graph, etc
+- THC: The governance token. Needed to make proposals. Can be locked for the auction and swapped at 1-1 basis
+- Karma: Karma points aren't really a token. They are a calculation and a representation of the submission a person made to the knowledge graph. It cannot be swapped, bought, etc
+
+This leaves us with a clearer picture of which funds and donations go where. The whole distribution can be viewed in the [launch kit repo](https://github.com/cybercongress/launch-kit/blob/0.1.0/distribution/README.md).
 
 ### CYB and THC
 
