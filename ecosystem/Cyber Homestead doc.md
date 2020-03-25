@@ -27,10 +27,11 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
-  * [Using cyber: The very basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
+  * [Using cyber: The very basics of becoming a master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics)
     * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
     * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
-    * [Using your Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger)
+    * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
+    * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
@@ -113,7 +114,7 @@ The guide is, currently, made by the [cyber~Congress team](https://cybercongress
 If you have any suggestions or want to help to make this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
 
 ## :fuelpump: Section subtitle: Ground floor
-Cosmonauts do not become who they are if the initial training isn't done properly. In this section, you will find out about some basic terminology that you will need to understand cyber, and dive right into some of its basics. Including the history of cyber, how it works, how to use it and our philosophy.
+Cosmonauts do not become who they are if the initial training hasn't been done properly. In this section, you will find out about some basic terminology that you will need to understand cyber, and dive right into some of its basics. Including the history of cyber, how it works, how to use it and our philosophy.
 
 ### Technical questions in plain terms
 *Click on the below questions to expand the answer:*
@@ -416,11 +417,11 @@ There are 3 points on which we should touch when discussing cyber~Congress:
 ## :computer: Section subtitle: Prepare for take-off
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
-### Using cyber: The very basics
+### Using cyber: The very basics of becoming a master
 #### cyber~Page
 We suggest you start your acquaintance with using cyber from [cyber.page](http://cyber.page/). It is a small taste (it is, currently, in alpha mode) of an IPFS based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol.
 
-First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story`:
+First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story` (just press the space bar on you keyboard if you wish to skip the story):
 
 <img src="https://i.postimg.cc/KzPkY6qv/Screenshot-from-2020-02-14-14-45-15.png" />
 
@@ -430,6 +431,8 @@ Just turn on the speakers and enjoy the journey:
 
 You are now on the main page. Rest assured, it's working. Let me remind you that when google introduced their notorious sear bar, people were ready to kill. We think simple is good. Black is sexy:
 
+(Notice how the eye in the top right corner is not red, but green? This is because since those screens were taken, we have integrated an IPFS node into the app, which lets you pin and search content right from a P2P network)
+
 <img src="https://i.postimg.cc/6q7QvFzv/Screenshot-from-2020-02-14-14-49-02.png" />
 
 Try clicking the search box in the middle and search for something original like `cyber`:
@@ -438,7 +441,7 @@ Try clicking the search box in the middle and search for something original like
 
 This will return some results:
 
-<img src="https://i.postimg.cc/k4wmgwmt/Screenshot-from-2020-02-14-14-53-50.png" />
+<img src="https://i.postimg.cc/RV3DBcjW/Screenshot-from-2020-03-24-18-51-12.png" />
 
 Those are sparks (snippets), containing cyberlinked hashes, that someone linked, enriched semantically and here they are. The numbers next to the hashes are the current ranks.
 
@@ -447,6 +450,8 @@ The sparks don’t look fantastically attractive. But they will be later. They w
 (Of course, the results are dynamic, the first hash led me to the cyber WP. Let us know what results you got)
 
 <img src="https://i.postimg.cc/DwY5nXHy/Screenshot-from-2020-02-14-14-56-16.png" />
+
+BTW, did you notice the paper clip next to `paste a hash`?  Because there is an integrated IPFS node, you can actually pin anything you want to IPFS using this paper clip and it will become immediately searchable thanks to cyber. I will go over in detail on how to do this next time (let's see if you can figure it out on your own for now).
 
 Let’s click on the brain. That purple essence in the top left corner:
 
@@ -458,19 +463,23 @@ This will take us onto the main knowledge page:
 
 Here, you may explorer network statistics, validators, economic parameters, % of staked tokens, bandwidth price, etc. To do this, simply click on any of the buttons. I.E. `Cybernomics`, `Bandwidth`, etc
 
-Notice that the top box, at the top, becomes searchable. You can perform search actions from here too. More so, cyber doesn't just understand keywords, it also understands addresses. For example, try searching an ETH address:
+Notice that the top box, at the top, becomes searchable. You can perform search actions from here too. More so, cyber doesn't just understand keywords, it also understands addresses. For example, try searching an ATOM or an ETH address:
 
-<img src="https://i.postimg.cc/y8Pt9jx1/Screenshot-from-2020-02-14-15-08-22.png" />
+<img src="https://i.postimg.cc/QM0M3GTk/Screenshot-from-2020-03-24-19-02-40.png" />
 
-This will, most likely, take you to the gift page:
+It does say that it doesn't know what it is but notice the `Check your gift` button underneath. Click it. This will, most likely, take you to the gift page:
 
 (Cyber gifted 10% of its supply to [ETH](https://www.ethereum.org/), [ATOM](https://cosmos.network/) and [URBIT](https://urbit.org/) hodlers)
 
 If the address was lucky and got gifted, you will see something like this:
 
-<img src="https://i.postimg.cc/8z1n1vHq/Screenshot-from-2020-02-14-15-08-56.png" />
+<img src="https://i.postimg.cc/vTRTP7np/Screenshot-from-2020-03-24-19-04-23.png" />
+
+Give it a second to load and calculate the results. The page loads the results from a decentralized database (a blockchain), it can take up to a few seconds to calculate this.
 
 (Otherwise, the results will display gift:0)
+
+You can also click `PLAY`, which will take you to the [GoL rules](https://cybercongress.ai/game-of-links/). The currently incentivized testnet of cyber. 
 
 Now, try clicking the robot in the top right corner: 
 
@@ -507,9 +516,28 @@ Here, you may find details about the Game of Links, its distribution. Check out 
 For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
 
 #### cyb~Virus
+The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackaton and since then, due to technical reasons, been archived. 
+
+cyb~Virus is capable of downloading any web2 page into IPFS and enricning it with a searchable keyword for cyber in 2 clicks. However, due to technical lemitations we have archived the prohect. 
+
+You may still find the code in its GitHub repositotiry.
+
+Please note: it is NOT safe to import your private keys into the app. We cannot garauntee the security of this application for now!
+
+#### cyb~Snap
+Snaps are a metamask extensions that allow developers to intigrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
+
+cyb~Snap will allow integrations for almost all Cosmos based chains and act as a multi-chain wallet, just like metamask is for ETH. 
+
+For cyber snap will allow for linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow to utilize other features.
+
+A dev preview of cyb~Snap:
+
+<img src="https://i.postimg.cc/YCF6VQ6p/ER42d-Fl-Wk-AAGn-GI.jpg" />
+
 To be continued...
 
-#### Using your Ledger
+#### Using your Ledger to link 
 To be continued...
 
 ### IPFS / Cosmos & Tendermint
