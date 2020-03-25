@@ -2535,11 +2535,12 @@ Simply put - no. You don't need to worry about this as long as cyber is alive an
   <summary>So, I've received a gift. What can I do with it now? </summary>
 Start playing The Game! By playing you can receive more tokens! The Game of Links is a game with a lot of technical disciplines and incentives. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators.
 
+
 If you have your tokens on a Ledger account from an ATOM gift, simply go on cyber.page, follow the instructions closely and start linking!
 
 Other ways to participate in the game is to install cyberdcli and add your ledger account as a cold wallet with the --ledger flag.
 
-In all other cases, look for your Cosmos seed or ETh private key, install cyberdcli and play from the CLI. Of course, you may also set-up a validator node and participate in the other disciplines. Find more information in this blog post.
+In all other cases, look for your Cosmos seed or ETH private key, install cyberdcli and play from the CLI. Of course, you may also set-up a validator node and participate in the other disciplines. Find more information in this blog post.
 </details>
 
 <details>
@@ -2559,6 +2560,7 @@ Important Euler-5 is a testnet with a different total supply to the cyber mainne
 <details>
   <summary>How do I know my ETH / ATOM / URBIT keys are safe? </summary>
 Your keys are stored locally with you. We do not ask for your keys. If you did not enter them anywhere, we do not know them. Please refrain from entering your seed / private key anywhere. This is not safe!
+
 
 It is a good practice to transfer any balance you have out of an address after you have claimed a gift. I.E. if I claimed a git using my ETH address and had a balance on that address. It might be a good idea to move that balance out to a new address for extra security.
 </details>
