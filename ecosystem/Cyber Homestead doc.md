@@ -543,7 +543,7 @@ A dev preview of cyb~Snap:
 
 To be continued...
 
-#### Using your Ledger to link 
+#### Using your Ledger to link and send tokens
 The main purpose of cyber is to cyberlink aka to create an open semantic field for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
 
 In the future, the process of making links will become easier and easier. Right now, there are plenty of bugs and fixes that cyber.page as an app undergoes. But, regardless of these, it works. So let's try to use our Ledger device and create a link:
@@ -1171,6 +1171,8 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2020, (presumably) summer: Launch of the mainnet and Game of thrones
 - 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
 - 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 479 days
+
+If you are interested in the development roadmap, please see the [projects roadmap](https://github.com/orgs/cybercongress/projects/2). It is broken into episodes. Each episode contains the main current tasks. Each task may contain multiple intenral tasks, which in turn live in their own repositories. Episodes do not have a specified timeline.
 
 #### Distribution games introduction
 The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
@@ -2307,18 +2309,105 @@ The inflation in cyberd is defined by validators.
 </details>
 
 ### The distribution games in detail
-We have already mentioned the distirubution games briefly. Their purpose is to increase traction and improve distribution. 
+We have already mentioned the distribution games briefly. Their purpose is to increase traction and improve distribution. 
+
+There is a total of 3 games, with 2 of them, parts of 1:
+
+- [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators
+- Game of Thrones: Will start after the launch of the mainnet and last for 21 days. It is day 0 of the following auction. Its purpose is to battle out 2 communities (ETH and ATOM) for a bigger stake
+- cyber~Auction: Will start after GoT is over and accounted for. It is an auction that lasts for a little over 479 days. Its purpose is to fill cyber ~Foundation with money
+
+#### Game of Links or GoL
+As mentioned the purpose is to win as many tokens as possible from cyber~Congress and its seed donators. The idea originates with Cosmoses Game of Stakes. This allows to achieve two results simultaneously: test the network, result in a better distribution. PoS is known for not having anything at stake. PoW distributes tokens to those who spend resources and it makes sense. Here, the idea is similar. Use your resources and/or time and acquire tokens via utility. 
+
+There are 7 different disciplines in GoL. Meaning that there are 7 ways to participate in the game. 
+
+The disciplines that depend on the takeoff donations (this means that they are proportional to the sum of donated ATOM, more below):
+
+- The relevance of links submitted (the higher the rank of the content, the better)
+- The bandwidth load of every participant (the more you link, the better)
+- Life summary of every validator (the longer your uptime is, the better)
+- The amount delegated to each validator (the more a validator is delegated, the better)
+
+Independent of takeoff donations (meaning that it does not matter how many ATOM tokens will be donated during takeoff):
+
+- Full validator set (the more validators there are, the better)
+- Community pool (experiment and participate in governance)
+- euler-4 validator rewards (rewards distributed to validators for the last testnet. Essentially, this means that you cannot participate in this discipline anymore. This is mentioned for transparency)
+
+The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. If 600k ATOM tokens have been donated during the takeoff round, 10% of CYB tokens will be allocated to the Game of Links. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. 
+
+The development of the project has been done thanks to donations from 10 people. ~3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress. To protect the seed donators their share will be defined accordingly to the amount donated during the takeoff round.
+
+https://i.postimg.cc/wBBxVsn2/takeoff-allocation.png
+
+The above chart describes perfectly the allocation of 5 groups: 
+
+- cyber~Congress (does not include inventors)
+- Inventors of rounders of the protocol (2 people)
+- Seed donators during the winter round (more below)
+- Participators of GoL where allocation depends on takeoff round (disciplines)
+- Takeoff donators (those participating in the takeoff round)
+
+We can see that the more ATOM tokens are donated the less cyber~Congress, seed donators and its inventors acquire and the more GoL and takeoff donators get. 
+
+Those are the amounts allocated (up - as some depend on the parametrs above)) to each descipline in CYB tokens: 
+
+- Takeoff donators: Up to 60,000,000,000,000 CYB
+- Relevance of links: Up to 15,000,000,000,000 CYB
+- Bandwidth load: Up to 6,000,000,000,000 CYB
+- Delegations to validators: Up to 5,000,000,000,000 CYB
+- Lifetime of validators: Up to 2,000,000,000,000 CYB
+- Full validator set: Up to    5,000,000,000,000 CYB (dynamic)
+- euler-4 rewards: 5,000,000,000,000 CYB
+- Community pool: 2,000,000,000,000 CYB (if used)
+
+To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/).
+
+#### Game of Thrones or GoT
+The idea is to see two of the top communities battle it out in return for more tokens. One is ETH and the second is ATOM. We have already gifted both of them proportionally to their size (9% overall). However, the gift can be seen as bootstrap fuel and had a quadratic equation to it to smooth whale accounts. 
+
+The idea of GoT is to see one community of hodlers trying to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
+
+To test during the testnet we have allocated 1 TEUL and 1 TGOL to the Cosmos and Ethereum communities, respectively, for testing (please see below on value of test tokens). Test of Thrones is the zero round of the test~Auction. It will last for 10 days. During this period Cosmonauts and Etherians can donate their native tokens. After that EULs and GOLs will be distributed.
+
+The game will be monitored on a special page of cyber.page, where people will be able to follow, donate, etc. There will also be 2 Aragon based applications that will allow users to use both GoT and the auction. 
+
+#### cyber~Auction or auction
+The goal of cyber~Auction is to focus on obtaining funds for cyber~Foundation, the community governed DAO behind the cyber protocol. It will take place after the end of the previous games and last for 500 rounds that last for 23 hours each (a little over 479 days). 
+
+Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
+
+One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction, you will receive 1 CYB token for each locked THC token for the duration of the auction!
+
+6 TGOL have been allocated for the test~Auction. There will be a mock period of 60 days, during which community can donate in ETH and claim GOL tokens on a daily basis.  
+
+### Understanding what goes where
 
 ### CYB and THC
 
 - tokens and utility
 - transactions
 
+### EUL and GOL
+
+Please note, that all of the games will be tested during the testnets with EUL and GOL tokens, which are the equivelant of CYB and THC in the mainnet. The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GOL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game - if vested. Non-vested GOL tokens do not have any value at all. GOL tokens serve (1) as a means to provide incentivized testing of Ethereum contracts, and (2) as a spam protection mechanism for the faucet. DO NOT spend a significant amount of funds buying GOL during Test of Thrones & test~Auction and/or EUL over the counter. GOL tokens will be burned after the euler-5 testnet is over. All accounts in the euler experimental networks series will be reseted. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber ~Congress. 
+
+| During euler-5 testnet |	During cyber mainnet |
+|----------|------|
+| Test of Thrones  | 	Game of Thrones | 
+| test~Auction  | 	cyber~Auction | 
+| GOL token  | 	THC token | 
+| EUL token  | 	CYB token | 
+| Takeoff donations  | 	Not applicable | 
+
 ### Gift
 
-### cyber~Congress pot
+### cyber~Congress's pot
 
 ### Possible future amendments
+
+### Where is the money Lebowski?
 
 ------------------------------------------------------
 
