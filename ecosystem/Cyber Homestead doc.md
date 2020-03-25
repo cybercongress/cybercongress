@@ -31,7 +31,10 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
     * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
     * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
-    * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Using your Ledger to link and send tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
@@ -415,13 +418,16 @@ There are 3 points on which we should touch when discussing cyber~Congress:
 ------------------------------------------------------
 
 ## :computer: Section subtitle: Prepare for take-off
+
+>  Masters become masters when they learn. You are done with exploring and are ready to buckle up your seat belt. It ain't Kansas no more...
+
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
 ### Using cyber: The very basics of becoming a master
 #### cyber~Page
 We suggest you start your acquaintance with using cyber from [cyber.page](http://cyber.page/). It is a small taste (it is, currently, in alpha mode) of an IPFS based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol.
 
-First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story` (just press the space bar on you keyboard if you wish to skip the story):
+First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story` (just press the space bar on your keyboard if you wish to skip the story):
 
 <img src="https://i.postimg.cc/KzPkY6qv/Screenshot-from-2020-02-14-14-45-15.png" />
 
@@ -516,20 +522,20 @@ Here, you may find details about the Game of Links, its distribution. Check out 
 For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
 
 #### cyb~Virus
-The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackaton and since then, due to technical reasons, been archived. 
+The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. 
 
-cyb~Virus is capable of downloading any web2 page into IPFS and enricning it with a searchable keyword for cyber in 2 clicks. However, due to technical lemitations we have archived the prohect. 
+cyb~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. However, due to technical limitations, we have archived the project. 
 
-You may still find the code in its GitHub repositotiry.
+You may still find the code in its GitHub repository.
 
-Please note: it is NOT safe to import your private keys into the app. We cannot garauntee the security of this application for now!
+Please note: it is NOT safe to import your private keys into the app. We cannot guarantee the security of this application for the time being!
 
 #### cyb~Snap
-Snaps are a metamask extensions that allow developers to intigrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
+Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
 
 cyb~Snap will allow integrations for almost all Cosmos based chains and act as a multi-chain wallet, just like metamask is for ETH. 
 
-For cyber snap will allow for linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow to utilize other features.
+For cyber snap will allow for linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow utilizing other features.
 
 A dev preview of cyb~Snap:
 
@@ -538,7 +544,115 @@ A dev preview of cyb~Snap:
 To be continued...
 
 #### Using your Ledger to link 
-To be continued...
+The main purpose of cyber is to cyberlink aka to create an open semantic field for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
+
+In the future, the process of making links will become easier and easier. Right now, there are plenty of bugs and fixes that cyber.page as an app undergoes. But, regardless of these, it works. So let's try to use our Ledger device and create a link:
+
+First of all, you will need a Ledger, for the purpose of this guide I am assuming you have one. If you don't and you wish to acquire one, please do so only from trusted sources! I advise you to check the ledger [official webiste](https://www.ledger.com/) first for any local dealers near you in [this section](https://shop.ledger.com/pages/retailers/). Please note, that we are not affiliated with Ledger, so please make sure you double-check all of this yourself.
+
+As a second step, you will need the Cosmos app installed on your Ledger. To do this, you will need to install [Ledger Live](https://www.ledger.com/pages/ledger-live) (only do so from their website!). As Cosmos is not on the App Catalog by default, you will need to activate the developer mode.
+
+Go to settings and simply allow dev mode `ON`:
+
+https://i.postimg.cc/CxW9bCNk/1-9l-BQWse4k-F7-Nr-MCEXM32-Q.png
+
+Once the developer mode is activated, you can come back to the app catalogue and you should normally be able to find Cosmos on the list:
+
+https://i.postimg.cc/RhyL2dqT/1-741r-Qcm-FCs-L6gn-EMz8h-Wyg.png
+
+Click `install` and you are ready to move on.
+
+I advise you obtain some ATOM tokens, as you will need those to make transactions within Cosmos (not cyber). Still, it might be a good idea to test how staking and transacting works in Cosmos, as it is very to cyber.
+
+For this guide, I will skip on how to use your ATOM wallet, as there are plenty of those you can find on web2 and maybe even in cyber, or link on of these to cyber yourself =)
+
+Onto the next step. To create a link with Ledger, you will need some CYB or EUL (depending on whether it is a test or a live net) tokens. There are a few ways to obtain these:
+
+1) Whilst this is still a testnet, you might as for some in the [fuckgoogle TG channel](https://t.me/fuckgoogle) and people might send you some
+2) Get some from the faucet (to be continued)
+3) Get some from [Kira's TG bot](https://t.me/kirainterex)
+4) Obtain them by [running a validator node](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md)
+5) By [playing GoL](https://cybercongress.ai/game-of-links/)
+6) By participating in any of the rounds (to be continued)
+7) Via claiming [a gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md)
+
+It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then simply send them to your own address (to be continued...). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
+
+Open cyber app:
+
+Click on the Green eye of the robot in the top right corner. This takes you to the Ledger page:
+
+<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
+
+If you click the bottom button `Put Ledge into the pocket`, it will offer you to connect your Ledger (follow the steps on the screen):
+
+<img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
+
+After you connect your device, you will get to a page which will display your Cosmos address and your cyber address:
+
+If you see EUL tokens and not CYB tokens, this means that the network is still in testnet, don't worry about this.
+
+Your balance is most likely to be 0 unless you had a gift. If you did, you will have some tokens on your balance. If not, use one of the options above to obtain some tokens. When you make links you aren't spending any tokens. But, cyber is architectured with a bandwidth model. This means that every time you make a transaction (i.e. link) a portion of your tokens gets frozen. Your bandwidth regenerates over time, allowing you to make more transactions. This is a simple spam protection mechanism. 
+
+From here, you can click your cyber address. This will take you to a menu where you can see your available balance, the links you made, what heroes (validators you vote for), any mentions, etc:
+
+Try clicking `Cyberlinks`. If you haven't previously made any links. Nothing will appear here, of course. Lets finally try and link!
+
+In the box at the top, type in a search word you want to create a link for. Let's say you want to link something about music, then you would type `music`. If you wanted to link something about proteins, you would type in `proteins`. Watch your caps and your plurals. For the time being cyber doesn't know how to work with either plurals or caps. This means that it searches for strictly what you type. I want to link something about rain:
+
+Hit enter. In this case, nothing was found: 
+
+This means that cyber still doesn't know what rain is and I can enrich the knowledge graph. Good.
+
+I wanna link a picture of rain, as I'm a visual person and I think that this will easily explain what rain is to whoever then searches for it. At the bottom of the page, you will see `paste a hash` and a paper clip:
+
+Click the paper clip to upload a picture!
+
+(Now, I advise uploading pictures that are free and don't have any restrictions. But this is up to you what you do)
+
+When you click the paper clip it will take you to a normal upload page:
+
+Pick your image and click open in the appeared box!
+
+You can see that it has the name of the image in the box at the bottom. To the right of it click `Cyberlink using Ledger`:
+
+If the Ledge device isn't connected, you will need to connect it as described above, if it is, you will see something like this:
+
+Click `Cyber it`. As you can see the screen tells you to confirm that the transaction matches what is on your Ledger. Make sure it does and use your Ledger to move the arrows right until you confirm the info:
+
+When you get to the View or Sign transaction, move the arrow down by using the right button on Ledger and click `Sign transaction` by clicking both of the buttons simultaneously on your Ledger!
+
+You will see a transaction submitted screen and it after a second or two, the page will reload with a result:
+
+We have taught cyber what rain is. Good!
+
+Let's click the result. This will take us to a separate page and open your picture n IPFS:
+
+Cool. But it seems to me that this picture is not obvious after all... The page is still open and I wanna upload an HTML page that will explain what rain is. I prepared an HTML page of a dictionary explanation of what rain is. It was very simple. I just found the page that I wanted to use, right-clicked on the page and clicked `save as`. This saved an HTML file of the page I choose. 
+
+I can now go back to `paste a hash`:
+
+And click the paper clip and upload the HTML file of rain. Click `Cyberlink using ledger` and follow the same steps as described above. The result is this:
+
+Not perfect. I know... But at least there is a picture and a description of what it is we wanted to teach cyber. We have committed 2 links to the knowledge graph and anyone searches for `rain` will find our result. Anyone cyberlinking our rain to other things will be starting here. Pretty cool, ah? 
+
+You can link videos, music files, pdfs, etc. The link is your oyster. For now, they do not show perfectly on screen and there are lots of fixes that the app is undergoing. But it fulfils its initial purpose. We managed to submit something to the open semantics field of web3. Who knows, maybe whatever we submitted will once become one of the most searched for things on the new Great Web...
+
+As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
+
+At the bottom of the page click `Send EUL using ledger` and follow the instructions:
+
+You will need to enter a valid cyber address that you want to send tokens to and the amount in GEUL (1 GEUL = 1 million EUL). Note that your balance is shown in GEUL. So to send 100k, enter 0.1:
+
+After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx. 
+
+The app contains lots of features. Most of them are still experimental. As time and the app progress, I will add more guides to this section.
+
+#### Claiming the gift
+
+#### Choosing your hero
+
+#### Playing GoL
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
