@@ -90,9 +90,15 @@ To do:
 
 Done:
 
-Ongoing:
+Ongoing: 
+
+- [Testing](https://github.com/cybercongress/go-cyber/pull/474) Euler-6 chain
+
+- Online updates [testing](https://github.com/cybercongress/go-cyber/issues/464)
 
 To do:
+
+- Update docs for [euler-6](https://github.com/cybercongress/go-cyber/issues/503)
 
 ## @litvintech
 
