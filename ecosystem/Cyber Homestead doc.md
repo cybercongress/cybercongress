@@ -90,7 +90,21 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Validator glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-glossary)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
-  * etc...
+  * [Cybernomics]https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybernomics
+  * [General questions](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-questions)
+  * [The distribution games in detail](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games-in-detail)
+    * [Game of Links or GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol)
+    * [Game of Thrones or GoT](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got)
+    * [cyber~Auction or auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction)
+  * [Understanding what goes where](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where)
+  * [CYB and THC](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyb-and-thc)
+    * [CYB]()
+    * [THC]()
+  * [EUL and GOL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#eul-and-gol)
+  * [Gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#gift)
+  * [cyber~Congress's pot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybercongresss-pot)
+  * [Possible future amendments](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#possible-future-amendments)
+  * [Where is the money Lebowski?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#where-is-the-money-lebowski)
 ------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
   * etc...
@@ -2337,9 +2351,9 @@ Independent of takeoff donations (meaning that it does not matter how many ATOM 
 
 The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. If 600k ATOM tokens have been donated during the takeoff round, 10% of CYB tokens will be allocated to the Game of Links. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. 
 
-The development of the project has been done thanks to donations from 10 people. ~3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress. To protect the seed donators their share will be defined accordingly to the amount donated during the takeoff round.
+The development of the project has been done thanks to donations from 10 people. ~ 3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress. To protect the seed donators their share will be defined accordingly to the amount donated during the takeoff round.
 
-https://i.postimg.cc/wBBxVsn2/takeoff-allocation.png
+<img src="https://i.postimg.cc/wBBxVsn2/takeoff-allocation.png" />
 
 The above chart describes perfectly the allocation of 5 groups: 
 
@@ -2374,7 +2388,7 @@ To test during the testnet we have allocated 1 TEUL and 1 TGOL to the Cosmos and
 The game will be monitored on a special page of cyber.page, where people will be able to follow, donate, etc. There will also be 2 Aragon based applications that will allow users to use both GoT and the auction. 
 
 #### cyber~Auction or auction
-The goal of cyber~Auction is to focus on obtaining funds for cyber~Foundation, the community governed DAO behind the cyber protocol. It will take place after the end of the previous games and last for 500 rounds that last for 23 hours each (a little over 479 days). 
+The goal of cyber~Auction is to focus on obtaining funds for cyber ~Foundation, the community governed DAO behind the cyber protocol. It will take place after the end of the previous games and last for 500 rounds that last for 23 hours each (a little over 479 days). 
 
 Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
 
