@@ -97,10 +97,10 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Game of Thrones or GoT](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got)
     * [cyber~Auction or auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction)
   * [Understanding what goes where](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where)
-    * []()
-    * []()
-    * []()
-    * []()
+    * [Donation rounds](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#donation-rounds)
+    * [The distribution games](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games)
+    * [The gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-gift)
+    * [The tokens and their utility](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-tokens-and-their-utility)
   * [CYB and THC](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyb-and-thc)
     * [CYB]()
     * [THC]()
@@ -2425,7 +2425,7 @@ There are 3 distribution games, described above. Their purpose is to achieve the
 
 - Game of Links: includes in itself the takeoff donation round. Started with euler-5 and will finish when the takeoff donation round is over. Its purpose is to distribute tokens from cyber~Congress to the participants. Aimed at initial believers of the protocol
 - Game of Thrones: Can be thought of as the final part of GoL or window 0 of the auction. A 21-day game in which ETH and ATOM communities battle it out for the biggest pot. Aimed at speculators
-- cyber~Auction: a 479-day long auction, which charges cyber~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
+- cyber~Auction: a 479-day long auction, which charges cyber ~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
 
 #### The gift
 cyber has dropped 10% of its supply to 3 communities:
