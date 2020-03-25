@@ -27,14 +27,14 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
-  * [Using cyber: The very basics of becoming a master]https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
+  * [Using cyber: The very basics of becoming a master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
     * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
     * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
     * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
     * [Using your Ledger to link and send tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
-    * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
-    * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
-    * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+    * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+    * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
@@ -554,11 +554,11 @@ As a second step, you will need the Cosmos app installed on your Ledger. To do t
 
 Go to settings and simply allow dev mode `ON`:
 
-https://i.postimg.cc/CxW9bCNk/1-9l-BQWse4k-F7-Nr-MCEXM32-Q.png
+<img src="https://i.postimg.cc/CxW9bCNk/1-9l-BQWse4k-F7-Nr-MCEXM32-Q.png" />
 
 Once the developer mode is activated, you can come back to the app catalogue and you should normally be able to find Cosmos on the list:
 
-https://i.postimg.cc/RhyL2dqT/1-741r-Qcm-FCs-L6gn-EMz8h-Wyg.png
+<img src="https://i.postimg.cc/RhyL2dqT/1-741r-Qcm-FCs-L6gn-EMz8h-Wyg.png" />
 
 Click `install` and you are ready to move on.
 
@@ -576,19 +576,23 @@ Onto the next step. To create a link with Ledger, you will need some CYB or EUL 
 6) By participating in any of the rounds (to be continued)
 7) Via claiming [a gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md)
 
-It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then simply send them to your own address (to be continued...). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
+It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then, simply send them to your own address (to be continued...). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
 
 Open cyber app:
+
+<img src="https://i.postimg.cc/bY5Zk0LY/Screenshot-from-2020-03-25-13-15-01.png" />
 
 Click on the Green eye of the robot in the top right corner. This takes you to the Ledger page:
 
 <img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
 
-If you click the bottom button `Put Ledge into the pocket`, it will offer you to connect your Ledger (follow the steps on the screen):
+If you click the button at the bottom, `Put Ledger into the pocket`, it will offer you to connect your Ledger (follow the steps on the screen):
 
 <img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
 
 After you connect your device, you will get to a page which will display your Cosmos address and your cyber address:
+
+<img src="https://i.postimg.cc/ncMwwxvY/Screenshot-from-2020-03-25-13-19-45.png" />
 
 If you see EUL tokens and not CYB tokens, this means that the network is still in testnet, don't worry about this.
 
@@ -596,15 +600,23 @@ Your balance is most likely to be 0 unless you had a gift. If you did, you will 
 
 From here, you can click your cyber address. This will take you to a menu where you can see your available balance, the links you made, what heroes (validators you vote for), any mentions, etc:
 
+<img src="https://i.postimg.cc/Xq5x4jxT/Screenshot-from-2020-03-25-13-24-17.png" />
+
 Try clicking `Cyberlinks`. If you haven't previously made any links. Nothing will appear here, of course. Lets finally try and link!
 
 In the box at the top, type in a search word you want to create a link for. Let's say you want to link something about music, then you would type `music`. If you wanted to link something about proteins, you would type in `proteins`. Watch your caps and your plurals. For the time being cyber doesn't know how to work with either plurals or caps. This means that it searches for strictly what you type. I want to link something about rain:
 
+<img src="https://i.postimg.cc/brPSSqqX/Screenshot-from-2020-03-25-13-26-31.png" />
+
 Hit enter. In this case, nothing was found: 
+
+<img src="https://i.postimg.cc/nzGc5Bf5/Screenshot-from-2020-03-25-13-29-52.png" />
 
 This means that cyber still doesn't know what rain is and I can enrich the knowledge graph. Good.
 
 I wanna link a picture of rain, as I'm a visual person and I think that this will easily explain what rain is to whoever then searches for it. At the bottom of the page, you will see `paste a hash` and a paper clip:
+
+<img src="https://i.postimg.cc/V6G2dkqv/Screenshot-from-2020-03-25-13-31-44.png" />
 
 Click the paper clip to upload a picture!
 
@@ -612,27 +624,45 @@ Click the paper clip to upload a picture!
 
 When you click the paper clip it will take you to a normal upload page:
 
-Pick your image and click open in the appeared box!
+<img src="https://i.postimg.cc/NfwZFST1/Screenshot-from-2020-03-25-13-34-50.png" />
+
+Pick your image and click `open` in the appeared box!
 
 You can see that it has the name of the image in the box at the bottom. To the right of it click `Cyberlink using Ledger`:
 
+<img src="https://i.postimg.cc/15PYs6hB/Screenshot-from-2020-03-25-13-35-45.png" />
+
 If the Ledge device isn't connected, you will need to connect it as described above, if it is, you will see something like this:
+
+<img src="https://i.postimg.cc/XJdQ0Nst/Screenshot-from-2020-03-25-13-37-21.png" />
 
 Click `Cyber it`. As you can see the screen tells you to confirm that the transaction matches what is on your Ledger. Make sure it does and use your Ledger to move the arrows right until you confirm the info:
 
-When you get to the View or Sign transaction, move the arrow down by using the right button on Ledger and click `Sign transaction` by clicking both of the buttons simultaneously on your Ledger!
+<img src="https://i.postimg.cc/8kytQY4p/Screenshot-from-2020-03-25-14-46-18.png" />
+
+When you get to the View or Sign transaction, move the arrow down by using the right button on Ledger and click `Sign transaction` by clicking both of the buttons simultaneously on your Ledger:
+
+<img src="https://i.postimg.cc/4dHtD8xd/Screenshot-from-2020-03-25-14-49-40.png" />
 
 You will see a transaction submitted screen and it after a second or two, the page will reload with a result:
+
+<img src="https://i.postimg.cc/XYvZM22b/Screenshot-from-2020-03-25-13-43-31.png" />
 
 We have taught cyber what rain is. Good!
 
 Let's click the result. This will take us to a separate page and open your picture n IPFS:
 
+<img src="https://i.postimg.cc/bwKq6LWL/Screenshot-from-2020-03-25-13-44-23.png" />
+
 Cool. But it seems to me that this picture is not obvious after all... The page is still open and I wanna upload an HTML page that will explain what rain is. I prepared an HTML page of a dictionary explanation of what rain is. It was very simple. I just found the page that I wanted to use, right-clicked on the page and clicked `save as`. This saved an HTML file of the page I choose. 
 
 I can now go back to `paste a hash`:
 
+<img src="https://i.postimg.cc/gjSW3K3V/Screenshot-from-2020-03-25-13-47-53.png" />
+
 And click the paper clip and upload the HTML file of rain. Click `Cyberlink using ledger` and follow the same steps as described above. The result is this:
+
+<img src="https://i.postimg.cc/VNqPKwjL/Screenshot-from-2020-03-25-13-49-28.png" />
 
 Not perfect. I know... But at least there is a picture and a description of what it is we wanted to teach cyber. We have committed 2 links to the knowledge graph and anyone searches for `rain` will find our result. Anyone cyberlinking our rain to other things will be starting here. Pretty cool, ah? 
 
@@ -640,9 +670,15 @@ You can link videos, music files, pdfs, etc. The link is your oyster. For now, t
 
 As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
 
+<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
+
 At the bottom of the page click `Send EUL using ledger` and follow the instructions:
 
+<img src="https://i.postimg.cc/ZnTNWJL9/Screenshot-from-2020-03-25-13-59-02.png" />
+
 You will need to enter a valid cyber address that you want to send tokens to and the amount in GEUL (1 GEUL = 1 million EUL). Note that your balance is shown in GEUL. So to send 100k, enter 0.1:
+
+<img src="https://i.postimg.cc/hjKvrpQ6/Screenshot-from-2020-03-25-14-01-21.png" />
 
 After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx. 
 
@@ -650,9 +686,15 @@ The app contains lots of features. Most of them are still experimental. As time 
 
 #### Claiming the gift
 
+To be continued...
+
 #### Choosing your hero
 
+To be continued...
+
 #### Playing GoL
+
+To be continued...
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
