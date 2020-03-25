@@ -100,6 +100,8 @@ To do:
 
 - Update docs for [euler-6](https://github.com/cybercongress/go-cyber/issues/503)
 
+- Finalize [swagger.yml](https://github.com/cybercongress/go-cyber/issues/461)
+
 ## @litvintech
 
 Done:
