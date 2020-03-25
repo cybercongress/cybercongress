@@ -110,11 +110,17 @@ To do:
 
 ## @aha203
 
-Done:
-
 Ongoing:
+- Postproduction of the first podcast with @serejandmyself
+- Coordination of Euler-6 release and Take Off
+- New structure sujestion for [Go-Cyber Read.me](https://github.com/cybercongress/go-cyber/blob/Aha203-patch-1/README.md/) 
+- First podcast about Cyber team 
 
-To do:
+
+To do: 
+- Coordination of Euler-6 release and Take Off
+- Communication with possible donators
+- Check of user journey map (user tests) 
 
 -------------------------------------------------------
 
