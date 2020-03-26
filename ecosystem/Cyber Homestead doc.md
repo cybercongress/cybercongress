@@ -114,8 +114,11 @@ This section contains the basic things you will need for your cyber journey. Fin
   * etc...
 ------------------------------------------------------
 - [Section subtitle: The deep space](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#pill-section-subtitle-the-deep-space)
-  * [The evolution of spicies](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-evolution-of-spicices)
-  * etc...
+  * [The evolution of spicies](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-evolution-of-species)
+    * [The manifest](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-manifest)
+    * [R&D](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rd)
+  * [Usecases]()
+  * [Subculture]()
 ------------------------------------------------------
 - [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
   * etc...
