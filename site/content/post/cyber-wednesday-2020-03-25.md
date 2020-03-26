@@ -47,7 +47,7 @@ To do:
 
 - Read-through of foundation ceremony draft
 - Patch for GoL rules feat. @serejandmyself
-- Euler-5 precommits stats and links export
+- Euler-5 pre-commits stats and links export
 - Blogpost about that
 - Develop proposal of takeoff donation start feat. @serejandmyself
 - Blogposts about test~Auction and Claim mechanics feat. @serejandmyself
@@ -66,10 +66,10 @@ Done:
 
 Done:
 
-- Load search results from embeded ipfs node [#53](https://github.com/cybercongress/dot-cyber/pull/212)
-- Autopin ipfs hashes after linking [#195](https://github.com/cybercongress/dot-cyber/pull/212)
+- Load search results from embedded IPFS node [#53](https://github.com/cybercongress/dot-cyber/pull/212)
+- Autopin IPFS hashes after linking [#195](https://github.com/cybercongress/dot-cyber/pull/212)
 - Better cyberlinking [#175](https://github.com/cybercongress/dot-cyber/pull/212)
-- fix calculating Uptime [PR](https://github.com/cybercongress/dot-cyber/pull/220)
+- Fix calculating uptime [PR](https://github.com/cybercongress/dot-cyber/pull/220)
 
 Ongoing:
 
@@ -88,8 +88,6 @@ To do:
 
 ## @mrlp4
 
-Done:
-
 Ongoing: 
 
 - [Testing](https://github.com/cybercongress/go-cyber/pull/474) Euler-6 chain
@@ -103,7 +101,8 @@ To do:
 ## @litvintech
 
 Done:
-- cyber: removed graph merkling due storage iterator non-determinism [#496](https://github.com/cybercongress/go-cyber/issues/496)
+
+-  cyber: removed graph merkling due storage iterator non-determinism [#496](https://github.com/cybercongress/go-cyber/issues/496)
 - cyber: added network load endpoint [#499](https://github.com/cybercongress/go-cyber/issues/499)
 - cyber: added used karma to cyberlink's events [#495](https://github.com/cybercongress/go-cyber/issues/495)
 - cyber: fixed error during the signing tx with imported eth key [#494](https://github.com/cybercongress/go-cyber/issues/494)
@@ -117,7 +116,7 @@ Done:
 Ongoing:
 
 - Research on IBC, preparation for Game of Zones
-- Communication with cosmos/tendermint developers
+- Communication with Cosmos/Tendermint developers
 - Cyber's documentation updates
 
 To do:
@@ -134,13 +133,15 @@ To do:
 ## @aha203
 
 Ongoing:
+
 - Postproduction of the first podcast with @serejandmyself
 - Coordination of Euler-6 release and Take Off
-- New structure sujestion for [Go-Cyber Read.me](https://github.com/cybercongress/go-cyber/blob/Aha203-patch-1/README.md/) 
+- New structure suggestion for [Go-Cyber Read.me](https://github.com/cybercongress/go-cyber/blob/Aha203-patch-1/README.md/) 
 - First podcast about Cyber team 
 
 
 To do: 
+
 - Coordination of Euler-6 release and Take Off
 - Communication with possible donators
 - Check of user journey map (user tests) 
@@ -159,6 +160,6 @@ The only provable way is to count the pre-commits of a given validator. In other
 
 We propose to:
 1) Offer the reward only to those validators who were present at the time of the rewards
-2) The reward will be distributed not evenly as planned to all validators, but proportionally to their precommits to the network, up to block 10,000 of the current network. In this case euler-6
+2) The reward will be distributed not evenly as planned to all validators, but proportionally to their pre-commits to the network, up to block 10,000 of the current network. In this case euler-6
 
 If you have any feedback, please feel welcome to share it with us via [GitHub](https://github.com/cybercongress) or [TG](https://t.me/fuckgoogle).
