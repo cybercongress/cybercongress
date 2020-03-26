@@ -2570,7 +2570,7 @@ It is a good practice to transfer any balance you have out of an address after y
 First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have, the more options open up to you in regards to search, building the knowledge graph and creating the new Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of.
 </details>
 
-### cyber~Congress's pot
+### cyber~Congress's + seed investors pot
 The pot that cyber~Congress accounts for is dependent on dynamic parameters. It can be broken into 2 categories:
 
 - Any self-funded funds from team members and/or inventors
@@ -2579,7 +2579,13 @@ The pot that cyber~Congress accounts for is dependent on dynamic parameters. It 
 - Up to 6% of CYB tokens to the DAO, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
 - Up to 3% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
 
-In other words, up to 97 TTHC (the governance token) is allocated to inventors and team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md). Those THC tokens can (and will) be vested for the period of cyber~Acution to receive an equal amount of CYB tokens. This means that cyber~Congress might posses between 9-10% (including incentives) of CYB and THC tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
+The pot of seed investors is also dynamic. It depends on the donations during takeoff round and can be up to 6% of CYB tokens.
+
+**Vital** cyber~Congress and seed investors are NOT the same entitt, however some people might overcross. We are publishing these numbers, solely, for transparency!
+
+In other words, up to 97 TTHC (the governance token) is allocated to inventors, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
+
+Those THC tokens can (and most likely will) be vested for the period of cyber~Acution to receive an equal amount of CYB tokens. This means that cyber~Congress might posses between 9-10% (including incentives) of CYB and THC tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
 
 From those funds, a certain portion will be allocated towards the creation of [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#who-are-cyberfundclassic), which will be a for-profit DAO responsible for finding teams that develop cyber and fund them with initial bags.  
 
@@ -2612,24 +2618,104 @@ This section will teach you about hardware, governance and survival in deep spac
 
 ### Governance
 
-### Subculture
-
 ### Technical guides
 
 
 ------------------------------------------------------
 
 ## :pill: Section subtitle: The deep space
-> Oh well... It's deep space. No more Milky Way. Strange planets around you. You are a billion light years away from Earth
+> Oh well... It's deep space now. No more Milky Way. Strange planets around you. You are a billion light-years away from Earth
 
-This section will dive into the undived. We will talk about the things that were left out before. The deep librabry of cyber. Some parts of this section might sound a bit crazy, some... not as crazy.
+This section will dive into the undived. We will talk about the things that were left out before. The deep library of cyber. Some parts of this section might sound a bit crazy, some... not as crazy.
 
 ### The evolution of species
-- research
-- plans
-- crazy things
+> The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself
+Carl Sagan
+
+The making of cyber has a lot put behind it. I could Theoretically go straight to the point (and if you are eager to know more, simply skip to the next section), but I think it is vital to state that values are what keeps the world spinning around (or rather what keeps it from spinning around the wrong way).
+
+We do not believe in captchas. We do not believe in KYC. We do not believe in licensing and any other similar to the above-mentioned bullshit. We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children.
+
+With that in mind, what I'm trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
+
+Some of these ideas might seem crazy to you. Some you might completely disagree with. And that's good. We don't expect anyone to fully agree with what we do. Please remember that the ideas outlined below belong to cyber~Congress, cyber is a separate entity governed by cyber ~foundation. However, as a DAO those ideas drive us forward and we feel that it is necessary to share them with the public for transparency. 
+
+#### The manifest
+The most difficult thing about a freedom manifest is making it not as a manifest. This was rightly pointed out by @sparky. As the work with manifests and everything related to it is not as vital as launching cyber, we do not, currently, spend much time on it. However you may find the occasional pull request in that direction and if you are willing to help, [feel free to do so](https://github.com/cybercongress/congress/pulls).
+
+Our Mission is to help the evolution of species!
+
+Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Until today, this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as species and gives all of us hope. With the Voyagers, our species sent the [golden record](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras and spoken greetings from Earth-people in fifty-five languages.
+
+That record carries what we believe in, with this, below, we have outlined the goals and values that we believe in the most. This is a hard mission, as our foremost wish is freedom and outlining anything when speaking of freedom is hard.
+
+Blockchain technology has opened the opportunity for development which was previously impossible.
+
+The great John Lenon once said:
+`Imagine there's no countries`
+`Nothing to kill or die for`
+`And no religion, too`
+`You may say I'm a dreamer`
+`I hope someday you'll join us`
+`And the world will be as one`
+
+Those words are not kept to their original order, but they still carry the same message that we share.
+
+We have goals and values. Most of our goals we recreate into general issues on our roadmap. from there, you may follow any of these and see how they break down into tasks and overgo an evolution until there is a result. 
+
+Most of our goals and values overlap. Some of them can be expresses as a reference to movies, songs, poetry, academic research. Some are easier listed:
+
+- Security: We do not work with fiat and avoid bureaucratic paper hassle. We prefer to work with digital signatures
+- Anonymity and privacy: If someone chooses to stay anonymous or private, it is their right to do so. We respect it
+- Open-source software: Everything we release into production should be open-source and auditable
+- Open-source hardware: Every piece of hardware that goes into production, should be open-sourced and auditable
+- Transparency: We believe that transactional transparency is fundamental to building decentralized communities
+- Informational freedom: Local laws should not prohibit data flow and information
+- Economic freedom: Nobody should prevent or block public transactions
+- Free will: We reject corporate slavery bullshit, such as conflict of interest or NDA
+- Capital, not salary: Helping to switch from dragging to the bottom salary to a capital-based, passive income for species 
+- Engineering is marketing: We would rather spend our resources on engineering than on marketing
+- Physical liberty: Limitations to physical liberty can be economic, but not authoritative
+- Automation: Everything that can be automated, should be automated
+- Intelligence: An entity can be treated as intelligent if they can provably communicate
+- Decentralization: Everything that can be decentralized, shall be decentralized
+- Always on the edge: We try to offer alternatives to outdated technologies such as emails
+
+By sharing those values we want to show what drives us. What makes our inner clocks tick. Those values unite us. If you check out the project `roadmap`, you will find a list of episodes, ranging from I - V. These [episodes](https://github.com/orgs/cybercongress/projects/2), as already mentioned, include our goals. 
+
+They can be grouped into the following categories:
+
+- Science: building a strong scientific foundation, space exploration, technologies that can transfer human conciseness, extend living capabilities, improve ecology (thermoregulation) 
+- Development: improving consensus computers, developing interfaces, integrating post-quantum cryptography, independent robots, open tools for biological engineering, develop metaverse    
+- Economy: achieving an incentivized system for all types of actors, self-sustainability, access to equal economics to all species, creating incentives for AI
+- Transparency: providing access to transactions, lack of censorship, demolishing borders and states
+- Privacy: a possibility for private communication
+- Governance: finding replacements for control, open unified registries
+- Social: abolishing fear, freedom of choice, bringing sociology and anthropology back to natural ways
+
+Below is one of the most important quotes ever said on Earth by Carl Sagan:
+
+“Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there-on a mote of dust suspended in a sunbeam.
+
+The Earth is a very small stage in a vast cosmic arena. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot.
+
+Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+
+The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
+
+It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.” ― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
+
+We share this vision, but we look forward and even beyond it.
+
+We understand that technicalities are boring, but we want to be transparent. To achieve our goals we will utilize any type of appropriate to our values technology that either exists or create it ourselves. 
+
+May the code be with you. Don't believe. Don't fear. Don't ask!
+
+#### R&D
 
 ### Usecases
+
+### Subculture
 
 ------------------------------------------------------
 
