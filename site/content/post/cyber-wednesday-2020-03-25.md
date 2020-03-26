@@ -103,10 +103,33 @@ To do:
 ## @litvintech
 
 Done:
+- cyber: removed graph merkling due storage iterator non-determinism [#496](https://github.com/cybercongress/go-cyber/issues/496)
+- cyber: added network load endpoint [#499](https://github.com/cybercongress/go-cyber/issues/499)
+- cyber: added used karma to cyberlink's events [#495](https://github.com/cybercongress/go-cyber/issues/495)
+- cyber: fixed error during the signing tx with imported eth key [#494](https://github.com/cybercongress/go-cyber/issues/494)
+- cyber: tested online upgrades in Euler-6. [#464](https://github.com/cybercongress/go-cyber/issues/464)
+- cyber: deployed first WASM contract to Euler-6 [#479](https://github.com/cybercongress/go-cyber/issues/479)
+- ibc: first in cosmos community tested [relayer](https://github.com/cosmos/relayer)
+- aragon-auction-app: fixed personal rewards calculations [#5](https://github.com/cybercongress/aragon-auction-app/issues/5)
+- dot-cyber: succefully support IPFS node integration in cyber.page
+- vesting-companion: released [vesting-companion](https://github.com/cybercongress/vesting-companion) [#18](https://github.com/cybercongress/launch-kit/issues/18)
 
 Ongoing:
 
+- Research on IBC, preparation for Game of Zones
+- Communication with cosmos/tendermint developers
+- Cyber's documentation updates
+
 To do:
+
+- cyber: release Euler-6 [#463](https://github.com/cybercongress/go-cyber/issues/463)
+- cyber: launch Euler-6
+- cyber: assist @mrlp4 with [new guides](https://github.com/cybercongress/go-cyber/pull/504) for validators
+- cyber: support @mrlp4 to add configuration for swagger [#461](https://github.com/cybercongress/go-cyber/issues/461)
+- cyber\~Foundation: initial cyber~Foundation Aragon ceremony guide. [#325](https://github.com/cybercongress/congress/issues/325)
+- cosmwasm: apply fuckgoogle validator for Cosmwasm first public testnet [#314](https://github.com/cybercongress/congress/issues/314)
+- ibc: deploy congress/fuckgoole zones and faucets, relayer
+
 
 ## @aha203
 
