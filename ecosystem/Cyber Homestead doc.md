@@ -2631,6 +2631,70 @@ This section will teach you about hardware, governance and survival in deep spac
 
 This section will dive into the undived. We will talk about the things that were left out before. The deep library of cyber. Some parts of this section might sound a bit crazy, some... not as crazy.
 
+### Questions
+
+<details>
+  <summary>Why open-source? </summary>
+Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner.
+</details>
+
+<details>
+  <summary>Are you Satoshi? </summary>
+We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi.
+</details>
+
+<details>
+  <summary> Why are you so geeky?</summary>
+Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to google.
+</details>
+
+<details>
+  <summary>I read one of your manifests, are you crazy? </summary>
+I would lie if I said we weren't. But doesn't it take a bit of craziness, abstract geniuses and adventurism to change the world? Knowledge is a vital virtue that we possess. But if we were normal, we wouldn't be any different from the rest.
+</details>
+
+<details>
+  <summary>Why do you talk so much about values? </summary>
+Because values are what spins the world around. Our values lay at the core of the technology that we have created. Those values are the driver of that innovation. They are the goal. The technology is the instrument to get there.
+</details>
+
+<details>
+  <summary>Why all species? </summary>
+Because all species should (and will) have an equal opportunity for secure and transparent communication.
+</details>
+
+<details>
+  <summary>How can all species be intelligent? </summary>
+Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form.
+</details>
+
+<details>
+  <summary>Why do you need all those manifests/researches? How does it help the project? </summary>
+We think that it is stupid to achieve any goals without understanding the problem you are trying to solve. Daily, all around the world, people do something... But why do just something, when you can do THE something that needs to be done and that solves the problem you or someone else were trying to solve? We believe that all of this can, and will, help the project as it evolves trust in what we do. Shows that we have an understanding of what and why we do it. And that we are ready to prove the world that it will help to fix broken protocols for the better.
+</details>
+
+<details>
+  <summary>How is this AI related? </summary>
+First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is).
+
+In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it.
+</details>
+
+<details>
+  <summary>How do you plan to take over the world/internet? </summary>
+By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is working. The idea has proved to be functioning and has a proved and a cemented market demand. We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else - it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen!
+</details>
+
+<details>
+  <summary>Is this religious? </summary>
+Yes. By all means, it is. It is the most anti-religious techno-religion in the wild.
+</details>
+
+<details>
+  <summary> What is your main target audience?</summary>
+Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else.
+</details>
+
 ### The evolution of species
 > The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself
 Carl Sagan
@@ -2715,6 +2779,7 @@ We understand that technicalities are boring, but we want to be transparent. To 
 May the code be with you. Don't believe. Don't fear. Don't ask!
 
 #### R&D
+We prefer a scientific approach to guessing. Hence R&D makes for a large part of our values and goals as a DAO. Currently, there aren't many public research cases that we have published. There is research into
 
 ### Usecases
 
