@@ -85,4 +85,4 @@ We believe this program will empower the project and involve some bright minds i
 If everything we have described is not for you, you may try other options:
 
 - [Become a cyber~Hero](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md)
-- Become a [cyber~Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
+- [Become a cyber~Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
