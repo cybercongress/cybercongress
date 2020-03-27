@@ -2580,12 +2580,14 @@ The pot that cyber~Congress accounts for is dependent on dynamic parameters. It 
 - Any self-funded funds from team members and/or inventors
 - Donated ATOMs during seed, takeoff, etc donation rounds
 
-- Up to 6% of CYB tokens to the DAO, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
-- Up to 3% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+- Up to 6.4% of CYB tokens to the DAO, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+- Up to 3.2% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
 
-The pot of seed investors is also dynamic. It depends on the donations during takeoff round and can be up to 6% of CYB tokens.
+The pot of seed investors is also dynamic. It depends on the donations during takeoff round and can be up to 6.4% of CYB tokens.
 
-**Vital** cyber~Congress and seed investors are NOT the same entitt, however some people might overcross. We are publishing these numbers, solely, for transparency!
+Please note, that the more ATOMs there are donated the LOWER the above mentioned pots become. At most, the 3 pots can sum up to 16%, at lowest they can sum up to 10%.
+
+**Vital** cyber~Congress and seed investors are NOT the same entity, however some people might overcross. We are publishing these numbers, solely, for transparency!
 
 In other words, up to 97 TTHC (the governance token) is allocated to inventors, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
 
