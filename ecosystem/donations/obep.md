@@ -1,5 +1,5 @@
 ## Idea
-As stated in [the whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) we will use the distribution games to achieve a better distribution. 
+As stated in [the whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) we will use the distribution games to achieve a better allocation of tokens. 
 
 The current state of the blockchain industry is twofold. The good part is that so much innovation is happening as we speak. The bad part is that a large chunk of these innovations, especially post-hype, are reliably covered by a thick layer of shitty projects. This means that we have to find our way to break through this thick layer of shit. We believe that we have the most important flavouring, which is a [working network](https://cyber.page/brain) and [a basic application](https://cyber.page). However, since our appetiser consists of user-generated ingredients, to move forward with the idea of a greater, decentralized search, we need *more engagement*. But how do we get people to know about us?
 
