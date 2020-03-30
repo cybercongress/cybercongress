@@ -743,8 +743,87 @@ Here we can see all of the cyberlinks that we did. The tx hash (once again, this
 To be continued...
 
 #### Choosing your hero
+Heroes are the validators behind cybers infrastructure. They are the titans that stand on guard, making sure you can sleep safely at night (and day). 
 
-To be continued...
+Heroes get rewarded for their work via inflation. Masters (i.e. delegators) can also be eligible to part of those rewards. This is the process of staking. You delegate your tokens or part of them) to a certain (or several) heroes and because they are staked, you are now, too, eligible to receive some rewards. There are of course some `but`. For one, heroes may (and rightly so) charge a commission fee for from delegators. This allows them to pay for the infrastructure costs that they have. Two, you should be careful choosing a hero. If a hero misbehaves he will get slashed (punished). For example, if a validator node double signs a transaction, the node will lose part of its bonded (staked) tokens. Along with it, delegators will suffer too. This means that you should look out for things like a heroes reputation, commits to the chain, his reasons on launching and running the node, maintenance of the node and other things that might let you know more about them. Three, it is highly advisable to spread your stake (balance) amongst several heroes. This helps decentralization and reduces the risk in case a hero gets slashed. 
+
+Remember. The more tokens are staked, the safer the network.
+
+But first... What rewards can be expected from delegating? Well, as this is still a testnet, it is highly difficult to tell. You can estimate by using [stakingrewards calculator](https://www.stakingrewards.com/asset/cyber).
+
+On [cyber.page](https://cyber.page/), click the brain in the top left corner:
+
+<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+
+(I am assuming, you already plugged in your Ledger, to the app, at least once before or have it connected)
+
+This takes you to your flight deck:
+
+<img src="https://i.postimg.cc/tJhwnWYg/Screenshot-from-2020-03-30-17-52-38.png" />
+
+The top row shows your balance and your balance as a % of the current supply. You may also see the current block height and the chain id. The lower row shows the number of cyberlinks in the network right now (the size of the knowledge graph). The current EUL cap in ATOM and the number of heroes that are in consensus right now. 
+
+You may also notice a middle row with a menu. Explore it for yourself or go back to the [first section of the guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage) to see what it's about. 
+
+We need the heroes button. Let's click it:
+
+<img src="https://i.postimg.cc/BQfCntHX/Screenshot-from-2020-03-30-17-57-12.png" />
+
+Here you can see the list of active heroes and those that are jailed. Jailed heroes means that something happened and the hero needs to be unjailed. You may also see a button at the bottom `Become a validator`, [explore it in this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer).
+
+Of course, we will concentrate on the active set. Let's explore the table first. You can see the moniker (aka nickname) of the hero. The commission rate that you will have to part with. In other words, this is how many percent you will end up paying to a validator for his services. This is what will be substrated from the earned tokens. 
+
+You can see their voting power (the more that is delegated to them, the higher it is). A % representation of this to 100%. Their self stake or how much they are staking on themselves from what is delegated to them. And finally, your bonded stake, if you already delegated anything to them. 
+
+Let's try and delegate (for the sake of the guide I am taking a random validator that is currently at the bottom of the list). Click the validators name:
+
+<img src="https://i.postimg.cc/KzBrFy96/Screenshot-from-2020-03-30-18-03-50.png" />
+
+We can see a page with some details. Their voting power. Their uptime percent (the more the better). And a cool menu. Let's explore the menu first of all, as this can help us to make a decision on whether or not we want to stake with this validator. The `main` button is already clicked. Here we can see details about the operator address. The commission. Self stake. Max commission rate and delegator shares. The latter gives us another view into how much is delegated to this hero and what is self stake. 
+
+The `fans` section shows details about who delegated to this hero:
+
+<img src="https://i.postimg.cc/fTcdbKf9/Screenshot-from-2020-03-30-18-07-31.png" />
+
+Clicking on one of the addresses will take us to a separate page with the details fo that address:
+
+<img src="https://i.postimg.cc/HnLNLxfJ/Screenshot-from-2020-03-30-18-09-37.png" />
+
+Feel free to explore this page. But mainly this is something we have already seen in previous sections. Only this time we can actually see a better breakdown of the balance due to rewards earned from delegation. 
+
+The `burden` section shows the last 300 blocks. Ideally, they should all be green. This means that the validator hasn't missed any blocks lately. The `Rumours` section works like mentions. If the hero was mentioned, you will see it here (*hint* delegations are also mentions). And the `Leadership` section, shows us transactions to do with running a validator:
+
+<img src="https://i.postimg.cc/m2mHMrKL/Screenshot-from-2020-03-30-18-13-27.png" />
+
+Once again, all the transactions are clickable and will take you to the page of the detail. We can see above transactions to do with submitting a proposal to become a validator, depositing tokens and voting. Feel free to explore those.
+
+Let us finally delegate something. In the bottom left corner, you will find a `Stake` button. Hit it and this brings us to the delegation page to the particular hero we clicked on. You can also see your address and your balance. Lets delegate 0.1 GEUL :
+
+<img src="https://i.postimg.cc/VvXLgzfk/Screenshot-from-2020-03-30-18-19-46.png" />
+
+(Follow the on-screen steps for your Ledger to connect it if it still isn't and open the Cosmos app)
+
+Enter this in the amount box and click `Generate tx` (make sure the information that is on the screen matches the information on your Ledger device and sign the transaction on your Ledger (just as with linking).
+
+This brings us to the confirmed transaction page:
+
+<img src="https://i.postimg.cc/Tw55g8Bt/Screenshot-from-2020-03-30-18-21-53.png" />
+
+You can either view the tx or carry on. We've already been over the `view` part in previous sections. Let's click on `continue`.Depending on what page you were on when you clicked `Stake`, it will take you back to the same page. Let's click the `Fans` page:
+
+<img src="https://i.postimg.cc/tTdZ2dC6/Screenshot-from-2020-03-30-18-25-46.png" />
+
+We now see that there is an additional address here. This is, of course, ours. Notice that at the bottom of the page there are now extra button, `unstake` and `restake`. We'll ignore them for now. But those also let you know that you are staking on this particular hero. 
+
+If we click on our address, we will again arrive at the main explorer page of the address. But this time we see a reward:
+
+<img src="https://i.postimg.cc/1t0BwNkC/Screenshot-from-2020-03-30-18-27-49.png" />
+
+Rewards get recalculated as fast as the network commits blocks. Think of it as if you had a savings account and getting interest every few seconds, rather than per year. We cal also see the amount of the total tokens we delegated to all validators. In this case, it matches the amount we just delegated. 
+
+You can keep an eye on your delegations by clicking the green eye, then your cyber address. And finally the heroes section:
+
+<img src="https://i.postimg.cc/9QJrRXgd/Screenshot-from-2020-03-30-18-32-19.png" />
 
 #### Playing GoL
 
