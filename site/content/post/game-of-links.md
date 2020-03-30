@@ -325,4 +325,4 @@ Do it. Cyber it.
 
 ## Acknowledgements
 
-[1] @serejanmdyself
+[1] @serejandmyself
