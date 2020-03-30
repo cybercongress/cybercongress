@@ -31,7 +31,9 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
     * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
     * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
-    * [Using your Ledger to link and send tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+    * [Sendint tokens]()
+    * [In-depth explorer]()
     * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
     * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
     * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
@@ -565,7 +567,7 @@ A dev preview of cyb~Snap:
 
 To be continued...
 
-#### Using your Ledger to link and send tokens
+#### Using your Ledger to link
 The main purpose of cyber is to cyberlink aka to create an open semantic field for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
 
 In the future, the process of making links will become easier and easier. Right now, there are plenty of bugs and fixes that cyber.page as an app undergoes. But, regardless of these, it works. So let's try to use our Ledger device and create a link:
