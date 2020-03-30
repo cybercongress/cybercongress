@@ -690,23 +690,53 @@ Not perfect. I know... But at least there is a picture and a description of what
 
 You can link videos, music files, pdfs, etc. The link is your oyster. For now, they do not show perfectly on screen and there are lots of fixes that the app is undergoing. But it fulfils its initial purpose. We managed to submit something to the open semantics field of web3. Who knows, maybe whatever we submitted will once become one of the most searched for things on the new Great Web...
 
+#### Sending tokens 
 As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
 
 <img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
 
-At the bottom of the page click `Send EUL using ledger` and follow the instructions:
+Click on your `cyber` address:
 
-<img src="https://i.postimg.cc/ZnTNWJL9/Screenshot-from-2020-03-25-13-59-02.png" />
+<img src="https://i.postimg.cc/G2rjr1q8/Screenshot-from-2020-03-30-15-23-25.png" />
+
+At the bottom of the page click `Send EUL using ledger`:
+
+<img src="https://i.postimg.cc/YSBP4Zdk/Screenshot-from-2020-03-30-15-23-49.png" />
 
 You will need to enter a valid cyber address that you want to send tokens to and the amount in GEUL (1 GEUL = 1 million EUL). Note that your balance is shown in GEUL. So to send 100k, enter 0.1:
 
-<img src="https://i.postimg.cc/hjKvrpQ6/Screenshot-from-2020-03-25-14-01-21.png" />
+<img src="https://i.postimg.cc/W4KxNzxW/Screenshot-from-2020-03-30-15-24-22.png" />
 
-After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx. 
+After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx:
 
-The app contains lots of features. Most of them are still experimental. As time and the app progress, I will add more guides to this section.
+<img src="https://i.postimg.cc/RhRBZ97W/Screenshot-from-2020-03-30-15-25-15.png" />
 
-#### Claiming the gift
+You may click `continue` to carry on linking or click `View transaction` to see your tx:
+
+<img src="https://i.postimg.cc/g2w2NXy4/Screenshot-from-2020-03-30-15-29-30.png" />
+
+#### An in-depth explorer
+cyber.page allows you to use it as an in-depth explorer. As seen above we can send a transaction and make sure it was either successful or failed. Let's explore what other features it has.
+
+Click again on the green eye and then your `cyber` address:
+
+<img src="https://i.postimg.cc/0j8pwdwV/Screenshot-from-2020-03-30-15-31-44.png" />
+
+You can see your address underneath the search box, your balance, a menu and breakdown of your balance. Click on the `Txs` (transactions) button:
+
+<img src="https://i.postimg.cc/CxhSQvyF/Screenshot-from-2020-03-30-15-32-58.png" />
+
+Here, we can see all of our transaction related to this address. The type of the tx lets you know whether this was a link, a send or any other type of transaction. The `status` on the left lets us know whether it was successful or not. There is a timestamp and a link to the tx detail. If we click on a link, it will take us to a new page with the details of that particular transaction: 
+
+<img src="https://i.postimg.cc/XYCmxdqV/Screenshot-from-2020-03-30-15-35-33.png" />
+
+Let's click the `Cyberlinks` button:
+
+<img src="https://i.postimg.cc/Y9BwH84D/Screenshot-from-2020-03-30-15-36-36.png" />
+
+Here we can see all of the cyberlinks that we did. The tx hash (once again, this is a link to a new page with the details), the timestamp and a `from` and a `to` columns. Those are the 2 hashes we used to create a cyberlink.#### Claiming the gift
+
+#### Claiming the Gift
 
 To be continued...
 
