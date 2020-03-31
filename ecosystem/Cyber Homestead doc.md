@@ -740,8 +740,132 @@ Let's click the `Cyberlinks` button:
 Here we can see all of the cyberlinks that we did. The tx hash (once again, this is a link to a new page with the details), the timestamp and a `from` and a `to` columns. Those are the 2 hashes we used to create a cyberlink.#### Claiming the gift
 
 #### Claiming the Gift
+The good thing about cyber is that it has a really good architecture and that it uses a bandwidth model to prevent spam. This means that you need tokens to transact. Transactions are free, but you need something to freeze. After a while, you will run out of bandwidth and it will regenerate again. It acts as a protection unit.
 
-To be continued...
+We have gifted 10% of our supply to Ethereum, Cosmos and Urbit holders. This means that you can claim the gift, play GoL and transact. Awesome.
+
+The not so good thing is that currently, claiming the gift is a bit of a process. If it was your Cosmos address that got the gift, all you will need is a Ledger device. Connect it to the app (cyber.page) and voila. You will see a balance. We will go into detail how to do this below.
+
+ If you had an ETH or an Urbit address, then the only safe way to do it now is to use cybercli (CLI is the abbreviation for command user interface). But don't worry. All you need is just a few simple commands and you are ready to go. Of course, in the future, this will change and the process will become more user friendly. But, it's a good reason to learn a few extra tricks!
+
+You will need a notepad, your PC and a Ledger (yes, this too). First of all pocket your Ledger as described in the previous sections by clicking the green eye on [cyber.page](https://cyber.page/):
+
+<img src="https://i.postimg.cc/0j8pwdwV/Screenshot-from-2020-03-30-15-31-44.png" />
+
+Please make sure that you have enabled experimental features and downloaded the Cosmos app on your Ledger. If you are unsure about this step, please go a step back and see [a detailed guide on how to do this](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link). Get to the stage where you have connected your device and clicked the green eye.
+
+You now see two addresses. A `cyber` address and an `ATOM` address. If at this stage your balance is not 0, you are lucky and got a Cosmos gift, you won't need the rest of this guide. Just skip over to any of the other parts of the guide and enjoy.
+
+To make sure you don't waste your time, make sure you did receive a gift. 
+Open another window with cyber.page and enter the address you think might have a gift in the search box:
+
+<img src="https://i.postimg.cc/L8YV7N3N/Screenshot-from-2020-03-31-21-26-29.png" />
+
+Press enter. On the new page click on `check your gift`:
+
+<img src="https://i.postimg.cc/pd7rSJkY/Screenshot-from-2020-03-31-21-27-09.png" />
+
+If the address was eligible, you will see a result like this:
+
+<img src="https://i.postimg.cc/0yKyww9z/Screenshot-from-2020-03-31-21-27-46.png" />
+
+Go back to the other tab, where you have your Ledger plugged in. You will need your `cyber` address. Even though the balance is 0, click on it:
+
+<img src="https://i.postimg.cc/Xq5x4jxT/Screenshot-from-2020-03-25-13-24-17.png" />
+
+At the very top, underneath the search box, you see your address and a green `copy` symbol to its right. Click it. Open any note pad and paste the address into the note pad. We will need this for later.
+
+Excellent. We now get to the hard part. 
+
+Depending on what system you are on, open your terminal. There are a zillion of guides for how to do this on the internet. I picked [a random guide](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/). If you're on Windows, make sure you open it as an administrator (right-click and open as admin). If you are using something else, you probably know what to do.
+
+In the terminal type:
+
+```bash
+bash < <(curl -s https://mars.cybernode.ai/go-cyber/install_cyberdcli_v0.1.6.sh)
+```
+
+This will connect you to a remote node and allow you to enter commands without actually running your own node. Try:
+
+```bash
+cyberdcli --help
+```
+
+You should see this:
+
+<img src="https://i.postimg.cc/d0kBTnxz/Screenshot-from-2020-03-31-19-54-36.png" />
+
+Congratulations! You are halfway there. If you're running into issues while doing this, hit us up on our [TG chat](https://t.me/fuckgoogle).
+
+I will skip the intro on how to use the CLI, if you want to learn more about it, check the [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide). We just need to import an account. Depending on what type of account you have, you will either need your private key (for Ethereum and Urbit). Make sure you have those. Your keys are stored locally on your computer with those operations, so they are safe. 
+
+As this is an ETH address you will need its private key ready. A note, even though the procedure is safe, I would advise not to use this ETH address anymore. This is a normal practice in crypto to do so. Note the private key in the note pad (If you're planning on using the ETH address in the future, I advise you type in the key and not paste it into the notepad).
+
+Before we move forward. Let's make sure we are connected to a trusted node. You are welcome to connect to any node you trust. You need something that looks like this: <http://node_address:port>. You can connect to one of our nodes.
+
+Enter this into the terminal:
+
+```bash
+cyberdcli config node <http://node_address:port>
+```
+
+Let's import the address. In the terminal type in this command:
+
+```bash
+ cyberdcli keys add private <your_key_name>
+```
+
+Or in other words (make sure you drop the < and the >):
+
+<img src="https://i.postimg.cc/tg6qJZh9/Screenshot-from-2020-03-31-19-55-16.png" />
+
+The name doesn't really matter here. It's just a reference.
+
+The system will ask you to enter a passphrase. Do it:
+
+<img src="https://i.postimg.cc/zXDTh5ts/Screenshot-from-2020-03-31-19-55-44.png" />
+
+And, then enter your private key. Either paste it from the notepad or type it manually:
+
+<img src="https://i.postimg.cc/tg7jn1Ws/Screenshot-from-2020-03-31-19-57-42.png" />
+
+This will not return anything. That means all is good. So far this is how the process should look:
+
+<img src="https://i.postimg.cc/gjt5Wst4/Screenshot-from-2020-03-31-19-58-06.png" />
+
+Let's make sure it worked. Type in this:
+
+```bash
+ cyberdcli keys list
+```
+
+We should see our account:
+
+<img src="https://i.postimg.cc/g2KY9FqK/Screenshot-from-2020-03-31-19-58-48.png" />
+
+Copy the address that begins with cyber and paste it into the notepad.
+
+We now need to send the tokens from this account to our Ledger device awe are ready. The send command looks like this:
+
+```bash
+ cyberdcli tx send <from_key_or_address> <to_address> <amount_eul> --chain-id euler-6
+```
+
+Copy it into the notepad. Instead of the <from_key_or_address> enter the address you copied from the terminal, instead of the <to_address>, enter the cyber address of your Ledger (the one you copied at the beginning). Then enter the amount you wish to send, followed by eul without spaces in between. Test it first. Your command should look like this:
+
+cyberdcli tx send cyberADDRESS-THAT-YOU-IMPORTED cyberADDRESS-FROM-YOUR-LEDGER 100eul --chain-id euler-6
+
+Hit enter. And confirm the transaction by typing `y` when the terminal prompts you. Press enter again. If it was good, you should end up with something like this:
+
+<img src="https://i.postimg.cc/sfNYdbD7/Screenshot-from-2020-03-31-21-46-17.png" />
+
+The 0 in the `code` field, means that the transaction went through. Wait a minute or so. Let's make sure it has.
+
+Go back to cyber.page and the green eye (you should still have it opened). Check if you see your transaction in the tx field:
+
+<img src="https://i.postimg.cc/vThZr48C/Screenshot-from-2020-03-31-21-49-04.png" />
+
+If you do, congratulations. Send over the rest of the balance. You are now ready to play! 
 
 #### Choosing your hero
 Heroes are the validators behind cybers infrastructure. They are the titans that stand on guard, making sure you can sleep safely at night (and day). 
@@ -831,7 +955,7 @@ As previously stated, when you chose a here and delegated your dough to him, you
 
 As in the previous guides, connect your Ledger device, open the Cosmos app and click the green eye on cyber.page:
 
-<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
+<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
 
 Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Calim reward` button at the bottom of the page. Click it:
 
