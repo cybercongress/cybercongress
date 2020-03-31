@@ -36,6 +36,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
     * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
     * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+    * [Picking honey](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey)
     * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
@@ -824,6 +825,27 @@ Rewards get recalculated as fast as the network commits blocks. Think of it as i
 You can keep an eye on your delegations by clicking the green eye, then your cyber address. And finally the heroes section:
 
 <img src="https://i.postimg.cc/9QJrRXgd/Screenshot-from-2020-03-30-18-32-19.png" />
+
+#### Picking honey
+As previously stated, when you chose a here and delegated your dough to him, you are now too, eligible for some honey. 
+
+As in the previous guides, connect your Ledger device, open the Cosmos app and click the green eye on cyber.page:
+
+<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
+
+Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Calim reward` button at the bottom of the page. Click it:
+
+<img src="https://i.postimg.cc/wvyNJmPM/Screenshot-from-2020-03-31-20-40-02.png" />
+
+If your Ledger is connected, you will see a pocket and a `Generate transaction` button. Click it:
+
+<img src="https://i.postimg.cc/YCV7yL0Q/Screenshot-from-2020-03-31-20-40-21.png" />
+
+Make sure the information on your Ledger matches what you see on the screen. Scroll right until you get to the review and sign transaction stage. If everything is ok, sign the transaction. You will see that it's gone through. Press `continue`. Let's make sure that the bird is in the cage. Click on the `Txs` button to see a list of your transactions:
+
+<img src="https://i.postimg.cc/T1DQfwXL/Screenshot-from-2020-03-31-20-40-58.png" />
+
+You can see that the last transaction is what we are after - claiming rewards! As usual, you can explore it by clicking the tx hash. 
 
 #### Playing GoL
 
