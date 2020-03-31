@@ -28,7 +28,7 @@ The process is fairly straightforward and anyone is welcome to participate. Rega
 - Add your keys
 - Profit!
 
-**The IPFS hash of the genisis: **
+**The IPFS hash of the genisis:**
 
 ```bash
 QmYrZuyMvskb2tkY65Go1Dadh1axXjY4x3VfFadaSSRf8b
