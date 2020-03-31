@@ -30,6 +30,10 @@ The process is fairly straightforward and anyone is welcome to participate. Rega
 
 **The IPFS hash of the genisis: **
 
+```bash
+QmYrZuyMvskb2tkY65Go1Dadh1axXjY4x3VfFadaSSRf8b
+```
+
 The full, [detailed process and a guide](https://github.com/cybercongress/launch-kit/blob/0.1.0/gen_txs/README.md) of how to do this is described in the launch-kit. Make sure you read and follow the instructions carefully.
 
 We will support anyone who wishes to take part in the ceremony in our [TG chat](https://t.me/fuckgoogle). If you have any questions regarding the process or the ceremony itself, don't hesitate to ask them in the chat.
