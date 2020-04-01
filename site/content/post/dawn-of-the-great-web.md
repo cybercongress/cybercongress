@@ -68,9 +68,9 @@ Our proposed semantics of linking data offers a mechanism for predicting meaning
 
 Though the system presents the necessary service to allow for an alternative to a conventional search engine, it is not limited to this use case. 
 
-The system is extendable for numerous applications and makes it possible, for example, to design economically rational, self-owned robots, that can autonomously understand objects around them. It is also possible to construct cyberlinks with ’proof-of-location’, based on remarkable existing protocols such as [FOAM](), hence creating a provable location-linked object.
+The system is extendable for numerous applications and makes it possible, for example, to design economically rational, self-owned robots, that can autonomously understand objects around them. It is also possible to construct cyberlinks with ’proof-of-location’, based on remarkable existing protocols such as [FOAM](https://www.foam.space/), hence creating a provable location-linked object.
 
-cyber allows for off-line search! IPFS makes it possible to easily retrieve a document from such an environment without a global internet connection. [cyberd]() itself can be distributed by using IPFS. This creates the possibility for universal, off-line search!
+cyber allows for off-line search! IPFS makes it possible to easily retrieve a document from such an environment without a global internet connection. [cyberd](https://github.com/cybercongress/go-cyber) itself can be distributed by using IPFS. This creates the possibility for universal, off-line search!
 
 cyber allows for programmable semantics. Currently, the developers of successful apps have very limited ability to explain to Google how to structure search results in a better manner. The cyber approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
 
