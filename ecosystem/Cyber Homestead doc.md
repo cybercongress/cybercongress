@@ -972,8 +972,71 @@ Make sure the information on your Ledger matches what you see on the screen. Scr
 You can see that the last transaction is what we are after - claiming rewards! As usual, you can explore it by clicking the tx hash. 
 
 #### Playing GoL
+By now your level of expertise as a master should be on level 42. If so, let's move onto the main section of the master level. Playing the Game of Links. 
 
-To be continued...
+There is so much info about GoL in this guide, that I would recommend using `Ctrl-F` key combo and search for what it is. A long story short, it's a game to help distribute CYB tokens from the pot of cyber~Congress into the hands of those who want them. The game is made for heroes, evangelists and masters. However, anyone can join and play. You don't need to have a node running to get rewards. In fact, if you've managed to complete the above levels and got as far as here, you are good to go.
+One more thing before we look at the detail. The experience you will obtain from here will carry on serving you throughout the life of cyber. As the game is based around linking... and so is cyber.
+
+Let's be brave this time and teleport straight to the [GoL section of cyber.page](https://cyber.page/gol). It's fairly easy to get here manually. Go to cyber.page, click on the brain in the top left corner and at the bottom of the page you will see the `Game of Links` button. In both cases you will end up here:
+
+<img src="https://i.postimg.cc/Y0CKLQNq/Screenshot-from-2020-04-02-17-40-32.png" />
+
+As the statement above says GoL rewards for 7 disciplines account for up to 10% of the supply. That's a lot! Feel free to check out all the rules of GoL by clicking the `Details here` [button](https://cybercongress.ai/game-of-links/) in the statement at the top.
+
+Underneath that statement, you can see the current Max prize fund, the current prize fund and the number of ATOMs donated during the takeoff round. As those are dependent on each other, they are dynamic and will change. In short, the more donated ATOMs there are, the bigger the prize fund. 
+
+Below that, there is a piechart that helps us to understand the full GoL breakdown. We can see the amount of CYB allocated max to each discipline (some are dynamic as described above) and the representation of that number in percentage. Don't spend too long on this, but do get familiar and try to understand the numbers. It is important. 
+
+Let's move on. We need the `Masters path`, click on it:
+
+<img src="https://i.postimg.cc/zXpwkKCY/Screenshot-from-2020-04-02-17-47-04.png" />
+
+As you can see there are 4 buttons, those are 3 disciplines and the `Takeoff` button. Let's explore them all one by one. By default, the `Relevance` discipline should be clicked (like in the above picture). 
+
+- Name of discipline: Relevance
+- Explanation: The gist is simple, the higher the rank of the content submitted, the better
+- Dependant on donation takeoff round: Yes
+- Explanation: The more ATOM tokens are donated during takeoff, the higher the reward pot for this discipline is 
+- Reward: up to 15 TCYB for the top 1000 CIDs and the top 10 masters that linked those CIDs
+- Explanations: Submit content that is relevant to everyone, link it, the higher the relevance of your content to others, the better
+- How to play: You already know how to link. Read about it [here one more time](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link). Second, make sure you show some love to your links. Spread the news about them. Let people click them and search for the things you linked. For example, if I cyberlinked the word rain, I want people to search for rain. I can also give links out to the CIDs that I linked on various places (web2) for people to look at what it is and to re-link that with their content. Make sure that you submit links and keep the balance of the tokens that you submitted the link with, on your account. More, so increase the weight of your account and link with higher weight. The higher the relevance of the submitted content, the better.
+
+Ok, let's move to the next one, `Load`:
+
+<img src="https://i.postimg.cc/nrSzXFDg/Screenshot-from-2020-04-02-18-01-18.png" />
+
+- Name of discipline: Load
+- Explanation: Spend as much bandwidth as you can on submitting links
+- Dependent on donation takeoff round: Yes
+- Explanation: The more ATOM tokens are donated during takeoff, the higher the reward pot for this discipline is 
+- Reward: Up to 6 TCYB for those who spend bandwidth on submitting links for the period of GoL
+- Explanation: The bandwidth is dynamic. This means that if the network load is low, you can end up spending on 1000 links as much as you would spend on 10 if it wasn't low. This means that it is good if more people are submitting links and doing it all the time
+- How to play: The bandwidth spent on linking is called `Karma`, I suggest you remember this term, it will be used heavily throughout the protocol. So the more Karma you have, the better. Think of this is useful reputation based on your actions, rather than words. How to win? Submit a lot of links. The more you link, the better the chance of winning
+
+The next discipline is `Community`:
+
+<img src="https://i.postimg.cc/ZnWmDrWs/Screenshot-from-2020-04-02-18-08-53.png" />
+
+- Name of discipline: Community
+- Explanation: cyber is governed by the community. Use the governance [module]() to submit useful things and get rewarded if they get accepted
+- Depended on donation takeoff round: No
+- Explanation: Does not depend on how many ATOMs are donated during takeoff round
+- Reward: 2 TCYB 
+- Explanation: There are 2 TCYB to be distributed. 1 TCYB will be spent on [OBEP](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/obep.md), our evangelist program, where you can get rewarded for spreading the word about cyber and doing good deeds. The other TCYB will be distributed via looking at the usefulness of your governance proposals
+- How to play: Mainly be as active as you can and make sure it's useful. There are 2 ways to achieve this. One is via [community governance proposals](), *to be continued*. The other is via participating in OBEP. Become an evangelist, translate the WP, organise a meetup, write useful content, etc. Check out the [details here](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/obep.md)
+
+There is one more button left, the `Takeoff` button. Let's click it:
+
+<img src="https://i.postimg.cc/dQCwd9KD/Screenshot-from-2020-04-02-18-17-00.png" />
+
+This is not a discipline. But the idea is twofold:
+
+- The more ATOMs donated, the higher the rewards for some of the disciplines
+- If you donate ATOMs, you receive CYB
+
+Where to get ATOM? Good question. This is entirely up to you, but here is a link to [CMC and available markets](https://coinmarketcap.com/currencies/cosmos/markets/). 
+
+Pretty simple. So what are you waiting for? Go and link...
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
