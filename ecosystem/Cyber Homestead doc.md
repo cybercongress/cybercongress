@@ -114,18 +114,22 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Where is the money Lebowski?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#where-is-the-money-lebowski)
 ------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
-  * etc...
+  * How does cyber work?
+  * Governance
+  * Hardware
+  * Technical Guides
 ------------------------------------------------------
 - [Section subtitle: The deep space](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#pill-section-subtitle-the-deep-space)
   * [Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions)
   * [The evolution of spicies](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-evolution-of-species)
     * [The manifest](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-manifest)
     * [R&D](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rd)
-  * [Usecases]()
-  * [Subculture]()
+  * [Usecases](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usecases)
+  * [Subculture](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#subculture)
 ------------------------------------------------------
 - [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
-  * etc...
+  * [FAQ for the wicked](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#faq-for-the-wicked)
+  * [Glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#glossary)
 ------------------------------------------------------
 - [Section subtitle: Landing completed](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#fireworks-section-subtitle-landing-completed)
   * [Improving this document](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#improving-this-document)
