@@ -1505,12 +1505,15 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2019.01.31: Release of [euler-1](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
 - 2019.06.28: The release of [Barcelona](https://github.com/cybercongress/cyb/releases/tag/0.1.4), cybs demo for the IPFS community
 - 2019.12.02: Release of the final [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
-- 2019.12.20: [Launch of Game of Links and euler-5](https://github.com/cybercongress/congress/pull/316/files#diff-41de23aee25953091ba5a3c0ae012855)
+- 2019.12.20: [Launch of Game of Links and euler-5](https://github.com/cybercongress/congress/pull/316/files#diff-41de23aee25953091ba5a3c0ae012855). Episode I 
+- 2020.02.24: Activation of [the crisis protocol for GoL](https://cybercongress.ai/euler-6-migration/)
+- 2020.03.31 - 2020.04.03: [Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) for euler-6
+- 2020.04.04: Launch of euler-6
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
-- 2020, end of winter - the beginning of spring: Launch of governance and vesting apps/modules
-- 2020, spring: Launch of public donation round
+- 2020, spring: Launch of governance and vesting apps/modules
+- 2020, end of spring: Launch of public donation round
 - 2020, 90 days or 600k ATOM after the previous event: End of Game of Links
-- 2020, (presumably) summer: Launch of the mainnet and Game of thrones
+- 2020, (presumably) summer: Launch of the mainnet and Game of Thrones
 - 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
 - 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 479 days
 
@@ -3213,15 +3216,484 @@ In the future, we plan on implementing NFTs, robot wars, levels and other gamica
 ------------------------------------------------------
 
 ## :milky_way: Section subtitle: Colonization
-> We finally made it to our destination. The elgoog planet (or whatever else you wnat to call it)...
+> We finally made it to our destination, cyber~Space (or whatever else you want to call it)...
 
-This section will talk about some of the things you will need to know for colonozing deep space planets. In places, it might go over things you already know. 
+This section will talk about some of the things you will need to know for colonizing deep space planets. In places, it might go over things you already know. It is better to think of this section as a bibliography or maybe even a reference for those who managed to finish the previous levels or just curious to find out certain things
 
-### Other questions (tor, google, yacy, etc) 
+### FAQ for the wicked
 
-### FAQ
+<details>
+  <summary>What is cyber? </summary>
+
+</details>
+
+<details>
+  <summary>What is its misson? </summary>
+
+</details>
+
+<details>
+  <summary>How are you planning to achieve it? </summary>
+
+</details>
+
+<details>
+  <summary>Is cyber private? </summary>
+
+</details>
+
+<details>
+  <summary>Is cyber a P2P tech? </summary>
+
+</details>
+
+<details>
+  <summary>Why and how do you use blockchain? </summary>
+
+</details>
+
+<details>
+  <summary>Briefly, what other tech do you use and why? </summary>
+
+</details>
+
+<details>
+  <summary>How is cyber better than google? </summary>
+
+</details>
+
+<details>
+  <summary>How is cyber different from Tor? </summary>
+
+</details>
+
+<details>
+  <summary>Isn't this just another YACY? </summary>
+
+</details>
+
+<details>
+  <summary>There are other IPFS-based searches! Why is this different? </summary>
+
+</details>
+
+<details>
+  <summary>How is cyber speacial? </summary>
+
+</details>
+
+<details>
+  <summary>What can you show to prove that cyber works? </summary>
+
+</details>
+
+<details>
+  <summary>What are your values as a team? </summary>
+
+</details>
+
+<details>
+  <summary>Who cntrols cyber? </summary>
+
+</details>
+
+<details>
+  <summary>Who will own cyber? </summary>
+
+</details>
+
+<details>
+  <summary>How will cyber be governed? </summary>
+
+</details>
+
+<details>
+  <summary>Why cyber, its just a buzz word... </summary>
+
+</details>
+
+<details>
+  <summary>Why so many buzzwords? </summary>
+
+</details>
+
+<details>
+  <summary>Why is linking important? </summary>
+
+</details>
+
+<details>
+  <summary>Is there cencorship? </summary>
+
+</details>
+
+<details>
+  <summary>Is cyber privacy orientated? </summary>
+
+</details>
+
+<details>
+  <summary>What are the usecases of cyber? </summary>
+
+</details>
+
+<details>
+  <summary>Whats cyber~Metagalaxy? </summary>
+
+</details>
+
+<details>
+  <summary>How do you get rewards in cyber? </summary>
+
+</details>
+
+<details>
+  <summary>Who are heroes and masters? </summary>
+
+</details>
+
+<details>
+  <summary>How do I monitize cyber? </summary>
+
+</details>
+
+<details>
+  <summary>How many tokens are there? </summary>
+
+</details>
+
+<details>
+  <summary>Are there any bounties? </summary>
+
+</details>
+
+<details>
+  <summary>Can I become an ammbasador? </summary>
+
+</details>
+
+<details>
+  <summary>Why do you need GPUs? </summary>
+
+</details>
+
+<details>
+  <summary>When will you launch a mainet? </summary>
+
+</details>
+
+<details>
+  <summary>Is it safe to use now? </summary>
+
+</details>
+
+<details>
+  <summary>Why is this so hard? </summary>
+
+</details>
+
+<details>
+  <summary>Why so much information? </summary>
+
+</details>
+
+<details>
+  <summary>Why open-source? </summary>
+
+</details>
+
+<details>
+  <summary>How do I use cyber? </summary>
+
+</details>
+
+<details>
+  <summary>How is cyber web3? </summary>
+
+</details>
+
+<details>
+  <summary>Whats wrong with web2? </summary>
+
+</details>
+
+<details>
+  <summary>Why do you need donation rounds? </summary>
+
+</details>
+
+<details>
+  <summary>Is this a religion? </summary>
+
+</details>
+
+<details>
+  <summary>Who is the target audience? </summary>
+
+</details>
+
+<details>
+  <summary>How will you reach them? </summary>
+
+</details>
+
+<details>
+  <summary>Are you crazy? </summary>
+
+</details>
+
+<details>
+  <summary>How is this AI-related? </summary>
+
+</details>
+
+<details>
+  <summary>Can I fork it? </summary>
+
+</details>
+
+<details>
+  <summary>Can I build something on top of cyber? </summary>
+
+</details>
+
+<details>
+  <summary>Where do I start with cyber? </summary>
+
+</details>
+
+<details>
+  <summary>I don't get it, I'm still confused </summary>
+
+</details>
 
 ### Glossary
+Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one space to refer to as a dictionary of the cyber subculture and everything that has to do with cyber:
+
+- 42: 
+- Account:
+- AI:
+- Alias:
+- Algortihm:
+- Aliens:
+- Allocation:
+- API: 
+- Aragon:
+- ATOM:
+- App:
+- Bandwidth:
+- Balance: 
+- Blockcahin:
+- Brain:
+- Bond / Bonding:
+- Build:
+- CLI:
+- Chaingear:
+- Chain ID:
+- CHANGELOG:
+- CID:
+- Citizen Cosmos:
+- Client:
+- Commision:
+- Communtiy:
+- Computation:
+- Community Pool:
+- Config:
+- Confirmation:
+- Content:
+- Consesnsus:
+- Consensus Computer:
+- Contributors: 
+- Cosmos:
+- Cosmonoauts:
+- Crawler:
+- CUDA:
+- cyb:
+- CYB:
+- cyber:
+- Cyber:
+- cyber Admin: 
+- cyber Node:
+- cyber.page:
+- cyber~Auction:
+- cyber~Congress:
+- cyber~Ecossytem:
+- cyber~Foundation:
+- cyber~FundClassic:
+- cyber~Metagalaxy:
+- cyber~Rank:
+- cyb~Snap
+- cyb~Virus:
+- cyber~Wednsday:
+- cyberd:
+- cyberindex:
+- cyberlink:
+- cybernomics:
+- cyber WASM:
+- DAO:
+- Decentralzaition:
+- Daemon:
+- Delegation:
+- Delegator:
+- Dev Envirinment:
+- Dev Log:
+- Discipline:
+- Distribution:
+- Distribution Games:
+- DNS:
+- Donations:
+- dot~Cyber:
+- Downtime
+- DURA:
+- ELI-5:
+- Endpoint:
+- Epsiode I/II, etc:
+- Ethereum:
+- EUL:
+- Euler:
+- Evangelist:
+- Execute: 
+- Extension:
+- Explorer:
+- Fork:
+- FVS: 
+- fuckgoogle: 
+- Fullnode:
+- Galt Space:
+- Game of Links (GoL):
+- Game of Thornes (GoT):
+- Genesis ceremony:
+- GCYB:
+- Gift:
+- GitCoin:
+- GitHub:
+- go-Cyber:
+- Go:
+- Google:
+- GOL:
+- Governance:
+- GPU:
+- Gravity:
+- Hardaware waleet:
+- Hash:
+- Hero:
+- HTTP/S:
+- Homestead: 
+- Hyperlink:
+- IBC:
+- ICANN:
+- Illiquid tokens:
+- Incintive: 
+- Indexing:
+- Initialization:
+- Inflation:
+- Interplanetray:
+- IP:
+- IPFS:
+- Issue:
+- Jail:
+- Karma:
+- Kernel:
+- Key/s:
+- Keystore:
+- Keyring:
+- Knowledge Graph:
+- KMS: 
+- Launch:
+- Launch-kit:
+- LCD:
+- Ledger:
+- License:
+- Lifetime:
+- Link:
+- Linux:
+- Liquid Share:
+- Liquid Tokens:
+- Load:
+- Log:
+- Manifest:
+- Master:
+- MCYB:
+- Mention: 
+- Migration:
+- Module:
+- Moniker:
+- Multisig:
+- Network:
+- Node:
+- NVIDIA:
+- OBEP:
+- Open Source:
+- Organic:
+- Output:
+- P2P:
+- Path:
+- PCYB:
+- Peer:
+- Pocket:
+- Port:
+- Prometheus:
+- Protocol:
+- Pubkey:
+- Pull Request:
+- Query: 
+- Rank:
+- RC or Resource Credits:
+- Release:
+- Relevance:
+- Repository:
+- Reputation:
+- Reward:
+- Roadmap:
+- Root:
+- Routing:
+- Rumours:
+- RPC:
+- SDK:
+- Seed Node:
+- Sentinel Node:
+- Service Node:
+- Semantics:
+- Semantical field:
+- Server:
+- Service:
+- Slashing:
+- Smart Contrats:
+- Stake:
+- Staking address:
+- Storage:
+- String:
+- Supercomputer:
+- Superintellegence:
+- Supply:
+- Takeoff:
+- TCYB:
+- Tendermint:
+- Test Autcion:
+- Test of Thrones (ToT):
+- THC:
+- The Game:
+- The Great Web:
+- The Evolution of Spicies:
+- Tilda:
+- Token:
+- Toolkit:
+- Transaction or tx:
+- Ubuntu:
+- Unbond:
+- Unstake:
+- Uptime:
+- Urbit:
+- URL/URI:
+- Validator:
+- Vesting:
+- Vesting Companion:
+- Web-2:
+- Web-3:
+- White Paper:
+- Winter Round:
+- Will:
+- Withdraw: 
 
 ------------------------------------------------------
 
