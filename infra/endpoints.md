@@ -16,15 +16,15 @@
 
 + [cosmos-donation-websocket](wss://deimos.cybernode.ai/)
 
-## Ethereum mainnet parity
+## Ethereum mainnet geth
 
 + [API](http://mars.cybernode.ai/geth/)
 + [WS](wss://mars.cybernode.ai/gethws/)
 
 ## Ethereum rinkeby geth
 
-+ [API](https://herzner1.cybernode.ai/geth/)
-+ [WS](wss://herzner1.cybernode.ai/gethws/)
++ [API](https://io.cybernode.ai/geth/)
++ [WS](wss://io.cybernode.ai/gethws/)
 
 ## IPFS cluster
 
