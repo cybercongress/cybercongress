@@ -110,7 +110,7 @@ This section contains the basic things you will need for your cyber journey. Fin
        * [Retrieve the validator key](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#retrieve-the-validator-key)
        * [Configuration of Cyberd](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#configuration-of-cyberd)
     * [Validator glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-glossary)
-    * [Everything else]()
+    * [Everything else](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#everything-else)
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
   * [Cybernomics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybernomics)
