@@ -87,8 +87,7 @@ FYI GOL is the test name for THC (the governance token).
 hence due to change of supply and due to the results of the Game of Links, balances may and will change. Of course, proportions to total supply are kept between the networks. 
 
 ### I know that you have two tokens. Can I get the second one?
-There are no gifts for THC (the governance token) planned for now. You can wait until the start of [cyber~Auction]
-(https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) and participate to receive THC.
+There are no gifts for THC (the governance token) planned for now. You can wait until the start of [cyber~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) and participate to receive THC.
 
 ### How do I know my ETH / ATOM / URBIT keys are safe?
 Your keys are stored locally with you. We do not ask for your keys. If you did not enter them anywhere, we do not know them. 
