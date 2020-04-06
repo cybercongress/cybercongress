@@ -26,7 +26,7 @@ The coordination of efforts include:
 - creating useful and unique documentation
 - working towards a common goal
 
-### Some important links
+### Important links
 - [Protocol White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
 - [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
 - [Cyber Homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
