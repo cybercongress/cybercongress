@@ -62,24 +62,43 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [A cheat code](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-cheat-code)
     * [Questions and answers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions-and-answers)
     * [Become a hero: launch a node](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#become-a-hero-launch-a-node)
+      * [Supported GPU list](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#supported-gpu-list-for-cyberd-validators)
       * [Prepare your server](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-your-server)
       * [Third-party software](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#third-party-software)
-      * [Docker installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#docker-installation)
-      * [Portainer installation (optional)](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#portainer-installation-optional)
-      * [Nvidia drivers installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nvidia-drivers-installation)
-      * [Install Nvidia container runtime for docker](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#install-nvidia-container-runtime-for-docker)
-      * [Cyberd fullnode launching](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberd-fullnode-launching)
-      * [Prepare the staking address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-the-staking-address)
+      * [Installing Go](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#installing-go)
+      * [Installing Nvidia drivers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#installing-nvidia-drivers)
+      * [Installing CUDA toolkit](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#installing-cuda-toolkit)
+      * [Launching Cyberd fullnode](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launching-cyberd-fullnode)
+      * [Setup cyberd as a service (Ubuntu)](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#setup-cyberd-as-a-service-ubuntu)
+      * [Prepare a staking address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prepare-a-staking-address)
       * [Send the create validator transaction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#send-the-create-validator-transaction)
-      * [Verify that you're validating](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#verify-that-youre-validating)
+      * [Verify that you are validating](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#verify-that-you-are-validating)
     * [A video guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-video-guide)
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
       * [Jailing](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#jailing)
+    * [Setup config.toml](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#setup-configtoml)
+      * [Port / Address configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#port--address-configuration)
+        * [RPC Port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rpc-port)
+        * [Cyberd communication port]()
+        * [Prometheus collectors port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prometheus-collectors-port)
+        * [External address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#external-address)
+        * [Allowing duplicate IP's](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#allowing-duplicate-ips)
+      * [P2P configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#p2p-configuration)
+        * [Seed nodes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#seed-nodes)
+        * [Persistent peers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#persistent-peers)
+        * [Peer Exchange Reactor](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#peer-exchange-reactor)
+        * [Private peers ID's](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#private-peers-ids)
+      * [Node Index, Naming](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#node-index-naming)
+        * [Indexed tags](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#indexed-tags)
+        * [Naming](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#naming)
     * [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide)
+      * [Installation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#install-cyberd-client)
       * [General commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-commands)
-      * [Staking params](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#staking-params)
-      * [Staking pool](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#staking-pool)
       * [Account management](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#account-management)
+      * [Keyring manipulation settings](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#keyring-manipulation-settings)
+      * [Usefull client configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usefull-client-configuration)
+      * [Sending tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens-1)
+      * [Linking content](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#linking-content)
       * [Validator commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-commands)
       * [Delegator commands](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#delegator-commands)
     * [Validator launch with Tendermint KMS + Leger Nano](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-launch-with-tendermint-kms--leger-nano)
@@ -2357,7 +2376,7 @@ If you would like to make the RPC server respond on a different port, you may ch
 laddr = "tcp://0.0.0.0:9588"
 ```
 
-*Cyberd communication port:*
+###### Cyberd communication port:
 
 On *line 163* we can find the following:
 
@@ -2580,7 +2599,7 @@ index_keys = "tx.hash,tx.height,...etc.."
 index_all_keys = all
 ```
 
-##### Naming 
+###### Naming 
 
 To setup up your node moniker please refer to *line 16* and type in whatever you want to have as moniker:
 
