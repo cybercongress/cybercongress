@@ -102,5 +102,5 @@ We will create faucets soon. You may also use Kira's [TG bot](https://t.me/fuckg
 
 ### Why do I need to take the gift?
 First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have,the more options open up to you in regards to search, building the knowledge graph and creating the new Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of. Please find more info on the project 
-[here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber Homestead doc.md).
+[here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md).
 
