@@ -110,6 +110,7 @@ This section contains the basic things you will need for your cyber journey. Fin
        * [Retrieve the validator key](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#retrieve-the-validator-key)
        * [Configuration of Cyberd](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#configuration-of-cyberd)
     * [Validator glossary](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#validator-glossary)
+    * [Everything else]()
 ------------------------------------------------------
 - [Section subtitle: Beep, beep, beep...](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#moneybag-section-subtitle-beep-beep-beep)
   * [Cybernomics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybernomics)
@@ -3301,7 +3302,8 @@ Messages cost is `500` (excluding linking). Transaction consists of one or more 
 
 **<testnet_chain_id>** The current version of the testnet (currently `euler-6`).
 
-**For all other guides visit [this section](https://cybercongress.ai/docs/cyberd/cyberd/) of the website**
+#### Everything else
+For all other guides visit [this section](https://cybercongress.ai/docs/cyberd/cyberd/) of the website
 
 ------------------------------------------------------
 
