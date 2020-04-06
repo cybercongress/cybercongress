@@ -79,7 +79,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Setup config.toml](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#setup-configtoml)
       * [Port / Address configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#port--address-configuration)
         * [RPC Port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rpc-port)
-        * [Cyberd communication port]()
+        * [Cyberd communication port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberd-communication-port)
         * [Prometheus collectors port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prometheus-collectors-port)
         * [External address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#external-address)
         * [Allowing duplicate IP's](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#allowing-duplicate-ips)
