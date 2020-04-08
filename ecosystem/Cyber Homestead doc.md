@@ -1057,6 +1057,12 @@ By now your level of expertise as a master should be on level 42. If so, let's m
 There is so much info about GoL in this guide, that I would recommend using `Ctrl-F` key combo and search for what it is. A long story short, it's a game to help distribute CYB tokens from the pot of cyber~Congress into the hands of those who want them. The game is made for heroes, evangelists and masters. However, anyone can join and play. You don't need to have a node running to get rewards. In fact, if you've managed to complete the above levels and got as far as here, you are good to go.
 One more thing before we look at the detail. The experience you will obtain from here will carry on serving you throughout the life of cyber. As the game is based around linking... and so is cyber.
 
+Before we explore the `gol` page, you should know that the quickest way of looking at your rewards and the current breakdown can be seen on your personal `flight deck`. You already know how to get there. On cyber.page, navigate to the green eye, then click on you `cyber` address. By default, you are on the `main` screen. We need `GOL`. Click it:
+
+<img src="https://i.postimg.cc/wjWLhMcM/Screenshot-from-2020-04-08-14-51-30.png" />
+
+You can see all the disciplines, which we will explore, one by one. The max available reward, the current (to be paid out in the future) reward. And most importantly, `CYB won` section, which is what you won, if anything, so far. And the same representation in percentage.
+
 Let's be brave this time and teleport straight to the [GoL section of cyber.page](https://cyber.page/gol). It's fairly easy to get here manually. Go to cyber.page, click on the brain in the top left corner and at the bottom of the page you will see the `Game of Links` button. In both cases you will end up here:
 
 <img src="https://i.postimg.cc/Y0CKLQNq/Screenshot-from-2020-04-02-17-40-32.png" />
