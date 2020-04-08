@@ -80,15 +80,25 @@ To do:
 
 Done:
 
-- 
+-  Creared new "Run validator" [guide](https://github.com/cybercongress/go-cyber/pull/504)
+
+- Updated all [docs](https://github.com/cybercongress/go-cyber/pull/507)
+
+- Finalized install cli [script](https://github.com/cybercongress/go-cyber/pull/507)
+
+- Doc [updates](https://github.com/cybercongress/go-cyber/pull/517)
+
+- Some fixes to [cyberindex](https://github.com/cybercongress/cyberindex/pull/27)
 
 Ongoing: 
 
-- 
+- Infrastructural setup for [take-off](https://github.com/cybercongress/congress/pull/291)
 
 To do:
 
-- 
+- Guide for validator monitoring setup.
+
+- Some usefull scripts for cli [operation](https://github.com/cybercongress/go-cyber/issues/468)
 
 ## @litvintech
 
