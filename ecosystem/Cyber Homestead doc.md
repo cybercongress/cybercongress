@@ -743,7 +743,63 @@ You may click `continue` to carry on linking or click `View transaction` to see 
 <img src="https://i.postimg.cc/g2w2NXy4/Screenshot-from-2020-03-30-15-29-30.png" />
 
 #### An in-depth explorer
-cyber.page allows you to use it as an in-depth explorer. As seen above we can send a transaction and make sure it was either successful or failed. Let's explore what other features it has.
+cyber.page allows you to use it as an in-depth explorer. There are two parts to this. One is investigating transactions related to your own account and the other is being able to read general chain information.
+
+Let's start with general information. Click on the brain in the top left corner:
+
+<img src="https://i.postimg.cc/7L6x3HnY/68747470733a2f2f692e706f7374696d672e63632f59715168704b50342f53637265656e73686f742d66726f6d2d32303230.png" />
+
+You will see this screen:
+
+<img src="https://i.postimg.cc/k51Ws5rj/Screenshot-from-2020-04-08-11-42-08.png" />
+
+The first box underneath the search box and the statement, has some numbers in it. This is the height of the current block and the current chain id. Click on them:
+
+<img src="https://i.postimg.cc/8CXNz2WJ/Screenshot-from-2020-04-08-11-43-45.png" />
+
+We see lots of information. This is detailed information regarding each formed block in the chain. We can see a hash of the block, its height (sequence number), the amount of the transactions that each block contains, the proposer address (the hero involved in making sure it's all good to go) and the timestamp in UTC. As you can see all the `height` numbers are clickable. Let's click on one:
+
+<img src="https://i.postimg.cc/sfqxchMQ/Screenshot-from-2020-04-08-11-47-23.png" />
+
+This is how a block without transaction looks. Nothing interesting, apart from the same information we have seen on the previous screen. Let's open a block with transactions:
+
+<img src="https://i.postimg.cc/BZk5KtsN/Screenshot-from-2020-04-08-13-38-16.png" />
+
+We can see lots of information, including the amount of the transactions that were made on this block and the list of the transactions themselves, along with their type, status and timestamp. The tx id is clickable and will take us to the detail page that we already have seen.
+
+Let's get back to the main page of the explorer:
+
+<img src="https://i.postimg.cc/k51Ws5rj/Screenshot-from-2020-04-08-11-42-08.png" />
+
+There are 5 more buttons underneath the box with the chain id. The `Main` (pressed by default), shows us the number of cyberlinks in the ecosystem, `eul` cap in ATOM (with regards to takeoff round) and heroes. If we click on the heroes button we will see the validator page:
+
+<img src="https://i.postimg.cc/tTmfK6f8/Screenshot-from-2020-04-08-13-31-31.png" />
+
+We can see active and jailed heroes. Let's go back and explore the other buttons. The `knowledge` button tells us how many links, objects and subjects there are in the chain. The `cybernomics` button, tells us the current supply, the takeoff price and the current cap in regards to takeoff. 
+
+This is the `consensus` screen:
+
+<img src="https://i.postimg.cc/zGtcbKDv/Screenshot-from-2020-04-08-13-33-39.png" />
+
+We can see the heroes tab (if we click it, it will take us to the validator page again), the current inflation and the amount of staked tokens and current transaction amount. Let's explore it:
+
+<img src="https://i.postimg.cc/0jhp1598/Screenshot-from-2020-04-08-13-35-32.png" />
+
+We see a list of the chain transactions, along with their status, tx id, timestamp and type of transaction. The types are self-explanatory. The tx id is clickable and takes us to the page with the information about the specific transaction:
+
+<img src="https://i.postimg.cc/y609DK6S/Screenshot-from-2020-04-08-13-36-48.png" />
+
+We can see various self-explanatory information. The `from` and the `to` addresses at the bottom are both clickable and will take us to their pages, which will show us what we will explore below. The block height (that included the transaction) is also clickable. 
+
+The last button is `government`:
+
+<img src="https://i.postimg.cc/8kwvRHW1/Screenshot-from-2020-04-08-13-40-00.png" />
+
+Both buttons here are clickable, the `community pool` button will take you the governance page, which we will explore in a different section. The `network parameters` page shows lots of different parameters that are modifiable via governance, we shall explore this later. For now, feel free to explore the page:
+
+<img src="https://i.postimg.cc/cJ2WyPVs/Screenshot-from-2020-04-08-13-42-36.png" />
+
+Now, let's explore the other side of the explorer, related to information of your own account.
 
 Click again on the green eye and then your `cyber` address:
 
