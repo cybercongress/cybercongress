@@ -25,15 +25,19 @@ To do:
 
 Done:
 
-- 
+- Prepared [genesis](https://github.com/cybercongress/go-cyber/issues/466) for euler-6 launch
+- Prepared euler-5 [cyberlinks and precommits](https://github.com/cybercongress/go-cyber/issues/465)
+- Euler-6 launch support
 
 Ongoing:
 
-- 
+- cyber.page developing support
 
 To do:
 
-- 
+- Euler-5 precommits integration to Euler-6 cyberindex
+- Develop proposal for takeoff donations
+- Cyber.page auction, tot and takeoff UI tests
 
 ## @xhipster
 
