@@ -117,9 +117,10 @@ To do:
 ## @aha203
 
 Done:
-- help @serejandmyself with russian translation the article about [cyber](https://hub.forklog.com/the-great-web-nachalo/)
-- minor help @serejandmyself with introduction to Aragon ceremony (https://github.com/litvintech/foundation-ceremony/blob/master/foundation.md)
+- Help @serejandmyself with russian translation the article about [cyber](https://hub.forklog.com/the-great-web-nachalo/)
+- Minor help @serejandmyself with introduction to Aragon ceremony (https://github.com/litvintech/foundation-ceremony/blob/master/foundation.md)
+- Published the [first `citizen cosmos`](https://soundcloud.com/user-311461939/citizen-comsos-episode-1-gavin-figment-networks-governance) podcast with @Serejandmyself
 
 Ongoing:
-- editing podcast with Cyber team members
-- preparing for take-off
+- Editing podcast with Cyber team members
+- Preparing for take-off
