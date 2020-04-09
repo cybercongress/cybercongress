@@ -121,6 +121,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [cyber~Auction or auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction)
   * [Understanding what goes where](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where)
     * [Donation rounds](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#donation-rounds)
+      * [Takeoff extra](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff-extra)
     * [The distribution games](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games)
     * [The gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-gift)
     * [The tokens and their utility](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-tokens-and-their-utility)
