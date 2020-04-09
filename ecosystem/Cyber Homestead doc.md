@@ -1594,11 +1594,13 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2019.12.20: [Launch of Game of Links and euler-5](https://github.com/cybercongress/congress/pull/316/files#diff-41de23aee25953091ba5a3c0ae012855). Episode I 
 - 2020.02.24: Activation of [the crisis protocol for GoL](https://cybercongress.ai/euler-6-migration/)
 - 2020.03.31 - 2020.04.03: [Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) for euler-6
-- 2020.04.04: Launch of euler-6
+- 2020.04.04: Launch of [euler-6](https://github.com/cybercongress/go-cyber/releases/tag/v0.1.6)
+- 2020.04.10: Launch of euler~Foundation Aragon ceremony
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
 - 2020, spring: Launch of governance and vesting apps/modules
 - 2020, end of spring: Launch of public donation round
 - 2020, 90 days or 600k ATOM after the previous event: End of Game of Links
+- 2020, straight after the previos event: GoL final
 - 2020, (presumably) summer: Launch of the mainnet and Game of Thrones
 - 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
 - 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 479 days
@@ -1643,7 +1645,7 @@ And, here you can see the details of the launch process from euler-5, to the end
   
  <details>
   <summary>Can you describe the launch process in a paragraph? </summary>
-From 2016-2019 we were working on researching, developing and publicly testing the protocol. At the end of 2019, we launched the first leg of the distribution games, made to increase initial traction, test the protocol and achieve good distribution. The first part is the game of links, which is an incentivized game with different technical disciplines and a public donation round in ATOMs to the cyber~Congress DAO. The second parts are made out of Game of Thornes, the game between ETH and ATOM communities to outbid each other and get more tokens from cyber~Congress, and cyber ~Auction, the 479-day long auction, in equal windows with public ETH donations to the community DAO governing the protocol. GoT is window 0 of the auction. The auction takes part after the launch of the mainnet.
+From 2016-2019 we were working on researching, developing and publicly testing the protocol. At the end of 2019, we launched the first leg of the distribution games, made to increase initial traction, test the protocol and achieve good distribution. The first part is the Game of Links, which is an incentivized game with different technical disciplines and a public donation round in ATOMs to the cyber~Congress DAO. The second parts are made out of Game of Thornes, the game between ETH and ATOM communities to outbid each other and get more tokens from cyber~Congress, and cyber ~Auction, the 479-day long auction, in equal windows with public ETH donations to the community DAO governing the protocol. GoT is window 0 of the auction. The auction takes part after the launch of the mainnet.
   </details>
   
    <details>
@@ -1658,7 +1660,7 @@ Yes, it can be found via this IPFS link: https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQ
   
    <details>
   <summary>When are you launching a stable mainnet? </summary>
-The network will launch when Game of Links is done (the other 2 games are held after the launch). There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
+The network will launch when Game of Links is done (the other 2 games are held after the launch) and its final is over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
   </details>
   
  <details>
@@ -3462,7 +3464,7 @@ We have already mentioned the distribution games briefly. Their purpose is to in
 
 There is a total of 3 games, with 2 of them, parts of 1:
 
-- [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators
+- [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round, with a 21 day final after. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators
 - Game of Thrones: Will start after the launch of the mainnet and last for 21 days. It is day 0 of the following auction. Its purpose is to battle out 2 communities (ETH and ATOM) for a bigger stake
 - cyber~Auction: Will start after GoT is over and accounted for. It is an auction that lasts for a little over 479 days. Its purpose is to fill cyber ~Foundation with money
 
@@ -3511,6 +3513,8 @@ Those are the amounts allocated (up - as some depend on the parametrs above)) to
 - euler-4 rewards: 5,000,000,000,000 CYB
 - Community pool: 2,000,000,000,000 CYB (if used)
 
+**Note:** After the initial end of GoL (90 days since the start of funding or after 600k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
+
 To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/).
 
 #### Game of Thrones or GoT
@@ -3551,10 +3555,25 @@ We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with
 
 In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber~Foundation in charge of the ETH donated during the auction. And cyber ~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals made by cyber ~Foundation and will remain as one of the entities that commits to the protocol over its remaining lifetime.
 
+##### Takeoff extra
+The takeoff donation round seem confusing at first hand, let me assure you, it isn't. Let's break it down and understand it:
+
+- The takeoff donation round is done in ATOM (i.e. participants donate ATOM)
+- The ATOM goes to cyber~Congress DAO 
+- The takeoff donation round is part of the distribution games, in particular, GoL
+- When 90 days have passed since its start or 600k ATOm have been donated, the takeoff donation round finishes
+- The end of the takeoff donation  round launched the 21-day final of GoL
+- During the takeoff donation round, participants donate ATOM. The more ATOM are donated, the *less* CYB cyber~Congess leaves to itself
+- The earlier you donate, the bigger your discount is. The discount is calculated with a dependence on the overall sum of ATOM donated. The more ATOM tokens have been donated, the bigger your discount is. The earlier you have donated, the bigger your discount is
+- Participants of the takeoff donation round get an extra bonus in terms of 100 TEUL distributed among them (in proportion to the donated ATOM)
+- These EUL tokens can be used in the 21-day final of GoL to play and earn more CYB tokens (EUL tokens will be burned)
+- All earlier involved entities (cyber~Congress, inventors of the protocol and seed donors) get *less* if more ATOM tokens have been donated during the takeoff round
+- The amount of CYB tokens allocated for GoL disciplines is also dependent on the takeoff donation round! The *more* ATOm tokens have been donated, the *more* CYB tokens are allocated to disciplines of GoL
+
 #### The distribution games
 There are 3 distribution games, described above. Their purpose is to achieve the best possible distribution, gain initial traction and test all of the network's possibilities. 
 
-- Game of Links: includes in itself the takeoff donation round. Started with euler-5 and will finish when the takeoff donation round is over. Its purpose is to distribute tokens from cyber~Congress to the participants. Aimed at initial believers of the protocol
+- Game of Links: includes in itself the takeoff donation round, and a final after it. Started with euler-5 and will finish when the takeoff donation round is over. Its purpose is to distribute tokens from cyber~Congress to the participants. Aimed at initial believers of the protocol
 - Game of Thrones: Can be thought of as the final part of GoL or window 0 of the auction. A 21-day game in which ETH and ATOM communities battle it out for the biggest pot. Aimed at speculators
 - cyber~Auction: a 479-day long auction, which charges cyber ~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
 
@@ -3728,7 +3747,7 @@ Apart from this, cyber~Congress will also hold a certain amount of ATOMs donated
 In the future, cyber~Congress or any other user might propose amendments to the economy via governance proposals. It will be up to the governance to decide whether or not these amendments will take place. 
 
 ### Where is the money Lebowski?
-We can break the understanding of this into 3 categories. Before we do that. It is vital to understand that the real value of computers and protocols comes from utility, development and adoption on a later stage. We see 4 groups that have various interests in the protocol:
+We can break the understanding of this into 4 categories. Before we do that. It is vital to understand that the real value of computers and protocols comes from utility, development and adoption on a later stage. We see 4 groups that have various interests in the protocol:
 
 - cyber~Congress: it is up to cyber ~Congress to reach a sustainable flow of income and to obtain funding from governance proposals as either the or one of the developing teams
 - Evangelists: the ambassadors of cyber. As we see it, they possess both, a speculative interest and in sharing the idea of changing the world. Their value comes mainly from building a social knowledge graph, referring donators, participating in games, etc
