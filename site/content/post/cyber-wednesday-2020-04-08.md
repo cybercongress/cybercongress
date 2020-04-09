@@ -117,13 +117,9 @@ To do:
 ## @aha203
 
 Done:
-
-- 
+- help @serejandmyself with russian translation the article about [cyber](https://hub.forklog.com/the-great-web-nachalo/)
+- minor help @serejandmyself with introduction to Aragon ceremony (https://github.com/litvintech/foundation-ceremony/blob/master/foundation.md)
 
 Ongoing:
-
-- 
-
-To do: 
-
-- 
+- editing podcast with Cyber team members
+- preparing for take-off
