@@ -2,19 +2,19 @@
 
 ## Cyberd endpoints
 
-+ [API](https://titan.cybernode.ai/api/)
++ [API](https://api.cyber.cybernode.ai)
 
-+ [LCD](https://titan.cybernode.ai/lcd/)
++ [LCD](https://lcd.cyber.cybernode.ai)
 
-+ [cyberd-websocket](wss://titan.cybernode.ai/websocket)
++ [cyberd-websocket](wss://ws.cyber.cybernode.ai)
 
 ## Cosmos endpoints
 
-+ [API](https://deimos.cybernode.ai/gaia_api/)
++ [API](https://gaia-api.deimos.cybernode.ai)
 
-+ [LCD](https://deimos.cybernode.ai/gaia_lcd/)
++ [LCD](https://gaia-lcd.deimos.cybernode.ai)
 
-+ [cosmos-donation-websocket](wss://deimos.cybernode.ai/)
++ [gaia-websocket](wss://gaia-ws.deimos.cybernode.ai)
 
 ## Ethereum mainnet geth
 
