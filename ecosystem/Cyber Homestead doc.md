@@ -3560,12 +3560,12 @@ In the end, there will be 2 separate entities (both are Aragon DAOs). The main g
 The takeoff donation round seem confusing at first hand, let me assure you, it isn't. Let's break it down and understand it:
 
 - The takeoff donation round is done in ATOM (i.e. participants donate ATOM)
-- The ATOM goes to cyber~Congress DAO 
+- The ATOM goes to cyber~Congress DAO multisig address
 - The takeoff donation round is part of the distribution games, in particular, GoL
 - When 90 days have passed since its start or 600k ATOm have been donated, the takeoff donation round finishes
 - The end of the takeoff donation  round launched the 21-day final of GoL
 - During the takeoff donation round, participants donate ATOM. The more ATOM are donated, the *less* CYB cyber~Congess leaves to itself
-- The earlier you donate, the bigger your discount is. The discount is calculated with a dependence on the overall sum of ATOM donated. The more ATOM tokens have been donated, the bigger your discount is. The earlier you have donated, the bigger your discount is
+- The earlier you donate, the bigger your discount is. The discount is calculated with a dependence on the overall sum of ATOM donated. The more ATOM tokens have been donated, the bigger the total discount is. The earlier you donate, the bigger the total discount you can expect 
 - Participants of the takeoff donation round get an extra bonus in terms of 100 TEUL distributed among them (in proportion to the donated ATOM)
 - These EUL tokens can be used in the 21-day final of GoL to play and earn more CYB tokens (EUL tokens will be burned)
 - All earlier involved entities (cyber~Congress, inventors of the protocol and seed donors) get *less* if more ATOM tokens have been donated during the takeoff round
