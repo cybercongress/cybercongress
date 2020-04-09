@@ -66,15 +66,25 @@ Done:
 
 Done:
 
-- 
+- Top content [#210](https://github.com/cybercongress/dot-cyber/pull/221)
+- Leaderboards for GoL [#104](https://github.com/cybercongress/dot-cyber/pull/221)
+- Realtime Game of Links monitor [#150](https://github.com/cybercongress/dot-cyber/pull/221)
+- page [Txs](https://github.com/cybercongress/dot-cyber/pull/232)
+- page [Block](https://github.com/cybercongress/dot-cyber/pull/232)
+- page [Param Network](https://github.com/cybercongress/dot-cyber/pull/232)
 
 Ongoing:
 
-- 
+- Better makeup of search results [#209](https://github.com/cybercongress/dot-cyber/pull/229)
+- Pocket page design [#118](https://github.com/cybercongress/dot-cyber/pull/231)
+- Takeoff funding [#70](https://github.com/cybercongress/dot-cyber/pull/145)
+- Governance page [#30](https://github.com/cybercongress/dot-cyber/issues/30)
+- Battery [#207](https://github.com/cybercongress/dot-cyber/issues/207)
 
 To do:
 
-- 
+- 0.1.1 - [Ready for Takeoff](https://github.com/cybercongress/dot-cyber/projects/5)
+  
 
 ## @mrlp4
 
