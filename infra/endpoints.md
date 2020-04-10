@@ -18,7 +18,7 @@
 
 ## Ethereum mainnet geth
 
-+ [API](http://mars.cybernode.ai/geth/)
++ [API](https://mars.cybernode.ai/geth/)
 + [WS](wss://mars.cybernode.ai/gethws/)
 
 ## Ethereum rinkeby geth
