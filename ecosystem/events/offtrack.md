@@ -29,6 +29,8 @@ and basically everything that is not on-chain.
 | Offline event | 26-30/12/19 | CCC |
 | Offline event | 06/02/20 | Business networking MSC |
 | Offline event | 27/02/20| Feb URB |
+| Online event | 08/04/20| Blockchain uses |
+| Online event | 11/04/20| Blockchain tech - Forklog |
 | Offline event | Planned | Atom comm MSC |
 
 
