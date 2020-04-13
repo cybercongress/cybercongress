@@ -4192,103 +4192,107 @@ Yes. We have gifted 10% of our supply to over 1 million ETH, ATOM and Urbit addr
 </details>
 
 <details>
-  <summary>Can I become an ammbasador? </summary>
-
+  <summary>Can I become an ambassador? </summary>
+You need to apply on cyber.page by submitting a transaction from your Ledger device. Then, you will get blessed by cyber~Congress and you can start your evangelism journey.
 </details>
 
 <details>
   <summary>Why do you need GPUs? </summary>
-
+We use GPU to make, rather, complex computations. Validators use GPUs to calculate the rank of cyberlinks, which helps to index the search results at any given moment.
 </details>
 
 <details>
-  <summary>When will you launch a mainet? </summary>
-
+  <summary>When will you launch a mainnet? </summary>
+Roughly, autumn 2020. The mainnet will be launched after the end of one of our distribution games final, the Game of Links. 
 </details>
 
 <details>
   <summary>Is it safe to use now? </summary>
-
+It is safe to search, link and do anything else you normally would. However, cyber has not been audited professionally yet. 
 </details>
 
 <details>
   <summary>Why is this so hard? </summary>
-
+It's not hard. It's complex. Anything new requires lots and lots of explanation, until it too, becomes familiar, just like the usual things. However, we are trying to build something innovative and this requires us to explain things from scratch. 
 </details>
 
 <details>
   <summary>Why so much information? </summary>
-
+Becomes cyber consists of a lot of pieces. This follows best practises in terms of modular computing. With it, the protocol isn't actually heavy and is described in the white paper in a few steps. 
 </details>
 
 <details>
   <summary>Why open-source? </summary>
-
+Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner.
 </details>
 
 <details>
   <summary>How do I use cyber? </summary>
-
+Go to cyber.page, open the master section of this document (search for it with Cntrl F or just go to the required section) and learn how to use cyber. Its fairly easy at this stage and will become easier as we progress. 
 </details>
 
 <details>
   <summary>How is cyber web3? </summary>
-
+Web 3 is the direct communication between peers, nodes and other actors of similar, lacking a central authority, networks. In these networks, peers are motivated economically and are in consensus about what they do. Cyber is just that with a utility, the ability to deliver answers. 
 </details>
 
 <details>
-  <summary>Whats wrong with web2? </summary>
-
+  <summary>What's wrong with web2? </summary>
+Centralisation, lack of care for security, very few beneficiaries, data loss, data selling and re-selling, etc. Web2 has come to a stale point and needs a change. 
 </details>
 
 <details>
   <summary>Why do you need donation rounds? </summary>
-
+Each donation round has serves a separate task. The takeoff donation round is aimed at early believers and is for cyber~Congress DAO. The second round is aimed at early speculators and to gain traction amongst good projects. The third donation round is aimed at cyber~Foundation and is for the protocol. 
 </details>
 
 <details>
   <summary>Is this a religion? </summary>
-
+Yes. By all means, it is. It is the most anti-religious techno-religion in the wild.
 </details>
 
 <details>
   <summary>Who is the target audience? </summary>
-
+Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else.
 </details>
 
 <details>
   <summary>How will you reach them? </summary>
-
+The initial TA is planned to be reached with an MVP/SCL and a working product. The next step is reached by prooving that cyber provides hope to users.
 </details>
 
 <details>
   <summary>Are you crazy? </summary>
-
+I would lie if I said we weren't. But doesn't it take a bit of craziness, abstract geniuses and adventurism to change the world? Knowledge is a vital virtue that we possess. But if we were normal, we wouldn't be any different from the rest.
 </details>
 
 <details>
   <summary>How is this AI-related? </summary>
-
+First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is).
+In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it.
 </details>
 
 <details>
   <summary>Can I fork it? </summary>
-
+Go ahead. Seriously. We are open-source for a reason. You may copy, modify, do as you please. Our license agreement is this: Don’t believe, don’t fear, don’t ask.
+Eventually, we will meet each other with the help of IBC or other instruments of the free market.
 </details>
 
 <details>
   <summary>Can I build something on top of cyber? </summary>
-
+You defiantly should! The idea of forking cyber is not just a call to action. It is a call for development. You may build your specialised search (knowledge graphs) that reference to our general-purpose knowledge graph. You may provide services on top of your own, or our knowledge graph and IPFS (services such as e-commerce, SEO, hosting, identity, etc).
+You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes.
 </details>
 
 <details>
   <summary>Where do I start with cyber? </summary>
-
+This document! 
 </details>
 
 <details>
   <summary>I don't get it, I'm still confused </summary>
-
+I would advise you to read all of this document. Use issues to ask questions that you think were left unanswered.
+In general, think of cyber as of a completely brand-new mechanism for obtaining answers. Of a software capable of building universal knowledge and communicating.
 </details>
 
 ### Glossary
