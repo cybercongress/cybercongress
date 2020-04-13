@@ -4298,80 +4298,79 @@ In general, think of cyber as of a completely brand-new mechanism for obtaining 
 ### Glossary
 Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one space to refer to as a dictionary of the cyber subculture and everything that has to do with cyber:
 
-- 42: 
-- Account:
-- AI:
-- Alias:
-- Algortihm:
-- Aliens:
-- Allocation:
-- API: 
-- Aragon:
-- ATOM:
-- App:
-- Bandwidth:
-- Balance: 
-- Blockcahin:
-- Brain:
-- Bond / Bonding:
-- Build:
-- CLI:
-- Chaingear:
-- Chain ID:
+- 42: A philosophical reference to the meaning of life from the Hitchikers guide to the galaxy 
+- Account: Referring to a users address from where he links something or from which a validator node is launched 
+- AI: Artificial Intelligence. Cybers ability to predict subjective relevance works just like a human mind would, hence, making it smart
+- Alias: The nick of the node of a validator
+- Algorithm: Could refer to either cyber itself or to the consensus used by cyber
+- Aliens: Users of a specific blockchain, Urbit for example
+- Allocation: The number of tokens destined to certain groups
+- API: Application programming interface. A set of so-called endpoints used by programmers to communicate with a certain application. I.E. an API for the total supply can be used by a website to constantly be able to deliver the answer to the users
+- Aragon: An ETH based project, concentrated on governance and DAOs
+- ATOM: The main token of the Cosmos blockchain, used for governance and securing the network
+- App: A short word for application. For example the auction app
+- Bandwidth: The amount of something needed to pass something. I.E. I need 5 people to move 10 stones from room A to be. In cyber bandwidth is the main spam protection mechanism. All transactions require bandwidth
+- Balance: The amount of CYB or THC tokens on your account
+- Blockchain: A distributed database with a consensus about the current state and time
+- Brain: The part of cyber.page which shows important information, like statistics
+- Bond / Bonding: To bond, your tokens means to keep them with a validator so that they are frozen and are eligible to receive a reward 
+- Build: A version or an iteration from several components. Usually refers to testing software- CLI:
+- Chaingear: An app that can create blockchain databases. For example, it can create custom domain names 
+- Chain ID: The current name of the blockchain. I.E. euler-6 or cyber-3 (the number is referring to the latest release
 - CHANGELOG:
-- CID:
-- Citizen Cosmos:
-- Client:
-- Commision:
-- Communtiy:
-- Computation:
-- Community Pool:
-- Config:
-- Confirmation:
-- Content:
-- Consesnsus:
-- Consensus Computer:
-- Contributors: 
-- Cosmos:
-- Cosmonoauts:
-- Crawler:
+- CID: Content Identificator. A hash that represents content
+- Citizen Cosmos: The name of the podcast about cosmos ecosystem by cyber
+- Client: Referring to the software a user is using. What client are you using? I'm using the front end application
+- Commission: The amount validators charge for keeping delegators tokens, out of which, delegators get rewards
+- Community: The people that are gathered around cyber
+- Computation: The ability of a computer to count 
+- Community Pool: The pot of tokens that is gathered for different purposes and spends, like open source development, events, working groups, etc
+- Config: Short for configuration. Usually referring to a file. I.E. the config of the node
+- Confirmation: The approval of a transaction
+- Content: Anything cyberlinked into cyber
+- Consensus: Agreement on something. The agreement of validators on the state of cybers chain
+- Consensus Computer: A validator node or a computer that is used specifically to achieve consensus
+- Contributors: People who contribute to cyber
+- Cosmos: A protocol and a blockchain project meant to become the internet of blockchains. cyber is build with cosmos-SDK
+- Cosmonauts: Users of Cosmos. Can be users of any cool blockchain
+- Crawler: A program or a bot that crawls the web for info. In cyber, a program to deliver web2 content to cyber
 - CUDA:
-- cyb:
-- CYB:
-- cyber:
-- Cyber:
-- cyber Admin: 
-- cyber Node:
-- cyber.page:
-- cyber~Auction:
-- cyber~Congress:
-- cyber~Ecossytem:
-- cyber~Foundation:
-- cyber~FundClassic:
-- cyber~Metagalaxy:
-- cyber~Rank:
-- cyb~Snap
-- cyb~Virus:
-- cyber~Wednsday:
-- cyberd:
+- cyb: The name of cyber web3 browser
+- CYB: The name of the mainnet token
+- cyber: Referring to either the project itself or used as a verb, to find something smart
+- Cyber: Referring to either the project itself or used as a verb, to find something smart
+- cyber Admin: A Telegram bot used in the fuckgoogle channel
+- cyber Node: Nodes held by the congress DAO 
+- cyber.page: The gateway application for cyber which showcases the ability of the protocol
+- cyber~Auction: The auction is part of the distribution games of cyber in which users donate to cyber~Foundtion during a very long auction
+- cyber~Congress: The DAO that is launching cyber
+- cyber~Ecosytem: Referring to the part of cyber that is working with the community
+- cyber~Foundation: The DAO that will govern cyber
+- cyber~FundClassic: The investment fund that will look for projects wanting to build on cyber and help them
+- cyber~Metagalaxy: The name of all the parts of cyber together
+- cyber~Rank: The ranking mechanism of cyber
+- cyb~Snap The metamask based extension that can be used to link, like a wallet, etc
+- cyb~Virus: An outdated extension that was used to download pages into IPFS and create links
+- cyber~Wednsday: The name of cybers dev logs
+- cyberd: The name of cybers main repository. The protocol engine itself
 - cyberindex:
-- cyberlink:
-- cybernomics:
-- cyber WASM:
-- DAO:
-- Decentralzaition:
-- Daemon:
-- Delegation:
-- Delegator:
-- Dev Envirinment:
-- Dev Log:
-- Discipline:
-- Distribution:
-- Distribution Games:
-- DNS:
-- Donations:
-- dot~Cyber:
-- Downtime
+- cyberlink: Hyperlink v. 2.0. A link between two CIDs enriched semantically
+- cybernomics: New age economics with blockchain and other decentralized instruments
+- cyber WASM: 
+- DAO: A decentralized autonomous organisation governed by shareholders via governance
+- Decentralization: A process which is the opposite of centralization. Lacking a central point of authority
+- Daemon: A program's engine
+- Delegation: Giving your tokens to someone in a safe way where they cant be used by the person you gave them to, but can be used on your behalf
+- Delegator: A person who delegates tokens. Usually to a validator
+- Dev Environment: An environment in which a developer works. For example, a specific program that is used to write certain code 
+- Dev Log: Cybers bi-weekly Congress report
+- Discipline: A type of game in the Game of Links. I.E. amount of links submitted (in sports referring to a sport discipline, i.e. running)
+- Distribution: The process of placing tokens into the hands of the donators, inventors, participants of the game and other users
+- Distribution Games: Game of Links, Game of Thornes and cyber~Auction. All of which are in place to fulfil a certain role, but primarily to achieve a better starting distribution of the tokens
+- DNS: Domain Name System. A web2 system where domain names are registered to a certain user
+- Donations: The process where a user sends ATOM or ETH to cyber~Congress or Foundation 
+- dot~Cyber: The developer's name of cyber.page
+- Downtime: The time during which a node of a validator isn't working 
 - DURA:
 - ELI-5:
 - Endpoint:
