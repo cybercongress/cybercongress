@@ -4328,6 +4328,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Config: Short for configuration. Usually referring to a file. I.E. the config of the node
 - Confirmation: The approval of a transaction
 - Content: Anything cyberlinked into cyber
+- Content based addressing:
 - Consensus: Agreement on something. The agreement of validators on the state of cybers chain
 - Consensus Computer: A validator node or a computer that is used specifically to achieve consensus
 - Contributors: People who contribute to cyber
@@ -4371,73 +4372,75 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Donations: The process where a user sends ATOM or ETH to cyber~Congress or Foundation 
 - dot~Cyber: The developer's name of cyber.page
 - Downtime: The time during which a node of a validator isn't working 
-- DURA:
-- ELI-5:
-- Endpoint:
-- Epsiode I/II, etc:
-- Ethereum:
-- EUL:
-- Euler:
-- Evangelist:
-- Execute: 
-- Extension:
-- Explorer:
-- Fork:
-- FVS: 
-- fuckgoogle: 
+- DURA: distributed unified resource address. Cybers equivalent of an URL (an abbreviation for uniform resource locator), which is what you see in your browser when you visit a web2 website.
+- ELI-5: Explain it like I'm 5 frequent question guide about cyber
+- Endpoint: A device like a node that is responsible for specific communication back and forth in a network
+- Episode I/II, etc: The names of cyber's roadmap stages regarding Star Wars
+- Ethereum: One of the most notorious blockchain projects. A distributed computer for decentralized applications 
+- EUL: The testnet name of CYB, the mainnet tokens of cyber
+- Euler: The names of the testnet networks in cyber
+- Evangelist: The ambassador of cyber
+- Execute:  To do something, in computing "pressing enter"
+- Extension: Referring to metamsk, snap or cyb~Virus. An inside browser application to make it easier to communicate with an application
+- Explorer: Usually a website that shows a user-friendly statistics of a blockchain
+- Fork: A friendly or, not-so-friendly, taking of open source code and copying it 
+- FVS:  Full validator set. Referring to a Game of Links discipline
+- fuckgoogle: The motto of cyber. Also a nickname for certain devices used by cyber~Congress
 - Fullnode:
-- Galt Space:
-- Game of Links (GoL):
-- Game of Thornes (GoT):
-- Genesis ceremony:
-- GCYB:
-- Gift:
-- GitCoin:
-- GitHub:
-- go-Cyber:
-- Go:
-- Google:
-- GOL:
-- Governance:
-- GPU:
+- Galt Space: A blockchain project for creating a unified distributed registry for housing
+- Game of Links (GoL): The first stage of the distribution games where participants play against cyber~Congress to acquire as many tokens as possible 
+- Game of Thornes (GoT): The second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress. Also window 0 of the Auction
+- Genesis block: The first block of a blockchain
+- Genesis ceremony: A ceremony in which validators pre-commit signatures to a special file, that is then added to the genesis block, so that they can participate from scratch in validating cyber
+- GCYB: Giga CYB or 1,000,000,000 CYB
+- Gift: The 10% of CYB that were donated to over 1 million ETH, Cosmos and Urbit addresses by cyber~Congress
+- GitCoin: A project for open source developers and projects, where developers get rewarded for completing tasks via smart contacts
+- GitHub: A frontend for the versioning system git. Known for having various cool open-source projects and their code
+- go-Cyber: The name of the main repository of cyber protocol written in Go
+- Go: A programming language
+- Google: A centralized search engine
+- GOL: The test name of THC, the governance tokens of cyber on Ethereum
+- Governance: The process in which stakeholders of a project decide on the future of the project viz voting
+- GPU: Graphical User Interface. A graphics card
 - Gravity:
-- Hardaware waleet:
-- Hash:
-- Hero:
-- HTTP/S:
-- Homestead: 
-- Hyperlink:
-- IBC:
-- ICANN:
-- Illiquid tokens:
-- Incintive: 
-- Indexing:
-- Initialization:
-- Inflation:
-- Interplanetray:
-- IP:
-- IPFS:
-- Issue:
-- Jail:
-- Karma:
-- Kernel:
-- Key/s:
-- Keystore:
-- Keyring:
-- Knowledge Graph:
+- Hardware wallet: A blockchain wallet that can hold tokens in a form of device. Mostly Ledger
+- Hash: An encrypted representation of something that proves that something is what it is meant to be without revealing additional information
+- Hero: A validator node
+- HTTP/S: A communication protocol for databases in web2
+- Homestead: This documentation
+- Hyperlink: A link in web2 that connects one piece of content with another via location-based addressing
+- IBC: Inter blockchain protocol. The protocol that connects blockchains in Cosmos. Cybers way to create markets with other blockchains
+- ICANN: The Internet Corporation for Assigned Names and Numbers. Responsible for certifying domain names in web2. A centralized entity
+- Illiquid tokens: Tokens that can't be spent for some reason. For example, they are bonded to a validator, awaiting unbonding or arent traded on the market
+- Incentive: A reason to do something. usually an economical reason
+- Indexing: The referencing of something to something else in an appropriate format
+- Initialization: The first (initial) doing of something. Initializing an application or a role, i.e. launching it
+- Inflation: The process of the increase of the price of goods over some time, usually due to the amass of the supply of money 
+- Interplanetary: Can function between planets
+- IP: Internet Protocol. A protocol that connects stand-alone computers into a single network via a special address
+- IPFS: Interplanetary file system. A new type of exchanging content based on content-based addressing and CIDs
+- Issue: A task on GitHub
+- Jail: When a validator misbehaves (does something he isn't supposed to like missing too many blocks or double signing) he gets jailed
+- Karma: The reputation of a user in cyber. Karma points are given for creating cyberlinks and is not transferable
+- Kernel: 
+- Key/s: Any key, private or public, of a user
+- Keystore: A place where keys are stored
+- Keyring: Referring to the encryption and storage of keys, usually via CLI
+- Knowledge Graph: A knowledge base used to enhance users search results with information gathered by users (from cyberlinks)
 - KMS: 
-- Launch:
-- Launch-kit:
-- LCD:
-- Ledger:
-- License:
-- Lifetime:
-- Link:
-- Linux:
-- Liquid Share:
-- Liquid Tokens:
-- Load:
-- Log:
+- Launch: The start of something. Usually technical 
+- Launch-kit: The repository where we gather all the technical information about our launch for other projects to use as an example
+- LCD: 
+- Ledger: A hardware wallet
+- License: An agreement for the use of something. Cybers license is don't believe, don't fear, don't ask
+- Lifetime: Referring to a lifetime of a validator node. The amount of time it was up
+- Link: A link between two things. Usually, referring to a cyberlink
+- Linux: An open-source operating system
+- Liquid Share: The same as liquid tokens
+- Liquid Tokens: Tokens that can be spent, transferred. Also, tokens that have market demand
+- Load: One of the disciplines of the Game of Links. The more you link, the better
+- Location based addressing:
+- Log: A place to write events
 - Manifest:
 - Master:
 - MCYB:
