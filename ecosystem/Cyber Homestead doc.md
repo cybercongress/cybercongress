@@ -4048,147 +4048,147 @@ This section will talk about some of the things you will need to know for coloni
 
 <details>
   <summary>What is cyber? </summary>
-
+Cyber is a decentralized google. An innovative search protocol. A distributed computer for answers. A consensus-driven, superintelligence. A relevance machine that can predict things, based on knowledge.  
 </details>
 
 <details>
-  <summary>What is its misson? </summary>
-
+  <summary>What is cybers mission? </summary>
+Cybers mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and (b) decentralize the infrastructure of the web with the help of blockchain
 </details>
 
 <details>
   <summary>How are you planning to achieve it? </summary>
-
+By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is working. The idea has proved to be functioning and has a proved and cemented market demand. We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else, it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen!
 </details>
 
 <details>
   <summary>Is cyber private? </summary>
-
+Cyber is privacy orientated but it doesn't have privacy technology implemented. This means that there are no private on-chain smart contracts and no, real, private transactions. However, transactions are hashed and no user tracking is happening behind the scenes. In fact, there is no "behind the scenes", as the protocol is user-driven and 100% open source. In the future, we plan to implement privacy by design. 
 </details>
 
 <details>
   <summary>Is cyber a P2P tech? </summary>
-
+Not exactly. It is in the sense that users are interacting peer to peer with their computers, without a company in the middle. However, technically a blockchain is also an intermediary. What's good, is that you don't need to trust a blockchain thanks to how it functions.
 </details>
 
 <details>
   <summary>Why and how do you use blockchain? </summary>
-
+We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc. In other words, we use the blockchain as a trustless, distributed database that can verify things. We also use blockchain to implement tokens and economic incitive for the above reasons. 
 </details>
 
 <details>
   <summary>Briefly, what other tech do you use and why? </summary>
-
+We use IPFS as the internet to our search protocol. In the future, we plan to implement more "internets". We use CUDA for computation. It can also be said that users use different hardware to perform different computations. We use Aragon for DAO implementations. We use hardware wallets and extensions for interaction with our protocol. 
 </details>
 
 <details>
   <summary>How is cyber better than google? </summary>
-
+It's more efficient. It isn't prone to regulations. It's not a blackbox. It works for you and not the other way around. It provides economic incentives. It's trustless. Its governed and owned by users. It expresses your opinion and not someone else. It has plenty of other use cases, that are not search-related. 
 </details>
 
 <details>
   <summary>How is cyber different from Tor? </summary>
-
+Tor is not a search protocol. Tor is a highly efficient privacy instrument. Tor does not provide economic incentives. Tor doesn't use the blockchain. Tor does not answer questions. we see Tor as an instrument that we could provide a search protocol for. We hope that Tor can implement cyber on an application-level one day.
 </details>
 
 <details>
   <summary>Isn't this just another YACY? </summary>
-
+YACY (and other P2P similar mechanisms) have plenty of years of work behind their backs, which cyber (still) hasn't. YACY is pure P2P, cyber isn't. It has a blockchain between the users. Also those years of work which YACY and the others have, kind of proven that they don't work. Otherwise, we would not be making cyber. Obviously, YACY doesn't have any of the features, described above, that cyber has (economic incentives, DAOs, consensus, owned by the users, etc).
 </details>
 
 <details>
   <summary>There are other IPFS-based searches! Why is this different? </summary>
-
+All other IPFS searches are mere crawlers, meaning they just look for something that was already in IPFS and (might) return an answer, some even do. Cyber is a protocol. Cyber itself is a blockchain with all of the above-mentioned pros. Cyber can crawl IPFS and any other protocol (if added). Think of this like this: crawling is looking for an existing needle on an existing football field. You don't know whether or not that needle is the one you been looking for. You cannot add another needle if you think that needle looks wrong. You cant change the needle to anything else. Cyber lets users build an open semantics field. This means that you can enrich every square meter of the football field with appropriate words. Including the square meter where the needle was, with the word "sharp" or/and "needle", etc. You can start using these semantics to build apps around it. Every time you find a needle, call a cleaner. You may start earning on that action. Comparing cyber to a crawler is like comparing a drawing of a car to a real car. they might look similar and have the same name. But it's 2 completely different things.  
 </details>
 
 <details>
-  <summary>How is cyber speacial? </summary>
-
+  <summary>How is cyber special? </summary>
+That depends in comparison to what. In general, cyber is governed by cyber~Foundation, which is a community DAO with its own pot of funds. This means that cyber isn't owned by anyone. Cyber also has many crazy, possible use cases, which open up as part of the creation of the open semantic field. 
 </details>
 
 <details>
   <summary>What can you show to prove that cyber works? </summary>
-
+First of all, cyber.page, the gateway app. Go on and explore it. Check out the masters part of this doc to see how to use it and what it can do. There is the GitHub code for those who can read it. We have numerous apps and extensions, like the vesting, evangelism and the auction Aragon apps. And there is cyb~Virus, the browser extension. Work is undergoing on the metamask snap for all cosmos based chains and, of course, on cyb, the real web3 personal, on-chain, browser application that will take everything to the next level. 
 </details>
 
 <details>
   <summary>What are your values as a team? </summary>
-
+Decentralization, open-source, globality, lack of bureaucracy. Security. Anonymity for those who choose to be anonymous. Transparency, informational freedom, free will. We build for the future. We do not believe in KYC. We do not believe in censorship and enforcement. We do not think that something magically happens by itself 
 </details>
 
 <details>
-  <summary>Who cntrols cyber? </summary>
-
+  <summary>Who controls cyber? </summary>
+No one or rather everyone. Our idea is to design a tool where everyone feels equal. With that said, this can defiantly act like a competitive instrument. Someone who posses more tokens can link content (and hence rank it) with more weight.  The purpose of the tool is to share and access information freely. The amount of tokens in possession does not influence this virtue and does not abuse the protocol. On the contrary, someone with more tokens, committing to the knowledge graph, is bound to make it more relevant. 
 </details>
 
 <details>
   <summary>Who will own cyber? </summary>
-
+Please see above. cyber~Foundation will govern cyber. Which means that the stakeholders decide on what will happen via governance mechanisms. 
 </details>
 
 <details>
   <summary>How will cyber be governed? </summary>
-
+Via a decentralised autonomous organisation, called cyber~Foundation. The foundation DAO is Aragon-bred and, for now, live in ETH.
 </details>
 
 <details>
   <summary>Why cyber, its just a buzz word... </summary>
-
+We've been using the word cyber for about 10 years. Cyber refers to anything that is very smart. The meaning is rooted in the word cybernetics (check out the article on Wikipedia) - a science which describes the behaviour of dynamic systems with feedback loops. We hope to make cyber a verb and not a noun. Where it will mean to look for something clever. 
 </details>
 
 <details>
   <summary>Why so many buzzwords? </summary>
-
+We don't think we use buzzwords. We implement technology that is working and in some places it is popular. But that just means that we are using the best that there is out there. We don't use or say something unless we have implemented it in one way or another.  The term buzzwords can be applied to those who use a certain term for the sake of buzz. We use these terms because we actually have the tech implemented and its rather hard to describe a table, without using the word itself or its virtues. 
 </details>
 
 <details>
   <summary>Why is linking important? </summary>
-
+Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from google. google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
 </details>
 
 <details>
-  <summary>Is there cencorship? </summary>
-
+  <summary>Is there censorship? </summary>
+Nope... Not on the protocol level. Not on the database level. Not on the consensus level. Every transaction should and must be routed (passed to its destination whatever it may be).
 </details>
 
 <details>
   <summary>Is cyber privacy orientated? </summary>
-
+Yes. This has been answered in previous questions. However, this calls for "breaking the law" questions. If we obscure from the question of what is the law and by whom it is determined, then: There are no bad intentions in wanting to find the answer to something. You might not know something is "bad" until you know what it is. We are born Tabula Rasa - a clean sheet. The answer itself might indeed contain information that someone might see as "bad" or "inappropriate". This is not something we can control. We do not produce the information, we provide the tool to search through it and obtain it.
 </details>
 
 <details>
-  <summary>What are the usecases of cyber? </summary>
-
+  <summary>What are the use-cases of cyber? </summary>
+There is a whole section of this document dedicated to answering that. The most obvious are: web3 browsers, decentralized knowledge graphs, personal robots, basic income, games, SEO, education, off-line search, self prediction, education, universal oracles, etc
 </details>
 
 <details>
-  <summary>Whats cyber~Metagalaxy? </summary>
-
+  <summary>What's cyber~Metagalaxy? </summary>
+The cyber~Metagalaxy is the name for all of cybers apps, entities, repos, etc together. Think of it as the big picture. 
 </details>
 
 <details>
   <summary>How do you get rewards in cyber? </summary>
-
+As a validator, you get rewarded for securing the network and you can get a commission from delegators. As a user, you may delegate to a validator and be eligible for rewards. As a user, you may take advantage of semantics and web3 just as you would in web2, but without the third party and earn rewards. As an evangelist, you may earn rewards for spreading the love about cyber. As a developer, you may build things and receive rewards from the community pool, just like all other users can. 
 </details>
 
 <details>
   <summary>Who are heroes and masters? </summary>
-
+Heroes are the validators that secure the network via their infrastructure. Masters are the builders of the Great Web, who use cyber by creating cyberlinks and building an open semantical field. 
 </details>
 
 <details>
-  <summary>How do I monitize cyber? </summary>
-
+  <summary>How do I monetize cyber? </summary>
+You may create applications or take advantage of existing apps. Just as you would monetize content on web2 or just as you would build apps, provide a service, create a project, etc. All of this is possible in cyber. 
 </details>
 
 <details>
   <summary>How many tokens are there? </summary>
-
+There are 2 tokens. CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO. There is 1 PCYB of tokens (and growing). And 700 TTHC. That's a lot, we know. There is also an internal "token",  karma, which is your reputation for building the web. It cannot be transferred. 
 </details>
 
 <details>
   <summary>Are there any bounties? </summary>
-
+Yes. We have gifted 10% of our supply to over 1 million ETH, ATOM and Urbit addresses. Also, we have an OBEP program for cyber evangelists, that can earn bounties.  
 </details>
 
 <details>
