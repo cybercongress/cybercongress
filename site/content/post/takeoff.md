@@ -1,4 +1,9 @@
-# Takeoff proposal
+---
+date: 2020-04-15
+url: takeoff-proposal
+title: 'Takeoff Proposal'
+author: xhipster
+---
 
 > We understand that shaking the status quo of Google's religion will be difficult.
 > But we must try.
