@@ -4299,6 +4299,7 @@ In general, think of cyber as of a completely brand-new mechanism for obtaining 
 Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one space to refer to as a dictionary of the cyber subculture and everything that has to do with cyber:
 
 - 42: A philosophical reference to the meaning of life from the Hitchikers guide to the galaxy 
+- Adjust Period: 
 - Account: Referring to a users address from where he links something or from which a validator node is launched 
 - AI: Artificial Intelligence. Cybers ability to predict subjective relevance works just like a human mind would, hence, making it smart
 - Alias: The nick of the node of a validator
@@ -4310,11 +4311,16 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - ATOM: The main token of the Cosmos blockchain, used for governance and securing the network
 - App: A short word for application. For example the auction app
 - Bandwidth: The amount of something needed to pass something. I.E. I need 5 people to move 10 stones from room A to be. In cyber bandwidth is the main spam protection mechanism. All transactions require bandwidth
+- Bas Credit: 
+- Base Proposer:
 - Balance: The amount of CYB or THC tokens on your account
 - Blockchain: A distributed database with a consensus about the current state and time
+- Bonus Proposer: 
 - Brain: The part of cyber.page which shows important information, like statistics
 - Bond / Bonding: To bond, your tokens means to keep them with a validator so that they are frozen and are eligible to receive a reward 
 - Build: A version or an iteration from several components. Usually refers to testing software- CLI:
+- Calculating period: 
+- Cap / Capitalization:  
 - Chaingear: An app that can create blockchain databases. For example, it can create custom domain names 
 - Chain ID: The current name of the blockchain. I.E. euler-6 or cyber-3 (the number is referring to the latest release
 - CHANGELOG:
@@ -4361,8 +4367,10 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - DAO: A decentralized autonomous organisation governed by shareholders via governance
 - Decentralization: A process which is the opposite of centralization. Lacking a central point of authority
 - Daemon: A program's engine
+- Damping Factor:
 - Delegation: Giving your tokens to someone in a safe way where they cant be used by the person you gave them to, but can be used on your behalf
 - Delegator: A person who delegates tokens. Usually to a validator
+- Desirible Bandwidth: 
 - Dev Environment: An environment in which a developer works. For example, a specific program that is used to write certain code 
 - Dev Log: Cybers bi-weekly Congress report
 - Discipline: A type of game in the Game of Links. I.E. amount of links submitted (in sports referring to a sport discipline, i.e. running)
@@ -4371,9 +4379,11 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - DNS: Domain Name System. A web2 system where domain names are registered to a certain user
 - Donations: The process where a user sends ATOM or ETH to cyber~Congress or Foundation 
 - dot~Cyber: The developer's name of cyber.page
+- Double sign: 
 - Downtime: The time during which a node of a validator isn't working 
 - DURA: distributed unified resource address. Cybers equivalent of an URL (an abbreviation for uniform resource locator), which is what you see in your browser when you visit a web2 website.
 - ELI-5: Explain it like I'm 5 frequent question guide about cyber
+- Entity: 
 - Endpoint: A device like a node that is responsible for specific communication back and forth in a network
 - Episode I/II, etc: The names of cyber's roadmap stages regarding Star Wars
 - Ethereum: One of the most notorious blockchain projects. A distributed computer for decentralized applications 
@@ -4393,6 +4403,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Genesis block: The first block of a blockchain
 - Genesis ceremony: A ceremony in which validators pre-commit signatures to a special file, that is then added to the genesis block, so that they can participate from scratch in validating cyber
 - GCYB: Giga CYB or 1,000,000,000 CYB
+- GEUL: Giga EUL or 1,000,000,000 EUL
 - Gift: The 10% of CYB that were donated to over 1 million ETH, Cosmos and Urbit addresses by cyber~Congress
 - GitCoin: A project for open source developers and projects, where developers get rewarded for completing tasks via smart contacts
 - GitHub: A frontend for the versioning system git. Known for having various cool open-source projects and their code
@@ -4448,10 +4459,12 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Migration: To change the place of a chunk of code or tokens or anything else form one place to another
 - Module: A separate unit of something. Modules answer for different zones of the chain
 - Moniker: The nickname of the validator
+- Msg Cost: 
 - Multisig: An address with more than one signature in it
 - Network: A connection of nodes and/or peers
 - Node: A computer that is doing computation for something particular. A cyber validator node for example
 - NVIDIA: Brand of graphics card
+- Object: 
 - OBEP: Open Bootstrap Evangelist Program. The ambassadors' program for the launch of cyber
 - Open Source: Code that is written in a manner where everyone can see it. Can be used about many things, not just code
 - Organic: A natural way of developing/evolving something
@@ -4467,8 +4480,10 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Pubkey: Public key. The public key of a node
 - Pull Request: A commit by a user or a developer for a specific task that can be used by the project 
 - Query: To find something out
+- Quorum:
 - Rank: The particular ordered number of something. I.E. 3 out of 10
 - RC or Resource Credits: The name of the model in cyber where we calculate the number of resources needed to make transactions. Bandwidth
+- Recovery Period: 
 - Release: A particular version of something
 - Relevance: The ability to retrieve something that satisfies needs
 - Repository: A place where code is gathered. Usually referring to GitHub
@@ -4488,11 +4503,13 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Server:
 - Service:
 - Slashing:
+- Slash Fraction:
 - Smart Contrats:
 - Stake:
 - Staking address:
 - Storage:
 - String:
+- Subject: 
 - Supercomputer:
 - Superintellegence:
 - Supply:
@@ -4507,8 +4524,11 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - The Evolution of Spicies:
 - Tilda:
 - Token:
+- Tolerance: 
 - Toolkit:
+- Threshold: 
 - Transaction or tx:
+- Tx Cost:
 - Ubuntu:
 - Unbond:
 - Unstake:
@@ -4518,6 +4538,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Validator:
 - Vesting:
 - Vesting Companion:
+- Veto:
 - Web-2:
 - Web-3:
 - White Paper:
