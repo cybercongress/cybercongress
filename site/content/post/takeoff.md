@@ -11,15 +11,15 @@ author: xhipster
 > Founders
 
 ### TL;DR
-This proposal is the culmination, of over 3 years of hard work, of one small team, on the path to unravelling the entangled web, that has emerged in the last 30 years of the existence of our civilization.
+This proposal is the culmination, of over 3 years of hard work, of one small team, on the path to unravelling the entangled web, that has emerged over the last 30 years of the existence of our civilization.
 
-We back this proposal with the idea that human knowledge can be provable, censor-free and universally accessible. These properties are not ad buzz of `just another blockchain`. The survival of our civilization is possible only if and when we achieve these properties.
+We back this proposal with the idea that human knowledge can be provable, censor-free and universally accessible. These properties are not ad buzz of `just another blockchain`. The survival of our civilization is possible only, if and when, we achieve these properties.
 
-### The Computing
+### The Product
 The software we offer is a seed of certainty during very uncertain times. This seed consist of:
 - [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ): will help to implement the idea using any technology
 - [go-cyber](https://github.com/cybercongress/go-cyber): Our implementation in Go
-- [cyber.page](https://cyber.page/): The sexy reference interface
+- [cyber.page](https://cyber.page/): The slick reference interface
 - [The mainnet predecessor](https://mainnet.aragon.org/#/eulerfoundation) of cyber~Foundation which will allow scaling the idea further and look deeper into the rabbit hole
 
 ### The Economy
