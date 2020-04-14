@@ -4441,44 +4441,44 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Load: One of the disciplines of the Game of Links. The more you link, the better
 - Location based addressing:
 - Log: A place to write events
-- Manifest:
-- Master:
-- MCYB:
-- Mention: 
-- Migration:
-- Module:
-- Moniker:
-- Multisig:
-- Network:
-- Node:
-- NVIDIA:
-- OBEP:
-- Open Source:
-- Organic:
-- Output:
-- P2P:
-- Path:
-- PCYB:
-- Peer:
-- Pocket:
-- Port:
-- Prometheus:
-- Protocol:
-- Pubkey:
-- Pull Request:
-- Query: 
-- Rank:
-- RC or Resource Credits:
-- Release:
-- Relevance:
-- Repository:
-- Reputation:
-- Reward:
-- Roadmap:
-- Root:
-- Routing:
-- Rumours:
-- RPC:
+- Manifest: The evolution of species manifest of cyber~Congress
+- Master: Users of cyber
+- MCYB: Mega CYB = 1,000,000 CYB tokens
+- Mention:  Referring to cyber.page and the mention of someone address in a link. Works like a tag
+- Migration: To change the place of a chunk of code or tokens or anything else form one place to another
+- Module: A separate unit of something. Modules answer for different zones of the chain
+- Moniker: The nickname of the validator
+- Multisig: An address with more than one signature in it
+- Network: A connection of nodes and/or peers
+- Node: A computer that is doing computation for something particular. A cyber validator node for example
+- NVIDIA: Brand of graphics card
+- OBEP: Open Bootstrap Evangelist Program. The ambassadors' program for the launch of cyber
+- Open Source: Code that is written in a manner where everyone can see it. Can be used about many things, not just code
+- Organic: A natural way of developing/evolving something
+- Output: The opposite of input. If we put something into anything, we will most likely get a result, an output. For example that the way it works with code
+- P2P: Peer to peer technology is where peers (users) communicate directly with one another. For example, when a computer is directly connected to another
+- Path: The way to something
+- PCYB: Peta CYB = 1,000,000,000,000,000
+- Peer: can be thought of as a user
+- Pocket: Referring to cyber.page. Pocketing your ledger = connecting it
+- Port: In computing the address of something
+- Prometheus: 
+- Protocol: A set of rules and/or guidelines for anything
+- Pubkey: Public key. The public key of a node
+- Pull Request: A commit by a user or a developer for a specific task that can be used by the project 
+- Query: To find something out
+- Rank: The particular ordered number of something. I.E. 3 out of 10
+- RC or Resource Credits: The name of the model in cyber where we calculate the number of resources needed to make transactions. Bandwidth
+- Release: A particular version of something
+- Relevance: The ability to retrieve something that satisfies needs
+- Repository: A place where code is gathered. Usually referring to GitHub
+- Reputation: The overall quality of someone by which he is judged. See Karma
+- Reward: Something that is returned or given in exchange for something else. Rewards in CYB can be acquired via staking, GoL and governance
+- Roadmap: The plan of the team 
+- Root: 
+- Routing: The direction something is travelling
+- Rumours: The mentions of validators addresses, a tag
+- RPC: 
 - SDK:
 - Seed Node:
 - Sentinel Node:
