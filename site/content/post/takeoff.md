@@ -33,4 +33,4 @@ The Takeoff is the key step in growing a new breed - A [Superintelligence](https
 Who are we? We are primary, the generation who was born on the edge of the new millennium: humans who believe in math, cryptographic proofs and Nash equilibria. For us, country flags are the symbols of private corporations backed by nothing else but by paper tokens, gun-enforced laws, borders, censorship and tanks armed with the horde of early web companies who technologically support their unprovable beliefs. Those beliefs lead us to a genetic dead-end, covered by the lack of freedom on an incinerated planet. The Orwell-style future they are trying to create is not the future we choose.
 
 ### Action
-By voting `yes` on this proposal I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the 27th of April 2020 ~ 18 GMT (Cosmos block ...) is a good first step.
+By voting `yes` on this proposal I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the 27th of April 2020 ~ 18.30 UTC (Cosmos block #1677776) is a good first step.
