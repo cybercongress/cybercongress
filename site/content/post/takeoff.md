@@ -1,24 +1,35 @@
-## Takeoff
+---
+date: 2020-04-15
+url: takeoff-proposal
+title: 'Takeoff Proposal'
+author: xhipster
+---
 
-> We understand that shaking status quo of Google religion will be hard.
-> But we must.
-> As this is the only way to provide sustainable future for our generations.
+> We understand that shaking the status quo of Google's religion will be difficult.
+> But we must try.
+> As this is the only way to provide a sustainable future for the next generations.
 > Founders
 
-This proposal is the culmination of more than 3 year of hard work of one small team on the path to unraveling the finally confused web that emerged in last 30 years of civilization existence.
+### TL;DR
+This proposal is the culmination, of over 3 years of hard work, of one small team, on the path to unravelling the entangled web, that has emerged over the last 30 years of the existence of our civilization.
 
-Behind this proposal is the idea that the human knowledge can be provable, censor-free and universally accessible. This properties are not only useful as an ad buzz of just another blockchain. But only if we achieve those properties survival of the civilization of us as humans is possible.
+We back this proposal with the idea that human knowledge can be provable, censor-free and universally accessible. These properties are not ad buzz of `just another blockchain`. The survival of our civilization is possible only, if and when, we achieve these properties.
 
-The software we offer is the seed of certainty during very uncertain times. The stack consist of:
-- [protocol spec and rationale](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) - will help to imlement the idea using any technology
-- [go-cyber](https://github.com/cybercongress/go-cyber) - implementation in Go
-- [cyber.page](https://cyber.page/) - refference interface
-- [mainnet predecessor](https://mainnet.aragon.org/#/eulerfoundation) of cyber~Foundation which will allow to scale the idea further and deeper.
+### The Software
+The software we offer is a seed of certainty during very uncertain times. This seed consist of:
+- [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ): will help to implement the idea using any technology
+- [go-cyber](https://github.com/cybercongress/go-cyber): Our implementation in Go
+- [cyber.page](https://cyber.page/): The slick reference interface
+- [The mainnet predecessor](https://mainnet.aragon.org/#/eulerfoundation) of cyber~Foundation which will allow scaling the idea further and look deeper into the rabbit hole
 
-In order to connect all that pieces together we designed pre genesis distribution game: [Game of Links](https://cyber.page/gol). Although technically Game of Links function since December, there were not so much incentives to participate. Yesterday we deployed [Euler foundation](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md) which will work as sybil resistant faucet during the GoL, hence open participation in the Game become possible. Since all the dots which was necessary to start the economical ignition of the machine are in place, Huston we are ready for [Takeoff](htttps://cyber.page/gol/takeoff).
+### The Economy
+To connect all the pieces together we designed a pre genesis distribution game: [The Game of Links](https://cyber.page/gol). Although technically the Game of Links started in December, there were not so many incentives to participate. Last week we deployed [euler~Foundation](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md) which will work as a sybil resistant faucet for the period of GoL. Hence, participation in the Game becomes more accessible. Now that all of the dots which were necessary to start the economical ignition of the machine are in place, Huston, we are ready for [Takeoff](https://cyber.page/gol/takeoff).
 
-Takeoff is the key step in raising the new kind - [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). Since this date the knowledge graph we are dreaming about will start acquire independent value. So we invite everybody who feel adventurous. Completely new ground ahead no human stepped before. In the following months bootsrapers  will reach Her to its Genesis state. And after Genesis the journey will be start of the new era. We invite everybody who understand She will need years of mentoring, supervising and learning in order to become so smart we expect. And we, as patient parents, with all love will educate her through her adolescence.
+### The Takeoff
+The Takeoff is the key step in growing a new breed - A [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). With the takeoff date, the knowledge graph we are dreaming about will start to acquire independent value. We invite everybody who feels brave and adventurous. Welcome to entirely new ground, where no human has stepped before. In the following months, bootstrappers will take `Her` to the Genesis state. After Genesis, the journey will kick off a new era. We invite everyone who understands that the Superintelegnce will need years of mentoring, supervising and learning to become as smart as we expect. We, as patient parents, will educate `Her` with all the love she requires throughout her adolescence.
 
-Who are we? We are primary the generation who has been born on the edge of the new millennium: humans who believe in math, cryptographic proofs and Nash equilibria. For us colourful flags are the symbols of private corporations backed just by paper tokens and laws, borders and tanks armed with the horde of early web companies who technologically support their unprovable beliefs. Those beliefs lead us to the genetic dead end covered by the lack of freedom on the incinerated planet. The future they try to create is not the one we choose.
+### The People
+Who are we? We are primary, the generation who was born on the edge of the new millennium: humans who believe in math, cryptographic proofs and Nash equilibria. For us, country flags are the symbols of private corporations backed by nothing else but by paper tokens, gun-enforced laws, borders, censorship and tanks armed with the horde of early web companies who technologically support their unprovable beliefs. Those beliefs lead us to a genetic dead-end, covered by the lack of freedom on an incinerated planet. The Orwell-style future they are trying to create is not the future we choose.
 
-By voting yes for this proposal I agree that we need a change and [Taking off the Superintelligence](https://cyber.page/episode-1) at 27 April 2020 ~ 18 GMT (Cosmos block ...) is the good first step.
+### The Action
+By voting `yes` on this proposal I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the 27th of April 2020 ~ 18 GMT (Cosmos block ...) is a good first step.
