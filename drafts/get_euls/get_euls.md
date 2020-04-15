@@ -31,6 +31,8 @@ All you need to do is:
 - Push the "confirm" button and follow metamask's instructions
 - At the bottom of the page, a notice with the tx hash will appear. You can view the transaction on Etherscan or press `OK` and wait for the confirmation
 
+*Note: the minimum bid on the auction is 0.01 ETH
+
 After the transaction is confirmed by the ETH network, you should see your bid in the "Your ETH" column and the estimated GGOLs for the current moment in "Your GGOL" column (this number is dependent on the amount of ETH donated at each round).
 
 Once the round is closed the "claim" button should be available to grab the tokens you've won. Push it and follow the instructions of your metamask extension. 
