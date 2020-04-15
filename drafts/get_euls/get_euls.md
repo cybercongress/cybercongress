@@ -1,71 +1,82 @@
-# How to get EULs tokens if you have no?
+# How to get EULs tokens if you have none?
 
-EULs tokens are `euler` testnet network liquid tokens. You can send them, stake and, the most important part, cyebrlink. Also, you can set up the Hero machine and earn EULs by inflation and commission. 
+EULs tokens are the liquid tokens of the `euler` testnet. They are the testing tokens of CYB in cybers mainnet. You can transfer them, stake them, and most importantly, use them to [create a cyberlink](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link).  You may also use EUL tokens to start your following the hero's path and set up a validator for cyber to get tokens from inflation and commission  
 
-If by any reason your `cosmos` or `eth` addresses are excluded from the gift pool and you have no tokens for trying `cyber` you can get it for a very cheap way and learn all cross-chain mechanics we implemented for a better experience of our product structure.
+If your `cosmos` or `eth` address didn't make it to the gift pool and you have no tokens for trying out `cyber`, you can get them very easily and learn all about the cross-chain mechanics we've implemented for a better experience of our product structure.
 
 But before we start I would love to remind you again:
 
-***DISCLAIMER***
+***Disclaimer***
 
-1. This is testnet tokens. Please do not spend significant funds on buying them.
-2. In this article, we'll notice about ERC20 GOL tokens. This is also testnet tokens, moreover, they will be burned after `euler` epoch and before the `cyber` mainnet. The value of these tokens is:
-    - You can vest  EULs tokens in 1:1 proportion to any `cyber` address. This action will freeze GOL tokens for transfer.  
-    - You can test and deep on the mechanics of cyber~Congress DAO and cross-chain companion.
-3. All funds from test~Auction will be transferred by proposal results.
+1. EUL are testnet tokens. Please do not spend significant funds on acquiring them
+2. In this article, we'll talk about ERC20 GOL tokens. These are also testnet tokens, moreover, they will be burned after the `euler` epoch is over and before the `cyber` mainnet. The value of these tokens is:
+    - You can vest  EULs tokens on a 1:1 basis to any `cyber` address. This action will freeze GOL tokens for transfer 
+    - You can test and dive into the mechanics of the cyber\~Congress DAO and our cross-chain companion
+3. All of the funds from the test\~Auction will be transferred accordingly to the results of governance proposals 
 
 ## [test~Auction](https://cyber.page/auction)
 
-You can take part in the test~Auction. The mechanic is very simple: the auction has 50 rounds. For each round allocated test GOL ERC20 tokens, for the first round 1000.00 GGOLs, for another 49 rounds 122.44 GGOLs per each. The first round will be 10 days, other ones 1 day per each. You can put your ETH for any open round and claim your GOLs proportionally all bids in the round.
+You may participate in the test~Auction. The mechanics are very simple: the auction has 50 rounds. For each round, there are test GOL ERC20 tokens that are allocated to that round. For the first round, 1000.00 GGOLs are allocated. For the consequent 49 rounds, 122.44 GGOLs are allocated per each round. The first round will last for 10 days. The other rounds will last for 1 day each. You can use your ETH for any of the open rounds and claim your GOL tokens proportionally per all of the bids in the round.
 
 ![auction_main_page](./auction.png)
 
-All you need is:
+All you need to do is:
 
-- connect metamask to cyber.page
-- push "Fuck google" button
-- set amount of ETHs you want to contribute (read disclaimer!!!)
-- set round you want to take part (you can take part in current round or in future rounds)
-- push the "confirm" button and follow metamask instructions
+- Connect your [metamask](https://metamask.io/) to [cyber.page](https://cyber.page/)
+- Push the "Fuck google" button
+- Set the amount of ETH you want to use (read the disclaimer!)
+- Set the round you want to participate in (you can participate in the current round or in any of the open, future rounds)
+- Push the "confirm" button and follow metamask's instructions
 
-After the transaction confirmed by ETH network, you should see your bid in the "Your ETH" column and estimated GGOLs at the current moment in "Your GGOL" column.
+After the transaction is confirmed by the ETH network, you should see your bid in the "Your ETH" column and the estimated GGOLs for the current moment in "Your GGOL" column.
 
-And once the round will be closed the "claim" button should be available to grab your won tokens. Push it and follow metamask extension. 
+*Note:* GGOL is equal to 1 Giga GOL, which is = 1,000,000,000
 
-For your comfort, you can add GOL tokens to your metamask account by adding the following contract address :
+Once the round is closed the "claim" button should be available to grab the tokens you've won. Push it and follow the instructions of your metamask extension. 
+
+For your comfort (making transactions), you should add GOL tokens to your metamask account by adding the following contract address :
 
 ```
 0xf4ecdba8ba4144ff3a2d8792cad9051431aa4f64
 ```
 
-Once your tokens in your pocket you can vest EULs in 1:1 proportion to any `cyber` address .
+Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion to any `cyber` address.
 
 ![vesting_app](./vesting.png)
 
-If your metamask account connected and you already have GOLs at your account you should see your total GOL amount, vested and available to transfer GOLs. Vested GOLs are tokens you already vested to get EULs. It's mean these tokens are frozen to transfer. Available GOLs you can vest or send, you didn't get the EULs for them. Total is the sum of vested and available tokens.
+If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. Vested GOL tokens are tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. **Available GOL tokens you can vest or send, you didn't get the EULs for them**. The total is the sum of vested and available tokens.
 
-To get EULs you just need to insert amount of GOLs you want to vest,  `cyber` address for transfer EULs, push "Create vesting" button, read and check summary and push "Create TX". Follow the metamask windows. After the transaction confirmed you can see entry in the table below with amount of GOLs vested, Date, `cyber` recipient and a hash of transaction in the "euler" network. 
+To get EUL tokens you just need to pick the amount of GOL tokens you wish to vest and a `cyber` address for transferring EUL tokens. Push the "Create vesting" button, read and check the summary and push "Create TX". Follow metamask instructions. After the transaction is confirmed you can see an entry in the table below with the amount of GOL tokens vested, a date, a `cyber` recipient address and a hash of the transaction for the `euler` network. 
 
-The part of GOLs you vest will be moved to "vested" and available to transfer GOLs decreased to the last vested value. 
+**The part of GOLs you vest will be moved to "vested" and available to transfer GOLs decreased to the last vested value.** 
 
-Now you have EUL tokens for interacting with `euler` network!
+Congratulations!  You now have EUL tokens for interacting with the `euler` test network!
 
 ## [Exchange](https://uniswap.exchange/swap)
 
-Before start please read the disclaimer again. If you follow the reason just to play you don't need a significant amount of GOLs. 10-20 MGOLs (0.002 - 0.006 ETHs) should be enough for 4-8 links in a day. Remember that your bandwidth equals 0 right after transfer and you need ~24 hours for full recovering.
+Before moving onto this part, please read the disclaimer again. If you are obtaining GOL tokens just to play the Game of Links then 10-20 MGOLs (0.002 - 0.006 ETHs) should be enough to make between 4-8 links per day. Remember that your battery charge (bandwidth) equals to 0 right after the transfer and you need roughly 24 hours for a full recovery.
 
-This method much more expensive but the price and the amount of GOLs are deterministic. Also, you don't need to wait for round closing and claim tokens, you can vest GOLs as soon as the transaction confirmed in the ethereum network.  
+This method is much more expensive, but the price and the amount of GOL tokens is deterministic (the more you acquire, the higher the costs). On the plus side, you don't need to wait for the closing of a specific round and claim tokens. You can just vest GOL tokens as soon as the transaction is confirmed on the Ehereum network.  
 
 ![uniswap](./uniswap.png)
 
 - Connect your metamask to uniswap
-- In the output tokens section insert the GOLs contract address:
+- In the `output` token section, insert the GOL token contract address:
 
 ```
 0xf4ecdba8ba4144ff3a2d8792cad9051431aa4f64
 ```
 
-- Set the amount of GOLs you want to get and push "Swap"
-- Follow the metamask window. 
+- Set the amount of GOL tokens you want to get and push "Swap"
+- Follow instruction on your metamask  
 
-After the network confirms the transaction you can add GOL tokens to your metamask account and vest them to get EULs as described above.
+After the network confirms the transaction, you may "enable" the GOL tokens on your metamask account and vest them to get EUL tokens as described above.
+
+
+
+1) how to get a cyber address - link to homestead
+2) where to get metamask - link to guide
+3) Why I need to interact with euler test network - points
+4) How to play - link to homestead
+5) Uniswap guide - link
+6) How to add address - screenshot
