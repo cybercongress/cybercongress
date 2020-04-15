@@ -39,7 +39,7 @@ Where overtime, more and more important docs will be added to help to ease the c
 - [cyber~Auction](https://github.com/cybercongress/aragon-auction-app): Allows masters to acquire GOL tokens via this faucet to participate in the [Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol), the intergalactic tournament from cyber
 - [cyber~Vesting](https://github.com/cybercongress/aragon-vesting-app): Lets master vest acquired GOL tokens until the end of the Auction, this gives vested GOL tokens the superpowers to turn GOL into EUL 
 
-Of course, the launch of euler~Foundatin means that users may start testing the governance and vote for proposals using Aragon's frontend. This eases the access to the 2 TCYB allocated as part of one of the disciplines of the Game of Links, the [`comminty pool` descipline](https://cyber.page/gol).
+Of course, the launch of euler~Foundatin means that users may start testing the governance using GOL tokens and vote for proposals using Aragon's frontend.
 
 ### The setup ceremony 
 The core ideas behind making the guide is transparency. To show future stakeholders the process of making the Foundation. That there were no hidden tricks. 
