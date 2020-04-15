@@ -62,7 +62,7 @@ Why is all of this epic? Well, there are several reasons:
 1) This brings us to test the process of the community governing DAO
 2) We are launching a DAO, using another DAO and giving that DAO the handles to the protocol
 3) That DAO brings us a step closer to having the community govern the project without any bureaucratic hassle
-4 )That DAO will be in charge of its own pot of ETH. It will not be just a bureaucratic entity, it will be a real decision-maker
+4) That DAO will be in charge of its own pot of ETH. It will not be just a bureaucratic entity, it will be a real decision-maker
 5) We are creating a faucet for GoL and attracting more users to participate in the protocol
 6) We have created 3 new dapps that anyone is free to use
 7) We are testing a full spectrum of contracts, security issues, protocol possibilities, etc
