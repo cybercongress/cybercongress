@@ -1,4 +1,9 @@
-# How to get EUL tokens if you have none?
+---
+date: 2020-04-16
+url: how-to-get-eul-tokens-if-you-have-none
+title: 'How to get EUL tokens if you have none?'
+author: savetheales
+---
 
 EULs tokens are the liquid tokens of the `euler` testnet network. They are the testing equivalent of CYB in cybers mainnet. You can transfer them, stake them, and most importantly, use them to [create cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) to build the Great Web and to participate [in the intergalactic tournament](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol).  You may also use EUL tokens to start following the [hero's path](https://cyber.page/heroes) and set up [a validator node](https://cybercongress.ai/docs/cyberd/run_validator/) for cyber to get tokens from inflation and commission  
 
@@ -20,7 +25,7 @@ You may participate in the test~Auction. The mechanics are very simple: the auct
 
 *Note: GGOL is equal to 1 Giga GOL, which is = 1,000,000,000*
 
-![auction_main_page](./auction.png)
+![auction_main_page](auction.png)
 
 All you need to do is:
 
@@ -45,7 +50,7 @@ For your comfort (making transactions), you should add GOL tokens to your metama
 
 Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion to any `cyber` address. The vesting page is available by clicking `vesting`, in the box above the chart, or via [a direct link](https://rebyc.cyber.page/vesting).
 
-![vesting_app](./vesting.png)
+![vesting_app](vesting.png)
 
 If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. `Vested` GOL tokens are the tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. `Available` GOL tokens are the tokens you can vest or send. `Total` is the sum of vested and the available tokens together.
 
@@ -67,7 +72,7 @@ If you are obtaining GOL tokens just to vest and play [the Game of Links](https:
 
 This method is much more expensive, but the price and the amount of GOL tokens is deterministic (the more you acquire, the higher the cost). On the plus side of things, you don't need to wait for the closing of a specific round and claim your tokens. You can vest GOL tokens as soon as the transaction is confirmed on the Ehereum network.  
 
-![uniswap](./uniswap.png)
+![uniswap](uniswap.png)
 
 - Connect your metamask to Uniswap 
 - In the `Output` token section, insert the GOL token contract address:
