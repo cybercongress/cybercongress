@@ -70,7 +70,7 @@ Before moving onto this part, please read the disclaimer at the top of this post
 
 If you are obtaining GOL tokens just to vest and play [the Game of Links](https://cybercongress.ai/game-of-links/) then 10-20 MGOLs (0.002 - 0.006 ETHs) should be enough to [make between 4-8 links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) per day. Remember that your battery charge (bandwidth) equals to 0 right after the transfer and you need roughly 24 hours for a full recovery (you can see your charge next to the green eye on cyber.page).
 
-This method is much more expensive, but the price and the amount of GOL tokens is deterministic (the more you acquire, the higher the cost). On the plus side of things, you don't need to wait for the closing of a specific round and claim your tokens. You can vest GOL tokens as soon as the transaction is confirmed on the Ehereum network.  
+This method is much more expensive, but the price and the amount of GOL tokens is deterministic (the more you acquire, the higher the cost). On the plus side of things, you don't need to wait for the closing of a specific round and claim your tokens. You can vest GOL tokens as soon as the transaction is confirmed on the Ehereum network. Also, there is no bottom limit for buying GOLs at uniswap unlike auction and if you don't want to spend 0.01 ETHs for GOLs you can spend less.
 
 ![uniswap](uniswap.png)
 
