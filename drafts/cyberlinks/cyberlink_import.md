@@ -1,6 +1,6 @@
 # How to import `euler-5` cyberlinks to `euler-6`
 
-According to [migration proposal](), the [IPLD structure]() with all links by master had prepared. This is the tool for masters to migrate their links from `euler-5` to `euler-6` networks. This guide will explain several ways to cyberlinks migration.
+According to [migration proposal](https://cybercongress.ai/euler-6-migration/), the [IPLD structure](https://io.cybernode.ai/api/v0/dag/get?arg=bafyreibnn7bfilbmkrxm2rwk5fe6qzzdvm2xen34cjdktdoex4uylb76z4/) with all links by master had prepared. This is the tool for masters to migrate their links from `euler-5` to `euler-6` networks. This guide will explain several ways to cyberlinks migration.
 
 ## All my cyberlinks signed and broadcated by Ledger
 
