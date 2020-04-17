@@ -5,7 +5,7 @@ title: 'How to get EUL tokens if you have none?'
 author: savetheales
 ---
 
-EULs tokens are the liquid tokens of the `euler` testnet network. They are the testing equivalent of CYB in cybers mainnet. You can transfer them, stake them, and most importantly, use them to [create cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) to build the Great Web and to participate [in the intergalactic tournament](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol).  You may also use EUL tokens to start following the [hero's path](https://cyber.page/heroes) and set up [a validator node](https://cybercongress.ai/docs/cyberd/run_validator/) for cyber to get tokens from inflation and commission  
+EUL tokens are the liquid tokens of the `euler` testnet network. They are the testing equivalent of CYB in cybers mainnet. You can transfer them, stake them, and most importantly, use them to [create cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) to build the Great Web and to participate [in the intergalactic tournament](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol).  You may also use EUL tokens to start following the [hero's path](https://cyber.page/heroes) and set up [a validator node](https://cybercongress.ai/docs/cyberd/run_validator/) for cyber to get tokens from inflation and commission  
 
 If your `Cosmos` or `ETH` address didn't make it to [the gift pool](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift) and you have no tokens for trying out `cyber`, you may get them very easily and learn all about the cross-chain mechanics we've implemented for a better experience of our product structure.
 
@@ -36,7 +36,7 @@ All you need to do is:
 - Push the "confirm" button and follow metamask's instructions
 - At the bottom of the page, a notice with the tx hash will appear. You can view the transaction on Etherscan or press `OK` and wait for the confirmation
 
-*Note: the minimum bid on the auction is 0.01 ETH
+*Note: the minimum bid on the auction is 0.01 ETH*
 
 After the transaction is confirmed by the ETH network, you should see your bid in the "Your ETH" column and the estimated GGOLs for the current moment in "Your GGOL" column (this number is dependent on the amount of ETH donated at each round).
 
@@ -54,7 +54,7 @@ Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion 
 
 If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. `Vested` GOL tokens are the tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. `Available` GOL tokens are the tokens you can vest or send. `Total` is the sum of vested and the available tokens together.
 
-*Note: How do I get a cyber address? Currently, the easiest way to do so is to connect your Ledger device to cyber.page with an installed Cosmos app, this will automatically create one. We recommend reading the [masters section of the homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off) 
+*Note: How do I get a cyber address? Currently, the easiest way to do so is to connect your Ledger device to cyber.page with an installed Cosmos app, this will automatically create one. We recommend reading the [masters section of the homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)* 
 
 To get EUL tokens you just need to pick the amount of GOL tokens you wish to vest and a `cyber` address for transferring EUL tokens. If you have previously connected your Ledger device to cyber.page, the app will automatically fill in your cyber address for you (of course, if you want to vest to a different address, you need to change it). Push the "Create vesting" button, read and check the summary and push "Create TX". Follow Metamask instructions. After the transaction is confirmed you can see an entry in the table below with the amount of GOL tokens vested, a date, a `cyber` recipient address and a hash of the transaction for the `euler` network. 
 
@@ -62,7 +62,7 @@ The GOL tokens you have just vested will be moved to the `Vested` section, and t
 
 Congratulations!  You have EUL tokens for interacting with the `euler` test network!
 
-*Note: Why would I want to interact with the `euler` test network? To play GoL (Game of Links) of course and get more rewards! To learn how to play, check the [GoL section of the homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol). Of course, you may want to participate as a hero, if so, check the [engeneer section of the doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer)
+*Note: Why would I want to interact with the `euler` test network? To play GoL (Game of Links) of course and get more rewards! To learn how to play, check the [GoL section of the homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol). Of course, you may want to participate as a hero, if so, check the [engeneer section of the doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer)*
 
 ## [Exchange](https://uniswap.exchange/swap)
 
