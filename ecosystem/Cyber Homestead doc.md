@@ -619,14 +619,14 @@ For this guide, I will skip on how to use your ATOM wallet, as there are plenty 
 Onto the next step. To create a link with Ledger, you will need some CYB or EUL (depending on whether it is a test or a live net) tokens. There are a few ways to obtain these:
 
 1) Whilst this is still a testnet, you might as for some in the [fuckgoogle TG channel](https://t.me/fuckgoogle) and people might send you some
-2) Get some from the faucet (to be continued)
+2) Get some from [the faucet](https://cyber.page/gol/faucet)
 3) Get some from [Kira's TG bot](https://t.me/kirainterex)
 4) Obtain them by [running a validator node](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md)
 5) By [playing GoL](https://cybercongress.ai/game-of-links/)
-6) By participating in any of the rounds (to be continued)
+6) By participating in any of the rounds (see `beep beep beep` section)
 7) Via claiming [a gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md)
 
-It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then, simply send them to your own address (to be continued...). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
+It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then, simply send them to your own address (see the sections below). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
 
 Open cyber app:
 
@@ -634,17 +634,21 @@ Open cyber app:
 
 Click on the Green eye of the robot in the top right corner. This takes you to the Ledger page:
 
-<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
+<img src="https://i.postimg.cc/mkcXn1JN/Screenshot-from-2020-04-17-12-45-17.png" /> 
 
-If you click the button at the bottom, `Put Ledger into the pocket`, it will offer you to connect your Ledger (follow the steps on the screen):
+At the top wee the box, calling you out to play GoL. We will explore this in a seperate section. Lets continue for now. As you can see at the bottom, you may aslo press `Put read address only`, this will allow you to enter a cosmos address and to work in view-only mode with it. But we need the real thign here!
+
+If you click the button at the bottom, `Put Ledger`, it will offer you to connect your Ledger (follow the steps on the screen). 
 
 <img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
 
-After you connect your device, you will get to a page which will display your Cosmos address and your cyber address:
+This will bring us to the [pocket page](https://cyber.page/pocket). After you connect your device, you will get to a page which will display your Cosmos address and your cyber address, with the appopriate balances if you have any:
 
-<img src="https://i.postimg.cc/ncMwwxvY/Screenshot-from-2020-03-25-13-19-45.png" />
+<img src="https://i.postimg.cc/y85dqMDm/Screenshot-from-2020-04-17-12-51-43.png" /> 
 
 If you see EUL tokens and not CYB tokens, this means that the network is still in testnet, don't worry about this.
+
+Once again, lets ignore the Game of Links section for now and explore it later. Also the box stating that you made links previously, will only appear of you did make them!
 
 Your balance is most likely to be 0 unless you had a gift. If you did, you will have some tokens on your balance. If not, use one of the options above to obtain some tokens. When you make links you aren't spending any tokens. But, cyber is architectured with a bandwidth model. This means that every time you make a transaction (i.e. link) a portion of your tokens gets frozen. Your bandwidth regenerates over time, allowing you to make more transactions. This is a simple spam protection mechanism. 
 
@@ -1058,21 +1062,23 @@ By now your level of expertise as a master should be on level 42. If so, let's m
 There is so much info about GoL in this guide, that I would recommend using `Ctrl-F` key combo and search for what it is. A long story short, it's a game to help distribute CYB tokens from the pot of cyber~Congress into the hands of those who want them. The game is made for heroes, evangelists and masters. However, anyone can join and play. You don't need to have a node running to get rewards. In fact, if you've managed to complete the above levels and got as far as here, you are good to go.
 One more thing before we look at the detail. The experience you will obtain from here will carry on serving you throughout the life of cyber. As the game is based around linking... and so is cyber.
 
-Before we explore the `gol` page, you should know that the quickest way of looking at your rewards and the current breakdown can be seen on your personal `flight deck`. You already know how to get there. On cyber.page, navigate to the green eye, then click on you `cyber` address. By default, you are on the `main` screen. We need `GOL`. Click it:
+Before we explore the `gol` page, you should know that the quickest way of looking at your rewards and the current breakdown can be seen on your personal `flight deck`. You already know how to get there. On cyber.page, navigate to the green eye, then click on you `cyber` address. By default, you are on the `main` screen. We need `GOL`. Click it. This is your personal GoL dashboard:
 
 <img src="https://i.postimg.cc/wjWLhMcM/Screenshot-from-2020-04-08-14-51-30.png" />
 
 You can see all the disciplines, which we will explore, one by one. The max available reward, the current (to be paid out in the future) reward. And most importantly, `CYB won` section, which is what you won, if anything, so far. And the same representation in percentage.
 
-Let's be brave this time and teleport straight to the [GoL section of cyber.page](https://cyber.page/gol). It's fairly easy to get here manually. Go to cyber.page, click on the brain in the top left corner and at the bottom of the page you will see the `Game of Links` button. In both cases you will end up here:
+Let's be brave this time and teleport straight to the [GoL section of cyber.page](https://cyber.page/gol). It's fairly easy to get here manually. Go to cyber.page, click on the brain in the top left corner and at the bottom of the page you will see the `Game of Links` button (in reality, there are quite a few buttons taking you here, just use whichever you like most). In all of the cases you will end up here:
 
-<img src="https://i.postimg.cc/Y0CKLQNq/Screenshot-from-2020-04-02-17-40-32.png" />
+<img src="https://i.postimg.cc/nLQkKt8M/Screenshot-from-2020-04-17-13-05-10.png" /> 
 
-As the statement above says GoL rewards for 7 disciplines account for up to 10% of the supply. That's a lot! Feel free to check out all the rules of GoL by clicking the `Details here` [button](https://cybercongress.ai/game-of-links/) in the statement at the top.
+As the statement above says GoL is a game and you can play and get rewarded for it. There is up to 10% of the supply allocated for the disciplines. That's a lot! Feel free to check out all the rules of GoL by clicking the `in the organizator's blog` [button](https://cybercongress.ai/game-of-links/) in the statement at the top.
 
-Underneath that statement, you can see the current Max prize fund, the current prize fund and the number of ATOMs donated during the takeoff round. As those are dependent on each other, they are dynamic and will change. In short, the more donated ATOMs there are, the bigger the prize fund. 
+Underneath that statement, you can see 3 boxes. The current network load, the donation goal and the fulfilment of the validator set. All of them influence the prize fund in one way or another. We will explore this later. In short, the more donated ATOMs there are, the bigger the prize fund. 
 
-Below that, there is a piechart that helps us to understand the full GoL breakdown. We can see the amount of CYB allocated max to each discipline (some are dynamic as described above) and the representation of that number in percentage. Don't spend too long on this, but do get familiar and try to understand the numbers. It is important. 
+Below that, there is a table, which we already saw in your personal dashboard. We can see the amount of CYB allocated max to each discipline (some are dynamic as described above) and the tokens you won. Don't spend too long on this, but do get familiar and try to understand the numbers. It is important. 
+
+BTW, each discipline is clickable and takes you to its own page, with an explanation or the appropriate action page. Feel free to explore!
 
 Let's move on. We need the `Masters path`, click on it:
 
@@ -1124,6 +1130,65 @@ This is not a discipline. But the idea is twofold:
 Where to get ATOM? Good question. This is entirely up to you, but here is a link to [CMC and available markets](https://coinmarketcap.com/currencies/cosmos/markets/). 
 
 Pretty simple. So what are you waiting for? Go and link...
+
+You may, of course, explore the 2 other ways of the Jedi. The `hero` path and the `evangelists` path. But we will skip them for this section.
+
+#### Using the faucet to get tokens
+What do you do if you didn't get any tokens as a gift and you want to play? Or you want more tokens to play with?
+
+Use the test\~Auction or [the faucet](https://cyber.page/gol/faucet). We have released an in-detail [blog post]() on how to use it. If you haven't read it, check it out. Otherwise, stick with me (but please check out the post for more detail).
+
+<img src="https://i.postimg.cc/02DP4zpC/Screenshot-from-2020-04-17-13-23-30.png" />
+
+The page seems a bit difficult to use. Trust me, it isn't!
+
+First of all, I would suggest you turn on your Metamsk extension. If you turned it on after visiting the page, hit the refresh button on your keyboard (F5). 
+
+There are 5 boxes on the top. The current round of the auction, the total amount of ETH spent the current price of one Giga GOL per ETH (remember that these are testnet tokens!). The time left until the end of the current window and the cap of the test tokens in ETH.
+
+The chart shows a theoretical price for one Giga GOL in ETH at each window of the auction. The price could and will change as more ETH is donated. 
+
+You can donate on any open window. Use the box below to contribute. Enter the amount in ETH and the round you want to participate in and hit `confirm`. At the bottom of the page, a notice with the tx hash will appear. You can view the transaction on Etherscan or press OK and wait for the confirmation.
+
+Once the round is closed the "claim" button should be available to grab the tokens you've won. Push it and follow the instructions of your metamask extension. 
+
+For your comfort (making transactions), you should add GOL tokens to your metamask account by adding the following contract address (once again, this is very simple and there are lots of guides on how to do it, for example [this one](https://www.youtube.com/watch?v=II7VMo5Nl7k)):
+
+```
+0xf4ecdba8ba4144ff3a2d8792cad9051431aa4f64
+```
+
+Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion to any `cyber` address. The vesting page is available by clicking `vesting`, in the box above the chart, or via [a direct link](https://rebyc.cyber.page/vesting).
+
+Please note, that you may need to connect the extension if you still haven't!
+
+If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. `Vested` GOL tokens are the tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. `Available` GOL tokens are the tokens you can vest or send. `Total` is the sum of vested and the available tokens together.
+
+To get EUL tokens you just need to pick the amount of GOL tokens you wish to vest and a `cyber` address for transferring EUL tokens. If you have previously connected your Ledger device to cyber.page, the app will automatically fill in your cyber address for you (of course, if you want to vest to a different address, you need to change it). Push the "Create vesting" button, read and check the summary and push "Create TX". Follow Metamask instructions. After the transaction is confirmed you can see an entry in the table below with the amount of GOL tokens vested, a date, a `cyber` recipient address and a hash of the transaction for the `euler` network. 
+
+The GOL tokens you have just vested will be moved to the `Vested` section, and the `Available` for transfer amount of GOL tokens will decrease by the vested value. 
+
+Congratulations!  You have EUL tokens for interacting with the `euler` test network!
+
+#### Exploring the knowledge graph
+By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
+
+You've been working hard on linking day and night, trying to get some tokens, right? What could be better than seeing your work painted by an artist?
+
+In your browser, go straight to the [page of the graph](https://cyber.page/graph)... Enjoy!
+
+This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
+
+#### Takeoff 
+You might have gotten here yourself while you were exploring GoL. If not, just head over to the [takeoff page manually](https://cyber.page/gol/takeoff).
+
+<img src="https://i.postimg.cc/zGrPGB4p/Screenshot-from-2020-04-17-13-16-25.png" />
+
+Underneath the statement box, we see the 5 main metric boxes, the end of the takeoff, the number of ATOM tokens left till its end, the amount of CYB allocated (remember how they are all dynamic, right?), the current takeoff discount and finally, the price per one Giga CYB in ATOM. 
+
+Above the chart, there are 3 buttons. By default, the `main` button is clicked. This shows a theoretical chart. As time progresses, so does the amount of donated ATOM and the amount of allocated CYB grows. The more ATOM is donated, the more CYB tokens are allocated. The discount falls. This means that the earlier you donate, the higher your discount is if more ATOM tokens are donated! 
+
+At the bottom of the graph, we see the countdown to the takeoff timer! Keep an eye on it!
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
