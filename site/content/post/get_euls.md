@@ -1,5 +1,5 @@
 ---
-date: 2020-04-16
+date: 2020-04-17
 url: how-to-get-eul-tokens-if-you-have-none
 title: 'How to get EUL tokens if you have none?'
 author: savetheales
