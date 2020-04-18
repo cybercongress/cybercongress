@@ -4563,56 +4563,56 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Rumours: The mentions of validators addresses, a tag
 - RPC: 
 - SDK:
-- Seed Node:
+- Seed Node: A node that allows other nodes to communicate with it
 - Sentinel Node:
-- Service Node:
-- Semantics:
-- Semantical field:
-- Server:
-- Service:
-- Slashing:
-- Slash Fraction:
-- Smart Contrats:
-- Stake:
-- Staking address:
-- Storage:
-- String:
+- Service Node: Any node used specifically for the broadcast of any service
+- Semantics: The study of meaning 
+- Semantical field:  A set of words grouped semantically that refers to a specific subject
+- Server: A computer that should always be on and that provides some kind of service via itself to others
+- Service: Referring to a specific project or an app 
+- Slashing: The automatic fines, agreed upon by a consensus, applied to validators for misbehaving
+- Slash Fraction: 
+- Smart Contracts: Proggrambable behaviour of code 
+- Stake: The weight os a user
+- Staking address: The address on which someone has frozen their balance to receive inflation rewards
+- Storage: The physical memory of a computer
+- String: A sequence of characters
 - Subject: 
-- Supercomputer:
-- Superintellegence:
-- Supply:
-- Takeoff:
-- TCYB:
-- Tendermint:
-- Test Autcion:
-- Test of Thrones (ToT):
-- THC:
-- The Game:
-- The Great Web:
-- The Evolution of Spicies:
-- Tilda:
-- Token:
+- Supercomputer: A powerful computer
+- Superintelligence: Cyber in this case
+- Supply: The total amount of the tokens
+- Takeoff: The donation round that starts the  public donation process
+- TCYB: Tera CYB = 1,000,000,000,000
+- Tendermint: A consensus engine used by cyber
+- Test Auction: The testing part of cybe~Auction, primarily used as a faucet
+- Test of Thrones (ToT): The testing part of Game of Thrones
+- THC: The mainnet governance token
+- The Game: A name for the Game of Links
+- The Great Web: Our name for web3
+- The Evolution of Species: The manifest of cyber~Congress
+- Tilda: ~ a symbol used to represent ambiguity and everything else
+- Token: Referring to CYB, THC, EUL, GOL or any other digital token
 - Tolerance: 
-- Toolkit:
-- Threshold: 
-- Transaction or tx:
-- Tx Cost:
-- Ubuntu:
-- Unbond:
-- Unstake:
-- Uptime:
-- Urbit:
-- URL/URI:
-- Validator:
-- Vesting:
+- Toolkit: A developers kit with for a specific purpose
+- Threshold: A level needed to pass something. Let's say 50%
+- Transaction or tx: A process. Exchange of digital value
+- Tx Cost: The cost of a transaction
+- Ubuntu: Free, open-source Linux distributive
+- Unbond: 
+- Unstake: Unfreeze your tokens to make them liquid
+- Uptime: The amount of time a validator node was working without stopping/missing blocks
+- Urbit: A 4th generation computing project. Your personal server with a virtual machine
+- URL/URI: Unified locator resource. The link in web2 pointing to any resource
+- Validator: A node or a person running a node to support the infrastructure
+- Vesting: Locking tokens for some time to receive something at the end of time
 - Vesting Companion:
-- Veto:
-- Web-2:
-- Web-3:
-- White Paper:
-- Winter Round:
-- Will:
-- Withdraw: 
+- Veto: A message/voice used to refuse something with authority
+- Web-2: The internet before blockchain 
+- Web-3: The new internet where communication is safer, more efficient and incentivized
+- White Paper: The main scientific document of a project describing its intentions
+- Winter Round: Cybers first public seed donator round for friends
+- Will: The will of a user in cyber. I.E. their intention to do something
+- Withdraw: To take out your tokens/balance
 
 ------------------------------------------------------
 
