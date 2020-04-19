@@ -1,4 +1,12 @@
+---
+date: 2020-04-19
+url: how-to-import-cyberlinks-from-euler-5-to-euler-6
+title: 'How to import cyberlinks from `euler-5` to `euler-6`'
+author: savetheales
+---
+
 # How to import cyberlinks from `euler-5` to `euler-6`
+
 This guide will explain several ways to migrate your cyberlinks. 
 
 Following [our migration proposal](https://cybercongress.ai/euler-6-migration/), the [IPLD structure](https://io.cybernode.ai/api/v0/dag/get?arg=bafyreibnn7bfilbmkrxm2rwk5fe6qzzdvm2xen34cjdktdoex4uylb76z4/) with the links made by masters has been prepared and is ready to be moved across testnets. These are the tools masters can use to migrate their links from `euler-5` to `euler-6` network, depending on how you created your links:
@@ -25,6 +33,7 @@ Nice! Connect your Ledger device to the [cyber.page app and pocket it](https://c
 4. Confirm the transaction data on your Ledger device, press `Fuck Google` on the screen, rinse and repeat until done. 
 
 ## All my cyberlinks were done using the CLI
+
 1.In this case, import your `cyber` address manually by clicking the `put read-only address` button: 
 
 ![connetc_ledger](main_page.png)
@@ -50,6 +59,7 @@ cyberdcli tx broadcast  <PATH_TO_TX_LINK>/tx_links_signed.json --chain-id euler-
 6. After the transaction has been confirmed by the network, you will see your `euler-5` links in the `euler-6` network.
 
 ## All of my cyberlinks were done using cyb~Virus
+
 1. Open the cyb~Virus extension and export your private key
 
 2. You need to import your private key into cyber, using the CLI. Open the console and import the key:
@@ -69,4 +79,3 @@ cyberdcli tx broadcast  <PATH_TO_TX_LINK>/tx_links_signed.json --chain-id euler-
  This will return your cyber address (under the name you picked earlier). Copy the `cyber` address.
  
  4. Go to the ` All my cyberlinks were done using the CLI` section of this document and do steps 1 - 6.
- 
