@@ -4465,7 +4465,7 @@ In general, think of cyber as of a completely brand-new mechanism for obtaining 
 Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one space to refer to as a dictionary of the cyber subculture and everything that has to do with cyber:
 
 - 42: A philosophical reference to the meaning of life from the Hitchikers guide to the galaxy 
-- Adjust Period: 
+- Adjust Period: The time period which it takes to recalculate the result of multiplying the credit price * message cost
 - Account: Referring to a users address from where he links something or from which a validator node is launched 
 - AI: Artificial Intelligence. Cybers ability to predict subjective relevance works just like a human mind would, hence, making it smart
 - Alias: The nick of the node of a validator
@@ -4477,8 +4477,8 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - ATOM: The main token of the Cosmos blockchain, used for governance and securing the network
 - App: A short word for application. For example the auction app
 - Bandwidth: The amount of something needed to pass something. I.E. I need 5 people to move 10 stones from room A to be. In cyber bandwidth is the main spam protection mechanism. All transactions require bandwidth
-- Base Credit: 
-- Base Proposer:
+- Base Credit: The base price of a message in the chain. When the load is normal it equals to 1
+- Base Proposer: The validator that proposes the next block. Validators recieve rewards for this
 - Balance: The amount of CYB or THC tokens on your account
 - Blockchain: A distributed database with a consensus about the current state and time
 - Bonus Proposer: 
@@ -4486,7 +4486,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Bond / Bonding: To bond, your tokens means to keep them with a validator so that they are frozen and are eligible to receive a reward 
 - Build: A version or an iteration from several components. Usually refers to testing software- CLI:
 - Calculating period: 
-- Cap / Capitalization:  
+- Cap / Capitalization: The value of cyber in monetary terms. The multiplication of a cost of unit by their amount 
 - Chaingear: An app that can create blockchain databases. For example, it can create custom domain names 
 - Chain ID: The current name of the blockchain. I.E. euler-6 or cyber-3 (the number is referring to the latest release
 - CHANGELOG: A log of changes in regards to coding. Helps to keep track of what went on
@@ -4500,7 +4500,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Config: Short for configuration. Usually referring to a file. I.E. the config of the node
 - Confirmation: The approval of a transaction
 - Content: Anything cyberlinked into cyber
-- Content based addressing:
+- Content based addressing: The new addressing IPFS uses. Rather then searching for the location of content, we search for the content itself
 - Consensus: Agreement on something. The agreement of validators on the state of cybers chain
 - Consensus Computer: A validator node or a computer that is used specifically to achieve consensus
 - Contributors: People who contribute to cyber
@@ -4526,7 +4526,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - cyb~Virus: An outdated extension that was used to download pages into IPFS and create links
 - cyber~Wednsday: The name of cybers dev logs
 - cyberd: The name of cybers main repository. The protocol engine itself
-- cyberindex:
+- cyberindex: Cybers database that parses (indexes) the chain in realtime
 - cyberlink: Hyperlink v. 2.0. A link between two CIDs enriched semantically
 - cybernomics: New age economics with blockchain and other decentralized instruments
 - cyber WASM: Allows enabling high-performance application for web pages. Allows cyber to create efficient smart contracts
@@ -4536,7 +4536,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Damping Factor:
 - Delegation: Giving your tokens to someone in a safe way where they cant be used by the person you gave them to, but can be used on your behalf
 - Delegator: A person who delegates tokens. Usually to a validator
-- Desirible Bandwidth: 
+- Desirable Bandwidth: 
 - Dev Environment: An environment in which a developer works. For example, a specific program that is used to write certain code 
 - Dev Log: Cybers bi-weekly Congress report
 - Discipline: A type of game in the Game of Links. I.E. amount of links submitted (in sports referring to a sport discipline, i.e. running)
@@ -4598,7 +4598,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Issue: A task on GitHub
 - Jail: When a validator misbehaves (does something he isn't supposed to like missing too many blocks or double signing) he gets jailed
 - Karma: The reputation of a user in cyber. Karma points are given for creating cyberlinks and is not transferable
-- Kernel: 
+- Kernel: The very heart of a program 
 - Key/s: Any key, private or public, of a user
 - Keystore: A place where keys are stored
 - Keyring: Referring to the encryption and storage of keys, usually via CLI
@@ -4615,7 +4615,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Liquid Share: The same as liquid tokens
 - Liquid Tokens: Tokens that can be spent, transferred. Also, tokens that have market demand
 - Load: One of the disciplines of the Game of Links. The more you link, the better
-- Location based addressing:
+- Location based addressing: The web2 style of searching content. Looking for the address of where the content lies
 - Log: A place to write events
 - Manifest: The evolution of species manifest of cyber~Congress
 - Master: Users of cyber
@@ -4629,7 +4629,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Network: A connection of nodes and/or peers
 - Node: A computer that is doing computation for something particular. A cyber validator node for example
 - NVIDIA: Brand of graphics card
-- Object: 
+- Object: The CID. Content identificator pointing to a hash of a content
 - OBEP: Open Bootstrap Evangelist Program. The ambassadors' program for the launch of cyber
 - Open Source: Code that is written in a manner where everyone can see it. Can be used about many things, not just code
 - Organic: A natural way of developing/evolving something
@@ -4668,13 +4668,13 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Server: A computer that should always be on and that provides some kind of service via itself to others
 - Service: Referring to a specific project or an app 
 - Slashing: The automatic fines, agreed upon by a consensus, applied to validators for misbehaving
-- Slash Fraction: 
+- Slash Fraction: The percent of the punishment (the burned tokens) that a validator can expect if he gets slashed
 - Smart Contracts: Proggrambable behaviour of code 
 - Stake: The weight os a user
 - Staking address: The address on which someone has frozen their balance to receive inflation rewards
 - Storage: The physical memory of a computer
 - String: A sequence of characters
-- Subject: 
+- Subject: The address of a user
 - Supercomputer: A powerful computer
 - Superintelligence: Cyber in this case
 - Supply: The total amount of the tokens
