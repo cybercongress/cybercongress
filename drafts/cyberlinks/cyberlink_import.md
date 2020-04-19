@@ -1,10 +1,10 @@
 # How to import cyberlinks from `euler-5` to `euler-6`
 This guide will explain several ways to migrate your cyberlinks. 
 
-According to [our migration proposal](https://cybercongress.ai/euler-6-migration/), the [IPLD structure](https://io.cybernode.ai/api/v0/dag/get?arg=bafyreibnn7bfilbmkrxm2rwk5fe6qzzdvm2xen34cjdktdoex4uylb76z4/) with the links made by masters has been prepared and is ready to be moved across testnets. These are the tools for masters to migrate their links from `euler-5` to `euler-6` network, depending on how you created your links:
+Following [our migration proposal](https://cybercongress.ai/euler-6-migration/), the [IPLD structure](https://io.cybernode.ai/api/v0/dag/get?arg=bafyreibnn7bfilbmkrxm2rwk5fe6qzzdvm2xen34cjdktdoex4uylb76z4/) with the links made by masters has been prepared and is ready to be moved across testnets. These are the tools masters can use to migrate their links from `euler-5` to `euler-6` network, depending on how you created your links:
 
 ## All of my cyberlinks were done using a Ledger 
-Nice! Connect your Ledger device to the [cyber.page app and pocket it](https://cyber.page/pocket) by clicking to the robot icon in the top right corner and pushing the `put ledger` button. If you don't see the button, your cookies have been saved and you should just skip the first step.
+Nice! Connect your Ledger device to the [cyber.page app and pocket it](https://cyber.page/pocket) by clicking the robot icon in the top right corner and pushing the `put ledger` button. If you don't see the button, your cookies are saved and you should just skip the first step.
 
 1. Your Ledger should be connected to the computer and the cosmos app should be open:
 
@@ -58,17 +58,15 @@ cyberdcli tx broadcast  <PATH_TO_TX_LINK>/tx_links_signed.json --chain-id euler-
  cyberdcli keys add private <your_key_name>
  ```
  
- <your_key_name> is just any random nickname you choose. The system will ask you to enter a passphrase, you should do this too. 
+ <your_key_name> is just any random nickname you choose. The system will ask you to enter a passphrase, you should do this. 
  
- 3. Next type in the following command:
+ 3. Next, type in the following command:
  
  ```bash
  cyberdcli keys list
  ```
  
- This will return your cyber address (under the name you picked earlier). Copy the `cyber` address
+ This will return your cyber address (under the name you picked earlier). Copy the `cyber` address.
  
- 4. Now go to the ` All my cyberlinks were done using the CLI` of this document and do steps 1 - 6.
- 
-
+ 4. Go to the ` All my cyberlinks were done using the CLI` section of this document and do steps 1 - 6.
  
