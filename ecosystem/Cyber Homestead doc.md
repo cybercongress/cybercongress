@@ -137,6 +137,12 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Possible future amendments](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#possible-future-amendments)
   * [Where is the money Lebowski?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#where-is-the-money-lebowski)
 ------------------------------------------------------
+- [Section subtitle: `Incoming missile alert` - Prepare to retaliate]()
+  * [cyber~Evangelists]()
+    * [OBEP]()
+    * [How to read the gospel]()
+    * [How to spread the word]()
+------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
   * How does cyber work?
   * Governance
@@ -3823,7 +3829,99 @@ We can break the understanding of this into 4 categories. Before we do that. It 
 - Heroes: the validators of cyber. Possibly large donators, but primarily infrastructure providers. Earn from supplying infrastructure and inflation
 - Masters: the users of cyber. The largest group. They can have an income from inflation via delegating to heroes. They can also take part in shaping up web3, providing services, marketing, advertising, selling goods, creating markets, etc, in the new Great Web
 
-------------------------------------------------------
+-------------------------------------------------------
+
+## :: Section subtitle: `Incoming missile alert` - Prepare to retaliate
+> Captain, the computer is delivering hostile actions. Preparing missiles to fire back... Wait! Let's send our secret weapon across. Teleport the evangelists!
+
+This section will explain about the ambassadors of cyber. They are the projects evangelists. They are the secret weapon building a social knowledge graph using their skills and a set of tools provided by cyber to earn karma and rewards.
+
+### cyber~Evangelism
+Cyber understands that it needs a secret weapon to battle evil. The evangelists of cyber have several tasks:
+
+- Help to boost the Superintelligence into space by helping with the takeoff round
+- Help building the initial social graph and attracting developers, heroes and masters
+- Help spread the gospel to as many people as possible
+
+They are a free entity, helped by a coordinator, at first as part of the euler~Foundation with the help of cyber\~Congress, only then to become so powerful as to separate from the Congress and to become a special unit of the cyber\~Foundation. The main dish of the protocol.
+
+The evangelists are a techno religious entity. They are free to perform the actions they believe in, after they become blessed by the gods of cyber. However, they can sin and get punished by getting kicked out of heaven. 
+
+Behind the scenes, the magic happens using Aragon and euler~Foundation:
+
+- Evangelists live in [euler~Fondation](https://mainnet.aragon.org/#/eulerfoundation) on ETH mainnet
+- We use one of [our apps](https://github.com/cybercongress/aragon-evangelism-app) to perform the transformation of believers into evangelists
+- Believers sacrifice themselves via [cyber.page](https://cyber.page/) and submit a form (all using a Ledger)
+- They get blessed by [the current gods](https://mainnet.aragon.org/#/cybercongress) 
+- They start to build their social knowledge graph and earn rewards
+
+#### OBEP
+OBEP stands for Open Bootstrap Evangelism program. This is the initial evangelism program for cyber to help during the kickoff and the takeoff donation round. Evangelists who get blessed during this period, have a very powerful reputation boost in the future of cyber. Their religious karma can become so powerful, they might become gods themselves. You never know.
+
+Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during the Game of Links and Game of Thrones and more perks, such as:
+
+- Rewards in ATOM
+- CYB tokens for specific actions
+- Honourable lifetime badge Genesis Evangelist of Cyber
+- Early knowledge of popularity mechanisms in web3
+- A possibility to become an early adopter of web3
+
+There are NO guidelines or rules for the program itself. Do what you believe will work. However, 2 requirements are necessary to receive rewards:
+
+1) You must become an acknowledged Evangelist to receive a reward in ATOM or/and CYB. We want to exclude scam behaviour and situations when the project has been evangelised by people without a thorough understanding of the project.
+2) You must have proof that a particular donation came thanks to your amazing evangelism. An address or a nickname in the memo field of the donated transaction is proof that no one can reject.
+
+The full rules of the program can be [found here](https://github.com/cybercongress/congress/edit/master/ecosystem/donations/obep.md).
+
+#### How to read the gospel
+Go to [cyber.page/path/evangelist](https://cyber.page/path/evangelist) and apply for the program. You will either receive an automated acknowledgement (blessing) or we will contact you to ask you any additional questions. For example, we could ask you to commit something to the knowledge graph. Or you might get accepted based on the fact that you have helped to bring in donations. So don't hesitate. That is decentralization. Do not wait for our approval, but please understand our concern! Manual acknowledgements are the only way that our project can defend itself from scammers at this early stage.
+
+Once you apply, you will get your referral link. It looks like this:
+```
+https://cyber.page/thanks/xhipster
+```
+You can append `/thanks/[yournick]/` to any part of the [cyber.page](https://cyber.page/) app. e.g:
+```
+https://cyber.page/search/google/thanks/xhipster
+https://cyber.page/takeoff/thanks/xhipster
+```
+
+Referral attributions work best on first click basis.
+
+#### How to spread the word
+We believe it is important to understand the working of what is under the hood. One of our noble goals is to create a new verb:
+
+```
+cyber: to do something intelligent, to find something smart
+```
+
+The path with the necessary information to kick you off:
+
+1. Read the basic materials: [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ), [ELI-5 FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md), [our blog](https://cybercongress.ai/post/), [Game of Links rules](https://cybercongress.ai/game-of-links/), [gift info](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md) and the [homestead draft](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md). It would be a good idea to discover [Protoschool](https://proto.school/) and get some tutorials about how [IPFS](https://ipfs.io/) works. You don't need to fully understand all of this, but try to grasp the general idea and get a feel of it.
+
+2. Feel free to go on and test [cyber~Page](https://cyber.page/). Cyberlink something. Try to [search something](https://cyber.page/search/google). Go to the [Game of Links monitor](https://cyber.page/gol) and enjoy our approach of a decentralised launch of a superintelligent computer. Learn the [stats](https://cyber.page/brain). Imagine [how cool](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md) the search could be if we teach cyber a bit more together.
+
+3. Find out that everything is real and [the code is 100% open](https://github.com/cybercongress).
+
+4. If you have questions, go to our [TG channel](https://t.me/fuckgoogle). If you want to spur a discussion, then you are welcome at [cyber~Forum](https://ai.cybercongress.ai/). Or you can spread the love with us on [Twitter](https://twitter.com/cyber_devs), [Reddit](https://www.reddit.com/r/cybercongress/) or any [other social channels](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#partnering-communities).
+
+5. It's time to act. Here are the ideas:
+
+|Action  | Rewards | Terms |
+|:----------|:-------------:|------:|
+| [Translation](https://github.com/cybercongress/cyber/issues/32) | 20 GCYB | Any language! |
+| [Meetup](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6) | 20 GCYB | One person - one meetup. Video proof |
+| [Community creation](https://t.me/fuckgoogle) | 2 GCYB | One person - one channel. Discussion proof |
+| [Content creation](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/40/55) |  2 GCYB |  Video, podcast or blog. Unlimited per person
+| [Donation](https://cyber.page/takeoff)  | 1 GCYB  | For each 1k ATOM donated |
+
+*Please note, that payouts will only be done if the results are cyberlinked and content proof exists.*
+
+We are not defining quality terms. Most likely, you will still receive a reward for shitty content if the task was done, but expect to be disqualified from the program, or instructed, depending on your will to learn. 
+
+Coordinator aka @serejandmyself will have a personal incentive in the form CYB for evangelist attraction. For the first evangelist (not including team members of cyber~Congress) the coordinator receives 15 GCYB. For every next evangelist (not including team members of cyber ~Congress) the reward decreases by 10%. 
+
+-------------------------------------------------------
 
 ## :rocket: Section subtitle: `Houston` we (don't) have a problem
 > How typical is it for a spaceship to break when you least wait for it... Earth is not seen to the naked eye anymore, but you don't really miss home. Let's upgrade our knowledge by actaulyl doing things this time.
