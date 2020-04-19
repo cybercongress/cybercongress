@@ -137,7 +137,7 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Possible future amendments](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#possible-future-amendments)
   * [Where is the money Lebowski?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#where-is-the-money-lebowski)
 ------------------------------------------------------
-- [Section subtitle: `Incoming missile alert` - Prepare to retaliate]()
+- [Section subtitle: `Incoming missile alert` - Prepare to retaliate](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#church-section-subtitle-incoming-missile-alert---prepare-to-retaliate)
   * [cyber~Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberevangelism)
     * [OBEP](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#obep)
     * [How to read the gospel](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-read-the-gospel)
