@@ -4379,7 +4379,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - ATOM: The main token of the Cosmos blockchain, used for governance and securing the network
 - App: A short word for application. For example the auction app
 - Bandwidth: The amount of something needed to pass something. I.E. I need 5 people to move 10 stones from room A to be. In cyber bandwidth is the main spam protection mechanism. All transactions require bandwidth
-- Bas Credit: 
+- Base Credit: 
 - Base Proposer:
 - Balance: The amount of CYB or THC tokens on your account
 - Blockchain: A distributed database with a consensus about the current state and time
@@ -4391,7 +4391,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Cap / Capitalization:  
 - Chaingear: An app that can create blockchain databases. For example, it can create custom domain names 
 - Chain ID: The current name of the blockchain. I.E. euler-6 or cyber-3 (the number is referring to the latest release
-- CHANGELOG:
+- CHANGELOG: A log of changes in regards to coding. Helps to keep track of what went on
 - CID: Content Identificator. A hash that represents content
 - Citizen Cosmos: The name of the podcast about cosmos ecosystem by cyber
 - Client: Referring to the software a user is using. What client are you using? I'm using the front end application
@@ -4409,7 +4409,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Cosmos: A protocol and a blockchain project meant to become the internet of blockchains. cyber is build with cosmos-SDK
 - Cosmonauts: Users of Cosmos. Can be users of any cool blockchain
 - Crawler: A program or a bot that crawls the web for info. In cyber, a program to deliver web2 content to cyber
-- CUDA:
+- CUDA: A computing platform and an application from NVIDIA. It allows software developers to use CUDA-enabled GPUs for general-purpose processing
 - cyb: The name of cyber web3 browser
 - CYB: The name of the mainnet token
 - cyber: Referring to either the project itself or used as a verb, to find something smart
@@ -4431,7 +4431,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - cyberindex:
 - cyberlink: Hyperlink v. 2.0. A link between two CIDs enriched semantically
 - cybernomics: New age economics with blockchain and other decentralized instruments
-- cyber WASM: 
+- cyber WASM: Allows enabling high-performance application for web pages. Allows cyber to create efficient smart contracts
 - DAO: A decentralized autonomous organisation governed by shareholders via governance
 - Decentralization: A process which is the opposite of centralization. Lacking a central point of authority
 - Daemon: A program's engine
@@ -4447,11 +4447,11 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - DNS: Domain Name System. A web2 system where domain names are registered to a certain user
 - Donations: The process where a user sends ATOM or ETH to cyber~Congress or Foundation 
 - dot~Cyber: The developer's name of cyber.page
-- Double sign: 
+- Double sign: Referring to what a validator double signs the same block. Seen as malicious behaviour and slashed
 - Downtime: The time during which a node of a validator isn't working 
 - DURA: distributed unified resource address. Cybers equivalent of an URL (an abbreviation for uniform resource locator), which is what you see in your browser when you visit a web2 website.
 - ELI-5: Explain it like I'm 5 frequent question guide about cyber
-- Entity: 
+- Entity: An object that exists. For example, cyber~Congress DAO
 - Endpoint: A device like a node that is responsible for specific communication back and forth in a network
 - Episode I/II, etc: The names of cyber's roadmap stages regarding Star Wars
 - Ethereum: One of the most notorious blockchain projects. A distributed computer for decentralized applications 
@@ -4464,7 +4464,6 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Fork: A friendly or, not-so-friendly, taking of open source code and copying it 
 - FVS:  Full validator set. Referring to a Game of Links discipline
 - fuckgoogle: The motto of cyber. Also a nickname for certain devices used by cyber~Congress
-- Fullnode:
 - Galt Space: A blockchain project for creating a unified distributed registry for housing
 - Game of Links (GoL): The first stage of the distribution games where participants play against cyber~Congress to acquire as many tokens as possible 
 - Game of Thornes (GoT): The second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress. Also window 0 of the Auction
@@ -4481,7 +4480,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - GOL: The test name of THC, the governance tokens of cyber on Ethereum
 - Governance: The process in which stakeholders of a project decide on the future of the project viz voting
 - GPU: Graphical User Interface. A graphics card
-- Gravity:
+- Gravity: An interface library used by cyber
 - Hardware wallet: A blockchain wallet that can hold tokens in a form of device. Mostly Ledger
 - Hash: An encrypted representation of something that proves that something is what it is meant to be without revealing additional information
 - Hero: A validator node
@@ -4506,10 +4505,10 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Keystore: A place where keys are stored
 - Keyring: Referring to the encryption and storage of keys, usually via CLI
 - Knowledge Graph: A knowledge base used to enhance users search results with information gathered by users (from cyberlinks)
-- KMS: 
+- KMS: Key Management service for Tendermint Validator nodes used by Tendermint and cyber
 - Launch: The start of something. Usually technical 
 - Launch-kit: The repository where we gather all the technical information about our launch for other projects to use as an example
-- LCD: 
+- LCD: Architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other
 - Ledger: A hardware wallet
 - License: An agreement for the use of something. Cybers license is don't believe, don't fear, don't ask
 - Lifetime: Referring to a lifetime of a validator node. The amount of time it was up
@@ -4527,7 +4526,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Migration: To change the place of a chunk of code or tokens or anything else form one place to another
 - Module: A separate unit of something. Modules answer for different zones of the chain
 - Moniker: The nickname of the validator
-- Msg Cost: 
+- Msg Cost: The current cost of a message (transaction)
 - Multisig: An address with more than one signature in it
 - Network: A connection of nodes and/or peers
 - Node: A computer that is doing computation for something particular. A cyber validator node for example
@@ -4543,28 +4542,28 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Peer: can be thought of as a user
 - Pocket: Referring to cyber.page. Pocketing your ledger = connecting it
 - Port: In computing the address of something
-- Prometheus: 
+- Prometheus: Free software application used for event monitoring and alerting (for nodes)
 - Protocol: A set of rules and/or guidelines for anything
 - Pubkey: Public key. The public key of a node
 - Pull Request: A commit by a user or a developer for a specific task that can be used by the project 
 - Query: To find something out
-- Quorum:
+- Quorum: The majority needed to agree on something
 - Rank: The particular ordered number of something. I.E. 3 out of 10
 - RC or Resource Credits: The name of the model in cyber where we calculate the number of resources needed to make transactions. Bandwidth
-- Recovery Period: 
+- Recovery Period: The period it takes for your energy (bandwidth) to recover in cyber 
 - Release: A particular version of something
 - Relevance: The ability to retrieve something that satisfies needs
 - Repository: A place where code is gathered. Usually referring to GitHub
 - Reputation: The overall quality of someone by which he is judged. See Karma
 - Reward: Something that is returned or given in exchange for something else. Rewards in CYB can be acquired via staking, GoL and governance
 - Roadmap: The plan of the team 
-- Root: 
+- Root: The root directory or the root CID. The origin of the chain that is in question
 - Routing: The direction something is travelling
 - Rumours: The mentions of validators addresses, a tag
-- RPC: 
-- SDK:
+- RPC: Remote procedure call is when a computer program causes a procedure to execute in a different address space (commonly on another computer on a shared network)
+- SDK: Software Developer Kit. A tool kit used by a developer referring to a particular subject. I.E. a programming language
 - Seed Node: A node that allows other nodes to communicate with it
-- Sentinel Node:
+- Sentinel Node: A node used for security purposes to add as an extra node on the path to something
 - Service Node: Any node used specifically for the broadcast of any service
 - Semantics: The study of meaning 
 - Semantical field:  A set of words grouped semantically that refers to a specific subject
@@ -4598,14 +4597,14 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Transaction or tx: A process. Exchange of digital value
 - Tx Cost: The cost of a transaction
 - Ubuntu: Free, open-source Linux distributive
-- Unbond: 
+- Unbond: To get your tokens ready for bieng liquid
 - Unstake: Unfreeze your tokens to make them liquid
 - Uptime: The amount of time a validator node was working without stopping/missing blocks
 - Urbit: A 4th generation computing project. Your personal server with a virtual machine
 - URL/URI: Unified locator resource. The link in web2 pointing to any resource
 - Validator: A node or a person running a node to support the infrastructure
 - Vesting: Locking tokens for some time to receive something at the end of time
-- Vesting Companion:
+- Vesting Companion: A programm that helps cyber to vest tokens during the auction from one chain in another
 - Veto: A message/voice used to refuse something with authority
 - Web-2: The internet before blockchain 
 - Web-3: The new internet where communication is safer, more efficient and incentivized
