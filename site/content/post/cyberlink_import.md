@@ -5,8 +5,6 @@ title: 'How to import cyberlinks from `euler-5` to `euler-6`'
 author: savetheales
 ---
 
-# How to import cyberlinks from `euler-5` to `euler-6`
-
 This guide will explain several ways to migrate your cyberlinks. 
 
 Following [our migration proposal](https://cybercongress.ai/euler-6-migration/), the [IPLD structure](https://io.cybernode.ai/api/v0/dag/get?arg=bafyreibnn7bfilbmkrxm2rwk5fe6qzzdvm2xen34cjdktdoex4uylb76z4/) with the links made by masters has been prepared and is ready to be moved across testnets. These are the tools masters can use to migrate their links from `euler-5` to `euler-6` network, depending on how you created your links:
