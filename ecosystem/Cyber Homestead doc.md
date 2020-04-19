@@ -138,10 +138,10 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Where is the money Lebowski?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#where-is-the-money-lebowski)
 ------------------------------------------------------
 - [Section subtitle: `Incoming missile alert` - Prepare to retaliate]()
-  * [cyber~Evangelists]()
-    * [OBEP]()
-    * [How to read the gospel]()
-    * [How to spread the word]()
+  * [cyber~Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberevangelism)
+    * [OBEP](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#obep)
+    * [How to read the gospel](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-read-the-gospel)
+    * [How to spread the word](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-spread-the-word)
 ------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
   * How does cyber work?
@@ -3831,7 +3831,7 @@ We can break the understanding of this into 4 categories. Before we do that. It 
 
 -------------------------------------------------------
 
-## :: Section subtitle: `Incoming missile alert` - Prepare to retaliate
+## :church: Section subtitle: `Incoming missile alert` - Prepare to retaliate
 > Captain, the computer is delivering hostile actions. Preparing missiles to fire back... Wait! Let's send our secret weapon across. Teleport the evangelists!
 
 This section will explain about the ambassadors of cyber. They are the projects evangelists. They are the secret weapon building a social knowledge graph using their skills and a set of tools provided by cyber to earn karma and rewards.
