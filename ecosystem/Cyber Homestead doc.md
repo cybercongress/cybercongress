@@ -4481,11 +4481,11 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Base Proposer: The validator that proposes the next block. Validators recieve rewards for this
 - Balance: The amount of CYB or THC tokens on your account
 - Blockchain: A distributed database with a consensus about the current state and time
-- Bonus Proposer: 
+- Bonus Proposer: A reward for the proposing validator if they collected 2/3 precommits while signing a block
 - Brain: The part of cyber.page which shows important information, like statistics
 - Bond / Bonding: To bond, your tokens means to keep them with a validator so that they are frozen and are eligible to receive a reward 
 - Build: A version or an iteration from several components. Usually refers to testing software- CLI:
-- Calculating period: 
+- Calculating period: The time frame, measured in blocks, that points to how often the graph is recalculated 
 - Cap / Capitalization: The value of cyber in monetary terms. The multiplication of a cost of unit by their amount 
 - Chaingear: An app that can create blockchain databases. For example, it can create custom domain names 
 - Chain ID: The current name of the blockchain. I.E. euler-6 or cyber-3 (the number is referring to the latest release
@@ -4536,7 +4536,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Damping Factor:
 - Delegation: Giving your tokens to someone in a safe way where they cant be used by the person you gave them to, but can be used on your behalf
 - Delegator: A person who delegates tokens. Usually to a validator
-- Desirable Bandwidth: 
+- Desirable Bandwidth: The optimal load of the network for the adjust period. Influences the Base Credit price
 - Dev Environment: An environment in which a developer works. For example, a specific program that is used to write certain code 
 - Dev Log: Cybers bi-weekly Congress report
 - Discipline: A type of game in the Game of Links. I.E. amount of links submitted (in sports referring to a sport discipline, i.e. running)
