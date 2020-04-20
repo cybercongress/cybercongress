@@ -36,4 +36,4 @@ Who are we? We are primary, the generation who was born on the edge of the new m
 This proposal will kick off the [first takeoff donation round](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where) in ATOM for the [cyber\~Congress DAO](https://mainnet.aragon.org/#/cybercongress), the DAO behind the launch of [cyber](https://github.com/cybercongress/go-cyber). The donations will affect [the outcome of the Game of Links](https://cyber.page/gol). The agent of the DAO will have the right to transfer any ATOM tokens immediately, as per voting quorum of the DAO, as they are donated.
 
 ### Action
-By voting `yes` on this proposal I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the 27th of April 2020 ~ 18.50 UTC (Cosmos block #1677776) is a good first step.
+By [voting `yes` on this proposal](https://cyber.page/governance/2) I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the 27th of April 2020 ~ 18.50 UTC (Cosmos block #1677776) is a good first step.
