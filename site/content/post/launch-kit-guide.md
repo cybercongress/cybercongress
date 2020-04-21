@@ -43,7 +43,7 @@ Before we move on to the workflow and why you should use it, let’s examine wha
 - [`Lifetime rewards tool`](https://github.com/cybercongress/launch-kit/tree/0.1.0/lifetime_rewards_tool): Calculates rewards for validators per their precommits on a certain chain-id 
 - [`Urbit gift tool`](https://github.com/cybercongress/launch-kit/tree/0.1.0/urbit_gift_tool): Not consistent for the time being. A gift tool for Urbit addresses 
 - [`Diagram of flow`](https://github.com/cybercongress/launch-kit/blob/0.1.0/pic/protocol.png): A diagram to help you understand our flow better and to plan your own flow 
-- [`Crisis protocol`](ALES INSERT): What to do in case of a failure 
+- [`Crisis protocol`](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md#crisis-protocol): What to do in case of a failure 
 
 ### Why should you use this toolkit and how it can save you time? 
 This is an excellent question. Well, we do have the answers, but I will assume that if you are coming to use it, you should already have some answers for yourself. If you are still unsure, let me try to explain why you should use this toolkit and how it can save you time! 
