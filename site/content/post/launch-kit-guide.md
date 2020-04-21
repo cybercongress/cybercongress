@@ -90,9 +90,7 @@ Now that we finally understand what the kit includes, why we should use it and w
 6) Run [a Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) 
 7) Launch [your DAO](https://github.com/cybercongress/cyber-foundation) and [governance](https://cyber.page/governance) 
 
-<p align="center">
-   <img src="https://i.postimg.cc/ZYpcxmjN/protocol.png" />
-</p>
+![protocol](protocol.png)
 
 ### Links that may help you 
 - [Our Homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md): explains what goes where and who is who 
