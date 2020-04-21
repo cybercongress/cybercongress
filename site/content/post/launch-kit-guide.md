@@ -79,8 +79,6 @@ In the flow diagram, we describe the creation of the community DAO, the launch o
 
 You can find everything that you need in [this intro post](https://cybercongress.ai/euler-ceremony/), [cyber~Foundationrepostory](https://github.com/cybercongress/cyber-foundation) and our [awesome guide of how to create one DAO with another DAO](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md) and supply it with the necessary tools (the guide will walk you through each tool and how to set it up). 
 
-INSERT SMALLER VERSION OF WORKFLOW DIAGRAM ALES
-
 ### Flow for devs 
 Now that we finally understand what the kit includes, why we should use it and what benefits it can give, here is a short workflow we would like to suggest for devs and hackers (of course, you are welcome to change anything, this is just a suggestion): 
 
@@ -91,6 +89,10 @@ Now that we finally understand what the kit includes, why we should use it and w
 5) When everything is prepared, move it to `genesis-generator-tool/data` and use the same tool as above 
 6) Run [a Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) 
 7) Launch [your DAO](https://github.com/cybercongress/cyber-foundation) and [governance](https://cyber.page/governance) 
+
+<p align="center">
+   <img src="https://i.postimg.cc/ZYpcxmjN/protocol.png" />
+</p>
 
 ### Links that may help you 
 - [Our Homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md): explains what goes where and who is who 
