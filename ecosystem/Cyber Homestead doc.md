@@ -4364,6 +4364,8 @@ I suggest that you start your blockchain journey with Bitcoin. I will not bore y
 That's a lot... Moreover, you will probably stumble upon lots of knowledge as you go through this journey. Please note, that the above is a very random selection, yet not a very random selection at all. If you manage to read/watch through most of it. You will have a very good understanding of blockchain. Enjoy!
 
 ##### Cosmos and Tendermint
+Understanding what is Cosmos and Tendermint is vital to understand cyber. We have spoken what role they play in Cyber, now it time to grasp the tech and learn to use it.
+
 Let's break this into 2 parts. The reading and watching and doing. Reading and watching:
 
 - [Cosmos intro](https://cosmos.network/intro)
@@ -4372,18 +4374,31 @@ Let's break this into 2 parts. The reading and watching and doing. Reading and w
 - [The value proposition of Cosmos](https://blog.cosmos.network/understanding-the-value-proposition-of-cosmos-ecaef63350d?gi=b57f3eea454c)
 - [Casper vs Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae?gi=c377927883ea)
 - [EOS vs Tendermint](https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b?gi=cb9173e1ddad)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Cosmos Economics](https://github.com/xhipster/cybernomics/blob/master/applications/cosmos-economics.pdf)
+- [BFT consensus](https://github.com/xhipster/cybernomics/blob/master/computing/consensus-computing/tendermint-gosip.pdf)
+- [Cosmos WP](https://github.com/xhipster/cybernomics/blob/master/cybernetics/super-intelligence/cosmos.pdf)
 
 Doing:
 - [Cosmos SDK tutorilas](https://tutorials.cosmos.network/)
 - [Cosmos academy](http://cosmos-academy.readthedocs.io/en/master)
+
 ##### Web2 theory
-Problems with web2, web3 crash course
+Web 2 is the preceded or of web3. I have numerous explanation on the web as to what it is. There are many other, great speakers describing their view of web3. However, I believe it is vital to understand web tech in general  (it's working, especially routing and beneficiaries) and the global problems web2 brings with its current architecture. 
+
+- [Web2](https://en.wikipedia.org/wiki/Web_2.0)
+- [What are web 2 and 3: notes](https://github.com/serejandmyself/Presentations/blob/master/English/Web3/Web%203%20-%20BlockGeeks.pdf). Here I suggest you stop and check out the tech that builds the web in general. I will let you decide for yourself what to check, the options are endless.
+- [Stateful web](https://blockchainhub.net/web3-decentralized-web/)
+- [Video: Whats web3](https://www.youtube.com/watch?v=l44z35vabvA)
+- [Bitcoin economics](https://github.com/xhipster/cybernomics/blob/master/game-theory/behavior/bitcoin-economics.pdf)
+- [Econim governance](https://github.com/xhipster/cybernomics/blob/master/game-theory/conventional-economics/economics-governance.pdf)
+
+##### Search engines
+An obvious section...
+
+- [PageRank](https://github.com/xhipster/cybernomics/blob/master/cybernetics/narrow-intelligence/Ranking/pagerank.pdf)
+- [Searhc engines in practise](https://github.com/xhipster/cybernomics/blob/master/cybernetics/narrow-intelligence/Ranking/search-engines-in-practice.pdf)
+- [Adverisirial example](https://github.com/xhipster/cybernomics/blob/master/cybernetics/narrow-intelligence/motivating-game-for-adversarial-example-research.pdf)
+- [Nebulas theory](https://github.com/xhipster/cybernomics/blob/master/cybernetics/narrow-intelligence/Ranking/nebulas.pdf)
 
 ##### IBC
 To be continued
