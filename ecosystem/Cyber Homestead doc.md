@@ -156,6 +156,8 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Technical Guides](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-guides)
     * [Overview of the learning curve](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#overview-of-the-learning-curve)
       * [IPFS](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs)
+        * [IPFS companion](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs-companion)
+        * [IPFS desktop](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs-desktop)        
       * [CLI, remote node and account managent](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-remote-node-and-account-managent)
       * [Blockchain theory](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#blockchain-theory)
       * [Cosmos and Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cosmos-and-tendermint)
@@ -4102,7 +4104,7 @@ We need to understand a few things, here is a brief overview:
 - Search engine theory
 
 ##### IPFS
-We strongly suggest that you check out protoschool for understanding the basics and even become an advanced IPFS user. You don't need to understand every single thing thta is explaned, but we suggest you try to download IPFS, install the compnaion and try to run it.
+We strongly suggest that you check out Protoschool for understanding the basics and even become an advanced IPFS user. You don't need to understand every single thing that is explaned, but we suggest you try to download IPFS, install the compnaion and try to run it.
 
 [Protoschool link](https://proto.school/#/)
 
@@ -4302,11 +4304,63 @@ npm start
 
 The IPFS Desktop app will launch and should appear in your OS menu bar.
 
-##### CLI, remote node and account managent
-Link to cli, explain how to work with remote node, how to create accounts and save keys
+##### CLI, remote node and account managment
+We have already studied how to use the CLI in [previos sections](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide). What we need for this section is to understand that there is [a CLI guide](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/) and a guide for the CLI to be used with your [Ledger](https://cybercongress.ai/docs/cyberd/cyberd_ledger_guide/), it can be installed on any machine with one line and you can work with a remote node.
 
-##### Blockchain theory
-What is blockchain, reading materials
+Creating an account takes 3 simple steps:
+
+1) Open your terminal
+
+2) Install the CLI with:
+
+```
+bash < <(curl -s https://raw.githubusercontent.com/cybercongress/go-cyber/master/scripts/install_cyberdcli_v0.1.6.sh)
+```
+
+3) Create a new account:
+
+```
+ cyberdcli keys add <your_key_name>
+```
+
+<your_key_name> is just any random key name you will remember. The system will ask you to add a password, do it.
+
+
+3A) Alternatively, you can import an account, either by using a Cosmos/Cyber seed phrase:
+
+```
+cyberdcli keys add <your_key_name> --recover
+```
+
+Or via an ETH private key
+
+```
+ cyberdcli keys add private <your_key_name>
+```
+
+For all other manipulations and for understanding how to work with keys, check out our [CLI guide](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/). 
+
+##### Blockchain and computer science theory
+I suggest that you start your blockchain journey with Bitcoin. I will not bore you with lots of text, rather provide links to resources and papers I suggest you read:
+
+- [MIT: introduction to computer science and programming](https://www.youtube.com/results?search_query=MIT+6.00+Introduction+to+Computer+Science+and+Programming)
+- [What is Bitcoin and how it works, the basics](https://www.lopp.net/bitcoin-information/getting-started.html)
+- [But how does Bitcoin actually work: a 25-minute video](https://www.youtube.com/watch?v=bBC-nXj3Ng4&t=574s)
+- [How does blockchain work, a short video](https://www.youtube.com/watch?v=SSo_EIwHSd4&t=9s)
+- [MIT blockchain: Cryptocurrency Engineering and Design](https://www.youtube.com/watch?v=IJquEYhiq_U)
+- Bitcoin and ETH WP... I'm sure you can find these yourself
+- [Aragon WP](https://github.com/xhipster/cybernomics/blob/master/applications/aragon.pdf)
+- [Namecoin](https://github.com/xhipster/cybernomics/blob/master/applications/namecoin-fail.pdf)
+- [Token Curated Registries](https://github.com/xhipster/cybernomics/blob/master/applications/token-curated-registries.pdf)
+- [The tangle](https://github.com/xhipster/cybernomics/blob/master/computing/consensus-computing/tangle.pdf)
+- [Urbit](https://github.com/xhipster/cybernomics/blob/master/computing/binary-computing/urbit.pdf)
+- [Monero](https://github.com/xhipster/cybernomics/blob/master/cybernetics/super-intelligence/monero.pdf)
+- [Polkadot](https://github.com/xhipster/cybernomics/blob/master/cybernetics/super-intelligence/polkadot.pdf)
+- [Zerocoin](https://github.com/xhipster/cybernomics/blob/master/proof-systems/zero-knowledge-proofs/zerocoin.pdf)
+- [Filecoin](https://github.com/xhipster/cybernomics/blob/master/proof-systems/proof-of-spacetime/filecoin.pdf)
+- [Cyber](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+
+That's a lot... Moreover, you will probably stumble upon lots of knowledge as you go through this journey. Please note, that the above is a very random selection, yet not a very random selection at all. If you manage to read/watch through most of it. You will have a very good understanding of blockchain. Enjoy!
 
 ##### Cosmos and Tendermint
 Reading materials, exercises
