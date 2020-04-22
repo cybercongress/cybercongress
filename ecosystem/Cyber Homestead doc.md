@@ -1665,7 +1665,7 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2019: Protocol development, public testing
 - 2019.01.31: Release of [euler-1](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1)
 - 2019.06.28: The release of [Barcelona](https://github.com/cybercongress/cyb/releases/tag/0.1.4), cybs demo for the IPFS community
-- 2019.12.02: Release of the final [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
+- 2019.12.02: Release of the final [White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
 - 2019.12.20: [Launch of Game of Links and euler-5](https://github.com/cybercongress/congress/pull/316/files#diff-41de23aee25953091ba5a3c0ae012855). Episode I 
 - 2020.02.24: Activation of [the crisis protocol for GoL](https://cybercongress.ai/euler-6-migration/)
 - 2020.03.31 - 2020.04.03: [Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) for euler-6
@@ -4749,15 +4749,14 @@ On the page find the [congress repositry](https://github.com/cybercongress/congr
 And this is it. It is submitted and awaits our review. You may and should [open an issue](https://github.com/cybercongress/congress/issues) to speed up and accompany the process.
 
 ### Links
-- [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
+- [White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
 - [cyber.page](https://cyber.page/)
-- [cyberd releases](https://github.com/cybercongress/cyberd/releases)
+- [go-cyber releases](https://github.com/cybercongress/go-cyber/releases)
 - [cyb releases](https://github.com/cybercongress/cyb/releases)
 - [An entry point for heroes](https://t.co/oltYjCE24v)
 - [Game of Links](https://cybercongress.ai/game-of-links/)
 - [cyber~Congress DAO website](https://cybercongress.ai/)
 - [cyber~Ecosystem transparency folder](https://github.com/cybercongress/congress/tree/master/ecosystem)
-- [The Brain](https://cyberd.ai/)
 - [cyber~Blog](https://cybercongress.ai/post/)
 - [cyber~Forum](https://ai.cybercongress.ai/)
 - [fuckgoogle TG channel](https://t.me/fuckgoogle)
