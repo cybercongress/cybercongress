@@ -3924,9 +3924,88 @@ Coordinator aka @serejandmyself will have a personal incentive in the form CYB f
 -------------------------------------------------------
 
 ## :rocket: Section subtitle: `Houston` we (don't) have a problem
-> How typical is it for a spaceship to break when you least wait for it... Earth is not seen to the naked eye anymore, but you don't really miss home. Let's upgrade our knowledge by actaulyl doing things this time.
+> How typical is it for a spaceship to break when you are least waiting for it! Earth is not seen to the naked eye anymore, but you don't miss home anymore...
 
-This section will teach you about hardware, governance and survival in deep space. After this we will be true cosmonouats. Lets dive in in hardware and technical guides of cyber.
+This section will teach you about hardware, governance and survival in deep space. After this, we will be considered true cosmonauts. Let's dive in into hardware, governance and the technical guides of cyber.
+
+### Governance
+The easiest section of this guide, yet the most important one! I have specifically separated it from the masters' section, as it is obvious that governance is not related to masters only, but all space agents. We will be adding best practises for proposals as this guide progresses with examples, for now, let's discuss the general scope of things.
+
+#### cyber~Foundation
+First, let's make things straight. Cyber is a decentralized Google. Cybers mission is to decentralize the services and the infrastructure of the internet via the use of blockchain technology and cyberlinks. Cyber is an innovative search protocol. Such a protocol should not be owed by one company, but rather be governed by its stakeholders, that can decide on its development via the use of governance mechanisms.
+
+We are concerned about following the principles of decentralization and believe that DAOs are a vital ingredient in achieving it. We use Aragon-bred DAOs for governance within our project.
+
+In other words, euler~Foundation is a DAO, launched by another DAO, for the community that will govern the cyber protocol. This means, that it is the stakeholders that will decide on the fate of the protocol via voting on proposals. 
+
+So, should such a thing be owned by a company or a small number of beneficiaries? No. Good tech does not require CEOs, CTOs or any other bingo bullshit fairytale creatures. Good tech requires good governance. Hence, as we have outlined in our WP and in many sections of this document the protocol s to be governed by the community who are its stakeholders. 
+
+There are 2 parts to the governance. There is the native cyber chain governance which will relate to various important updates, technical upgrades, any chain-related matters and it will be held in CYB tokens (or EUL for the euler epoch). 
+
+There is the second part of the governance mechanism, which will be decided on by THC holders (at this point I don't feel the need to explain over and over again what is THC, please see previous sections or use the `CNTRL-F` option). THC holders are shaped like a fund, with its own bag of dough in ETH, one of the most promising tokens out in the wild. These ETH tokens will be donated to cyber\~Foundation throughout GoT and cyber\~Auction. 
+
+cyber~Foundation is going to be charged with apps and will live in Aragon, the most promising governance project so far in the space. And here we come to euler\~Foundation, the testing version of the Foundation.
+
+euler~Foundation is the testing of the Foundation DAO. It is deployed to ETH's mainnet during GoL (gamified part of cybers distribution process). Its main purpose is to test everything, that can be tested, before the launch of the mainnet and provide the initialization for the security audit on the initial stage, plus obtain feedback from the cyber community.
+
+The euler\~Foundation is already deployed into ETH mainnet and has a huge deployment story that was documented from head to bottom. It is already charged with the evangelism app, the auction app and the vesting app. All of these apps are open source and you should read about what they do. Here are the links to check out:
+
+- [euler~Founation in Aragon](https://mainnet.aragon.org/#/eulerfoundation)
+- [Intro post](https://cybercongress.ai/euler-ceremony/) on the deployemnt process
+- The [deploemyent ceremony guide](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md)
+- [The repository](https://github.com/cybercongress/cyber-foundation) with all the docs and app description
+
+We can sum up that cyber~Foundation is indeed the main governing body of the protocol. It is up to you to decide on the future. Be in charge of your destiny!
+
+#### Participating in governance 
+There are two things to mention:
+
+1) Go and get EUL tokens by playing [the Game of Links](https://cyber.page/gol), there are 2 TCYB allocated for the [community pool dicipline](https://cyber.page/governance), take a part in it. Yes, cyber has an in-built energy model. This means that transactions are free, but require energy, which regenerates over time. You can get tokens by [claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift) or by using our [test auction faucet](https://cyber.page/gol/faucet) and vesting the acquired GOLs. You may even acquire GOL on Uniswap. In the case you do not have a gift, I advise you to check out [this guide post](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/) that will help you to acquire EUL tokens.
+2) Participate in governance and vote! Let's see how to do this:
+
+#### Voting on proposals and what you should know
+Let's head over to cyber.page and teleport to the [governance tab](https://cyber.page/governance):
+
+<img src="https://i.postimg.cc/nLhv6qXj/Screenshot-from-2020-04-22-13-03-54.png" />
+
+We need the proposals that are in `Voting Period`. Let's click on one of these:
+
+<img src="https://i.postimg.cc/TwrY04Tr/Screenshot-from-2020-04-22-13-04-59.png" />
+
+You should carefully read all the info, scroll down, investigate all the links that the proposer added. make sure you understand what is going on and why you are required to vote or abstain. 
+
+In the box at the bottom, on the left side we have 4 options:
+- Yes: vote yes for the current proposal
+- No: vote no for the current proposal
+- Abstain: vote neither yes or no, but cast a vote. This is important to show the community that you are a responsible stakeholder and care about the lofe of the protocol
+- No With Veto: vote no on the proposal and Veto it, meaning you have a strong opinion against it going forward
+
+Please make note of these points when voting:
+- Only staked (bonded) tokens can participate in governance. This is vital for excluding speculators and onlookers from attacks on the governance
+- Voting power is measured in terms of stake. The number of tokens you stake determines your influence on the decision (coin voting)
+- Delegators inherit the vote of the validators they are delegated to unless they cast their own vote, which will overwrite validator decisions
+- Quorum level: determines the minimum amount of staked tokens that need to participate in the voting
+- Threshold level: determines the minimum amount of tokens that participated in the vote (after excluding `Abstain` votes) that need to have voted in favour of the proposal (`Yes`)
+- Veto:  Less than 33.4% of the tokens that participated in the vote (after excluding `Abstain` votes) need to have vetoed the decision (`No with Veto`)
+
+Let's vote for a proposal. I think that this should pass, hence I will vote `yes`. Make sure that `yes` is selected and click the `Vote` button. Then select the option best suited for you that will take care of your vote. I will be using my Ledger (make sure your Ledge is connected and the Cosmos app is open):
+
+<img src="https://i.postimg.cc/XJQNtyyJ/Screenshot-from-2020-04-22-13-19-17.png" />
+
+Click `Generate TX` and confirm on your Ledger and don't forget to click the `FuckGoogle` button at the end. You will see your tx ID. Congratulations, we have voted! To see your vote go to [your flight desk](https://cyber.page/pocket), select your account, then click on the tx section. You will see the status of your vote. If you click on the tx hash, you will see the detail of the transaction. At the very bottom, you will see a `Vote Option` section and a `yes` next to it. Good job!
+
+#### Creating proposals
+This section will eventually grow exponentially with ideas, practises and examples. For the time being, let's keep this simple. Head over to the governance tab:
+
+<img src="https://i.postimg.cc/nLhv6qXj/Screenshot-from-2020-04-22-13-03-54.png" />
+
+Click on the `Create Governance` button in the bottom right corner. Make sure you Ledger is connected with the Cosmos app open. A screen will appear:
+
+<img src="https://i.postimg.cc/pLFfxPCx/Screenshot-from-2020-04-22-13-29-42.png" />
+
+Here, add the title, the description and the amount in EUL tokens you want to deposit and hit the `Create Governance` button again. Follow the instructions on your Ledger device. If everything was done correctly it will appear on the governance page. Spread the news to the community about your proposal. It is best to have a good description and to include a link to it, so you don't overload the screen for readers. After all, it is vital to understand what you want others to vote on!
+
+For now, please refer to the [best practices guide](https://github.com/gavinly/CosmosCommunitySpend) from Figment Networks on Cosmos (as it as reference only, do not follow the commands or the numbers as they will NOT match cybers).
 
 ### How does cyber work
 - connecting to cyber
@@ -3934,8 +4013,6 @@ This section will teach you about hardware, governance and survival in deep spac
 - account management
 
 ### Hardware
-
-### Governance
 
 ### Technical guides
 
