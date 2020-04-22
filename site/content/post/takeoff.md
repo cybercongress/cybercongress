@@ -18,7 +18,7 @@ We back this proposal with the idea that human knowledge can be provable, censor
 ### Software
 The software we offer is a seed of certainty during very uncertain times. This seed consist of:
 
-- [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ): will help to implement the idea using any technology
+- [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
 - [go-cyber](https://github.com/cybercongress/go-cyber): Our implementation in Go
 - [cyber.page](https://cyber.page/): The slick reference interface
 - [The mainnet predecessor](https://mainnet.aragon.org/#/eulerfoundation) of cyber~Foundation which will allow scaling the idea further and look deeper into the rabbit hole
