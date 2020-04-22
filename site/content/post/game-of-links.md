@@ -13,7 +13,7 @@ The instruments we had did not allow us to resolve the problem on-chain, but sin
 
 Welcome to the Game of Links!
 
-The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators.
+The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators.
 
 ## Intro
 
@@ -89,7 +89,7 @@ There are several ways to get tokens and several tools that you can use:
 
 - **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using the [cyber.page](https://cyber.page). Simply add your address to the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage). 
 
-The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
+The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
 - **Faucets**. We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
 
@@ -311,17 +311,16 @@ This is a good chance for everyone to become an early adopter of the #fuckgoogle
 Do it. Cyber it.
 
 ## References
-1. [The cyber whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
-2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/cyberd)
+1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/go-cyber)
 3. [Aragon claim app](https://github.com/cybercongress/aragon-claim-app)
 4. [Cyber web app](https://cyber.page/#/)
-5. [Cyberd CLI repo](https://github.com/cybercongress/cyberd)
-6. [Launch kit repo](https://github.com/cybercongress/launch-kit)
-7. [Power law on wikipedia](https://en.wikipedia.org/wiki/Power_law)
-8. [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant)
-9. [Chain params](https://github.com/cybercongress/launch-kit/tree/0.1.0/params)
-10. [The launch protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md)
-11. [Homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
+5. [Launch kit repo](https://github.com/cybercongress/launch-kit)
+6. [Power law on wikipedia](https://en.wikipedia.org/wiki/Power_law)
+7. [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant)
+8. [Chain params](https://github.com/cybercongress/launch-kit/tree/0.1.0/params)
+9. [The launch protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md)
+10. [Homestead doc](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
 
 ## Acknowledgements
 
