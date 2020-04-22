@@ -9,7 +9,7 @@ by [@savetheales](cyb://0x00CA47db1BE92C1072e973fd8DC4A082f7d70214.eth)
 
 > I've been worked on it for almost 3 years. I want it shining!
 
-2019.12.01 @xhipster and @litvintech have released [The whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ) - `cyber: Computing the knowledge of the Great Web`. This is the result of 3 years of painstaking work, discussions, and durability tests. 
+2019.12.01 @xhipster and @litvintech have released [The whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x) - `cyber: Computing the knowledge of the Great Web`. This is the result of 3 years of painstaking work, discussions, and durability tests. 
 
 This idea goes side by side with a ready implementation. The high risk to be misunderstood is a Great adherence to the principles.
 
