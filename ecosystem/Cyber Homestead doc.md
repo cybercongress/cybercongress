@@ -47,6 +47,7 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Congress website & cyber.page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#congress-website--cyberpage)
     * [GitHub](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#github)
     * [Public Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles)
+       * [Extra media profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#extra-media-profiles)
     * [Gitcoin](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#gitcoin)
     * [Cyberc-n](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberc-n)
     * [Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#evangelists)
