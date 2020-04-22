@@ -1730,7 +1730,7 @@ Play the Game of Links. launch a validator. Submit links to the knowledge graph.
   
  <details>
   <summary>Do you have a White Paper? </summary>
-Yes, it can be found via this IPFS link: https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ
+Yes, it can be found via this IPFS link: https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x
   </details>
   
    <details>
@@ -3897,7 +3897,7 @@ cyber: to do something intelligent, to find something smart
 
 The path with the necessary information to kick you off:
 
-1. Read the basic materials: [whitepaper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ), [ELI-5 FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md), [our blog](https://cybercongress.ai/post/), [Game of Links rules](https://cybercongress.ai/game-of-links/), [gift info](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md) and the [homestead draft](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md). It would be a good idea to discover [Protoschool](https://proto.school/) and get some tutorials about how [IPFS](https://ipfs.io/) works. You don't need to fully understand all of this, but try to grasp the general idea and get a feel of it.
+1. Read the basic materials: [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x), [ELI-5 FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md), [our blog](https://cybercongress.ai/post/), [Game of Links rules](https://cybercongress.ai/game-of-links/), [gift info](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md) and the [homestead draft](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md). It would be a good idea to discover [Protoschool](https://proto.school/) and get some tutorials about how [IPFS](https://ipfs.io/) works. You don't need to fully understand all of this, but try to grasp the general idea and get a feel of it.
 
 2. Feel free to go on and test [cyber~Page](https://cyber.page/). Cyberlink something. Try to [search something](https://cyber.page/search/google). Go to the [Game of Links monitor](https://cyber.page/gol) and enjoy our approach of a decentralised launch of a superintelligent computer. Learn the [stats](https://cyber.page/brain). Imagine [how cool](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md) the search could be if we teach cyber a bit more together.
 
