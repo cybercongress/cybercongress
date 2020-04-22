@@ -4094,14 +4094,15 @@ We understand that you need to learn a lot to grasp Cyber. We are talking IPFS, 
 Let's understand what we will need. some parts will be theoretical and some will require you to install extensions, companions, read things, exercise your brain a bit. 
 
 We need to understand a few things, here is a brief overview:
-- Blockchain theory
-- Economical theory and game theory
-- Consensus theory
-- Understanding Cosmos
-- Understanding consent engines
-- Tendermint
-- IPFS
-- Search engine theory
+- Physics: Check out what is an electromagnetic impulse, the basic laws of physics and maths
+- IT theory: I suggest you start with the simple understanding of how computers function, what is code, how did telegraphs become computers and how do they count
+- Blockchain theory: Check out Bitcoin, read the WP, understand the progression from blockchain 1.0 to 3.0 and whar are distributed and decentralised machines
+- Economical theory and game theory: Check out the basics economics theories of the last century, take a deeper dive at something like the history of money. Then move to game theory
+- Consensus and governance theory: Try understanding what is a consensus and timing in terms of computing, research governance history all the way back to the Mohicans 
+- Cryptography and DB: Stick to basics, understand how databases work, check out basic encryption methods 
+- Understanding Cosmos and Tendermint: Check out what is Cosmos, read their intro, watch the research videos, check out the podcasts 
+- IPFS and routing: study about web2 first, dive into location and content-based addressing, understand the OSI model and how packets are routed
+- Search engine theory: Read about the history of Google, try to understand the importance of semantics, read about PageRank
 
 ##### IPFS
 We strongly suggest that you check out Protoschool for understanding the basics and even become an advanced IPFS user. You don't need to understand every single thing that is explaned, but we suggest you try to download IPFS, install the compnaion and try to run it.
@@ -4363,8 +4364,24 @@ I suggest that you start your blockchain journey with Bitcoin. I will not bore y
 That's a lot... Moreover, you will probably stumble upon lots of knowledge as you go through this journey. Please note, that the above is a very random selection, yet not a very random selection at all. If you manage to read/watch through most of it. You will have a very good understanding of blockchain. Enjoy!
 
 ##### Cosmos and Tendermint
-Reading materials, exercises
+Let's break this into 2 parts. The reading and watching and doing. Reading and watching:
 
+- [Cosmos intro](https://cosmos.network/intro)
+- [Vdeio: many chains, one ecossytem](https://www.youtube.com/watch?v=LApEkXJR_0M)
+- [a deeper look into Cosmos](https://medium.com/@juliankoh/a-deep-look-into-cosmos-the-internet-of-blockchains-af3aa1a97a5b)
+- [The value proposition of Cosmos](https://blog.cosmos.network/understanding-the-value-proposition-of-cosmos-ecaef63350d?gi=b57f3eea454c)
+- [Casper vs Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae?gi=c377927883ea)
+- [EOS vs Tendermint](https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b?gi=cb9173e1ddad)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+Doing:
+- [Cosmos SDK tutorilas](https://tutorials.cosmos.network/)
+- [Cosmos academy](http://cosmos-academy.readthedocs.io/en/master)
 ##### Web2 theory
 Problems with web2, web3 crash course
 
