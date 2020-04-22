@@ -4102,7 +4102,205 @@ We need to understand a few things, here is a brief overview:
 - Search engine theory
 
 ##### IPFS
-Companion, desktop, protoschool
+We strongly suggest that you check out protoschool for understanding the basics and even become an advanced IPFS user. You don't need to understand every single thing thta is explaned, but we suggest you try to download IPFS, install the compnaion and try to run it.
+
+[Protoschool link](https://proto.school/#/)
+
+There are 2 guides that we think are very importnat to understnad. They are partially copied from the IPFS GitHub, and slighlty changed to suit our needs:
+
+###### IPFS Companion
+*The content is partially copied from https://github.com/ipfs-shipyard/ipfs-companion/blob/master/README.md*
+
+Upgrade your browser with [IPFS](https://ipfs.io/) super powers
+
+![demo of v2.8.0](https://user-images.githubusercontent.com/157609/55318231-938ce480-5472-11e9-8624-b0021a34c1a4.gif)
+
+| <img src="https://unpkg.com/@browser-logos/firefox/firefox_16x16.png" width="16" height="16"> [Firefox](https://www.mozilla.org/firefox/new/) / [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | <img src="https://unpkg.com/@browser-logos/chrome/chrome_16x16.png" width="16" height="16"> [Chrome](https://www.google.com/chrome/) / <img src="https://unpkg.com/@browser-logos/brave/brave_16x16.png" width="16" height="16"> [Brave](https://brave.com/) / <img src="https://unpkg.com/@browser-logos/opera/opera_16x16.png" width="16" height="16"> [Opera](https://www.opera.com/)  / <img src="https://unpkg.com/@browser-logos/edge/edge_16x16.png" width="16" height="16"> [Edge](https://www.microsoftedgeinsider.com/)
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Install From AMO](https://ipfs.io/ipfs/QmWNa64XjA78QvK3zG2593bSMizkDXXcubDHjnRDYUivqt)<br>![](https://img.shields.io/amo/users/ipfs-companion?label=AMO%20users&style=social)](https://addons.mozilla.org/firefox/addon/ipfs-companion/) | [![Install from Chrome Store](https://ipfs.io/ipfs/QmU4Qm5YEKy5yHmdAgU2fD7PjZLgrYTUUbxTydqG2QK3TT)<br>![](https://img.shields.io/chrome-web-store/users/nibjojkomfdiaoajekhjakgkdhaomnch?label=Chrome%20Web%20Store%20users&style=social)](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch) |
+
+*Features*
+
+*Automagical Detection of IPFS Resources*
+
+*IPFS Path in URL*
+
+Requests for IPFS-like paths (`/ipfs/{cid}` or `/ipns/{peerid_or_host-with-dnslink}`) are detected on any website.  
+If tested path is a [valid IPFS address](https://github.com/ipfs/is-ipfs) it gets redirected and loaded from a local gateway, e.g:  
+> `https://ipfs.io/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR`  
+> → `http://127.0.0.1:8080/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR`
+
+*DNSLink*
+
+Companion will detect presence of [DNSLink](https://docs.ipfs.io/guides/concepts/dnslink/) in DNS records of visited websites and redirect HTTP request to a local gateway.
+
+> `http://docs.ipfs.io`  
+> → `http://127.0.0.1:8080/ipns/docs.ipfs.io`
+
+This means if you visit websites with a valid DNSLink (eg. https://docs.ipfs.io, https://ipld.io, http://tr.wikipedia-on-ipfs.org) browser will load them from IPFS.
+
+More details: [DNSLink Support in IPFS Companion](https://github.com/ipfs-shipyard/ipfs-companion/blob/master/docs/dnslink.md)
+
+*X-Ipfs-Path*
+
+Companion will upgrade transport to IPFS if the header is found in any HTTP response headers. This is a fallback for edge cases when IPFS path is not present in URL.
+
+More details: [`x-ipfs-path` Header Support in IPFS Companion](https://github.com/ipfs-shipyard/ipfs-companion/blob/master/docs/x-ipfs-path-header.md)
+
+*Redirect Opt-Out*
+
+It is possible to opt-out from Gateway redirect by:
+- a) suspending redirect via global toggle (see [_Disable All Redirects_](#disable-all-redirects) below)
+- b) suspending redirect for via per website opt-out (in [_Active Tab_ section of _Browser Action_](#disable-gateway-redirect-per-website) or _Preferences_)
+- c) including `x-ipfs-companion-no-redirect` in the URL (as a [hash](https://ipfs.io/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR#x-ipfs-companion-no-redirect) or [query](https://ipfs.io/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR?x-ipfs-companion-no-redirect) parameter).
+
+*IPFS API as `window.ipfs`*
+
+Your IPFS node is exposed as `window.ipfs` on every webpage.
+Websites can detect if `window.ipfs` exists and opt-in to use it instead of creating their own `js-ipfs` node.
+It saves system resources and battery (on mobile), avoids the overhead of peer discovery/connection, enables shared repository access and more!
+Make sure to read our [notes on `window.ipfs`](https://github.com/ipfs-shipyard/ipfs-companion/blob/master/docs/window.ipfs.md), where we explain it in-depth and provide examples on how to use it your own dapp.
+
+*Quick Toggles*
+
+The Browser Action pop-up provides handy toggles for often used operations.
+
+*Disable Gateway Redirect Per Website*
+
+> _Active Tab_ actions include option to opt-out current website from Gateway redirect of any IPFS subresources.    
+> Disabling redirect for DNSLink website will restore original URL as well:
+>
+> ![per-site-opt-out](https://user-images.githubusercontent.com/157609/55317805-90452900-5471-11e9-9e0f-293afd261648.gif)
+
+*Disable All Redirects*
+
+> A handy toggle to disable all gateway redirects while keeping all other features enabled:
+>
+> ![redirect](https://user-images.githubusercontent.com/157609/55317804-90452900-5471-11e9-9fc1-42bee5b15a6a.gif)
+
+*Suspend IPFS Extension*
+
+> The "power" icon can be used to temporarily suspend all IPFS integrations
+> (redirects, API status, content scripts, protocol handlers etc).
+> Useful during testing. Extension can be re-enabled with a single click:
+>
+> ![screenshot of suspend toggle](https://user-images.githubusercontent.com/157609/55317803-8fac9280-5471-11e9-96e3-f068cc62148b.gif)
+
+*IPFS Status and Context Actions*
+
+- IPFS API and Gateway status
+- Add local (quick import) or remote files (context menu) to IPFS with option to preserve filename
+- Easy access to [WebUI](https://github.com/ipfs/webui/) and add-on Preferences
+- Toggle redirection to local gateway (automatic by default, manual mode can be enabled in Preferences)
+- Additional actions for pages loaded from IPFS
+    - Pin/Unpin of IPFS resources (via API)
+    - Copy canonical IPFS address
+    - Copy shareable URL to resource at preferred public gateway
+
+*Install*
+
+*Release Channel*
+
+We recommend installing the stable release via your browser's add-on store.
+
+| <img src="https://unpkg.com/@browser-logos/firefox/firefox_16x16.png" width="16" height="16"> [Firefox](https://www.mozilla.org/firefox/new/) / [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | <img src="https://unpkg.com/@browser-logos/chrome/chrome_16x16.png" width="16" height="16"> [Chrome](https://www.google.com/chrome/) / <img src="https://unpkg.com/@browser-logos/brave/brave_16x16.png" width="16" height="16"> [Brave](https://brave.com/) / <img src="https://unpkg.com/@browser-logos/opera/opera_16x16.png" width="16" height="16"> [Opera](https://www.opera.com/)  / <img src="https://unpkg.com/@browser-logos/edge/edge_16x16.png" width="16" height="16"> [Edge](https://www.microsoftedgeinsider.com/)
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Install From AMO](https://ipfs.io/ipfs/QmWNa64XjA78QvK3zG2593bSMizkDXXcubDHjnRDYUivqt)<br>![](https://img.shields.io/amo/users/ipfs-companion?label=AMO%20users&style=social)](https://addons.mozilla.org/firefox/addon/ipfs-companion/) | [![Install from Chrome Store](https://ipfs.io/ipfs/QmU4Qm5YEKy5yHmdAgU2fD7PjZLgrYTUUbxTydqG2QK3TT)<br>![](https://img.shields.io/chrome-web-store/users/nibjojkomfdiaoajekhjakgkdhaomnch?label=Chrome%20Web%20Store%20users&style=social)](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch) |
+
+**Note:** `ipfs-companion` is designed to retrieve content from a locally running IPFS daemon.  
+Make sure [IPFS is installed](https://docs.ipfs.io/introduction/usage/) on your computer.
+
+###### IPFS desktop
+*The content is partially copied from https://github.com/ipfs-shipyard/ipfs-desktop/blob/master/README.md*
+
+An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. https://ipfs.io. You don't need the command line to run an IPFS node. Just install IPFS Desktop and have all the power of IPFS in your hands. Powered by Web UI. IPFS Desktop allows you to run your IPFS Node on your machine without having to bother with command line tools. With it, you have the power of Web UI on tip of your hands plus a handful of shortcuts you can find on settings.
+
+*Download the latest release*
+
+- Mac - [IPFS-Desktop-0.10.3.dmg](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-0.10.3.dmg) or `brew cask install ipfs`
+- Windows - [IPFS-Desktop-Setup-0.10.3.exe](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-Setup-0.10.3.exe) or `choco install ipfs-desktop`
+- Linux - see the install section for available options
+
+![ipfs_desktop](./pics/ipfs_desktop.png)
+
+`Restart` and `Stop` commands will restart or stop your IPFS node. `Status`, `Files` and `Settings` commands will open Web UI of IPFS client where you can explore your IPFS node status, added and pinned files to IPFS, and change the IPFS desktop settings. Also are available `Take Scrennshot` and `Download Hash` commands for getting display screenshot and getting a file by IPFS hash saved in a clipboard.
+
+Added files you can explore at `Files` section:
+![files](./pics/files.png)
+
+*Features*
+
+- IPFS daemon always running
+
+IPFS Desktop's main feature is to allow you to have the IPFS daemon always running in the background. But fear not! If you need to stop it, you can do it just by clicking on 'Stop'.
+
+- Handle `ipfs://`, `ipns://` and `dweb`: links
+
+If you come across a link to any of the protocols above, IPFS Desktop will be able to open them and redirect them to your default browser.
+
+- Adds ipfs to your system
+
+If you're using macOS or Windows and don't have ipfs installed on your system, IPFS Desktop will automatically install it so it is available through the command line. If you're using Linux, or already have ipfs installed, you can tell IPFS Desktop to take care of it (and keep it up to date!) by toggling the option on Settings.
+
+- Easy add to IPFS
+
+You can easily add files and folders to IPFS:
+On Windows, you can right click on files to add them to IPFS through IPFS Desktop.
+On macOS, you can drag and drop them to the tray icon.
+Download copied hashes
+You can enable, on Settings, a shortcut to download an hash on the keyboard.
+
+![item_added](./pics/added.png)
+
+- Auto-add screenshots
+
+You can enable, on Settings, a shortcut to take screenshots and add them automatically to IPFS.
+
+*Install*
+
+Download the latest release of IPFS Desktop for your OS, below.
+
+| Platform | Download link | Download count
+|---------:|---------------|---------------
+| **Windows**  | [IPFS-Desktop-Setup-0.10.3.exe](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-Setup-0.10.3.exe) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/IPFS-Desktop-Setup-0.10.3.exe.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-Setup-0.10.3.exe)
+| **Mac**    | [IPFS-Desktop-0.10.3.dmg](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-0.10.3.dmg) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/IPFS-Desktop-0.10.3.dmg.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/IPFS-Desktop-0.10.3.dmg)
+
+We provide multiple _experimental_ installers for **Linux** and **FreeBSD**:
+
+| Package | Download link | Download count
+|---------:|---------------|---------------
+| tar | [ipfs-desktop-0.10.3-linux-x64.tar.xz](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x64.tar.xz) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/ipfs-desktop-0.10.3-linux-x64.tar.xz.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x64.tar.xz)
+| deb | [ipfs-desktop-0.10.3-linux-amd64.deb](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-amd64.deb) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/ipfs-desktop-0.10.3-linux-amd64.deb.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-amd64.deb)
+| rpm | [ipfs-desktop-0.10.3-linux-x86_64.rpm](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.rpm) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.rpm.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.rpm)
+| AppImage | [ipfs-desktop-0.10.3-linux-x86_64.AppImage](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.AppImage) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.AppImage.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x86_64.AppImage)
+| freebsd | [ipfs-desktop-0.10.3-linux-x64.freebsd](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x64.freebsd) | [![](https://img.shields.io/github/downloads-pre/ipfs-shipyard/ipfs-desktop/v0.10.3/ipfs-desktop-0.10.3-linux-x64.freebsd.svg?style=flat-square)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.10.3/ipfs-desktop-0.10.3-linux-x64.freebsd)
+
+Or you can use your favorite package manager:
+
+- **Homebrew** - `brew cask install ipfs`
+- **Chocolatey** - `choco install ipfs-desktop`
+- **Snap** - `snap install ipfs-desktop`
+- **AUR** - [`ipfs-desktop` package](https://aur.archlinux.org/packages/ipfs-desktop/) maintained by [@alexhenrie](https://github.com/alexhenrie)
+
+> Using package managers? Please head to [our package managers page](https://github.com/ipfs-shipyard/ipfs-desktop/issues/691) and help us add support for yours!
+
+You can find releases notes and older versions on the [releases](https://github.com/ipfs-shipyard/ipfs-desktop/releases) page.
+
+*Install from Source*
+
+To install it from source you need [Node.js](https://nodejs.org/en/) `>=10.4.0` and
+need [npm](npmjs.org) `>=6.1.0` installed. This uses [`node-gyp`](https://github.com/nodejs/node-gyp) so **you must take a look** at their [platform specific dependencies](https://github.com/nodejs/node-gyp#installation).
+
+Then the follow the steps below to clone the source code, install the dependencies and run it the app:
+
+```bash
+git clone https://github.com/ipfs-shipyard/ipfs-desktop.git
+cd ipfs-desktop
+npm ci
+npm start
+```
+
+The IPFS Desktop app will launch and should appear in your OS menu bar.
 
 ##### CLI, remote node and account managent
 Link to cli, explain how to work with remote node, how to create accounts and save keys
