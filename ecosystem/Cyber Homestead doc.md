@@ -4007,15 +4007,110 @@ Here, add the title, the description and the amount in EUL tokens you want to de
 
 For now, please refer to the [best practices guide](https://github.com/gavinly/CosmosCommunitySpend) from Figment Networks on Cosmos (as it as reference only, do not follow the commands or the numbers as they will NOT match cybers).
 
-### How does cyber work
-- connecting to cyber
-- clients
-- account management
+### What can I use to connect to cyber?
+What points of access can I use to connect to cyber? They have all been covered in this guide, but here is the list again:
 
-### Hardware
+- [cyber.page](https://cyber.page/): Requires a ledger for most actions
+- [The CLI](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/): Requires to set up a node or use a remote node
+- [cyb~Virus](https://github.com/cybercongress/cyb-virus): Archived! Unsafe to import private keys into this app
+- [cyb~Snap](https://github.com/cybercongress/cyb-snap): Still in the making
+- [cyb](https://github.com/cybercongress/cyb): Currently, feature frozen 
+
+### How does cyber work?
+Let's try and understand how does cyber work, starting with the very basic theory and going up to the more technical parts:
+
+#### Simple explanation
+Cyber is a decentralized google, for provable and relevant answers.
+
+ The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge.
+
+Cyber is essentially creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google.
+
+Users create links between 2 IPFS hashes (keep on reading to see what this is) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... knowledge.
+
+That content is then dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress).
+
+All this is computed (determined with the help of a computer) by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards).
+
+This allows to search data on the web, rank it, query it (look it up) and create knowledge databases without blackbox intermediaries (third parties that try to censor data, hide or push specific results to obtain money, track your data, etc).
+
+The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result. We will go in-detail further down the document into those. For example: unified semantics, SEO instruments, autonomous robots, and a lot more.
+
+#### Advanced explanation
+Cyber is an innovative, general-purpose search and knowledge protocol. It is a distributed computer for answers. 
+
+Within the network, masters generate knowledge graphs with the use of what we call cyberlinks. A cyberlink is simply a link between two content-based links (for now, read IPFS hashes). This allows for a naturally enriched semantic link. The link is required for the computation of relevance of subjects and objects within the knowledge graph, in other words, ranking and indexing.
+IPFS provides cyber with the superpowers that were inaccessible to previous architectures of general-purpose search engines. Such as significant benefits with regards to resource consumption.
+
+To achieve determinism, we need to agree on the things we do, and here is where cyber introduces a consensus computer, its implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. The computer process the links, along with computation, storage and the bandwidth. Computation and storage in case of a basic relevance machine can be easily predicted based on bandwidth, but bandwidth requires a limiting mechanism.
+
+*The relevance machine*
+The relevance machine is in some way a mirror of the will of the universe that surrounds us. It enables a simple construction for the search mechanism via querying and delivering answers. This mechanism is based on the will of the users building the knowledge graph.
+
+Instead of deducting the meaning inside of the consensus computer (and returning to the blackbox principle of web2), we have designed a system in which extraction of the meaning is incentivized. This is achieved due to masters needing CYB tokens to express their will, based on which, the relevance machine can compute rank. In other words, we can be sure that if someone is willing to back it up, it is subjectively relevant to this someone at this moment and time.
+
+With the help of Resource Credits (RC) and the user’s stake, we have developed a very simple bandwidth model. The principal goal of this model is to reduce the daily network growth to a given constant. This is done to help heroes (validators) to forecast any future investment into infrastructure. RC and recovery windows allow the network to determine bandwidth and its load. Of course, this also provides a basic anti-spam mechanism.
+
+The relevance machine works just like the human mind. It neither stores the past, nor the current (full) state to maintain usefulness. Or more precisely, it always remains relevant. As a result, the cybernomics (economy) of CYB tokens, serves not just as will-expression and spam-protection mechanisms. It also functions as an economics regulation tool that can align heroes processing the knowledge graph and create demand for market processing.
+
+*cyber~Rank*
+IPFS hashes (or content identifiers or simply - CIDs) are vital for the network. CIDs as primary objects are robust in their simplicity. For every CID, cyber ~Rank is computed by the consensus computer without a single point of failure.
+
+cyber~Rank is a token weighted PageRank with economic protection from Sybil attacks and self-centred voting. Every round the Merkle root of the rank tree is published. Consequently, every computer can prove to any other computer the relevance of value for any given CID. This allows us to create a cryptographically provable map of information, down to the very source, inside cyber.
+
+The rank is calculated by using the outgoing and the incoming weight of the current state of the staked tokens in the system and the current and the previous ranks in the system. The rank mechanism also utilizes the current bandwidth (load) of the system and is hence - a dynamic property. The rank is constantly recalculated by the validators using GPUs.
+
+Ironically, the ranking mechanism is based on none other but the PageRank. Yes, the one that was developed by Sergey Brin and Larry Page. The key problem with the original PageRank is that it wasn’t resistant to Sybil attacks. However, a token-weighted PageRank is limited by a token-weighted bandwidth model and does not inherit the problems of the native PageRank. It is resistant to Sybil-attacks.
+
+The beauty behind the ranking mechanism is that it only accounts for the current intention of the masters and encourages rank inflation of cyberlinks. At first, this might seem a bit unclear. But, it is vital for the system, to (a) not to be interfered with. Which is ensured by the users staking their tokens against a given CID. And (b) is essential in order not to get cemented in the past. As new cyberlinks are continuously added they dilute the rank of the already existing links proportionally. This means that this is a constantly self-evolving, mind-like mechanism where the relevance of information is always up to date with the will of the users.
+
+*The future*
+Our proposed semantics of linking data offers a mechanism for predicting meaningful relations between objects by the consensus computer. The source-code of the relevance machine is 100% open-source. All of our code is 100% open-source. Every bit of data accumulated by the consensus computer is available to anyone if one has the resources to process it.
+
+Though the system presents the necessary service to allow for an alternative to a conventional search engine, it is not limited to this use case.  Check out the [possible use cases in this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usecases).
 
 ### Technical guides
+We understand that you need to learn a lot to grasp Cyber. We are talking IPFS, Tendermint, Consensus mechanisms, blockchain tech, search mechanics, the global issues with web2 and much more. But we think that learning is cool. And in all honesty, we learn along with you. I will compile guides and resources that will help you to grasp cyber and to get a better understanding of web3. 
 
+#### Overview of the learning curve
+Let's understand what we will need. some parts will be theoretical and some will require you to install extensions, companions, read things, exercise your brain a bit. 
+
+We need to understand a few things, here is a brief overview:
+- Blockchain theory
+- Economical theory and game theory
+- Consensus theory
+- Understanding Cosmos
+- Understanding consent engines
+- Tendermint
+- IPFS
+- Search engine theory
+
+##### IPFS
+Companion, desktop, protoschool
+
+##### CLI, remote node and account managent
+Link to cli, explain how to work with remote node, how to create accounts and save keys
+
+##### Blockchain theory
+What is blockchain, reading materials
+
+##### Cosmos and Tendermint
+Reading materials, exercises
+
+##### Web2 theory
+Problems with web2, web3 crash course
+
+##### IBC
+To be continued
+
+### Hardware
+This is more of a theoretical section. I want to discuss the infrastructure behind cyber. Its heroes or validators if you may. Let's try to understand what they do and why they are so important to the success of the ecosystem, what computations they do and how does cyber work as a distributed supercomputer.
+
+#### A hard day in the life of a Hero
+What does a validator need and why and how they work from a technical perspective
+
+#### Distributed supercomputer for general-purpose knowledge
+Describing cyber a state of the art computer - short 
 
 ------------------------------------------------------
 
