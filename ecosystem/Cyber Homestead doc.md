@@ -1,5 +1,3 @@
-**WORK IN PROGRESS**
-
 # Cyber homestead documentation
 
 <p>
@@ -1440,6 +1438,14 @@ A list of constant media profiles:
 
 A list of economic profiles:
 - [Stakingrewards](https://www.stakingrewards.com/asset/cyber): Calculate your rewards as a delegator or a validator 
+
+##### Extra media profiles
+2 more profiles are done by team members of cyber. They might not be about cyber directly, but they help us to grow cyber into a known product amongst the communities that we need t reach out to:
+
+- [The great web journal](https://github.com/cybercongress/great-web): A journal about the Great Webm that will remain permanent, trustful and accessible
+- [Citizen Cosmos podcast](https://soundcloud.com/user-311461939/citizen-comsos-episode-1-gavin-figment-networks-governance): A podcast about the Cosmos ecosystem and the masterminds that shape it
+
+There is 1 other profile that we want to mention, in which Cyber is mentioned, practically, on a daily basis. [Cosmsos Today](https://twitter.com/adriana_kalpa), this is a series of daily tweets that are run by different community members in various languages and are translated from the English version
 
 #### Gitcoin
 We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
