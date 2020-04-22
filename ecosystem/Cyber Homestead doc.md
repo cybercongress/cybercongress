@@ -143,11 +143,27 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [How to read the gospel](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-read-the-gospel)
     * [How to spread the word](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-spread-the-word)
 ------------------------------------------------------
-- [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-huston-we-dont-have-a-problem)
-  * How does cyber work?
-  * Governance
-  * Hardware
-  * Technical Guides
+- [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-houston-we-dont-have-a-problem)
+  * [Governance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#governance)
+    * [cyber~Foundation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberfoundation)
+    * [Participating in governance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#participating-in-governance)
+    * [Voting on proposals and what you should know](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#voting-on-proposals-and-what-you-should-know)
+    * [Creating proposals](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-proposals)
+  * [What can I use to connect to cyber?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#what-can-i-use-to-connect-to-cyber)
+  * [How does cyber work?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-does-cyber-work)
+    * [Simple explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#simple-explanation)
+    * [Advanced explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#advanced-explanation)
+  * [Technical Guides](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-guides)
+    * [Overview of the learning curve](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#overview-of-the-learning-curve)
+      * [IPFS](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs)
+      * [CLI, remote node and account managent](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-remote-node-and-account-managent)
+      * [Blockchain theory](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#blockchain-theory)
+      * [Cosmos and Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cosmos-and-tendermint)
+      * [Web2/3 Theory](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#web2-theory)
+      * [IBC](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ibc)
+  * [Hardware](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#hardware)
+    * [A hard day in the life of a Hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-hard-day-in-the-life-of-a-hero)
+    * [Distributed supercomputer for general-purpose knowledge](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#distributed-supercomputer-for-general-purpose-knowledge)
 ------------------------------------------------------
 - [Section subtitle: The deep space](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#pill-section-subtitle-the-deep-space)
   * [Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#questions)
