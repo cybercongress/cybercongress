@@ -519,7 +519,7 @@ In general, think of cyber as of a completely, brand-new mechanism for obtaining
 
 ## Links to various relevant resources:
 (in no particular order)
-- [Our White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ)
+- [Our White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
 - [IPFS docs](https://docs.ipfs.io/)
 - [Urbit docs](https://urbit.org/docs/)
 - [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf)
