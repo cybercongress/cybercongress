@@ -4365,13 +4365,13 @@ I suggest that you start your blockchain journey with Bitcoin. I will not bore y
 That's a lot... Moreover, you will probably stumble upon lots of knowledge as you go through this journey. Please note, that the above is a very random selection, yet not a very random selection at all. If you manage to read/watch through most of it. You will have a very good understanding of blockchain. Enjoy!
 
 ##### Cosmos and Tendermint
-Understanding what is Cosmos and Tendermint is vital to understand cyber. We have spoken what role they play in Cyber, now it time to grasp the tech and learn to use it.
+Understanding what is Cosmos and Tendermint is vital to understanding Cyber. We have spoken what role they play in Cyber, now its time to grasp the tech and learn how to use it.
 
 Let's break this into 2 parts. The reading and watching and doing. Reading and watching:
 
 - [Cosmos intro](https://cosmos.network/intro)
-- [Vdeio: many chains, one ecossytem](https://www.youtube.com/watch?v=LApEkXJR_0M)
-- [a deeper look into Cosmos](https://medium.com/@juliankoh/a-deep-look-into-cosmos-the-internet-of-blockchains-af3aa1a97a5b)
+- [Video: many chains, one ecosystem](https://www.youtube.com/watch?v=LApEkXJR_0M)
+- [A deeper look into Cosmos](https://medium.com/@juliankoh/a-deep-look-into-cosmos-the-internet-of-blockchains-af3aa1a97a5b)
 - [The value proposition of Cosmos](https://blog.cosmos.network/understanding-the-value-proposition-of-cosmos-ecaef63350d?gi=b57f3eea454c)
 - [Casper vs Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae?gi=c377927883ea)
 - [EOS vs Tendermint](https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b?gi=cb9173e1ddad)
@@ -4380,8 +4380,8 @@ Let's break this into 2 parts. The reading and watching and doing. Reading and w
 - [Cosmos WP](https://github.com/xhipster/cybernomics/blob/master/cybernetics/super-intelligence/cosmos.pdf)
 
 Doing:
-- [Cosmos SDK tutorilas](https://tutorials.cosmos.network/)
-- [Cosmos academy](http://cosmos-academy.readthedocs.io/en/master)
+- [Cosmos SDK tutorials](https://tutorials.cosmos.network/)
+- [Cosmos Academy](http://cosmos-academy.readthedocs.io/en/master)
 
 ##### Web2 theory
 Web 2 is the preceded or of web3. I have numerous explanation on the web as to what it is. There are many other, great speakers describing their view of web3. However, I believe it is vital to understand web tech in general  (it's working, especially routing and beneficiaries) and the global problems web2 brings with its current architecture. 
@@ -4408,10 +4408,50 @@ To be continued
 This is more of a theoretical section. I want to discuss the infrastructure behind cyber. Its heroes or validators if you may. Let's try to understand what they do and why they are so important to the success of the ecosystem, what computations they do and how does cyber work as a distributed supercomputer.
 
 #### A hard day in the life of a Hero
-What does a validator need and why and how they work from a technical perspective
+Cybers infrastructure is managed by its heroes, the validators of Cyber. think of cyber is a huge super-intelligent, distributed computer with lots of computational power. It can answer questions, build an open semantics field and obtain knowledge. All in a decentralized manner. Behind the scenes, heroes do their work. In the [previous sections](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer) we already discussed why you should become a hero and what is required for it. Let's talk about this from a more technical angle, so we understand the work behind the scenes.
+
+(Part of the text are borrowed from [here](https://github.com/cosmos/cosmos/blob/master/VALIDATORS_FAQ.md) and other resources)
+
+The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake. 
+
+A full-node is a program that fully validates transactions and blocks of a blockchain. It is distinct from a light-node that only processes block headers and a small subset of transactions. Running a full-node requires more resources than a light-node but is necessary in order to be a validator. In practice, running a full-node only implies running a non-compromised and up-to-date version of the software with low network latency and without downtime. Of course, it is possible and encouraged for any user to run full-nodes even if they do not plan to be validators.
+ 
+Participants in the network can signal that they want to become a validator by sending a “declare-candidacy” transaction, where they must fill out the following parameters:
+
+- Validator's PubKey: The validator must signal an account with which it will perform its validator duties. The private key associated with PubKey is used to sign prevotes and precommits. This way, validators can have different accounts for validating and holding liquid funds.
+- Validator's name
+- Initial commission rate: The commission rate on block provisions, block rewards and fees charged to delegators
+- Maximum commission: The maximum commission rate which this validator candidate can charge
+- Commission change rate: The maximum daily increase of the validator candidate commission
+- Minimum self-bond amount: Minimum amount of Atoms the validator candidate need to have bonded at all time. If the validator's self-bonded stake falls below this limit, its entire staking pool will unbond.
+- Initial self-bond amount: Initial amount Atoms the validator candidate wants to self-bond
+
+Validators, and by association delegators, receive block provisions, block rewards, fee rewards, and the right to participate in governance. If a validator misbehaves, a certain portion of its total stake is slashed (the severity of the penalty depends on the type of misbehaviour). This means that every user that bonded CYB to this validator gets penalized in proportion to its stake. Delegators are therefore incentivized to delegate to validators that they anticipate will function safely.
+
+Validators should expect to provide one or more data center locations with redundant power, networking, firewalls, HSMs and servers. Validators should expect to perform regular software updates to accommodate upgrades and bug fixes. There will inevitably be issues with the network early in its bootstrapping phase that will require substantial vigilance.
+
+Denial-of-service attacks occur when an attacker sends a flood of internet traffic to an IP address to prevent the server at the IP address from connecting to the internet. An attacker scans the network, tries to learn the IP address of various validator nodes and disconnect them from communication by flooding them with traffic.
+
+One recommended way to mitigate these risks is for validators to carefully structure their network topology in a so-called sentry node architecture. Validator nodes should only connect to full-nodes they trust because they operate them themselves or are run by other validators they know socially. A validator node will typically run in a data center. Most data centres provide direct links the networks of major cloud providers. The validator can use those links to connect to sentry nodes in the cloud. This shifts the burden of denial-of-service from the validator's node directly to its sentry nodes and may require new sentry nodes be spun up or activated to mitigate attacks on existing ones.
+
+Sentry nodes can be quickly spun up or change their IP addresses. Because the links to the sentry nodes are in private IP space, an internet-based attacked cannot disturb them directly. This will ensure validator block proposals and votes always make it to the rest of the network.
+
+It is expected that good operating procedures on that part of validators will completely mitigate these threats.
+
+The hard work pays off, of course, but you should understand that Cyber need a lot of power to compute general-purpose knowledge. Right now, the network might not be big, but it grows. The more cyberlinks, the more power is needed to process them. Also, remember that validators secure the network economically too. And this place more pressure on them.
 
 #### Distributed supercomputer for general-purpose knowledge
-Describing cyber a state of the art computer - short 
+This topic is crazy big. If you have read at least some of the papers in the learning curve above, you have a good understanding of how computers and distributed computers work. You should also have an understanding of how big and important is the task of processing knowledge and building an open semantics field.
+
+In short, computers are relying on 3 whales: computation, storage and bandwidth to operate. Without these 3, a computer isn't really a computer. At least for the time being...
+
+We call Cyber a supercomputer because it fulfils these requirements.
+
+- Computation: Cyber is computed by validators. These are powerful machines that use their GPUs and memory to process the knowledge graph, rank and index the content and make sure that the network functions as it should. They openly do this in terms of running a shared and an open database that is in consensus about time and is deterministic. For now cyber is defined with 146 validators, but this number could increase if needs arise
+- Bandwidth: Cyber is built on the idea that bandwidth is one of the hearts of the protocol. Cyber has a resource credit model and all the tx are done via this bandwidth that acts as a spam protection mechanism and as a market mediator. One of the principal goals of this model is to reduce the daily network growth to a given constant. This is done to accommodate heroes (validators) with the ability to forecast any future investment into infrastructure 
+- Storage: Storage in cyber is defined by the storage that the nodes hosting IPFS, or any other protocols used by cyber, provides. In the future, we plan to add incentives and to integrate Urbit to make this a more native and a better functioning market
+
+Cyber isn't a computer. It's a network of relevance machines, able to prove subjective relevance to one another and use this to build amazing predictive models. This opens up the market for all the [possible usecases](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usecases). For a deeper understanding of our state of the art computer, please see our [white paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x).
 
 ------------------------------------------------------
 
