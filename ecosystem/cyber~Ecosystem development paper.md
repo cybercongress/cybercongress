@@ -1,11 +1,9 @@
-**WORK IN PROGRESS. PLEASE USE WITH A PINCH OF SALT IF YOU SEE THIS MESSAGE**
-
 # cyber~Ecosystem development paper 
 
 ## Abstract
 This paper shall propose a view on the development of cyber~Ecosystem, describe what it is, its goals, values and participants. It should also offer theoretical and practical metrics that can measure the success of the proposed building blocks that will form the growth of the ecosystem.
 
-It is always difficult to create sub-papers, hence, I would like to propose of anyone reading this document, not to view it as such, or, as something that is a replacement for our [main white paper](https://github.com/cybercongress/cyber/blob/master/main.tex). On the contrary, our white paper is and always will remain our main document. This paper, in my opinion, should be viewed as an add-on. An insight into one of the realms forming Cyber. 
+It is always difficult to create sub-papers, hence, I would like to propose of anyone reading this document, not to view it as such, or, as something that is a replacement for our [main white paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). On the contrary, our white paper is and always will remain our main document. This paper, in my opinion, should be viewed as an add-on. An insight into one of the realms forming Cyber. 
 
 cyber~Ecosystem is everything that wraps the unwrapped. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications. First, it will do its work manually, but its goal is to automate as much of the work as possible with the help of the future Aragon DAO and the future abilities of Cyber chain. It will also create cyber ~FundClassic to help onboarding hackers, researchers and users. 
 
