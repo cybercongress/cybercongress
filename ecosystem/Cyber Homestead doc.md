@@ -21,7 +21,7 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Technical questions in plain terms](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
   * [Introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#introduction)
   * [The history of cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-history-of-cyber)
-  * [The philopophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
+  * [The philosophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
@@ -1236,6 +1236,97 @@ Underneath the statement box, we see the 5 main metric boxes, the end of the tak
 Above the chart, there are 3 buttons. By default, the `main` button is clicked. This shows a theoretical chart. As time progresses, so does the amount of donated ATOM and the amount of allocated CYB grows. The more ATOM is donated, the more CYB tokens are allocated. The discount falls. This means that the earlier you donate, the higher your discount is if more ATOM tokens are donated! 
 
 At the bottom of the graph, we see the countdown to the takeoff timer! Keep an eye on it!
+
+### Using cyber: Advanced Master Class
+What can be better than moving to the next level of mastering a skill? Mastering a skill even more... I hope that this section will be filled in by the masters themselves as they get to know cyber and their karma levels grow.
+
+#### Crawlers
+We didn't plan to implement crawlers for the time being and, in all honesty, we believe that crawlers are the works of those wishing to improve their reputation. Apps launched by heroes and market makers. But, as life happens, so do crawlers. Thanks to [`sta`](https://cyber.page/network/euler/hero/cybervaloper1hmkqhy8ygl6tnl5g8tc503rwrmmrkjcq4xvhhf), we have our first crawler.
+
+What are crawlers? They are little robots that crawl the web in search of knowledge and bring it in the form of transactions to be signed by the master and added to the knowledge graph.
+
+I hope to see the list of crawlers grow so big, that it will be impossible to describe how to use each one of them and this document will just be a link to each crawler out in the wild. For now, there is one and here is the guide on how to use it:
+
+The crawler lives in [sta's GitHub](https://github.com/SaveTheAles/arxiv_crawler), you are welcome to star the repository and to follow his (fuller) installation guide.
+
+Before we kick off, make sure that you are running [the latest version of IPFS desktop](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs-desktop), [cyberdcli](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-remote-node-and-account-managment) is installed and so is [python3](https://docs.python-guide.org/starting/installation/). Also make sure that you have a [charged cyber account](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift) and get yourself familiar with [arxiv.org](https://arxiv.org/), as that's the website we will use to crawl.
+
+arXiv is a free distribution service and an open-access archive for almost 2 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. 
+
+Let's start:
+
+1) Make sure you install the necessary python libraries on your machine (do check that you are installing the libraries under the user you are going to be running the script from, i.e. sudo or your daily user, if you have one). Go to your terminal and enter these commands one by one, making sure each one is completed. If you run into trouble, feel free to explore the internet on why this can happen (in most cases we encountered are `pip3` problems, which required upgrades of python):
+
+```bash
+pip3 install pandas
+pip3 install arxiv
+pip3 install multi-rake
+pip3 install ipfshttpclient
+pip3 install progressbar
+```
+
+2) Go to the [repo of the crawler](https://github.com/SaveTheAles/arxiv_crawler) and download it:
+
+```bash
+git clone https://github.com/SaveTheAles/arxiv_crawler.git
+```
+
+3) Make sure that you have imported the cyber account you going to be signing transactions from into the CLI. [Check out this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#account-management). If you are importing a Ledger account, you can prepare your Ledger
+
+4) Go to arxiv.org and explore the website. Find what it is you want to upload to the knowledge graph. arXiv lets you create [complex queries](https://arxiv.org/help/api/user-manual#Quickstart), but for this guide, we will stick to the simple things in life. I will be using the keyword `physics` for the guide
+
+5) In your terminal, go to the folder of the crawler:
+
+```bash
+cd arxiv_crawler
+```
+
+6) We need to prepare the config files. Let's do it. The first one is `config.py`. Open the file with `nano config.py` and edit the `address` and the `query` field:
+
+<img src="https://i.postimg.cc/h4bgtPmd/Screenshot-from-2020-04-23-17-32-16.png" />
+
+Save the file.
+
+7) Edit the `main.py` file with `nano main.py`. You need to pick the number of max_results you want to see. I will enter 50:
+
+<img src="https://i.postimg.cc/L8PxmhYd/Screenshot-from-2020-04-23-17-37-52.png" />
+
+8) Edit the `sign-brod.sh` file. Open it with `nano sign-brod.sh` and make sure that you enter your account name (NOT address!) where required. The account name is the name you chose for you account when you imported it into the CLI. Check [this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift) if you forgot. You need to edit the `for` to make the `i` suit your `max_results` and the transactions themselves:
+
+<img src="https://i.postimg.cc/d3M8Hj6L/Screenshot-from-2020-04-23-17-40-12.png" />
+
+We are nearly ready.
+
+9) Let's launch the script with (make sure your IPFS desktop is on and running):
+
+```bash
+python3 main.py
+```
+
+This should take some time depending on your internet connection and produce some results, similar to this:
+
+<img src="https://i.postimg.cc/yNvQbt3W/Screenshot-from-2020-04-23-17-58-46.png" />
+
+Because we chose rank 4.0 in our config file, the results that have a `4.0`+ grade will be searchable with the keywords assigned to them (in brackets) in cyber, after we broadcast the transactions.
+
+10) This produced a `data` folder with the papers in IPFS and a `txs` folder, in the data folder, with the transactions to sign. Go to your terminal and let's try to sign the transactions. If you are using a Ledger, make sure its ready and the Cosmos app is open. Also, make sure that you are under the user that created the keyring when trying to sign the transactions:
+
+```bash
+./sign-brod.sh
+```
+You might need to do this command, before running the script:
+
+```bash
+chmod u+x sign-brod.sh
+```
+
+11) Each tx, the Ledger will ask you to confirm, to broadcast and to sign the transaction. The end result should look similar to this:
+
+<img src="https://i.postimg.cc/wjFZC7S6/Screenshot-from-2020-04-23-18-27-30.png" />
+
+If you see a timeout error, this is probably to do with your internet connection or the proxy node you're using. If you're seeing the `too many tokens` error, this means that there are more than 7 messages in the tx. Ledger can't sign more than 7. If you're seeing the `permission denied` error, this means that you're most likely not under root or the address in the config file, doesn't match the one you're using on your Ledger. make sure the addresses match and if you are seeing the permission error, simply do `sudo chmod 777 /PATH TO FOLDER` to give the user that has the keyring permission to create files in that directory.
+
+12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
