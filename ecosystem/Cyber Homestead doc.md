@@ -39,6 +39,8 @@ This section contains the basic things you will need for your cyber journey. Fin
     * [Using the faucet to get tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens)
     * [Exploring the knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-the-knowledge-graph)
     * [Takeoff](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff)
+  * [Using cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
+     * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
