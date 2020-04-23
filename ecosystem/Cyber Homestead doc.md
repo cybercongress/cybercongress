@@ -599,13 +599,31 @@ Here, you may find details about the Game of Links, its distribution. Check out 
 For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
 
 #### cyb~Virus
-The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. 
+The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. It can still be used, thought it is NOT safe to import your private keys into the extension! 
 
 cyb~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. However, due to technical limitations, we have archived the project. 
 
-You may still find the code in its GitHub repository.
+You may still find the code in its [GitHub repository](https://github.com/cybercongress/cyb-virus).
 
 Please note: it is NOT safe to import your private keys into the app. We cannot guarantee the security of this application for the time being!
+
+With that in mind, you may still install it and use it. Let's try to do it:
+
+Head stright over to the [release page](https://github.com/cybercongress/cyb-virus/releases) and click on the `Assets` button. You will see the extension file.zip, download it:
+
+ADD
+
+The file will be saved in your `downloads` folder or in any other directory you saved it. You will need to unpack it. Simply head over to the file and unpack it into a seperate folder.
+
+Now open up your Crhome browser. The extension sonly supports Chrome!
+
+Go to settings and then click on extensions or simply put this `chrome://extensions/` into your broswers windon and click enter:
+
+ADD
+
+In the top left corner, click `Load unpacked` (please note that you might need to enble developers mode for this. To do this, simply click on the `Developers mode` on the same page, in the top right corner). A window will open, asking you to choose a folder, head over to the place you unpacked the extension, click on the folder (do not open the folder itself) and click open (I called mine `CYB`, but yours can have a different name):
+
+ADD
 
 #### cyb~Snap
 Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
@@ -613,6 +631,8 @@ Snaps are a [metamask](https://metamask.io/) extensions that allow developers to
 cyb~Snap will allow integrations for almost all Cosmos based chains and act as a multi-chain wallet, just like metamask is for ETH. 
 
 For cyber snap will allow for linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow utilizing other features.
+
+You may find more information about the snap in its [household repository](https://github.com/cybercongress/cyb-snap). PRs are welcome!
 
 A dev preview of cyb~Snap:
 
