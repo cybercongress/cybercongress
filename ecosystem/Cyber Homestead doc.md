@@ -627,6 +627,12 @@ In the top left corner, click `Load unpacked` (please note that you might need t
 
 ADD
 
+If you did it correctly, you will see the cyb extension appear:
+
+ADD
+
+Click on the extension in your extension pannel in the top right corner. 
+
 #### cyb~Snap
 Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
 
