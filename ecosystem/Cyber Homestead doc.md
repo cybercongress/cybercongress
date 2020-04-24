@@ -26,11 +26,11 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
   * [Using cyber: The very basics of becoming a Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
-    * [Connecting to cyber]()
+    * [Using cyber: Connecting to cyber]()
       * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
       * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
       * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
-    * [Using cyber.page for Masters]()  
+    * [Using cyber.page: Learning the basics]()  
       * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
       * [Sending tokens with Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens)
       * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
@@ -44,7 +44,7 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [Using cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
      * [CLI for Masters]()
-  * [Guru Master Classes]()
+  * [Using cyber: Guru Master Classes]()
     * [Monetization]()
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
@@ -508,7 +508,11 @@ There are 3 points on which we should touch when discussing cyber~Congress:
 This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
 
 ### Using cyber: The very basics of becoming a master
-#### cyber~Page
+
+#### Connecting to cyber
+First of all, let's explore the possible ways to connect to cyber. In further classes, you will find out about other ways of connecting with the beast. But for now, we will stick with the very basics. Read the information carefully, as few paths are safe, some might seem safer but have hidden obstacles, not seen to the naked eye.
+
+##### cyber~Page
 We suggest you start your acquaintance with using cyber from [cyber.page](http://cyber.page/). It is a small taste (it is, currently, in alpha mode) of an IPFS based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol.
 
 First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story` (just press the space bar on your keyboard if you wish to skip the story):
@@ -605,7 +609,7 @@ Here, you may find details about the Game of Links, its distribution. Check out 
 
 For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
 
-#### cyb~Virus
+##### cyb~Virus
 The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. It can still be used, though it is NOT safe to import your private keys into the extension! 
 
 cyb~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. However, due to technical limitations, we have archived the project. 
@@ -650,7 +654,7 @@ After you click the first button, click `save`:
 
 This has the IPFS hash of the file, which you can already use. Copy it. If you now try any IPFS gateway, you should be able to see that file in IPFS. 
 
-#### cyb~Snap
+##### cyb~Snap
 Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
 
 cyb~Snap will allow integrations for almost all Cosmos based chains and act as a multi-chain wallet, just like metamask is for ETH. 
@@ -665,7 +669,10 @@ A dev preview of cyb~Snap:
 
 To be continued...
 
-#### Using your Ledger to link
+#### Using cyber.page for Masters
+Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of options.
+
+##### Using your Ledger to link
 The main purpose of cyber is to cyberlink aka to create an open semantic field for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
 
 In the future, the process of making links will become easier and easier. Right now, there are plenty of bugs and fixes that cyber.page as an app undergoes. But, regardless of these, it works. So let's try to use our Ledger device and create a link:
@@ -794,7 +801,7 @@ Not perfect. I know... But at least there is a picture and a description of what
 
 You can link videos, music files, pdfs, etc. The link is your oyster. For now, they do not show perfectly on screen and there are lots of fixes that the app is undergoing. But it fulfils its initial purpose. We managed to submit something to the open semantics field of web3. Who knows, maybe whatever we submitted will once become one of the most searched for things on the new Great Web...
 
-#### Sending tokens 
+##### Sending tokens 
 As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
 
 <img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
@@ -819,7 +826,7 @@ You may click `continue` to carry on linking or click `View transaction` to see 
 
 <img src="https://i.postimg.cc/g2w2NXy4/Screenshot-from-2020-03-30-15-29-30.png" />
 
-#### An in-depth explorer
+##### An in-depth explorer
 cyber.page allows you to use it as an in-depth explorer. There are two parts to this. One is investigating transactions related to your own account and the other is being able to read general chain information.
 
 Let's start with general information. Click on the brain in the top left corner:
@@ -896,7 +903,7 @@ Let's click the `Cyberlinks` button:
 
 Here we can see all of the cyberlinks that we did. The tx hash (once again, this is a link to a new page with the details), the timestamp and a `from` and a `to` columns. Those are the 2 hashes we used to create a cyberlink.#### Claiming the gift
 
-#### Claiming the Gift
+##### Claiming the Gift
 The good thing about cyber is that it has a really good architecture and that it uses a bandwidth model to prevent spam. This means that you need tokens to transact. Transactions are free, but you need something to freeze. After a while, you will run out of bandwidth and it will regenerate again. It acts as a protection unit.
 
 We have gifted 10% of our supply to Ethereum, Cosmos and Urbit holders. This means that you can claim the gift, play GoL and transact. Awesome.
@@ -1024,7 +1031,7 @@ Go back to cyber.page and the green eye (you should still have it opened). Check
 
 If you do, congratulations. Send over the rest of the balance. You are now ready to play! 
 
-#### Choosing your hero
+##### Choosing your hero
 Heroes are the validators behind cybers infrastructure. They are the titans that stand on guard, making sure you can sleep safely at night (and day). 
 
 Heroes get rewarded for their work via inflation. Masters (i.e. delegators) can also be eligible to part of those rewards. This is the process of staking. You delegate your tokens or part of them) to a certain (or several) heroes and because they are staked, you are now, too, eligible to receive some rewards. There are of course some `but`. For one, heroes may (and rightly so) charge a commission fee for from delegators. This allows them to pay for the infrastructure costs that they have. Two, you should be careful choosing a hero. If a hero misbehaves he will get slashed (punished). For example, if a validator node double signs a transaction, the node will lose part of its bonded (staked) tokens. Along with it, delegators will suffer too. This means that you should look out for things like a heroes reputation, commits to the chain, his reasons on launching and running the node, maintenance of the node and other things that might let you know more about them. Three, it is highly advisable to spread your stake (balance) amongst several heroes. This helps decentralization and reduces the risk in case a hero gets slashed. 
@@ -1107,7 +1114,7 @@ You can keep an eye on your delegations by clicking the green eye, then your cyb
 
 <img src="https://i.postimg.cc/9QJrRXgd/Screenshot-from-2020-03-30-18-32-19.png" />
 
-#### Picking honey
+##### Picking honey
 As previously stated, when you chose a here and delegated your dough to him, you are now too, eligible for some honey. 
 
 As in the previous guides, connect your Ledger device, open the Cosmos app and click the green eye on cyber.page:
@@ -1128,7 +1135,7 @@ Make sure the information on your Ledger matches what you see on the screen. Scr
 
 You can see that the last transaction is what we are after - claiming rewards! As usual, you can explore it by clicking the tx hash. 
 
-#### Playing GoL
+##### Playing GoL
 By now your level of expertise as a master should be on level 42. If so, let's move onto the main section of the master level. Playing the Game of Links. 
 
 There is so much info about GoL in this guide, that I would recommend using `Ctrl-F` key combo and search for what it is. A long story short, it's a game to help distribute CYB tokens from the pot of cyber~Congress into the hands of those who want them. The game is made for heroes, evangelists and masters. However, anyone can join and play. You don't need to have a node running to get rewards. In fact, if you've managed to complete the above levels and got as far as here, you are good to go.
@@ -1205,7 +1212,7 @@ Pretty simple. So what are you waiting for? Go and link...
 
 You may, of course, explore the 2 other ways of the Jedi. The `hero` path and the `evangelists` path. But we will skip them for this section.
 
-#### Using the faucet to get tokens
+##### Using the faucet to get tokens
 What do you do if you didn't get any tokens as a gift and you want to play? Or you want more tokens to play with?
 
 Use the test\~Auction or [the faucet](https://cyber.page/gol/faucet). We have released an in-detail [blog post]() on how to use it. If you haven't read it, check it out. Otherwise, stick with me (but please check out the post for more detail).
@@ -1242,7 +1249,7 @@ The GOL tokens you have just vested will be moved to the `Vested` section, and t
 
 Congratulations!  You have EUL tokens for interacting with the `euler` test network!
 
-#### Exploring the knowledge graph
+##### Exploring the knowledge graph
 By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
 
 You've been working hard on linking day and night, trying to get some tokens, right? What could be better than seeing your work painted by an artist?
@@ -1251,7 +1258,7 @@ In your browser, go straight to the [page of the graph](https://cyber.page/graph
 
 This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
 
-#### Takeoff 
+##### Takeoff 
 You might have gotten here yourself while you were exploring GoL. If not, just head over to the [takeoff page manually](https://cyber.page/gol/takeoff).
 
 <img src="https://i.postimg.cc/zGrPGB4p/Screenshot-from-2020-04-17-13-16-25.png" />
@@ -1352,6 +1359,24 @@ chmod u+x sign-brod.sh
 If you see a timeout error, this is probably to do with your internet connection or the proxy node you're using. If you're seeing the `too many tokens` error, this means that there are more than 7 messages in the tx. Ledger can't sign more than 7. If you're seeing the `permission denied` error, this means that you're most likely not under root or the address in the config file, doesn't match the one you're using on your Ledger. make sure the addresses match and if you are seeing the permission error, simply do `sudo chmod 777 /PATH TO FOLDER` to give the user that has the keyring permission to create files in that directory.
 
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
+
+#### CLI for Masters
+
+### Guru Masterclasses
+Here you are. A young padawan, standing proud in front of the Gods. What else awaits you on your journey? Only the Gods know... and in all honesty, they are too, unsure about your future. 
+
+For now, this section will remain purely theoretical. As cyber grows, so will this section and the possibilities of how to use it.
+
+#### Monetezation
+How do you monetize content with cyber? Can a Master make use of cyber in such a way that it will help him with important things like basic income? Is this a loud statement? Possibly. So was Einstein's theory of relativity just a little over 100 years ago. Could you have understood how to monetize blockchain tech in early 2010? Unlikely, But! If you were into digital tokens, economics, game theory and tech, most likely you had some ideas, regardless of their possible implementation. Ther is a drastic gap between luck and an educated, based upon facts, theory. 
+
+By now you are probably familiar with some of the mechanics of cyber. Later in this document, you will learn more and more about it, including its possible, endless use cases. You are also aware of semantics, advertisement tools on the internet and how the two are connected. There is more... There is e-commerce, there is monetization via services, etc. All this requires data, semantics, economic incentives for actions, computation and knowledge. Cyber provides just that. 
+
+We cannot say for granted that you may do this or that with cyber, but we can certainly put forward an educated theory. If semantics is under your control and the control of everyone if users of the internet can work with decentralized instruments, rather then centralised services. If anyone can provide a service based on this semantics, decided how to index content, rather than trusting a blackbox intermediary... then maybe, it becomes possible to build tools, even for users, rather than just developers. 
+
+Of course, you need developers to build the tools, however, e-commerce, SEO or other things do not require many skills to start. If I can influence a keyword-relevant to me at any moment to be searched, I am working with SEO. If this keyword is `buy second-hand chairs in Spain`, then I can see how I can use it to my advantage as a re-seller or if I work in production. If I can buy something right in a spark (a snippet of a search result) I will do it. If I can subjectively create a local oracle of data, I can use it for my own benefit (or the benefit of someone else). The possibilities are really endless. 
+
+Are there many ways of monetizing the internet? Yes. They are endless. Apps, data, on and/or off-chain apps, consensus apps, selling, buying, etc. The beauty is that there is no 3rd party. There is no middle man. The downside is that all of the above requires time, developer adoption, user adoption and so on. But, this is not a downside. It is your early ticket to the Great Web. Be the builder of the web yourself. Create the rules. Make suggestions. Buidl. Hodl. Be a true master of your own destiny!
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
