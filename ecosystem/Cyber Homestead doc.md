@@ -1431,6 +1431,27 @@ Confirm the transaction when prompted. If the from address is a ledger address, 
 *Hint: To check the balance of an address, type in this command: cyberdcli query account <your_key_address>*
 
 ##### Creating Links
+Let's create a cyberlink using the CLI. It is fairly easy, however, requires us to prepare a few things in advance. First of all, if you are going to be using an imported Ledger account, make sure that you have your device ready, open, and the Cosmos app installed. Obviously, you will need the energy to create links, just like for any other transactions. If you're going to be using an imported account without a Ledger, just make sure it has the needed energy.
+
+This is an example of the linking command:
+
+```bash
+cyberdcli link --cid-from QmWDYzTXarWYy9UKC7Ro4xMCdSVseQPbmdnmTYsJ9zGTpK --cid-to QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pK3 --from fuckgoogle --chain-id euler-6 --yes
+```
+
+As you can see it has quite a few fields. Let's explore them:
+
+- `cid from` is the IPFS hash of a keyword that users will find the content by 
+- `cid to` is the IPFS hash we are linking to (the content itself)
+- `from` is the account name
+
+You will need IPFS hashes. How to get these? Either use [IPFS desktop](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs-desktop) and add files to it to obtain an IPFS hash or any other IPFS companion. Use [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus) to download a page into IPFS and get the IPFS hash this way. Find it on the internet or even obtain it from cyber.page by searching for something particular. There are many options, and as you are not a beginner anymore, we will skip this. 
+
+I have 2 IPFS hashes ready: one hash, is the hash of a keyword that I want users to find the content by and QmWXEAHTnMHGfQ6SRaQGAp4BE3JpfXsUzGokMA7nJumS6R (it is an IPFS hash I obtained by using cyb~Virus and downloaded the IPFS GitHub desktop guide). 
+
+I will be using an imported local account, so the `fuckgoogle` will change to my account name. The chain id should be up to date. Let's try to enter the command above with our hashes and our account name.
+
+This will return a result with some text. We need to make sure the code is `0` and we might want to use the hash of the tx. We can check the transaction by going to cyber.page and either checking your transactions if the account is pocketed, or by typing the hash of the tx into the search box and choosing the `tx details` box to see the details of our tx. Or, simply enter the keyword into the search box.
 
 ### Guru Masterclasses
 Here you are. A young padawan, standing proud in front of the Gods. What else awaits you on your journey? Only the Gods know... and in all honesty, they are too, unsure about your future. 
@@ -3350,7 +3371,7 @@ cyberdcli config --get <parameter_name>
   --chain-id=euler-6
 ```
 
-Example of a link command:
+The `cid-from` is the IPFS hash of the keyword that you want to make searchable. Example of a link command:
 
 ```bash 
 cyberdcli link --cid-from QmWDYzTXarWYy9UKC7Ro4xMCdSVseQPbmdnmTYsJ9zGTpK --cid-to QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pK3 --from fuckgoogle --chain-id euler-6 --yes
