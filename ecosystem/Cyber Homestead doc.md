@@ -1379,6 +1379,53 @@ If you see a timeout error, this is probably to do with your internet connection
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
 #### CLI for Masters
+While we learned to claim the gift, we learned that there is such a tool as the cyberdcli. The cyberdcli lets you coonect to cyber, using a remote node and interact with the blockchain. We have already seen that its possible to create and import accounts into cyber using the CLI. 
+
+So let's go over the ways in which masters can use the CLI:
+
+- [Create an account]()
+- [Claim the gift]()
+- [Sign differnet transactions, like in the case of the crawler]()
+- Send tokens
+- Create links
+- Other options, like delegating, picking honey from heroes, etc, are avaliable in the [CLI guide]() and should beocme obvious after this section
+
+As we have already seen the first 3 options in action. Let's explore the other 2.
+
+If you still haven't installed the CLI, do it with:
+
+```bash
+bash < <(curl -s https://raw.githubusercontent.com/cybercongress/go-cyber/master/scripts/install_cyberdcli_v0.1.6.sh)
+```
+
+You shhould have an imported account to do any of the following. Please see [previos secions]() on how to do this.
+
+##### Sending tokens
+Easy-peasy with one simple command:
+
+```bash
+cyberdcli tx send <from_key_or_address> <to_address> <amount_eul> --chain-id euler-6
+```
+
+Open your terminal and copy the command above into any notepad that you're comfortable with using. The <from_key_or address> is the address we will send the tokens from. It is not the name you chose, but the address itself. Type in:
+
+```bash
+cyberdcli keys list
+```
+
+To get the list of imported addresses. Copy the address that you will send tokens from and don't forget to get rid of the `<` and the `>` symbols. Change the <to_address> to the address you are sending the tokens to, and enter the amount. I will be sending 100 EUL tokens. My command will look like this:
+
+```bash
+cyberdcli tx send cyber1ADDRESS cyber1ADDRESS 100eul --chain-id euler-6
+```
+
+Of course, if the chain id changed, change it too! 
+
+Confirm the transaction when prompted. If the from address is a ledger address, your ledger should be prepared by this stage and open with the Cosmos app open, confirm the transaction on the LEdger. The outcome will be a bunch of text with the tx hash and `0` code, which means it was successful.
+
+*Hint: To check the balance of an address, type in this command: cyberdcli query account <your_key_address>*
+
+##### Creating Links
 
 ### Guru Masterclasses
 Here you are. A young padawan, standing proud in front of the Gods. What else awaits you on your journey? Only the Gods know... and in all honesty, they are too, unsure about your future. 
