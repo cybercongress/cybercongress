@@ -1381,7 +1381,12 @@ If you see a timeout error, this is probably to do with your internet connection
 
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
-#### Cross Linking and Clustering
+#### Cross-Linking and Clustering
+These are 2 terms that are often used and can help you to build the graph. Clusterization simply refers to different clusters on the [knowledge graph](https://cyber.page/graph). Clusters aren't necessarily connected between each other. But might be. 
+
+Cross-linking means that there is more than one link from a CID. Chain linking, in theory, can also apply to cross-linking. For example, we may take the [cuurent top CIDs](https://cyber.page/gol/relevance) and cross-link new content to these CIDs or cross-link it with other clusters/new content. 
+
+Why would you want to do this? To gain more relevance, interconnect the graph, etc. It's up to you...
 
 #### CLI for Masters
 While we learned to claim the gift, we learned that there is such a tool as the cyberdcli. The cyberdcli lets you connect to cyber, using a remote node and interact with the blockchain. We have already seen that it's possible to create and import accounts into cyber using the CLI. 
