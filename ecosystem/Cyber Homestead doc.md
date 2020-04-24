@@ -25,22 +25,27 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
-  * [Using cyber: The very basics of becoming a master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
-    * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
-    * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
-    * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
-    * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
-    * [Sending tokens with Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens)
-    * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
-    * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
-    * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
-    * [Picking honey](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey)
-    * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
-    * [Using the faucet to get tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens)
-    * [Exploring the knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-the-knowledge-graph)
-    * [Takeoff](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff)
+  * [Using cyber: The very basics of becoming a Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
+    * [Connecting to cyber]()
+      * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
+      * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
+      * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
+    * [Using cyber.page for Masters]()  
+      * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+      * [Sending tokens with Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens)
+      * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
+      * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+      * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+      * [Picking honey](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey)
+      * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
+      * [Using the faucet to get tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens)
+      * [Exploring the knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-the-knowledge-graph)
+      * [Takeoff](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff)
   * [Using cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
+     * [CLI for Masters]()
+  * [Guru Master Classes]()
+    * [Monetization]()
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
@@ -601,7 +606,7 @@ Here, you may find details about the Game of Links, its distribution. Check out 
 For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
 
 #### cyb~Virus
-The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. It can still be used, thought it is NOT safe to import your private keys into the extension! 
+The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. It can still be used, though it is NOT safe to import your private keys into the extension! 
 
 cyb~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. However, due to technical limitations, we have archived the project. 
 
@@ -611,27 +616,39 @@ Please note: it is NOT safe to import your private keys into the app. We cannot 
 
 With that in mind, you may still install it and use it. Let's try to do it:
 
-Head stright over to the [release page](https://github.com/cybercongress/cyb-virus/releases) and click on the `Assets` button. You will see the extension file.zip, download it:
+Head straight over to the [release page](https://github.com/cybercongress/cyb-virus/releases) and click on the `Assets` button. You will see the extension file.zip, download it:
 
-ADD
+<img src="https://i.postimg.cc/CL1HGXbF/Screenshot-from-2020-04-23-11-34-44.png" />
 
-The file will be saved in your `downloads` folder or in any other directory you saved it. You will need to unpack it. Simply head over to the file and unpack it into a seperate folder.
+The file will be saved in your `downloads` folder or in any other directory you saved it. You will need to unpack it. Simply head over to the file and unpack it into a separate folder.
 
-Now open up your Crhome browser. The extension sonly supports Chrome!
+Now open up your Chrome browser. The extension sonly supports Chrome!
 
-Go to settings and then click on extensions or simply put this `chrome://extensions/` into your broswers windon and click enter:
+Go to settings and then click on extensions or simply put this `chrome://extensions/` into your browsers window, and click enter:
 
-ADD
+<img src="https://i.postimg.cc/L57qBCMX/Screenshot-from-2020-04-23-11-38-49.png" />
 
-In the top left corner, click `Load unpacked` (please note that you might need to enble developers mode for this. To do this, simply click on the `Developers mode` on the same page, in the top right corner). A window will open, asking you to choose a folder, head over to the place you unpacked the extension, click on the folder (do not open the folder itself) and click open (I called mine `CYB`, but yours can have a different name):
+In the top left corner, click `Load unpacked` (please note that you might need to enable developers mode for this. To do this, simply click on the `Developers mode` on the same page, in the top right corner). A window will open, asking you to choose a folder, head over to the place you unpacked the extension, click on the folder (do not open the folder itself) and click open (I called mine `CYB`, but yours can have a different name):
 
-ADD
+<img src="https://i.postimg.cc/XJPNTr11/Screenshot-from-2020-04-23-11-41-41.png" />
 
 If you did it correctly, you will see the cyb extension appear:
 
-ADD
+<img src="https://i.postimg.cc/4x4dHRc5/Screenshot-from-2020-04-23-19-43-20.png" />
 
-Click on the extension in your extension pannel in the top right corner. 
+Click on the extension in your extension panel in the top right corner. *Hint: As Virus isn't safe to use for importing keys and transactions, the only reason why you would want to use it is for downloading pages into IPFS and obtaining a hash for cyberlinking via cyper.page.*
+
+Click get started and create a wallet. A page with a seed phrase will appear. You can save it and as a matter of good principle, you should. However, as mentioned, this address might not be safe. Enter a password and move forward. The app is installed and is ready to be used. 
+
+All that you are interested in, is the `Download page to IPFS` button. Go onto any page you want to do this for (make sure your browser allows javascript) and click the button (you don't need a balance for it, it's not a chain tx):
+
+<img src="https://i.postimg.cc/xT27R0tK/Untitled.png" />
+
+After you click the first button, click `save`:
+
+<img src="https://i.postimg.cc/d10NhBm3/Untitled1.png" />
+
+This has the IPFS hash of the file, which you can already use. Copy it. If you now try any IPFS gateway, you should be able to see that file in IPFS. 
 
 #### cyb~Snap
 Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
