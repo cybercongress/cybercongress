@@ -8,7 +8,7 @@
 This section contains the basic things you will need for your cyber journey. Find out how to use this guide, how to help it evolve and what awaits ahead.
 
 ### Release version
-0.1: Mercury
+0.2: Venus
 
 ### Content
 ------------------------------------------------------
@@ -1689,6 +1689,7 @@ A list of profiles on other projects websites:
 - [Cosmos community forum](https://forum.cosmos.network/t/list-of-projects-in-cosmos-tendermint-ecosystem/243/14): At number 16
 - [IPFS project list](https://blog.ipfs.io/2020-02-10-our-focus-for-2020/): A list of IPFS projects
 - [Aragon wiki](https://wiki.aragon.org/about/projects/): Our profile on the Aragon wiki
+- [Powered by Aragon website](https://poweredby.aragon.org/)
 
 A list of constant media profiles:
 - [All cyber media mentions](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild): Fell free to hit the `reply` button to the topic and add something if you see us getting mentioned in the wild.
