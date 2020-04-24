@@ -22,7 +22,9 @@ Before we start to play we need some energy that will allow us to make transacti
 There are several ways to get some energy:
 
 1) Use [our faucet](https://cyber.page/gol/faucet). Read [how-to](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens), and check [this blog post](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
+
 2) Use Uniswap to obtain GOL, then vest them to get EUL. Read [how to do this](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
+
 3) Claim the gift of the Gods (we gifted over 1 million addresses across the solar system). Learn [how to do this](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
 
 Energy should be stored somewhere. The best way to store it is your cyber account. Simply [pocket your Ledger device](https://cyber.page/pocket), open
