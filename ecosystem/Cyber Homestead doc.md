@@ -32,6 +32,7 @@ This section contains the basic things you will need for your cyber journey. Fin
       * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
     * [Using cyber.page: Learning the basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-for-masters)  
       * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+         * [Using cyb~Virus and cyber.page together]()
       * [Sending tokens with Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens)
       * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
       * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
@@ -800,6 +801,23 @@ And click the paper clip and upload the HTML file of rain. Click `Cyberlink usin
 Not perfect. I know... But at least there is a picture and a description of what it is we wanted to teach cyber. We have committed 2 links to the knowledge graph and anyone searches for `rain` will find our result. Anyone cyberlinking our rain to other things will be starting here. Pretty cool, ah? 
 
 You can link videos, music files, pdfs, etc. The link is your oyster. For now, they do not show perfectly on screen and there are lots of fixes that the app is undergoing. But it fulfils its initial purpose. We managed to submit something to the open semantics field of web3. Who knows, maybe whatever we submitted will once become one of the most searched for things on the new Great Web...
+
+###### Using cyb~Virus and cyber.page together
+You have learned about cyb~Virus and that it can provide us with an IPFS hash of a page that we want to link. We also learned how to connect our Ledger to cyber.page and use it to create cyberlinks. 
+
+There is another trick in the book. It is especially useful if you want to download a page perfectly into IPFS (not a wishy-washy version that is broken everywhere) and then upload this to the knowledge graph, using cyber.page and your Ledger.
+
+Let's do this! Open your browser, your `cyb` extension and open the page that you want to download to IPFS. I want to cyberlink the keyword `help` with this guide into the network! Click on `Download page to IPFS`:
+
+<img src="https://i.postimg.cc/jjzxtHv9/photo-2020-04-24-14-01-37.jpg" />
+
+Copy the IPFS hash. You already know how to do this! Don't try and link just yet, as I said, cyb~Virus isn't any good for that anymore.
+
+Now, let's open the and type `help`, there will be no results. Good. We need the `paste a hash` option, we already know how to use it. Prepare your Ledger, open it and open the Cosmos app on it. Paste the saved hash from cyb~Virus into the box:
+
+<img src="https://i.postimg.cc/cLx2rQs2/Screenshot-from-2020-04-24-13-56-38.png" />
+
+Follow the on-screen instructions and the Ledger instructions and finally, sign the tx. Check it. It works =)
 
 ##### Sending tokens 
 As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
