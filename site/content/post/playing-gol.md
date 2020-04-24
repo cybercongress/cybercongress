@@ -62,8 +62,11 @@ The way of the Master beholds 4 challenges:
 
 1) [Relevance](https://cyber.page/gol/relevance): The gist is simple, the higher the rank of the content submitted, the better.  Read [the how-to link guide first](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link). 
 Second, make sure you show some love to your links. Link them with more links. *Hint*, watch out for the top CIDs at any point. Be the first to follow that strategy and relink them. In other words, think of this as following a traders strategy. Just like when you follow your favourite traders' decisions, however, if too many people get ahead of you, the market reacts and the decision will probably lose relevance.
-2) [Load](https://cyber.page/gol/load): Spend as much energy (bandwidth) as you can on submitting links. The bandwidth spent on linking is called `Karma`, The more Karma you have, the better. Think of this is a useful reputation based on your actions, rather than words. How to win? Submit a lot of links. The more you link, the better the chance of winning
+
+2) [Load](https://cyber.page/gol/load): Spend as much energy (bandwidth) as you can on submitting links. The bandwidth spent on linking is called `Karma`, The more Karma you have, the better. Think of this is a useful reputation based on your actions, rather than words. How to win? Submit a lot of links. The more you link, the better the chance of winning.
+
 3) [Community](https://cyber.page/governance): cyber is governed by the community. Use the governance [module](https://cyber.page/governance) to submit useful things. Be active. Organize events. Build things. 
+
 4) [Takeoff](https://cyber.page/gol/takeoff): This is not a discipline as such, but the idea is twofold:
 
 - The more ATOMs donated, the higher the rewards for some of the disciplines
@@ -89,7 +92,7 @@ We have 3 more disciplines left on [the dashboard](https://cyber.page/gol). Thes
 
 I can talk about heroes all day long. But let's cut the chase. Everyone wants to be a hero and I know a cheat code. [Check it out](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md).
 
-### What's left?
+### What else?
 Hang on there brave stranger! I would like to give you [the link](https://cyber.page/graph) that will help you to see through space and time. I am unsure how, but I have the feeling that it will help you on your journey! 
 
 And now go on, and [save the universe](https://cyber.page/gol)!  
