@@ -46,8 +46,8 @@ This section contains the basic things you will need for your cyber journey. Fin
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
      * [Cross Linking and clustering]()
      * [CLI for Masters](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-for-masters)
-       * [Sendint tokens]()
-       * [Creating links]()
+       * [Sending tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens-1)
+       * [Creating links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-links)
   * [Using cyber: Guru Master Classes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#guru-masterclasses)
     * [Monetization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#monetezation)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
@@ -1381,17 +1381,19 @@ If you see a timeout error, this is probably to do with your internet connection
 
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
+#### Cross Linking and Clustering
+
 #### CLI for Masters
-While we learned to claim the gift, we learned that there is such a tool as the cyberdcli. The cyberdcli lets you coonect to cyber, using a remote node and interact with the blockchain. We have already seen that its possible to create and import accounts into cyber using the CLI. 
+While we learned to claim the gift, we learned that there is such a tool as the cyberdcli. The cyberdcli lets you connect to cyber, using a remote node and interact with the blockchain. We have already seen that it's possible to create and import accounts into cyber using the CLI. 
 
 So let's go over the ways in which masters can use the CLI:
 
-- [Create an account]()
-- [Claim the gift]()
-- [Sign differnet transactions, like in the case of the crawler]()
+- [Create an account](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+- [Claim the gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+- [Sign different transactions, like in the case of the crawler](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
 - Send tokens
 - Create links
-- Other options, like delegating, picking honey from heroes, etc, are avaliable in the [CLI guide]() and should beocme obvious after this section
+- Other options, like delegating, picking honey from heroes, etc, are available in the [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide) and should become obvious after this section
 
 As we have already seen the first 3 options in action. Let's explore the other 2.
 
@@ -1401,7 +1403,7 @@ If you still haven't installed the CLI, do it with:
 bash < <(curl -s https://raw.githubusercontent.com/cybercongress/go-cyber/master/scripts/install_cyberdcli_v0.1.6.sh)
 ```
 
-You shhould have an imported account to do any of the following. Please see [previos secions]() on how to do this.
+You should have an imported account to do any of the following. Please see [previos secions](Homestead) on how to do this.
 
 ##### Sending tokens
 Easy-peasy with one simple command:
