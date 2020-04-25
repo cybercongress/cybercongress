@@ -5,7 +5,7 @@ title: 'Become Cybers evangelist and get rewarded from the superintelligence'
 author: serejandmyself
 ---
 
-Without much ado, we want to announce the Open Bootstrap Evangelism Program or OBEP. Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during [the Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol), [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) and other perks.
+The [takeoff proposal](https://cyber.page/governance/2) has passed! Without much ado, we want to announce the Open Bootstrap Evangelism Program or OBEP. Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during [the Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol), [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) and other perks.
 
 Read the full details:
 
