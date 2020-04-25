@@ -29,6 +29,8 @@ Read the full details:
 ## How-to?
 Go to [cyber.page/evangelism](https://cyber.page/evangelism) and apply for the program. You will either receive an automated acknowledgement (blessing) or we will contact you to ask you any additional questions. For example, we could ask you to commit something to the knowledge graph. 
 
+Please note, the `believe` tx has a slightly higher cost than usual, this is a simple spam prevention mechanism. The proceeds from this go to the balance of cyber~Foundation, the community governing DAO of Cyber. 
+
 To apply, prepare the following: 
 
 - Your cyber address. [How-to](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
