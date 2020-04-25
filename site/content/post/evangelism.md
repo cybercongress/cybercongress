@@ -55,7 +55,7 @@ Donors do not have to head to the takeoff page straight away. As long as they en
 
 Other rewards are going to be monitored manually for the time being via communication between the coordinator and the acknowledged evangelists. 
 
-To receive your referral link you should...
+In the coming days, we will automate the ability to receive a referral link from the app add gradually add other features. In the meantime, all you need to do is just apply and start using your link. Simply add `yournick` as shown above. That's it...
 
 ## For whom?
 Previous accomplishments are not a must. You decide how and what to do to achieve this. We believe this will help to generate healthy competition between the participants of the program.
