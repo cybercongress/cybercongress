@@ -23,12 +23,12 @@ Go to [cyber.page/path/evangelist](https://cyber.page/path/evangelist) and apply
 
 Once you apply, you will get your referral link. It looks like this:
 ```
-https://cyber.page/thanks/xhipster
+https://cyber.page?thanks=xhipster
 ```
-You can append `/thanks/[yournick]/` to any part of the [cyber.page](https://cyber.page/) app. e.g:
+You can append `?thanks=[yournick]` to any part of the [cyber.page](https://cyber.page/) app. e.g:
 ```
-https://cyber.page/search/google/thanks/xhipster
-https://cyber.page/takeoff/thanks/xhipster
+https://cyber.page/search/google?thanks=xhipster
+https://cyber.page/takeoff?thanks=xhipster
 ```
 
 Referral attributions work best on first click basis.
