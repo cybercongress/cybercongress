@@ -1,6 +1,6 @@
 ---
 date: 2020-04-26
-url: obep
+url: post/obep
 title: 'Become Cybers evangelist and get rewards from the superintelligence'
 author: serejandmyself
 ---
