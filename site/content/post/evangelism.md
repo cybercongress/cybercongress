@@ -7,7 +7,7 @@ author: serejandmyself
 
 The [takeoff proposal](https://cyber.page/governance/2) has passed! 
 
-Without much ado, we announce the Open Bootstrap Evangelism Program or `OBEP`. Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during [the Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol), [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) and other perks. To kick off the program, [vote `yes` to the evangelism proposal](https://cyber.page/governance/3).
+Without much ado, we announce the Open Bootstrap Evangelism Program or `OBEP`. Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during [the Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol), [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) and other perks. To kick off the program, [vote `yes` to the evangelism proposal](https://cyber.page/governance/4).
 
 ## Details
 - [The full description](https://github.com/cybercongress/cyber-foundation/blob/master/evangelism/obep.md) of `OBEP`
