@@ -41,19 +41,21 @@ To apply, prepare the following:
 
 Once you apply, you will get your referral link. It looks like this:
 ```
-https://cyber.page/gol/takeoff?thanks=YOURNICK
+https://cyber.page?thanks=yournick
 ```
-You can append `/thanks/[yournick]/` to any part of the [cyber.page](https://cyber.page/) app. e.g:
+You can append `/thanks=[yournick]/` to any part of the [cyber.page](https://cyber.page/) app. e.g:
 ```
-https://cyber.page/gol/takeoff?thanks=YOURNICK
-https://cyber.page/search/cyber?thanks=YOURNICK
+https://cyber.page/gol/takeoff?thanks=yournick
+https://cyber.page/search/cyber?thanks=yournick
 ```
 
 (change `yournick` to the nickname you have used during the application process) 
 
 Spread the link throughout the universe. If donors use your link to enter cyber.page and donate to [the takeoff](https://cyber.page/gol/takeoff), you will become eligible to 10% of the donated amount (which comes from the ATOM of the DAO, not the donor, see below) and some CYB tokens. You will be able to follow your success on the [evangelism page](https://cyber.page/evangelism).
 
-Donors do not have to head to the takeoff page straight away. As long as they entered the app via your link and not left the app until they used the takeoff page, they can visit other pages before heading to the takeoff page. You will still be eligible.   
+Donors do not have to head to the takeoff page straight away. As long as they entered the app via your link for the first time, they can visit other pages before heading to the takeoff page or leave the app. You will still be eligible.  
+
+It is also possible to ask a donor to manually insert `yournick` into the memo field of the transaction. It should be the same nick that you have used when registered for the evangelist program. 
 
 Other rewards are going to be monitored manually for the time being via communication between the coordinator and the acknowledged evangelists. 
 
