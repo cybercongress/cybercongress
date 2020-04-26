@@ -31,7 +31,7 @@ https://cyber.page/search/google?thanks=xhipster
 https://cyber.page/takeoff?thanks=xhipster
 ```
 
-Referral attributions work best on first click basis.
+Referral attributions work on last click basis.
 
 ## Whom?
 Cosmos wallets, explorers, bloggers and masters of different crypto channels are welcome to participate. We know,  it's a natural process for you. But previous accomplishments are not a must. You can try and build your own community around a new idea. You decide how and what to do to achieve this. We believe this will help to generate healthy competition between the participants of the program.
