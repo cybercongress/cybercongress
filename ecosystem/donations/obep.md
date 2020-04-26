@@ -1,3 +1,5 @@
+**[Moved to cyber\~Foundation!](https://github.com/cybercongress/cyber-foundation/blob/master/evangelism/obep.md)**
+
 ## Idea
 As stated in [the whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x) we will use the distribution games to achieve a better allocation of tokens. 
 
