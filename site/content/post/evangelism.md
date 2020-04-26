@@ -41,11 +41,11 @@ To apply, prepare the following:
 - Your [GitHub](https://github.com) account
 - Your [keybase](https://keybase.io/) account
 
-Once you apply, you will get your referral link. It looks like this:
+Once you apply, you can use your referral link. It looks like this:
 ```
 https://cyber.page?thanks=yournick
 ```
-You can append `?thanks=[yournick]` to any part of the [cyber.page](https://cyber.page/) app. e.g:
+You can apply `?thanks=[yournick]` to any URL of the [cyber.page](https://cyber.page/) app. e.g:
 ```
 https://cyber.page/gol/takeoff?thanks=yournick
 https://cyber.page/search/cyber?thanks=yournick
