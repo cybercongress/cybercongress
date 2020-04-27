@@ -35,5 +35,5 @@ The future is bright, but not everyone will make it! As John Lenon said:
 
 > You may say I'm a dreamer.  I hope someday you'll join us. And the world will be as one 
 
-The takeoff has started. [Join the evolution](https://cyber.page/gol/takeoff)! 
+The takeoff will start on the 27.04.2020 at ~18.50 UTC. [Join the evolution](https://cyber.page/gol/takeoff)! 
 
