@@ -1955,6 +1955,9 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2020.03.31 - 2020.04.03: [Genesis ceremony](https://cybercongress.ai/genesis-ceremony/) for euler-6
 - 2020.04.04: Launch of [euler-6](https://github.com/cybercongress/go-cyber/releases/tag/v0.1.6)
 - 2020.04.10: Launch of euler~Foundation Aragon ceremony
+- 2020.04.20: [First governance proposal](https://cyber.page/governance/2) submitted (takeoff) and accepted after voting
+- 2020.04.26: [Launch of Evangelism](https://cyber.page/evangelism)
+- 2020.04.27: Start of [the takeoff donation round](https://cyber.page/gol/takeoff)
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
 - 2020, spring: Launch of governance and vesting apps/modules
 - 2020, end of spring: Launch of public donation round
