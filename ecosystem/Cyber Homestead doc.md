@@ -151,7 +151,12 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [cyber~Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberevangelism)
     * [OBEP](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#obep)
     * [How to read the gospel](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-read-the-gospel)
+    * [How to apply](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-apply)
+       * [Prerequisite or what you will need before you start (2-20 minutes)](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prerequisite-or-what-you-will-need-before-you-start-2-20-minutes)
+       * [Applying (1-3 minutes)](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#applying-1-3-minutes)
     * [How to spread the word](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#how-to-spread-the-word)
+       * [Using your referral link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-referral-link)
+       * [Recieving CYB rewards](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#receiving-cyb-rewards)
 ------------------------------------------------------
 - [Section subtitle: `Houston` we (don't) have a problem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rocket-section-subtitle-houston-we-dont-have-a-problem)
   * [Governance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#governance)
