@@ -4166,15 +4166,57 @@ Go to [cyber.page/path/evangelist](https://cyber.page/path/evangelist) and apply
 
 Once you apply, you will get your referral link. It looks like this:
 ```
-https://cyber.page/thanks/xhipster
+https://cyber.page?thanks=yournick
 ```
-You can append `/thanks/[yournick]/` to any part of the [cyber.page](https://cyber.page/) app. e.g:
+You can append `?thanks=yournick` to any part of the [cyber.page](https://cyber.page/) app. e.g:
 ```
-https://cyber.page/search/google/thanks/xhipster
-https://cyber.page/takeoff/thanks/xhipster
+https://cyber.page/search/google?thanks=yournick
+https://cyber.page/takeoff?thanks=yournick
 ```
 
-Referral attributions work best on first click basis.
+#### How to apply
+This is a very easy process, which I already described briefly in the program itself. Let's go over it step by step.
+
+##### Prerequisite or what you will need before you start (2-20 minutes)
+- Install [Metamask](https://metamask.io/) (I suggest using Chrome, as the cyber.page app works best with Chrome - the irony of it all...)
+- Create a new wallet, save the keys. I will not go over this step in detail, as there are plenty of guides on the internet teaching you to do this, including youtube guides
+- Charge the wallet with some ETH. You will need a small transaction fee when you create the transaction. The fee goes to the balance of [cyber~Foundation](https://github.com/cybercongress/cyber-foundation), the DAO that will govern Cyber.
+- Get a [GitHub](https://github.com) account and a [Keybase](https://keybase.io/) account
+- You will need an ATOM wallet to receive donation rewards (the 10% from each donation you bring). I suggest using [Cosmostation](https://www.cosmostation.io/) and a Ledger if you have one. If not, just download the Cosmostation app onto your phone and follow their instructions. Only download the app from the official resource!
+- The hardest step: you will need a cyber account to receive CYB rewards. There are 2 ways to do this:
+A) If you have a Ledger device, download the Cosmos app and open it. Go to [cyber.page/pocket](https://cyber.page/pocket), click `Pocket your Ledger` and follow the instructions. After you connect to cyber.page, you will automatically get a cyber account. If you are unsure how to do this. Please see [this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
+B) Use the CLI to create an account. This sounds complicated, but the reality is that you will need 2 or 3 commands to do this! I suggest you follow [this guide](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/) to do this (*hint: you will need to install the CLI and then use the create account command. Save the keys!*) 
+
+All of the above steps, depending on what you have already, should not take you longer than 20 minutes to complete. With transaction confirmation time and writing your keys down. Please do not rush when saving your keys. Rather spend 10 minutes more, then your coins be lost forever!
+
+##### Applying (1-3 minutes)
+1 -  Go to [cyber.page/evangelism](https://cyber.page/evangelism) and click `Believe` at the bottom of the page:
+
+
+![Screenshot from 2020-04-28 14-18-19.png](https://images.hive.blog/DQmcab9hyHt3B2C56DrnwWYgwFdNkDFs2YshfhnZqtb8Mgh/Screenshot%20from%202020-04-28%2014-18-19.png)
+
+
+ 2 - Make sure your Metamask extension is turned on. Prepare your cyber &cosmoss addresses, your GitHub and Keybase nicks and the nickname by which you will be recognised.
+
+3 - After you click `Believe` you will be prompted with 5 similar boxes, asking to input the above:
+
+
+![Screenshot from 2020-04-28 14-37-37.png](https://images.hive.blog/DQmc4kRdgDmQXMmBrcBjk1JYo8c38MWpo1PAb3SqTJrQqBk/Screenshot%20from%202020-04-28%2014-37-37.png)
+
+
+After each input, click `confirm`.
+
+4 - A message, prompting you to create the transaction will appear:
+
+
+![Screenshot from 2020-04-28 14-39-05.png](https://images.hive.blog/DQmdxB2S3e4vF3F8MnPxYpEpStsFTDRf7A1Z3tVUEDBLvZP/Screenshot%20from%202020-04-28%2014-39-05.png)
+
+
+Click `Create tx`.
+
+5 - This will open your Metamask extension. Follow the instructions, sign the tx. That's it! 
+
+You don't have to wait till we bless you (approve you). You can start using your referral link straight away, however, if you do something wrong and you get kicked out of the program, you will miss out. It is suggested, to wait for the blessing.
 
 #### How to spread the word
 We believe it is important to understand the working of what is under the hood. One of our noble goals is to create a new verb:
@@ -4208,6 +4250,31 @@ The path with the necessary information to kick you off:
 We are not defining quality terms. Most likely, you will still receive a reward for shitty content if the task was done, but expect to be disqualified from the program, or instructed, depending on your will to learn. 
 
 Coordinator aka @serejandmyself will have a personal incentive in the form CYB for evangelist attraction. For the first evangelist (not including team members of cyber~Congress) the coordinator receives 15 GCYB. For every next evangelist (not including team members of cyber ~Congress) the reward decreases by 10%. 
+
+##### Using your referral link 
+After you register you can start using your link. In the coming days, it will be possible to generate the link automatically. However, it is more than easy to generate it yourself:
+
+All that you have to do is just add `?thanks=yournick` to any part of the URL of cyber.page!
+
+*What do I mean?*
+
+The idea is to use your link to give to people. When they enter the app using this link, your nick gets written down in the database and if the user donated to the takeoff, after using your link to enter cyber.page you get the 10%.  Let's take a look at an example. Any of the following are good to use:
+
+> https://cyber.page/gol/takeoff?thanks=yournick
+https://cyber.page/search/cyber?thanks=yournick
+
+Just substitute `yournick` with the nick you used when you registered i.e: 
+
+>  https://cyber.page/gol/takeoff?thanks=serejandmyself
+
+It is also possible to ask users to add a memo field to their donation transaction. When users donate to the takeoff, they have two options, using their Ledger or creating a custom transaction. If they use their Ledger and entered the app via your link, all is good. You will receive the reward. If they are using a custom transaction to send ATOM from any external wallet, you need to ask them to add `yournick` to the memo field! 
+
+I will not go into detail on how to make transactions with Cosmos. But, do check [this post](https://cybercongress.ai/how-to-donate/) on how to donate to cyber to get a better understanding of what I am talking about.
+
+##### Receiving CYB rewards
+As outlined in the [program](https://github.com/cybercongress/cyber-foundation/blob/master/evangelism/obep.md), you can receive CYB rewards. I have created a key base group with everyone who was approved for the program, let's discuss it there! 
+
+The gist is simple though, do actions that you see on the list, cyberlink them ([how](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)), bring proof, receive rewards!
 
 -------------------------------------------------------
 
