@@ -3966,15 +3966,22 @@ This leaves us with a clearer picture of which funds and donations go where. The
 ### CYB and THC
 First thing first, lets creare a simple breakdown:
 
-CYB tokens:
+CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
+- cyber~Congress*: 4% of CYB 
+- Seed donors*: 4% of CYB
+- Inventors of the protocol*: 2% of CYB
 - Gift allocated to over 1 million addresses: 10% of CYB
-- cyber~Congress: 10% of CYB (our task is to dilute this share to 2% over 10-20 years)
-- seed donors: 6% of CYB
-- Other public allocation: 74% of CYB
+- Other public allocation: 80% of CYB
+* These groups get THC tokens and can vest them to recieve CYB
 
-THC tokens (governance tokens):
-- 10% cyber~Congress 
-- 90% Public allocation
+THC tokens breakdown (governance tokens), total supply: 700,000,000,000:
+- 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
+- 85.7% Public allocation
+
+ATOM breakdown (At max 600,000) (100% to cyber~Congress DAO, minus):
+10%: Fee to those who help to bring in donations
+2%: Team bonus
+
 
 - tokens and utility
 - transactions
