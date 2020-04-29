@@ -3917,11 +3917,11 @@ There are 4 parts that we can break in cybernomics to understand it easier:
 We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with pots of funds so that they can develop the protocol. 
 
 - Self-funding: The project has been self-funded over a few years with a sum closing to ~3200 ETH summed up with the winter round (not including 2020)
-- Public winter round for friends: Was a public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
+- Public winter round for friends: Was a semi-public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
 - Takeoff round: The takeoff donation round is a round where up to 600k ATOM is donated to the cyber~Congress DAO via distribution games (more below). This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302), including things like ATOM staking, etc
 - Auction round: Is broken into 2 parts, a 21 day round and equal rounds for 479 days. During the first 21 days, ETH and ATOM are donated to the cyber~Congress DAO via the use of the auction. For the larger period of the auction. I.E. 479 days, ETH is donated to the cyber ~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the second part of the auction, THC tokens can be vested and locked to later, receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
 
-In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber~Foundation in charge of the ETH donated during the auction. And cyber ~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals made by cyber ~Foundation and will remain as one of the entities that commits to the protocol over its remaining lifetime.
+In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber~Foundation in charge of the ETH donated during the auction. And cyber\~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals made by cyber ~Foundation and will remain as one of the entities that commits to the protocol over its remaining lifetime.
 
 ##### Takeoff extra
 The takeoff donation round seem confusing at first hand, let me assure you, it isn't. Let's break it down and understand it:
@@ -3964,6 +3964,17 @@ Meaning that there are 2 utility tokens in the economy (+1 bonus points token):
 This leaves us with a clearer picture of which funds and donations go where. The whole distribution can be viewed in the [launch kit repo](https://github.com/cybercongress/launch-kit/blob/0.1.0/distribution/README.md).
 
 ### CYB and THC
+First thing first, lets creare a simple breakdown:
+
+CYB tokens:
+- Gift allocated to over 1 million addresses: 10% of CYB
+- cyber~Congress: 10% of CYB (our task is to dilute this share to 2% over 10-20 years)
+- seed donors: 6% of CYB
+- Other public allocation: 74% of CYB
+
+THC tokens (governance tokens):
+- 10% cyber~Congress 
+- 90% Public allocation
 
 - tokens and utility
 - transactions
