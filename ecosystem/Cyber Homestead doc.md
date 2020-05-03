@@ -1284,6 +1284,26 @@ In your browser, go straight to the [page of the graph](https://cyber.page/graph
 
 This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
 
+Follow a few steps to discover  graph from the inside:
+
+1) Look at the whole graph:
+
+<img src="https://i.imgur.com/gbHfyqB.png" />
+
+2) Choose cyberlink cluster you are interested in:
+
+<img src="https://i.imgur.com/yJ4KXI5.png" />
+
+3) Zoom in and select one of cyberlinks with mouse cursor:
+
+<img src="https://i.imgur.com/26oQ6Eg.png" />
+
+4) Click the `right mouse button` and open selected cyberlink:
+
+<img src="https://i.imgur.com/nQXclbl.jpg" />
+
+`Left-click`: rotate. `Mouse-wheel` /`middle-click`: zoom. `Right-click` :pan
+
 ##### Takeoff 
 You might have gotten here yourself while you were exploring GoL. If not, just head over to the [takeoff page manually](https://cyber.page/gol/takeoff).
 
