@@ -1409,7 +1409,7 @@ If you see a timeout error, this is probably to do with your internet connection
 #### Cross-Linking and Clustering
 These are 2 terms that are often used and can help you to build the graph. Clusterization simply refers to different clusters on the [knowledge graph](https://cyber.page/graph). Clusters aren't necessarily connected between each other. But might be. 
 
-Cross-linking means that there is more than one link from a CID. Chain linking, in theory, can also apply to cross-linking. For example, we may take the [cuurent top CIDs](https://cyber.page/gol/relevance) and cross-link new content to these CIDs or cross-link it with other clusters/new content. 
+Cross-linking means that there is more than one link from a CID. Chain linking, in theory, can also apply to cross-linking. For example, we may take the [current top CIDs](https://cyber.page/gol/relevance) and cross-link new content to these CIDs or cross-link it with other clusters/new content. 
 
 Why would you want to do this? To gain more relevance, interconnect the graph, etc. It's up to you...
 
