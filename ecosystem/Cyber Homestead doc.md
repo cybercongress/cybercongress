@@ -1697,7 +1697,7 @@ A list of public profiles, sites and chats:
 - [Youtube 1](https://www.youtube.com/channel/UCXgkFmGLhUcXSTp6d4cWEvg/featured): Cyber Academies youtube channel that features cyber
 - [Youtube 2](https://www.youtube.com/channel/UC18zbxbAhmleUPebbGApAMg): Our main youtube channel for VIP material
 - [Cosmos discord](https://discord.gg/bdJ6q9): Cosmos discord group (look for ecosystem/cyber)
-- [fuckgoole RIAT](https://riot.im/app/#/room/#fuckgoogle:matrix.org): cyber RIAT channel
+- [fuckgoogle RIOT](https://riot.im/app/#/room/#fuckgoogle:matrix.org): cyber RIOT channel
 - Urbit: `join ~dilled-fastyd/fuckgoogle` - cybers Urbit group
 - [Steemit](https://steemit.com/@cybercongress): Our, not so used, steemit blog
 
@@ -1774,11 +1774,11 @@ Main communities:
   - [Cosmos TG IBC channel](https://t.me/ibcprotocol)
   - [Cosmos TG DVD (developers) channel](https://t.me/CosmosDVD)
   - [Cosmos TG CosmosRu group](https://t.me/CosmosprojectRu)
-  - [Cosmos RIAT SDK discussions](https://riot.im/app/#/room/#cosmos-sdk:matrix.org)
-  - [Cosmos RIAT GoZ discussions](https://riot.im/app/#/room/#goz:matrix.org)
-  - [Cosmos RIAT channel](https://riot.im/app/#/room/#cosmos:matrix.org)
-  - [Cosmos RIAT validator group](https://riot.im/app/#/room/#cosmos-validators:matrix.org)
-  - [Cosmos RIAT Technical validator updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org)
+  - [Cosmos RIOT SDK discussions](https://riot.im/app/#/room/#cosmos-sdk:matrix.org)
+  - [Cosmos RIOT GoZ discussions](https://riot.im/app/#/room/#goz:matrix.org)
+  - [Cosmos RIOT channel](https://riot.im/app/#/room/#cosmos:matrix.org)
+  - [Cosmos RIOT validator group](https://riot.im/app/#/room/#cosmos-validators:matrix.org)
+  - [Cosmos RIOT Technical validator updates](https://riot.im/app/#/room/#cosmos_validators_technical_updates:matrix.org)
   - [Cosmos subreddit](https://www.reddit.com/r/cosmosnetwork/)
   - [cybers listing on Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem)
   - [cybers listing on Tendermint awesome list](https://github.com/tendermint/awesome)
@@ -1786,7 +1786,7 @@ Main communities:
 - IPFS: 
   - [IPFS cyber forum thread](https://discuss.ipfs.io/t/a-consensus-computer-on-top-of-ipfs-that-uses-ipfs-hashes-to-create-cyberlinks/6786/6) 
   - [IPFS cyber.page forum thread](https://discuss.ipfs.io/t/cyber-page-inter-planetary-search-app-for-web3/7049/3) 
-  - [IPFS RIAT chat group](https://riot.im/app/#/room/#ipfs:matrix.org) 
+  - [IPFS RIOT chat group](https://riot.im/app/#/room/#ipfs:matrix.org) 
   - [IPFS subreddit](https://www.reddit.com/r/ipfs/)
   - [cybers listing on IPFS awesome list](https://github.com/ipfs/awesome-ipfs)
 - ETH: 
@@ -1801,7 +1801,7 @@ Main communities:
   - [OB subreddit](https://www.reddit.com/r/OpenBazaar/)
 - Privacytools.io:
   - [PT subreddit](https://www.reddit.com/r/privacytoolsIO/)
-  - [PT RIAT chat](https://riot.im/app/#/room/#general:privacytools.io)
+  - [PT RIOT chat](https://riot.im/app/#/room/#general:privacytools.io)
   - [PT cyber GH discussion issue](https://github.com/privacytoolsIO/privacytools.io)
 - Monero:
   - [Monero subreddit](https://www.reddit.com/r/Monero/)
@@ -1836,10 +1836,10 @@ Miner-related communities:
 Validator/Staking-related communities:
 
 - Polkadot:
-  - [PD RIAT chat](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
-  - [Kusama RIAT chat](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders)
+  - [PD RIOT chat](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
+  - [Kusama RIOT chat](https://riot.im/app/#/room/#KusamaValidatorLounge:polkadot.builders)
 - Tezos:
-  - [Tezos RIAT chat](https://riot.im/app/#/room/#tezos:matrix.org)
+  - [Tezos RIOT chat](https://riot.im/app/#/room/#tezos:matrix.org)
 - NuCypher:
 - Icon:
 - Loom:
@@ -1952,7 +1952,7 @@ Offline communities:
 Other communities:
 
 - I2P:
-  - [I2P RIAT chat](https://riot.im/app/#/room/#I2p:matrix.org)
+  - [I2P RIOT chat](https://riot.im/app/#/room/#I2p:matrix.org)
 
 --------------------------------
 
