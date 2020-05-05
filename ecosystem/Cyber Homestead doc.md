@@ -1701,15 +1701,6 @@ A list of public profiles, sites and chats:
 - Urbit: `join ~dilled-fastyd/fuckgoogle` - cybers Urbit group
 - [Steemit](https://steemit.com/@cybercongress): Our, not so used, steemit blog
 
-Community maintained profiles and tools:
-- [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
-- [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
-- [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
-
 A list of profiles in awesome lists:
 - [Cosmos awesome list](https://github.com/cosmos/awesome#ecosystem): A list of awesome Cosmos projects
 - [IPFS awesome list](https://github.com/ipfs/awesome-ipfs): Our profile on IPFS awesome list
@@ -1739,6 +1730,15 @@ A list of economic profiles:
 - [Citizen Cosmos podcast](https://soundcloud.com/user-311461939/citizen-comsos-episode-1-gavin-figment-networks-governance): A podcast about the Cosmos ecosystem and the masterminds that shape it
 
 There is 1 other profile that we want to mention, in which Cyber is mentioned, practically, on a daily basis. [Cosmsos Today](https://twitter.com/adriana_kalpa), this is a series of daily tweets that are run by different community members in various languages and are translated from the English version
+
+##### Community maintained profiles and tools:
+- [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
+- [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
+- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
+- [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
+- [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
+- [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
+- [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
 
 #### Gitcoin
 We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
