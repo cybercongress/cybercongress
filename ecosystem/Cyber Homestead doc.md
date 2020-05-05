@@ -5103,7 +5103,7 @@ In the glossary of the colonization section, you will find terms with their desc
 
 We will continue to build upon the subculture, utilizing not just naming like heroes, masters, etc. But, connect these ideas to implementations. For example karma points, which are a simple way of measuring the contributions to a knowledge graph via introducing a reputation system. 
 
-In the future, we plan on implementing NFTs, robot wars, levels and other gamication elements.
+In the future, we plan on implementing NFTs, robot wars, levels and other gamification elements.
 
 ------------------------------------------------------
 
