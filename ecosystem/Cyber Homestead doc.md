@@ -1148,7 +1148,7 @@ As in the previous guides, connect your Ledger device, open the Cosmos app and c
 
 <img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
 
-Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Calim reward` button at the bottom of the page. Click it:
+Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Claim reward` button at the bottom of the page. Click it:
 
 <img src="https://i.postimg.cc/wvyNJmPM/Screenshot-from-2020-03-31-20-40-02.png" />
 
