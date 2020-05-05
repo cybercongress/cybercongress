@@ -36,7 +36,7 @@ This section contains the basic things you will need for your cyber journey. Fin
       * [Sending tokens with Ledger](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens)
       * [In-depth explorer](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#an-in-depth-explorer)
       * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
-      * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
+      * [Choosing your hero](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#choosing-your-hero)
       * [Picking honey](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey)
       * [Playing GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol)
       * [Using the faucet to get tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens)
