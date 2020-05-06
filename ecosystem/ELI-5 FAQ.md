@@ -5,7 +5,7 @@ This guide will, hopefully, answer these questions.
 
 If you want to help, then the biggest help will be submitting more questions that you think were unanswered by this guide. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are unsure how to open an issue, simply tag `serejandmyself` in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
 
-You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all.
+You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all. The first section `Like google, but Cyber` explains everythign you need to know to understand how Cyber works.
 
 *But, first:*
 ## What is a FAQ?
@@ -47,6 +47,8 @@ The interesting thing is that such a simple mechanism allows creating a lot of p
 #### What problem are you solving?
 
 #### What is your mission?
+
+#### What's the value proposition?
 
 #### What cyber is NOT?
 Cyber is not the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
@@ -134,7 +136,7 @@ It was the most efficient, suitable for our needs and ready to use the network w
 
 --------------------------------------
 
-## Advanced questions
+## Under the hood, part-2
 What is a knowledge graph?
 
 Who are cyber~Congress?
@@ -253,13 +255,13 @@ Why open-source?
 
 Is this P2P?
 
-What is the difference between these P2P search engines and YACY?
+What is the difference between Cyber and P2P search engines like YACY?
 
 How does this compare to TOR?
 
 Do you have a White Paper?
 
-Hvae you tested this? Does it work?
+Have you tested this? Does it work?
 
 Can I use it on web2 (normal browsers / phone, etc)
 
@@ -281,7 +283,23 @@ Can I copy what you do?
 
 ----------------------------
 
-Links
+## Links
+- [Our White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+- [cyber.page]()
+- [Homestead documentation]()
+- [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
+- [Validator onboarding guide](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
+- [Our twitter](https://mobile.twitter.com/cyber_devs)
+- [Our Telegram](https://t.me/fuckgoogle)
+- [Our forum](https://ai.cybercongress.ai/)
+- [IPFS docs](https://docs.ipfs.io/)
+- [Urbit docs](https://urbit.org/docs/)
+- [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf)
+- [Cosmos intro](https://cosmos.network/intro)
+- [ETH wiki](https://github.com/ethereum/wiki/wiki/What-is-Ethereum)
+- [Aragon website](https://aragon.org/)
+- [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
+
 
 -------------------------
 
@@ -637,22 +655,4 @@ I would advise you to read some of the provided links below. Use [issues](https:
 In general, think of cyber as of a completely, brand-new mechanism for obtaining answers. Of a soft capable of building universal knowledge and communicating. 
 
 ---------------------------
-
-## Links to various relevant resources:
-(in no particular order)
-- [Our White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
-- [IPFS docs](https://docs.ipfs.io/)
-- [Urbit docs](https://urbit.org/docs/)
-- [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf)
-- [Cosmos intro](https://cosmos.network/intro)
-- [ETH wiki](https://github.com/ethereum/wiki/wiki/What-is-Ethereum)
-- [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
-- [Distribution and launch model](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md)
-- [Usecases doc](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md)
-- [Our twitter](https://mobile.twitter.com/cyber_devs)
-- [Our Telegram](https://t.me/fuckgoogle)
-- [Our forum](https://ai.cybercongress.ai/)
-- [Validator onboarding](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
-- [Aragon website](https://aragon.org/)
-- [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
 
