@@ -21,7 +21,7 @@ There are NO guidelines or rules for the program itself. Do what you believe wil
 2. You must have proof that a particular donation came thanks to your amazing evangelism. An address or a nickname in the memo field of the donated transaction is proof that no one can reject.
 
 ## How?
-Go to [cyber.page/path/evangelist](https://cyber.page/path/evangelist) and apply for the program. You will either receive an automated acknowledgement (blessing) or we will contact you to ask you any additional questions. For example, we could ask you to commit something to the knowledge graph. Or you might get accepted based on the fact that you have helped to bring in donations. So don't hesitate. That is decentralization. Do not wait for our approval, but please understand our concern! Manual acknowledgements are the only way that our project can defend itself from scammers at this early stage.
+Go to [cyber.page/evangelist](https://cyber.page/evangelist) and apply for the program. You will either receive an automated acknowledgement (blessing) or we will contact you to ask you any additional questions. For example, we could ask you to commit something to the knowledge graph. Or you might get accepted based on the fact that you have helped to bring in donations. So don't hesitate. That is decentralization. Do not wait for our approval, but please understand our concern! Manual acknowledgements are the only way that our project can defend itself from scammers at this early stage.
 
 Once you apply, you will get your referral link. It looks like this:
 ```
