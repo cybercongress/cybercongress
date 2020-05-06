@@ -1,7 +1,9 @@
 # The ELI-5 FAQ for Cyber 
-This is an attempt at creating an "Explain it like I'm 5" FAQ for Cyber. This is a work in progress, any help will be appreciated.
+> What is Cyber? How does it work? How can you use it? 
 
-The biggest help will by submitting more questions that you think were unanswered. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are not sure how to open an issue, simply tag `serejandmyself` in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
+This guide will, hopefully, answer these questions.
+
+If you want to help, then the biggest help will be submitting more questions that you think were unanswered by this guide. To submit questions to this FAQ use [GitHub issues](https://github.com/cybercongress/congress/issues). If you don't have a GitHub account or you are unsure how to open an issue, simply tag `serejandmyself` in our [TG channel](https://t.me/fuckgoogle), and leave your question there!
 
 You may skim through questions, of course, but I recommend you to `buckle up your seat belt` and read it all.
 
@@ -12,27 +14,20 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 -------------------------------
 
 ## Table of content
-- [Content table](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#table-of-content)
-- [What is Cyber: high-level explanation](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber)
-- [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber)
-- [High-level, technological questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#high-level-it-blockchain-and-some-explanations)
-- [cyber~Questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberquestions)
-- [cyber~Blocks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberblocks)
-- [cyber~Entities](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberentities)
-- [Validating cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#validating-cyber)
-- [cyber~Economy](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cybereconomy)
-- [cyber~Gift](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cybergift)
-- [cyber~Rank](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#cyberrank)
-- [White Paper, launch and contacts](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#white-paper-launch-and-contacts)
-- [Other questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#more-questions)
-- [Relevant links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links-to-various-relevant-resources)
+- [Like google, but Cyber](): What is cyber and what problem does it solve
+- [Under the hood, part-1](): A very high-level explanation of what are blockcahin and web3
+- [How does Cyber work and how do I use it?](): How can you use cyber and what are the basic incitives to do so
+- [Under the hood, part-2](): How to validate Cyber? What is a knowledge graph, etc...
+- [The philosophy behind Cyber](): Why are we doing this?
+- [Silly, yet, VIP questions](): How does cyber comrpaes to other technology and many other things you wanted to know
+- [Links](): Some links to help you navigate around Cyber and get more insight on what shapes it
 
 ---------------------------------
 
-## Like google, but cyber:
+## Like google, but Cyber:
 #### What is cyber?
 *Simple answer:*<br>
-Cyber is a decentralized google, for provable and relevant answers. 
+Cyber is a decentralized google. It is an innovative search protocol that can provide provable answers to questions without an intermidiary opinion. 
 
 *Detailed answer:*<br>
 The explanation below is NOT going to be simple, so please do not be put off by it. All the terminology used in the first explanation WILL be explained in detail later in this document. Let me assure you, that if you keep on reading, you will be able to understand Cyber with almost zero previous knowledge. 
@@ -49,12 +44,123 @@ This allows to search data on the web, rank it, query it (look it up) and create
 
 The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result. We will go in-detail further down the document into those. For example: unified semantics, SEO instruments, autonomous robots, and a lot more.
 
-#### What cyber is NOT?
-Cyber is not a commercial product. In fact, it is not a product as such. It is an instrument if you wish, or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
+#### What problem are you solving?
 
-Cyber is not THE new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the new Great Web. 
+#### What is your mission?
+
+#### What cyber is NOT?
+Cyber is not the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
+
+Cyber is not a commercial product. In fact, it is not a product as such. It is an instrument if you wish, or a tool, that anyone can use. That said, Cyber allows for several ways for its participants to earn rewards.
 
 ---------------------------------
+
+## Under the hood, part-1:
+To undersntand Cyber, you might want to understand the technolgy its using. This is as brief of an overwiev as possible, for more information, check the [homestead guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
+
+#### What is a blockchain?
+A blockchain is a distributed ledger, to which independent participants write, and read from it - information. It is protected from maliciosu attacks (such as creating an entry which shoudnt be there), because it is distributed across computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
+
+#### What is web3?
+Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, motivate users for their behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web.
+
+Often, you might notice the term `Great Web` in our documents. For us, The Great Web is a much better-suited name for the more common term `web3`.
+
+#### What is IPFS?
+IPFS is a peer-to-peer (directly connected between two users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread across high volumes of data and keeps every version of your files. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable or if you may - everlasting.
+
+IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications, etc. 
+
+#### Why use this technology?
+To create a safer, trustless and a cencorship free environment, where no one entity, actually, `owns` the technology. to create an envirnoment free of beruacracy, underwater obstacles, etc. An environemtn in which the stakeholders govern and lead the technology as a collective mind.
+
+#### Why should I care?
+First of all, you shouldn't! It is up to you to decide what you care about and what you don't. However, if you care about the future bieng less centralzied and fairer, then it makes sence to decentralzie the services of the tehnology that binds us all togtehr. Of course, I am referring to the internet. 
+
+-------------------------------
+
+## How does Cyber work and how do I use it?
+How do I use Cyber?
+cyber.page, cyb virus, ledger, cyb...
+
+What is a cyberlink?
+Cyberlink is a link between between 2 IPFS hashes. Where one hash points to the keyword that makes the content searchable. And the second hash points to the content itself. 
+
+How do I create a cyberlink?
+
+Are transactions free?
+
+How many tokens do I need to use it?
+
+Where can I get tokens?
+
+What is a CID?
+A CID is a content identificator or an IPFS hash. That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS protocol.
+
+How many tokens do you have?
+
+Why do you have 2 tokens?
+
+What is the allocation breakdown?
+
+is the inflation endless?
+
+Why IPFS/Cosmos and how do you use them?
+
+What other technology do you use?
+
+What can cyber be used for?
+
+How can I make money using Cyber?
+
+Who does Cyber belong to?
+
+How can I take part in Cyber?
+
+Who are heroes and masters?
+
+When are you going to launch a mainnet?
+
+Do you have a chat / a forum / a blog?
+
+#### How do you use IPFS?
+cyber uses IPFS as the current backbone on which users perform the search. Think about IPFS for cyber, as of the fridge for the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it.
+
+#### How do you use Cosmos?
+Cosmos provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc
+
+#### Why did you choose Cosmos \ Tendermint?
+It was the most efficient, suitable for our needs and ready to use the network when we started to build. We share the philosophy that Cosmos propagates when it comes to decentralization and openness of information + we believe that the security of the protocol is at a level that suits our requirements. 
+
+--------------------------------------
+
+## Advanced questions
+What is a knowledge graph?
+
+Who are cyber~Congress?
+
+What is cyber~Foundation?
+
+#### How is content ranked in cyber?
+You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
+
+How do you calculate the rank?
+
+How to become a validator?
+
+What are the incintives of becoming a validaotr?
+
+What are the distribution games?
+
+What are EUL and GOL tokens?
+
+What about crawlers and indexing?
+
+How is this AI related?
+
+I heard I can use my Ledger device, really?
+
+-------------------------------------
 
 ## The philosophy behind Cyber:
 #### What problem are you trying to solve?
@@ -94,31 +200,17 @@ We are strongly discouraged by any censorship and view it as a sin against any l
 Routing should be always permitted. Transactions should always be permitted to pass. Otherwise, this is censorship. 
 
 #### Do you not think that the motto #fuckgoogle is offensive?
-No, because fucking is not for pain, it is for pleasure!
+No, because fucking is not about pain, it's about pleasure! In all honesty, censorship killed more people over the course of history, than swearing did.
 
 ---------------------------------
 
-## High-level, IT, blockchain and some explanations:
-
-- [Moved to homestead documentation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
----------------------------------
-
-## cyber~Questions:
+## Silly, yet, VIP questions:
 #### Why Cyber?
 We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years. 
 
 Cyber refers to anything that is very smart. The meaning is rooted from the word `cybernetics` (check out this article on [Wikipedia](https://en.wikipedia.org/wiki/Cybernetics#Subdivisions_of_the_field)) - a science which describes the behaviour of dynamic systems with feedback loops.
 
 In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
-
-#### What exactly are CIDs?
-A CID is a content identificator or an IPFS hash. That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS protocol.
-
-#### What are cyberlinks?
-Cyberlink is a link between two CIDs or between 2 IPFS hashes. 
-
-#### What's DURA?
-DURA (distributed unified resource address) is our equivalent of an URL (an abbreviation for uniform resource locator), which is what you see in your browser when you visit a web2 website. The whole idea behind DURA is very simple. Browse content without relying on any registry service (ICANN). This means no relying on third parties for packet routing. No censorship, etc. Apart from the philosophical stand, DURA's can deliver security, globality and permanent linking. 
 
 #### How is cyberlink different to a hyperlink?
 A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
@@ -127,9 +219,6 @@ This allows us to make sure that the information in a cyberlink is true. Cyberli
 
 #### Is linking that important?
 Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from google. google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
-
-#### How is content ranked in cyber?
-You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
 
 #### How are pages included or excluded from the index?
 Pages are added to the index (the word index is about all the information stored on the knowledge graph in the blockchain) when someone submits a CID or creates a cyberlink. This is a transaction. Transactions are checked by validators (the computers that make sure you have the balance to submit a transaction) and added to the knowledge graph, which is then accessed by someone who queries the database. 
@@ -158,6 +247,47 @@ With that, the search is dynamic. If I rank a content then it is relevant to me 
 
 A comparison to [wisdom of the crowd](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd) can be made, where the collective opinion has a larger weight than that of a single entity.
 
+#### How is the search algorithm safe from abuse?
+
+Why open-source?
+
+Is this P2P?
+
+What is the difference between these P2P search engines and YACY?
+
+How does this compare to TOR?
+
+Do you have a White Paper?
+
+Hvae you tested this? Does it work?
+
+Can I use it on web2 (normal browsers / phone, etc)
+
+Are you Satoshi?
+
+Why are you so geeky?
+
+Can I contribute?
+
+Is this an ICO?
+
+Is this religious?
+
+How do you plan to take over the world/internet?
+
+What is your main target audience?
+
+Can I copy what you do?
+
+----------------------------
+
+Links
+
+-------------------------
+
+NEW END
+
+
 #### What are some basic use-cases? 
 Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
 - Personal and autonomous robots and assistants that can study the information you feed them.
@@ -165,15 +295,6 @@ Of course, the most basic use case is a search mechanism (described above). Othe
 - Offline search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. cyber itself can be distributed by using IPFS. This creates the possibility for off-line search!
 - Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
 - Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
-
-#### How do you use IPFS?
-cyber uses IPFS as the current backbone on which users perform the search. Think about IPFS for cyber, as of the fridge for the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it.
-
-#### How do you use Cosmos?
-Cosmos provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc
-
-#### Why did you choose Cosmos \ Tendermint?
-It was the most efficient, suitable for our needs and ready to use the network when we started to build. We share the philosophy that Cosmos propagates when it comes to decentralization and openness of information + we believe that the security of the protocol is at a level that suits our requirements. 
 
 ## cyber~Blocks:
 #### What is cyber~Page?
