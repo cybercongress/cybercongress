@@ -17,10 +17,10 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 - [Like google, but Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber): What is cyber and what problem does it solve
 - [Under the hood, part-1](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#under-the-hood-part-1): A very high-level explanation of what are blockchain and web3 technologies
 - [How does Cyber work and how do I use it?](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#how-does-cyber-work-and-how-do-i-use-it): How can you use cyber and what are the basic incentives for you to do so
-- [Under the hood, part-2](): How to validate Cyber, what is a knowledge graph, what are the distribution games, etc...
-- [The philosophy behind Cyber](): Why are we building Cyber?
-- [Silly, yet, VIP questions](): How does Cyber compare to others, how is Cyber safe from abuse and many other VIP things
-- [Links](): Some links to help you navigate around Cyber and get more insight on what has shaped it
+- [Under the hood, part-2](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#under-the-hood-part-2): How to validate Cyber, what is a knowledge graph, what are the distribution games, etc...
+- [The philosophy behind Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#the-philosophy-behind-cyber): Why are we building Cyber?
+- [Silly, yet, VIP questions](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#silly-yet-vip-questions): How does Cyber compare to others, how is Cyber safe from abuse and many other VIP things
+- [Links](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#links): Some links to help you navigate around Cyber and get more insight on what has shaped it
 
 ---------------------------------
 
@@ -388,8 +388,8 @@ Can I copy what you do?
 
 ## Links
 - [Our White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
-- [cyber.page]()
-- [Homestead documentation]()
+- [cyber.page](https://cyber.page/)
+- [Homestead documentation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
 - [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
 - [Validator onboarding guide](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md)
 - [Our twitter](https://mobile.twitter.com/cyber_devs)
@@ -402,7 +402,6 @@ Can I copy what you do?
 - [ETH wiki](https://github.com/ethereum/wiki/wiki/What-is-Ethereum)
 - [Aragon website](https://aragon.org/)
 - [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
-
 
 -------------------------
 
