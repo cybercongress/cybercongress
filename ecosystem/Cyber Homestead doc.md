@@ -1125,7 +1125,7 @@ This brings us to the confirmed transaction page:
 
 <img src="https://i.postimg.cc/Tw55g8Bt/Screenshot-from-2020-03-30-18-21-53.png" />
 
-You can either view the tx or carry on. We've already been over the `view` part in previous sections. Let's click on `continue`.Depending on what page you were on when you clicked `Stake`, it will take you back to the same page. Let's click the `Fans` page:
+You can either view the tx or carry on. We've already been over the `view` part in previous sections. Let's click on `continue`. Depending on what page you were on when you clicked `Stake`, it will take you back to the same page. Let's click the `Fans` page:
 
 <img src="https://i.postimg.cc/tTdZ2dC6/Screenshot-from-2020-03-30-18-25-46.png" />
 
@@ -1457,7 +1457,7 @@ cyberdcli tx send cyber1ADDRESS cyber1ADDRESS 100eul --chain-id euler-6
 
 Of course, if the chain id changed, change it too! 
 
-Confirm the transaction when prompted. If the from address is a ledger address, your ledger should be prepared by this stage and open with the Cosmos app open, confirm the transaction on the LEdger. The outcome will be a bunch of text with the tx hash and `0` code, which means it was successful.
+Confirm the transaction when prompted. If the from address is a Ledger address, your Ledger should be prepared by this stage and open with the Cosmos app open, confirm the transaction on the Ledger. The outcome will be a bunch of text with the tx hash and `0` code, which means it was successful.
 
 *Hint: To check the balance of an address, type in this command: cyberdcli query account <your_key_address>*
 
@@ -4418,7 +4418,7 @@ For now, please refer to the [best practices guide](https://github.com/gavinly/C
 ### What can I use to connect to cyber?
 What points of access can I use to connect to cyber? They have all been covered in this guide, but here is the list again:
 
-- [cyber.page](https://cyber.page/): Requires a ledger for most actions
+- [cyber.page](https://cyber.page/): Requires a Ledger for most actions
 - [The CLI](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/): Requires to set up a node or use a remote node
 - [cyb~Virus](https://github.com/cybercongress/cyb-virus): Archived! Unsafe to import private keys into this app
 - [cyb~Snap](https://github.com/cybercongress/cyb-snap): Still in the making
