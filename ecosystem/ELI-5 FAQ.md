@@ -14,8 +14,8 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 -------------------------------
 
 ## Table of content
-- [Like google, but Cyber](): What is cyber and what problem does it solve
-- [Under the hood, part-1](): A very high-level explanation of what are blockchain and web3 technologies
+- [Like google, but Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber): What is cyber and what problem does it solve
+- [Under the hood, part-1](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#under-the-hood-part-1): A very high-level explanation of what are blockchain and web3 technologies
 - [How does Cyber work and how do I use it?](): How can you use cyber and what are the basic incentives for you to do so
 - [Under the hood, part-2](): How to validate Cyber, what is a knowledge graph, what are the distribution games, etc...
 - [The philosophy behind Cyber](): Why are we building Cyber?
@@ -84,10 +84,10 @@ Cyber is not a commercial product. It is an instrument if you wish, or a tool, t
 ---------------------------------
 
 ## Under the hood, part-1:
-To undersntand Cyber, you might want to understand the technolgy its using. This is as brief of an overwiev as possible, for more information, check the [homestead guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
+To understand Cyber, you might want to understand the technology it's using. This is a brief overview. For more information, check the [homestead guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms)
 
 #### What is a blockchain?
-A blockchain is a distributed ledger, to which independent participants write, and read from it - information. It is protected from maliciosu attacks (such as creating an entry which shoudnt be there), because it is distributed across computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
+A blockchain is a distributed ledger, to which independent participants write, and read from it, information. It is protected from malicious attacks (such as creating an entry which shouldn't be there) due to its distributed nature. The ledger is distributed across computers, which are in agreement one with another at any point of a given time (past or present). All the transactions on the ledger are auditable to anyone and transparent. This allows the participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
 
 #### What is web3?
 Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, motivate users for their behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web.
@@ -100,10 +100,10 @@ IPFS is a peer-to-peer (directly connected between two users) protocol, that is 
 IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications, etc. 
 
 #### Why use this technology?
-To create a safer, trustless and a cencorship free environment, where no one entity, actually, `owns` the technology. to create an envirnoment free of beruacracy, underwater obstacles, etc. An environemtn in which the stakeholders govern and lead the technology as a collective mind.
+To create a safer, trustless and a censorship-free environment, where no 1 entity, actually, `owns` the technology. To create an environment free of bureaucracy, underwater obstacles, etc. An environment in which the stakeholders govern and manage the technology as a collective mind.
 
 #### Why should I care?
-First of all, you shouldn't! It is up to you to decide what you care about and what you don't. However, if you care about the future bieng less centralzied and fairer, then it makes sence to decentralzie the services of the tehnology that binds us all togtehr. Of course, I am referring to the internet. 
+First of all, you shouldn't! It is up to you to decide what you care about and what you don't. However, if you care about our future being less centralized, less authoritative and fairer, then it makes sense to decentralise the services of the technology that binds us all together. Of course, I am referring to the internet. 
 
 -------------------------------
 
