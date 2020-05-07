@@ -46,7 +46,7 @@ To make the content and the keyword immutable, we use what we call content ident
 
 This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one thing is the keyword and the other is the content. 
 
-There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam, this is why Cyber uses an energy model. Where users have a certain amount of energy that they can spend over a certain period of time before it recharges. Just like your phone or tablet.
+There is no transactional fees in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam, this is why Cyber uses an energy model. Where users have a certain amount of energy that they can spend over a certain period of time before it recharges. Just like your phone or tablet.
 
 As this content gets added the graph is filled with more and more knowledge. Hence, the reference to Wikipedia. This knowledge needs to somehow be indexed and ranked. There is so no censorship in Cyber. All of the indexing and ranking is done with the help of a transparent mechanism that everyone knows of. This work is done by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards). 
 
