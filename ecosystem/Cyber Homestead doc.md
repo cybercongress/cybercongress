@@ -376,27 +376,45 @@ Finally, there are hardware wallets (they can also be hot or cold). A hardware w
 
 ### Introduction
 **Q:** What is cyber? <br>
-**A:** Cyber is a decentralized google, for provable and relevant answers.
+**A:** Cyber is a decentralized google. It is an innovative search protocol that can provide provable answers to questions without an intermediary opinion. 
 
 **Q:** What is the main mission of cyber? <br>
-**A:** Its mission is to create a universal search protocol to (a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and (b) decentralize the infrastructure of the web with the help of blockchain
+**A:** Cyber is an innovative, general-purpose search mechanism for
+obtaining answers.  Its mission is to create a universal search mechanism to:
+(a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and
+(b) provide more resistance to web services through decentralization of its infrastructure
 
 **Q:** What cyber is NOT? <br>
-**A:** Cyber is NOT a commercial product. It is not a product as such. It is an instrument if you wish or a tool, that anyone can use. That said, cyber allows for several ways for its participants to earn rewards.
-Cyber is NOT the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the new Great Web and the services it has to offer.
+**A:** Cyber is not the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
+
+Cyber is not a commercial product. It is an instrument if you wish, or a tool, that anyone can use. That said, Cyber allows for several ways for its participants to earn rewards and Cyber is a technology that belongs to its users.
 
 **Q:** How does cyber work? <br>
-**A:** Cyber is, essentially, creating a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google.
+**A:** Cyber is a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google. 
 
-Users create links between 2 IPFS hashes (*hint: essentially, an IPFS hash is just a representation of some data*) and place them on a knowledge graph by spending bandwidth (amount of data that can be transmitted over a fixed period of time). Users also link IPFS hashes linked to keywords, which helps to enrich the knowledge graph with... *knowledge*.
+This protocol exists thanks to such technology as blockchain and what is referred to, as content addressing (a way to locate information on the web using the content, rather than referring to its location, by such, avoiding censorship).
 
-That content is then dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress).
+But why do we need a new way to search for things? Well, there are 2 reasons. One, we want to decentralize the service of the web. This is social media, search and even e-commerce, etc, which are all based around semantics (the meaning and the relation of words and objects). The problem is that the current semantical field, that we use every day, is built pretty much by one company, allowing it to sell data, provide users with misleading information and to effectively censor data. And here we come to Cybers second task, the creation of an open semantics field. 
 
-All this is computed (determined with the help of a computer) by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards).
+Google is essentially a huge marketplace, where someone is searching for content and the other side provides this content. You can purchase most of googles services, but you cannot purchase the ability to search without bullshit and advertisement. Moreover, you cannot search for many things. The original vision of the internet was to share knowledge freely. Currently, this is not the case. We pay for academical papers, we cannot freely share information. Hence projects like WikiLeaks, arXiv.org, tor, etc exist. 
 
-This allows to search data on the web, rank it, query it (look it up) and create knowledge databases without blackbox intermediaries (third parties that try to censor data, hide or push specific results to obtain money, track your data, etc).
+You may think of Cyber is a huge Wikipedia without censorship, which is at the moment, waiting to be filled with knowledge from the current web, by a transition to the new web. A web which you control. A web that is free of censorship. A web where the internet works for you and not the other way around.
 
-The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result. We will go in-detail further down the document into those. For example: unified semantics, SEO instruments, autonomous robots, and a lot more.
+But how does this all work and can this really be used for something rather than just search? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, let's label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. From and to. The from in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
+
+To make the content and the keyword immutable, we use what we call content identifiers. For now, we work with a technology called IPFS, which is, basically, a distributed p2p storage, where users can safely store and exchange data (but Cyber can work with any similar technology, DAT, GIT, Bitcoin, Ethereum, Swarm, etc). 
+
+This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one thing is the keyword and the other is the content. 
+
+There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam, this is why Cyber uses an energy model. Where users have a certain amount of energy that they can spend over a certain period of time before it recharges. Just like your phone or tablet.
+
+As this content gets added the graph is filled with more and more knowledge. Hence, the reference to Wikipedia. This knowledge needs to somehow be indexed and ranked. There is so no censorship in Cyber. All of the indexing and ranking is done with the help of a transparent mechanism that everyone knows of. This work is done by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards). 
+
+That content is dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress) and, literally, alive. All these parameters can be changed by the users, as they are the stakeholders.
+
+Because we use hashes and blockchain technology, we can root to the origin of the links and make sure that the content came from where it says it has. Basically, allowing for a simple provable mechanism.  
+
+At first, this makes up for a perfect search engine, without a blackbox intermediary. But going back to our graph, we can imagine, that such a graph can be used in many cases. For example, unified semantics, because hashes don't care about what language was used by the person who added the content. Or autonomous robots, because they are built on simple ML algorithms, which are in turn based on semantics too. There are many use cases for this. But most importantly, this leaves us in control of our own data. Allowing us to decide what to do with it. Also, this helps us to create relevance between objects on the graph, without any opinions that are sold to us daily by different megacorps.
 
 **Q:** What is a relevance machine? <br>
 **A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
