@@ -318,7 +318,7 @@ Cyber refers to anything that is very smart. The meaning is rooted from the word
 In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
 #### How is cyberlink different to a hyperlink?
-A hyperlink is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
+A [hyperlink](https://en.wikipedia.org/wiki/Hyperlink) is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
 
 This allows us to make sure that the information in a cyberlink is true. Cyberlinks can also form linkchains of information if they were created by the same user.
 
@@ -336,53 +336,68 @@ Nope... Not on the protocol level. Not on the database level. Not on the consens
 #### So what do you do with those who break the law?
 If we obscure from the question of what is the law and by whom it is determined, then:
 
-There are no bad intentions in wanting to find the answer to something. You might not know something is "bad" until you know what it is. We are born Tabula Rasa - a clean sheet. The answer itself might indeed contain information that someone might see as "bad" or "inappropriate". This is not something we can control. We do not produce the information, we provide the tool to search through it and obtain it. 
+There are no bad intentions in wanting to find the answer to something. You might not know something is `bad` until you know what it is. We are born `Tabula Rasa`, a clean sheet. The answer itself might indeed contain information that someone might see as `bad` or `inappropriate`. This is not something we can control. We do not produce the information, we provide the tool to search through it and obtain it. 
 
 It can be assumed that in the future, someone will build applications on top of cyber and might want to filter out information on the application level (the results that the end-users sees and interacts with). This is not encouraged, but indeed, is up to the developer. We will never do something like this. Regardless if this happens or not, the protocol will NOT be censored and that information will be accessible. 
 
 This will create a competition between developers to pass the truth to the users.
 
 #### So who has the power?
-No one or rather everyone. Our idea is to design a tool where everyone feels equal. With that said, this can defiantly act like a competitive instrument. Someone who posses more tokens can link content (and hence rank it) with more weight. However, we would like to discourage the thinking that someone has more power than others (continue reading) as the purpose of the tool is to share and access information freely. The amount of tokens in possession does not influence this virtue. 
+No one or rather everyone. Our idea is to design a tool where everyone feels equal. With that said, this can defiantly act like a competitive instrument. Someone who posses more tokens can link content (and hence rank it) with more weight at any given moment. However, the amount of tokens in possession does not influence Cybers virtue. On the contrary, someone submitting a link with a higher weight does a good job for the whole protocol. The stronger the knowledge graph is, the more valuation it has, the better everyone feels. 
 
 #### So whoever is richer will always stay on top, right?
-Someone who ranks content with a higher value will see his content ranked higher. That is obvious. With that, he does not have an indexation preference. Here, the principle: first come - first served, will always function. If you were first to index something, then you indexed it before someone else did. I mean if I ate the last ice cream in the fridge, then I ate the last ice cream in the fridge.
+Someone who ranks content with a higher value will see his content ranked higher at a certain point of time. That is obvious. With that, he does not have an indexation preference. Here, the principle: first come - first served, will always function. If you were first to index something, then you indexed it before someone else did. It is hard to comprehend at first, but the only way to abuse the protocol is to perform a 51% attack. And even then, just like any other blockchain, it will, probably, fork itself out.
 
 With that, the search is dynamic. If I rank a content then it is relevant to me here and now. If I am not interested in it, then I have stopped ranking it. Older ranks will dilute with time. But, apart from my weight, the rank depends on the weight of incoming and outgoing ranks. And those ranks depend on their incoming and outgoing ranks... This makes it a never endless game, where simply because I have more tokens, might not be enough for me to always end up on top. 
 
 A comparison to [wisdom of the crowd](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd) can be made, where the collective opinion has a larger weight than that of a single entity.
 
 #### How is the search algorithm safe from abuse?
+This is one of the easiest and the most complicated questions we get asked. Several things prevent abuse. (1) The consensus mechanism (the more nodes, the better), (2) the resource credit model (an economic spam protection mechanism), (3) the thing is, is that the network belongs to the users, governed by the users and is utilized by the users. They are the sole beneficiaries of the network. If you attempt to abuse the search mechanism, the only thing you can abuse is yourself. The network will stay where it stands. This is a difficult concept to grasp, but this is the reality of things for web3.
 
-Why open-source?
+#### Why open-source?
+Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner.
 
-Is this P2P?
+#### Is this P2P?
+Not exactly. It is in the sense that users are interacting peer to peer with their computers, without a company in the middle. However, technically a blockchain is also an intermediary. What's good, is that you don't need to trust a blockchain thanks to how it functions.
 
-What is the difference between Cyber and P2P search engines like YACY?
+#### What is the difference between Cyber and P2P search engines like YACY?
+[YACY](https://yacy.net/en/) (and other P2P similar mechanisms) have plenty of years of work behind their backs, which cyber (still) hasn't. YACY is pure P2P, cyber isn't. It has a blockchain between the users. Also those years of work which YACY and the others have, kind of proven that they don't work. Otherwise, we would not be making cyber.
 
-How does this compare to TOR?
+#### How does this compare to TOR?
+Tor is not a search protocol. Tor is a highly efficient privacy instrument. Tor does not provide economic incentives. Tor doesn't use the blockchain. Tor does not answer questions. we see Tor as an instrument that we could provide a search protocol for. We hope that Tor can implement cyber on an application-level one day.
 
-Do you have a White Paper?
+#### Do you have a White Paper?
+[Yes, we do](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). You are welcome to read it. It can also be manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber).
 
-Have you tested this? Does it work?
+#### Have you tested this? Does it work?
+Yes, we have. There have been numerous private and public testnets. In fact, as of now, we are still testing and improving the protocol. It already works. [Use it](https://cyber.page/)!
 
-Can I use it on web2 (normal browsers / phone, etc)
+#### Can I use it on web2 (normal browsers/phone, etc)
+Depends. You can certainly view and download IPFS hashes via gateways to your phone/web2, etc. We presume that in the future people [will be building](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#community-maintained-profiles-and-tools) some kind of bridge between what we do and web2. But we do not see this is a task and shall not work on it. People should move to web3.
 
-Are you Satoshi?
+#### Are you Satoshi?
+We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi.
 
-Why are you so geeky?
+#### Why are you so geeky?
+Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to google.
 
-Can I contribute?
+#### Is this an ICO?
+The projects receive donations from users who wish to donate them and participate in the distribution games. In exchange they receive tokens. The process can be referred to as an initial community offering. Which is the process where the community understands the value of the proposed idea and decides to donate towards its development for its own benefit.
 
-Is this an ICO?
+#### Is this religious?
+Yes. By all means, it is. It is the most anti-religious techno-religion in the wild.
 
-Is this religious?
+#### How do you plan to take over the world/internet?
+By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is [working](https://cyber.page/). The idea has proved to be functioning and has a proved and a cemented market demand. We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else, it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen!
 
-How do you plan to take over the world/internet?
+#### What is your main target audience?
+Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else.
 
-What is your main target audience?
+#### Can I copy what you do?
+Go ahead. Seriously. We are open-source for a reason. You may copy, modify, do as you please. Our license agreement is: `Don’t believe, don’t fear, don’t ask.`
 
-Can I copy what you do?
+If you plan to fork the protocol, then eventually, we will meet each other with the help of IBC or other instruments of the free market. If you plan to fork the client, then this is another way of scaling Cyber. Feel free to fork it and build something on top of Cyber, for example, a targeted knowledge graph.
 
 ----------------------------
 
@@ -404,357 +419,3 @@ Can I copy what you do?
 - [Cypherpunk manifesto](https://www.activism.net/cypherpunk/manifesto.html)
 
 -------------------------
-
-NEW END
-
-
-#### What are some basic use-cases? 
-Of course, the most basic use case is a search mechanism (described above). Other, described [in this file](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md), may include:
-- Personal and autonomous robots and assistants that can study the information you feed them.
-- Cyber gives you the ability to access your database of knowledge. Theoretically, create a personal knowledge graph and query it. This means no more losing information. 
-- Offline search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. cyber itself can be distributed by using IPFS. This creates the possibility for off-line search!
-- Universal language and semantics. A dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas, including the semantic cores for various languages.
-- Basic income: Such a robot can help to solve 2 problems (a) personal data reselling - if you want to sell it, you decide to do so. (b) the above is just one example of how to produce basic income. In theory personal data, trading robots, content robots, oracle mechanism - they all can provide a human with a basic passive income. This solves a world-renowned issue!
-
-## cyber~Blocks:
-#### What is cyber~Page?
-cyber~Page is the face of the protocol. It allows you to search for things. Obtain results. View statistics. Use governance procedures. 
-
-#### What is Cyb?
-Cyb is your friendly robot / personal browser application. One one hand it is a mere browser. But it isn't. The problem is that there is no such word as of now that describes what cyb is exactly. It is a browser in the sense that it lets you search for things. But it is your personal applications, that can understand many other things. It can act as a wallet. It can act as a database. It contains your cyber-space robots. For now, we call this a browser. But I would imagine that something along - personal customizable web application, provides a better description. 
-
-#### What is cyb~Virus?
-The virus is a chrome extension (in the future this may apply to other web2 browsers). Its idea is to demonstrate the ability of cyber to download, save and rank any content from web2 to web3. We use chrome because we like irony. The idea to fuck google right in google's playground fascinates us. 
-
-## cyber~Entities:
-#### What is governance in cyber?
-the cyber protocol is governed by its users. We will talk about specifics further. But, the idea is that it is the users that should decide (by coming to a majority agreement) on what is and should be happening in terms of development, what rewards they should receive, how should a certain something work and so on. 
-
-#### What is cyber~Foundation?
-The role of cyber ~Foundation is to help the community govern the protocol via an Aragon DAO. It is a fund managed via a decentralized engine, charged with the donated ETH and managed by the community (agents of the protocol).
-
-#### What is cyber~Congress?
-The initial intentions of cyber ~Congress can be found [in this document](https://github.com/cybercongress/congress/blob/master/README.md). It helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens. 
-
-#### What is cyber~Ecosystem?
-It is the entity that is responsible for helping to grow the ecosystem. Its common goal: to build a better and a unique new web - the Great Web. To achieve this it will help to form partnerships, onboard communities, help research, connect people, do VC work when necessary, create and review documentation, participate in the governance, help to validate and build the chain and its applications
-
-#### Who are cyber~FundClassic?
-It is the future fund to be created and to help applications grow within the cyber ecosystem. 
-
-#### Why so many cyb~Entities?
-Why not, is the simple answer. The other answer is to divide the work evenly and equally amongst several entities that are each responsible for their field of work. A browser is an application, while the protocol is the protocol. They are not one entity. Same goes for the governing process. Different entities are responsible for different questions. 
-
-## Validating cyber:
-#### How do I become a validator in Cyber?
-Make sure you have the requirements described above and [follow this guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md).
-
-#### What do I need to become a validator in Cyber?
-Anyone can become a validator if he has the right hardware to run it. Right now, the requirements are as following:
-- CPU: 4 cores (6 is better)
-- RAM: 16 GB (64 would be better)
-- SSD: 256 GB (512 is preferred)
-- Connection: 100 Mbit fiber
-- GPU: CUDA / GeForce 1070/80
-- Software: Linux, Docker
-
-#### Do I need to become a validator?
-It is only up for you to decide if you do. As a validator, you will be entitled to receive rewards out of the inflation for committing your hardware. 
-
-#### What are the incentives for becoming a validator?
-You can earn rewards and help to bootstrap the network by running a validator node. Apart from that:
-
-- You can use your cards to take part in computing the knowledge graph and be a part of an interesting project
-- You will be receiving rewards for running a validator, just like in Cosmos (ATOM)
-- You will be eligible to build your reputation in the system and can participate in governance during the mainnet
-- You can receive a commission from delegators on the mainnet
-- You can take part in forming the knowledge graph of the new Great Web
-- Become a web3 provider
-
-## cyber~Economy:
-#### Are there rewards involved for users?
-Yes. Users can delegate their stake to validators and also receive rewards (although a validator might charge a commission for this). Users are rewarded in terms of their content becoming non-censored and reachable by anyone, anywhere. 
-
-To understand the true values of CYB tokens to users, one must understand that the users are the consumers and the service providers. Developers, entrepreneurs, SEO, buyers, and searchers simultaneously! Essentially, this means that users can build their own knowledge graphs, influence search results, build applications and monetize them.
-
-Cyber provides an opportunity for content and browsing without censorship, advertisement, data re-selling. Completely customizable and personified browsing experience, solely to you.
-
-#### Can this even be monetized?
-It can be. Yes (to be completed).
-
-#### How many tokens do you have?
-There are currently 2 tokens.
-
-#### Why do you have 2 tokens?
-Due to technical limitations, there is no way to have all of the described below characteristics in one token. We do not think that having several tokens is a bad thing. In the future, there might be other tokens on top of the DAO or/and the protocol. Of course, if they are proven to help the economics and the agents of that economics. 
-
-#### What are the names of your tokens and what does each one do?
-We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO. 
-
-### How many tokens are there?
-1 PCYB of tokens (and growing). And 700 TTHC. That's a lot, we know.
-
-#### What are MCYB / GCYB / TCYB / PCYB?
-Those are representations of the amounts of CYB tokens in mega, giga, tera, peta, etc. I.E. 1GCYB of tokens is 1 Giga CYB of tokens or 1 with 9 zeros, which equals to 1 billion. `1 GCYB = 1000000000 CYB`
-
-#### Why do you need so many CYB tokens?
-We want to show the world that the digital age contains a lot of numbers. Much more than we can think of. Nature strives towards huge numbers. Grains of sand, neurons, stars in the sky, etc. 
-
-On a lower-level, search queries go well beyond billions. This means that we need a lot of tokens to search for a lot of things. 
-
-#### What is the CYB token?
-CYB is a native token of cyber powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting cyberlinks, and (3) expression of will for the computing of cyber~Rank by the agents.
-
-#### What is THC?
-THC is an Ethereum based ERC-20 token that has utility value in the form of control over cyber~ Foundation and the ETH from the distribution games. It is a governance token. The creative powers of THC come from the ability to receive 1 CYB token per each (one) THC token when locking it before the end of cyber~Auction.
-
-#### Is there anything else I can do with the tokens?
-The usability of both tokens is straightforward. One is the core protocol token, used primarily for bandwidth, protection, security, transacting, etc. The other for governance. 
-
-Of course, other implementations can be applied. For example, both tokens can be used within the realm of prediction markets. Another example is using the protocol token as a means to an end. I.E. paying for a service. 
-
-#### Do you have transactional costs?
-Not in Cyber. I.E. CYB tokens do not have transactional costs. We use bandwidth instead. This means that transactions are free on one hand, but on the other hand, they require you to own at least something to make a transaction and hence, are protected from spam. On the other hand, THC tokens are Ethereum based, so - yes, they have transactional costs withing the Ethereum ecosystem (transactions cost gas).
-
-#### What are Resource Credits (RC)?
-Resource credits are our name for bandwidth amount of an account in the protocol. They are calculated from the liquid stake of an account and allow users to transact. Transactions in the protocol are everything that is done on-chain (on the blockchain). This can be linking, sending tokens, ranking, etc. 
-
-#### What are the distribution games?
-The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. 
-
-#### What do you need them for?
-There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
-
-#### What is Game of Links (GOL)?
-The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers). [Check out more details here](https://github.com/cybercongress/launch-kit/blob/0.1.0/Launch%20FAQ.md#what-are-the-distribution-games).
-
-#### What is Game of Thrones (GoT)?
-It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
-
-#### What is cyber~Auction?
-cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
-
-The auction will last for 500 rounds that last for 23 hours each (a little over 479 days). Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
-
-One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
-
-#### Can you explain what are EUL / GOL tokens?
-They are both experimental tokens needed to launch the productive equivalent. EUL is the testing equivalent of CYB and GOL of THC. 
-
-#### Tell me about your distribution
-The distribution looks like this:
-There are 700 TTHC tokens (Tera are 12 zeros). They are broken down as per follows: (numbers are rounded)
-- 71.4% are for cyber~Auction
-- 14.3% are for GoT
-- 14.3% is allocated to cyber~Congress
-
-There are 1 PTCYB (a peta is 15 zeros). They are broken down per following:
-- 90% for the distribution games (in other words open-sale) and for those who stake THC tokens (including cyber~ Congress)
-- 10% is a gift to Urbit, Cosmos and ETH communities
-
-A complete breakdown of THC and CYB by category can be viewed in the launch-kit [readme file](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md) and [our whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x).
-
-#### So is the inflation endless?
-The inflation in cyberd is defined by validators.
-
-## cyber~Gift:
-#### I've read you have gifted other blockchain communities, why?
-The purpose of this is to help the network gain traction at the beginning. And to increase the initial network participation. This will help to increase participation and give more participants the ability to engage in the protocol. We chose these specific communities because they are the best communities, in our opinion, to help to form the knowledge graph and to reach the masses.
-
-#### What's Urbit?
-Urbit is your personal server, identity, IP address, VM (virtual machine) and an operational system. It is the new computer science. Improved and more efficient. At the same time, Urbit can help us to envision the initial vision of peer to peer internet. 
-
-#### What's Ethereum?
-Ethereum is the largest distributed computer in the world today. It is the Lego bricks of blockchain technology, that allows developers to create applications on top of the Ethereum blockchain with the use of smart contracts. 
-
-#### What's Cosmos?
-Cosmos is the next evolutionary step in blockchain technology. Just like Ethereum, it allows developers to create individual things. Rather than focusing on applications. It allows developers to create independent blockchains (with the help of modules - prebuild kits that contain what you need and the ability to modify them as you wish), with their own applications, behaviour rules, etc. What's more important, is the ability of these blockchains to communicate one with another via exchanging value (data). 
-
-#### Why do you gift these particular communities?
-Those gifts can help grow the protocol. As a result, it will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space.
-
-#### Are there any airdrops?
-Yes. The gifts are that exactly. 
-
-#### How to check if I received any of the gifts? 
-The best way to do so this is to use [cyber.page](https://cyber.page/#/search/), simply enter your ETH / ATOM / URBIT address and see the result instantly! 
-
-## cyber~Rank:
-#### Ok, I get it - so how exactly do you calculate the rank?
-The idea of the ranking mechanism is based on the original PageRank, but with the implementation of a token-backed bandwidth. Or in other words a similar model, but with economic incentives and protections. The rank is dependent on the difference between the weight of the incoming ranks and the weight of the outgoing ranks. The network load is also a property that is calculated to obtain the rank. 
-
-As of now, the rank accounts for the current intention of the agents, and it encourages rank inflation. This makes sure it cannot be tampered with and that we do not get stuck in the past with content ranking. 
-
-This mechanism is fully described in our white paper. On-chain governance may change this mechanism in the future (and do so more than once), based on simple A/B testing of different network characteristics important at the time to the network. 
-
-#### How is the search algorithm safe from abuse?
-This is one of the easiest and the most complicated questions we get asked. Several things prevent abuse. (1) The consensus mechanism (the more nodes, the better), (2) the resource credit model (an economic spam protection mechanism), (3) the thing is, is that the network belongs to the users, governed by the users and is utilized by the users. They are the sole beneficiaries of the network. If you attempt to abuse the search mechanism, the only thing you can abuse is yourself. The network will stay where it stands. This is a difficult concept to grasp, but this is the reality of things for web3.  
-
-#### What's CUDA?
-It is an interface communication model created by NVIDIA, that allows many processes to be executed at the same time. It allows developers to use their graphics cards for computing general-purpose computations (usually handled by the processor).
-
-#### Why do you use GPU?
-Because we need to process a big amount of computations very quickly. CUDA allows us to do this. More so, this allows using your computer for creating semantics, this is something needed (the use of anyone computational resources) if we want to achieve a more complex matrix with relation to our knowledge and our fundamental needs to search for answers. 
-
-#### What about ASICs?
-Right now there is no question about them. As of now, it is irrelevant in our protocol. If such a need will arise, we believe that the governing mechanisms implemented in the protocol will be able to handle this. 
-
-We already have more plans on how to introduce other computational resources into the picture. For example, this can be a PoW mechanism based on RandomX algorithm. But, once again, as of now ASIC's are out of scope for our current work. 
-
-It should be noted that in our case ASIC's are not a bad thing if they do arise on the horizon. In the case of Cyber ASIC's will help the validators to compute more knowledge onto the knowledge graph, hence making it better!
-
-#### Once the content is in the index, how does it get "tagged" / returned in response to a specific query?
-When a user queries the knowledge graph (searches for an answer/searches for a result), he is returned a bunch of IPFS hashes that have been semantically tied with the specified words that the user searched for. Those IPFS hashes contain the desired content that the user asked for. As he clicks it, he will obtain this content locally on his machine (computer). 
-
-------------------------------
-
-## White Paper, launch and contacts:
-#### Do you have a White Paper?
-Yes, we do. It can be found and manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber/blob/master/main.tex). You can [view a PDF version via this IPFS hash](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x).
-
-#### When are launching a stable mainnet?
-The network will launch when Game of Links is done (the other 2 games are held after the launch). There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
-
-#### Who are the people behind the project?
-We are a team of geeks, enthusiasts, thinkers, hackers and people who firmly believe in what they want to achieve.
-
-If you wish to, you can skim through our GitHub and easily find links to some of our public profiles (like keybase) and much more information about each one of us. All of us can be reached here or on our forums. 
-
-#### Are you Satoshi?
-We wish... And we don't. We wish we were so smart and to have the knowledge of whomever Satoshi was/were/ is/are... We do not wish because knowing who Satoshi is, would destroy the whole idea of Satoshi. 
-
-#### Why are you so geeky?
-Why not? Geeky is the new cool. Geeks are awesome. If you didn't notice the world has been ruled by Geeks since the Microsoft made it to the top. In the last century, geeks have been all around us. From Facebook to google. 
-
-#### How do I contact you?
-Via our [GitHub](https://github.com/cybercongress/), via [our forum](https://ai.cybercongress.ai/) or via our [TG chat](https://t.me/fuckgoogle).
-
-#### Do you have any normal chats/ a forum maybe?
-We have a [forum](https://ai.cybercongress.ai/). You can join if you have a GitHub account. And we have a [TG chat](https://t.me/fuckgoogle).
-
--------------------------------------
-
-## More questions:
-#### Why open-source?
-Because open-source technology is the future way of communication between projects, users and developers. Open-source doesn't stop at referencing to technological progress. Open-source is a new way to collaborate. It allows people to freely change, commit to and modify ideas. And as a result, help progress and innovation at a higher temp and in a more secure manner. 
-
-#### Have you even tested this?
-Yes, we have. There have been numerous private and public testnets. In fact, as of now, we are still testing and improving the protocol. 
-
-#### Does it work?
-Yes. It works exactly as described in our documentation.
-
-#### Is this P2P?
-Not exactly. It is in the sense that users are interacting peer to peer with their computers, without a company in the middle. However, technically a blockchain is also an intermediary. What's good, is that you don't need to trust a blockchain thanks to how it functions. 
-
-#### What is the difference with such P2P search engines as YACY?
-YACY (and other P2P similar mechanisms) have plenty of years of work behind their backs, which cyber (still) hasn't. YACY is pure P2P, cyber isn't. It has a blockchain between the users. Also those years of work which YACY and the others have, kind of proven that they don't work. Otherwise, we would not be making cyber. 
-
-#### What's chaingear?
-Chaingear is one of our secret weapons. It is not yet fully described by us. But in its essence, it is an ETH based ability for anyone to create a personal or a public database with the help of NFT tokens. For example, one may create the database .porn and then create records in that database. I.E. world.porn, and yes, it works just like a domain-based structure. But it's not a domain-based structure, as it allows you to create other types of databases too.
-
-#### What about crawlers and indexing?
-We understand that for the internet to change it means that every single piece of content needs to migrate to the new version of the web. This is an ambitious task. But it can defiantly be accomplished. Once upon a time, people believed that putting telephone lines all around the world was impossible, but it happened. 
-
-To do this we need crawlers. A lot of crawlers that can transfer content. We have created [a basic crawler that you are welcome to use](https://github.com/cybercongress/crawler)(you may need some technical skills to install it).
-
-#### So, how do I join this?
-You should join to play the Game of Links (described above), check out the [launch-kit](https://github.com/cybercongress/launch-kit) for more information! 
-
-You can run a validator node to help test, improve and launch the network. This will be the biggest (and probably the most beneficial to all sides) commitment as of now. The launch guide requires some technical skills and experience and can be [found here](https://cybercongress.ai/docs/cyberd/run_validator/).
-
-But, you don't have to become a validator. You can use the virus extension to create cyberlinks. You can [join our forum](https://ai.cybercongress.ai/) to discuss any ideas. You can participate in the distribution games and so on.
-
-#### How do I use it?
-You can use the cyb~Virus extension if you are a non-technical user. It is HIGHLY unsafe software as of now, so you should only use it at your own risk. 
-
-#### What is the fastest way to get tokens?
-Play [the Game](https://cybercongress.ai/game-of-links/) of course! Another quick way, is to use future faucets or Kira's [TG bot](https://t.me/fuckgoogle). 
-
-#### How many tokens do I need to start using cyber?
-There isn't a specific amount of tokens you need to use the network. This is a very dynamic property. The current statistics can be viewed on [cyber.page](https://cyber.page/#/brain). It should be noted that all transactions require bandwidth (resources). However, transactions don't spend your tokens. The tokens "freeze" for some time, after which, they are released back to the user. This is a spam protection mechanism. 
-
-#### Can I use it on web2 (normal browsers / phone, etc)?
-Depends. You can certainly view and download IPFS hashes via gateways to your phone/web2, etc. We presume that in the future people will be building some kind of bridge between what we do and web2. But we do not see this is a task and shall not work on it. People should move to web3.
-
-#### Can I contribute?
-Depending on what you do, there are several ways to contribute:
-
-- You can help by solving issues / submitting PR (booth technical and non-technical)
-- You can help our research
-- You can spread the word about Cyber on social networks, to your friends, on the internet or in any other possible way
-
-#### Will I be rewarded for my contributions?
-There are several ways someone can get rewarded:
-
-- We actively use GitCoin. This means that we fund some of our tasks and issues. If you are an open-source developer, you can solve issues and get rewarded
-- We constantly announce grants for open-source development and research. For example our Urbit open-source proposal
-- You can gain social weight and social reputation by becoming an early adopter (please make conclusions for yourself, as to what this might gain)
-- If you run a validator node, you are entitled to receive rewards that are described above
-
-#### Whats GitCoin?
-Gitcoin is a crowdfunding and freelance developers platform that lets you fund different issues from your GitHub, using smart contracts and ETH. 
-
-#### Is this an ICO?
-The projects receive donations from users who wish to donate them and participate in the distribution games. The process can be referred to as an initial community offering. Which is the process where the community understands the value of the proposed idea and decides to donate towards its development for its own benefit. 
-
-#### Why do you need donations?
-Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
-
-THC donations will be managed by an Aragon DAO (the community) to help develop the protocol in the longterm. 
-
-#### Why don't you have KYC/AML?
-Because we do not understand the purpose of this mechanism concerning privacy and decentralization. Anyone is free to do what they want to do. If someone wants to donate and thereafter decided that it's his free will to KYC this donation in some way. It's his free will. It is our free will and our belief that decentralization is not about KYC and/or AML. If you don't agree with this, then you probably aren't ready for decentralization. Simply walk away. 
-
-#### Is this religious?
-Yes. By all means, it is. It is the most anti-religious techno-religion in the wild. 
-
-#### What is your main target audience?
-Our main TA are internet users. We plan to concentrate on developers, IPFS users, crypto maniacs and like-minded people at the beginning. We then, want to concentrate on younger generations. We firmly believe that they can grasp what we do (including our values) better than anyone else. 
-
-#### How do you plan to take over the world/internet?
-By showcasing and awesome product and with the help of the community behind it. Of course, those are loud words. But our product is working. The idea has proved to be functioning and has a proved and a cemented market demand. We are experimenting, but we are an experienced team. We have the knowledge, the understanding and the passion to drive this product forward. In combination with the product itself, the code, the community, the donations, the DAO, and everything else - it will either happen (the taking over)... or it won't. Either way, we will do everything to make this happen! 
-
-#### I read one of your manifests, are you crazy?
-I would lie if I said we weren't. But doesn't it take a bit of craziness, abstract geniuses and adventurism to change the world? Knowledge is a vital virtue that we possess. But if we were normal, we wouldn't be any different from the rest. 
-
-#### Why do you talk so much about values?
-Because values are what spins the world around. Our values lay at the core of the technology that we have created. Those values are the driver of that innovation. They are the goal. The technology is the instrument to get there. 
-
-#### Why all species? 
-Because all species should (and will) have an equal opportunity for secure and transparent communication. 
-
-#### How can all species be intelligent?
-Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. 
-
-#### Why do you need all those manifests/researches? How does it help the project?
-We think that it is stupid to achieve any goals without understanding the problem you are trying to solve. Daily, all around the world, people do something... But why do just something, when you can do THE something that needs to be done and that solves the problem you or someone else were trying to solve? We believe that all of this can, and will, help the project as it evolves trust in what we do. Shows that we have an understanding of what and why we do it. And that we are ready to prove the world that it will help to fix broken protocols for the better.
-
-#### How is this AI related?
-First, what is AI? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is). 
-
-In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it. 
-
-#### I heard I can use my Ledger device, really?
-Yes! You should. A ledger is a hardware wallet and its possible to sign transactions in Cyber straight out of your Ledger device! Awesome, right?
-
-Follow our [set-up guide](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/cyberd_Ledger_guide.md) (requires some technical skills). By the way! it is also possible to set up a validator node with a [Ledger device](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/Validator%20launch%20with%20Tendermint%20KMS%20%2B%20Ledger.md).
-
-#### Can I copy what you do?
-Go ahead. Seriously. We are open-source for a reason. YOu may copy, modify, do as you please. 
-Our license agreement is this: `Don’t believe, don’t fear, don’t ask.`
-
-Eventually, we will meet each other with the help of IBC or other instruments of the free market. 
-
-#### Can I build something on top of cyber?
-You defiantly should! The idea of forking cyber is not just a call to action. It is a call for development. You may build your specialised search (knowledge graphs) that reference to our general-purpose knowledge graph. You may provide services on top of your own, or our knowledge graph and IPFS (services such as e-commerce, SEO, hosting, identity, etc).
-
-You can also build personal knowledge graphs that can help you to learn or to build relevant and provable databases for any purposes. 
-
-#### I don't get it. I'm still confused
-I would advise you to read some of the provided links below. Use [issues](https://github.com/cybercongress/congress/issues) to ask questions that you think were left unanswered.
-
-In general, think of cyber as of a completely, brand-new mechanism for obtaining answers. Of a soft capable of building universal knowledge and communicating. 
-
----------------------------
-
