@@ -318,9 +318,24 @@ Cyber refers to anything that is very smart. The meaning is rooted from the word
 In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
 #### How is cyberlink different to a hyperlink?
-A [hyperlink](https://en.wikipedia.org/wiki/Hyperlink) is dependent on central data servers and packet routing. But, IPFS hashes are immutable (cannot be tampered with after they were created, or - permanent). Meaning that no one can tamper with it, as opposed to hyperlinks (this does not mean that you cannot change a file or modify it, but if you do - the fact that you have done a change, will be known to others). 
+Cyberlink is a fundamental building block of the Great Web. Cyberlinks help interconnect data the same way [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) help interconnect servers in conventional web. The differences between cyberlinks and hyperlinks are in the way what you link, how you link and where you store the link:
 
-This allows us to make sure that the information in a cyberlink is true. Cyberlinks can also form linkchains of information if they were created by the same user.
+|                           | Hyperlink                        | Cyberlink                    |
+|---------------------------|----------------------------------|------------------------------|
+| What you link             | From one server to other server  | From one file to other file  |
+| How you link              | Embed link in webpage            | Sign transaction             |
+| Where you store the link  | Private server                   | Public blockchain            |
+| Example                   | [google](https://google.com)     | [google](https://cyber.page/network/euler/tx/08F9514853A59EB063ACF4D80D62B48B863834124386B1D473E488344D38EA80) |
+
+Currently there are trillions hyperlinks exist, but so far [less than million cyberlinks](https://cyber.page/brain/knowledge) has been created. Changing the way you create links you superpower the world and get features just impossible with hyperlinks in conventional web:
+
+|                | Hyperlink        | Cyberlink                      |
+|----------------|------------------|--------------------------------|
+| Beneficiaries  | Server owners    | Content creators               |
+| Index yourself | Impossible       | Just cyber it!                 |
+| Censorship     | Trivial          | Impossible (if you store file) |
+| Offline        | Impossible       | Yes (if you store file)        |
+| Broken links   | A matter of time | Impossible (if you store file) |
 
 #### Is linking that important?
 Yes! Hyperlinks shape the internet. They have built it. We base our knowledge, our political, economic and educational decisions on the internet. We learn from google. google is our father, teacher, source of knowledge, social life, etc. But, how can we trust the internet if it was shaped by something that itself is untrusted? Well, we can't. Cyberlinks, on the other hand, are trusted and backed by a provable and an auditable mechanism that anyone can check. This means that with the aid of cyberlinks we can, no less, but create a trusted model of all the information in the universe!
