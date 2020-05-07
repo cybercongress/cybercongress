@@ -4926,15 +4926,20 @@ With that in mind, what I'm trying to say, is that cyber and cyb are not just te
 Some of these ideas might seem crazy to you. Some you might completely disagree with. And that's good. We don't expect anyone to fully agree with what we do. Please remember that the ideas outlined below belong to cyber~Congress, cyber is a separate entity governed by cyber ~foundation. However, as a DAO those ideas drive us forward and we feel that it is necessary to share them with the public for transparency. 
 
 #### The manifest
-The most difficult thing about a freedom manifest is making it not as a manifest. This was rightly pointed out by @sparky. As the work with manifests and everything related to it is not as vital as launching cyber, we do not, currently, spend much time on it. However you may find the occasional pull request in that direction and if you are willing to help, [feel free to do so](https://github.com/cybercongress/congress/pulls).
+> The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself. Carl Sagan.
 
-Our Mission is to help the evolution of species!
+##### The Mission
+To help the evolution of species!
 
-Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Until today, this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as species and gives all of us hope. With the Voyagers, our species sent the [golden record](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras and spoken greetings from Earth-people in fifty-five languages.
+Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Until today, this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as species and gives all of us hope. With the Voyagers, our species sent the [`golden record`](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras, and spoken greetings from Earth-people in fifty-five languages. 
 
-That record carries what we believe in, with this, below, we have outlined the goals and values that we believe in the most. This is a hard mission, as our foremost wish is freedom and outlining anything when speaking of freedom is hard.
+That record carries what we believe in, with this, below, we have outlined the goals and values that we believe in the most. This is a hard mission, as our foremost wish is freedom and outlining anything when speaking of freedom is hard. 
 
-Blockchain technology has opened the opportunity for development which was previously impossible.
+##### The Idea
+We do not believe in captchas. We do not believe in KYC. We do not believe in licensing and any other similar to the above-mentioned bullshit. We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. However, blockchain technology has opened the opportunity for development which was previously impossible. [cyber~Congress](https://mainnet.aragon.org/#/cybercongress), is a sovereign self-funded community of scientists, developers, engineers and craftsmen who create on its mission the foundation for a new kind of existence.  
+
+##### The manifest
+The most difficult thing about a freedom manifest is making it not sound like a manifest. 
 
 The great John Lenon once said:
 `Imagine there's no countries`
@@ -4980,19 +4985,19 @@ They can be grouped into the following categories:
 
 Below is one of the most important quotes ever said on Earth by Carl Sagan:
 
-“Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there-on a mote of dust suspended in a sunbeam.
+> Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there-on a mote of dust suspended in a sunbeam.
 
-The Earth is a very small stage in a vast cosmic arena. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot.
+> The Earth is a very small stage in a vast cosmic arena. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot.
 
-Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+> Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
 
-The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
+> The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
 
-It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.” ― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
+> It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.” ― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
 
-We share this vision, but we look forward and even beyond it.
+`We share this vision, but we look forward and even beyond it.`
 
-We understand that technicalities are boring, but we want to be transparent. To achieve our goals we will utilize any type of appropriate to our values technology that either exists or create it ourselves. 
+We understand that technicalities are boring, but we want to be transparent. To achieve our goals we will utilize any type of appropriate to our values technology that either exists or create it ourselves. More details on cyber~Congress technicalities can be found [here](https://github.com/cybercongress/congress/blob/master/drafts/congress%20technicalities.md).
 
 May the code be with you. Don't believe. Don't fear. Don't ask!
 
