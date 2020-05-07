@@ -16,7 +16,7 @@ A FAQ is a list of frequently asked question that tries to gather as much as pos
 ## Table of content
 - [Like google, but Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#like-google-but-cyber): What is cyber and what problem does it solve
 - [Under the hood, part-1](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#under-the-hood-part-1): A very high-level explanation of what are blockchain and web3 technologies
-- [How does Cyber work and how do I use it?](): How can you use cyber and what are the basic incentives for you to do so
+- [How does Cyber work and how do I use it?](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#how-does-cyber-work-and-how-do-i-use-it): How can you use cyber and what are the basic incentives for you to do so
 - [Under the hood, part-2](): How to validate Cyber, what is a knowledge graph, what are the distribution games, etc...
 - [The philosophy behind Cyber](): Why are we building Cyber?
 - [Silly, yet, VIP questions](): How does Cyber compare to others, how is Cyber safe from abuse and many other VIP things
@@ -108,57 +108,114 @@ First of all, you shouldn't! It is up to you to decide what you care about and w
 -------------------------------
 
 ## How does Cyber work and how do I use it?
-How do I use Cyber?
-cyber.page, cyb virus, ledger, cyb...
+#### How do I use Cyber?
+Our main app, [cyber.page](https://cyber.page/), allows you to search for content on the knowledge graph and create cyberlinks. It also lets you participate in the governance of Cyber, sends tokens, take part in our gamified mechanics and explore all the other possibilities of the protocol. For now, searching is as simple as googling. However, the creatin of cyberlink via the app requires a [Ledger](https://www.ledger.com/). 
 
-What is a cyberlink?
-Cyberlink is a link between between 2 IPFS hashes. Where one hash points to the keyword that makes the content searchable. And the second hash points to the content itself. 
+To learn how to use cyber.page and the other tools described below, please use these [step-by-step guides](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber). 
 
-How do I create a cyberlink?
+cyb~Virus is an extension for Chrome and Firefox that allows you to create cyberlinks by downloading content into IPFS with a few simple clicks. It also acts like a wallet, i.e. like [Metamask](https://metamask.io/).
 
-Are transactions free?
+There are several other, [community-maintained tools](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#community-maintained-profiles-and-tools) that you may want to check out.
 
-How many tokens do I need to use it?
+#### What is a cyberlink?
+Cyberlink is a link between 2 IPFS hashes. Where one hash points to the keyword that makes the content searchable. And the second hash points to the content itself. A cyberlink allows us to pinpoint a specific location on the graph. [Take a look](https://cyber.page/graph) at how things look inside of a graph!
 
-Where can I get tokens?
+#### How do I create a cyberlink?
+You can create a cyberlink by providing 2 pieces of what makes it up. A `from` part, which is the keyword. And the `to` part, which is the content. Both are content identifiers, which are, currently, IPFS hashes. We recommend using [cyber.page](https://cyber.page/) to create one. Learn how-to.
 
-What is a CID?
-A CID is a content identificator or an IPFS hash. That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS protocol.
+If you don't have a Ledger device, please use one of [the other tools](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber). 
 
-How many tokens do you have?
+#### Are transactions free?
+Yes. Cyber uses what we call an [`energy` model](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#advanced-explanation). This acts as a spam protection mechanism and makes transacting free. Your energy regenerates get used when you create a transaction and regenerates after some time. 
 
-Why do you have 2 tokens?
+Transactions in Cyber shape the semantics field. 
 
-What is the allocation breakdown?
+#### How many tokens do I need to use it?
+This depends on the current parameters of the networks load, which can be checked [here](https://cyber.page/network/euler/parameters). Generally, this is a very low amount. bare in mind, that you don't actually spend any tokens, you just freeze them to prove your intention.  
 
-is the inflation endless?
+#### Where can I get tokens?
+Tokens can be obtained in several ways. One is by claiming a gift that was intended for ETH, ATOM and Urbit users. Learn how-to [here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift).
 
-Why IPFS/Cosmos and how do you use them?
+Another way is to use [our faucet](https://cyber.page/gol/faucet). We recommend to check out [this guide](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). 
 
-What other technology do you use?
+When you have tokens, enjoy playing the [Game of Links](https://cyber.page/gol) to obtain even more tokens.
 
-What can cyber be used for?
+#### What is a CID?
+A [CID](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#glossary) is a content identificator. In our case, it is also an [IPFS hash](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#glossary). That means its a something that represents (or rather - points to) a specific file/piece of data within the IPFS database.
 
-How can I make money using Cyber?
+#### How many tokens do you have?
+There are 2 tokens. 
 
-Who does Cyber belong to?
+[CYB](https://github.com/cybercongress/congress/blob/master/ecosystem): the token of our network, which has 3 primary uses: (1) staking (securing the network and receiving rewards), (2) bandwidth limiting for submitting links (energy), and (3) expression of intentions for indexing and ranking the content. 
 
-How can I take part in Cyber?
+There are  1 000 000 000 000 000 CYB (one Peta CYB or 1 PCYB). There is currently no such thing as the maximum amount of CYB tokens, this is due to the continuous inflation paid to the network validators.
 
-Who are heroes and masters?
+[THC](https://github.com/cybercongress/congress/blob/master/ecosystem): an Ethereum ERC-20 compatible token has utility value in the form of control over [cyber~Foundation]() (an Aragon DAO) and the ETH from the [auction]() proceeds.
 
-When are you going to launch a mainnet?
+One of the core values of THC, is the ability to be able to receive CYB tokens (1 to 1) for anyone staking THC during cyber~Auction. Prior to Genesis cyber~Congress has minted 700 000 000 000 000 THC (seven hundred Tera THC).
 
-Do you have a chat / a forum / a blog?
+The third, non-transferable, and non-tradable token, is called [Karma](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-questions). Karma can be thought of as a token, but it's closer to your reputation. Karma points are gained by users when they create cyberlinks.
 
-#### How do you use IPFS?
-cyber uses IPFS as the current backbone on which users perform the search. Think about IPFS for cyber, as of the fridge for the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it.
+#### Why do you have 2 tokens?
+1) There is no technical possibility to create 2 tokens with such features using 1 network
 
-#### How do you use Cosmos?
-Cosmos provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc
+2) It allows us to create 2 independent, yet, connected entities. One that acts as a fund governed and managed by the users in ETH. And the second as the main utility token of the network
 
-#### Why did you choose Cosmos \ Tendermint?
-It was the most efficient, suitable for our needs and ready to use the network when we started to build. We share the philosophy that Cosmos propagates when it comes to decentralization and openness of information + we believe that the security of the protocol is at a level that suits our requirements. 
+#### What is the [allocation breakdown](https://github.com/cybercongress/launch-kit/tree/0.1.0/distribution)?
+CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
+- cyber~Congress*: 4% of CYB
+- Seed donors*: 4% of CYB
+- Inventors of the protocol*: 2% of CYB
+- Gift allocated to over 1 million addresses: 10% of CYB
+- Other public allocation: 80% of CYB
+* These groups get THC tokens and can [vest them](https://cyber.page/gol/faucet/vest) to receive CYB
+
+THC tokens breakdown (governance tokens), total supply: 700,000,000,000:
+- 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
+- 85.7% Public allocation
+
+#### Is the inflation endless?
+The inflation parameters are defined by [governance](https://cyber.page/governance).
+
+#### Why IPFS/Cosmos and how do you use them?
+Cyber uses IPFS as the current backbone, where users store content and where users perform the search. Think about IPFS for cyber, as of the fridge, and cyber is the lightbulb inside of it. Users use IPFS to store and publish content and files. cyber lets users rank, index and find it. If there was no lightbulb, how would you find food in the fridge during those hungry nights?
+
+[IPFS](https://ipfs.io/) is revolutionary. It is the first protocol that created content-based addressing, which allowed cyber to build cyberlinks on top of it and change the way we search for information. In the future, we plan to use any other protocol that is capable of creating a cyberlink (DAT, GIT, Swarm, Bitcoin, Ether, etc).
+
+[Cosmos](https://cosmos.network/) provides the consensus mechanism for cyber. We use Tendermint as an engine that helps the network to reach agreement on its current state, perform transactions on the blockchain, validate search results, etc. (1) When we started to build Cosmos was already in mainnet. (2) Cosmos has [IBC](), a protocol that allows for data transfer between sovereign blockchains. (3) We share the decentralized, non-monolithic philosophy that Cosmos preaches. (4) The security of Tendermint and Cosmos-SDK is top-notch.
+
+#### What other technologies do you use?
+Cyber strives to be chain-agnostic. This means we will use [any trustless and censors free technology](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-manifest) that can help us to achieve results. 
+
+Currently, we use [CUDA](https://developer.nvidia.com/cuda-zone) for computing [the rank](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#glossary). [Aragon](https://aragon.org/network/) for shaping our DAO's. [Go](https://golang.org/) and [React](https://reactjs.org/) as the main programing languages. We also use [Ethereum](https://ethereum.org/) for [cyber~Foundation](https://github.com/cybercongress/cyber-foundation). 
+
+#### What can cyber be used for?
+Cyber has several [use-cases](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usecases), all built around semantics and its incentivized use. Such uses account for [search-engines](https://cyber.page/), [web-3 browsers](https://github.com/cybercongress/cyb), oracles, data markets, prediction markets, language convergence, unified semantics, autonomous robots, SEO instruments, providing web services, etc.
+
+#### What are the incentives for using Cyber?
+There are 4 types of users that we outline, each with its separate interests:
+
+- [Evangelists](https://cyber.page/evangelism): They are building a social knowledge graph by attracting others to the protocol. For this, they receive rewards from the [community pool](https://cyber.page/governance) and a share of the [donated ATOM](https://cyber.page/gol/takeoff)
+- Users: [The masters](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master) of the protocol. The obvious interest is the ability to receive a reward if they [delegate](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey) CYB and the ability to receive payouts from both, the CYB community pool and the ETH pot under [their control](https://github.com/cybercongress/cyber-foundation) in the form of THC. Their other values include the ability to interact with the protocol and to [share](https://cyber.page/search/god) and [search](https://cyber.page) for knowledge
+- Validators (and developers): [The heroes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer) of the protocol. They manage [the infrastructure](https://cybercongress.ai/docs/cyberd/run_validator/) and make sure the computer works as should without cheating (they, of course, provide cryptographic profs to this). As long as they stake tokens they receive inflation rewards. They too can receive money from the community pool. They are most likely to develop different tools for users that can be monetized. E.G. simple oracle or crawling tools. This helps them to build their reputation to attract more delegations from which they charge a commission
+- Large donors: The large shareholders. Their interest is the [overall use](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#usecases) of the protocol and its prosperity. They have the same incentive as the users, but with a larger game at stake
+
+#### Who does Cyber belong to?
+Cyber does not belong to anyone. Yes, it launched by [cyber~Congress](https://mainnet.aragon.org/#/cybercongress/), the DAO that launches Cyber and [transitions](https://cybercongress.ai/euler-ceremony/) the `power` to [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation), the main governing DAO. 
+
+Cyber does not have KYC, jurisdictions, CEO's or other fairytale creatures.
+
+#### How can I take part in Cyber?
+You can take part by playing [the Game of Links](https://cyber.page/gol), by becoming [an ambassador](https://cyber.page/evangelism), by participating in [the takeoff](https://cyber.page/gol/takeoff), by filling Cyber [with cyberlinks](https://cyber.page/search/help), by helping to [secure the network](https://cybercongress.ai/docs/cyberd/run_validator/) and by being part of [the community](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem).
+
+#### Who are heroes and masters?
+This is part of [our subculture](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#subculture). Heroes are the validators that secure Cyber. Masters are the users that build the Great Web.
+
+#### When are you going to launch a mainnet?
+This is heavily depending on the testing of every single bit of our protocol. Currently, this date is set for the 3rd quarter of 2020. However, you can already [use Cyber](https://cyber.page/). All of the knowledge from the testnet will be transitioned to the mainnet.
+
+#### Do you have a chat / a forum / a blog?
+[We have a TG chat](https://t.me/fuckgoogle). [A forum](http://ai.cybercongress.ai/). [And a blog](https://cybercongress.ai/post). We also have [numerous](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles) other communication channels.
 
 --------------------------------------
 
