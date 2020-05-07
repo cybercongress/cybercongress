@@ -150,9 +150,9 @@ There are 2 tokens.
 
 There are  1 000 000 000 000 000 CYB (one Peta CYB or 1 PCYB). There is currently no such thing as the maximum amount of CYB tokens, this is due to the continuous inflation paid to the network validators.
 
-[THC](https://github.com/cybercongress/congress/blob/master/ecosystem): an Ethereum ERC-20 compatible token has utility value in the form of control over [cyber~Foundation]() (an Aragon DAO) and the ETH from the [auction]() proceeds.
+[THC](https://github.com/cybercongress/congress/blob/master/ecosystem): an Ethereum ERC-20 compatible token has utility value in the form of control over [cyber\~Foundation]() (an Aragon DAO) and the ETH from the [auction]() proceeds.
 
-One of the core values of THC, is the ability to be able to receive CYB tokens (1 to 1) for anyone staking THC during cyber~Auction. Prior to Genesis cyber~Congress has minted 700 000 000 000 000 THC (seven hundred Tera THC).
+One of the core values of THC, is the ability to be able to receive CYB tokens (1 to 1) for anyone staking THC during cyber\~Auction. Prior to Genesis cyber~Congress has minted 700 000 000 000 000 THC (seven hundred Tera THC).
 
 The third, non-transferable, and non-tradable token, is called [Karma](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-questions). Karma can be thought of as a token, but it's closer to your reputation. Karma points are gained by users when they create cyberlinks.
 
@@ -220,30 +220,50 @@ This is heavily depending on the testing of every single bit of our protocol. Cu
 --------------------------------------
 
 ## Under the hood, part-2
-What is a knowledge graph?
+#### What is a knowledge graph?
+Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_Graph). Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to google).
 
-Who are cyber~Congress?
+#### Who are [cyber~Congress](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)?
+cyber\~Congress is a [DAO](https://mainnet.aragon.org/#/cybercongress). Its role is to launch Cyber, create the initial allocation and to work on Cyber as one of the community participants.
 
-What is cyber~Foundation?
+#### What is [cyber~Foundation](https://github.com/cybercongress/cyber-foundation)?
+cyber\~Foundation is a [DAO](https://mainnet.aragon.org/#/eulerfoundation/0xfc3849b9711f69ddb677facff0cd6755a981a1f0/). Its role is to govern Cyber, act as an independent, non-jurisdiction based entity, in charge of its own money. A foundation that has no borders. 
 
 #### How is content ranked in cyber?
-You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of PageRank! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it "Sybil-resistant".
+You might be surprised to learn that our ranking mechanism is based on no other, but the original idea of [PageRank](https://en.wikipedia.org/wiki/PageRank)! The differences are that our mechanism mixes into the pot economical incentives in the form of digital tokens and bandwidth. This makes it [`Sybil-resistant`](https://en.wikipedia.org/wiki/Sybil_attack).
 
-How do you calculate the rank?
+#### How do you calculate the rank?
+The [rank](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#advanced-explanation) is a dynamic property. It is calculated using incoming weights of the links, outgoing weight of the links and the current network load. It is recalculated by validators every block to form the current shape of the intentions of the users. This mechanism can be changed via governance.
 
-How to become a validator?
+#### How to become a validator?
+You need to set up a node. The best place to start is [here](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md).
 
-What are the incintives of becoming a validaotr?
+#### What are the incentives of becoming a validator?
+- You can use your cards to take part in computing the knowledge graph and be a part of an interesting project
+- You will be receiving rewards for running a validator, just like in Cosmos (ATOM)
+- You will be eligible to build your reputation in the system and can participate in governance during the mainnet
+- You can receive a commission from delegators on the mainnet
+- You can take part in forming the knowledge graph of the new Great Web
+- Become a web3 provider
 
-What are the distribution games?
+#### What are the distribution games?
+The [distribution games](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games-in-detail) is our achieving the best possible initial allocation, testing the network and creating a decentralized launch. 
 
-What are EUL and GOL tokens?
+There are 3 parts to this process. The [Game of Links](https://cyber.page/gol) for initial believers. The [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) for speculators and [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) for making sure cyber\~Foundation can be an independent entity.  
 
-What about crawlers and indexing?
+#### What are EUL and GOL tokens?
+EUL is the test name of CYB. And GOL is the test name of THC. Both are the testing versions of our mainnet tokens.
 
-How is this AI related?
+#### What about crawlers and indexing?
+Crawlers are needed to migrate content from the current web to the Great web. Check out the [crawler section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers).
 
-I heard I can use my Ledger device, really?
+#### How is this AI related?
+First, what is [AI](https://en.wikipedia.org/wiki/Artificial_intelligence)? AI is the intelligence demonstrated by a machine. This doesn't necessarily mean that the machine must be from the year 12255 (by then, it will probably be a world of machines as it is).
+
+In its essence cyber is a huge distributed consensus computer, it is a dynamic protocol that is influenced by different machines and users simultaneously. It learns from actions. It can prune things that are irrelevant to it. It can prove the relevance of any two existing objects that are known to it.
+
+#### I heard I can use my Ledger device, really?
+Yes! You should. A ledger is a hardware wallet and its possible to sign transactions in Cyber straight out of your Ledger device. By the way, it is also possible to set up a validator node with a [Ledger device](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/Validator%20launch%20with%20Tendermint%20KMS%20%2B%20Ledger.md).
 
 -------------------------------------
 
