@@ -1759,6 +1759,7 @@ There is 1 other profile that we want to mention, in which Cyber is mentioned, p
 - [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
 - [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
 - [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
+- [Cybers Russian BTT](https://bitcointalk.org/index.php?topic=5246903): A Russian BTT. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
 
