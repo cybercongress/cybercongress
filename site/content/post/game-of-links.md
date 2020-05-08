@@ -7,6 +7,10 @@ author: savetheales
 
 **Rules, Provision, Description and Participation**
 
+***TODO***
+
+> The details of about takeoff relaunch.
+
 *Disclaimer:* On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
 
 The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
@@ -23,7 +27,7 @@ Goals:
 
 - To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet 
 - To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
-- To distribute up to 6% of CYB tokens to the validators who will participate in the takeoff donation round. The amount is dependent on the number of donated ATOM tokens
+- To distribute 6% of CYB tokens to the donors who will participate in the takeoff donation round.
 - To distribute up to 4% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
 ## Provision for the Game
@@ -34,8 +38,8 @@ The Game of Links starts with the launch of `euler-5` and ends with a snapshot o
 
 The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start itself. It will last until 1 of 2 of the following events will happen:
 
-- 90 days have passed since the beginning of the takeoff donation round
-- 600,000 ATOM tokens have been donated
+- 146 days have passed since the beginning of the takeoff donation round
+- 200,000 ATOM tokens have been donated
 
 After the end of the takeoff donation round, we will distribute EUL tokens to participants of the takeoff. This will kick-off the final round of the Game of Links.
 
@@ -91,11 +95,11 @@ There are several ways to get tokens and several tools that you can use:
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
-- **Faucets**. We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
+- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
 
-- **Takeoff round**. You can get tokens if you will participate in the takeoff donation round. There are 100 TEULs allocated to the participants during GoL. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter towards the end.
+- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round. There are 100 TEULs allocated to the participants during GoL. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter towards the end.
 
-- **Be a validator**. You can get tokens via launching a validator node. The `euler-4` validators get 15 TEULs in `euler-5` and post `euler` networks, for their support of the network.
+- [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node. The `euler-4` validators get 15 TEULs in `euler-5` and post `euler` networks, for their support of the network.
 
 > **! Important**
 
@@ -133,36 +137,29 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. If 600k ATOM tokens have been donated during the takeoff round, 10% of CYB tokens will be allocated to the Game of Links. 
+The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. Independent of donated ATOMs 100 TEULs will be distributed across donors proportionally donated ATOMs and donation order in the Game of Links. 60 TCYBs will be distributed across donors proportionally donated ATOMs and donation order in the mainnet.
 
-The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress.
+Moreover, there are 4 disciplines depends on the number of donated ATOMs. If 200,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
 
-Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants and for themselves. The following formula defines the allocation for takeoff donors:
+![disc_distr](disc_distr.png)
 
-<p align="center"><img src="963efecc0e14204ae4a1dadeacd5c744.svg?invert_in_darkmode&sanitize=true" align=middle width=458.4939249pt height=18.312383099999998pt/></p>
-
-where <img src="7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/> is the Genesis supply of CYBs allocated to takeoff donors, <img src="332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is the ATOMs donated during the takeoff donation round.
-
-The development of the project has been done thanks to donations from 10 people. ~3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber\~Congress . To protect the seed donators, their share will be defined accordingly to the amount donated during the takeoff round. 
-
-The donations round curve (green curve) defines the allocation of up to 6.4% of CYB tokens for takeoff participants. If the takeoff round gets 600k ATOMs than seed donators (blue curve)  and cyber\~Congress (orange dotted curve) get 4% of the CYB supply, per group, via the means of THC tokens. And takeoff participants will get 6% of CYB tokens. If nothing has been donated the remaining CYB tokens are allocated to cyber\~Congress and distributed to seed donators and cyber\~Congress proportionally.
-
-![takeoff-distribution](takeoff_allocation.png)
+Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
 
 The following criteria are applied for the allocation of Game of Links:
 
 ![game-of-links-distribution](GOL_distribution.png)
 
-| Group | Amount CYB (up to) |
+| Group | Amount CYB |
 | --- | ---: |
 | takeoff donations | 60,000,000,000,000 |
-|*disciplines*||
+|*disciplines depends on takeoff*| up to |
 | relevance | 15,000,000,000,000 |
 | load | 6,000,000,000,000 |
 | delegation | 5,000,000,000,000 |
+| lifetime | 2,000,000,000,000 |
+|*disciplines independs on takeoff*||
 | full validator set | 5,000,000,000,000 |
 | `euler-4` rewards | 5,000,000,000,000 |
-| lifetime | 2,000,000,000,000 |
 | community pool | 2,000,000,000,000 |
 
 ## Types of disciplines
@@ -194,7 +191,7 @@ There are up to 15 TCYBs allocated for the top 1000 CIDs and the top 10 agents t
 
 CYB tokens will be distributed to the top 1000 CID proportionally to their ranks.
 
-In case 600,000 ATOMs are donated:
+In case 200,000 ATOMs are donated:
 
 <p align="center"><img src="d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
 
@@ -229,7 +226,7 @@ A users bandwidth depends on their stake:
 
 The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
-Users rewards, in case 600,000 ATOMs have been donated, are calculated in the following way:
+Users rewards, in case 200,000 ATOMs have been donated, are calculated in the following way:
 
 <p align="center"><img src="910d658efae8563e12e83ff4a59308c9.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3375745pt height=37.0084374pt/></p>
 
@@ -239,7 +236,7 @@ The easiest discipline. You just need to set up your validator node and monitor 
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
-The following formula calculates each validator reward in block *n* if the was a precommit, and if 600,000 ATOMs have been donated:
+The following formula calculates each validator reward in block *n* if the was a precommit, and if 200,000 ATOMs have been donated:
 
 <p align="center"><img src="9ca49a45d418b1ea785b2c8eb3507700.svg?invert_in_darkmode&sanitize=true" align=middle width=174.21748245pt height=41.352743849999996pt/></p>
 
@@ -247,14 +244,14 @@ The *r* is a reward for validator at block *n*, the <img src="6b7ea75590426a1836
 
 We need to divide the allocated supply by the sum of the blocks during the period of the Game and by the sum of the pre-commits of the current block.
 
-For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 600,000 ATOMs have been donated on the auction, you will get:
+For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 200,000 ATOMs have been donated on the takeoff, you will get:
 <p align="center"><img src="3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
 
 in the Genesis file of `cyber` network.
 
 ## Amount of delegated to each validator
 
-Earn your validators reputation with efficient infrastructure and constant lifetime. Validators can earn a reputation based on their lifetime rate and infrastructure. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 600,000 ATOMs have been donated, every validator will get:
+Earn your validators reputation with efficient infrastructure and constant lifetime. Validators can earn a reputation based on their lifetime rate and infrastructure. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 200,000 ATOMs have been donated, every validator will get:
 
 <p align="center"><img src="ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
 
