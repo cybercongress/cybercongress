@@ -7,11 +7,9 @@ author: savetheales
 
 **Rules, Provision, Description and Participation**
 
-***TODO***
+*Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants. 
 
-> The details of about takeoff relaunch.
-
-*Disclaimer:* On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
+On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
 
 The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
 
@@ -137,7 +135,7 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. Independent of donated ATOMs 100 TEULs will be distributed across donors proportionally donated ATOMs and donation order in the Game of Links. 60 TCYBs will be distributed across donors proportionally donated ATOMs and donation order in the mainnet.
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, proportionally per donated ATOMs and the donation order in the Game of Links. 60 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. This sum is allocated to the [Game of Links final](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol).
 
 Moreover, there are 4 disciplines depends on the number of donated ATOMs. If 200,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
 
