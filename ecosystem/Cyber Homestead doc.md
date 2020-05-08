@@ -1424,7 +1424,7 @@ chmod u+x sign-brod.sh
 
 <img src="https://i.postimg.cc/wjFZC7S6/Screenshot-from-2020-04-23-18-27-30.png" />
 
-If you see a timeout error, this is probably to do with your internet connection or the proxy node you're using. If you're seeing the `too many tokens` error, this means that there are more than 7 messages in the tx. Ledger can't sign more than 7. If you're seeing the `permission denied` error, this means that you're most likely not under root or the address in the config file, doesn't match the one you're using on your Ledger. make sure the addresses match and if you are seeing the permission error, simply do `sudo chmod 777 /PATH TO FOLDER` to give the user that has the keyring permission to create files in that directory.
+If you see a timeout error, this is probably to do with your internet connection or the proxy node you're using. If you're seeing the `too many tokens` error, this means that there are more than 7 messages in the tx. Ledger can't sign more than 7. If you're seeing the `permission denied` error, this means that you're most likely not under root or the address in the config file, doesn't match the one you're using on your Ledger. Make sure the addresses match and if you are seeing the permission error, simply do `sudo chmod 777 /PATH TO FOLDER` to give the user that has the keyring permission to create files in that directory.
 
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
@@ -1511,7 +1511,7 @@ Here you are. A young padawan, standing proud in front of the Gods. What else aw
 For now, this section will remain purely theoretical. As cyber grows, so will this section and the possibilities of how to use it.
 
 #### Monetezation
-How do you monetize content with cyber? Can a Master make use of cyber in such a way that it will help him with important things like basic income? Is this a loud statement? Possibly. So was Einstein's theory of relativity just a little over 100 years ago. Could you have understood how to monetize blockchain tech in early 2010? Unlikely, But! If you were into digital tokens, economics, game theory and tech, most likely you had some ideas, regardless of their possible implementation. Ther is a drastic gap between luck and an educated, based upon facts, theory. 
+How do you monetize content with cyber? Can a Master make use of cyber in such a way that it will help him with important things like basic income? Is this a loud statement? Possibly. So was Einstein's theory of relativity just a little over 100 years ago. Could you have understood how to monetize blockchain tech in early 2010? Unlikely! But if you were into digital tokens, economics, game theory and tech, most likely you had some ideas, regardless of their possible implementation. Ther is a drastic gap between luck and an educated, based upon facts, theory. 
 
 By now you are probably familiar with some of the mechanics of cyber. Later in this document, you will learn more and more about it, including its possible, endless use cases. You are also aware of semantics, advertisement tools on the internet and how the two are connected. There is more... There is e-commerce, there is monetization via services, etc. All this requires data, semantics, economic incentives for actions, computation and knowledge. Cyber provides just that. 
 
