@@ -2019,7 +2019,7 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
 - 2020, spring: Launch of governance and vesting apps/modules
 - 2020, end of spring: Launch of public donation round
-- 2020, 90 days or 600k ATOM after the previous event: End of Game of Links
+- 2020, 146 days or 200k ATOM after the previous event: End of Game of Links
 - 2020, straight after the previos event: GoL final
 - 2020, (presumably) summer: Launch of the mainnet and Game of Thrones
 - 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
@@ -3884,9 +3884,9 @@ We have already mentioned the distribution games briefly. Their purpose is to in
 
 There is a total of 3 games, with 2 of them, parts of 1:
 
-- [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round, with a 21 day final after. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators
+- [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round, with a 21 day final after. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators
 - Game of Thrones: Will start after the launch of the mainnet and last for 21 days. It is day 0 of the following auction. Its purpose is to battle out 2 communities (ETH and ATOM) for a bigger stake
-- cyber~Auction: Will start after GoT is over and accounted for. It is an auction that lasts for a little over 479 days. Its purpose is to fill cyber ~Foundation with money
+- cyber\~Auction: Will start after GoT is over and accounted for. It is an auction that lasts for a little over 479 days. Its purpose is to fill cyber\~Foundation with money
 
 #### Game of Links or GoL
 As mentioned the purpose is to win as many tokens as possible from cyber~Congress and its seed donators. The idea originates with Cosmoses Game of Stakes. This allows to achieve two results simultaneously: test the network, result in a better distribution. PoS is known for not having anything at stake. PoW distributes tokens to those who spend resources and it makes sense. Here, the idea is similar. Use your resources and/or time and acquire tokens via utility. 
@@ -3906,9 +3906,9 @@ Independent of takeoff donations (meaning that it does not matter how many ATOM 
 - Community pool (experiment and participate in governance)
 - euler-4 validator rewards (rewards distributed to validators for the last testnet. Essentially, this means that you cannot participate in this discipline anymore. This is mentioned for transparency)
 
-The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. If 600k ATOM tokens have been donated during the takeoff round, 10% of CYB tokens will be allocated to the Game of Links. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. 
+The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. Following the re-lauch of the takeoff, cyber\~Congress will only be allocated a max of 4% CYB.
 
-The development of the project has been done thanks to donations from 10 people. ~ 3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress. To protect the seed donators their share will be defined accordingly to the amount donated during the takeoff round.
+The development of the project has been done thanks to donations from 10 people. ~ 3200 ETH has been spent during the last 3 years of development. For those donations, 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress.
 
 <img src="https://i.postimg.cc/wBBxVsn2/takeoff-allocation.png" />
 
@@ -3916,15 +3916,13 @@ The above chart describes perfectly the allocation of 5 groups:
 
 - cyber~Congress (does not include inventors)
 - Inventors of rounders of the protocol (2 people)
-- Seed donators during the winter round (more below)
+- Seed donors during the winter round (more below)
 - Participators of GoL where allocation depends on takeoff round (disciplines)
-- Takeoff donators (those participating in the takeoff round)
-
-We can see that the more ATOM tokens are donated the less cyber~Congress, seed donators and its inventors acquire and the more GoL and takeoff donators get. 
+- Takeoff donors (those participating in the takeoff round)
 
 Those are the amounts allocated (up - as some depend on the parametrs above)) to each descipline in CYB tokens: 
 
-- Takeoff donators: Up to 60,000,000,000,000 CYB
+- Takeoff donors: Up to 60,000,000,000,000 CYB
 - Relevance of links: Up to 15,000,000,000,000 CYB
 - Bandwidth load: Up to 6,000,000,000,000 CYB
 - Delegations to validators: Up to 5,000,000,000,000 CYB
@@ -3933,7 +3931,7 @@ Those are the amounts allocated (up - as some depend on the parametrs above)) to
 - euler-4 rewards: 5,000,000,000,000 CYB
 - Community pool: 2,000,000,000,000 CYB (if used)
 
-**Note:** After the initial end of GoL (90 days since the start of funding or after 600k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
+**Note:** After the initial end of GoL (146 days since the start of funding or after 200k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
 
 To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/).
 
@@ -3970,10 +3968,10 @@ We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with
 
 - Self-funding: The project has been self-funded over a few years with a sum closing to ~3200 ETH summed up with the winter round (not including 2020)
 - Public winter round for friends: Was a semi-public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
-- Takeoff round: The takeoff donation round is a round where up to 600k ATOM is donated to the cyber~Congress DAO via distribution games (more below). This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302), including things like ATOM staking, etc
+- Takeoff round: The takeoff donation round is a round where up to 200k ATOM is donated to the cyber~Congress DAO. This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302)
 - Auction round: Is broken into 2 parts, a 21 day round and equal rounds for 479 days. During the first 21 days, ETH and ATOM are donated to the cyber~Congress DAO via the use of the auction. For the larger period of the auction. I.E. 479 days, ETH is donated to the cyber ~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the second part of the auction, THC tokens can be vested and locked to later, receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
 
-In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber~Foundation in charge of the ETH donated during the auction. And cyber\~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals made by cyber ~Foundation and will remain as one of the entities that commits to the protocol over its remaining lifetime.
+In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber\~Foundation in charge of the ETH donated during the auction. And cyber\~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals and will remain as one of the entities that commits to the protocol over its remaining lifetime.
 
 ##### Takeoff extra
 The takeoff donation round seem confusing at first hand, let me assure you, it isn't. Let's break it down and understand it:
@@ -3981,14 +3979,14 @@ The takeoff donation round seem confusing at first hand, let me assure you, it i
 - The takeoff donation round is done in ATOM (i.e. participants donate ATOM)
 - The ATOM goes to cyber~Congress DAO multisig address
 - The takeoff donation round is part of the distribution games, in particular, GoL
-- When 90 days have passed since its start or 600k ATOm have been donated, the takeoff donation round finishes
-- The end of the takeoff donation  round launched the 21-day final of GoL
-- During the takeoff donation round, participants donate ATOM. The more ATOM are donated, the *less* CYB cyber~Congess leaves to itself
-- The earlier you donate, the bigger your discount is. The discount is calculated with a dependence on the overall sum of ATOM donated. The more ATOM tokens have been donated, the bigger the total discount is. The earlier you donate, the bigger the total discount you can expect 
+- When 146 days have passed since its start or 200k ATOM have been donated, the takeoff donation round finishes
+- CYB tokens will be distributed proportionally per donated ATOM + per donation order (those donated earlier will get a larger discount on behalf of those who donate later)
+- The end of the takeoff donation round launches the 21-day final of GoL
+- During the takeoff donation round, participants donate ATOM. The more ATOM are donated, the *less* CYB cyber~Congess leaves to itself. Following the new takeoff distribution, cyber\~Congress will get no more than 4% of CYB
+- The earlier you donate, the bigger your discount is. The earlier you donate, the bigger the total discount you can expect 
 - Participants of the takeoff donation round get an extra bonus in terms of 100 TEUL distributed among them (in proportion to the donated ATOM)
 - These EUL tokens can be used in the 21-day final of GoL to play and earn more CYB tokens (EUL tokens will be burned)
-- All earlier involved entities (cyber~Congress, inventors of the protocol and seed donors) get *less* if more ATOM tokens have been donated during the takeoff round
-- The amount of CYB tokens allocated for GoL disciplines is also dependent on the takeoff donation round! The *more* ATOm tokens have been donated, the *more* CYB tokens are allocated to disciplines of GoL
+- The amount of CYB tokens allocated for GoL disciplines is dependent on the takeoff donation round! The *more* ATOM tokens have been donated, the *more* CYB tokens are allocated to disciplines of GoL
 
 #### The distribution games
 There are 3 distribution games, described above. Their purpose is to achieve the best possible distribution, gain initial traction and test all of the network's possibilities. 
@@ -4030,10 +4028,9 @@ THC tokens breakdown (governance tokens), total supply: 700,000,000,000:
 - 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
 - 85.7% Public allocation
 
-ATOM breakdown (At max 600,000) (100% to cyber~Congress DAO, minus):
+ATOM breakdown (At max 200,000) (100% to cyber~Congress DAO, minus):
 10%: Fee to those who help to bring in donations
 2%: Team bonus
-
 
 - tokens and utility
 - transactions
@@ -4158,24 +4155,22 @@ It is a good practice to transfer any balance you have out of an address after y
 First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have, the more options open up to you in regards to search, building the knowledge graph and creating the new Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of.
 </details>
 
-### cyber~Congress's + seed investors pot
-The pot that cyber~Congress accounts for is dependent on dynamic parameters. It can be broken into 2 categories:
+### cyber~Congress's + seed donors pot
+The pot of cyber\~Congress can be broken into 2 categories:
 
 - Any self-funded funds from team members and/or inventors
-- Donated ATOMs during seed, takeoff, etc donation rounds
+- Donated ATOMs during takeoff, etc donation rounds
 
-- Up to 6.4% of CYB tokens to the DAO, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+- 4% of CYB tokens to the DAO (+any left over CYB tokens from the disciplines that are dependent on the doantions)
 - Up to 3.2% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
 
-The pot of seed investors is also dynamic. It depends on the donations during takeoff round and can be up to 6.4% of CYB tokens.
-
-Please note, that the more ATOMs there are donated the LOWER the above mentioned pots become. At most, the 3 pots can sum up to 16%, at lowest they can sum up to 10%.
+The pot of seed donors is equal to 4% of CYB tokens.
 
 **Vital** cyber~Congress and seed investors are NOT the same entity, however some people might overcross. We are publishing these numbers, solely, for transparency!
 
 In other words, up to 97 TTHC (the governance token) is allocated to inventors, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
 
-Those THC tokens can (and most likely will) be vested for the period of cyber~Acution to receive an equal amount of CYB tokens. This means that cyber~Congress might posses between 9-10% (including incentives) of CYB and THC tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
+Those THC tokens can (and most likely will) be vested for the period of cyber~Acution to receive a proportional amount of CYB tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
 
 From those funds, a certain portion will be allocated towards the creation of [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#who-are-cyberfundclassic), which will be a for-profit DAO responsible for finding teams that develop cyber and fund them with initial bags.  
 
@@ -4187,7 +4182,7 @@ In the future, cyber~Congress or any other user might propose amendments to the 
 ### Where is the money Lebowski?
 We can break the understanding of this into 4 categories. Before we do that. It is vital to understand that the real value of computers and protocols comes from utility, development and adoption on a later stage. We see 4 groups that have various interests in the protocol:
 
-- cyber~Congress: it is up to cyber ~Congress to reach a sustainable flow of income and to obtain funding from governance proposals as either the or one of the developing teams
+- cyber\~Congress: it is up to cyber\~Congress to reach a sustainable flow of income and to obtain funding from governance proposals as either the or one of the developing teams
 - Evangelists: the ambassadors of cyber. As we see it, they possess both, a speculative interest and in sharing the idea of changing the world. Their value comes mainly from building a social knowledge graph, referring donators, participating in games, etc
 - Heroes: the validators of cyber. Possibly large donators, but primarily infrastructure providers. Earn from supplying infrastructure and inflation
 - Masters: the users of cyber. The largest group. They can have an income from inflation via delegating to heroes. They can also take part in shaping up web3, providing services, marketing, advertising, selling goods, creating markets, etc, in the new Great Web
