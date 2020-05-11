@@ -524,11 +524,11 @@ cyber~Congress helps to launch the protocol, commits to the code base, helps to 
 As of today, cyber~Congress is a 2/2 DAO for decision making and a 2/3 DAO in terms of security. However, it should be noted, that some decisions are already wider diversified as the whole team that works on the DAO takes part in most of the decision. In the future, we hope this will become automatized and the DAO will grow. 
 
 There are 3 points on which we should touch when discussing cyber~Congress:
-1) cyber~ Congress is the launching DAO behind cyber. For its work, a 14.3% share of the governing token, THC, is allocated to cyber~Congress. This share will be staked during cyber ~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
+1) cyber\~Congress is the launching DAO behind cyber. For its work, a share of the governing token, THC, is allocated to cyber\~Congress. This share will be staked during cyber\~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
 
-2) The manifest outlies the idea that all species should (and will) have an equal opportunity for secure and transparent communication. Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. The main mission of cyber~Congress is `To help the evolution of species!`
+2) The manifest outlies the idea that all species should (and will) have an equal opportunity for secure and transparent communication. Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. The main mission of cyber\~Congress is `To help the evolution of species!`
 
-3) cyber~Congress as a DAO plans on developing cyber, taking part in the governance, launching `cyber~FundClassic`, an ecosystem development fund, that will help cyber to evolve (*hint: further in the document, a whole section is dedicated to the description of the ecosystem*), form strategic partnerships and buidl applications. The DAO plans to stake the received ATOM tokens from the first donation round to its Cosmos [fuckgoogle validator](https://cosmos.bigdipper.live/validator/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u), and support the incentives of the team via the received rewards. The DAO also plans to have a sustainable income flow, described in [this issue](https://github.com/cybercongress/congress/issues/302).
+3) cyber~Congress as a DAO plans on developing cyber, taking part in the governance, launching `cyber~FundClassic`, an ecosystem development fund, that will help cyber to evolve (*hint: further in the document, a whole section is dedicated to the description of the ecosystem*), form strategic partnerships and buidl applications. The DAO plans to stake some of the received ATOM tokens from the first donation round to its Cosmos [fuckgoogle validator](https://cosmos.bigdipper.live/validator/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u), and support the incentives of the team via the received rewards. The DAO also plans to have a sustainable income flow, described in [this issue](https://github.com/cybercongress/congress/issues/302).
 
 ------------------------------------------------------
 
@@ -1784,7 +1784,7 @@ _Mission:_ Increase initial traction. Build strong local and/or online community
 _Tooling:_ cyber tools that help. Creativity
 _General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
 
-For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. Details can [be found here](https://github.com/cybercongress/congress/issues/307). For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens from the ecosystem ~Fund via governance. 
+For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens via governance. 
 
 #### Meetups & Hackathons
 One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
@@ -2019,42 +2019,38 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
 - 2020, spring: Launch of governance and vesting apps/modules
 - 2020, end of spring: Launch of public donation round
-- 2020, 146 days or 200k ATOM after the previous event: End of Game of Links
+- 2020, 146 days or 300k ATOM after the previous event: End of Game of Links
 - 2020, straight after the previos event: GoL final
-- 2020, (presumably) summer: Launch of the mainnet and Game of Thrones
-- 2020, and for a period of 21 days after the launch of the mainnet: Game of Thrones
-- 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 479 days
+- 2020, (presumably) summer: Launch of the mainnet 
+- 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 888 rounds
 
 If you are interested in the development roadmap, please see the [projects roadmap](https://github.com/orgs/cybercongress/projects/2). It is broken into episodes. Each episode contains the main current tasks. Each task may contain multiple intenral tasks, which in turn live in their own repositories. Episodes do not have a specified timeline.
 
 #### Distribution games introduction
-The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
+The distribution games are a way of improving the distribution of tokens to a higher number of participants in a fairer way through a gamified process. There are 2 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
 
 **Q:** What is Game of Links (GoL)?<br>
 **A:** The name is partially self-explanatory here. The idea is to distribute tokens based on several parameters (disciplines within the game). Those include not just linking but some other technical things. The simple idea behind this is to make the protocol better at the start and to make sure tokens are distributed to those who are interested most in the success of the idea (initial believers).
 
-**Q:** What is Game of Thrones (GoT)? <br>
-**A:** It's a game where one community of hodlers tries to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
-
 **Q:** What is cyber~Auction?<br>
-**A:** cyber ~Auction is part of the initial distribution games. If the first two focus on specific target groups (although anyone is free to participate). The goal of cyber ~Auction is to focus on all types of users. It will take place after the end of the previous games.
+**A:** cyber\~Auction is part of the initial distribution games. The goal of cyber\~Auction is to focus on all types of users. It will take place after the end of the previous games.
 
-The auction will last for 500 rounds that last for 23 hours each (a little over 479 days). Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
+The auction will last for 888 rounds that last for 23 hours each (a little over 851 days). Every round has an equal amount of THC at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
 
 One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
 
-*(Hint: A thorough guide on the games is in the beep, beep, beep section) 
+*(Hint: A thorough guide on the games is in the beep, beep, beep section)* 
 
 #### The launch protocol and initial GoL details
 For the slightly technically advanced users, there is a [laucnh-kit repository](https://github.com/cybercongress/launch-kit) that can take you through each part of the Genesis launch protocol. Here, we will concentrate on the main parts of it.
 
 Here is the full visualization of the launch protocol:
 
-<img src="https://i.postimg.cc/mDcz3JRV/launch-protocol-v2.png" />
+INSERT NEW IMAGE
 
-And, here you can see the details of the launch process from euler-5, to the end of Game of Thrones:
+And, here you can see the details of the launch process from euler-5:
 
-<img src="https://i.postimg.cc/QN9nR8hm/timeline.png" />
+INSERT NEW IMAGE
 
 #### Laucnh FAQ
 
@@ -2065,7 +2061,7 @@ And, here you can see the details of the launch process from euler-5, to the end
   
  <details>
   <summary>Can you describe the launch process in a paragraph? </summary>
-From 2016-2019 we were working on researching, developing and publicly testing the protocol. At the end of 2019, we launched the first leg of the distribution games, made to increase initial traction, test the protocol and achieve good distribution. The first part is the Game of Links, which is an incentivized game with different technical disciplines and a public donation round in ATOMs to the cyber~Congress DAO. The second parts are made out of Game of Thornes, the game between ETH and ATOM communities to outbid each other and get more tokens from cyber~Congress, and cyber ~Auction, the 479-day long auction, in equal windows with public ETH donations to the community DAO governing the protocol. GoT is window 0 of the auction. The auction takes part after the launch of the mainnet.
+From 2016-2019 we were working on researching, developing and publicly testing the protocol. At the end of 2019, we launched the first leg of the distribution games, made to increase initial traction, test the protocol and achieve good distribution. The first part is the Game of Links, which is an incentivized game with different technical disciplines and a public donation round in ATOMs to the cyber~Congress DAO. The second part is cyber\~Auction, the 888-round long auction, in equal windows with public ETH donations to the community DAO governing the protocol. The auction takes part after the launch of the mainnet.
   </details>
   
    <details>
@@ -2080,7 +2076,7 @@ Yes, it can be found via this IPFS link: https://ipfs.io/ipfs/QmPjbx76LycfzSSWMc
   
    <details>
   <summary>When are you launching a stable mainnet? </summary>
-The network will launch when Game of Links is done (the other 2 games are held after the launch) and its final is over. There are 146 active validators and all the tokens are distributed. As of the end of 2019, the ETA is summer 2020. We strongly encourage participation when GoL kicks-off!
+The network will launch when Game of Links is done (the auction is held after the launch) and its final is over. There are active validators and all the tokens are distributed. As of the end of 2019, the ETA is Q4 2020. We strongly encourage participation when GoL kicks-off!
   </details>
   
  <details>
@@ -2095,12 +2091,12 @@ Via our GitHub, via our forum or our TG chat. All links are at the end of this d
   
    <details>
   <summary> So, How do I use it?</summary>
-Please see the Using cyber: the very basics section for this.
+Please see using cyber sections in the beggining.
   </details>
   
  <details>
   <summary>What is the fastest way to get tokens? </summary>
-Play the Game of course! Another quick way is to use future faucets or Kira's TG bot, which you can find on our TG channel.
+Play the Game of Links, of course or claim the gift!
   </details>
   
    <details>
@@ -2131,8 +2127,8 @@ The projects receive donations from users who wish to donate them and participat
   
    <details>
   <summary>Why do you need donations? </summary>
-Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber ~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
-THC donations will be managed by an Aragon DAO (the community) to help develop the protocol in the longterm.
+Thanks to ATOM donations we want to secure a commitment for cyber~Congress in the development of both: Cosmos and Cyber ecosystems. ATOM donations will allow for cyber~Congress to use staking rewards for continuous funding of the protocol without the necessity to dump tokens.
+ETH donations will be managed by an Aragon DAO (the community) to help develop the protocol in the longterm.
   </details>
   
 ------------------------------------------------------
@@ -3825,7 +3821,7 @@ You can think of Karma as of your useful reputation. Karma is calculated from yo
 
 <details>
   <summary>How many tokens are there? </summary>
-1 PCYB of tokens (and growing). And 700 TTHC.
+1 PCYB of tokens (and growing). And 750 TTHC.
 </details>
 
 <details>
@@ -3866,7 +3862,7 @@ The distribution games are a way of improving the distribution of tokens to a hi
 
 <details>
   <summary>What do you need them for? </summary>
-There are 3 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
+There are 2 distribution games proposed in total. Their goal is to help increase the initial efficiency of the distribution.
 </details>
 
 <details>
@@ -3882,11 +3878,10 @@ The inflation in cyberd is defined by validators.
 ### The distribution games in detail
 We have already mentioned the distribution games briefly. Their purpose is to increase traction and improve distribution. 
 
-There is a total of 3 games, with 2 of them, parts of 1:
+There is a total of 2 games:
 
 - [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round, with a 21 day final after. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators
-- Game of Thrones: Will start after the launch of the mainnet and last for 21 days. It is day 0 of the following auction. Its purpose is to battle out 2 communities (ETH and ATOM) for a bigger stake
-- cyber\~Auction: Will start after GoT is over and accounted for. It is an auction that lasts for a little over 479 days. Its purpose is to fill cyber\~Foundation with money
+- cyber\~Auction: Will start after the mainnet is lauched. It is an auction that lasts for 888 rounds. Its purpose is to fill cyber\~Foundation with ETH
 
 #### Game of Links or GoL
 As mentioned the purpose is to win as many tokens as possible from cyber~Congress and its seed donators. The idea originates with Cosmoses Game of Stakes. This allows to achieve two results simultaneously: test the network, result in a better distribution. PoS is known for not having anything at stake. PoW distributes tokens to those who spend resources and it makes sense. Here, the idea is similar. Use your resources and/or time and acquire tokens via utility. 
@@ -3933,21 +3928,12 @@ Those are the amounts allocated (up - as some depend on the parametrs above)) to
 
 **Note:** After the initial end of GoL (146 days since the start of funding or after 200k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
 
-To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/).
-
-#### Game of Thrones or GoT
-The idea is to see two of the top communities battle it out in return for more tokens. One is ETH and the second is ATOM. We have already gifted both of them proportionally to their size (9% overall). However, the gift can be seen as bootstrap fuel and had a quadratic equation to it to smooth whale accounts. 
-
-The idea of GoT is to see one community of hodlers trying to outbid the other in return for receiving a larger discount. 10% of CYB supply is allocated per each competing community. 100 TCYB to the ATOM community for donating ATOM. And an equivalent amount to the ETH community, which will initially receive THC tokens that they can lock during the auction in exchange for CYB tokens (in other words the ETH donators can potentially receive both THC and CYB tokens). The game will last for 21 days.
-
-To test during the testnet we have allocated 1 TEUL and 1 TGOL to the Cosmos and Ethereum communities, respectively, for testing (please see below on value of test tokens). Test of Thrones is the zero round of the test~Auction. It will last for 10 days. During this period Cosmonauts and Etherians can donate their native tokens. After that EULs and GOLs will be distributed.
-
-The game will be monitored on a special page of cyber.page, where people will be able to follow, donate, etc. There will also be 2 Aragon based applications that will allow users to use both GoT and the auction. 
+To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/). 
 
 #### cyber~Auction or auction
-The goal of cyber~Auction is to focus on obtaining funds for cyber ~Foundation, the community governed DAO behind the cyber protocol. It will take place after the end of the previous games and last for 500 rounds that last for 23 hours each (a little over 479 days). 
+The goal of cyber\~Auction is to focus on obtaining funds for cyber\~Foundation, the community governed DAO behind the cyber protocol. It will take place after the end of the previous games and last for 888 rounds that last 24 hours each. 
 
-Every round has 1 billion THC is at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
+Every round has an equal amoutn of THC at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
 
 One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction, you will receive 1 CYB token for each locked THC token for the duration of the auction!
 
@@ -3969,7 +3955,7 @@ We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with
 - Self-funding: The project has been self-funded over a few years with a sum closing to ~3200 ETH summed up with the winter round (not including 2020)
 - Public winter round for friends: Was a semi-public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
 - Takeoff round: The takeoff donation round is a round where up to 200k ATOM is donated to the cyber~Congress DAO. This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302)
-- Auction round: Is broken into 2 parts, a 21 day round and equal rounds for 479 days. During the first 21 days, ETH and ATOM are donated to the cyber~Congress DAO via the use of the auction. For the larger period of the auction. I.E. 479 days, ETH is donated to the cyber ~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the second part of the auction, THC tokens can be vested and locked to later, receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
+- Auction round: Lasts for 888 days. ETH is donated to the cyber\~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the auction, THC tokens can be vested and locked to receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
 
 In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber\~Foundation in charge of the ETH donated during the auction. And cyber\~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals and will remain as one of the entities that commits to the protocol over its remaining lifetime.
 
@@ -3979,7 +3965,7 @@ The takeoff donation round seem confusing at first hand, let me assure you, it i
 - The takeoff donation round is done in ATOM (i.e. participants donate ATOM)
 - The ATOM goes to cyber~Congress DAO multisig address
 - The takeoff donation round is part of the distribution games, in particular, GoL
-- When 146 days have passed since its start or 200k ATOM have been donated, the takeoff donation round finishes
+- When 146 days have passed since its start or 300k ATOM have been donated, the takeoff donation round finishes
 - CYB tokens will be distributed proportionally per donated ATOM + per donation order (those donated earlier will get a larger discount on behalf of those who donate later)
 - The end of the takeoff donation round launches the 21-day final of GoL
 - During the takeoff donation round, participants donate ATOM. The more ATOM are donated, the *less* CYB cyber~Congess leaves to itself. Following the new takeoff distribution, cyber\~Congress will get no more than 4% of CYB
@@ -3989,11 +3975,10 @@ The takeoff donation round seem confusing at first hand, let me assure you, it i
 - The amount of CYB tokens allocated for GoL disciplines is dependent on the takeoff donation round! The *more* ATOM tokens have been donated, the *more* CYB tokens are allocated to disciplines of GoL
 
 #### The distribution games
-There are 3 distribution games, described above. Their purpose is to achieve the best possible distribution, gain initial traction and test all of the network's possibilities. 
+There are 2 distribution games, described above. Their purpose is to achieve the best possible distribution, gain initial traction and test all of the network's possibilities. 
 
 - Game of Links: includes in itself the takeoff donation round, and a final after it. Started with euler-5 and will finish when the takeoff donation round is over. Its purpose is to distribute tokens from cyber~Congress to the participants. Aimed at initial believers of the protocol
-- Game of Thrones: Can be thought of as the final part of GoL or window 0 of the auction. A 21-day game in which ETH and ATOM communities battle it out for the biggest pot. Aimed at speculators
-- cyber~Auction: a 479-day long auction, which charges cyber ~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
+- cyber\~Auction: a 888-day long auction. It charges cyber\~Foundation with ETH. THC can be vested for CYB. Aimed at everyone in the community
 
 #### The gift
 cyber has dropped 10% of its supply to 3 communities:
