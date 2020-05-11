@@ -35,4 +35,4 @@ Valerka and I decided that we had gained the necessary critical mass to take off
 I know that everyone on the team strongly believes in the project! It's cool that we have that! I want to say thank you for your support. It would be impossible without you. Let's gather all our will for this month and release the network, app and foundation in the best possible way!
 
 ## What's next?
-After the start of the donations, much will change in the project. There will be more responsibility. We will need to listen to the community more. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 200k ATOMs. But all that is going to be exciting 
+After the start of the donations, much will change in the project. There will be more responsibility. We will need to listen to the community more. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 300k ATOMs. But all that is going to be exciting 
