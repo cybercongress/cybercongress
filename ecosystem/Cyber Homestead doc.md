@@ -729,7 +729,7 @@ Onto the next step. To create a link with Ledger, you will need some CYB or EUL 
 
 1) Whilst this is still a testnet, you might as for some in the [fuckgoogle TG channel](https://t.me/fuckgoogle) and people might send you some
 2) Get some from [the faucet](https://cyber.page/gol/faucet)
-3) Get some from [Kira's TG bot](https://t.me/kirainterex)
+3) Get some from [Kira's TG bot](https://t.me/InterchainWalletBot)
 4) Obtain them by [running a validator node](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md)
 5) By [playing GoL](https://cybercongress.ai/game-of-links/)
 6) By participating in any of the rounds (see `beep beep beep` section)
