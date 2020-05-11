@@ -22,7 +22,7 @@ Valerka and I decided that we had gained the necessary critical mass to take off
 I know that everyone on the team strongly believes in the project! It's cool that we have it! I want to say thank you for this support. It would be impossible without you. Let's gather all the will this month and release the network, app and foundation in the best possible way!
 
 ## What's next?
-After the start of donations, much will change in the project. There will be more responsibility. We will need to listen more to the community. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 200k ATOMs. But all that would be exciting though
+After the start of donations, much will change in the project. There will be more responsibility. We will need to listen more to the community. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 300k ATOMs. But all that would be exciting though
 
 # Подготовьтесь в Взлету!
 
@@ -48,4 +48,4 @@ After the start of donations, much will change in the project. There will be mor
 Я знаю, что все кто в команде - сильно верят в проект! Это круто что у нас такое есть! Я хочу вам сказать спасибо за эту поддержку. Без вас это было бы невозможно. Давай соберем всю волю в кулак в этом месяце и выпустим сетку, апку и фаундейшн в лучшем виде!
 
 ## Что после?
-После начала донатов многое в проекте поменяется. Будет больше ответственности. Нам нужно будет больше слушать сообщество. Нам нужно будет биться за главную [цель Игры линков](https://cybercongress.ai/game-of-links/): 200к атомов. Но это будет очень интересно!
+После начала донатов многое в проекте поменяется. Будет больше ответственности. Нам нужно будет больше слушать сообщество. Нам нужно будет биться за главную [цель Игры линков](https://cybercongress.ai/game-of-links/): 300к атомов. Но это будет очень интересно!
