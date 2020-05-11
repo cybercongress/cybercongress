@@ -150,9 +150,9 @@ There are 2 tokens.
 
 There are  1 000 000 000 000 000 CYB (one Peta CYB or 1 PCYB). There is currently no such thing as the maximum amount of CYB tokens, this is due to the continuous inflation paid to the network validators.
 
-[THC](https://github.com/cybercongress/congress/blob/master/ecosystem): an Ethereum ERC-20 compatible token has utility value in the form of control over [cyber\~Foundation]() (an Aragon DAO) and the ETH from the [auction]() proceeds.
+[THC](https://github.com/cybercongress/congress/blob/master/ecosystem): an Ethereum ERC-20 compatible token has utility value in the form of control over [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) (an Aragon DAO) and the ETH from the [auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) proceeds.
 
-One of the core values of THC, is the ability to be able to receive CYB tokens (1 to 1) for anyone staking THC during cyber\~Auction. Prior to Genesis cyber~Congress has minted 700 000 000 000 000 THC (seven hundred Tera THC).
+One of the core values of THC, is the ability to be able to receive CYB tokens (1 to 1) for anyone staking THC during cyber\~Auction. Prior to Genesis cyber~Congress has minted 750 000 000 000 000 THC (seven hundred and fifty Tera THC).
 
 The third, non-transferable, and non-tradable token, is called [Karma](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-questions). Karma can be thought of as a token, but it's closer to your reputation. Karma points are gained by users when they create cyberlinks.
 
@@ -170,7 +170,7 @@ CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
 - Other public allocation: 80% of CYB
 * These groups get THC tokens and can [vest them](https://cyber.page/gol/faucet/vest) to receive CYB
 
-THC tokens breakdown (governance tokens), total supply: 700,000,000,000:
+THC tokens breakdown (governance tokens), total supply: 750,000,000,000:
 - 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
 - 85.7% Public allocation
 
@@ -249,7 +249,7 @@ You need to set up a node. The best place to start is [here](https://github.com/
 #### What are the distribution games?
 The [distribution games](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games-in-detail) is our achieving the best possible initial allocation, testing the network and creating a decentralized launch. 
 
-There are 3 parts to this process. The [Game of Links](https://cyber.page/gol) for initial believers. The [Game of Thrones](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got) for speculators and [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) for making sure cyber\~Foundation can be an independent entity.  
+There are 2 parts to this process. The [Game of Links](https://cyber.page/gol) for initial believers and validators and [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) for making sure cyber\~Foundation can be an independent entity.  
 
 #### What are EUL and GOL tokens?
 EUL is the test name of CYB. And GOL is the test name of THC. Both are the testing versions of our mainnet tokens.
