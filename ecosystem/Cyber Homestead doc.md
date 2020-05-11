@@ -4008,11 +4008,11 @@ CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
 - Other public allocation: 80% of CYB
 * These groups get THC tokens and can vest them to recieve CYB
 
-THC tokens breakdown (governance tokens), total supply: 700,000,000,000:
+THC tokens breakdown (governance tokens), total supply: 750,000,000,000:
 - 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
 - 85.7% Public allocation
 
-ATOM breakdown (At max 200,000) (100% to cyber~Congress DAO, minus):
+ATOM breakdown (At max 300,000) (100% to cyber~Congress DAO, minus):
 10%: Fee to those who help to bring in donations
 2%: Team bonus
 
