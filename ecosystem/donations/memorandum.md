@@ -18,7 +18,7 @@ The business model is a web of dynamic properties, each affecting another, resem
 
 We are a team of enthusiasts, developers and believers in a better future. cyber~Congress is an Aragon based DAO, that currently consists of 7 people. We have experience in blockchain (launching Cyber Fund, Golos, Satoshi Fund and other numerous projects) since, nearly, its inception.  At peak level, numerous of our projects had returns higher than BTC.
 
-Over the last 40 months, we had spent \~3200 ETH. This money is primarily self-funding and the result of the initial Winter Round. Currently, the cyber~Congress DAO is looking to attract 200,000 ATOM. 
+Over the last 40 months, we had spent \~3200 ETH. This money is primarily self-funding and the result of the initial Winter Round. Currently, the cyber~Congress DAO is looking to attract 300,000 ATOM. 
 
 Cyber as a protocol that should and will be owned by its shareholders. It will be governed by its shareholders. Cyber will not provide KYC, AML and \ or other similar checks to its donors.
 
