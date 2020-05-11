@@ -2034,7 +2034,7 @@ The distribution games are a way of improving the distribution of tokens to a hi
 **Q:** What is cyber~Auction?<br>
 **A:** cyber\~Auction is part of the initial distribution games. The goal of cyber\~Auction is to focus on all types of users. It will take place after the end of the previous games.
 
-The auction will last for 888 rounds that last for 23 hours each (a little over 851 days). Every round has an equal amount of THC at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
+The auction will last for 888 rounds that last for 24 hours each. Every round has an equal amount of THC at skate. The more you donate and the less has been donated by others on that same day the more you can gain. After the end of the distribution, participants will be able to unlock their THC tokens and use them as they wish, e.i. transfer, trade, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization.
 
 One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction - you receive 1 CYB token for each locked THC token for the duration of the auction!
 
@@ -3925,7 +3925,7 @@ Those are the amounts allocated (up - as some depend on the parametrs above)) to
 - euler-4 rewards: 5,000,000,000,000 CYB
 - Community pool: 2,000,000,000,000 CYB (if used)
 
-**Note:** After the initial end of GoL (146 days since the start of funding or after 200k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
+**Note:** After the initial end of GoL (146 days since the start of funding or after 300k ATOM has been donated), a 21-day final will occur. Of course, the final won't begin straight after the end of the donations, but rather after all the calculations have been done. For the final 100 TEUL will be distributed to the participants of the takeoff donation round in proportion to how much each person donated. This will allow for the participants of the takeoff round to increase their stakes and take part in playing GoL. Of course, the EUL tokens, in this case, are testnet tokens and will be provably burned before the launch of the mainnet. However, participants can participate in any discipline for an additional 21 day period and win CYB tokens. 
 
 To read on about how to participate in GoL, where to obtain initial tokens for it and other information, please view the full post in [our blog](https://cybercongress.ai/game-of-links/). 
 
@@ -3953,7 +3953,7 @@ We can summarize that there are 4 rounds. Their purpose is to charge 2 DAOs with
 
 - Self-funding: The project has been self-funded over a few years with a sum closing to ~3200 ETH summed up with the winter round (not including 2020)
 - Public winter round for friends: Was a semi-public seed donator round. Information [is here](https://github.com/cybercongress/congress/blob/26a33ce5ed92204f67c79dd8036690019bcf3f89/friends/winter.md). Sumed up with self-funding, the total donated sum was ~3200 ETH (not including 2020)
-- Takeoff round: The takeoff donation round is a round where up to 200k ATOM is donated to the cyber~Congress DAO. This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302)
+- Takeoff round: The takeoff donation round is a round where up to 300k ATOM is donated to the cyber~Congress DAO. This sum is used by the DAO to support its initial ideas and the protocol via reaching [a sustainable flow of income](https://github.com/cybercongress/congress/issues/302)
 - Auction round: Lasts for 888 days. ETH is donated to the cyber\~Foundation DAO, which is a community governed DAO, via auction proceeds in exchange for THC (governance tokens). During the auction, THC tokens can be vested and locked to receive CYB tokens on 1-1 basis for each locked THC token for the period of the auction 
 
 In the end, there will be 2 separate entities (both are Aragon DAOs). The main governing entity: cyber\~Foundation in charge of the ETH donated during the auction. And cyber\~Congress, the launching DAO that will carry on working on the protocol, in accordance to the governance proposals and will remain as one of the entities that commits to the protocol over its remaining lifetime.
@@ -5422,16 +5422,16 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - cyber Admin: A Telegram bot used in the fuckgoogle channel
 - cyber Node: Nodes held by the congress DAO 
 - cyber.page: The gateway application for cyber which showcases the ability of the protocol
-- cyber~Auction: The auction is part of the distribution games of cyber in which users donate to cyber~Foundtion during a very long auction
-- cyber~Congress: The DAO that is launching cyber
-- cyber~Ecosytem: Referring to the part of cyber that is working with the community
-- cyber~Foundation: The DAO that will govern cyber
-- cyber~FundClassic: The investment fund that will look for projects wanting to build on cyber and help them
-- cyber~Metagalaxy: The name of all the parts of cyber together
-- cyber~Rank: The ranking mechanism of cyber
-- cyb~Snap The metamask based extension that can be used to link, like a wallet, etc
-- cyb~Virus: An outdated extension that was used to download pages into IPFS and create links
-- cyber~Wednsday: The name of cybers dev logs
+- cyber\~Auction: The auction is part of the distribution games of cyber in which users donate ETH to cyber\~Foundation during a very long auction
+- cyber\~Congress: The DAO that is launching cyber
+- cyber\~Ecosytem: Referring to the part of cyber that is working with the community
+- cyber\~Foundation: The DAO that will govern cyber
+- cyber\~FundClassic: The investment fund that will look for projects wanting to build on cyber and help them
+- cyber\~Metagalaxy: The name of all the parts of cyber together
+- cyber\~Rank: The ranking mechanism of cyber
+- cyb\~Snap The metamask based extension that can be used to link, like a wallet, etc
+- cyb\~Virus: An outdated extension that was used to download pages into IPFS and create links
+- cyber\~Wednsday: The name of cybers dev logs (abandoned)
 - cyberd: The name of cybers main repository. The protocol engine itself
 - cyberindex: Cybers database that parses (indexes) the chain in realtime
 - cyberlink: Hyperlink v. 2.0. A link between two CIDs enriched semantically
@@ -5448,7 +5448,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - Dev Log: Cybers bi-weekly Congress report
 - Discipline: A type of game in the Game of Links. I.E. amount of links submitted (in sports referring to a sport discipline, i.e. running)
 - Distribution: The process of placing tokens into the hands of the donators, inventors, participants of the game and other users
-- Distribution Games: Game of Links, Game of Thornes and cyber~Auction. All of which are in place to fulfil a certain role, but primarily to achieve a better starting distribution of the tokens
+- Distribution Games: Game of Links and cyber~Auction. They fulfil a certain role, but primarily are in place to achieve a better starting distribution of the tokens
 - DNS: Domain Name System. A web2 system where domain names are registered to a certain user
 - Donations: The process where a user sends ATOM or ETH to cyber~Congress or Foundation 
 - dot~Cyber: The developer's name of cyber.page
@@ -5471,7 +5471,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - fuckgoogle: The motto of cyber. Also a nickname for certain devices used by cyber~Congress
 - Galt Space: A blockchain project for creating a unified distributed registry for housing
 - Game of Links (GoL): The first stage of the distribution games where participants play against cyber~Congress to acquire as many tokens as possible 
-- Game of Thrones (GoT): Was meant to be the second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress
+- Game of Thrones (GoT): Was meant to be the second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress (abandoned)
 - Genesis block: The first block of a blockchain
 - Genesis ceremony: A ceremony in which validators pre-commit signatures to a special file, that is then added to the genesis block, so that they can participate from scratch in validating cyber
 - GCYB: Giga CYB or 1,000,000,000 CYB
