@@ -131,7 +131,6 @@ This section contains the basic things you will need for your cyber journey. Fin
   * [General questions](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#general-questions)
   * [The distribution games in detail](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-distribution-games-in-detail)
     * [Game of Links or GoL](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol)
-    * [Game of Thrones or GoT](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-thrones-or-got)
     * [cyber~Auction or auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction)
   * [Understanding what goes where](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#understanding-what-goes-where)
     * [Donation rounds](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#donation-rounds)
@@ -2021,8 +2020,8 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2020, end of spring: Launch of public donation round
 - 2020, 146 days or 300k ATOM after the previous event: End of Game of Links
 - 2020, straight after the previos event: GoL final
-- 2020, (presumably) summer: Launch of the mainnet 
-- 2020 - 2021, after Game of Thrones: cyber~Auction, which lasts for 888 rounds
+- 2020, (presumably) Q4: Launch of the mainnet 
+- 2020 - 2021: cyber~Auction, which lasts for 888 rounds
 
 If you are interested in the development roadmap, please see the [projects roadmap](https://github.com/orgs/cybercongress/projects/2). It is broken into episodes. Each episode contains the main current tasks. Each task may contain multiple intenral tasks, which in turn live in their own repositories. Episodes do not have a specified timeline.
 
@@ -4022,11 +4021,10 @@ ATOM breakdown (At max 200,000) (100% to cyber~Congress DAO, minus):
 
 ### EUL and GOL
 
-Please note, that all of the games will be tested during the testnets with EUL and GOL tokens, which are the equivelant of CYB and THC in the mainnet. The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GOL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game - if vested. Non-vested GOL tokens do not have any value at all. GOL tokens serve (1) as a means to provide incentivized testing of Ethereum contracts, and (2) as a spam protection mechanism for the faucet. DO NOT spend a significant amount of funds buying GOL during Test of Thrones & test~Auction and/or EUL over the counter. GOL tokens will be burned after the euler-5 testnet is over. All accounts in the euler experimental networks series will be reseted. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber ~Congress. 
+Please note, that all of the games will be tested during the testnets with EUL and GOL tokens, which are the equivelant of CYB and THC in the mainnet. The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GOL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game - if vested. Non-vested GOL tokens do not have any value at all. GOL tokens serve (1) as a means to provide incentivized testing of Ethereum contracts, and (2) as a spam protection mechanism for the faucet. DO NOT spend a significant amount of funds buying GOL during test~Auction and/or EUL over the counter. GOL tokens will be burned after the euler-5 testnet is over. All accounts in the euler experimental networks series will be reseted. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber ~Congress. 
 
 | During euler-5 testnet |	During cyber mainnet |
 |----------|------|
-| Test of Thrones  | 	Game of Thrones | 
 | test~Auction  | 	cyber~Auction | 
 | GOL token  | 	THC token | 
 | EUL token  | 	CYB token | 
@@ -4201,7 +4199,7 @@ Behind the scenes, the magic happens using Aragon and euler~Foundation:
 #### OBEP
 OBEP stands for Open Bootstrap Evangelism program. This is the initial evangelism program for cyber to help during the kickoff and the takeoff donation round. Evangelists who get blessed during this period, have a very powerful reputation boost in the future of cyber. Their religious karma can become so powerful, they might become gods themselves. You never know.
 
-Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during the Game of Links and Game of Thrones and more perks, such as:
+Acknowledged Evangelists will be eligible to 10% of all donations in ATOMs, which they have generated during the Game of Links and more perks, such as:
 
 - Rewards in ATOM
 - CYB tokens for specific actions
@@ -5473,7 +5471,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - fuckgoogle: The motto of cyber. Also a nickname for certain devices used by cyber~Congress
 - Galt Space: A blockchain project for creating a unified distributed registry for housing
 - Game of Links (GoL): The first stage of the distribution games where participants play against cyber~Congress to acquire as many tokens as possible 
-- Game of Thornes (GoT): The second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress. Also window 0 of the Auction
+- Game of Thrones (GoT): Was meant to be the second part of the distribution games in which ETH and Cosmos communities battle it out for the biggest discount to take away tokens from cyber~Congress
 - Genesis block: The first block of a blockchain
 - Genesis ceremony: A ceremony in which validators pre-commit signatures to a special file, that is then added to the genesis block, so that they can participate from scratch in validating cyber
 - GCYB: Giga CYB or 1,000,000,000 CYB
@@ -5591,7 +5589,7 @@ Cyber contains a hell of a lot of lingvo. I will try to collect all of it in one
 - TCYB: Tera CYB = 1,000,000,000,000
 - Tendermint: A consensus engine used by cyber
 - Test Auction: The testing part of cybe~Auction, primarily used as a faucet
-- Test of Thrones (ToT): The testing part of Game of Thrones
+- Test of Thrones (ToT): The testing part of Game of Thrones (abandoned)
 - THC: The mainnet governance token
 - The Game: A name for the Game of Links
 - The Great Web: Our name for web3
