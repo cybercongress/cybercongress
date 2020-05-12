@@ -139,24 +139,36 @@ Moreover, there are 4 disciplines depends on the number of donated ATOMs. If 300
 
 ![disc_distr](disc_distr.png)
 
+The cyber\~Congress allocation can be presented the next way:
+
+| Group | Amount CYB | %, of mainnet supply |
+| --- | ---: | ---: |
+| Congress multisig | 60,000,000,000,000 | 6% |
+| Early donors | 40,000,000,000,000 | 4% |
+| Cyber\~Foundation classic | 30,000,000,000,000 | 3% |
+| Inventors | 20,000,000,000,000 | 2% |
+
 Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
 
 The following criteria are applied for the allocation of Game of Links:
 
 ![game-of-links-distribution](GOL_distribution.png)
 
-| Group | Amount CYB |
-| --- | ---: |
-| takeoff donations | 100,000,000,000,000 |
+| Group | Amount CYB | %, of mainnet supply |
+| --- | ---: | ---: |
+| takeoff donations | 100,000,000,000,000 | 10% |
 |*disciplines depends on takeoff*| up to |
-| relevance | 20,000,000,000,000 |
-| load | 10,000,000,000,000 |
-| delegation | 5,000,000,000,000 |
-| lifetime | 3,000,000,000,000 |
+| relevance | 20,000,000,000,000 | 2% |
+| load | 10,000,000,000,000 | 1% |
+| delegation | 5,000,000,000,000 | 0.5% |
+| lifetime | 3,000,000,000,000 | 0.3% |
 |*disciplines independs on takeoff*||
-| full validator set | 5,000,000,000,000 |
-| `euler-4` rewards | 5,000,000,000,000 |
-| community pool | 2,000,000,000,000 |
+| full validator set | 5,000,000,000,000 | 0.5% |
+| `euler-4` rewards | 5,000,000,000,000 | 0.5% |
+| community pool | 2,000,000,000,000 | 0.2% |
+
+In case of discipline do not played out or played incomplete the rest tokens will be allocated to cyber\~Congress multisig.
+
 
 ## Types of disciplines
 
