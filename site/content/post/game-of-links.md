@@ -7,10 +7,6 @@ author: savetheales
 
 **Rules, Provision, Description and Participation**
 
-***TODO***
-
-New disclaimer
-
 *Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants. 
 
 On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
@@ -189,7 +185,7 @@ There are up to 20 TCYBs allocated for the top 1000 CIDs and the top 10 agents t
 
 CYB tokens will be distributed to the top 1000 CID proportionally to their ranks.
 
-In case 300,000 ATOMs are donated the ratio of rank CID in top 1000 and the sum of all ranks at top 1000 CIDs multiplied by max CYBs allocated for relevance discipline.
+In the case that 300,000 ATOMs are donated, rank ratios of the top 1000 CIDs and the sum of all of their ranks, are multiplied by max CYBs allocated for the relevance discipline.
 
 Then these rewards will be distributed between the 10 Masters in order of submitting links in accordance to the [power law](https://en.wikipedia.org/wiki/Power_law):
 
@@ -222,7 +218,7 @@ A users bandwidth depends on their stake:
 
 The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
-Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way: the ratio of bandwidth spent by the user for cyberlinking and the sum of all spent bandwidth for cyberlinking multiplied by max CYBs allocated for bandwidth discipline.
+Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way: the ratio of bandwidth spent by the user for cyberlinking and the sum of all spent bandwidth for cyberlinking multiplied by the max CYBs allocated for the load discipline.
 
 ## Lifetime summary of every validator
 
