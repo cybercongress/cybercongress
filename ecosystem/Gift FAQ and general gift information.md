@@ -3,29 +3,35 @@ Cyber has gifted 3 communities as per the commitment to do so in our
 
 Those are the Ethereum, Cosmos and Urbit communities. 
 
-The purpose of those gifts is to help the network gain traction in the beginning and to increase the initial participation. 
+The purpose of those gifts is to help the network gain traction in the beginning and to increase the initial participation of the [Game of Links](https://cybercongress.ai/playing-gol/).
+
 This will help to increase cooperation and give more participants the ability to engage in the protocol. We chose these specific communities because they are the best communities, in our opinion, to help to form the knowledge graph and to reach the masses.
 
-As a result, Cyber will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space. Similary, those communities will gain traction from joining forces with Cyber - the builder of the Great Web!
+As a result, Cyber will gain a massive benefit via the economic integration of the largest developers, the most innovative and of the most promising communities withing the open-source space. Similarly, those communities will gain traction from joining forces with Cyber, the builders of the Great Web!
 
 Please find a list of the most relevant questions and information about the gifts:
 
 ### What token did you gift?
-We have gifted CYB, the main ecosystem utility token needed to use the protocol.
+We have gifted CYB, the main ecosystem utility token needed to use the protocol. Please note, that Cyber has not reached its mainnet status yet, hence you will be gifted EUL, the testnet equivalent of CYB.
 
 ### How much did you gift?
-We have gifted 10% of the total supply, broken down as per the following:
+We have gifted 10% of the total supply of CYB:
+
 - Ethereum: 8%
 - Cosmos: 1%
 - Urbit: 1%
+
+This is 100,000,000,000,000 CYB tokens. 
 
 ### Who received the gift?
 - ETH hodlers with at least 1 outgoing transaction (non-contract addresses only). And a balance bigger than 0.2 ETH at block 
 8080808 
 - ATOM hodlers within Cosmos hub-2 at block 1110000 which held any balance bigger than 0
-- URBIT aliens that had planets, stars or galaxies on the 18.12.2019 (with at least one outgoint tx on the corresponding ETH address) 
+- URBIT aliens that had planets, stars or galaxies on the 18.12.2019 (with at least one outgoing tx on the corresponding ETH address) 
 
 Please note that ATOM and ETH gifts were distributed proportionally to the square root of each account balance during the snapshots.
+
+Please also note that we may change the block numbers that are eligible to receive the gift without notice.
 
 ### How many addresses received gifts?
 - Ethereum: 998015 addresses (yes... that's almost 1 million)
@@ -40,19 +46,19 @@ There are at least 3 ways to do so:
 - The easiest and the quickest: go to [cyber.page](https://cyber.page/gift/) and just enter your ETH or ATOM address in the
 search bar. This will result in a EUL (testnet token) balance if you met the requirements for the gift
 - You may connect your ledger device on [cyber.page](https://cyber.page/pocket) to check out the ATOM gift balance. Simply
-connect your ledger and follow the steps
+connect your ledger and follow the steps (this will also end up in a claim)
 - You may use gift tools from the [launch-kit](https://github.com/cybercongress/launch-kit) to check your gift balance (this 
 requires some technical skills)
 
 ### How do I check my balance if my tokens are on a Ledger?
-Simply export your ETH / ATOM account address and use one of the options above
+If you had ATOM, then simply follow the steps above. If ETH, then you will have to follow [this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift).
 
 ### How do I claim my gift?
 You do not need to. If you were lucky enough to receive a gift, they are yours already! Cyber addresses can be generated from a Cosmos seed or an ETH private key. This means that if you received a gift, just create an address and it will already have a balance! 
 
 ### How to create a cyber address?
 There are several ways to do this: 
-1) Use your Ledger device with [cyber.page](https://cyber.page/#/pocket)(for ATOM only) 
+1) Use your Ledger device with [cyber.page](https://cyber.page/pocket)(for ATOM only) 
 2) [Install cyberd-CLI, import and ETH key and create an address](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
 3) You may wait until we create a wallet on [cyber.page](https://cyber.page), it will then become possible to create an address from there
 
@@ -60,8 +66,7 @@ There are several ways to do this:
 Simply put - no. You don't need to worry about this as long as cyber is alive and you have the keys to claim the gift.
 
 ### So, I've received a gift. What can I do with it now? 
-Start playing [The Game](https://cybercongress.ai/game-of-links/)! By playing you can receive more tokens! The Game of Links
-is a game with a lot of technical disciplines and incentives. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators.
+Start playing [The Game of Links](https://cybercongress.ai/playing-gol/)! By playing you can receive more tokens! The Game of Links is a game with a lot of technical disciplines and incentives. The main goal of the participants is to win, as many tokens as possible, from cyber~Congress and its seed donators.
 
 Follow [this guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-gol) to learn how to play!
 
@@ -87,7 +92,9 @@ FYI GOL is the test name for THC (the governance token).
 hence due to change of supply and due to the results of the Game of Links, balances may and will change. Of course, proportions to total supply are kept between the networks. 
 
 ### I know that you have two tokens. Can I get the second one?
-There are no gifts for THC (the governance token) planned for now. You can wait until the start of [cyber~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) and participate to receive THC.
+There are no gifts for THC (the governance token) planned for now. You can wait until the start of [cyber~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) and participate to receive THC. 
+
+If you are eager to test the auction, you are welcome to test the [test\~Auction](https://cyber.page/gol/faucet).
 
 ### How do I know my ETH / ATOM / URBIT keys are safe?
 Your keys are stored locally with you. We do not ask for your keys. If you did not enter them anywhere, we do not know them. 
@@ -97,9 +104,9 @@ It is a good practice to transfer any balance you have out of an address after y
 a git using my ETH address and had a balance on that address. It might be a good idea to move that balance out to a new address for extra security.
 
 ### Are there any other way to get EUL tokens?
-We will create faucets soon. You may also use Kira's [TG bot](https://t.me/fuckgoogle).
+Yes! You can either use our faucet or Uniswap. Please [follow this guide](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)!
 
 ### Why do I need to take the gift?
-First of all - you are not obliged to anything. But if you understand the purpose of cyber, then the more tokens you will have,the more options open up to you in regards to search, building the knowledge graph and creating the new Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of. Please find more info on the project 
+First of all, you are not obliged to do anything. But if you understand the purpose of cyber, then the more tokens you will have, the more options open up to you in regards to search, building the knowledge graph and creating the Great Web. Cyber is a decentralized google, for provable and relevant answers that you can be a part of. Please find more info on the project 
 [here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md).
 
