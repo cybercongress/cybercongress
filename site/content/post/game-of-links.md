@@ -7,6 +7,10 @@ author: savetheales
 
 **Rules, Provision, Description and Participation**
 
+***TODO***
+
+New disclaimer
+
 *Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants. 
 
 On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
@@ -58,7 +62,7 @@ The distribution for `euler-5` in the Genesis file was the following (distributi
 | Euler-4 validators | 15,000,000,000,000 |
 | GOL stakers | 15,000,000,000,000 |
 | Community pool | 2,000,000,000,000 |
-| Test of Thrones in ATOMs | 1,000,000,000,000 |
+| Test of Thrones in ATOMs (abandoned) | 1,000,000,000,000 |
 
 The total Genesis supply is 233,000,000,000,000 EULs or 233 TEULs.
 
@@ -145,12 +149,12 @@ The following criteria are applied for the allocation of Game of Links:
 
 | Group | Amount CYB |
 | --- | ---: |
-| takeoff donations | 60,000,000,000,000 |
+| takeoff donations | 100,000,000,000,000 |
 |*disciplines depends on takeoff*| up to |
-| relevance | 15,000,000,000,000 |
-| load | 6,000,000,000,000 |
+| relevance | 20,000,000,000,000 |
+| load | 10,000,000,000,000 |
 | delegation | 5,000,000,000,000 |
-| lifetime | 2,000,000,000,000 |
+| lifetime | 3,000,000,000,000 |
 |*disciplines independs on takeoff*||
 | full validator set | 5,000,000,000,000 |
 | `euler-4` rewards | 5,000,000,000,000 |
@@ -181,13 +185,11 @@ This is the most difficult discipline of the Game. Users may link everything tha
 
 Each CID has a rank with a certain weight (depending on the dynamic parameters outlined in the whitepaper). In the end, those ranks get ranged according to their weight. The higher the better.
 
-There are up to 15 TCYBs allocated for the top 1000 CIDs and the top 10 agents that linked those CIDs.
+There are up to 20 TCYBs allocated for the top 1000 CIDs and the top 10 agents that linked those CIDs.
 
 CYB tokens will be distributed to the top 1000 CID proportionally to their ranks.
 
-In case 300,000 ATOMs are donated:
-
-<p align="center"><img src="d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
+In case 300,000 ATOMs are donated the ratio of rank CID in top 1000 and the sum of all ranks at top 1000 CIDs multiplied by max CYBs allocated for relevance discipline.
 
 Then these rewards will be distributed between the 10 Masters in order of submitting links in accordance to the [power law](https://en.wikipedia.org/wiki/Power_law):
 
@@ -220,9 +222,7 @@ A users bandwidth depends on their stake:
 
 The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
-Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way:
-
-<p align="center"><img src="910d658efae8563e12e83ff4a59308c9.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3375745pt height=37.0084374pt/></p>
+Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way: the ratio of bandwidth spent by the user for cyberlinking and the sum of all spent bandwidth for cyberlinking multiplied by max CYBs allocated for bandwidth discipline.
 
 ## Lifetime summary of every validator
 
@@ -230,18 +230,7 @@ The easiest discipline. You just need to set up your validator node and monitor 
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
-The following formula calculates each validator reward in block *n* if the was a precommit, and if 300,000 ATOMs have been donated:
-
-<p align="center"><img src="9ca49a45d418b1ea785b2c8eb3507700.svg?invert_in_darkmode&sanitize=true" align=middle width=174.21748245pt height=41.352743849999996pt/></p>
-
-The *r* is a reward for validator at block *n*, the <img src="6b7ea75590426a183657d8b608970b83.svg?invert_in_darkmode&sanitize=true" align=middle width=62.17247684999999pt height=22.831056599999986pt/> is the latest block of the Game, and *V* is the number of validators on block *n*.
-
-We need to divide the allocated supply by the sum of the blocks during the period of the Game and by the sum of the pre-commits of the current block.
-
-For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 300,000 ATOMs have been donated on the takeoff, you will get:
-<p align="center"><img src="3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
-
-in the Genesis file of `cyber` network.
+The rewards calculate as the ratio of validator's precommits and the sum of all precommits multiplied by max CYBs allocated for lifetime discipline.
 
 ## Amount of delegated to each validator
 
