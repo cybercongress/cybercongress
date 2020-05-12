@@ -69,8 +69,7 @@ The distribution of test GoL tokens will be the following:
 | Group | Amount of GOL |
 | --- | ---: |
 | cyber\~Congress | 8,000,000,000,000 |
-| test\~Auction | 6,000,000,000,000 |
-| Test of Thrones in ETH | 1,000,000,000,000 |
+| test\~Auction | 7,000,000,000,000 |
 
 The total supply of test GoL tokens for the game is 15 TEUL.
 
@@ -107,13 +106,12 @@ The EUL tokens have little value (in regards to price value). Their main purpose
 
 GoL tokens serve (1) as a means to provide incentivized testing of the Ethereum contracts, and (2) as a spam protection mechanism for the faucet. 
 
-DO NOT spend a significant amount of funds buying GoL during Test of Thrones & test~Auction and/or EUL over the counter. GoL tokens will be burned after the `euler` testnets are over. All accounts in the `euler` experimental networks series will be reset. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber\~Congress.
+DO NOT spend a significant amount of funds buying GoL during test~Auction and/or EUL over the counter. GoL tokens will be burned after the `euler` testnets are over. All accounts in the `euler` experimental networks series will be reset. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber\~Congress.
 
 To remove any confusion, here is a comparison table of the different naming during the test and the mainnet:
 
 | During `euler` testnets | During `cyber` mainnet |
 | --- | --- |
-| Test of Thrones | Game of Thrones |
 | test\~Auction | cyber\~Auction |
 | GOL token | THC token |
 | EUL token | CYB token |
@@ -123,9 +121,7 @@ These measures will help to reduce the risks associated with the use of Aragon c
 
 ## Faucets
 
-For the duration of the Game of Links, the Test of Thrones and the test\~Auction we will release faucets. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 1 TEUL and 1 TGOL to the Cosmos and Ethereum communities, respectively, for the Test of Thrones and 6 TGOL for the test\~Auction. Test of Thrones is the zero round of the test\~Auction. During this period Cosmonauts and Etherians can donate their native tokens. After that EULs and GOLs will be distributed. 
-
-After this, there will still be a possibility to donate only in ETH and claim GOL tokens daily until the end of the test\~Auction.
+For the duration of the Game of Links, the test\~Auction we will release faucet. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 7 TGOL for the test\~Auction. During this period Etherians can donate their native tokens. After that EULs and GOLs will be distributed. 
 
 ## Takeoff donations and disciplines incentives
 
