@@ -81,7 +81,7 @@ You may join the Game as a:
 
 - Hero (validator). [Set up](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md) your own node and start validating
 - Master (user). The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the [help](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) of a [cyber.page](https://cyber.page/) and a Ledger or with the use of [CLI](https://github.com/cybercongress/cyberd)
-- [Evangelist](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/obep.md). Attract other players, donators and become a project ambassador
+- [Evangelist](https://cyber.page/evangelism). Attract other players, donators and become a project ambassador
 - Developer. Create cool things and claim your rewards via spend proposals from the community pool
 
 How to get the tokens and which tools to use?
@@ -131,7 +131,7 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, proportionally per donated ATOMs and the donation order in the Game of Links. 
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, for the 21-day final of the Game, proportionally per donated ATOMs and the donation order in the Game of Links. 
 
 100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. This sum is allocated to the [Game of Links final](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol).
 
