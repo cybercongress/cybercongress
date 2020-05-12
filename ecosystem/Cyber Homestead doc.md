@@ -3815,7 +3815,7 @@ We have 2 tokens. CYB and THC (pronounced as TECH). CYB is the native token of t
 
 <details>
   <summary>What is Karma </summary>
-You can think of Karma as of your useful reputation. Karma is calculated from your contribution to the knowldge grapph (submitted cyberlinks). Its non-transfarbale and you cannot trade it. However you can, of course, sell your private key with a vertain amoutn of Karma in it. But would you sell your soul?
+You can think of Karma as of your useful reputation. Karma is calculated from your contribution to the knowldge graph (submitted cyberlinks). Its non-transfarbale and you cannot trade it. However you can, of course, sell your private key with a vertain amoutn of Karma in it. But would you sell your soul?
 </details>
 
 <details>
