@@ -304,7 +304,7 @@ Do it. Cyber it.
 1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
 2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/go-cyber)
 3. [Aragon claim app](https://github.com/cybercongress/aragon-claim-app)
-4. [Cyber web app](https://cyber.page/#/)
+4. [Cyber web app](https://cyber.page/gol)
 5. [Launch kit repo](https://github.com/cybercongress/launch-kit)
 6. [Power law on wikipedia](https://en.wikipedia.org/wiki/Power_law)
 7. [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant)
