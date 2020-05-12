@@ -1216,7 +1216,7 @@ As you can see there are 4 buttons, those are 3 disciplines and the `Takeoff` bu
 - Explanation: The gist is simple, the higher the rank of the content submitted, the better
 - Dependant on donation takeoff round: Yes
 - Explanation: The more ATOM tokens are donated during takeoff, the higher the reward pot for this discipline is 
-- Reward: up to 15 TCYB for the top 1000 CIDs and the top 10 masters that linked those CIDs
+- Reward: up to 20 TCYB for the top 1000 CIDs and the top 10 masters that linked those CIDs
 - Explanations: Submit content that is relevant to everyone, link it, the higher the relevance of your content to others, the better
 - How to play: You already know how to link. Read about it [here one more time](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link). Second, make sure you show some love to your links. Link them with more weight. Become a whale yourself or get whales to be interested in what you do. How you achieve this, is up to you. *Hint*, watch out for the top CIDs on this page at any point. Be the first to follow that strategy and relink them. In other words, think of this as following a traders strategy. Just like when you follow your favourite traders' decisions, however, if too many people get ahead of you, the market reacts and the decision will probably lose relevance.
 
@@ -1228,7 +1228,7 @@ Ok, let's move to the next one, `Load`:
 - Explanation: Spend as much bandwidth as you can on submitting links
 - Dependent on donation takeoff round: Yes
 - Explanation: The more ATOM tokens are donated during takeoff, the higher the reward pot for this discipline is 
-- Reward: Up to 6 TCYB for those who spend bandwidth on submitting links for the period of GoL
+- Reward: Up to 10 TCYB for those who spend bandwidth on submitting links for the period of GoL
 - Explanation: The bandwidth is dynamic. This means that if the network load is low, you can end up spending on 1000 links as much as you would spend on 10 if it wasn't low. This means that it is good if more people are submitting links and doing it all the time
 - How to play: The bandwidth spent on linking is called `Karma`, I suggest you remember this term, it will be used heavily throughout the protocol. So the more Karma you have, the better. Think of this is useful reputation based on your actions, rather than words. How to win? Submit a lot of links. The more you link, the better the chance of winning
 
@@ -3877,7 +3877,7 @@ The inflation in cyberd is defined by validators.
 ### The distribution games in detail
 We have already mentioned the distribution games briefly. Their purpose is to increase traction and improve distribution. 
 
-There is a total of 2 games:
+There are 2 games in total:
 
 - [Game of Links](https://cybercongress.ai/game-of-links/): Is currently happening. Lasts till the end of the first donation round, with a 21 day final after. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators
 - cyber\~Auction: Will start after the mainnet is lauched. It is an auction that lasts for 888 rounds. Its purpose is to fill cyber\~Foundation with ETH
@@ -3900,11 +3900,11 @@ Independent of takeoff donations (meaning that it does not matter how many ATOM 
 - Community pool (experiment and participate in governance)
 - euler-4 validator rewards (rewards distributed to validators for the last testnet. Essentially, this means that you cannot participate in this discipline anymore. This is mentioned for transparency)
 
-The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. Following the re-lauch of the takeoff, cyber\~Congress will only be allocated a max of 4% CYB.
+The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber~Congress. Following the re-launch of the takeoff, cyber\~Congress will only be allocated a max of 6% CYB.
 
 The development of the project has been done thanks to donations from 10 people. ~ 3200 ETH has been spent during the last 3 years of development. For those donations, 4% of CYB tokens are allocated to them via the means of THC tokens from cyber~Congress.
 
-<img src="https://i.postimg.cc/wBBxVsn2/takeoff-allocation.png" />
+NEW TAKEOFF ALLOCATION IMAGE HERE
 
 The above chart describes perfectly the allocation of 5 groups: 
 
@@ -3916,12 +3916,12 @@ The above chart describes perfectly the allocation of 5 groups:
 
 Those are the amounts allocated (up - as some depend on the parametrs above)) to each descipline in CYB tokens: 
 
-- Takeoff donors: Up to 60,000,000,000,000 CYB
-- Relevance of links: Up to 15,000,000,000,000 CYB
-- Bandwidth load: Up to 6,000,000,000,000 CYB
+- Takeoff donors: Up to 100,000,000,000,000 CYB
+- Relevance of links: Up to 20,000,000,000,000 CYB
+- Bandwidth load: Up to 10,000,000,000,000 CYB
 - Delegations to validators: Up to 5,000,000,000,000 CYB
-- Lifetime of validators: Up to 2,000,000,000,000 CYB
-- Full validator set: Up to    5,000,000,000,000 CYB (dynamic)
+- Lifetime of validators: Up to 3,000,000,000,000 CYB
+- Full validator set: Up to 5,000,000,000,000 CYB (dynamic)
 - euler-4 rewards: 5,000,000,000,000 CYB
 - Community pool: 2,000,000,000,000 CYB (if used)
 
@@ -3936,7 +3936,7 @@ Every round has an equal amoutn of THC at skate. The more you donate and the les
 
 One more mega important part of the auction to remember, are the creative powers of THC. If you vest your THC tokens for the period of the auction, you will receive 1 CYB token for each locked THC token for the duration of the auction!
 
-6 TGOL have been allocated for the test~Auction. There will be a mock period of 60 days, during which community can donate in ETH and claim GOL tokens on a daily basis.  
+6 TGOL have been allocated for the test\~Auction. There will be a mock period of 60 days, during which community can donate in ETH and claim GOL tokens on a daily basis.  
 
 ### Understanding what goes where
 The economics of cyber can be confusing at first sight. It isn't. Let's try to go over what pot goes where, why and to whom.
@@ -3989,7 +3989,7 @@ cyber has dropped 10% of its supply to 3 communities:
 The purpose of the gift is to get initial traction, attract the best communities, test interest, achieve a better distribution. There were over 1 million addresses that were eligible to receive the gift (more below).
 
 #### The tokens and their utility
-Meaning that there are 2 utility tokens in the economy (+1 bonus points token):
+Meaning that there are 2 utility tokens in the economy (+1 reputation token):
 
 - CYB: The main token. Needed to create cyberlinks, transact, build the knowledge graph, etc
 - THC: The governance token. Needed to make proposals. Can be locked for the auction and swapped at 1-1 basis
@@ -4001,16 +4001,17 @@ This leaves us with a clearer picture of which funds and donations go where. The
 First thing first, lets creare a simple breakdown:
 
 CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
-- cyber~Congress*: 4% of CYB 
+- cyber~Congress*: 6% of CYB
+- cyber\~FundClassic: 3% of CYB
 - Seed donors*: 4% of CYB
 - Inventors of the protocol*: 2% of CYB
 - Gift allocated to over 1 million addresses: 10% of CYB
-- Other public allocation: 80% of CYB
+- Other public allocation: 75% of CYB
 * These groups get THC tokens and can vest them to recieve CYB
 
 THC tokens breakdown (governance tokens), total supply: 750,000,000,000:
-- 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
-- 85.7% Public allocation
+- 20% cyber~Congress team + inventors + seed donors + development fund (which IF vested gain the max. above CYB allocation)
+- 80% Public allocation
 
 ATOM breakdown (At max 300,000) (100% to cyber~Congress DAO, minus):
 10%: Fee to those who help to bring in donations
@@ -4144,14 +4145,14 @@ The pot of cyber\~Congress can be broken into 2 categories:
 - Any self-funded funds from team members and/or inventors
 - Donated ATOMs during takeoff, etc donation rounds
 
-- 4% of CYB tokens to the DAO (+any left over CYB tokens from the disciplines that are dependent on the doantions)
-- Up to 3.2% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
+- 6% of CYB tokens to the DAO (+any left over CYB tokens from the disciplines that are dependent on the doantions)
+- 2% of CYB tokens to the inventors, dependent on the donated ATOMs during takeoff round (the more donated, the smaller the pot)
 
-The pot of seed donors is equal to 4% of CYB tokens.
+The pot of seed donors is equal to 4% of CYB tokens. The pot of the development fund is 3% of CYB tokens.
 
 **Vital** cyber~Congress and seed investors are NOT the same entity, however some people might overcross. We are publishing these numbers, solely, for transparency!
 
-In other words, up to 97 TTHC (the governance token) is allocated to inventors, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
+In other words, up to 150 TTHC (the governance token) is allocated to inventors, development fund, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
 
 Those THC tokens can (and most likely will) be vested for the period of cyber~Acution to receive a proportional amount of CYB tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
 
@@ -5256,7 +5257,7 @@ You may create applications or take advantage of existing apps. Just as you woul
 
 <details>
   <summary>How many tokens are there? </summary>
-There are 2 tokens. CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO. There is 1 PCYB of tokens (and growing). And 700 TTHC. That's a lot, we know. There is also an internal "token",  karma, which is your reputation for building the web. It cannot be transferred. 
+There are 2 tokens. CYB is the native token of the system and is used for security and bandwidth. THC is used as a governance token in our Ethereum DAO. There is 1 PCYB of tokens (and growing). And 750 TTHC. That's a lot, we know. There is also an internal "token",  karma, which is your reputation for building the web. It cannot be transferred. 
 </details>
 
 <details>
