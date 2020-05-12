@@ -163,16 +163,17 @@ The third, non-transferable, and non-tradable token, is called [Karma](https://g
 
 #### What is the [allocation breakdown](https://github.com/cybercongress/launch-kit/tree/0.1.0/distribution)?
 CYB tokens breakdown, initial supply: 1,000,000,000,000,000:
-- cyber~Congress*: 4% of CYB
+- cyber~Congress*: 6% of CYB
+- cyber\~FundClassic: 3% of CYB (a fund to help growing the ecosytem)
 - Seed donors*: 4% of CYB
 - Inventors of the protocol*: 2% of CYB
 - Gift allocated to over 1 million addresses: 10% of CYB
-- Other public allocation: 80% of CYB
+- Other public allocation: 75% of CYB
 * These groups get THC tokens and can [vest them](https://cyber.page/gol/faucet/vest) to receive CYB
 
 THC tokens breakdown (governance tokens), total supply: 750,000,000,000:
-- 14.3% cyber~Congress team + inventors + seed donors (which IF vested gain the max. above CYB allocation)
-- 85.7% Public allocation
+- 20% cyber~Congress team + inventors + seed donors + development fund (which IF vested gain the max. above CYB allocation)
+- 80% Public allocation
 
 #### Is the inflation endless?
 The inflation parameters are defined by [governance](https://cyber.page/governance).
