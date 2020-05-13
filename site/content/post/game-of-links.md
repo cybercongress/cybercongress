@@ -5,13 +5,10 @@ title: 'Game of Links'
 author: savetheales
 ---
 
-**Rules, Provision, Description and Participation**
+## Updates
+On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
 
-*Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
-
-On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
-
-The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
+On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
 
 Welcome to the Game of Links!
 
@@ -25,8 +22,8 @@ Goals:
 
 - To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet
 - To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
-- To distribute 6% of CYB tokens to the donors who will participate in the takeoff donation round.
-- To distribute up to 4% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
+- To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round.
+- To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
 ## Provision for the Game
 
@@ -34,7 +31,7 @@ The Game of Links starts with the launch of `euler-5` and ends with a snapshot o
 
 ![timeline](timeline.png)
 
-The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start itself. It will last until 1 of 2 of the following events will happen:
+The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start itself. It will last until any of the following events will happen:
 
 - 146 days have passed since the beginning of the takeoff donation round
 - 300,000 ATOM tokens have been donated
@@ -235,7 +232,7 @@ The rewards calculate as the ratio of validator's precommits and the sum of all 
 
 ## Amount of delegated to each validator
 
-Earn your validators reputation with efficient infrastructure and constant lifetime. Validators can earn a reputation based on their lifetime rate and infrastructure. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 300,000 ATOMs have been donated, every validator will get:
+The purpose of this discipline is to spread the information about the gift. Logic is the following - the more you spread, the more is delegated to you. But of course it is not enough. You also need earn your validators reputation with efficient infrastructure and constant lifetime. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 300,000 ATOMs have been donated, every validator will get:
 
 <p align="center"><img src="ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
 
