@@ -25,7 +25,7 @@ Goals:
 - To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round.
 - To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
-## Provision for the Game
+## Provision
 
 The Game of Links starts with the launch of `euler-5` and ends with a snapshot of the network which will be produced after the grand-finale of the Game! Based on the Genesis snapshot of `cyber` the network will be computed independently by each validator who will decide to become a part of the Genesis.
 
@@ -70,7 +70,7 @@ The distribution of test GoL tokens will be the following:
 
 The total supply of test GoL tokens for the game is 15 TEUL.
 
-## How to participate in the Game
+## How to participate
 
 There is no face control, captchas or KYC to join the Game. All you need is a tool for playing and some tokens.
 
@@ -120,7 +120,7 @@ These measures will help to reduce the risks associated with the use of Aragon c
 
 For the duration of the Game of Links, the test\~Auction we will release faucet. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 7 TGOL for the test\~Auction. During this period Etherians can donate their native tokens. After that EULs and GOLs will be distributed.
 
-## Takeoff donations and disciplines incentives
+## Takeoff donations
 
 The takeoff donations has 3 key goals:
 
@@ -128,15 +128,26 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, for the 21-day final of the Game, proportionally per donated ATOMs and the donation order in the Game of Links.
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
 
-100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. This sum is allocated to the [Game of Links final](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol).
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive for Takeoff participants. Remaining CYB will be distributed using bonding curve with starting price 5x from the closing takeoff price. We hope this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
 
-Moreover, there are 4 disciplines depends on the number of donated ATOMs. If 300,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
+## Disciplines
 
-![disc_distr](disc_distr.png)
+There are seven disciplines to participate in the Game of Links, which are subdivided further into 2 different types:
 
-Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
+Depending on takeoff donations:
+
+- The relevance of links submitted (the higher the rank of the content and earlier you cyberlink, the better)
+- The bandwidth load of every participant (the more you link, the better)
+- Life summary of every validator (the longer your uptime is, the better)
+- The amount delegated to each validator (the more a validator is delegated, the better)
+
+Independent of takeoff donations:
+
+- Full validator set (the more validators there are, the better)
+- Community pool (experiment and participate in governance)
+- `euler-4` validator rewards (rewards distributed to validators for the last testnet)
 
 The following criteria are applied for the allocation of Game of Links:
 
@@ -155,29 +166,17 @@ The following criteria are applied for the allocation of Game of Links:
 | `euler-4` rewards | 5,000,000,000,000 | 0.5% |
 | community pool | 2,000,000,000,000 | 0.2% |
 
-In case of discipline do not played out or played incomplete the rest tokens will be allocated to cyber\~Congress multisig.
-
-
-## Types of disciplines
-
-There are seven disciplines to participate in the Game of Links, which are subdivided further into 2 different types:
-
-Depending on takeoff donations:
-
-- The relevance of links submitted (the higher the rank of the content, the better)
-- The bandwidth load of every participant (the more you link, the better)
-- Life summary of every validator (the longer your uptime is, the better)
-- The amount delegated to each validator (the more a validator is delegated, the better)
-
-Independent of takeoff donations:
-
-- Full validator set (the more validators there are, the better)
-- Community pool (experiment and participate in governance)
-- `euler-4` validator rewards (rewards distributed to validators for the last testnet)
-
 There are no limits for participating. You can set up your validator node to get a reward for validators uptime or you can link CIDs and load network bandwidth. You can create any promotion around your validator and collect stakes from users. You can do all of those things together. Simply play and monitor the results.
 
-## The relevance of links submitted
+There are 4 disciplines depends on the number of donated ATOMs. If 300,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
+
+![disc_distr](disc_distr.png)
+
+Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
+
+In case of discipline do not played out or played incomplete the rest tokens will be allocated to cyber\~Congress multisig.
+
+## Relevance
 
 This is the most difficult discipline of the Game. Users may link everything that you believe is important for the future of the web.
 
@@ -202,7 +201,7 @@ Where <img src="11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize
 
 > Please note! Only retrievable CIDs take part in the Game. We assume that Masters should also be content providers and responsible for content availability. Please make sure that your content is pinned and responding. Otherwise, the unreachable CIDs will be excluded and rewards will be distributed between `1000 - N` CIDs, where N is the number of unreachable CIDs.
 
-## The bandwidth load of every participant
+## Load
 
 According to our resource credits model, there are no transactional fees. We use bandwidth. The value of the users' bandwidth is the ability of the user to send messages, make links and transact.
 
@@ -222,7 +221,7 @@ The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sa
 
 Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way: the ratio of bandwidth spent by the user for cyberlinking and the sum of all spent bandwidth for cyberlinking multiplied by the max CYBs allocated for the load discipline.
 
-## Lifetime summary of every validator
+## Lifetime
 
 The easiest discipline. You just need to set up your validator node and monitor its lifetime. The lifetime means blocks pre-commits of a validator.
 
@@ -230,9 +229,9 @@ The easiest discipline. You just need to set up your validator node and monitor 
 
 The rewards calculate as the ratio of validator's precommits and the sum of all precommits multiplied by max CYBs allocated for lifetime discipline.
 
-## Amount of delegated to each validator
+## Delegation
 
-The purpose of this discipline is to spread the information about the gift. Logic is the following - the more you spread, the more is delegated to you. But of course it is not enough. You also need earn your validators reputation with efficient infrastructure and constant lifetime. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 300,000 ATOMs have been donated, every validator will get:
+Amount of delegated to each validator. The purpose of this discipline is to spread the information about the gift. Logic is the following - the more you spread, the more is delegated to you. But of course it is not enough. You also need earn your validators reputation with efficient infrastructure and constant lifetime. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 300,000 ATOMs have been donated, every validator will get:
 
 <p align="center"><img src="ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
 
@@ -303,3 +302,4 @@ Do it. Cyber it.
 ## Acknowledgements
 
 [1] @serejandmyself
+[2] @xhipster
