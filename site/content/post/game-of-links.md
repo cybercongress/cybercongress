@@ -12,13 +12,15 @@ On the 24.02.2020, following a blocking error with bandwidth limiting bug, we ha
 
 Welcome to the Game of Links!
 
-The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators.
+
 
 ## Intro
 
+The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress.
+
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing of the network before the launch of the mainnet.
 
-Goals:
+## Goals
 
 - To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet
 - To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
@@ -128,9 +130,11 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. The donation order is important for takeoff discount function: first donors will get 30% price discount in comparison with last donors according to the simple linear function. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
 
-100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive for Takeoff participants. Remaining CYB will be distributed using bonding curve with starting price 5x from the closing takeoff price. We hope this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive for Takeoff participants: remaining CYB will be distributed using bonding curve with starting price 5x from the closing takeoff price. We hope this will stimulate potential validators to invest into necessary GPU infrastructure upfront. The donation order is important for takeoff discount function: first donors will get 30% price discount in comparison with last donors according to the simple linear function.
+
+Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
 
 ## Disciplines
 
