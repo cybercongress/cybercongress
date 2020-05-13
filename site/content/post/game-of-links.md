@@ -5,12 +5,7 @@ title: 'Game of Links'
 author: savetheales
 ---
 
-## Updates
-On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
-
-On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game starting from `euler-5`m should [follow this guide](https://cybercongress.ai/how-to-import-cyberlinks-from-euler-5-to-euler-6/) to re-link cyberlinks. 
-
-**Welcome to the Game of Links!**
+Welcome to the Game of Links!
 
 ## Intro
 
@@ -20,10 +15,9 @@ The key idea behind the Game of Links is to establish a starting value of releva
 
 ## Goals
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet
-- To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
 - To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round
 - To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\Foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
 
 ## Provision
 
@@ -85,15 +79,10 @@ You may join the Game as a:
 
 There are several ways to get tokens and several tools that you can use:
 
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using [cyber.page](https://cyber.page). Simply enter your address in the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage).
-
-The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
-
-- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
-
-- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round. Learn [how-to](https://cybercongress.ai/how-to-donate/). There are 100 TEULs allocated to the participants during the Gae of Links. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter towards the end.
-
-- [Become a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens by launching a validator node. `euler-4` validators got 15 TEULs in `euler-5` and other `euler` networks for their support of the network.
+- [Gifts](https://cyber.page/gift). There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. You can check your balance using the [cyber.page](https://cyber.page/gift). For example this is [a gift to Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b).
+- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round.
+- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
+- [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node.
 
 > **! Important**
 
@@ -290,6 +279,11 @@ A good UI of the [cyber.page](https://cyber.page/gol) app is intended to make pl
 This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web.
 
 Do it. Cyber it.
+
+## Updates
+On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
+
+On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game starting from `euler-5`m should [follow this guide](https://cybercongress.ai/how-to-import-cyberlinks-from-euler-5-to-euler-6/) to re-link cyberlinks. 
 
 ## References
 1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
