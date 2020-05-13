@@ -128,7 +128,7 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. The donation order is important for takeoff discount function: first donors will get 30% price discount in comparison with last donors according to the simple linear function. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
 
 100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive for Takeoff participants. Remaining CYB will be distributed using bonding curve with starting price 5x from the closing takeoff price. We hope this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
 
