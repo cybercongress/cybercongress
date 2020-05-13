@@ -5,27 +5,20 @@ title: 'Game of Links'
 author: savetheales
 ---
 
-## Updates
-On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
-
-On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
+## Intro
 
 Welcome to the Game of Links!
-
-
-
-## Intro
 
 The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress.
 
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing of the network before the launch of the mainnet.
 
 ## Goals
+- To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round and will validate the network in Genesis.
+- To distribute up to 5% of CYB tokens to the user who will help to demonstrate the power of the cyber prior to Genesis by filling the knowledge graph with useful cyberlinks
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber-foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet
-- To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
-- To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round.
-- To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
+
 
 ## Provision
 
@@ -87,15 +80,10 @@ How to get the tokens and which tools to use?
 
 There are several ways to get tokens and several tools that you can use:
 
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using the [cyber.page](https://cyber.page). Simply add your address to the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage).
-
-The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
-
+- [Gifts](https://cyber.page/gift). There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. You can check your balance using the [cyber.page](https://cyber.page/gift). For example this is [a gift to Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b).
+- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round.
 - [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
-
-- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round. There are 100 TEULs allocated to the participants during GoL. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter towards the end.
-
-- [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node. The `euler-4` validators get 15 TEULs in `euler-5` and post `euler` networks, for their support of the network.
+- [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node.
 
 > **! Important**
 
@@ -126,8 +114,8 @@ For the duration of the Game of Links, the test\~Auction we will release faucet.
 
 The takeoff donations has 3 key goals:
 
+- Support of cyber\~Congress further development
 - Bootstrapping the genesis validator set
-- Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
 The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
@@ -285,11 +273,16 @@ If everything gets fucked up from both ends, then:
 
 At first glance, the `euler` distribution and the Game rules look pretty complex. This is not true.
 
-A good UI of the [cyber.page](https://cyber.page/#/) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this.
+A good UI of the [cyber.page](https://cyber.page/gol) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this.
 
 This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web.
 
 Do it. Cyber it.
+
+## Updates
+On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
+
+On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
 
 ## References
 1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
