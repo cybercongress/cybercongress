@@ -5,37 +5,31 @@ title: 'Game of Links'
 author: savetheales
 ---
 
-**Rules, Provision, Description and Participation**
-
-*Disclaimer:* On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
-
-The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
+## Intro
 
 Welcome to the Game of Links!
 
-The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress and its seed donators.
-
-## Intro
+The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win, as many tokens as possible, from cyber\~Congress.
 
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing of the network before the launch of the mainnet.
 
-Goals:
+## Goals
+- To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round and will validate the network in Genesis.
+- To distribute up to 5% of CYB tokens to the user who will help to demonstrate the power of the cyber prior to Genesis by filling the knowledge graph with useful cyberlinks
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber-foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet 
-- To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
-- To distribute up to 6% of CYB tokens to the validators who will participate in the takeoff donation round. The amount is dependent on the number of donated ATOM tokens
-- To distribute up to 4% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
-## Provision for the Game
+
+## Provision
 
 The Game of Links starts with the launch of `euler-5` and ends with a snapshot of the network which will be produced after the grand-finale of the Game! Based on the Genesis snapshot of `cyber` the network will be computed independently by each validator who will decide to become a part of the Genesis.
 
 ![timeline](timeline.png)
 
-The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start itself. It will last until 1 of 2 of the following events will happen:
+The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start itself. It will last until any of the following events will happen:
 
-- 90 days have passed since the beginning of the takeoff donation round
-- 600,000 ATOM tokens have been donated
+- 146 days have passed since the beginning of the takeoff donation round
+- 300,000 ATOM tokens have been donated
 
 After the end of the takeoff donation round, we will distribute EUL tokens to participants of the takeoff. This will kick-off the final round of the Game of Links.
 
@@ -56,7 +50,7 @@ The distribution for `euler-5` in the Genesis file was the following (distributi
 | Euler-4 validators | 15,000,000,000,000 |
 | GOL stakers | 15,000,000,000,000 |
 | Community pool | 2,000,000,000,000 |
-| Test of Thrones in ATOMs | 1,000,000,000,000 |
+| Test of Thrones in ATOMs (abandoned) | 1,000,000,000,000 |
 
 The total Genesis supply is 233,000,000,000,000 EULs or 233 TEULs.
 
@@ -67,12 +61,11 @@ The distribution of test GoL tokens will be the following:
 | Group | Amount of GOL |
 | --- | ---: |
 | cyber\~Congress | 8,000,000,000,000 |
-| test\~Auction | 6,000,000,000,000 |
-| Test of Thrones in ETH | 1,000,000,000,000 |
+| test\~Auction | 7,000,000,000,000 |
 
 The total supply of test GoL tokens for the game is 15 TEUL.
 
-## How to participate in the Game
+## How to participate
 
 There is no face control, captchas or KYC to join the Game. All you need is a tool for playing and some tokens.
 
@@ -80,38 +73,32 @@ You may join the Game as a:
 
 - Hero (validator). [Set up](https://github.com/cybercongress/cyberd/blob/0.1.5/docs/run_validator.md) your own node and start validating
 - Master (user). The builder of the Great Web. Migrate content from web2 to the Great Web or create your own and make it searchable. You can link your content with the [help](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link) of a [cyber.page](https://cyber.page/) and a Ledger or with the use of [CLI](https://github.com/cybercongress/cyberd)
-- [Evangelist](https://github.com/cybercongress/congress/blob/master/ecosystem/donations/obep.md). Attract other players, donators and become a project ambassador
+- [Evangelist](https://cyber.page/evangelism). Attract other players, donators and become a project ambassador
 - Developer. Create cool things and claim your rewards via spend proposals from the community pool
 
 How to get the tokens and which tools to use?
 
 There are several ways to get tokens and several tools that you can use:
 
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using the [cyber.page](https://cyber.page). Simply add your address to the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage). 
-
-The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
-
-- **Faucets**. We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
-
-- **Takeoff round**. You can get tokens if you will participate in the takeoff donation round. There are 100 TEULs allocated to the participants during GoL. Those will be distributed at the end of the takeoff donation round and account for 42.9% of the Genesis supply. Therefore, their valuation should be much hotter towards the end.
-
-- **Be a validator**. You can get tokens via launching a validator node. The `euler-4` validators get 15 TEULs in `euler-5` and post `euler` networks, for their support of the network.
+- [Gifts](https://cyber.page/gift). There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. You can check your balance using the [cyber.page](https://cyber.page/gift). For example this is [a gift to Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b).
+- [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round.
+- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
+- [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node.
 
 > **! Important**
 
 The `euler` testnets will use 2 special testnet tokens. One is called `EUL`, which is the equivalent for the `CYB` mainnet token. And the second is named `GOL`, which is an equivalent for the mainnet `THC` governance token.
 
-The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GoL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game if vested. Non-vested GoL tokens do not have any value at all. 
+The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GoL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game if vested. Non-vested GoL tokens do not have any value at all.
 
-GoL tokens serve (1) as a means to provide incentivized testing of the Ethereum contracts, and (2) as a spam protection mechanism for the faucet. 
+GoL tokens serve (1) as a means to provide incentivized testing of the Ethereum contracts, and (2) as a spam protection mechanism for the faucet.
 
-DO NOT spend a significant amount of funds buying GoL during Test of Thrones & test~Auction and/or EUL over the counter. GoL tokens will be burned after the `euler` testnets are over. All accounts in the `euler` experimental networks series will be reset. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber\~Congress.
+DO NOT spend a significant amount of funds buying GoL during test~Auction and/or EUL over the counter. GoL tokens will be burned after the `euler` testnets are over. All accounts in the `euler` experimental networks series will be reset. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber\~Congress.
 
 To remove any confusion, here is a comparison table of the different naming during the test and the mainnet:
 
 | During `euler` testnets | During `cyber` mainnet |
 | --- | --- |
-| Test of Thrones | Game of Thrones |
 | test\~Auction | cyber\~Auction |
 | GOL token | THC token |
 | EUL token | CYB token |
@@ -121,57 +108,29 @@ These measures will help to reduce the risks associated with the use of Aragon c
 
 ## Faucets
 
-For the duration of the Game of Links, the Test of Thrones and the test\~Auction we will release faucets. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 1 TEUL and 1 TGOL to the Cosmos and Ethereum communities, respectively, for the Test of Thrones and 6 TGOL for the test\~Auction. Test of Thrones is the zero round of the test\~Auction. During this period Cosmonauts and Etherians can donate their native tokens. After that EULs and GOLs will be distributed. 
+For the duration of the Game of Links, the test\~Auction we will release faucet. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 7 TGOL for the test\~Auction. During this period Etherians can donate their native tokens. After that EULs and GOLs will be distributed.
 
-After this, there will still be a possibility to donate only in ETH and claim GOL tokens daily until the end of the test\~Auction.
-
-## Takeoff donations and disciplines incentives
+## Takeoff donations
 
 The takeoff donations has 3 key goals:
 
+- Support of cyber\~Congress further development
 - Bootstrapping the genesis validator set
-- Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the result of the takeoff donations. If 600k ATOM tokens have been donated during the takeoff round, 10% of CYB tokens will be allocated to the Game of Links. 
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
 
-The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress.
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive for Takeoff participants: remaining CYB will be distributed using bonding curve with starting price 5x from the closing takeoff price. We hope this will stimulate potential validators to invest into necessary GPU infrastructure upfront. The donation order is important for takeoff discount function: first donors will get 30% price discount in comparison with last donors according to the simple linear function.
 
-Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants and for themselves. The following formula defines the allocation for takeoff donors:
+Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after takeoff donations ends proportionally per donated ATOMs and the donation order. This EULS have to be used during the 21-day final of the Game,  in the Game of Links.
 
-<p align="center"><img src="963efecc0e14204ae4a1dadeacd5c744.svg?invert_in_darkmode&sanitize=true" align=middle width=458.4939249pt height=18.312383099999998pt/></p>
-
-where <img src="7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/> is the Genesis supply of CYBs allocated to takeoff donors, <img src="332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is the ATOMs donated during the takeoff donation round.
-
-The development of the project has been done thanks to donations from 10 people. ~3200 ETH has been spent during the last 3 years of development. For those donations, at least 4% of CYB tokens are allocated to them via the means of THC tokens from cyber\~Congress . To protect the seed donators, their share will be defined accordingly to the amount donated during the takeoff round. 
-
-The donations round curve (green curve) defines the allocation of up to 6.4% of CYB tokens for takeoff participants. If the takeoff round gets 600k ATOMs than seed donators (blue curve)  and cyber\~Congress (orange dotted curve) get 4% of the CYB supply, per group, via the means of THC tokens. And takeoff participants will get 6% of CYB tokens. If nothing has been donated the remaining CYB tokens are allocated to cyber\~Congress and distributed to seed donators and cyber\~Congress proportionally.
-
-![takeoff-distribution](takeoff_allocation.png)
-
-The following criteria are applied for the allocation of Game of Links:
-
-![game-of-links-distribution](GOL_distribution.png)
-
-| Group | Amount CYB (up to) |
-| --- | ---: |
-| takeoff donations | 60,000,000,000,000 |
-|*disciplines*||
-| relevance | 15,000,000,000,000 |
-| load | 6,000,000,000,000 |
-| delegation | 5,000,000,000,000 |
-| full validator set | 5,000,000,000,000 |
-| `euler-4` rewards | 5,000,000,000,000 |
-| lifetime | 2,000,000,000,000 |
-| community pool | 2,000,000,000,000 |
-
-## Types of disciplines
+## Disciplines
 
 There are seven disciplines to participate in the Game of Links, which are subdivided further into 2 different types:
 
 Depending on takeoff donations:
 
-- The relevance of links submitted (the higher the rank of the content, the better)
+- The relevance of links submitted (the higher the rank of the content and earlier you cyberlink, the better)
 - The bandwidth load of every participant (the more you link, the better)
 - Life summary of every validator (the longer your uptime is, the better)
 - The amount delegated to each validator (the more a validator is delegated, the better)
@@ -182,21 +141,44 @@ Independent of takeoff donations:
 - Community pool (experiment and participate in governance)
 - `euler-4` validator rewards (rewards distributed to validators for the last testnet)
 
+The following criteria are applied for the allocation of Game of Links:
+
+![game-of-links-distribution](GOL_distribution.png)
+
+| Group | Amount CYB | %, of mainnet supply |
+| --- | ---: | ---: |
+| takeoff donations | 100,000,000,000,000 | 10% |
+|*disciplines depends on takeoff*| up to |
+| relevance | 20,000,000,000,000 | 2% |
+| load | 10,000,000,000,000 | 1% |
+| delegation | 5,000,000,000,000 | 0.5% |
+| lifetime | 3,000,000,000,000 | 0.3% |
+|*disciplines independs on takeoff*||
+| full validator set | 5,000,000,000,000 | 0.5% |
+| `euler-4` rewards | 5,000,000,000,000 | 0.5% |
+| community pool | 2,000,000,000,000 | 0.2% |
+
 There are no limits for participating. You can set up your validator node to get a reward for validators uptime or you can link CIDs and load network bandwidth. You can create any promotion around your validator and collect stakes from users. You can do all of those things together. Simply play and monitor the results.
 
-## The relevance of links submitted
+There are 4 disciplines depends on the number of donated ATOMs. If 300,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
+
+![disc_distr](disc_distr.png)
+
+Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
+
+In case of discipline do not played out or played incomplete the rest tokens will be allocated to cyber\~Congress multisig.
+
+## Relevance
 
 This is the most difficult discipline of the Game. Users may link everything that you believe is important for the future of the web.
 
 Each CID has a rank with a certain weight (depending on the dynamic parameters outlined in the whitepaper). In the end, those ranks get ranged according to their weight. The higher the better.
 
-There are up to 15 TCYBs allocated for the top 1000 CIDs and the top 10 agents that linked those CIDs.
+There are up to 20 TCYBs allocated for the top 1000 CIDs and the top 10 agents that linked those CIDs.
 
 CYB tokens will be distributed to the top 1000 CID proportionally to their ranks.
 
-In case 600,000 ATOMs are donated:
-
-<p align="center"><img src="d2f525d1487fccd48d6898e3ee099133.svg?invert_in_darkmode&sanitize=true" align=middle width=272.94097215pt height=38.5152603pt/></p>
+In the case that 300,000 ATOMs are donated, rank ratios of the top 1000 CIDs and the sum of all of their ranks, are multiplied by max CYBs allocated for the relevance discipline.
 
 Then these rewards will be distributed between the 10 Masters in order of submitting links in accordance to the [power law](https://en.wikipedia.org/wiki/Power_law):
 
@@ -211,7 +193,7 @@ Where <img src="11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode&sanitize
 
 > Please note! Only retrievable CIDs take part in the Game. We assume that Masters should also be content providers and responsible for content availability. Please make sure that your content is pinned and responding. Otherwise, the unreachable CIDs will be excluded and rewards will be distributed between `1000 - N` CIDs, where N is the number of unreachable CIDs.
 
-## The bandwidth load of every participant
+## Load
 
 According to our resource credits model, there are no transactional fees. We use bandwidth. The value of the users' bandwidth is the ability of the user to send messages, make links and transact.
 
@@ -229,32 +211,19 @@ A users bandwidth depends on their stake:
 
 The genesis <img src="6c96214df751338517023f80ff173b61.svg?invert_in_darkmode&sanitize=true" align=middle width=129.76865549999997pt height=22.831056599999986pt/> params are available in the [launch-kit](https://github.com/cybercongress/launch-kit/tree/0.1.0/params) repo.
 
-Users rewards, in case 600,000 ATOMs have been donated, are calculated in the following way:
+Users rewards, in case 300,000 ATOMs have been donated, are calculated in the following way: the ratio of bandwidth spent by the user for cyberlinking and the sum of all spent bandwidth for cyberlinking multiplied by the max CYBs allocated for the load discipline.
 
-<p align="center"><img src="910d658efae8563e12e83ff4a59308c9.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3375745pt height=37.0084374pt/></p>
-
-## Lifetime summary of every validator
+## Lifetime
 
 The easiest discipline. You just need to set up your validator node and monitor its lifetime. The lifetime means blocks pre-commits of a validator.
 
 > Important! Your validator should be in the set of active validators! Watch your stake!
 
-The following formula calculates each validator reward in block *n* if the was a precommit, and if 600,000 ATOMs have been donated:
+The rewards calculate as the ratio of validator's precommits and the sum of all precommits multiplied by max CYBs allocated for lifetime discipline.
 
-<p align="center"><img src="9ca49a45d418b1ea785b2c8eb3507700.svg?invert_in_darkmode&sanitize=true" align=middle width=174.21748245pt height=41.352743849999996pt/></p>
+## Delegation
 
-The *r* is a reward for validator at block *n*, the <img src="6b7ea75590426a183657d8b608970b83.svg?invert_in_darkmode&sanitize=true" align=middle width=62.17247684999999pt height=22.831056599999986pt/> is the latest block of the Game, and *V* is the number of validators on block *n*.
-
-We need to divide the allocated supply by the sum of the blocks during the period of the Game and by the sum of the pre-commits of the current block.
-
-For example, if you have an active validator from the start of the Game of Links till its end. Haven’t missed any block. All the other validators achieve the same result. And 600,000 ATOMs have been donated on the auction, you will get:
-<p align="center"><img src="3890053eddd15d16f338211cae3e9abe.svg?invert_in_darkmode&sanitize=true" align=middle width=212.4336093pt height=33.62942055pt/></p>
-
-in the Genesis file of `cyber` network.
-
-## Amount of delegated to each validator
-
-Earn your validators reputation with efficient infrastructure and constant lifetime. Validators can earn a reputation based on their lifetime rate and infrastructure. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 600,000 ATOMs have been donated, every validator will get:
+Amount of delegated to each validator. The purpose of this discipline is to spread the information about the gift. Logic is the following - the more you spread, the more is delegated to you. But of course it is not enough. You also need earn your validators reputation with efficient infrastructure and constant lifetime. This works as a promotion of their services to the early community. We'll allocate up to 5 TCYB, proportionally to the staked tokens on validators on the last block of the Game. If 300,000 ATOMs have been donated, every validator will get:
 
 <p align="center"><img src="ac99c54d5d13c7cc61514088045eca48.svg?invert_in_darkmode&sanitize=true" align=middle width=310.95714705pt height=36.2778141pt/></p>
 
@@ -302,19 +271,24 @@ If everything gets fucked up from both ends, then:
 
 ## Conclusion
 
-At first glance, the `euler` distribution and the Game rules look pretty complex. This is not true. 
+At first glance, the `euler` distribution and the Game rules look pretty complex. This is not true.
 
-A good UI of the [cyber.page](https://cyber.page/#/) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this. 
+A good UI of the [cyber.page](https://cyber.page/gol) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this.
 
-This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web. 
+This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web.
 
 Do it. Cyber it.
+
+## Updates
+On the 05.05.2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
+
+On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game from `euler-5` will note affected if they re-link their links according to the state migration protocol.
 
 ## References
 1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
 2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/go-cyber)
 3. [Aragon claim app](https://github.com/cybercongress/aragon-claim-app)
-4. [Cyber web app](https://cyber.page/#/)
+4. [Cyber web app](https://cyber.page/gol)
 5. [Launch kit repo](https://github.com/cybercongress/launch-kit)
 6. [Power law on wikipedia](https://en.wikipedia.org/wiki/Power_law)
 7. [Euler's method](https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant)
@@ -325,3 +299,4 @@ Do it. Cyber it.
 ## Acknowledgements
 
 [1] @serejandmyself
+[2] @xhipster
