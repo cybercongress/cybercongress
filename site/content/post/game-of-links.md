@@ -7,7 +7,7 @@ author: savetheales
 
 **Rules, Provision, Description and Participation**
 
-*Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants. 
+*Disclaimer:* On the 05/05/2020, following the initial take-off, we submitted a [governance proposal](https://cyber.page/governance/5) for a new takeoff and a distribution change. The new distribution is beneficial to both the current stakeholders and future participants.
 
 On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL).  
 
@@ -23,7 +23,7 @@ The key idea behind the Game of Links is to establish a starting value of releva
 
 Goals:
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet 
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [Ethereum contracts](https://github.com/cybercongress/aragon-claim-app) before the launch of the mainnet
 - To demonstrate the search, with the use of an experimental knowledge graph, filled with useful cyberlinks
 - To distribute 6% of CYB tokens to the donors who will participate in the takeoff donation round.
 - To distribute up to 4% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
@@ -88,7 +88,7 @@ How to get the tokens and which tools to use?
 
 There are several ways to get tokens and several tools that you can use:
 
-- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using the [cyber.page](https://cyber.page). Simply add your address to the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage). 
+- **Gifts**. There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. This is 42.9% of the `euler-5` Genesis supply (which is equivalent to the supply of `euler-6`). You can check your balance using the [cyber.page](https://cyber.page). Simply add your address to the cyber.page app to [check your balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage).
 
 The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). The gifting mechanism is implemented in the [launch kit](https://github.com/cybercongress/launch-kit) repo.
 
@@ -102,9 +102,9 @@ The gifting rules are defined in the [whitepaper](https://ipfs.io/ipfs/QmPjbx76L
 
 The `euler` testnets will use 2 special testnet tokens. One is called `EUL`, which is the equivalent for the `CYB` mainnet token. And the second is named `GOL`, which is an equivalent for the mainnet `THC` governance token.
 
-The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GoL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game if vested. Non-vested GoL tokens do not have any value at all. 
+The EUL tokens have little value (in regards to price value). Their main purpose is to serve as the basis for reward calculation during the Game of Links. The GoL tokens also have no significant value in terms of price. They will allow gaining EUL tokens during the game if vested. Non-vested GoL tokens do not have any value at all.
 
-GoL tokens serve (1) as a means to provide incentivized testing of the Ethereum contracts, and (2) as a spam protection mechanism for the faucet. 
+GoL tokens serve (1) as a means to provide incentivized testing of the Ethereum contracts, and (2) as a spam protection mechanism for the faucet.
 
 DO NOT spend a significant amount of funds buying GoL during test~Auction and/or EUL over the counter. GoL tokens will be burned after the `euler` testnets are over. All accounts in the `euler` experimental networks series will be reset. All ETH and ATOM sent to the faucet during the Game of Links are donated to cyber\~Congress.
 
@@ -121,7 +121,7 @@ These measures will help to reduce the risks associated with the use of Aragon c
 
 ## Faucets
 
-For the duration of the Game of Links, the test\~Auction we will release faucet. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 7 TGOL for the test\~Auction. During this period Etherians can donate their native tokens. After that EULs and GOLs will be distributed. 
+For the duration of the Game of Links, the test\~Auction we will release faucet. It will help us to test the contracts before the launch of the mainnet and make it easier for participants without tokens or with a small number of tokens to join the Game. We've allocated 7 TGOL for the test\~Auction. During this period Etherians can donate their native tokens. After that EULs and GOLs will be distributed.
 
 ## Takeoff donations and disciplines incentives
 
@@ -131,22 +131,13 @@ The takeoff donations has 3 key goals:
 - Defining the allocation for cyber\~Congress participants
 - Defining the allocation for the participants of the Game of Links
 
-The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, for the 21-day final of the Game, proportionally per donated ATOMs and the donation order in the Game of Links. 
+The results of the Game and the allocation are significantly influenced by the results of the takeoff donations. Independently of the donated ATOM tokens, 100 TEULs will be distributed to all takeoff donors, for the 21-day final of the Game, proportionally per donated ATOMs and the donation order in the Game of Links.
 
 100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. This sum is allocated to the [Game of Links final](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#game-of-links-or-gol).
 
 Moreover, there are 4 disciplines depends on the number of donated ATOMs. If 300,000 ATOMs will not be reached the change of CYBs will be distributed back to cyber\~Congress. The logic is the following: the more has been donated, the more rewards the participants acquire, the less CYB tokens are allocated back to cyber\~Congress. The plot of disciplines distribution presents below:
 
 ![disc_distr](disc_distr.png)
-
-The cyber\~Congress allocation can be presented the next way:
-
-| Group | Amount CYB | %, of mainnet supply |
-| --- | ---: | ---: |
-| Congress multisig | 60,000,000,000,000 | 6% |
-| Early donors | 40,000,000,000,000 | 4% |
-| Cyber\~Foundation classic | 30,000,000,000,000 | 3% |
-| Inventors | 20,000,000,000,000 | 2% |
 
 Participants that want to get CYB tokens in the Genesis file of the mainnet but cannot play, can donate ATOMs. Therefore, increasing the percentage of payouts to other participants.
 
@@ -292,11 +283,11 @@ If everything gets fucked up from both ends, then:
 
 ## Conclusion
 
-At first glance, the `euler` distribution and the Game rules look pretty complex. This is not true. 
+At first glance, the `euler` distribution and the Game rules look pretty complex. This is not true.
 
-A good UI of the [cyber.page](https://cyber.page/#/) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this. 
+A good UI of the [cyber.page](https://cyber.page/#/) app is intended to make playing easy and clear. We expect the `cyber` network to launch with a loaded knowledge graph and a nice distribution curve. The Game will help to achieve this.
 
-This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web. 
+This is a good chance for everyone to become an early adopter of the #fuckgoogle philosophy and the Great Web.
 
 Do it. Cyber it.
 
