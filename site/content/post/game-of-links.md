@@ -17,7 +17,7 @@ The key idea behind the Game of Links is to establish a starting value of releva
 
 - To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round
 - To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\Foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
 
 ## Provision
 
@@ -119,9 +119,9 @@ The [takeoff donations](https://cyber.page/gol/takeoff) have 3 key goals:
 
 The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
 
-100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a bonding curve with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront. The donation order is important for the takeoff discount function. First donors will get a 30% discount in comparison with the last donors, according to a simple linear function.
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs. We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a bonding curve with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
 
-Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs and the donation order. These EULS are to be used during the 21-day final of the Game,  in the Game of Links.
+Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs. These EULS are to be used during the 21-day final of the Game, in the Game of Links.
 
 ## Disciplines
 
