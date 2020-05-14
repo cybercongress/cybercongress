@@ -119,7 +119,7 @@ The [takeoff donations](https://cyber.page/gol/takeoff) have 3 key goals:
 
 The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
 
-100 TCYBs will be distributed to donors proportionally per the donated ATOMs. We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a bonding curve with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs. We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a linear function with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
 
 Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs. These EULS are to be used during the 21-day final of the Game, in the Game of Links.
 
