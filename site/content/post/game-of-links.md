@@ -128,8 +128,6 @@ f(x) = 40 * x + 1000
 where f(x) - TCYB price in ATOMs, and x is amount of TCYBs tokens won
 ```
 
-We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a linear function with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront.
-
 Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs. These EULS are to be used during the 21-day final of the Game, in the Game of Links.
 
 ## Disciplines
