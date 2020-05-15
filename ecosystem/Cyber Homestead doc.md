@@ -4154,7 +4154,7 @@ The pot of seed donors is equal to 4% of CYB tokens. The pot of the development 
 
 In other words, up to 150 TTHC (the governance token) is allocated to inventors, development fund, team members, including [possible incentives](https://github.com/cybercongress/congress/blob/master/teams/incentives.md) and to seed donators. 
 
-Those THC tokens can (and most likely will) be vested for the period of cyber~Acution to receive a proportional amount of CYB tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
+Those THC tokens can (and most likely will) be vested for the period of cyber~Auction to receive a proportional amount of CYB tokens. This does not include any personal pots acquired by inventors or DAO members, as this is virtually impossible to account for unless the DAO members will disclose this information.
 
 From those funds, a certain portion will be allocated towards the creation of [cyber~FundClassic](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#who-are-cyberfundclassic), which will be a for-profit DAO responsible for finding teams that develop cyber and fund them with initial bags.  
 
