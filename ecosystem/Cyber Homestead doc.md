@@ -4338,7 +4338,7 @@ The gist is simple though, do actions that you see on the list, cyberlink them (
 This section will teach you about hardware, governance and survival in deep space. After this, we will be considered true cosmonauts. Let's dive in into hardware, governance and the technical guides of cyber.
 
 ### Governance
-The easiest section of this guide, yet the most important one! I have specifically separated it from the masters' section, as it is obvious that governance is not related to masters only, but all space agents. We will be adding best practises for proposals as this guide progresses with examples, for now, let's discuss the general scope of things.
+The easiest section of this guide, yet the most important one! I have specifically separated it from the masters section, as it is obvious that governance is not related to masters only, but all space agents. We will be adding best practises for proposals as this guide progresses with examples, for now, let's discuss the general scope of things.
 
 #### cyber~Foundation
 First, let's make things straight. Cyber is a decentralized Google. Cybers mission is to decentralize the services and the infrastructure of the internet via the use of blockchain technology and cyberlinks. Cyber is an innovative search protocol. Such a protocol should not be owed by one company, but rather be governed by its stakeholders, that can decide on its development via the use of governance mechanisms.
