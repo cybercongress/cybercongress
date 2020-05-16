@@ -9,7 +9,7 @@ Welcome to the Game of Links!
 
 ## Intro
 
-The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win as many tokens as possible, from cyber\~Congress.
+The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmR8A8pNcsv23ngnG3xRCDEV4UNvKLy1TyrsXhDHoUvWrp). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win as many tokens as possible, from cyber\~Congress.
 
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing of the network before the launch of the mainnet.
 
@@ -17,7 +17,7 @@ The key idea behind the Game of Links is to establish a starting value of releva
 
 - To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round
 - To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\Foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) before the launch of the mainnet
 
 ## Provision
 
@@ -25,7 +25,7 @@ The Game of Links starts with the launch of `euler-5` and ends with a snapshot o
 
 ![timeline](timeline.png)
 
-The takeoff donation round will start after the approval of the governance proposal of the takeoff donation start. It will last until any of the following events will happen:
+The takeoff donation round will start after the [approval of the governance proposal](https://cyber.page/governance/2) of the takeoff donation start. It will last until any of the following events will happen:
 
 - 146 days have passed since the beginning of the takeoff donation round
 - 300,000 ATOM tokens have been donated
@@ -79,9 +79,9 @@ You may join the Game as a:
 
 There are several ways to get tokens and several tools that you can use:
 
-- [Gifts](https://cyber.page/gift). There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. You can check your balance using the [cyber.page](https://cyber.page/gift). For example this is [a gift to Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b).
+- [Gifts](https://cyber.page/gift). There are 100 TEULs allocated as a gift to the Cosmos, Ethereum and Urbit communities. You can check your balance using the [cyber.page](https://cyber.page/gift). For example, this is [Vitalik's gift](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b).
 - [Takeoff round](https://cyber.page/gol/takeoff). You can get tokens if you will participate in the takeoff donation round.
-- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GoL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
+- [Faucets](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/). We want to test the production of the auction app during GoL and this is a great opportunity for creating a faucet based on this app. You can obtain GOL tokens and claim EUL tokens to participate in the game. We expect a low price valuation for GOL, so you can fill your stake with Szhabos (1 millionth of an ETH) and uAtoms (1 millionth of an ATOM).
 - [Be a validator](https://cybercongress.ai/docs/cyberd/run_validator/). You can get tokens via launching a validator node.
 
 > **! Important**
@@ -119,9 +119,16 @@ The [takeoff donations](https://cyber.page/gol/takeoff) have 3 key goals:
 
 The results of the Game and the allocation are significantly influenced by the results of the takeoff donations.
 
-100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the donation order in the mainnet. We offer a significant incentive to the Takeoff participants. All the remaining CYB tokens will be distributed (during cyber\~Auction) using a bonding curve with a starting price 5x from the closing takeoff price. We hope that this will stimulate potential validators to invest into necessary GPU infrastructure upfront. The donation order is important for the takeoff discount function. First donors will get a 30% discount in comparison with the last donors, according to a simple linear function.
+All CYBtokens that remain from the Takeoff, are allocated to the community pool at the end of the game.
 
-Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs and the donation order. These EULS are to be used during the 21-day final of the Game,  in the Game of Links.
+100 TCYBs will be distributed to donors proportionally per the donated ATOMs and the order of donation transaction. The distribution function is:
+
+```
+f(x) = 40 * x + 1000
+where f(x) - TCYB price in ATOMs, and x is amount of TCYBs tokens won
+```
+
+Independently of the donated amount, 100 TEULs will be distributed to all takeoff donors after the takeoff round will end, proportionally per the donated ATOMs. These EULS are to be used during the 21-day final of the Game, in the Game of Links.
 
 ## Disciplines
 
