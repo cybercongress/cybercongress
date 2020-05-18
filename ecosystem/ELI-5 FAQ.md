@@ -384,7 +384,7 @@ Not exactly. It is in the sense that users are interacting peer to peer with the
 Tor is not a search protocol. Tor is a highly efficient privacy instrument. Tor does not provide economic incentives. Tor doesn't use the blockchain. Tor does not answer questions. we see Tor as an instrument that we could provide a search protocol for. We hope that Tor can implement cyber on an application-level one day.
 
 #### Do you have a White Paper?
-[Yes, we do](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x). You are welcome to read it. It can also be manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber).
+[Yes, we do](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3). You are welcome to read it. It can also be manually compiled, with the help of Xelatex, from [this repository](https://github.com/cybercongress/cyber).
 
 #### Have you tested this? Does it work?
 Yes, we have. There have been numerous private and public testnets. In fact, as of now, we are still testing and improving the protocol. It already works. [Use it](https://cyber.page/)!
@@ -418,7 +418,7 @@ If you plan to fork the protocol, then eventually, we will meet each other with 
 ----------------------------
 
 ## Links
-- [Our White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+- [Our White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 - [cyber.page](https://cyber.page/)
 - [Homestead documentation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md)
 - [cyber~Ecosystem development paper](https://github.com/cybercongress/congress/blob/master/ecosystem/cyber~Ecosystem%20development%20paper.md)
