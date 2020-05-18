@@ -1730,6 +1730,9 @@ A list of profiles in awesome lists:
 - [Awesome TCR](https://github.com/miguelmota/awesome-token-curated-registries): A list of projects using TCR
 - [Awesome blockchain AI](https://github.com/steven2358/awesome-blockchain-ai): Blockchain AI-related list
 
+A list of profiles on other lists:
+- [Ecosystems](https://github.com/electric-capital/crypto-ecosystems/blob/master/data/ecosystems/c/cyber.toml): A list of blockchain ecosystems
+
 A list of profiles on other projects websites:
 - [Cosmonaut world website](https://cosmonauts.world/projects/cyber): Our profile on the Cosmos ecosystem website
 - [Cosmos community forum](https://forum.cosmos.network/t/list-of-projects-in-cosmos-tendermint-ecosystem/243/14): At number 16
