@@ -64,7 +64,7 @@ I believe that the following links might come useful:
 - [cyber~Congress: The evolution of species](https://github.com/cybercongress/congress/blob/master/README.md)
 - [cyber~Congress: The evolution of species: the Philosophy](https://ai.cybercongress.ai/t/cyber-congress-the-evolution-of-species-the-philosophy/20)
 - [Certain discussions on our TG channel](https://t.me/fuckgoogle/5081)
-- [Protocol paper](https://github.com/cybercongress/cyber/blob/master/main.tex)
+- [White paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 
 ### Bonus implementation 
 I would like to propose a bonus that would be possible only upon completion of the above task.
