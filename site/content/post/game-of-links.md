@@ -9,7 +9,7 @@ Welcome to the Game of Links!
 
 ## Intro
 
-The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmR8A8pNcsv23ngnG3xRCDEV4UNvKLy1TyrsXhDHoUvWrp). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win as many tokens as possible, from cyber\~Congress.
+The game is part of the distribution games planned in our [whitepaper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3). In this document, we describe the purpose, the rules and the tools that are required to participate in the Game.  The game started with `euler-5`, which is the technical name of our incentivized testnet that is required for the launch of the `cyber` network. The Game of Links is going to be held as part of the `euler` testnets. The game is organized by cyber\~Congress. The main goal of the participants is to win as many tokens as possible, from cyber\~Congress.
 
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines are an integral part of the preparation and testing of the network before the launch of the mainnet.
 
@@ -293,7 +293,7 @@ On the 05.05.2020, following the initial take-off, we submitted a [governance pr
 On the 24.02.2020, following a blocking error with bandwidth limiting bug, we have [realesed a post](https://cybercongress.ai/euler-6-migration/), describing the migration from `euler-5` --> `euler-6` and the need to activate the crisis protocol for the Game of Links (GoL). The instruments we had did not allow us to resolve the problem on-chain, but since then the bug has been fixed in the new version of go-cyber. Players that will join the network from `euler-6` are not required to take any actions. Players that participated in the game starting from `euler-5`m should [follow this guide](https://cybercongress.ai/how-to-import-cyberlinks-from-euler-5-to-euler-6/) to re-link cyberlinks. 
 
 ## References
-1. [The cyber whitepaper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+1. [The cyber whitepaper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 2. [Cyber implementation on Cosmos-SDK](https://github.com/cybercongress/go-cyber)
 3. [Aragon claim app](https://github.com/cybercongress/aragon-claim-app)
 4. [Cyber web app](https://cyber.page/gol)
