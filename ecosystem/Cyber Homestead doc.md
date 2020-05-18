@@ -4032,7 +4032,7 @@ Please note, that all of the games will be tested during the testnets with EUL a
 | Takeoff donations  | 	Not applicable | 
 
 ### Gift
-Cyber has gifted 3 communities as per the commitment to do so in our [White Paper](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ).
+Cyber has gifted 3 communities as per the commitment to do so in our [White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3).
 
 Those are the Ethereum (8%), Cosmos (1%) and Urbit (1%) communities. 
 
@@ -5657,7 +5657,7 @@ On the page find the [congress repositry](https://github.com/cybercongress/congr
 And this is it. It is submitted and awaits our review. You may and should [open an issue](https://github.com/cybercongress/congress/issues) to speed up and accompany the process.
 
 ### Links
-- [White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+- [White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 - [cyber.page](https://cyber.page/)
 - [go-cyber releases](https://github.com/cybercongress/go-cyber/releases)
 - [cyb releases](https://github.com/cybercongress/cyb/releases)

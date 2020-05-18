@@ -32,7 +32,7 @@ The ceremonial launch of the euler-5 testnet, in which we talk about what cyber 
 - [Game of Links](https://cybercongress.ai/game-of-links/)
 - [Donations](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-are-the-distribution-games)
 
-Links to [video in IPFS](https://ipfs.io/ipfs/QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pKS), [white paper in IPFS](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x) and [youtube video](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6)
+Links to [video in IPFS](https://ipfs.io/ipfs/QmVgxX3TVntSNRiQ1Kd8sE8zvEKkbEgb8PaMnA4N7w7pKS), [white paper in IPFS](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) and [youtube video](https://www.youtube.com/watch?v=RS6w6wiAag4&list=PLOcP3DXQoNUXmh7ob0Fm6p12L20zn0zbT&index=6)
 
 ## Cyber Roadmap by @litvintech
 
