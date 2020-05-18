@@ -2,9 +2,9 @@
 
 ### TL;DR
 
-In our [white paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x) cyber~Congress allocates 1% of the total CYB supply to the [Urbit](https://urbit.org/) community - because Urbit is awesome. However,  if you are familiar with Urbit, you know its not a trivial project. Hence, I would like to propose the steps for gifting Urbit with CYB tokens.|
+In our [white paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) cyber~Congress allocates 1% of the total CYB supply to the [Urbit](https://urbit.org/) community - because Urbit is awesome. However,  if you are familiar with Urbit, you know its not a trivial project. Hence, I would like to propose the steps for gifting Urbit with CYB tokens.|
 
-UPDATE: As promised in our WP, we have gifted the Urbit aliens with 1% of the supply. To check the balance of your gift, simply follow the ~white rabbit~ [link](https://cyber.page/#/search/0x742d35cc6634c0532925a3b844bc454e4438f44e), and swap the address for your own to see if you were lucky (use the ETH address that held the planet/star/galaxy). 
+UPDATE: As promised in our WP, we have gifted the Urbit aliens with 1% of the supply. To check the balance of your gift, simply follow the ~white rabbit~ [link](https://cyber.page/search/0x742d35cc6634c0532925a3b844bc454e4438f44e), and swap the address for your own to see if you were lucky (use the ETH address that held the planet/star/galaxy). 
 
 ### Milestones
 
