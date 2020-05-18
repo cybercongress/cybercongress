@@ -24,7 +24,7 @@ If you don't feel like you're sure about what cyber does, what validators do or 
 - Cyber gifted 10% of it's supply to ETH/ATOM/URBIT, you probably already have some CYB from [the gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md).
 Or just search for [your address here](https://cyber.page/gift/0x742d35cc6634c0532925a3b844bc454e4438f44e) (just substitute the address for your own)
 - You probably want to know the [economic breakdown](https://github.com/cybercongress/launch-kit/blob/0.1.0/README.md#distribution-params)
-- If you are still uncertain about the distribution, check out [the White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+- If you are still uncertain about the distribution, check out [the White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 - The tesntet is incentivized. Read about [the Game of Links](https://cybercongress.ai/game-of-links/) and its distribution
 - Or just [watch this video](https://www.youtube.com/watch?v=mcCn_-GMO_k)
 - **You are now ready to become a cyber hero and build `The Great Web`**
@@ -58,7 +58,7 @@ If you're ready to dive in deeper, then [set up a hero](https://cybercongress.ai
 
 ### I need more links
 - [cybe.page](https://cyber.page/)
-- [White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x)
+- [White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3)
 - [cyber~Congress DAO](https://cybercongress.ai/)
 - [Our forum](http://ai.cybercongress.ai/)
 - [Our blog](https://cybercongress.ai/post)
