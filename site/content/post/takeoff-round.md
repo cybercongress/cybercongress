@@ -29,7 +29,7 @@ Cyber is just that. A superintelligence owned by the heroes and the masters of t
 <img src="https://i.postimg.cc/hvtQ9yX1/Got-web-3.jpg" />
 
 ### 1...   
-After a wild journey, the rocket is ready for its first launch. We are miles away from the end. Yet this step will help us to bootstrap the foundation necessary for the launch of the network. We urge you to check out the [docs](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md), the [proof](https://github.com/cybercongress/go-cyber) and the [scripts](https://ipfs.io/ipfs/https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) before making any decisions. 
+After a wild journey, the rocket is ready for its first launch. We are miles away from the end. Yet this step will help us to bootstrap the foundation necessary for the launch of the network. We urge you to check out the [docs](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md), the [proof](https://github.com/cybercongress/go-cyber) and the [scripts](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) before making any decisions. 
 
 The future is bright, but not everyone will make it! As John Lenon said: 
 
