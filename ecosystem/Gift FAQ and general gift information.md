@@ -1,5 +1,5 @@
 Cyber has gifted 3 communities as per the commitment to do so in our 
-[White Paper](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x).
+[White Paper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3).
 
 Those are the Ethereum, Cosmos and Urbit communities. 
 
