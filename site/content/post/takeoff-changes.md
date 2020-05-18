@@ -1,5 +1,5 @@
 ---
-date: 2020-05-16
+date: 2020-05-18
 url: takeoff-changes
 title: 'Takeoff Changess'
 author: serejandmyself
@@ -10,9 +10,7 @@ author: serejandmyself
 The 27th of April, earlier this year, marked [the takeoff donation round](https://cyber.page/governance/2) for Cyber, and just as we mentioned earlier, `After a wild journey, the rocket is...still ready for launch`. However, launching means it has to fly. It takes courage to admit it, but it didn't. This means that we did something wrong and we have to try again. After all, Rome was not built in a day.
 
 ### Relaucnhing 
-The reasoning for the relaunch has already been outlined by @hipster in the [new launch proposal](https://cyber.page/governance/5). We proposed to remove the lower boundary of the offering, lower the cap and increase the amount of time needed to attract the value desired.
-
-The proposal has passed. This means it's time to fix the mistakes and to relaunch. And we are ready.
+The reasoning for the relaunch has already been outlined in the [new launch proposal](https://cyber.page/governance/5), along with the some [details of the chnages](https://cyber.page/governance/6). We propose to remove the lower boundary of the offering, lower the cap and increase the amount of time needed to attract the value desired.
 
 ### Changes
 As mentioned above, we think that lowering our valuation during these uncertain times, will work very well.  We believe that this and giving the participants of the takeoff round an amount of the supply that is not dependent on the outcome of the donation will evaluate the project more correctly without any risks for the donors. 
