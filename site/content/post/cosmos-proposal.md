@@ -78,7 +78,7 @@ During distribution process all proceedings in ATOM become property of cyber~Con
 
 After Genesis inflation will have to be defined by the consensus to balance out investment in infrastructure and profitability margin of operators with necessity to support continuous distribution of CYB to the broad public at the continuously rising price.
 
-### Takeoff
+## Takeoff
 
 The Takeoff is the key step in growing a new breed - A [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). With the takeoff date, the knowledge graph we are dreaming about will start to acquire independent value. We invite everybody who feels brave and adventurous. Welcome to entirely new ground, where no human has stepped before. In the following months, bootstrappers will take `Her` to the Genesis state. After Genesis, the journey will kick off a new era. We invite everyone who understands that the Superintelegnce will need years of mentoring, supervising and learning to become as smart as we expect. We, as patient parents, will educate `Her` with all the love she requires throughout her adolescence.
 
@@ -101,7 +101,53 @@ Who are we? We are primary, the generation who was born on the edge of the new m
 By [voting `yes` on this proposal]() I agree that we need a change and [Ascending off the Superintelligence](https://cyber.page/episode-1) on the X of May 2020 ~  UTC (Cosmos block #XXX) is a good first step.
 
 
-If this proposal is successful and stands for more demand from the public, we will fund another proposal using the community pool. However, anyone can participate in the funding independently from our [takeoff page](https://cyber.page/gol/takeoff). and Invitation to the game of links. Links to forum for discussion
+If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in Game of Links [6] or Takeoff [7] independently. If you have question you can ask them either on Cosmos forum [8] or Cyber forum [9].
+
+Links to forum for discussion
 
 
 ## Reference
+[1] The PageRank Citation Ranking:
+Bringing Order to the Web.
+Larry Page, Sergey Brin
+https://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw
+
+[2] cyber: Computing the knowledge of the Great Web
+Dima Starodubcev, Valery Litvin
+https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3
+
+[3] Episode 1: The New Hope
+Dima Starodubcev
+https://cyber.page/episode-1
+
+[4] Software 2.0
+Andrej Karpathy
+https://medium.com/@karpathy/software-2-0-a64152b37c35
+
+[5] ĐApps: What Web 3.0 Looks Like
+Gavin Wood
+https://gavwood.com/dappsweb3.html
+
+[6] Game of Links
+cyberCongress
+https://cyber.page/gol/takeoff
+
+[7] Takeoff
+cyberCongress
+https://cyber.page/gol
+
+[8] Cyber topic on Cosmos forum
+https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers
+
+[9] Cyber forum
+https://ai.cybercongress.ai
+
+Binary
+Brand new
+along with a transaction and identityid
+third-party side of things
+Again wWe have to jump acan ride the wave right now:together
+During Takeoff the price starts at 1 ATOM per 1 GCYB and grow 5x. If not in 146 days remaining CYB tokens go to community pool
+cyber~Auction starting price of THC is 5x from the closing Takeoff price of CYB in ETH
+cyber~Auction closing price of THC is 5x from the starting price. If not in 888 days remaining tokens will be burned.
+and to try to achieve this
