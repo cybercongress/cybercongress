@@ -88,6 +88,7 @@ During the initial distribution, the price of CYB grows almost exponentially dep
 During the distribution process, all the proceedings in ATOM become the property of cyber\~Congress (a private Aragon DAO) to support further development of the project. This part of the funding will help cyber\~Congress to achieve a sustainable flow of income for its DAO and work on Cyber. 
 
 The latter stages of the funding consists of funding [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation), the DAO that will govern Cyber, without any bureaucratic hassle, CEOs and jurisdictions. participants of the auction will gain access to the ETH donated to the DAO.
+
 2. cyber\~Auction starting price of THC is 5x from the closing Takeoff price of CYB in ETH. 
 3. cyber\~Auction closing price of THC is 5x from the starting price. If not reached in 888 days, the remaining tokens will be burned.
 
