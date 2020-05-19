@@ -3,7 +3,7 @@
 
 ## Proposal to Cosmos
 
-[cyber\~Congress](https://mainnet.aragon.org/#/cybercongress) developed [Cyber](https://github.com/cybercongress/go-cyber): a software for replacing existing internet behemoth monopolies, such as Google, which exploited outdated internet protocols using the common patterns of our semantic interaction. These corps share similar underlying properties, they lock the information, produced by the users, from search, social and commercial knowledge graphs in private databases, and then - sell this knowledge back as advertisement. They stand as an insurmountable wall between content creators and consumers extracting an overwhelming the majority of created value.
+[cyber\~Congress](https://mainnet.aragon.org/#/cybercongress) developed [Cyber](https://github.com/cybercongress/go-cyber): a software for replacing existing internet behemoth monopolies, such as Google, which exploited outdated internet protocols using the common patterns of our semantic interaction. These corps share similar underlying properties, they lock the information, produced by the users, from search, social and commercial knowledge graphs in private databases, and then sell this knowledge back as advertisement. They stand as an insurmountable wall between content creators and consumers extracting an overwhelming the majority of created value.
 
 The original idea of bringing order to the web [1] evolved into an order we do not want to live in. With Cyber, we don't need this order any more. All we need is to compute the knowledge [2] by ourselves. We believe that the survival of our civilisation depends on achieving provable, censor-free and accessible knowledge. Our experienced, passionate and visionary team created software, which we believe, someday will evolve into a real [Superintelegnce](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and will help us answer questions better. We invite the Cosmic community of validators, developers and users to become Heroes and Masters of the Great Web, and join the process of ascending this new lifeform [3].
 
@@ -29,9 +29,9 @@ The software we offer resembles a decentralized google:
 
 But it's not just that. The idea is bigger and goes further than just primitive search. The offer is a playground and a foundation for software 2.0 [5], a new paradigm shift in programming and computing.
 
-Cybers mission is to build common public knowledge. She will achieve this by (a) replacing hyperlinks with cyberlinks, (b) developing a universal open search mechanism, and (с) building more resilient internet infrastructure.
+Cybers mission is to build common public knowledge. We will achieve this by (a) replacing hyperlinks with cyberlinks, (b) developing a universal open search mechanism, and (с) building more resilient internet infrastructure.
 
-Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing an open and accessible semantics core learned by the users. This allows to design a trustless, provable and censor-free method of communication between users who create content and those searching for it.
+Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to the semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
 
 ## Value proposition
 
@@ -45,7 +45,7 @@ Economics of the protocol are built around the idea that feedback loops between 
 
 The basic idea is to create an Internet Knowledge Protocol. Cyber can account for a large number of use-cases, like: social networks, embedded search, autonomous robots, command tools, personal assistants, content oracles, e-commerce, advertisement networks, offline search and much more. All of these cases are built on semantics.
 
-The problem we are solving, cannot be implemented with smart contracts using your favourite consensus computer. Cyber is an application-specific blockchain. We are not aware of the development of blockchain computers with an architecture at least approximately reminiscent of Cyber.
+The problem we are solving, cannot be implemented with smart contracts using your favourite consensus computer. Cyber is an application-specific blockchain. We are not aware of the development of blockchain computers with an architecture that at least approximately reminiscent of Cyber.
 
 ## Focus on what matters
 
@@ -83,11 +83,11 @@ This means using the funds to support exceptional projects that are building wit
 
 The new Takeoff time is set to block number 2000000 of Cosmos-hub-3.
 
-The precise initial distribution and the deployment process are defined by the whitepaper [5] in chapters 13-18. During the initial distribution, the price of CYB grows almost exponentially (each new CYB is more expensive than the previous) depending on the demand during the both stages: (1) Takeoff in ATOM and (2) cyber~Auction in ETH.
+The precise initial distribution and the deployment process are defined by the whitepaper [5] in chapters 13-18. During the initial distribution, the price of CYB grows almost exponentially (each new CYB is more expensive than the previous) depending on the demand during both stages: (1) Takeoff in ATOM and (2) cyber~Auction in ETH.
 
-During first stage - Takeoff price starts at 1 ATOM per 1 GCYB (1,000,000,000) and grows until it reaches 5x. If this target is not reached in 146 days, the remaining CYB tokens go to the community pool. All the proceedings in ATOM become the property of cyber\~Congress (a private Aragon DAO) to support further development of the project.
+During stage 1: Takeoff price starts at 1 ATOM per 1 GCYB (1,000,000,000) and grows until it reaches 5x. If this target is not reached in 146 days, the remaining CYB tokens go to the community pool. All the proceedings in ATOM become the property of cyber\~Congress (a private Aragon DAO) to support further development of the project.
 
-During second stage - cyber~Auction price starts at the level of 5x from Takeoff and grow 5x more during 888 days. If not, all remaining tokens will be burned. The second phase of donations is the formation of [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) (the public Aragon DAO), that will govern Cyber, without any bureaucratic hassle, CEOs and jurisdictions. Participants of the auction will gain access to all ETH donated to the DAO.
+During stage 2: The price of cyber\~Auction pstarts at 5x from the Takeoff price and strives to grow 5x during 888 days. If not, all remaining tokens will be burned. The second phase of donations is the formation of [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) (a public Aragon DAO), that will govern Cyber, without any bureaucratic hassle, CEOs and jurisdictions. Participants of the auction will gain access to all ETH donated to the DAO.
 
 After Genesis, inflation will have to be defined by the consensus to balance out investment in infrastructure and profitability margin of operators with the necessity to support the continuous distribution of CYB to the broad public at a continuously rising price.
 
