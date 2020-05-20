@@ -11,7 +11,7 @@ We propose ATOM holders to invest 10,000 ATOM from the community pool into this 
 
 ## The Great Web
 
-It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web, like [web3](https://gavwood.com/dappsweb3.html) is. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
+It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web, like web3 is [5]. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
 
 Blockchain computers are very similar to living organisms and will most likely have a longer, yet a limited life cycle. Although blockchains are subjects of the Great Web, they are not its matter. The essence of the Great Web is content addressing - a mechanism that will allow to find and authenticate content through spacetime and across universes.
 
@@ -21,7 +21,7 @@ It is always cool to realise that when you create content in the Great Web and c
 
 The software we offer resembles a decentralized google:
 
-- [protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
+- [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
 - [go-cyber](https://github.com/cybercongress/go-cyber): Our implementation using cosmos-sdk
 - [cyber.page](https://cyber.page/): PoC reference web interface
 - [launch-kit](https://github.com/cybercongress/launch-kit): useful tools for launching cosmos-sdk based chains
@@ -33,7 +33,7 @@ But it's not just that. The idea is bigger and goes further than just primitive 
 
 Cybers mission is to build common public knowledge. They will achieve this by (a) replacing hyperlinks with cyberlinks, (b) developing a universal open search mechanism, and (с) building more resilient internet infrastructure.
 
-Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by opening up access to evergrowing semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
+Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to the semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
 
 Via its distributed infrastructure, Cyber introduces a protocol for provable communication between consensus computers of relevance. This allows creating a provable and relevant knowledge database to interact with. The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result.
 
@@ -47,7 +47,7 @@ It is one of the first times a blockchain implementation offers useful rank comp
 
 Economics of the protocol are built around the idea that feedback loops between the number of links and the value of the knowledge graph exist. The more usage => the bigger the knowledge graph => the more value => the better the quality of the knowledge=> the more usage. Transaction fees for basic operations are replaced by lifetime bandwidth, which means usability for both, end-users and developers. You can think of Cyber as a shared ASIC for search or simply: your Superintelligence.
 
-The basic idea is to create an Internet Knowledge Protocol. Cyber can account for a large number of use-cases, like: social networks, embedded search, autonomous robots, command tools, personal assistants, content oracles, e-commerce, advertisement networks, offline search and much more. All of these cases are built on semantics. It is a scientific experiment that has obvious and useful utility, not just to the end-user, but to the whole world! The formation of relevant and provable answers, that will shape an open semantic core.
+The basic idea is to create an Internet Knowledge Protocol. Cyber can account for a large number of use-cases, like: social networks, embedded search, autonomous robots, command tools, personal assistants, content oracles, e-commerce, advertisement networks, offline search and much more. All of these cases are built on semantics. It is a scientific experiment that has obvious and useful utility, not just to the end-user, but to the whole world! The forming of relevant and provable answers, that will shape an open semantic core.
 
 The problem we are solving, cannot be implemented with smart contracts using your favourite consensus computer. Cyber is an application-specific blockchain. We are not aware of the development of blockchain computers with an architecture that at least approximately reminiscent of Cyber.
 
@@ -65,7 +65,7 @@ It also feels better, to at least try going somewhere, where nobody has ever bee
 
 The digital marketing industry is probably the most powerful and impactful industry out there. With the help of RTB, Google Ads, Facebook Ads and other instruments, having enough resources in the existing realm allows you to program the behaviour of countries, influence election results or change the course of history for good, or not, in a matter of minutes. You already see that the idea of Cyber evolves around content identifiers and its ranks. From here, welcome to Decentralized Marketing, or DeMa. Content was the king before web3, before web2 and even before the web existed. But what is so special about DeMa?
 
-You've certainly heard of DeFi. DeFi is built around a simple idea that you can use a collateral for something that will be settled based on a provided price feed. Here comes the systematic problem of DeFi: price oracles. DeMa is based on the same idea of using collateral, but the input for settlement can be information regarding the content identifier itself. The most simple case is when you create a simple binary prediction market on rank relevance at some point in the future. I.e. wether the rank of the Bitcoin whitepaper [QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj](https://ipfs.io/ipfs/QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj) will grow or not. You now understand that meta-information on content identifiers is the perfect onchain oracle for settlement.
+You've certainly heard of DeFi. DeFi is built around a simple idea that you can use a collateral for something that will be settled based on a provided price feed. Here comes the systematic problem of DeFi: price oracles. DeMa is based on the same idea of using collateral, but the input for settlement can be information regarding the content identifier itself. The most simple case is when you create a simple binary prediction market on rank relevance at some point in the future. I.e. whether the rank of the Bitcoin whitepaper [QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj](https://ipfs.io/ipfs/QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj) will grow or not. You now understand that meta-information on content identifiers is the perfect onchain oracle for settlement.
 
 With the help of DeMa and IBC chains will be able to prove relevance using content identifiers and their ranks one to another. This will help to grow the IBC ecosystem, where each chain has multiple possibilities to exchange data, which is provably valued. And unlike DeFi, you don't need to trust it. We expect DeMa will be the new chapter in the history of contemporary digital marketing.
 
@@ -89,7 +89,7 @@ This means using the funds to support exceptional projects that are building wit
 
 The new Takeoff time is set to block number 2000000 of Cosmos-hub-3.
 
-The precise initial distribution and the deployment process are defined by [the whitepaper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) in chapters 13-18. During the initial distribution, the price of CYB grows almost exponentially (each new CYB is more expensive than the previous) depending on the demand during the both stages: (1) Takeoff in ATOM and (2) cyber~Auction in ETH.
+The precise initial distribution and the deployment process are defined by [the whitepaper](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) in chapters 13-18. During the initial distribution, the price of CYB grows almost exponentially (each new CYB is more expensive than the previous) depending on the demand during both stages: (1) Takeoff in ATOM and (2) cyber\~Auction in ETH.
 
 During stage 1: Takeoff price starts at 1 ATOM per 1 GCYB (1,000,000,000) and grows until it reaches 5x. If this target is not reached in 146 days, the remaining CYB tokens go to the community pool. All the proceedings in ATOM become the property of cyber\~Congress (a private Aragon DAO) to support further development of the project.
 
@@ -101,9 +101,9 @@ After Genesis, inflation will have to be defined by the consensus to balance out
 
 It would be a lie that everything about Cyber is perfectly bright. Looking ahead, we would like to warn you about the dark side.
 
-It is hard to attract users when the knowledge graph is empty. The truth is that we don't need much: about 1M cyberlinks to demonstrate the PoC ([currently](https:/cyber.page/brain), ~100k links have been submitted), 10M cyberlinks to become really useful, and 100M links to create the buzz. The current implementation allows us to scale to about 1B links, which will be enough to build something ultimately useful. We expect this to be a completely doable task for our community. It takes just around 42,000 users who will create 100 cyberlinks p/day, out of personal joy, over the next 3 years. Of course with the help of automated tools we expect to formate the knowledge graph in a year or so.
+It is hard to attract users when the knowledge graph is empty. The truth is that we don't need much: about 1M cyberlinks to demonstrate the PoC (currently, ~100k links have been submitted), 10M cyberlinks to become really useful, and 100M links to create the buzz. The current implementation allows us to scale to about 1B links, which will be enough to build something ultimately useful. We expect this to be a completely doable task for our community. It takes just around 42,000 users who will create 100 cyberlinks p/day, out of personal joy, over the next 3 years. Of course, with the help of automated tools we expect to formate the knowledge graph in a year or so.
 
-Search in the new paradigm cannot be free. No way. You are either a client or a product. We have allocated [10% in the Genesis](https://cyber.page) (8% to Ethereum, 1% to Cosmos and 1% to Urbit) for evaluation purposes, but others have to make a choice for themselves. In the beginning, it’s better not to think of Cyber as the miracle which solves the problems of all the poor in the world, but rather as a premium social search, for those who care about future, privacy and quality.
+Search in the new paradigm cannot be free. No way. You are either a client or a product. We have allocated 10% in the Genesis (8% to Ethereum, 1% to Cosmos and 1% to Urbit) for evaluation purposes, but others have to choose for themselves. In the beginning, it’s better not to think of Cyber as the miracle which solves the problems of all the poor in the world, but rather as a premium social search, for those who care about future, privacy and quality.
 
 The third problem is scalability (again). Unlike Bitcoin and Ethereum we have some aces up the sleeve: an architecture that is perfectly scalable, both horizontally (Internet Knowledge Protocol on top of IBC) and vertically (more GPU cards, FPGAs, Asics, etc). We remind you that Ethereum was purposefully created as a very expensive shared calculator. One more time we have to jump a wave right now: the earlier we start cyberlinking, the earlier we will win this hidden war.
 
@@ -113,6 +113,6 @@ Who are we? We are primary, the generation who was born on the edge of the new m
 
 ## Action
 
-By [voting `yes` on this proposal I support the [Takeoff of the Superintelligence](https://cyber.page/episode-1) on the 20000000 block and collective investment into CYB by Cosmos Hub.
+By [voting `yes` on this proposal I support the [Takeoff of the Superintelligence](https://cyber.page/episode-1) on 20000000 block and collective investment into CYB by Cosmos Hub.
 
-If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in [Game of Links](https://cyber.page/gol/takeoff) or [Takeoff](https://cyber.page/gol) independently. If you have question you can ask them either on [Cyber topic on Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or [Cyber forum](https://ai.cybercongress.ai).
+If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in [Game of Links](https://cyber.page/gol/takeoff) or [Takeoff](https://cyber.page/gol) independently. If you have questions you can ask them either on [Cybers topic on the Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or on [Cybers forum](https://ai.cybercongress.ai).
