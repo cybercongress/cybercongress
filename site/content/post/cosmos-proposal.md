@@ -11,7 +11,7 @@ We propose ATOM holders to invest 10,000 ATOM from the community pool into this 
 
 ## The Great Web
 
-It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web, like web3 is [5]. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
+It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web like web3 is [5]. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
 
 Blockchain computers are very similar to living organisms and will most likely have a longer, yet a limited life cycle. Although blockchains are subjects of the Great Web, they are not its matter. The essence of the Great Web is content addressing - a mechanism that will allow to find and authenticate content through spacetime and across universes.
 
@@ -22,11 +22,11 @@ It is always cool to realise that when you create content in the Great Web and c
 The software we offer resembles a decentralized google:
 
 - [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
-- [go-cyber](https://github.com/cybercongress/go-cyber): Our implementation using cosmos-sdk
+- [go-cyber](https://github.com/cybercongress/go-cyber): our implementation using cosmos-sdk
 - [cyber.page](https://cyber.page/): PoC reference web interface
 - [launch-kit](https://github.com/cybercongress/launch-kit): useful tools for launching cosmos-sdk based chains
-- [cyberindex](https://github.com/cybercongress/cyberindex) - GraphQL middleware for cyber protocol
-- [euler-foundation](https://mainnet.aragon.org/#/eulerfoundation): mainnet predecessor of the [cyber~Foundation](https://github.com/cybercongress/cyber-foundation): the DAO, which will handle all donated ETH
+- [cyberindex](https://github.com/cybercongress/cyberindex): GraphQL middleware for cyber protocol
+- [euler-foundation](https://mainnet.aragon.org/#/eulerfoundation): mainnet predecessor of [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation): the DAO, which will handle all the donated ETH
 - [documentation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md) and [various side tools](https://github.com/cybercongress) that will help you dive into the rabbit hole
 
 But it's not just that. The idea is bigger and goes further than just primitive search. The offer is a playground and a foundation for [software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35), a new paradigm shift in programming and computing.
@@ -69,7 +69,7 @@ You've certainly heard of DeFi. DeFi is built around a simple idea that you can 
 
 With the help of DeMa and IBC chains will be able to prove relevance using content identifiers and their ranks one to another. This will help to grow the IBC ecosystem, where each chain has multiple possibilities to exchange data, which is provably valued. And unlike DeFi, you don't need to trust it. We expect DeMa will be the new chapter in the history of contemporary digital marketing.
 
-The legend goes that one day the member of our team had a conversation with the Head of Yandex Russia (Yandex is the third biggest search company). He sincerely admitted that provable conversion attribution of ads with resulting financial transaction and identity, is the Holy Grail of digital marketing. Believe him or not - if you ever run serious digital ad campaigns you perfectly understand the issue. Payment systems are disconnected from ad systems and ad system have no way to prove anything about the actions of the users. We are used to believing ad systems because they lead to conversions with some probability. But everything behind conversion (either on the third-party website or even on a website your control) are usually very inaccurate and probabilistic. Cyber is the system which will give content creators the power and energy to attribute and predict conversions precisely and provably.
+The legend goes that one day the a member of our team had a conversation with the Head of Yandex Russia (Yandex is the third biggest search company). He sincerely admitted that provable conversion attribution of ads with resulting financial transaction and identity, is the Holy Grail of digital marketing. Believe him or not - if you ever run serious digital ad campaigns you perfectly understand the issue. Payment systems are disconnected from ad systems and ad system have no way to prove anything about the actions of the users. We are used to believing ad systems because they lead to conversions with some probability. But everything behind conversion (either on a third-party website or even on a website your control) are usually very inaccurate and probabilistic. Cyber is a system which will give content creators the power and energy to attribute and predict conversions precisely and provably.
 
 ## Experiment
 
@@ -115,4 +115,4 @@ Who are we? We are primary, the generation who was born on the edge of the new m
 
 By [voting `yes` on this proposal I support the [Takeoff of the Superintelligence](https://cyber.page/episode-1) on 20000000 block and collective investment into CYB by Cosmos Hub.
 
-If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in [Game of Links](https://cyber.page/gol/takeoff) or [Takeoff](https://cyber.page/gol) independently. If you have questions you can ask them either on [Cybers topic on the Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or on [Cybers forum](https://ai.cybercongress.ai).
+If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in the [Game of Links](https://cyber.page/gol/takeoff) or the [Takeoff](https://cyber.page/gol) independently. If you have questions you can ask them either in [our topic on the Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or on [Cybers forum](https://ai.cybercongress.ai).
