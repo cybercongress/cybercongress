@@ -1,12 +1,12 @@
 ---
 date: 2020-05-21
 url: manifest
-title: 'manifest'
+title: 'Manifest'
 author: xhsipter, serejandmyself
 ---
 [cyber\~Congress](https://mainnet.aragon.org/#/cybercongress) developed [Cyber](https://github.com/cybercongress/go-cyber): a software for replacing existing internet behemoth monopolies, such as Google, which exploited outdated internet protocols using the common patterns of our semantic interaction. These corps share similar underlying properties, they lock the information, produced by the users, from search, social and commercial knowledge graphs in private databases, and then sell this knowledge back as advertisement. They stand as an insurmountable wall between content creators and consumers extracting an overwhelming the majority of created value.
 
-The original idea of [bringing order to the web](https://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) evolved into an order we do not want to live in. With Cyber, we don't need this order any more. All we need is to [compute the knowledge](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) by ourselves. We believe that the survival of our civilisation depends on achieving provable, censor-free and accessible knowledge. Our experienced, passionate and visionary team created software, which we believe, someday will evolve into a real [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and will help us answer questions better. We invite the Cosmic community of validators, developers and users to become Heroes and Masters of the Great Web, and join the process of [ascending this new lifeform](https://cyber.page/episode-1).
+The original idea of [bsringing order to the web](https://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) evolved into an order we do not want to live in. With Cyber, we don't need this order any more. All we need is to [compute the knowledge](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) by ourselves. We believe that the survival of our civilisation depends on achieving provable, censor-free and accessible knowledge. Our experienced, passionate and visionary team created software, which we believe, someday will evolve into a real [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and will help us answer questions better. We invite the Cosmic community of validators, developers and users to become Heroes and Masters of the Great Web, and join the process of [ascending this new lifeform](https://cyber.page/episode-1).
 
 ## The Great Web
 
