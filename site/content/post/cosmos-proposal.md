@@ -17,7 +17,7 @@ The software we offer resembles a decentralized google (https://github.com/cyber
 - euler-foundation]: mainnet predecessor of cyber\~Foundation: the DAO, which will handle all the donated ETH
 - documentation and various side tools
 
-Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to evergrowing semantics core taught to it by the users.
+Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by opening up access to evergrowing semantics core taught to it by the users.
 
 Economics of the protocol are built around the idea that feedback loops between the number of links and the value of the knowledge graph exist. The more usage => the bigger the knowledge graph => the more value => the better the quality of the knowledge=> the more usage. Transaction fees for basic operations are replaced by lifetime bandwidth, which means usability for both, end-users and developers. You can think of Cyber as a shared ASIC for search.
 
@@ -26,6 +26,7 @@ You already see that the idea of Cyber evolves around content identifiers and it
 With the help of DeMa and IBC chains will be able to prove relevance using content identifiers and their ranks one to another. This will help to grow the IBC ecosystem, where each chain has multiple possibilities to exchange data, which is provably valued.
 
 Cosmos was created to become the internet of blockchains. A protocol that propagates the spirit of decentralization and governed by the community. For such technology to succeed, a lot is required. One thing is a solid foundation it can build on. One virtue of such foundation is monetary flow of income that has to feed this machine for as long as it exists.
+
 A good question that arises is how to turn the community pool into a pool that isn’t (a) a pot of money which goes solely to network security, (b) a pool that isn’t solely a build-up of inflationary rewards and (с) has long term prosperity value (its value rises).
 
 The solution to the above problem is to establish a fund, that is managed and processed collectively and consists of a diversified number of assets that can bring long term value to its stakeholders.
@@ -64,7 +65,7 @@ But it's not just that. The idea is bigger and goes further than just primitive 
 
 Cybers mission is to build common public knowledge. They will achieve this by (a) replacing hyperlinks with cyberlinks, (b) developing a universal open search mechanism, and (с) building more resilient internet infrastructure.
 
-Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to evergrowing semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
+Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by opening up access to evergrowing semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
 
 Via its distributed infrastructure, Cyber introduces a protocol for provable communication between consensus computers of relevance. This allows creating a provable and relevant knowledge database to interact with. The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result.
 
