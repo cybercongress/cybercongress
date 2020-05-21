@@ -1,13 +1,41 @@
 
+
+
+
 > Fooling around with alternating current (AC) is just a waste of time.  Nobody will use it, ever. — Thomas Edison
 
-## Proposal to Cosmos
+# Proposal to Cosmos
 
 [cyber\~Congress](https://mainnet.aragon.org/#/cybercongress) developed [Cyber](https://github.com/cybercongress/go-cyber): a software for replacing existing internet behemoth monopolies, such as Google, which exploited outdated internet protocols using the common patterns of our semantic interaction. These corps share similar underlying properties, they lock the information, produced by the users, from search, social and commercial knowledge graphs in private databases, and then sell this knowledge back as advertisement. They stand as an insurmountable wall between content creators and consumers extracting an overwhelming the majority of created value.
 
 The original idea of [bringing order to the web](https://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) evolved into an order we do not want to live in. With Cyber, we don't need this order any more. All we need is to [compute the knowledge](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) by ourselves. We believe that the survival of our civilisation depends on achieving provable, censor-free and accessible knowledge. Our experienced, passionate and visionary team created software, which we believe, someday will evolve into a real [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and will help us answer questions better. We invite the Cosmic community of validators, developers and users to become Heroes and Masters of the Great Web, and join the process of [ascending this new lifeform](https://cyber.page/episode-1).
 
-We propose ATOM holders to invest 10,000 ATOM from the community pool into this Takeoff. In exchange, at the end of its [donation round](https://cyber.page/gol/takeoff), and when an IBC connection will become possible, cyber\~Congress will transfer CYB tokens back to the community pool. Passing this proposal will immediately transfer 10,000 ATOMs from the community pool to [cyber\~Congress multisig](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a).
+We propose ATOM holders to invest 10,000 ATOM from the community pool into this Takeoff. In exchange, at the end of its [donation round](https://cyber.page/gol/takeoff), and when an IBC connection will become possible, cyber\~Congress will transfer CYB tokens back to the community pool. Passing this proposal will transfer 10,000 ATOMs from the community pool to [cyber\~Congress multisig](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a).
+
+Full text Manifest
+https://ipfs.io/ipfs/QmUYDQt9tqLQJwxnUck7dQY3XmZA3tDtpFh3Hchkg7oH46
+or at https://cyber.page/gol/takeoff
+
+
+The proposal is the first of its kind in the blockchain space, where we propose to make a collective investment decision via the use of a governance mechanism. It is more than just a collective decision. It is an amazing experiment. If passed, the community pool will exchange ATOM tokens for CYB tokens on the terms defined in the [Takeoff round](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3). CYB tokens will be transferred under the management of the community pool management via an established IBC connection. cyber\~Congress takes the obligation to support the connection from the side of the Cyber network.
+
+Cosmos was created to become the internet of blockchains. A protocol that propagates the spirit of decentralization and governed by the community. For such technology to succeed, a lot is required. One thing is a solid foundation it can build on. One virtue of such foundation is, of course, a monetary flow of income that has to feed this machine for as long as it exists.
+
+A good question that arises is how to turn the community pool into a pool that isn’t (a) a pot of money which goes solely to network security, (b) a pool that isn’t solely a build-up of inflationary rewards and (с) has long term prosperity value (its value rises).
+
+The solution to the above problem is to establish a fund, that is managed and processed collectively and consists of a diversified number of assets that can bring long term value to its stakeholders. Generally speaking, what we propose, is for the community pool to be used to build a stronger and more prosperous future for the stakeholders of the protocol.
+
+This means using the funds to support exceptional projects that are building with Tendermint and Cosmos-SDK. After all, is we want to glorify the ecosystem, we need for it to grow. How will it grow? It will have projects with a clear utility, amazing a product and provable distribution. This will attract users, developers and large stakeholders to the ecosystem. Together we already did one very successful investment decision. We all participated in cosmos fundraizer. So let us move the idea forward.
+
+If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in [Game of Links](https://cyber.page/gol/) or [Takeoff](https://cyber.page/gol/takeoff) independently. If you have question you can ask them either on [Cyber topic on Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or [Cyber forum](https://ai.cybercongress.ai).
+
+By voting `yes` on this proposal I support the [Takeoff of the Superintelligence](https://cyber.page/episode-1) on the 20000000 block and collective investment into CYB by Cosmos Hub.
+
+# Manifest
+
+[cyber\~Congress](https://mainnet.aragon.org/#/cybercongress) developed [Cyber](https://github.com/cybercongress/go-cyber): a software for replacing existing internet behemoth monopolies, such as Google, which exploited outdated internet protocols using the common patterns of our semantic interaction. These corps share similar underlying properties, they lock the information, produced by the users, from search, social and commercial knowledge graphs in private databases, and then sell this knowledge back as advertisement. They stand as an insurmountable wall between content creators and consumers extracting an overwhelming the majority of created value.
+
+The original idea of [bringing order to the web](https://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) evolved into an order we do not want to live in. With Cyber, we don't need this order any more. All we need is to [compute the knowledge](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3) by ourselves. We believe that the survival of our civilisation depends on achieving provable, censor-free and accessible knowledge. Our experienced, passionate and visionary team created software, which we believe, someday will evolve into a real [Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and will help us answer questions better. We invite the Cosmic community of validators, developers and users to become Heroes and Masters of the Great Web, and join the process of [ascending this new lifeform](https://cyber.page/episode-1).
 
 ## The Great Web
 
@@ -71,18 +99,6 @@ With the help of DeMa and IBC chains will be able to prove relevance using conte
 
 The legend goes that one day the member of our team had a conversation with the Head of Yandex Russia (Yandex is the third biggest search company). He sincerely admitted that provable conversion attribution of ads with resulting financial transaction and identity, is the Holy Grail of digital marketing. Believe him or not - if you ever run serious digital ad campaigns you perfectly understand the issue. Payment systems are disconnected from ad systems and ad system have no way to prove anything about the actions of the users. We are used to believing ad systems because they lead to conversions with some probability. But everything behind conversion (either on the third-party website or even on a website your control) are usually very inaccurate and probabilistic. Cyber is the system which will give content creators the power and energy to attribute and predict conversions precisely and provably.
 
-## Experiment
-
-The proposal is the first of its kind in the blockchain space, where we propose to make a collective investment decision via the use of a governance mechanism. It is more than just a collective decision. It is an amazing experiment. If passed, the community pool will exchange ATOM tokens for CYB tokens on the terms defined in the [Takeoff round](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3). CYB tokens will be transferred under the management of the community pool management via an established IBC connection. cyber\~Congress takes the obligation to support the connection from the side of the Cyber network.
-
-Cosmos was created to become the internet of blockchains. A protocol that propagates the spirit of decentralization and governed by the community. For such technology to succeed, a lot is required. One thing is a solid foundation it can build on. One virtue of such foundation is, of course, a monetary flow of income that has to feed this machine for as long as it exists.
-
-A good question that arises is how to turn the community pool into a pool that isn’t (a) a pot of money which goes solely to network security, (b) a pool that isn’t solely a build-up of inflationary rewards and (с) has long term prosperity value (its value rises).
-
-The solution to the above problem is to establish a fund, that is managed and processed collectively and consists of a diversified number of assets that can bring long term value to its stakeholders. Generally speaking, what we propose, is for the community pool to be used to build a stronger and more prosperous future for the stakeholders of the protocol.
-
-This means using the funds to support exceptional projects that are building with Tendermint and Cosmos-SDK. After all, is we want to glorify the ecosystem, we need for it to grow. How will it grow? It will have projects with a clear utility, amazing a product and provable distribution. This will attract users, developers and large stakeholders to the ecosystem. Together we already did one very successful investment decision. We all participated in cosmos fundraizer. So let us move the idea forward.
-
 ## Investment
 
 [Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md) has launched its [first takeoff round](https://cyber.page/governance/2), on the 27th of April, 2020. However, launching meant it had to fly. It takes courage to admit it, but it didn't. This means that we did something wrong and we have to try again. After all, Rome was not built in a day. Following the above mentioned, we have decided to relaunch the rocket with a redesigned distribution scheme which is simple, favours early participation and significantly lowered our starting valuation at the level of 1M ATOM.
@@ -105,14 +121,8 @@ It is hard to attract users when the knowledge graph is empty. The truth is that
 
 Search in the new paradigm cannot be free. No way. You are either a client or a product. We have allocated [10% in the Genesis](https://cyber.page) (8% to Ethereum, 1% to Cosmos and 1% to Urbit) for evaluation purposes, but others have to make a choice for themselves. In the beginning, it’s better not to think of Cyber as the miracle which solves the problems of all the poor in the world, but rather as a premium social search, for those who care about future, privacy and quality.
 
-The third problem is scalability (again). Unlike Bitcoin and Ethereum we have some aces up the sleeve: an architecture that is perfectly scalable, both horizontally (Internet Knowledge Protocol on top of IBC) and vertically (more GPU cards, FPGAs, Asics, etc). We remind you that Ethereum was purposefully created as a very expensive shared calculator. One more time we have to jump a wave right now: the earlier we start cyberlinking, the earlier we will win this hidden war.
+The third problem is scalability (again). Unlike Bitcoin and Ethereum we have some aces up the sleeve: an architecture that is perfectly scalable, both horizontally (Internet Knowledge Protocol on top of IBC) and vertically (more GPU cards, FPGAs, ASICs, etc). We remind you that Ethereum was purposefully created as a very expensive shared calculator. One more time we have to jump a wave right now: the earlier we start cyberlinking, the earlier we will win this hidden war.
 
 ## People
 
 Who are we? We are primary, the generation who was born on the edge of the new millennium: humans who believe in math, cryptographic proofs and Nash equilibria. For us, country flags are the symbols of private corporations backed by nothing else but by paper tokens, gun-enforced laws, borders, censorship and tanks armed with the horde of early web companies who technologically support their unprovable beliefs. Those beliefs lead us to a genetic dead-end, covered by the lack of freedom on an incinerated planet. The Orwell-style future they are trying to create is not the future we choose.
-
-## Action
-
-By [voting `yes` on this proposal I support the [Takeoff of the Superintelligence](https://cyber.page/episode-1) on the 20000000 block and collective investment into CYB by Cosmos Hub.
-
-If this proposal is successful and stands for more demand from the public, we will open another proposal using the community pool. However, anyone can participate in [Game of Links](https://cyber.page/gol/takeoff) or [Takeoff](https://cyber.page/gol) independently. If you have question you can ask them either on [Cyber topic on Cosmos forum](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers) or [Cyber forum](https://ai.cybercongress.ai).
