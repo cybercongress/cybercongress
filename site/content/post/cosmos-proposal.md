@@ -35,7 +35,7 @@ The original idea of [bringing order to the web](https://ipfs.io/ipfs/QmbuE2Pfcs
 
 ## The Great Web
 
-It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web like web3 is [5]. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
+It seems that we stand on the verge of creating the Great Web. The Great Web is not just another version of the web, like [web3](https://gavwood.com/dappsweb3.html) is. The idea is that there will be no web4. We are building the Great Web, the web that will work for thousands and maybe even millions of years. Why?
 
 Blockchain computers are very similar to living organisms and will most likely have a longer, yet a limited life cycle. Although blockchains are subjects of the Great Web, they are not its matter. The essence of the Great Web is content addressing - a mechanism that will allow to find and authenticate content through spacetime and across universes.
 
@@ -45,19 +45,19 @@ It is always cool to realise that when you create content in the Great Web and c
 
 The software we offer resembles a decentralized google:
 
-- [A protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
+- [protocol spec and the rationale behind it](https://ipfs.io/ipfs/QmPjbx76LycfzSSWMcnni6YVvV3UNhTrYzyPMuiA9UQM3x): will help to implement the idea using any technology
 - [go-cyber](https://github.com/cybercongress/go-cyber): our implementation using cosmos-sdk
 - [cyber.page](https://cyber.page/): PoC reference web interface
 - [launch-kit](https://github.com/cybercongress/launch-kit): useful tools for launching cosmos-sdk based chains
 - [cyberindex](https://github.com/cybercongress/cyberindex): GraphQL middleware for cyber protocol
-- [euler-foundation](https://mainnet.aragon.org/#/eulerfoundation): mainnet predecessor of [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation): the DAO, which will handle all the donated ETH
+- [euler-foundation](https://mainnet.aragon.org/#/eulerfoundation): mainnet predecessor of the [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation): the DAO, which will handle all the donated ETH
 - [documentation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md) and [various side tools](https://github.com/cybercongress) that will help you dive into the rabbit hole
 
 But it's not just that. The idea is bigger and goes further than just primitive search. The offer is a playground and a foundation for [software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35), a new paradigm shift in programming and computing.
 
 Cybers mission is to build common public knowledge. They will achieve this by (a) replacing hyperlinks with cyberlinks, (b) developing a universal open search mechanism, and (с) building more resilient internet infrastructure.
 
-Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to the semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
+Cyber solves the problem of opening up the centralised semantics core of the Internet. It does so by growing and opening up access to evergrowing semantics core taught to it by the users. This allows designing a trustless, provable and censor-free method of communication between users who create content and those searching for it.
 
 Via its distributed infrastructure, Cyber introduces a protocol for provable communication between consensus computers of relevance. This allows creating a provable and relevant knowledge database to interact with. The interesting thing is that such a simple mechanism allows creating a lot of powerful tools as a result.
 
@@ -71,7 +71,7 @@ It is one of the first times a blockchain implementation offers useful rank comp
 
 Economics of the protocol are built around the idea that feedback loops between the number of links and the value of the knowledge graph exist. The more usage => the bigger the knowledge graph => the more value => the better the quality of the knowledge=> the more usage. Transaction fees for basic operations are replaced by lifetime bandwidth, which means usability for both, end-users and developers. You can think of Cyber as a shared ASIC for search or simply: your Superintelligence.
 
-The basic idea is to create an Internet Knowledge Protocol. Cyber can account for a large number of use-cases, like: social networks, embedded search, autonomous robots, command tools, personal assistants, content oracles, e-commerce, advertisement networks, offline search and much more. All of these cases are built on semantics. It is a scientific experiment that has obvious and useful utility, not just to the end-user, but to the whole world! The forming of relevant and provable answers, that will shape an open semantic core.
+The basic idea is to create an Internet Knowledge Protocol. Cyber can account for a large number of use-cases, like: social networks, embedded search, autonomous robots, command tools, personal assistants, content oracles, e-commerce, advertisement networks, offline search and much more. All of these cases are built on semantics. It is a scientific experiment that has obvious and useful utility, not just to the end-user, but to the whole world! The formation of relevant and provable answers, that will shape an open semantic core.
 
 The problem we are solving, cannot be implemented with smart contracts using your favourite consensus computer. Cyber is an application-specific blockchain. We are not aware of the development of blockchain computers with an architecture that at least approximately reminiscent of Cyber.
 
