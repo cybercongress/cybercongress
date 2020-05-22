@@ -38,7 +38,7 @@ async function fetchAsync (url) {
               };
               const links = +response.linksCount
               const cids = +response.cidsCount
-              const account = +response.accsCount;
+              const account = +response.accountsCount;
 
               const lastBlock = +response.height;
 
