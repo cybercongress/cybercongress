@@ -9,6 +9,7 @@ languageCode = "en-us"
 hasCJKLanguage = true
 enableMissingTranslationPlaceholders = false
 disableKinds = ["taxonomy", "taxonomyTerm"]
+enableEmoji = true
 
 [params]
   domain = "https://cybercongress.ai"
