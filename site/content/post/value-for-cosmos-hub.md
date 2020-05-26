@@ -2,7 +2,7 @@
 date: 2020-05-24
 url: cosmos-hub-benefit
 title: 'What will Cosmos Hub gain from participating in Cybers takeoff round?'
-author: xhipster, serejandmyself
+author: xhipster
 ---
 
 Upon discussing [proposal 26](https://cosmos.bigdipper.live/proposals/26) submitted by Cyber to the Cosmos hub, calling for it to make a collective decision about participating in its takeoff round, we came upon some fantastic feedback and excellent questions from atom holders. I would like to address 1 particular question and to clarify things a bit.
