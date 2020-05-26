@@ -326,7 +326,7 @@ Cyberlink are the fundamental building blocks of the Great Web. Cyberlinks help 
 | What you link             | From one server to another server  | From one file to another file  |
 | How you link              | Embed link in a webpage            | Sign a transaction             |
 | Where you store the link  | Private server                     | Public blockchain              |
-| Example                   | [google](https://google.com)       | [google](https://cyber.page/network/euler/tx/08F9514853A59EB063ACF4D80D62B48B863834124386B1D473E488344D38EA80) |
+| Example                   | [google](https://google.com)       | [cyber](https://cyber.page/network/euler/tx/08F9514853A59EB063ACF4D80D62B48B863834124386B1D473E488344D38EA80) |
 
 Currently, there are trillions of hyperlinks in existance, but so far [less than a million cyberlinks](https://cyber.page/brain/knowledge) have been created. Changing the way we create links, gives you and the world superpowers and provide features which are impossible with hyperlinks in web-2:
 
