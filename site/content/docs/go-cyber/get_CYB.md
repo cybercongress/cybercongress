@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 
 # How to get CYB tokens

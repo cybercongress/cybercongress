@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 # Setup development environment
 
@@ -17,10 +17,10 @@ Wait for dependency downloading and indexation
 
 ## Add Run Configurations
 ###Add testnet configuration
-![Generate testnet](./img/generate-testnet.png)
+![Generate testnet](/docs/go-cyber/img/generate-testnet.png)
 
 ### Add run configuration with GPU
-![Run node](./img/run-node.png)
+![Run node](/docs/go-cyber/img/run-node.png)
 
 #### Notes about GPU dev environment
 
@@ -29,14 +29,14 @@ TO DO
 ```
 
 ### Add run configuration with CPU
-![Run node CPU](./img/run-node-cpu.png)
+![Run node CPU](/docs/go-cyber/img/run-node-cpu.png)
 
 ```
 start --allow-search=true --compute-rank-on-gpu=false --home=./mytestnet/node0/cyberd
 ```
 
 ### Add reset configuration
-![Reset node data](./img/reset-node-data.png)
+![Reset node data](/docs/go-cyber/img/reset-node-data.png)
 
 
 ## Running Node

@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 # Ultimate cyberd CLI guide. Chain: euler-6
 

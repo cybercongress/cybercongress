@@ -31,7 +31,7 @@ enableEmoji = true
  ]
   BookToC = 3
   BookMenuBundleCyb = '/docs/cyb/menu'
-  BookMenuBundleCyberd = '/docs/cyberd/menu'
+  BookMenuBundleCyberd = '/docs/go-cyber/menu'
   BookMenuBundleChaingear = '/docs/chaingear/menu'
   BookMenuBundleJsAmino = '/docs/js-amino/menu'
   BookMenuBundleJsCosmos = '/docs/js-cosmos/menu'

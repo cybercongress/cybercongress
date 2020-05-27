@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 
 # Join Cyberd testnet as a Validator
