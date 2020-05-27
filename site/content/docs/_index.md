@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 title: 'cyberd: Computing the knowledge from web3'
 ---
 

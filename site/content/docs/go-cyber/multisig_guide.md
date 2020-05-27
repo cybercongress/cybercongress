@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 # A guide for creating a 2 of 3 multisig account and sending transactions
 

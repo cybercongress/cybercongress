@@ -1,5 +1,5 @@
 ---
-project: cyberd
+project: go-cyber
 ---
 # Contributing to cyberd
 Thank you for considering a contribution to **cyberd**! This guide explains how to:
