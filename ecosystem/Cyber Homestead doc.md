@@ -2800,7 +2800,7 @@ Please note, that the video is somewhat outdated, hence use it as reference only
 
 We have an awesome video guide that will help you to set-up your infrastructure. It contains additional details and addons for the above guide, make sure to watch it:
 
-[![Validating video guide](https://i.postimg.cc/KjyBtBcz/Screenshot-from-2020-02-18-18-47-25.png)](https://www.youtube.com/watch?v=AMUatLPfNJM&t=1747s)
+[![Validating video guide](https://www.youtube.com/watch?v=KUZagDJRstc&feature=youtu.be)
 
 #### Maintenance of the validator
 ##### Jailing
