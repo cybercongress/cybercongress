@@ -13,8 +13,8 @@ If you feel comfortable with setting up validators, familiar with what we do alr
 - [Set up configuration](https://cybercongress.ai/docs/cyberd/setup_cyberd_configuration/)
 - The rules to [the Game of Links](https://cybercongress.ai/game-of-links/) (the current incentivized testnet)
 - Validators can bootstrap initial fuel [via the gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md), or by playing [the Game of Links](https://cyber.page/gol) 
-- An A-Z [video instruction](https://www.youtube.com/watch?v=AMUatLPfNJM&list=PLOcP3DXQoNUUYQpGYh8cdRKfmXtFLEF0o&index=1) for 
-setting up a cyber node and infrastructure (please note, that the video should only be used as a reference, some information might be outdated)
+- An A-Z [video instruction](https://www.youtube.com/watch?v=KUZagDJRstc&feature=youtu.be) for 
+setting up a cyber node and infrastructure 
 
 ### For everything else... 
 If you don't feel like you're sure about what cyber does, what validators do or if you do, but need some additional info - it's below. Regardless of whether you are a professional validator, a miner or just starting up.
@@ -27,8 +27,8 @@ Or just search for [your address here](https://cyber.page/gift/0x742d35cc6634c05
 - The tesntet is incentivized. Read about [the Game of Links](https://cybercongress.ai/game-of-links/) and its distribution
 - Or just [watch this video](https://www.youtube.com/watch?v=mcCn_-GMO_k)
 - **You are now ready to become a cyber hero and build `The Great Web`**
-- An A-Z [video instruction](https://www.youtube.com/watch?v=AMUatLPfNJM&list=PLOcP3DXQoNUUYQpGYh8cdRKfmXtFLEF0o&index=1) for 
-setting up a cyber node and infrastructure (please use as reference only, some info might be outdated)
+- An A-Z [video instruction](https://www.youtube.com/watch?v=KUZagDJRstc&feature=youtu.be) for 
+setting up a cyber node and infrastructure 
 - How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/cyberd/run_validator/)
 - We are [Ledger friendly](https://cybercongress.ai/docs/cyberd/validator_launch_with_tendermintkms_and_ledger/)
 - Here is [the CLI command list](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/) to take care of your hero
