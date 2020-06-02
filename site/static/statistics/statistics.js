@@ -1,8 +1,6 @@
 
-const nodeUrl ='https://titan.cybernode.ai/api';
-const wsUrl= 'wss://titan.cybernode.ai/websocket';
-
-
+const nodeUrl ='https://api.cyber.cybernode.ai';
+const wsUrl= 'wss://api.cyber.cybernode.ai/websocket';
 
 async function fetchAsync (url) {
     let response = await fetch(url);
