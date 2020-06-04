@@ -1,14 +1,14 @@
-# Cyber homestead documentation
+# Cyber Homestead Documentation
 
 <p>
   <img src="https://i.postimg.cc/NM2Qsvw5/graph.png" />
 </p>
 
 ## :ticket: Section subtitle: Preparation
-This section contains the basic things you will need for your cyber journey. Find out how to use this guide, how to help it evolve and what awaits ahead.
+This section contains basic information that you will need for your journey into the world of cyber. This guide will be your foundation for knowledge from the different aspects of the cyber ecosphere. Strap in, it's going to be a wild ride.
 
 ### Release version
-0.2: Venus
+0.2.1: Venus
 
 ### Content
 ------------------------------------------------------
@@ -204,79 +204,79 @@ This section contains the basic things you will need for your cyber journey. Fin
 ------------------------------------------------------
 
 ### How to use this guide
-Until something more interactive comes up, this guide will be shaped as a reading document. 
+We will be creating an interactive knowledge center in the future, until then this will be your cyber bible.
 
-You may skip through the content by clicking the desired section you wish to read or/and study info about. We also suggest you take advantage of the `cntrl-F` function to search for what you are looking for. If you used the content section to get to any of the sections, then the `back` button on your browser should take you back to the content page again. 
+Because the information in the guide might be quite dense for one sitting you may skip through it by clicking the desired section instead. We also suggest that you take advantage of the `cntrl-F` function to search directly for what you are looking for. If you used the content section to reach any of the sections, then by using the `back` button on your browser it should take you back to the content page again. 
 
-The guide is, currently, made by the [cyber~Congress team](https://cybercongress.ai/). Its meant to be a knowledge database for everything that there is to know about the beast cyber is. 
+The guide is currently made by the [cyber~Congress team](https://cybercongress.ai/). It's meant to be a knowledge database for everything that there is to know about Cyber and its many appendages. 
 
-If you have any suggestions or want to help to make this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
+If you have any suggestions or wish to contribute to this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
 
 ## :fuelpump: Section subtitle: Ground floor
-Cosmonauts do not become who they are if the initial training hasn't been done properly. In this section, you will find out about some basic terminology that you will need to understand cyber, and dive right into some of its basics. Including the history of cyber, how it works, how to use it and our philosophy.
+Cosmonauts need to undergo an intensive training regime to reach the stars. In this section, you will be presented with some basic terminology that will give you a deeper understanding regarding the Cyber eco-sphere. Some basics will include the history of Cyber, how it works, how to interact wtih it and the core Cyber philosophy.
 
 ### Technical questions in plain terms
 *Click on the below questions to expand the answer:*
 <details>
   <summary> What are distributed technologies? </summary>
-Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In terms of blockchains (distributed data ledgers), it is primarily referred to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
+Distributed technologies are technologies that do not have a central source of power in terms of computing and storage. In regards to blockchains (distributed data ledgers), it is primarily referring to databases that are shared across multiple independent sources and have an agreement on the shared information at any point in time in those databases (are in consensus).
 </details>
 
 <details>
   <summary>What is a consensus computer?</summary>
-A consensus in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 BTC (Bitcoins) on her account balance. So, a consensus computer is a computer that is involved in that process (usually used specifically and solely for that purpose).
+A 'consensus' in computing refers to the process of different computers agreeing on some data and/or its value. For example, they might need to agree on the current time or whether or not Alice has 10 Bitcoin on her account balance. So, a consensus computer is a computer that is involved in that process (usually it is used specifically and solely for that purpose).
   </details>
   
 <details>
   <summary> What's a hash? </summary>
-A hash means a reworking of old and familiar material. In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
+In computing, this refers to a bunch of symbols that represent a particular piece of information/data/file (more precisely, it authenticates the fact that the data represented is what it is). In other words, it is a `fingerprint`. 
 I.E a sha256 hash of `cyber` is: `99100ac04db2147ef246377b1ea4fc0c17106d37286e5d61cc02201301a85bbb`. 
 </details>
 
 <details>
   <summary> What is a Merkle tree?</summary>
-A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied one to another.
+A Merkle tree is the name of a representation (an analogy if you may) of how some data (information) is structured (into a database). It is shaped like a tree, where there is one major root, from which others spawn and they are related to it. From those, more branches/roots spawn out, until we get to the leaves, which represent the current upper level of the information. All the information can be traced from any point to any other point and is mathematically tied to each other.
 </details>
 
 <details>
   <summary>What is a blockchain? </summary>
-A blockchain is a distributed ledger into which independent participants write, and read from it - information. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
+A blockchain is a distributed ledger into which independent participants write, and read information from it. It is protected by the fact that it is distributed across participants computers, which are in agreement one with another at any point of a given time (past or present). A blockchain is auditable to anyone and mathematically transparent. This allows its participants to make sure that there is nothing shady happening in the background. Usually, data in blockchains is structured with the help of a Merkle tree or a Directed Acyclic Graph (more commonly knows as a DAG, which in very basic terms, is just a different way of structuring data). 
 </details>
 
 <details>
   <summary>What is a transaction? </summary>
-In terms of a blockchain, a transaction is a process of moving data. I.E. I have 10 dollars and pass them to your account. I made a transaction.
+In terms of a blockchain, a transaction is a process of moving data. I.E. I have 10 dollars and send them to your account. I made a transaction.
 </details>
 
 <details>
   <summary>What's a token? </summary>
-A token in blockchain terms is a digital representation of some certain value, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
+A token in blockchain terms is a digital representation of ownership and information, relating to a specific distributed ledger. It should contain some utility i.e. it should be used to do something, which in turn gives it value for the participants (users) of that ledger. It can be represented in several ways and there can be more than one token on one ledger. 
 </details>
 
 <details>
   <summary>What is NFT? </summary>
-NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are... stamps. But each stamp has its own characteristics, value and history.
+NFT are non-fungible tokens. Meaning that they are tokens of one type, but each not interchangeable, each with their own characteristics. For example, a collectable stamp is an example of NFT. All stamps are, well, stamps. But each stamp has its own characteristics such as value and history.
 </details>
 
 <details>
   <summary>What's bandwidth? </summary>
-Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I can move 5 stones from room A to room B in the space of one hour. Then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another.<br>
-In cyber bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transaction in a certain amount of time. Then, over time, it regenerates to give the user more ability to commit more transactions.
+Bandwidth is the amount of information someone can pass through some resource at a given time frame. For example (which is a mere analogy), if I move 5 stones from room A to room B in the space of one hour, then we can say that my stone bandwidth is 5 stones per hour. Bandwidth in IT relates to information and the ability to pass a certain amount of data from one place to another.<br>
+In Cyber, bandwidth plays a major role. It is a spam protection mechanism. It allows a user to only do a certain amount of transactions in a certain amount of time. Then, over time, it regenerates to give the user more throughput to commit more transactions.
 </details>
 
 <details>
   <summary>What is Sybil resistance? </summary>
-Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system where the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
+Sybil resistant means that it can withstand Sybil attacks. A Sybil attack is simply an attack on a system whereby the attacker uses a lot of pseudo (fake) identities to gain influence (usually, in terms of computational power) for himself.
 </details>
 
 <details>
   <summary>What is BFT? </summary>
-FT is an abbreviation for Byzantine fault tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
+BFT is an abbreviation for Byzantine Fault Tolerance. It is a system that tackles the Byzantine general problem (a problem in which 4 generals need to come to an agreement of successfully attacking a city at the same time). In blockchains, each node (computer) needs to agree with one another on the current state of the network securely and efficiently. BFT is designed in such a way to help avoid the Byzantine generals problem. It is designed to achieve agreement even if some of the communicating nodes involved act maliciously. 
 </details>
 
 <details>
   <summary> What is POS? </summary>
-Proof of Stake is the name of the consensus algorithm (way of agreeing) that is used in certain blockchain systems. Its main idea is to protect the system through the use of the stake of its participants. 
+Proof of Stake is the name of the consensus algorithm (method of agreement) that is used in certain blockchain systems. Its main idea is to protect the system through staking of its participants allocated value, with the threat of slashing value from bad actors. 
 </details>
 
 <details>
@@ -286,174 +286,174 @@ Staking is the process of "locking" your tokens to receive rewards.
 
 <details>
   <summary>What is the purpose of staking?  </summary>
-The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in his favour. The rewards are the incentive which users receive for "locking" their tokens to protect the system.
+The purpose of staking is network security. The tokens that are locked, the better for the system. This is done to prevent the so-called 51% attack. Which means that someone gains access to 51% of the resources and can then cheat the system in their favour. The rewards are the incentive in which users receive for "locking" their tokens to protect the system.
 </details>
 
 <details>
   <summary>Who or what are validators? </summary>
-The validators are someone or rather a computer. Well, the word validator refers to both. Someone who runs a specific computer and the computer itself. Validators are making sure that all the transactions (communications) carried out in cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent. They have to reach consensus on the state of the ledger. And in cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+Valiators are tasked with making sure that all the transactions (communications) carried out in Cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent, they are run by people who are trusted by delegators to ensure the security of the system. They have to reach consensus on the state of the ledger. And in Cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
 </details>
 
 <details>
   <summary>What or who is a delegator? </summary>
-Delegators are uses that delegate their tokens to validators to participate in receiving staking rewards. For this validators might charge commission. 
+Delegators are users that delegate their tokens to validators in order to participate in receiving staking rewards. For this service, validators might charge commission on the overall received rewards. 
 </details>
 
 <details>
   <summary>What are smart contracts? </summary>
-Smart contracts are programs that can program your protocol to behave in a certain way. For example, tell it to pay 10 coins to user A after he accomplishes a certain task. 
+Smart contracts are software programs that can interact with the protocol to behave in a certain way. For example, you can code it to pay 10 coins to a user after they accomplish a certain task. 
 </details>
 
 <details>
   <summary>What is a VM? </summary>
-A virtual machine in computing is a computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the film "aliens". The alien is a VM in this case. 
+A virtual machine in computing is a virtualized computer system that allows one system to behave like another. In other words, it is a system inside another type of system. A real-world analogy would be the movie 'Inception' where there is a world within a world, where the outside world can interact with the inside world, but the 'inside' world cannot interact with the outside one.
 </details>
 
 <details>
   <summary>What are knowledge graphs? </summary>
-Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin, what it is, where to get some, etc. This is essentially, the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to google). 
+Knowledge graphs are a compilation of facts and information that provide meaning to a specific search result. I.E. if you search for Bitcoin, you might see a box on the side of the search results with lots of data about Bitcoin such as what it is, where to get some, and how many exist. This is essentially the work of a knowledge graph. Currently, knowledge graphs use data from Wikipedia, Wikidata and other sources (which almost all, belong to Google). 
 </details>
 
 <details>
   <summary>What's PageRank? </summary>
-It is one of the algorithms used by google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it decides what website should be ranked higher.
+It is one of the algorithms used by Google to rank search results. At a very basic level, it is based on the principle of counting incoming, quality links. Based on this information it then decides what website should be ranked higher.
 </details>
 
 <details>
   <summary>What is web3? </summary>
-Web3 is the next evolutionary step in the development of the web. A step that takes away from centralisation of search and social services and away from things that are depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. In agreement with each other, whilst also, be motivated for this behaviour. And as a result, achieve a safer routing of data and packets (information exchange) on the web.<br>
-Often, you might notice the term `Great Web` in our documents. For us, The Great Web is a much better-suited name for the more common term `web3`.
+Web3 is the next evolutionary step in the development of the web. A step that takes away from the centralization of search, social services and away from things that depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. It envisions a future in which entities can be in agreement with each other, whilst also being incentivized for this behaviour. As a result this would bring about a safer routing of data and packets (information exchange) on the web.<br>
+Often, you might notice the term `Great Web` in our documents, for us The Great Web is a much better-suited name for the more common term `web3`.
 </details>
 
 <details>
   <summary>What is IPFS?  </summary>
-IPFS is a peer-to-peer (directly connected between two users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread across high volumes of data and keeps every version of your files. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable or if you may - everlasting.<br> 
-IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications, etc. 
+IPFS is a peer-to-peer (directly connected between multiple users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread high volumes of data across the network and keeps every version of your files. It was created to ensure that files can be stored without the need for centalized servers, much like how BitTorrent and other porotocols were created. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable, or if you may - everlasting.<br> 
+IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications and more. 
 </details>
 
 <details>
   <summary>What's governance? </summary>
-Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen, etc. They do so via a voting mechanism.
+Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen and what priorities matter. They do so via interacting with a voting mechanism.
 </details>
 
 <details>
   <summary>What is a DAO? </summary>
-A DAO is a decentralised autonomous organisation. It is a unity of users that mutually decided on the governance of something. This can be a protocol, a fund, an organisation, etc. A DAO does not have a physical representation. It is represented with the help of cryptography and code. 
+A DAO is a decentralized autonomous organisation. It is a collective of users that mutually decide and participate in the governance on a matter of shared interest. This can be a protocol, a fund, an organisation or any mutually proposed component. A DAO does not have a physical representation. It exists on the virtual Cyber-sphere is represented with cryptography, code and the participation of its congress. 
 </details>
 
 <details>
   <summary>What's Aragon? </summary>
-Aragon is an application for creating decentralized, autonomous organisations backed by code rather than by centralised law. The distributed code becomes the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, companies, and communities with the help of Aragon. 
+Aragon is an application for creating decentralized, autonomous and soverign organizations backed by code rather than by centralized, national law. The distributed code is the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, communities, collectives, and communities with the help of Aragon. 
 </details>
 
 <details>
   <summary>What are prediction markets? </summary>
-Prediction markets are an example of communicating and financial incentives between actors (users) of an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. He may put at stake his reputation or money. What this provides us with, is a system where rather than trusting a centralised source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
+Prediction markets are the merger of communication and financial incentives between actors (users) on an open market. A user can say "It is raining now" and back this information with data from a local weather station. Others may agree or disagree with this statement based on evidence provided by the initial predictor. They may put at stake their reputation or money. What this provides us with is a system where rather than trusting a centralized source for providing certain information, we have a large number of independent sources, providing their opinion on a certain event with evidence. Hence, creating a provable and auditable service for some type of data (usually backed with a financial record). 
 </details>
 
 <details>
   <summary>What's an entity?  </summary>
-An entity is an existing thing. An entity exists and that's all it needs to do to be an entity.
+An entity is an existing thing. An entity exists and that's all it needs to do to become an entity.
 </details>
 
 <details>
   <summary>What's a foundation? </summary>
-When talking about construction a foundation is the lowest load-bearing part of a structure or building. When referring to organisations, a foundation is an entity that is managing the governing questions regarding its actions/structure, etc
+When talking about construction, a foundation is the lowest load-bearing part of a structure or building. When referring to organizations, a foundation is an entity that is managing the governing questions regarding its actions/structure.
 </details>
 
 <details>
   <summary>What's a congress? </summary>
-Congress can be a group of people picked by others to make challenging decisions. 
+Congress can be a group of people selected by others to make challenging decisions. 
 </details>
 
 <details>
   <summary>What is a hardware wallet in terms of crypto?  </summary>
-There are numerous ways to store your cryptocurrency (tokens). There are hot wallets. A hot wallet is one with access to the internet. There are two categories. One is when you own your private key (the good way) and in the other - is when you don't own your private key. For example, if you keep your tokens on an exchange (that's a bad way - do not do this!). You should always remember one simple rule: `Not your keys - not your crypto!`<br> 
-There are cold wallets. Which are pretty safe if are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net).<br> 
+There are numerous ways to store your cryptocurrency (tokens). One such example is a hot wallet. A hot wallet is one which has direct access to the internet. There are two categories. One is when you own your private key (the good way) and in the other - is when you don't own your private key. For example, if you keep your tokens on an exchange (that's a bad way - do not do this!). You should always remember one simple rule: `Not your keys - not your crypto!`<br> 
+Then there are cold wallets. These are pretty safe if they are created following a normal set of guidelines (plenty of guides around the internet). A cold wallet is one that does not have access to the internet. This can be a paper wallet or a physical wallet (either a metal device or a hardware wallet that never had access to the net).<br> 
 Finally, there are hardware wallets (they can also be hot or cold). A hardware wallet is a small digital device which requires physical access to make a transaction. Usually, they come in the form of a slightly bigger than your typical USB stick which you can connect to your PC and you need to press buttons physically on the device to do anything.  Of course, this drastically increases security, even if the device is considered hot. 
 </details>
 
 ### Introduction
-**Q:** What is cyber? <br>
-**A:** Cyber is a decentralized google. It is an innovative search protocol that can provide provable answers to questions without an intermediary opinion. 
+**Q:** What is Cyber? <br>
+**A:** Cyber is a decentralized Google. It is an innovative search protocol that can provide provable answers to questions without an intermediary opinion. 
 
-**Q:** What is the main mission of cyber? <br>
+**Q:** What is the main mission of Cyber? <br>
 **A:** Cyber is an innovative, general-purpose search mechanism for
 obtaining answers.  Its mission is to create a universal search mechanism to:
-(a) build an open semantic field of the internet with the help of blockchain technology and cyberlinks, and
+(a) build an open semantic field of the internet with the help of blockchain technology, cyberlinks and
 (b) provide more resistance to web services through decentralization of its infrastructure
 
-**Q:** What cyber is NOT? <br>
-**A:** Cyber is not the new internet. It is a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
+**Q:** What Cyber is NOT? <br>
+**A:** Cyber is not the new internet. It is however a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
 
-Cyber is not a commercial product. It is an instrument if you wish, or a tool, that anyone can use. That said, Cyber allows for several ways for its participants to earn rewards and Cyber is a technology that belongs to its users.
+Cyber is not a commercial product. It is a tool that anyone can use. That said, Cyber allows for several ways for its participants to earn rewards and Cyber is a technology that at its core, belongs to its users.
 
-**Q:** How does cyber work? <br>
-**A:** Cyber is a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information onto a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized google. 
+**Q:** How does Cyber work? <br>
+**A:** Cyber is a brand new protocol (a procedure that helps computers to do things in a certain way) for adding and searching information into a knowledge graph (a compilation of facts about something that provides meaning to the user). And rank this information. In other words, it's a decentralized Google. 
 
-This protocol exists thanks to such technology as blockchain and what is referred to, as content addressing (a way to locate information on the web using the content, rather than referring to its location, by such, avoiding censorship).
+This protocol exists thanks to technology such as blockchain and what is referred to, as content addressing (a way to locate information on the web using the content, rather than referring to its location, thus avoiding censorship).
 
-But why do we need a new way to search for things? Well, there are 2 reasons. One, we want to decentralize the service of the web. This is social media, search and even e-commerce, etc, which are all based around semantics (the meaning and the relation of words and objects). The problem is that the current semantical field, that we use every day, is built pretty much by one company, allowing it to sell data, provide users with misleading information and to effectively censor data. And here we come to Cybers second task, the creation of an open semantics field. 
+But why might you ask do we need a new way to search for things when soultions already exist? Well, there are two primary reasons. One, we want to decentralize the services of the web. Some examples of these are social media, search and even e-commerce. These are all based around semantics (the meaning and the relation of words and objects). The problem is that the current semantical field that we use every day, is built pretty much by one company, Goole. This allows it to sell data, provide users with misleading information and to effectively censor data. And here we come to Cybers second task, the creation of an open semantics field. 
 
-Google is essentially a huge marketplace, where someone is searching for content and the other side provides this content. You can purchase most of googles services, but you cannot purchase the ability to search without bullshit and advertisement. Moreover, you cannot search for many things. The original vision of the internet was to share knowledge freely. Currently, this is not the case. We pay for academical papers, we cannot freely share information. Hence projects like WikiLeaks, arXiv.org, tor, etc exist. 
+Google is essentially a huge marketplace, where someone is searching for content and the other side provides this content. You can purchase most of Googles services, but you cannot purchase the ability to search without centralized bullshit, surveillance and advertisements. Moreover, you cannot even search for many censored subjects. The original vision of the internet was to share knowledge freely. Currently, this is not the case. We pay to view academical papers that are otherwise free if requested directly from the researchers, we cannot freely share and view vast swatches of humankinds immense information vault. Hence projects like WikiLeaks, arXiv.org, tor, etc exist. 
 
-You may think of Cyber is a huge Wikipedia without censorship, which is at the moment, waiting to be filled with knowledge from the current web, by a transition to the new web. A web which you control. A web that is free of censorship. A web where the internet works for you and not the other way around.
+You may think of Cyber akin to a huge Wikipedia without censorship, which is at the moment waiting to be filled with knowledge from the current web, or even by a transition to the new, transparent web. A web in which you control your own dataset. A web that is free of censorship. A web where the internet works for you and not the other way around.
 
-But how does this all work and can this really be used for something rather than just search? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, let's label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. From and to. The from in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
+But how does this all work and can this really be used for something rather than just searching? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, lets label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. `From` and `to`. The `from` in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
 
-To make the content and the keyword immutable, we use what we call content identifiers. For now, we work with a technology called IPFS, which is, basically, a distributed p2p storage, where users can safely store and exchange data (but Cyber can work with any similar technology, DAT, GIT, Bitcoin, Ethereum, Swarm, etc). 
+To make the content and the keyword immutable, we use what we call content identifiers. For now, we work with a technology called IPFS, which is basically, a distributed p2p storage where users can safely store and exchange data (but Cyber can work with any similar technology such as DAT, GIT, Bitcoin, Ethereum, Swarm, etc). 
 
-This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one thing is the keyword and the other is the content. 
+This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one point is the keyword and the other is the content. 
 
-There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam, this is why Cyber uses an energy model. Where users have a certain amount of energy that they can spend over a certain period of time before it recharges. Just like your phone or tablet.
+There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam so this is why Cyber uses an energy model. In this energy model users have a certain amount of energy that they can spend over a certain period of time before it needs to recharge. You can think of this as a timeout.
 
-As this content gets added the graph is filled with more and more knowledge. Hence, the reference to Wikipedia. This knowledge needs to somehow be indexed and ranked. There is so no censorship in Cyber. All of the indexing and ranking is done with the help of a transparent mechanism that everyone knows of. This work is done by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (literally - graphics cards). 
+As this content gets added the graph, it is filled with more and more knowledge. Hence the reference to Wikipedia, this knowledge needs to somehow be indexed and ranked. There is so no censorship in Cyber. All of the indexing and ranking is done with the help of a transparent mechanism that everyone can inspect. This work is done by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (Graphical Processing Units, or as more commonly known - graphics cards). 
 
-That content is dynamically ranked with the help of digital tokens and the current parameters of the networks load. This makes the rank dynamic (characterized by continuous change, activity, or progress) and, literally, alive. All these parameters can be changed by the users, as they are the stakeholders.
+That content is dynamically ranked with the help of digital tokens and the current parameters of the network load. This makes the rank dynamic (characterized by continuous change, activity, or progress) and literally, alive. All these parameters can be changed by the users via governance, as they are the stakeholders.
 
-Because we use hashes and blockchain technology, we can root to the origin of the links and make sure that the content came from where it says it has. Basically, allowing for a simple provable mechanism.  
+Because we use hashes and blockchain technology, we can inspect the original root of the links to ensure that the content came from where it says it has. Basically, allowing for a simple provable mechanism.  
 
-At first, this makes up for a perfect search engine, without a blackbox intermediary. But going back to our graph, we can imagine, that such a graph can be used in many cases. For example, unified semantics, because hashes don't care about what language was used by the person who added the content. Or autonomous robots, because they are built on simple ML algorithms, which are in turn based on semantics too. There are many use cases for this. But most importantly, this leaves us in control of our own data. Allowing us to decide what to do with it. Also, this helps us to create relevance between objects on the graph, without any opinions that are sold to us daily by different megacorps.
+This makes a perfect search engine, without a blackbox intermediary. But going back to our graph, we can imagine, that such a graph can be used in many cases. For example, unified semantics, because hashes don't care about what language was used by the person who added the content. Another case would be autonomous robots because they are built on simple ML algorithms, which are in turn based on semantics too. There are many use-cases for this but most importantly, this leaves us in control of our own data. Allowing us to decide what to do with it. Also, this helps us to create relevance between objects on the graph, without any opinions that are sold to us daily by different megacorps.
 
 **Q:** What is a relevance machine? <br>
-**A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
+**A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. Cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, Cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
 
-When a user creates a cyberlink, he expresses the will to do so by backing this cyberlink with some weight in CYB tokens. In other words, the user submits to the knowledge graph what is important for him. The meaning extraction for knowledge in the case of cyber is incentivized. The submitted cyberlinks are dynamically ranked and project relevance to those who submitted them. 
+When a user creates a cyberlink, they expresse the will to do so by backing this cyberlink with some weight in CYB tokens. In other words, the user submits to the knowledge graph what is important for them. The meaning extraction for knowledge in the case of Cyber is incentivized. The submitted cyberlinks are dynamically ranked and project relevance to those who submitted them. 
 
-Cyber uses Merkle trees to build proofs for the submitted links, creating a provable and auditable chain of information down to the root. The more agents inquire the knowledge graph, the more valuable the knowledge becomes. Based on this, the relevance between cyberlinks can be computed. Via querying and delivering answers in such fashion, a simple mechanism is constructed - the relevance machine. 
+Cyber uses Merkle trees to build proofs for the submitted links, creating a provable and auditable chain of information down to the root. The more agents that inquire the knowledge graph, the more valuable the knowledge becomes. Based on this, the relevance between cyberlinks can be computed. Via querying and delivering answers in such fashion, a simple mechanism is constructed - the relevance machine. 
 
-**Q:** Why cyber? <br> 
+**Q:** Why Cyber? <br> 
 **A:** We like that name. That's one reason. We have been using this name throughout our projects for the past 6 - 7 years.
 
-Actually, cyber refers to anything that is very smart. The meaning is rooted in the word cybernetics (check out this article on Wikipedia) - a science which describes the behaviour of dynamic systems with feedback loops.
+Actually, Cyber refers to anything that is very smart. The meaning is rooted in the word cybernetics (check out this article on Wikipedia, or on cyber.page!) - a science which describes the behaviour of dynamic systems with feedback loops.
 
-In popular culture, it has become a partial synonym to all the crazy sci-fi things out there. Like the cyber-track by Elon Musk and co. Cyber refers to cyberspace. Space free from centralized, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
+In popular culture, it has become a partial synonym to all the crazy sci-fi elements out there. Like the cyber-truck by Elon Musk and the Tesla team. Cyber refers to cyberspace. Space free from centralization, human influence and bureaucracy. It is the Andromeda of freedom. The last frontier...
 
-### The history of cyber
-The idea of cyber was incepted in late 2016. The original white paper was written by [@xhipster](https://github.com/xhipster) while still working with cyber·Fund. In 2017 a team of engineers began working on developing the project, that was then called cyber·Search. 
+### The history of Cyber
+The idea of Cyber was incepted in late 2016. The original white paper was written by [@xhipster](https://github.com/xhipster) while still working with cyber·Fund. In 2017 a team of engineers began working on developing the project, that was then called cyber·Search. 
 
-The idea behind cyber·Search was to create a blockchain agnostic explorer, that would enable anyone to search for any metadata within any blockchain. We have a small [retro landing page](https://cybercongress.github.io/cyber-search/) left from those days. 
+The idea behind cyber·Search was to create a blockchain agnostic explorer that would enable anyone to search for any metadata within any blockchain. We have a small [retro landing page](https://cybercongress.github.io/cyber-search/) left from those days. 
 
-After some time the team behind cyber·Search left and cyber~Congress was born. If you are curious, [watch those videos](https://io.cybernode.ai/ipfs/QmZ61iiRSqtu2DUW6hgjdQDoKY3RzLK7mRGqRbeVQaRtCH) to see how it happened (*hint: you can also watch some of the original cyber·Search videos on the same youtube channel*). 
+After some time the team behind cyber·Search left and cyber~Congress was born. If you are curious, [watch those videos](https://io.cybernode.ai/ipfs/QmZ61iiRSqtu2DUW6hgjdQDoKY3RzLK7mRGqRbeVQaRtCH) to see how it came to be (*hint: you can also watch some of the original cyber·Search videos on the same youtube channel*). 
 
 (*hint: you may also see the [launch roadmap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#full-launch-roadmap) for a historical timeline*)
 
-The team was dedicating time to research and building. As time progressed, so did cyber·Search. The team grew, the idea grew and eventually, the results of good research, skilled engineering and the development of blockchain technology, led to the transformation of cyber·Search - into cyber, along with the birth of cyber~Rank, the mechanism that ranks information in cyber.  
+The team was dedicating time to research and development. As time progressed, so did cyber·Search. The team grew, the idea grew and eventually the results of good research, skilled engineering and the development of blockchain technology led to the transformation of cyber·Search - into Cyber. Shortly after came the birth of cyber~Rank, the mechanism that ranks information in cyber.  
 
-The idea grew bigger and bigger until at one point it became what it is today. cyber wasn't an explorer anymore, it was now a global and innovative search mechanism for the new web.
+The idea grew incrementally until it became what it is today. Cyber wasn't an explorer anymore, it was now a global and innovative search mechanism for the new web.
 
-The current white paper took 3 years of work to complete. The team that stands behind cyber changed pretty much altogether, but the original idea of making a universal and an intelligent search still stands (*hint: you can see the current team [here](https://github.com/cybercongress/congress/blob/master/teams/cybercongress.toml)*). 
+The current white paper took 3 years of work to complete. The team that stands behind Cyber have changed pretty much altogether, but the original idea of making a universal and an intelligent search still remains (*hint: you can see the current team [here](https://github.com/cybercongress/congress/blob/master/teams/cybercongress.toml)*). 
 
-The idea of cyber is still developing. But today it's not raw anymore. Today cyber has a clear vision of abolishing the chains of digital slavery through decentralizing the semantics of the web and its services.  
+The idea of Cyber is still ongoing. But today it's not raw anymore. Today Cyber has a clear vision of abolishing the chains of digital slavery through decentralizing the semantics of the web and its many services.  
 
-### The philosophy behind cyber
-To understand cyber one first needs to understand its philosophy. Our work isn't simply technical. We base our work on our values. If it wasn't for them, we were not be building cyber. To be completely open about our intentions, I will jump into the story of the team behind cyber, and how values are our core driver. The core team knows each other for several years and has worked together previously. At one point, a few years ago we separated our ways, only to realize that whatever we do, we do not share values of others, hence, bringing the team back together.
+### The philosophy behind Cyber
+To understand Cyber one first needs to understand its philosophy. Our work isn't simply technical. Our work is deeply intertwined with our value system. If it wasn't for that, we would not be dedicating our life to building Cyber. To be completely open about our intentions, I will lay out the story of how the team behind Cyber came together, and just how our value system is our core driver. The core team have known each other for several years and have worked together previously. At one point, a few years ago we separated, only to realize that whatever we do, we do not share values of others, hence, bringing the team back together yet again.
 
-What do we believe in? Firstly we believe in freedom, privacy and decentralization. We share and propagate the vision of improving this world. We believe that evil stands behind a centralized, bureaucratic approach to technology, governance, communication protocols (money), etc.
+What do we believe in? Firstly we believe in freedom, privacy and decentralization. We share and propagate the vision of improving this world. We believe that evil stands behind a centralized, bureaucratic approach to technology, governance, communication protocols, money and more.
 
-We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. With that in mind, what we are trying to say, is that cyber and cyb are not just technological results. They are much more. At its base lay the values of the team behind cyber. We hope that our project can re-create certain values of what we believe the blockchain paradigm stands for. 
+We believe in code. We believe in technological innovation and how it can give humankind tools to craft our own liberty. We belive in making use of our knowledge to make the world a slightly better to leave for our children to inherit. With that in mind, what we are trying to say, is that Cyber and CYB are not just technological creations. They are much more. At their base lay the values of the team behind Cyber. We are digitizing our core values and placing them within the system we are crafting. We hope that our project can create was the internet set out to acomplish to be and what we believe the blockchain paradigm stands for. 
 
-*Q&A on the philosophy behind cyber:*
+*Q&A on the philosophy behind Cyber:*
 
 <details>
   <summary>What problem are you trying to solve? </summary>
@@ -462,37 +462,37 @@ We are trying to solve the problem of data centralization and data censorship. W
 
 <details>
   <summary>Why are you doing this?  </summary>
-Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions.
+Each person should be able to control their own data, their identity, their knowledge. The universe can become a better place if our children live in a digital environment where they are in charge of their actions and can control their own data.
 </details>
 
 <details>
-  <summary>What's wrong with google?  </summary>
-google is a brilliant idea. We do not deny this. But google is the rebel that has overthrown the dictator and became the dictator itself. google uses you to shape the essence and the fundamentals of communications between everyone and everything. Whilst at it, google doesn't care for anyone and will make money on your action and your behalf.<br>
-It should be noted, that by this question I am attempting not just at google, but at all the mega-digital corporations. Feel free to check out what this can lead to in the shape of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this case is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "break" society.
+  <summary>What's wrong with Google?  </summary>
+Google is a brilliant idea. We do not deny this. But Google is the rebel that has overthrown the dictator and became the dictator itself. Google uses you to shape the essence and fundamentals of communications between everyone, and everything. Whilst at it, Google doesn't care for anyone and will make money on your actions. Google recreates the world and presents you a filter, curated and santised version depending on your location. <br>
+It should be noted that by this question I am referencing not just Google, but at all the mega-corporations that strive for your attention and input. Feel free to check out what dystopia this can lead to in the case of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this example is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "infiltrate" into society.
 </details>
 
 <details>
   <summary>Why now? </summary>
-Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or give those powers away to someone to control all aspects of our lives.
+Because we are almost done with post-industrialism. We are slowly and surely moving into the digital realm. One can deny or accept this. Now is the time to either have the tools that will help us to shape the matrix the way we want to shape it or to give those powers away to someone to control all aspects of our lives.
 </details>
 
 <details>
   <summary>Why search? </summary>
-Search is a global mechanism that is globally understood by everyone, regardless of language, race, age, etc. It is somewhat a basic instinct (searching for food to survive, etc). In the digital realm with the help of search, we gain answers to our questions, which we always ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
+Search is a global mechanism that is globally understood by everyone, regardless of language, race, age. It is somewhat a basic instinct much like searching for food to survive. In the digital realm with the help of search, we gain answers to our questions, which we constantly ask. Search helps us to build a model around any subject that is of interest to us. With the use of search we can build databases, which can lead to a great number of useful instruments (on these later).
 </details>
 
 <details>
-  <summary>Aren't there other, more important problems to solve? </summary>
-There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology, etc). Our tool can help to play a role in solving if not all, but some of these.  
+  <summary>Isn't there other, more important problems to solve? </summary>
+There probably are. But we decided to focus on this because we understand how to achieve the required result. There are probably more problems and questions to be solved (like hunger, wars, ecology destruction). Our tool can help to play a role in solving if not all, but some of these.  
   </details>
   
 <details>
   <summary>Aren't there other things out there that solve this? </summary>
-There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). They are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our work that has arisen from this. It is specifically targeted at fixing what is broken.
+There is a lot of awesome, open-source technology on the market that can commit to making a change in the world. Most of the technology we use is not something we invented (although the code itself is written from scratch!). There are technologies that have existed previously and are awesome at doing what they do. Our software is a combination of existing technologies, protocols and our work that has arisen from this. It is specifically targeted at fixing what is broken and filling in the blanks.
 </details>
 
 <details>
-  <summary>How can users/developers/others benefit from using such a system in comparison to google, etc?  </summary>
+  <summary>How can users/developers/others benefit from using such a system in comparison to Google, etc?  </summary>
 <img src="https://i.postimg.cc/7hX2GbQC/cyber.png" />
 </details>
 
