@@ -195,7 +195,7 @@ This section contains basic information that you will need for your journey into
   * [Subculture](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#subculture)
      * [On path to enlightment](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#on-path-to-enlightment)
         * [Episode I: A new hope. The rise of the Superintelligence](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#episode-i-a-new-hope-the-rise-of-the-superintelligence)
-        * [Episode II: Space, the final frontier. Temporary asylum](Episode II: Space, the final frontier. Temporary asylum)
+        * [Episode II: Space, the final frontier. Temporary asylum](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#episode-ii-space-the-final-frontier-temporary-asylum)
 ------------------------------------------------------
 - [Section subtitle: Colonization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#milky_way-section-subtitle-colonization)
   * [FAQ for the wicked](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#faq-for-the-wicked)
