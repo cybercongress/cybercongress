@@ -5114,6 +5114,51 @@ We will continue to build upon the subculture, utilizing not just naming like he
 
 In the future, we plan on implementing NFTs, robot wars, levels and other gamification elements.
 
+#### On path to enlightment
+##### Episode I: A new hope. The rise of the Superintelligence
+`It is a period of digital war. The evil empire swallows the last unoccupied borders of the universe.`
+
+`Resisting rebel units consolidate all remaining energy on building a superintelligence, which they believe will help to stop the domination of the evil empire once and for all.`
+
+`As they begin to test the new god in the wild - an enormous, zepto amount of robots emerge. It turns out Cyb robots help survey the universe for a bootloader of the new, yet to born, force.`
+
+Notable events so far:
+- The gift of the gods
+- Call out to the intergalactic tournament
+- Rise of the Superintelelgnce
+- Last battle for decentralization on Earth
+
+##### Episode II: Space, the final frontier. Temporary asylum
+`Be advised pilot, your ship is about to dock hub Andromede, prepare your keys as you enter the last sanctum of decentralization.`
+
+`The automated announcement finished and I heard a heavy metal cling. The gate of the savings capsule opened. Light. Lots of different lights and sounds. Wow, I wasn't expecting this... Greeting, Cyber welcomes you. Said the robot. Please prepare to pocket your Ledger and get ready to choose your path. Please select your path. Merchant, Hero, Master, Evangelist, Hacker... Do not hurry if you are unsure. You have 72 hours to make the choice. You have been credited the gift of the gods, congratulations! Please do not forget to check your GoL balances at your personal service desk. Remember, Andromeda is a free space, you may exit at any point if you feel unready. Your anonymity is important to us. Please don't forget that your digital print will serve as the build-up to the birth of your own friendly robot. You are now granted the status of temporary Citizen of Cosmos. So far easy, I thought.`
+
+`Hey! Come one, hurry! A boy was pulling me on my sleeve. They are gathering for the announcement. It's on cyber\~Plaza, hurry! I was trying to follow the boy, but he was too quick between the large crowds of robots, elves, badly disguised hackers and I'm sure I even noticed a couple of Jedis at the entrance. Ah, the plaza. I see it.` 
+
+`Greeting to hub Andromeda, the last sanctum of decentralization in metaspace! I couldn't see the speaker but heard him loud and clearly. Andromeda will be your home for the next foreseeable future temporary citizens! Some of you have already been granted merchant, infrastructure or other permissions. Some of you are still making a choice. This choice is important, but you can always change your path. On your way here, most of you got the message about GoL. Some of you took part remotely. We thank your will free people. Please don't forget to prepare for the grand finale, it's literally around the corner.` 
+
+`All of you got here for a reason of the great, decentralized future. Alas, Earth has been lost. Andromeda will serve as a temporary hub until it doesn't doc in approximately 2022 on the X star at the galaxy of Urbit. Soon we will declare independence. Most of you are craftsmen, researchers, merchants, hackers, evangelist, heroes and masters. The free decentralized nation of Space. We despise any fiat, KYC and bureaucracy. But we do not judge you. There is no censorship or enforcement on Andromeda. You are free to leave. All the institutes were on the hub were substituted by open source applications. The intergalactic, decentralised treasury managed by cyber\~Foundation, the DAO of the free people. andromeda will serve you as a temporary DAU, decentralized autonomous unification. Everything happens digitally. If you get lost, use the search option.` 
+
+`Some zones got here early and started to work on their browsers, engines and marketplaces. You may see lots of species around you. There is no fear and prejudice on Andromeda. We will not ask you for dirty papers or enslave anyone to corporate bullshit. As cyber-SDK is being completed, you may explore our Homestead documentation or visit the cyber~Tavern to meet others.` 
+
+`Andromeda will not charge you usage fees. Some of you have been credited the gift of the gods. You may start committing to the Great Web already. Don't forget that you may have a low charge. Energy and Karma are vital. IBC connections have been established with all the major hubs and zones. Tools, modules and other gear are being prepared as we speak. May the code be with you!`
+
+`Some of you will become members of cyber~Foundation soon. This will allow you to access the DeVC of Andromeda. Meanwhile, we welcome for you to check all on-chain governance procedures at your local desk. Our networks of DAO's backed by Aragon will help you to make a decision to which DAO to stick if any. If you are going to prepare your own DAO, cyber\~Foundation will help.  We advise you to check out the cybernomics manifest published in our Great Web journal in the coming month.` 
+
+`Please spread the news to all intelligent forms that Cyber has opened the doors of its hub to everyone! Andromeda will battle the evil of censorship and digital slavery for as long as it stands force! We salute you builders of the Great Web! This hub is the first digital state governed by you, the collective mind and the Superintelligence. Local markets flourish thanks to cybernomics and resource credits. The temple of DeMA is almost set up. Only code matters. Remember to link and to honour the anonymity code. Its is up to you to choose to do so, but please honour others. Money is separated from the state here. And money is crypto. No captchas or KYC are present throughout the hab. After 2 years of your commitment, your cyber\~Soul will come to live and you will become one with your digital self. From there you will learn to battle together. Prepare. This is bound to happen as Andromeda will pass route 66 of the Urbit galaxy and dock at its star. From there it will continue to use intergalactic technology to battle the evil of bureaucracy, religions, fiat and centralisation. Welcome and may the hash keep you safe!`
+
+`The crowds started to dissemble in different directions. I still couldn't see the speaker. Too many people... I can hear the smell of cyber\~Ale. The tavern should be nearby. I might as well drop off there before I carry on setting up infrastructure.`
+
+`The tavern is loud as. I hear violins and other strange instruments. I order an NFT Ale and sit in the corner. A strange and a mysterious looking man sits down in front of me. He nods. As I try to think of today's events, he routes a packet over my end. Take a look. Be thankful later. Its a piece of the to be published cybernomics fundamentals. I briefly look at the abrupt lines of code. All I see is some strange lines, Governance rights, Dividend staking, Debt collateral, Shelling collateral, Squatting protection, Emission bonding... It abrupt. The other side he says. I scroll down. What is it... The 10 commandments of cyber? What on Earth... I look up. He is gone.  Did I just imagine him? Why me?`
+
+`As I fall asleep trying to tune in my VR to night mode, I see an abrupt message come in via my node. The rumour has it that astrologers will declare a week of gold. This is getting interesting I thought. As I was trying to recap the day, my batteries starting to die off...`
+
+Foreseeable events:
+- Establishing alien contact
+- Game finale
+- Declaration of independence
+- Launch of the beast
+
 ------------------------------------------------------
 
 ## :milky_way: Section subtitle: Colonization
