@@ -24,7 +24,7 @@ This section contains basic information that you will need for your journey into
   * [The philosophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
-- [Section subtitle: Prepare for take-off: Part I](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
+- [Section subtitle: Prepare for take-off: Part I](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off-part-i)
   * [Using cyber: The very basics of becoming a Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
     * [Connecting to Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber)
       * [The Bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-bridges)
@@ -63,6 +63,8 @@ This section contains basic information that you will need for your journey into
         * [Creating links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-links)
   * [Using Cyber: Guru Master Classes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#guru-masterclasses)
     * [Monetization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#monetezation)
+------------------------------------------------------
+- [Section subtitle: Prepare for take-off: Part II](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off-part-ii)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
   * [cyber~Metagalaxy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybermetagalaxy)
   * [cyber~Ecosystem](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberecosystem)
