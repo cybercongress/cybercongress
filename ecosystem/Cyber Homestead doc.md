@@ -656,6 +656,220 @@ A dev preview of cyb~Snap:
 
 <img src="https://i.postimg.cc/YCF6VQ6p/ER42d-Fl-Wk-AAGn-GI.jpg" />
 
+##### Creating a Cyber wallet
+Is it rather obvious to say that you will need a wallet to interact with Cyber? Well, actually this isn't 100% true. As you already learned you can search cyber.page without a wallet. You can access content without a wallet too. So why would you need one?
+
+The simple answer is to gain superpowers. This is one of the things that makes Cyber an innovative, decentralised search mechanism. The use of blockchain.
+
+Cyber uses what we call an `energy model`, this means that you have energy and that energy can run out. When you run out of energy, your batteries need to recharge, so you can carry on doing whatever it is you do. This means that there are no transactional costs in Cyber. Yet sending tokens, making a cyberlink and other on-chain activities will require some balance. Your tokens won't be spent. They will freeze and if you try to make too many transactions, you will run out of energy. After some time, it will recharge and you will be able to make more transactions. The bigger your balance is, the more transactions you can make. In technical terms, energy is called bandwidth. The cost of bandwidth changes all the time. It depends on the load of the network and other on-chain parameters. That cost can be viewed [on cyber.page](https://cyber.page/network/euler/parameters) at any time. You can see that different types of transactions are assigned a different cost. You don't have to worry about all this. Just keep an eye on your battery level at the top right corner of the app.
+
+<img src="https://i.postimg.cc/sD6SHT6P/Screenshot-from-2020-06-08-19-57-49.png" />
+
+There are several ways to create a wallet:
+
+1) Using your Leger. You will need a Ledger device for this. If you are planning to acquire one, get it only from [trsuted and verified sources](https://www.ledger.com/). Lookup any local dealers near you in [this section](https://shop.ledger.com/pages/retailers/). Please note, that we are not affiliated with Ledger, so please make sure you double-check all of this yourself. After you get it, reset the keys (just enter the pin code wrong 3 times in a row when you first set it up). Write your memo somewhere safe. Try it out.  
+
+This is the only safe way. This way your keys stay with you at all times and are never shared. Don't be a square, get one! The cost for your safety can't be measured, trust me, I found this out the hard way. 
+
+Now, you have a Ledger. You will need the Cosmos app installed on your Ledger. To do this, you will need to install [Ledger Live](https://www.ledger.com/pages/ledger-live) (only do so from their website!). As Cosmos is not on the App Catalog by default, you will need to activate the developer mode.
+
+Go to settings and simply allow dev mode `ON`:
+
+<img src="https://i.postimg.cc/CxW9bCNk/1-9l-BQWse4k-F7-Nr-MCEXM32-Q.png" />
+
+Once the developer mode is activated, you can come back to the app catalogue and you should normally be able to find Cosmos on the list:
+
+<img src="https://i.postimg.cc/RhyL2dqT/1-741r-Qcm-FCs-L6gn-EMz8h-Wyg.png" />
+
+Click `install` and you are ready to move on.
+
+I advise you obtain some ATOM tokens, as you will need those to make transactions within Cosmos (not cyber). Still, it might be a good idea to test how staking and transacting works in Cosmos, as it is very close to Cyber.
+
+For this guide, I will skip on how to use your ATOM wallet, as there are plenty of those you can find on web2 and maybe even in cyber, or link one of these to Cyber yourself.
+
+Open [cyber.page](https://cyber.page/):
+
+<img src="https://i.postimg.cc/bY5Zk0LY/Screenshot-from-2020-03-25-13-15-01.png" />
+
+Click on the Green eye of the robot in the top right corner. This takes you to the Ledger page:
+
+<img src="https://i.postimg.cc/mkcXn1JN/Screenshot-from-2020-04-17-12-45-17.png" /> 
+
+At the top there is a message, calling you out to play GoL. We will explore this in a separate section. Let's just continue for now. 
+
+At the bottom you can see `Put read address only`, this will allow you to enter a Cosmos address and to work in view-only mode with it. But we need the real thing here!
+
+Click the button at the bottom, `Pocket your Ledger`, this will offer you to connect your Ledger (follow the steps on the screen). 
+
+<img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
+
+This will bring us to the [pocket page](https://cyber.page/pocket). After you connect your device, you will get to a page which will display your Cosmos address and your Cyber address, with the appropriate balances if you have any:
+
+<img src="https://i.postimg.cc/y85dqMDm/Screenshot-from-2020-04-17-12-51-43.png" /> 
+
+If you see EUL tokens and not CYB tokens, this means that the network is still in testnet, don't worry about this.
+
+Once again, let's ignore the Game of Links section for now and explore it later. Also, the box stating that you made links previously, will only appear if you did make them!
+
+Your balance is most likely to be 0 unless you had a gift from your Cosmos balance. If you did, you will have some tokens on your balance. If not, we will learn a bit later how to acquire tokens.
+
+2) Using cyb\~Virus. If you still haven't installed cyb\~Virus, do it now by getting here from the [Mozilla app store](https://addons.mozilla.org/en-US/firefox/addon/cyb-virus/), click add to Firefox, add and it's done. Just as with any other extension, an icon will appear in the top right corner of your sidebar. Click it.
+
+You are greeted by the welcome page:
+
+<img src="https://i.postimg.cc/y6JkY7vR/photo-2020-06-08-20-55-51.jpg" />
+
+Click `Get started`: 
+
+<img src="https://i.postimg.cc/G24h2jJR/photo-2020-06-08-20-55-57.jpg" />
+
+Now click `Create Wallet`:
+
+<img src="https://i.postimg.cc/CMDSQ5cc/photo-2020-06-08-20-56-01.png" />
+
+Right down your seed phrase, make a password and tick the `sweat` box. Click `save`:
+
+<img src="https://i.postimg.cc/QdNDCbhz/photo-2020-06-08-20-56-05.jpg" />
+
+Your address is at the top. It starts with `cyber...`
+
+3) Using the cyberd~Bot. Open any telegram app (the screens are made using a phone, if you're using the web app or a PC app, this might look a little different, but shouldn't differ much) and search for @cyberdbot. Click `start`. You will be greeted by the following screen:
+
+<img src="https://i.postimg.cc/wvN8Z4Q1/photo-2020-06-08-13-39-03.jpg" />
+
+Click `Sign up`:
+
+<img src="https://i.postimg.cc/NG1vxV0V/photo-2020-06-08-20-36-26.jpg" />
+
+Choose a name for your account. Hit enter:
+
+<img src="https://i.postimg.cc/m28qXGWd/photo-2020-06-08-20-36-41.png" />
+
+As we can see this not only created an account, but also gave us some tokens. The tokens are given away by a person who is trying to onboard users, this means that this giveaway will not last forever. So this might be or might not be present when you create your wallet.
+
+4) Using the CLI. Depending on what system you are on, open your terminal. There are a zillion of guides for how to do this on the internet. I picked [a random guide](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/). If you're on Windows, make sure you open it as an administrator (right-click and open as admin). If you are using something else, you probably know what to do.
+
+In the terminal type:
+
+```bash
+bash < <(curl -s https://mars.cybernode.ai/go-cyber/install_cyberdcli_v0.1.6.sh)
+```
+
+This will connect you to a remote node and allow you to enter commands without actually running your own node. Try:
+
+```bash
+cyberdcli --help
+```
+
+You should see this:
+
+<img src="https://i.postimg.cc/d0kBTnxz/Screenshot-from-2020-03-31-19-54-36.png" />
+
+Congratulations! You are halfway there. If you're running into issues while doing this, hit us up on our [TG chat](https://t.me/fuckgoogle).
+
+I will skip the intro on how to use the CLI, if you want to learn more about it, check the [CLI guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-guide).
+
+Type:
+
+```bash
+ cyberdcli keys add <your_key_name>
+ ```
+ 
+Change the <your_key_name> for any name you will memorize. Don't forget to drop the `<` and the `>` symbols if at any point you are asked to enter a passphrase or a keyring pass, do it. Write it down in a safe place. 
+ 
+After you enter the command you will be displayed with a mnemonic and your account info. Write down the mnemonic. Keep it safe. It's yours and yours only. You address starts with `cyber...` 
+
+##### Checking your gift balance
+It is often that newcomers ask us about the gift. In er sections, we will learn how to claim it. For now, let's learn how to see if you got lucky and were eligible to receive one.
+
+There is a general FAQ about the gift. [Check it out too](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md). To be honest, the detail doesn't matter here. If you have held ETH, ATOM or an Urbit ID before 2020, I suggest you check it out. You never know...
+
+This is as simple as it gets. Go to [cyber.page](https://cyber.page/):
+
+<img src="https://i.postimg.cc/6p4ky1FY/Screenshot-from-2020-06-08-21-11-00.png" />
+
+In the search box, enter the address that you think could have received a gift. For example:
+
+<img src="https://i.postimg.cc/s2FtS4ry/Screenshot-from-2020-06-08-21-11-13.png" />
+
+Hit enter. The app recognised that this is an ETH address (yes, it can search all kinds of crazy stuff. In the future it can easily become a blockchain agnostic explorer). Click on the `Don't wait! Claim your gift...`
+
+<img src="https://i.postimg.cc/L50WszTc/Screenshot-from-2020-06-08-21-11-43.png" />
+
+Allow it some time to calculate the numbers. This is analyzing a lot of addresses in the background. If you're lucky, you will see something like this:
+
+<img src="https://i.postimg.cc/Nf5VzzGB/Screenshot-from-2020-06-08-21-13-50.png" />
+
+We will learn how to claim these at a later stage. 
+
+##### Getting fuel aka aquiring tokens
+As I mentioned, to interact with Cyber you need fuel aka tokens. You already know how to create an address and you might have been lucky enough to get a gift. Right now, you need to charge your account with some tokens to carry on. What options do you have:
+
+1) Whilst this is still a testnet, you might ask for some tokens in the [fuckgoogle TG channel](https://t.me/fuckgoogle) and people might send you some. However, this isn't the most promising case. If you're planning on doing this, I would do some research beforehand and let people know why they should share with you. 
+
+2) Get some from [Kira's TG bot](https://t.me/InterchainWalletBot). Find the bot on Telegram: @InterchainWalletBot. Please note that this is a 3rd party application. Kira's exchange bot is still being tested and can often be offline. the general idea is that you click `start` and follow the onscreen instructions. The menu (a `/` at the bottom), will allow you to choose from various commands. You will need to locate the current Cyber network on the `Network` menu (most likely it starts with `Euler`. Follow the instructions. The bot might ask of you to perform some tasks, like joining some TG channels. 
+
+Find the `faucet` command within the desired network and click it. Follow the instructions. This will also create a wallet. However, I did not list it as an option, as the bot is still tested. Any issues you come across with this bot should be addressed at t.me/kirainterex channel. 
+
+3) When you create an account with cyberdbot (you already learned how to do this), the faucet might give you some tokens. This is also a 3rd party application, so any questions should be addressed to the creator [here](https://github.com/Snedashkovsky/cyberdBot/issues). This might just be the easiest way for now...
+
+4) Obtain tokens by [running a validator node](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md). Not the quickest and the easiest option, however, most likely the best one. Anyone wants to become a hero and we will learn to do so in a [differnet section of the guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer). 
+
+4) By [playing GoL](https://cybercongress.ai/game-of-links/). Another Kosher way of obtaining fuel. Alas, once again, not the quickest way. Also to play GoL, you need some tokens to start with. We will explore this option [later](https://github.com/cybercongress/congress/blob/master/ecosystem).
+
+5) By participating in any of the takeoff rounds (see `beep beep beep` section for all the info on this). In short, take part in the [takeoff](https://github.com/cybercongress/congress/blob/master/ecosystem) or [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction). Again, not quick, but still Kosher. Will most likely grant you the biggest stake at the lowest cost from any of the listed options.
+
+6) By claiming [your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md). You already learned how to check your balance. The claiming part is slightly more difficult. 
+
+Let's explore the options:
+
+- If your gift came from an ATOM balance and you have a Ledger, you're lucky. Simply pocket your Ledger [here](https://cyber.page/pocket) (you already know how to do this) and you will receive your gift.
+
+- If your gift comes from ETH or Urbit or ATOM and you don't have a Ledger. Then we will learn how to do [this later](https://github.com/cybercongress/congress/blob/master/ecosystem). It's not the easiest task, but it's doable in 20 minutes. Later on, cyb\~Snap will be able to help you.
+
+7) Complete bounties as Cyber's evangelist. There is a [whole section](https://github.com/cybercongress/congress/blob/master/ecosystem) outlined for this. In short, there is a certain amount allocated to WP translations, content creation, etc. And unlike with the other parts of GoL, you can get tokens fairly quickly. 
+
+8) Let's imagine that none of the above suit your case. Unlucky. However even though its a testnet, there are ways to obtain tokens. Once again, there is a whole section outlined for this later on. This is a quick and a cheap way while it lasts. The test faucet might close at any point. However, we might re-open it again as long as GoL is running. Long story short, make sure you check [this blog post](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
+
+9) Aquire them OTC. Please be careful doing this. Make sure you use escrows and trust your source.
+
+##### Making your first cyberlink
+Searching using web3 is fantastic and great. One thing is looking, another thing is touching. Or rather, becoming a real master and a builder of The Great Web. We will learn how to make cyberlinks with cyber.page later on. But for now, I would like you to create your first cyberlink. The quickest way to do this is to use a 3rd party app, the cyberd~Bot. 
+
+You already know where it is and how to find it. Let's do this together again:
+
+1) Open telegram and find @cyberdbot
+
+2) Sign Up an account (you already learned this)
+
+3) Click `Create cyberLink`:
+
+<img src="https://i.postimg.cc/BQkGJ1mW/photo-2020-06-08-22-27-36.jpg" />
+
+4) Enter a word that will become the search point of the link. Be case sensitive:
+
+<img src="https://i.postimg.cc/25fRZNp2/photo-2020-06-08-22-27-35.jpg" />
+
+5) You can see that it uploaded something to IPFS, there is a link to that. If you click it, you will see that this is the keyword you just entered
+
+6) Send the endpoint to your cyberlink (in this case I just added a photo from my phone): 
+
+<img src="https://i.postimg.cc/vTTpsQ9H/photo-2020-06-08-22-27-35-2.jpg" />
+
+7) You will see a bunch of messages:
+
+<img src="https://i.postimg.cc/HWvqtyDJ/photo-2020-06-08-22-27-36-2.jpg" />
+
+8) let's make sure it worked. Go to [cyber.page](https://cyber.page/) and enter the search keyword. It will display the result:
+
+<img src="https://i.postimg.cc/15Lbk1zs/Screenshot-from-2020-06-08-22-22-58.png" />
+
+9) [Click on it](https://ipfs.io/ipfs/QmVb8sSuTAEsFZddSpHuSXtkAT1P7kAQma8GQ56tD4EbBK)!
+
+10) You have created your first cyberlink, congratulations!
+
+Take a rest, we will now proceed to the juicy stuff!
+
 #### Using cyber.page for Masters
 Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of options.
 
