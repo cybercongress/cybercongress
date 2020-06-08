@@ -5,10 +5,10 @@
 </p>
 
 ## :ticket: Section subtitle: Preparation
-This section contains basic information that you will need for your journey into the world of cyber. This guide will be your foundation for knowledge from the different aspects of the cyber ecosphere. Strap in, it's going to be a wild ride.
+This section contains basic information that you will need for your journey into the world of cyber. This guide will be your foundation for knowledge from the different aspects of the Cyber ecosphere. Strap in, it's going to be a wild ride.
 
 ### Release version
-0.2.1: Venus
+0.2.5: Venus
 
 ### Content
 ------------------------------------------------------
@@ -216,7 +216,7 @@ The guide is currently made by the [cyber~Congress team](https://cybercongress.a
 If you have any suggestions or wish to contribute to this guide, simply [sumbit a GitHub issue](https://github.com/cybercongress/congress/issues).
 
 ## :fuelpump: Section subtitle: Ground floor
-Cosmonauts need to undergo an intensive training regime to reach the stars. In this section, you will be presented with some basic terminology that will give you a deeper understanding regarding the Cyber eco-sphere. Some basics will include the history of Cyber, how it works, how to interact wtih it and the core Cyber philosophy.
+Cosmonauts need to undergo an intensive training regime to reach the stars. In this section, you will be presented with some basic terminology that will give you a deeper understanding regarding the Cyber eco-sphere. Some basics will include the history of Cyber, how it works, how to interact with it and the core Cyber philosophy.
 
 ### Technical questions in plain terms
 *Click on the below questions to expand the answer:*
@@ -294,7 +294,7 @@ The purpose of staking is network security. The tokens that are locked, the bett
 
 <details>
   <summary>Who or what are validators? </summary>
-Valiators are tasked with making sure that all the transactions (communications) carried out in Cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent, they are run by people who are trusted by delegators to ensure the security of the system. They have to reach consensus on the state of the ledger. And in Cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
+Validators are tasked with making sure that all the transactions (communications) carried out in Cyber are done correctly (i.e. that users aren't trying to cheat the system). Validators are auditable computers and their work is transparent, they are run by people who are trusted by delegators to ensure the security of the system. They have to reach consensus on the state of the ledger. And in Cyber they compute (calculate) the knowledge graph that the users commit links to (they also commit links to the graph). For their work, they receive a reward from the blockchain. Which is automatically calculated by the system. Validators also participate in governance and can stake tokens to receive rewards. They can also stake delegators tokens and pay rewards out. 
 </details>
 
 <details>
@@ -324,19 +324,19 @@ It is one of the algorithms used by Google to rank search results. At a very bas
 
 <details>
   <summary>What is web3? </summary>
-Web3 is the next evolutionary step in the development of the web. A step that takes away from the centralization of search, social services and away from things that depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. It envisions a future in which entities can be in agreement with each other, whilst also being incentivized for this behaviour. As a result this would bring about a safer routing of data and packets (information exchange) on the web.<br>
+Web3 is the next evolutionary step in the development of the web. A step that takes away from the centralization of search, social services and away from things that depended on a single functioning unit (have a central source of authority). It is a step that desires to see involved counterparties and applications communicate directly one with another. It envisions a future in which entities can be in agreement with each other, whilst also being incentivized for this behaviour. As a result, this would bring about a safer routing of data and packets (information exchange) on the web.<br>
 Often, you might notice the term `Great Web` in our documents, for us The Great Web is a much better-suited name for the more common term `web3`.
 </details>
 
 <details>
   <summary>What is IPFS?  </summary>
-IPFS is a peer-to-peer (directly connected between multiple users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread high volumes of data across the network and keeps every version of your files. It was created to ensure that files can be stored without the need for centalized servers, much like how BitTorrent and other porotocols were created. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable, or if you may - everlasting.<br> 
+IPFS is a peer-to-peer (directly connected between multiple users) protocol, that is designed to make the web faster, safer, and more open. IPFS makes it possible to spread high volumes of data across the network and keeps every version of your files. It was created to ensure that files can be stored without the need for centralized servers, much like how BitTorrent and other protocols were created. IPFS makes it simple to set up networks for mirroring data. This means that data is pretty much immutable, or if you may - everlasting.<br> 
 IPFS helps to further distribute the web amongst peers (users). It enables constant availability — with or without internet connectivity. You can share and view files, manage large chunks of data, build applications and more. 
 </details>
 
 <details>
   <summary>What's governance? </summary>
-Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen and what priorities matter. They do so via interacting with a voting mechanism.
+Governance is the process via which the users of the ecosystem decide on what's going to be funded, how it is going to happen and what priorities matter. They do so by interacting via an on-chain voting mechanism.
 </details>
 
 <details>
@@ -346,7 +346,7 @@ A DAO is a decentralized autonomous organisation. It is a collective of users th
 
 <details>
   <summary>What's Aragon? </summary>
-Aragon is an application for creating decentralized, autonomous and soverign organizations backed by code rather than by centralized, national law. The distributed code is the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, communities, collectives, and communities with the help of Aragon. 
+Aragon is an application for creating decentralized, autonomous and sovereign organizations backed by code rather than by centralized, national law. The distributed code is the law, where participating users have a say and an incentive for participating in the application/protocol. One may create global, bureaucracy-free organizations, communities, collectives, and communities with the help of Aragon. 
 </details>
 
 <details>
@@ -387,7 +387,7 @@ obtaining answers.  Its mission is to create a universal search mechanism to:
 (b) provide more resistance to web services through decentralization of its infrastructure
 
 **Q:** What Cyber is NOT? <br>
-**A:** Cyber is not the new internet. It is however a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
+**A:** Cyber is not the new internet. It is, however, a tool that can help to shape and to decentralize (distribute the power of authority) the services of the new, Great Web. 
 
 Cyber is not a commercial product. It is a tool that anyone can use. That said, Cyber allows for several ways for its participants to earn rewards and Cyber is a technology that at its core, belongs to its users.
 
@@ -396,19 +396,21 @@ Cyber is not a commercial product. It is a tool that anyone can use. That said, 
 
 This protocol exists thanks to technology such as blockchain and what is referred to, as content addressing (a way to locate information on the web using the content, rather than referring to its location, thus avoiding censorship).
 
-But why might you ask do we need a new way to search for things when soultions already exist? Well, there are two primary reasons. One, we want to decentralize the services of the web. Some examples of these are social media, search and even e-commerce. These are all based around semantics (the meaning and the relation of words and objects). The problem is that the current semantical field that we use every day, is built pretty much by one company, Goole. This allows it to sell data, provide users with misleading information and to effectively censor data. And here we come to Cybers second task, the creation of an open semantics field. 
+But why might you ask do we need a new way to search for things when solutions already exist? Well, there are two primary reasons. One, we want to decentralize the services of the web. Some examples of these are social media, search and even e-commerce. These are all based around semantics (the meaning and the relation of words and objects). The problem is that the current semantical field that we use every day, is built pretty much by one company, Goole. This allows it to sell data, provide users with misleading information and to effectively censor data. And here we come to Cybers second task, the creation of an open semantics field. 
 
 Google is essentially a huge marketplace, where someone is searching for content and the other side provides this content. You can purchase most of Googles services, but you cannot purchase the ability to search without centralized bullshit, surveillance and advertisements. Moreover, you cannot even search for many censored subjects. The original vision of the internet was to share knowledge freely. Currently, this is not the case. We pay to view academical papers that are otherwise free if requested directly from the researchers, we cannot freely share and view vast swatches of humankinds immense information vault. Hence projects like WikiLeaks, arXiv.org, tor, etc exist. 
 
 You may think of Cyber akin to a huge Wikipedia without censorship, which is at the moment waiting to be filled with knowledge from the current web, or even by a transition to the new, transparent web. A web in which you control your own dataset. A web that is free of censorship. A web where the internet works for you and not the other way around.
 
-But how does this all work and can this really be used for something rather than just searching? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, lets label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. `From` and `to`. The `from` in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
+But how does this all work and can this really be used for something rather than just searching? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, let us label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. `From` and `to`. The `from` in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
+
+<img src="https://i.postimg.cc/VkbNs6vd/photo-2020-05-14-03-54-50.jpg" />
 
 To make the content and the keyword immutable, we use what we call content identifiers. For now, we work with a technology called IPFS, which is basically, a distributed p2p storage where users can safely store and exchange data (but Cyber can work with any similar technology such as DAT, GIT, Bitcoin, Ethereum, Swarm, etc). 
 
 This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one point is the keyword and the other is the content. 
 
-There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam so this is why Cyber uses an energy model. In this energy model users have a certain amount of energy that they can spend over a certain period of time before it needs to recharge. You can think of this as a timeout.
+There is no transactional cost in Cyber, this means that it doesn't cost anything to add information to the graph. But we need to limit spam so this is why Cyber uses an energy model. In this energy model, users have a certain amount of energy that they can spend over a certain period of time before it needs to recharge. You can think of this as a timeout.
 
 As this content gets added the graph, it is filled with more and more knowledge. Hence the reference to Wikipedia, this knowledge needs to somehow be indexed and ranked. There is so no censorship in Cyber. All of the indexing and ranking is done with the help of a transparent mechanism that everyone can inspect. This work is done by validators (a program or a computer that are responsible for checking the validity of something). The validators do so, by using their GPU's (Graphical Processing Units, or as more commonly known - graphics cards). 
 
@@ -421,7 +423,7 @@ This makes a perfect search engine, without a blackbox intermediary. But going b
 **Q:** What is a relevance machine? <br>
 **A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. Cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, Cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
 
-When a user creates a cyberlink, they expresse the will to do so by backing this cyberlink with some weight in CYB tokens. In other words, the user submits to the knowledge graph what is important for them. The meaning extraction for knowledge in the case of Cyber is incentivized. The submitted cyberlinks are dynamically ranked and project relevance to those who submitted them. 
+When a user creates a cyberlink, they express the will to do so by backing this cyberlink with some weight in CYB tokens. In other words, the user submits to the knowledge graph what is important for them. The meaning extraction for knowledge in the case of Cyber is incentivized. The submitted cyberlinks are dynamically ranked and project relevance to those who submitted them. 
 
 Cyber uses Merkle trees to build proofs for the submitted links, creating a provable and auditable chain of information down to the root. The more agents that inquire the knowledge graph, the more valuable the knowledge becomes. Based on this, the relevance between cyberlinks can be computed. Via querying and delivering answers in such fashion, a simple mechanism is constructed - the relevance machine. 
 
@@ -454,7 +456,7 @@ To understand Cyber one first needs to understand its philosophy. Our work isn't
 
 What do we believe in? Firstly we believe in freedom, privacy and decentralization. We share and propagate the vision of improving this world. We believe that evil stands behind a centralized, bureaucratic approach to technology, governance, communication protocols, money and more.
 
-We believe in code. We believe in technological innovation and how it can give humankind tools to craft our own liberty. We belive in making use of our knowledge to make the world a slightly better to leave for our children to inherit. With that in mind, what we are trying to say, is that Cyber and CYB are not just technological creations. They are much more. At their base lay the values of the team behind Cyber. We are digitizing our core values and placing them within the system we are crafting. We hope that our project can create was the internet set out to acomplish to be and what we believe the blockchain paradigm stands for. 
+We believe in code. We believe in technological innovation and how it can give humankind tools to craft our own liberty. We believe in making use of our knowledge to make the world a slightly better to leave for our children to inherit. With that in mind, what we are trying to say, is that Cyber and CYB are not just technological creations. They are much more. At their base lay the values of the team behind Cyber. We are digitizing our core values and placing them within the system we are crafting. We hope that our project can create was the internet set out to accomplish to be and what we believe the blockchain paradigm stands for. 
 
 *Q&A on the philosophy behind Cyber:*
 
@@ -470,7 +472,7 @@ Each person should be able to control their own data, their identity, their know
 
 <details>
   <summary>What's wrong with Google?  </summary>
-Google is a brilliant idea. We do not deny this. But Google is the rebel that has overthrown the dictator and became the dictator itself. Google uses you to shape the essence and fundamentals of communications between everyone, and everything. Whilst at it, Google doesn't care for anyone and will make money on your actions. Google recreates the world and presents you a filter, curated and santised version depending on your location. <br>
+Google is a brilliant idea. We do not deny this. But Google is the rebel that has overthrown the dictator and became the dictator itself. Google uses you to shape the essence and fundamentals of communications between everyone, and everything. Whilst at it, Google doesn't care for anyone and will make money on your actions. Google recreates the world and presents you a filter, curated and sanitised version depending on your location. <br>
 It should be noted that by this question I am referencing not just Google, but at all the mega-corporations that strive for your attention and input. Feel free to check out what dystopia this can lead to in the case of [Cambridge Analityca](https://en.wikipedia.org/wiki/Cambridge_Analytica). If this example is too much to take in or too "loud" for you, feel free to watch some episodes of Black Mirror to see how digital control can "infiltrate" into society.
 </details>
 
@@ -481,7 +483,7 @@ Because we are almost done with post-industrialism. We are slowly and surely mov
 
 <details>
   <summary>Why search? </summary>
-Search is a global mechanism that is globally understood by everyone, regardless of language, race, age. It is somewhat a basic instinct much like searching for food to survive. In the digital realm with the help of search, we gain answers to our questions, which we constantly ask. Search helps us to build a model around any subject that is of interest to us. With the use of search we can build databases, which can lead to a great number of useful instruments (on these later).
+Search is a global mechanism that is globally understood by everyone, regardless of language, race, age. It is somewhat a basic instinct much like searching for food to survive. In the digital realm with the help of search, we gain answers to our questions, which we constantly ask. Search helps us to build a model around any subject that is of interest to us. With the use of search, we can build databases, which can lead to a great number of useful instruments (on these later).
 </details>
 
 <details>
@@ -517,20 +519,22 @@ Fuck no! Fucking is not for pain, it's for pleasure!
 </details>
 
 ### The cyber~Congress DAO and its role
-You already learned about the inception of cyber~ Congress. If you missed it, catch the videos of the birth of the original cyber~Congress [here](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos).
+You already learned about the inception of cyber\~Congress. If you missed it, catch the videos of the birth of the original cyber\~Congress [here](https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g/videos).
 
-cyber ~Congress was set up as a DAO. The initial intentions of cyber ~Congress can be found [in this document:`the evolution of species`](https://github.com/cybercongress/congress/blob/master/README.md). Today that manifest is still being worked on and is still in development. 
+cyber\~Congress was set up as a DAO. The initial intentions of cyber\~Congress can be found [in this document:`the evolution of species`](https://github.com/cybercongress/congress/blob/master/README.md). Today that manifest is still being worked on and is still in development. 
 
-cyber~Congress helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an Aragon DAO. It is responsible for organising the Game of links and the minting of THC tokens.
+cyber\~Congress helps to launch the protocol, commits to the code base, helps to gather the initial community, write the initial documentation, organise the distribution and deploy the Genesis. The Congress lives in Ethereum, as an [Aragon DAO](https://mainnet.aragon.org/#/cybercongress). It is also responsible for organising the Game of links and the minting of THC tokens.
 
-As of today, cyber~Congress is a 2/2 DAO for decision making and a 2/3 DAO in terms of security. However, it should be noted, that some decisions are already wider diversified as the whole team that works on the DAO takes part in most of the decision. In the future, we hope this will become automatized and the DAO will grow. 
+As of today, cyber\~Congress is a 2/2 DAO for decision making and a 2/3 DAO in terms of security. However, it should be noted, that some decisions are already wider diversified as the whole team that works on the DAO takes part in most of the decision. In the future, we hope this will become automatized and the DAO will grow. 
 
-There are 3 points on which we should touch when discussing cyber~Congress:
-1) cyber\~Congress is the launching DAO behind cyber. For its work, a share of the governing token, THC, is allocated to cyber\~Congress. This share will be staked during cyber\~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via a governance mechanism, proposals and prediction markets.   
+There are a few things on which we should touch when discussing cyber\~Congress:
+1) cyber\~Congress is the launching DAO behind cyber. For its work, a share of the governing token, THC, is allocated to cyber\~Congress. This share will be staked during cyber\~Auction to receive an equal amount in CYB tokens. This means that the congress will be a functioning entity in the life of the protocol. However, cyber is a community governed protocol. From the numbers above, one can tell, that the majority of the stake is going to be in the hands of the community. The protocol will be governed by the validators and the community via on-chain governance mechanisms, proposals and prediction markets.   
 
 2) The manifest outlies the idea that all species should (and will) have an equal opportunity for secure and transparent communication. Intelligence can be simplified to communication. All species can communicate via electromagnetic impulses (including robots). If they can communicate (which they can), they can prove their existence and pass on a signal and receive an answer. This is intelligence at its most pure form. The main mission of cyber\~Congress is `To help the evolution of species!`
 
-3) cyber~Congress as a DAO plans on developing cyber, taking part in the governance, launching `cyber~FundClassic`, an ecosystem development fund, that will help cyber to evolve (*hint: further in the document, a whole section is dedicated to the description of the ecosystem*), form strategic partnerships and buidl applications. The DAO plans to stake some of the received ATOM tokens from the first donation round to its Cosmos [fuckgoogle validator](https://cosmos.bigdipper.live/validator/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u), and support the incentives of the team via the received rewards. The DAO also plans to have a sustainable income flow, described in [this issue](https://github.com/cybercongress/congress/issues/302).
+3) cyber\~Congress as a DAO plans on developing cyber, taking part in the governance, launching `cyber\~FundClassic`, an ecosystem development fund, that will help cyber to evolve (*hint: further in the document, a whole section is dedicated to the description of the ecosystem*), form strategic partnerships and buidl applications. The DAO plans to stake some of the received ATOM tokens on Cosmos validators, and support the incentives of the team via the received rewards. The DAO also plans to have a sustainable income flow, described in [this issue](https://github.com/cybercongress/congress/issues/302).
+
+4) The best way we found to describe the congress in plain terms, is to think of it as a public (in terms of data, info, intentions, reporting) and simultaneously a private (in terms of profit, decision making, monetary flows) company/DAO. What does this mean? Well, this doesn't mean anything for Cyber, apart from the fact that there is a DAO that works, primarily, on Cyber. It doesn't govern Cyber. It doesn't decide for Cyber. It is not the boss, the CEO or the voice of Cyber. Alas, at launch, it is defiantly a weak point. That's why one of our tasks is to create [cyber\~Foundation](https://github.com/cybercongress/cyber-foundation) as quickly as we can, make on-chain governance on the protocol itself work and attract as many other teams, private and public, to work on the protocol that will be guided by the community.  
 
 ------------------------------------------------------
 
