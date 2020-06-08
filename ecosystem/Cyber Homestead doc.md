@@ -24,7 +24,7 @@ This section contains basic information that you will need for your journey into
   * [The philosophy behind cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-philopophy-behind-cyber)
   * [The cyber~Congress DAO and its role](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-cybercongress-dao-and-its-role)
 ------------------------------------------------------
-- [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
+- [Section subtitle: Prepare for take-off: Part I](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
   * [Using cyber: The very basics of becoming a Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
     * [Connecting to Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber)
       * [The Bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-bridges)
@@ -551,11 +551,13 @@ There are a few things on which we should touch when discussing cyber\~Congress:
 
 ------------------------------------------------------
 
-## :computer: Section subtitle: Prepare for take-off
+## :computer: Section subtitle: Prepare for take-off: Part I
 
 >  Masters become gurus as they learn. You are done with exploring around and ready to buckle up your seat belt. It ain't Kansas no more...
 
 This section will get you acquainted with all the bits and bobs there are to Cyber. This includes all our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy. Most importantly this section teaches you how to use Cyber!
+
+Learning can be hard. Some of this might be completely new to you. Hence the takeoff section will be broken into 2 parts. Part I is about learning to use Cyber as a master (user). And Part II is about the community and the ecosystem.
 
 ### Using Cyber: The very basics of becoming a master
 
@@ -1472,6 +1474,12 @@ We cannot say for granted that you may do this or that with cyber, but we can ce
 Of course, you need developers to build the tools, however, e-commerce, SEO or other things do not require many skills to start. If I can influence a keyword-relevant to me at any moment to be searched, I am working with SEO. If this keyword is `buy second-hand chairs in Spain`, then I can see how I can use it to my advantage as a re-seller or if I work in production. If I can buy something right in a spark (a snippet of a search result) I will do it. If I can subjectively create a local oracle of data, I can use it for my own benefit (or the benefit of someone else). The possibilities are really endless. 
 
 Are there many ways of monetizing the internet? Yes. They are endless. Apps, data, on and/or off-chain apps, consensus apps, selling, buying, etc. The beauty is that there is no 3rd party. There is no middle man. The downside is that all of the above requires time, developer adoption, user adoption and so on. But, this is not a downside. It is your early ticket to the Great Web. Be the builder of the web yourself. Create the rules. Make suggestions. Buidl. Hodl. Be a true master of your own destiny!
+
+------------------------------------------------------
+
+## :computer: Section subtitle: Prepare for take-off: Part II
+
+The second part of this section will go into details about some of Cyber's underlying technology in basic terms. Will teach you about our community, ecosystem and provide an overview of Cyber's metagalaxy. It will also touch on the launch process to make it more transparent.
 
 ### IPFS / Cosmos & Tendermint
 A lot of the time, cyber is asked: why Cosmos? Or why IPFS? <br>
