@@ -26,10 +26,12 @@ This section contains basic information that you will need for your journey into
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off)
   * [Using cyber: The very basics of becoming a Master](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-the-very-basics-of-becoming-a-master)
-    * [Using cyber: Connecting to cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber)
-      * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
-      * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
-      * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
+    * [Connecting to Cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#connecting-to-cyber)
+      * [The Bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-bridges)
+           * [cyber~Page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage)
+           * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
+           * [cyberd~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot)
+           * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
     * [Using cyber.page: Learning the basics](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-for-masters)  
       * [Using your Ledger to link](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-your-ledger-to-link)
          * [Using cyb~Virus and cyber.page together](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cybvirus-and-cyberpage-together)
@@ -551,13 +553,13 @@ First of all, let's explore the possible ways to connect to Cyber. In future cla
 
 ##### The bridges
 There are several ways you can explore the Cyber protocol, there are:
-- cyber.page: Cyber page is an application, it allows users to safely connect with Cyber, using their Ledger device, create cyberlinks, send tokens, read the explorer, participate in games, governance, delegate tokens, collect rewards and much more. The app is designed to be used for users with Ledgers. Why? This is the only safe way to keep your keys, without revealing them anywhere. However, the app can also be used in read-only mode, still allowing for plenty of use cases. Read on to find out more.
-- cyb\~Virus (3rd party application): Originally the virus was designed by our team as a Chrome extension as part of a hackathon. With time, we realized that we had to pass on the app due to various reasons (primarily, resource consumption) to open source development. The current version of the metamask like extension allows users to create a wallet, save their seed, download pages to IPFS with a few clicks and send tokens.
-- cyberD bot (3rd party application): This is a telegram bot that has an inbuilt faucet, allows you to create a Cyber wallet, create cyberlinks, upload content to IPFS and has some monitoring functions. 
-- cyb\~Snap (in the making): A new metamask-like extension that will allow working with cyber.page without a Ledger. There are plans to integrate the extension with all Cosmos-based chains if they will wish to do so. It will probably have some trading functions too.
+
+1) cyber.page: Cyber page is an application, it allows users to safely connect with Cyber, using their Ledger device, create cyberlinks, send tokens, read the explorer, participate in games, governance, delegate tokens, collect rewards and much more. The app is designed to be used for users with Ledgers. Why? This is the only safe way to keep your keys, without revealing them anywhere. However, the app can also be used in read-only mode, still allowing for plenty of use cases. Read on to find out more.
+2) cyb\~Virus (3rd party application): Originally the virus was designed by our team as a Chrome extension as part of a hackathon. With time, we realized that we had to pass on the app due to various reasons (primarily, resource consumption) to open source development. The current version of the metamask like extension allows users to create a wallet, save their seed, download pages to IPFS with a few clicks and send tokens.
+3) cyberd\~Bot (3rd party application): This is a telegram bot that has an inbuilt faucet, allows you to create a Cyber wallet, create cyberlinks, upload content to IPFS and has some monitoring functions. 
+4) cyb\~Snap (in the making): A new metamask-like extension that will allow working with cyber.page without a Ledger. There are plans to integrate the extension with all Cosmos-based chains if they will wish to do so. It will probably have some trading functions too.
 
 Let's explore these in more detail.
-
 
 ###### cyber~Page
 We suggest you start your acquaintance from [cyber.page](http://cyber.page/). It is a small taste of an IPFS-based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol. And... no need to install anything.
