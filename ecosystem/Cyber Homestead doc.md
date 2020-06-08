@@ -540,27 +540,39 @@ There are a few things on which we should touch when discussing cyber\~Congress:
 
 ## :computer: Section subtitle: Prepare for take-off
 
->  Masters become masters when they learn. You are done with exploring and are ready to buckle up your seat belt. It ain't Kansas no more...
+>  Masters become gurus as they learn. You are done with exploring around and ready to buckle up your seat belt. It ain't Kansas no more...
 
-This section will get you acquainted with all the bits and bobs there are to cyber. This includes all of our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy, most importantly this section teaches you how to become a hero and validate cyber!
+This section will get you acquainted with all the bits and bobs there are to Cyber. This includes all our projects, our community plans, the launch process and how to get some fuel to bootstrap yourself to save the galaxy. Most importantly this section teaches you how to use Cyber!
 
-### Using cyber: The very basics of becoming a master
+### Using Cyber: The very basics of becoming a master
 
-#### Connecting to cyber
-First of all, let's explore the possible ways to connect to cyber. In further classes, you will find out about other ways of connecting with the beast. But for now, we will stick with the very basics. Read the information carefully, as few paths are safe, some might seem safer but have hidden obstacles, not seen to the naked eye.
+#### Connecting to Cyber
+First of all, let's explore the possible ways to connect to Cyber. In future classes, you will find out other ways of connecting to the beast. But for now, we will stick with the very basics. Read the information carefully, as few paths are safe, some might seem safer but have hidden obstacles not seen to the naked eye.
 
-##### cyber~Page
-We suggest you start your acquaintance with using cyber from [cyber.page](http://cyber.page/). It is a small taste (it is, currently, in alpha mode) of an IPFS based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol.
+##### The bridges
+There are several ways you can explore the Cyber protocol, there are:
+- cyber.page: Cyber page is an application, it allows users to safely connect with Cyber, using their Ledger device, create cyberlinks, send tokens, read the explorer, participate in games, governance, delegate tokens, collect rewards and much more. The app is designed to be used for users with Ledgers. Why? This is the only safe way to keep your keys, without revealing them anywhere. However, the app can also be used in read-only mode, still allowing for plenty of use cases. Read on to find out more.
+- cyb\~Virus (3rd party application): Originally the virus was designed by our team as a Chrome extension as part of a hackathon. With time, we realized that we had to pass on the app due to various reasons (primarily, resource consumption) to open source development. The current version of the metamask like extension allows users to create a wallet, save their seed, download pages to IPFS with a few clicks and send tokens.
+- cyberD bot (3rd party application): This is a telegram bot that has an inbuilt faucet, allows you to create a Cyber wallet, create cyberlinks, upload content to IPFS and has some monitoring functions. 
+- cyb\~Snap (in the making): A new metamask-like extension that will allow working with cyber.page without a Ledger. There are plans to integrate the extension with all Cosmos-based chains if they will wish to do so. It will probably have some trading functions too.
 
-First of all, one needs to watch the short, Episode 1 story at the beginning (giggles are on us), by clicking `Play story` (just press the space bar on your keyboard if you wish to skip the story):
+Let's explore these in more detail.
+
+
+###### cyber~Page
+We suggest you start your acquaintance from [cyber.page](http://cyber.page/). It is a small taste of an IPFS-based search application, that allows one to search for semantically enriched and dynamically ranked IPFS content, with the help of the cyber protocol. And... no need to install anything.
+
+First of all, we welcome you to watch the short Episode 1 story (giggles are on us), by clicking `Play story` [right here](https://cyber.page/episode-1) (just press the space bar on your keyboard if you wish to skip the story):
 
 <img src="https://i.postimg.cc/KzPkY6qv/Screenshot-from-2020-02-14-14-45-15.png" />
 
-Just turn on the speakers and enjoy the journey:
+Turn on the volume and enjoy the journey:
 
 <img src="https://i.postimg.cc/85NWLkrr/Screenshot-from-2020-02-14-14-47-34.png" />
 
-You are now on the main page. Rest assured, it's working. Let me remind you that when google introduced their notorious sear bar, people were ready to kill. We think simple is good. Black is sexy:
+The cyber.page app can conflict with different browsers, settings and other bureaucratic web2 designs. We are working on making the journey as feasible as possible. If you find problems, do not hesitate to [open issues](https://github.com/cybercongress/dot-cyber) and give the repo a star, we love these =)
+
+You are now on the main page. Rest assured, it's working. Let me remind you that when google introduced their notorious search bar, people were ready to kill them. We think simple is good and black is sexy. And no, there is currently no way to have a light theme.
 
 (Notice how the eye in the top right corner is not red, but green? This is because since those screens were taken, we have integrated an IPFS node into the app, which lets you pin and search content right from a P2P network)
 
@@ -574,137 +586,58 @@ This will return some results:
 
 <img src="https://i.postimg.cc/RV3DBcjW/Screenshot-from-2020-03-24-18-51-12.png" />
 
-Those are sparks (snippets), containing cyberlinked hashes, that someone linked, enriched semantically and here they are. The numbers next to the hashes are the current ranks.
+Those are sparks (snippets), containing cyberlinks that someone created and here they are. This is the content. The numbers next to the hashes are the current ranks of the content.  The colour of the dot next to it is the current availability of the content. Remember that this is user generated and you are exploring content in someone's P2P network (or via a server that pinned that content to a cluster). This means that some content might not be available if no other node is sharing that content and their own node is not online. It is important to remember that Cyber is a search protocol, not a database of content! The content is yours and yours only. 
 
-The sparks don’t look fantastically attractive. But they will be later. They will even be alive and P2P-style interactive in the future. Let’s click on one of the results (please be patient, the network is still slow and the first time around it might take a while until something loads - this is peer discovery. More so, there is a possibility something won’t even load, as it was unpinned):
+The sparks don’t look fantastically attractive. In fact, they are very ugly. But they will be later. They will even be alive and P2P-style interactive in the future. Let’s click on one of the results (please be patient, the network is still slow and the first time around it might take a while until something loads - this is peer discovery. More so, there is a possibility something won’t even load, as it was unpinned):
 
-(Of course, the results are dynamic, the first hash led me to the cyber WP. Let us know what results you got)
+(Of course, the results are dynamic, the first hash led me to Cyber's WP. Let us know what results you got)
 
 <img src="https://i.postimg.cc/DwY5nXHy/Screenshot-from-2020-02-14-14-56-16.png" />
 
 BTW, did you notice the paper clip next to `paste a hash`?  Because there is an integrated IPFS node, you can actually pin anything you want to IPFS using this paper clip and it will become immediately searchable thanks to cyber. I will go over in detail on how to do this next time (let's see if you can figure it out on your own for now).
 
-Let’s click on the brain. That purple essence in the top left corner:
+Don't worry, we will explore this further. For now, that's the basics.
 
-<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+###### cyb\~Virus
+The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then became a 3rd party app. 
 
-This will take us onto the main knowledge page:
+cyb\~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. 
 
-<img src="https://i.postimg.cc/GtcSH1Qc/Screenshot-from-2020-02-14-15-00-01.png" />
+You may still find the original code in its [GitHub repository](https://github.com/cybercongress/cyb-virus).
 
-Here, you may explorer network statistics, validators, economic parameters, % of staked tokens, bandwidth price, etc. To do this, simply click on any of the buttons. I.E. `Cybernomics`, `Bandwidth`, etc
+Please note: we do not recommend importing private keys into the app as we cannot guarantee the security!
 
-Notice that the top box, at the top, becomes searchable. You can perform search actions from here too. More so, cyber doesn't just understand keywords, it also understands addresses. For example, try searching an ATOM or an ETH address:
+With that in mind, you may still install and use it. Let's try to do it:
 
-<img src="https://i.postimg.cc/QM0M3GTk/Screenshot-from-2020-03-24-19-02-40.png" />
+The easiest way is to head over to the [official Mozilla add-on page](https://addons.mozilla.org/en-US/firefox/addon/cyb-virus/) and just add the extension to your Firefox browser. As simple as that.
 
-It does say that it doesn't know what it is but notice the `Check your gift` button underneath. Click it. This will, most likely, take you to the gift page:
+<img src="https://i.postimg.cc/SN1d8y46/Screenshot-from-2020-06-08-13-41-10.png" />
 
-(Cyber gifted 10% of its supply to [ETH](https://www.ethereum.org/), [ATOM](https://cosmos.network/) and [URBIT](https://urbit.org/) hodlers)
+You can use the source code to install the extension. I doubt that you need my help if you are aware of how to do this. The latest release can be [found here](https://github.com/CipherDogs/cyb-virus/releases). (*Hint: click on the `Assets` button. You will see the extension file.zip, download it and install*).
 
-If the address was lucky and got gifted, you will see something like this:
+The file will be saved in your `downloads` folder or in any other directory you saved it. You will need to unpack it. Simply head over to the file and unpack it into a separate folder. Then pack the extension and use it.
 
-<img src="https://i.postimg.cc/vTRTP7np/Screenshot-from-2020-03-24-19-04-23.png" />
+We will learn to use it in the next sections. 
 
-Give it a second to load and calculate the results. The page loads the results from a decentralized database (a blockchain), it can take up to a few seconds to calculate this.
+###### cyberd~Bot
+This is an open-source Telegram bot. To start using it all you need to do is just open the Telegram app on your phone and search for @cyberdbot. When you found him, click start and you will be greeted by the bot and a menu will appear.  
 
-(Otherwise, the results will display gift:0)
+<img src="https://i.postimg.cc/K849s1fp/photo-2020-06-08-13-39-03.jpg" />
 
-You can also click `PLAY`, which will take you to the [GoL rules](https://cybercongress.ai/game-of-links/). The currently incentivized testnet of cyber. 
+For now, this is all you need to know. We will get back to using it later on.
 
-Now, try clicking the robot in the top right corner: 
-
-(Notice, that when you hover over it, it displays text with links, feel free to explore them)
-
-<img src="https://i.postimg.cc/4x9nxKxQ/Screenshot-from-2020-02-14-15-10-44.png" />
-
-This takes you to the Ledger page:
-
-<img src="https://i.postimg.cc/0rgRWN19/Screenshot-from-2020-02-14-15-12-14.png" />
-
-If you click the bottom button `Put Ledge into the pocket`, it will offer you to connect your Ledger (on this, later on, with different guides):
-
-<img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
-
-Notice that the network is still learning, so if you type in something cyber isn't aware of yet, you will be displayed with this:
-
-<img src="https://i.postimg.cc/gk93qPLs/Screenshot-from-2020-02-14-15-15-24.png" />
-
-However, you will see a result. This is a hash that takes you to an explanation page if you click it:
-
-<img src="https://i.postimg.cc/Qdf2WmYQ/Screenshot-from-2020-02-14-15-17-12.png" />
-
-Let's go back to the brain by clicking it:
-
-<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
-
-Notice, how there is a message box, right under the top search box, saying you need tokens. Click on the `Game of Links` green link. This will take you here:
-
-<img src="https://i.postimg.cc/25cLJsc1/Screenshot-from-2020-02-14-15-19-38.png" />
-
-Here, you may find details about the Game of Links, its distribution. Check out the `Masters path` (builder of the Great Web) or the `Heros path` (validators of the Great Web) by clicking on either. The results will help you to understand more details.
-
-For now, we will finish the initial sign guide for [cyber.page](http://cyber.page/). When you use this guide, you might discover that since its inception, new features have been added. Even now, some pages like the [governance page](https://cyber.page/governance), are already being tested.
-
-##### cyb~Virus
-The virus is a Chrome extension made to #fuckgoogle right in Chrome. It was originally made as a project during an IPFS hackathon and since then, due to technical reasons, been archived. It can still be used, though it is NOT safe to import your private keys into the extension! 
-
-cyb~Virus is capable of downloading any web2 page into IPFS and enriching it with a searchable keyword for cyber in 2 clicks. However, due to technical limitations, we have archived the project. 
-
-You may still find the code in its [GitHub repository](https://github.com/cybercongress/cyb-virus).
-
-Please note: it is NOT safe to import your private keys into the app. We cannot guarantee the security of this application for the time being!
-
-With that in mind, you may still install it and use it. Let's try to do it:
-
-Head straight over to the [release page](https://github.com/cybercongress/cyb-virus/releases) and click on the `Assets` button. You will see the extension file.zip, download it:
-
-<img src="https://i.postimg.cc/CL1HGXbF/Screenshot-from-2020-04-23-11-34-44.png" />
-
-The file will be saved in your `downloads` folder or in any other directory you saved it. You will need to unpack it. Simply head over to the file and unpack it into a separate folder.
-
-Now open up your Chrome browser. The extension sonly supports Chrome!
-
-Go to settings and then click on extensions or simply put this `chrome://extensions/` into your browsers window, and click enter:
-
-<img src="https://i.postimg.cc/L57qBCMX/Screenshot-from-2020-04-23-11-38-49.png" />
-
-In the top left corner, click `Load unpacked` (please note that you might need to enable developers mode for this. To do this, simply click on the `Developers mode` on the same page, in the top right corner). A window will open, asking you to choose a folder, head over to the place you unpacked the extension, click on the folder (do not open the folder itself) and click open (I called mine `CYB`, but yours can have a different name):
-
-<img src="https://i.postimg.cc/XJPNTr11/Screenshot-from-2020-04-23-11-41-41.png" />
-
-If you did it correctly, you will see the cyb extension appear:
-
-<img src="https://i.postimg.cc/4x4dHRc5/Screenshot-from-2020-04-23-19-43-20.png" />
-
-Click on the extension in your extension panel in the top right corner. *Hint: As Virus isn't safe to use for importing keys and transactions, the only reason why you would want to use it is for downloading pages into IPFS and obtaining a hash for cyberlinking via cyper.page.*
-
-Click get started and create a wallet. A page with a seed phrase will appear. You can save it and as a matter of good principle, you should. However, as mentioned, this address might not be safe. Enter a password and move forward. The app is installed and is ready to be used. 
-
-All that you are interested in, is the `Download page to IPFS` button. Go onto any page you want to do this for (make sure your browser allows javascript) and click the button (you don't need a balance for it, it's not a chain tx):
-
-<img src="https://i.postimg.cc/xT27R0tK/Untitled.png" />
-
-After you click the first button, click `save`:
-
-<img src="https://i.postimg.cc/d10NhBm3/Untitled1.png" />
-
-This has the IPFS hash of the file, which you can already use. Copy it. If you now try any IPFS gateway, you should be able to see that file in IPFS. 
-
-##### cyb~Snap
-Snaps are a [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
+###### cyb~Snap
+Snaps are [metamask](https://metamask.io/) extensions that allow developers to integrate non-Ethereum chains into metamask and use it. To install snap you need to manually upload it from GitHub to your browser extensions.
 
 cyb~Snap will allow integrations for almost all Cosmos based chains and act as a multi-chain wallet, just like metamask is for ETH. 
 
-For cyber snap will allow for linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow utilizing other features.
+cyber~Snap will allow linking content from web2 to web3 via a few clicks. It will also act as a wallet and will allow utilizing other features of cyber.page.
 
-You may find more information about the snap in its [household repository](https://github.com/cybercongress/cyb-snap). PRs are welcome!
+You may find more information about the snap in its [household repository](https://github.com/cybercongress/cyb-snap). PR's are welcome!
 
 A dev preview of cyb~Snap:
 
 <img src="https://i.postimg.cc/YCF6VQ6p/ER42d-Fl-Wk-AAGn-GI.jpg" />
-
-To be continued...
 
 #### Using cyber.page for Masters
 Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of options.
