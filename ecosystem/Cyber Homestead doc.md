@@ -1562,6 +1562,51 @@ Follow the on-screen instructions and the Ledger instructions and finally, sign 
 
 You can combine other bridges too. For example, use a hash of a downloaded page as a starting point of a cyberlink for cyberd~Bot. The world is your oyster. Find the combination that works best for you and use it. 
 
+### Using Cyber: other bridges
+We already learned that cyber.page is one bridge and others exist. We even learned to conenct to Cyber via these bridges and even played with some of their capbalities. Let's explore the other features these bridges have to offer:
+
+#### cyb\~Virus
+You already know how to install the extension. If you missed it, check it [here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus). 
+
+What can the extension do?
+
+1) cyb\~Virus allows for users to create a wallet, check out [how-to]()https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet
+
+2) Download pages directly to IPFS
+
+3) Transfer and receive tokens
+
+4) Configure the node
+
+5) Has some primitive search functions
+
+#### cyberd\~Bot
+This Telegram bot acts as a faucet for tokens (as long as the owner decides to give them away), can create links, accounts, etc
+
+1) You already mastered the art of creating a wallet using the bot. Check out [how-to](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)
+
+2) It can create cyberlinks. We learned [this too](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#making-your-first-cyberlink)
+
+3) The bot can upload content to IPFS.
+
+Open the bot and choose the `Upload to IPFS` option:
+
+<img src="https://i.postimg.cc/3JrYjBMW/photo-2020-06-09-17-01-10.jpg" />
+
+Choose the content you want to upload, it can be text, sound, video, etc and click enter:
+
+<img src="https://i.postimg.cc/9FfHwQT7/photo-2020-06-09-17-01-15.jpg" />
+
+4) You can check the list of validators and check whether a particular validator is currently jailed.
+
+Click on the `Validator list` option:
+
+<img src="https://i.postimg.cc/J0xy6z4X/photo-2020-06-09-17-07-47.jpg" />
+
+This shows all of the current validators and their jailed status.
+
+If you click on `Jail check settings`, and provide a particular validator moniker, it will save it and let you know if that particular validator is jailed or not upon clicking `Jail check`.
+
 ### Using cyber: Advanced Master Class
 What can be better than moving to the next level of mastering a skill? Mastering a skill even more... I hope that this section will be filled in by the masters themselves as they get to know cyber and their karma levels grow.
 
