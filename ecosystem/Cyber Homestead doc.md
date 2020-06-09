@@ -870,45 +870,114 @@ You already know where it is and how to find it. Let's do this together again:
 
 Take a rest, we will now proceed to the juicy stuff!
 
-#### Using cyber.page for Masters
-Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of options.
+### Using cyber.page for Masters
+Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users.
 
-##### Using your Ledger to link
-The main purpose of cyber is to cyberlink aka to create an open semantic field for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
+#### What is cyber.page anyways?
+You might have already noticed that cyber.page allows you to connect to the Cyber protocol, but it's not the only bridge that lets you do this. This allows us to conclude that cyber.page is, in fact, a front maintained by one team, where many others can arise. 
 
-In the future, the process of making links will become easier and easier. Right now, there are plenty of bugs and fixes that cyber.page as an app undergoes. But, regardless of these, it works. So let's try to use our Ledger device and create a link:
+cyber.page is a reference interface for the Cyber protocol. Its working name is dot.cyber and its maintained by the cyber\~Congres team. It is 100% open-source and has absolutely no tracking. The code can be [seen here](https://github.com/cybercongress/dot-cyber). The lack of tracking comes at some cost, but we believe that it's worth it. The cost is, of course, the difficulty in analysing user experience. However, as with most web3 tech, this is covered by openness, transparency and communication with users and developers wishing to share their experience. 
 
-First of all, you will need a Ledger, for the purpose of this guide I am assuming you have one. If you don't and you wish to acquire one, please do so only from trusted sources! I advise you to check the ledger [official webiste](https://www.ledger.com/) first for any local dealers near you in [this section](https://shop.ledger.com/pages/retailers/). Please note, that we are not affiliated with Ledger, so please make sure you double-check all of this yourself.
+We made cyber.page as an intermediary until our web3 browser Cyb starts to fully function. Yet, it doesn't mean that we will kill cyber.page after that. We don't know yet. For now, it is here.
 
-As a second step, you will need the Cosmos app installed on your Ledger. To do this, you will need to install [Ledger Live](https://www.ledger.com/pages/ledger-live) (only do so from their website!). As Cosmos is not on the App Catalog by default, you will need to activate the developer mode.
+cyber.page is not a website, it is an application that you can open in a web2 browser and it lets you connect to the various web3 tech. For example, it allows you to use the features of Cyber's blockchain, you may connect your Metamask extension to it for some features and so on. Most importantly you can search and build the Gret Web right from cyber.page.
 
-Go to settings and simply allow dev mode `ON`:
+The app is made specifically to work with Ledgers, this makes it safe, yet somewhat more difficult to onboard users. We are developing an extension that will change this. cyber.page is probably one of the most advanced blockchain application out there, as of now it features all of the following:
 
-<img src="https://i.postimg.cc/CxW9bCNk/1-9l-BQWse4k-F7-Nr-MCEXM32-Q.png" />
+- Search web3 (IPFS CIDs, understands ETH, ATOM, Cyber addresses)
+- Create cyberlinks
+- Governance features (vote, create proposals)
+- Connect your Ledger device (supports numerous derivation paths)
+- Transfer CYB / EUL
+- Stake tokens, delegate tokens
+- Play the Game of Links and monitor its events
+- Monitor validators 
+- Its an explorer (monitor tx details, view block info, see block height, amount of links, etc)
+- Includes gamified mechanics, like picking your path in the Cyberworld
+- Connects you to the most important docs and other various links about Cyber
+- Allows you to become an ambassador for Cyber
+- You can connect your Metamask extension to it to participate in the auction
+- Has a personal dashboard, allowing you to monitor your Cyber and ATOM addresses and some of your Cyber progress
+- Lets you participate in Cyber's takeoff round
+- Upload content directly to a P2P network
+- Indexes search results from web3
 
-Once the developer mode is activated, you can come back to the app catalogue and you should normally be able to find Cosmos on the list:
+#### Exploring cyber.page
+As you can see from the list above cyber.page has a shit load of features for one small application. Yet, it is minimalistic in its design, not overloaded with data and its slick. We will learn to do certain actions one by one, plus we already had a taste of cyber.page at the very beginning of the journey. Let's have a quick demo around some of the features, so you feel more confident when using the app later on.
 
-<img src="https://i.postimg.cc/RhyL2dqT/1-741r-Qcm-FCs-L6gn-EMz8h-Wyg.png" />
+Let's open the app:
 
-Click `install` and you are ready to move on.
+<img src="https://i.postimg.cc/nLk0fhDT/Screenshot-from-2020-06-09-15-09-17.png" />
 
-I advise you obtain some ATOM tokens, as you will need those to make transactions within Cosmos (not cyber). Still, it might be a good idea to test how staking and transacting works in Cosmos, as it is very to cyber.
+The app is designed like most websites to make the user comfortable. For example, the top right (the robot) and the top left corner (the purple brain) are a bit like a settings menu (brain) and personal menu (robot). Considering that the main purpose of Cyber is to be a search protocol and cyber.page a reference to it, the search box in the middle is self-explanatory. There are also some quick buttons underneath the box to take you to places we feel are vital for a user to visit. 
 
-For this guide, I will skip on how to use your ATOM wallet, as there are plenty of those you can find on web2 and maybe even in cyber, or link on of these to cyber yourself =)
+The general idea is to let the use gradually follow the rabbit hole. Clicking and exploring bit by bit. Let's start from the lift corner, the brain. Click on it:
 
-Onto the next step. To create a link with Ledger, you will need some CYB or EUL (depending on whether it is a test or a live net) tokens. There are a few ways to obtain these:
+<img src="https://i.postimg.cc/638jVN80/Screenshot-from-2020-06-09-15-13-22.png" />
 
-1) Whilst this is still a testnet, you might as for some in the [fuckgoogle TG channel](https://t.me/fuckgoogle) and people might send you some
-2) Get some from [the faucet](https://cyber.page/gol/faucet)
-3) Get some from [Kira's TG bot](https://t.me/InterchainWalletBot)
-4) Obtain them by [running a validator node](https://github.com/cybercongress/congress/blob/master/ecosystem/validators/onboarding.md)
-5) By [playing GoL](https://cybercongress.ai/game-of-links/)
-6) By participating in any of the rounds (see `beep beep beep` section)
-7) Via claiming [a gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md)
+We see a lot of menus, buttons and numbers. Gradually all of them will become more self-explanatory and have information pegs. Though the menus are more or less self-explanatory already. The main menu, for example, contains a few submenus, like the `heroes` sub-menu, which takes us to the validator page or the `Cyberlinks` submenu which takes us to the graph visualization. Other menus include:
 
-It seems, that the easiest way now is to use the bot to get some tokens (unless you had a gift). Then, simply send them to your own address (see the sections below). Your EUL or CYB address will be generated for you automatically the first time you connect your ledger device to the app. Let's do it.
+- Knowledge: mostly explorer features
+- Path: gamified mechanics with Cybers subculture
+- Cybernomics: prices, caps and all the rest
+- Government: network params, governance tabs, links to foundation DAO
+- Apps: a list of apps built on Cyber
+- Help: a list of docs and community links
 
-Open cyber app:
+Most of the menus have submenus and are clickable. Enjoy exploring them.
+
+Let's explore the right corner, the robot. Click it. If the user has already connected, it will show him his accounts, which are clickable and take you to your personal menu. If not, it will offer you to connect. The personal menu also has submenus and various info, like balances, delegations, GoL details, etc.
+
+About GoL (Game of Links). The GoL page has so much info that there is a separate section for it. Feel free to [explore it](https://cyber.page/gol) for now.
+
+#### Choosing your path
+First, let's understand what on Earth am I talking about? Cyber has its own subculture, its a mix of many different influences, from star wars, blockchain, physics, neuroscience, computer games, movies and much more. You will constantly see some gamified mechanisms all over the place. And as Cyber grows, its community grows, ideas grow and so will these mechanics. There are a lot of plans for those. And by a lot, I mean a lot, like as much as this doc is. some of them include the Andromeda hub, various special skills, tokens and even religion a-like inclinations. The ride is going to be interesting. I can defiantly say that.
+
+Back to the path. Cyber has citizens. Citizens have different virtues. Just like different customers need different targeting, so do various types of citizens. There are:
+
+- Heroes: validators of the protocol. They keep the infrastructure. They secure the network. Protect the kingdom from evil forces and all of that. Ther receive rewards from the inflation pool and delegators commissions
+- Masters: the builders of the Great Web. The users. Those, without whom all this would become no more than an empty space. They are the main consumers and the main force of the kingdom
+- Merchants: rather self-explanatory. Traders. The creators of trustless and decentralized trading tools. They trade, earn and exchange. They might open their own shops (did I mention Cyber is more like a universe, and it will include VR worlds?)
+- Evangelists: cyber~Monks. These guys live by building up the social graph. They connect people. Some of them can be speculators. Some can have mysterious strange skills and attract others
+- Hackers and Creators: they might separate in the future. Those are the apps developers. The creators of beautiful and useful things
+
+So, which one are you?
+
+<img src="https://i.postimg.cc/XNRHFJ91/Screenshot-from-2020-06-09-15-44-47.png" />
+
+Pick your destiny. For now, this is no more than a way to help you guide around Cyber, in the future, this will make life easier by providing access to tools, communities, etc
+
+#### Sending tokens with Ledger
+You already noticed that the app can act as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your Ledger device. Click on the green eye:
+
+<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
+
+Click on your `cyber` address:
+
+<img src="https://i.postimg.cc/G2rjr1q8/Screenshot-from-2020-03-30-15-23-25.png" />
+
+At the bottom of the page click `Send EUL using ledger`:
+
+<img src="https://i.postimg.cc/YSBP4Zdk/Screenshot-from-2020-03-30-15-23-49.png" />
+
+You will need to enter a valid cyber address that you want to send tokens to and the amount in GEUL (1 GEUL = 1 million EUL). Note that your balance is shown in GEUL. So to send 100k, enter 0.1:
+
+<img src="https://i.postimg.cc/W4KxNzxW/Screenshot-from-2020-03-30-15-24-22.png" />
+
+After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx:
+
+<img src="https://i.postimg.cc/RhRBZ97W/Screenshot-from-2020-03-30-15-25-15.png" />
+
+You may click `continue` to carry on linking or click `View transaction` to see your tx:
+
+<img src="https://i.postimg.cc/g2w2NXy4/Screenshot-from-2020-03-30-15-29-30.png" />
+
+#### Using a Ledger to create cyberlinks
+The main purpose of Cyber is to search and create cyberlinks. In other words, to create an open semantics core for web3 and to enrich the knowledge graph with... knowledge that can be used by anyone, anywhere, anytime. 
+
+In the future, the process of making links will become easier. Let's try to use our Ledger device and create a cyberlink. To create a cyberlink with Ledger, you will need some CYB or EUL (depending on whether it is a test or a live net) tokens. There are a few ways to obtain these, which we already discussed.
+
+Open cyber.page:
 
 <img src="https://i.postimg.cc/bY5Zk0LY/Screenshot-from-2020-03-25-13-15-01.png" />
 
@@ -916,19 +985,19 @@ Click on the Green eye of the robot in the top right corner. This takes you to t
 
 <img src="https://i.postimg.cc/mkcXn1JN/Screenshot-from-2020-04-17-12-45-17.png" /> 
 
-At the top wee the box, calling you out to play GoL. We will explore this in a seperate section. Lets continue for now. As you can see at the bottom, you may aslo press `Put read address only`, this will allow you to enter a cosmos address and to work in view-only mode with it. But we need the real thign here!
+At the top there is a section, calling you out to play GoL. We will explore this in a separate section. Let's continue for now. As you can see at the bottom, you may also press `Put read address only`, this will allow you to enter an address and to work in view-only mode with it. But we need the real thing here!
 
-If you click the button at the bottom, `Put Ledger`, it will offer you to connect your Ledger (follow the steps on the screen). 
+If you click the button at the bottom, `Pocket your Ledger`, it will offer you to connect your Ledger (follow the steps on the screen). 
 
 <img src="https://i.postimg.cc/jd8kS5F2/Screenshot-from-2020-02-14-15-14-03.png" />
 
-This will bring us to the [pocket page](https://cyber.page/pocket). After you connect your device, you will get to a page which will display your Cosmos address and your cyber address, with the appopriate balances if you have any:
+This will bring us to the [pocket page](https://cyber.page/pocket). After you connect your device, you will get to a page which will display your Cosmos address and your cyber address, with the appropriate balances if you have any:
 
 <img src="https://i.postimg.cc/y85dqMDm/Screenshot-from-2020-04-17-12-51-43.png" /> 
 
 If you see EUL tokens and not CYB tokens, this means that the network is still in testnet, don't worry about this.
 
-Once again, lets ignore the Game of Links section for now and explore it later. Also the box stating that you made links previously, will only appear of you did make them!
+Once again, let's ignore the Game of Links section for now and explore it later. Also, the box stating that you made links previously, will only appear if you did make them!
 
 Your balance is most likely to be 0 unless you had a gift. If you did, you will have some tokens on your balance. If not, use one of the options above to obtain some tokens. When you make links you aren't spending any tokens. But, cyber is architectured with a bandwidth model. This means that every time you make a transaction (i.e. link) a portion of your tokens gets frozen. Your bandwidth regenerates over time, allowing you to make more transactions. This is a simple spam protection mechanism. 
 
@@ -1002,49 +1071,7 @@ Not perfect. I know... But at least there is a picture and a description of what
 
 You can link videos, music files, pdfs, etc. The link is your oyster. For now, they do not show perfectly on screen and there are lots of fixes that the app is undergoing. But it fulfils its initial purpose. We managed to submit something to the open semantics field of web3. Who knows, maybe whatever we submitted will once become one of the most searched for things on the new Great Web...
 
-###### Using cyb~Virus and cyber.page together
-You have learned about cyb~Virus and that it can provide us with an IPFS hash of a page that we want to link. We also learned how to connect our Ledger to cyber.page and use it to create cyberlinks. 
-
-There is another trick in the book. It is especially useful if you want to download a page perfectly into IPFS (not a wishy-washy version that is broken everywhere) and then upload this to the knowledge graph, using cyber.page and your Ledger.
-
-Let's do this! Open your browser, your `cyb` extension and open the page that you want to download to IPFS. I want to cyberlink the keyword `help` with this guide into the network! Click on `Download page to IPFS`:
-
-<img src="https://i.postimg.cc/jjzxtHv9/photo-2020-04-24-14-01-37.jpg" />
-
-Copy the IPFS hash. You already know how to do this! Don't try and link just yet, as I said, cyb~Virus isn't any good for that anymore.
-
-Now, let's open the and type `help`, there will be no results. Good. We need the `paste a hash` option, we already know how to use it. Prepare your Ledger, open it and open the Cosmos app on it. Paste the saved hash from cyb~Virus into the box:
-
-<img src="https://i.postimg.cc/cLx2rQs2/Screenshot-from-2020-04-24-13-56-38.png" />
-
-Follow the on-screen instructions and the Ledger instructions and finally, sign the tx. Check it. It works =)
-
-##### Sending tokens 
-As you guessed, by far this is not all the app is capable of. You probably noticed that it acts as an explorer, allowing you to check balances, transactions, vote for validators, etc. You can also send tokens by using the app and your ledger. Click on the green eye again:
-
-<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
-
-Click on your `cyber` address:
-
-<img src="https://i.postimg.cc/G2rjr1q8/Screenshot-from-2020-03-30-15-23-25.png" />
-
-At the bottom of the page click `Send EUL using ledger`:
-
-<img src="https://i.postimg.cc/YSBP4Zdk/Screenshot-from-2020-03-30-15-23-49.png" />
-
-You will need to enter a valid cyber address that you want to send tokens to and the amount in GEUL (1 GEUL = 1 million EUL). Note that your balance is shown in GEUL. So to send 100k, enter 0.1:
-
-<img src="https://i.postimg.cc/W4KxNzxW/Screenshot-from-2020-03-30-15-24-22.png" />
-
-After that click `generate transaction` and simply follow the instructions on your Ledger. When you made sure the information on it matches the info on your screen, hit `sign transactions`, just like when you were linking and the app will generate the tx:
-
-<img src="https://i.postimg.cc/RhRBZ97W/Screenshot-from-2020-03-30-15-25-15.png" />
-
-You may click `continue` to carry on linking or click `View transaction` to see your tx:
-
-<img src="https://i.postimg.cc/g2w2NXy4/Screenshot-from-2020-03-30-15-29-30.png" />
-
-##### An in-depth explorer
+#### cyber.page: an in-depth explorer
 cyber.page allows you to use it as an in-depth explorer. There are two parts to this. One is investigating transactions related to your own account and the other is being able to read general chain information.
 
 Let's start with general information. Click on the brain in the top left corner:
@@ -1055,7 +1082,7 @@ You will see this screen:
 
 <img src="https://i.postimg.cc/k51Ws5rj/Screenshot-from-2020-04-08-11-42-08.png" />
 
-The first box underneath the search box and the statement, has some numbers in it. This is the height of the current block and the current chain id. Click on them:
+The first box underneath the search box and the statement, have some numbers in it. This is the height of the current block and the current chain id. Click on them:
 
 <img src="https://i.postimg.cc/8CXNz2WJ/Screenshot-from-2020-04-08-11-43-45.png" />
 
@@ -1121,7 +1148,111 @@ Let's click the `Cyberlinks` button:
 
 Here we can see all of the cyberlinks that we did. The tx hash (once again, this is a link to a new page with the details), the timestamp and a `from` and a `to` columns. Those are the 2 hashes we used to create a cyberlink.
 
-##### Claiming the Gift
+#### Choosing your hero
+Heroes are the validators behind cybers infrastructure. They are the titans that stand on guard, making sure you can sleep safely at night (and day). 
+
+Heroes get rewarded for their work via inflation. Masters (i.e. delegators) can also be eligible to part of those rewards. This is the process of staking. You delegate your tokens or part of them) to a certain (or several) heroes and because they are staked, you are now, too, eligible to receive some rewards. There are of course some `but`. For one, heroes may (and rightly so) charge a commission fee for from delegators. This allows them to pay for the infrastructure costs that they have. Two, you should be careful choosing a hero. If a hero misbehaves he will get slashed (punished). For example, if a validator node double signs a transaction, the node will lose part of its bonded (staked) tokens. Along with it, delegators will suffer too. This means that you should look out for things like a heroes reputation, commits to the chain, his reasons on launching and running the node, maintenance of the node and other things that might let you know more about them. Three, it is highly advisable to spread your stake (balance) amongst several heroes. This helps decentralization and reduces the risk in case a hero gets slashed. 
+
+Remember. The more tokens are staked, the safer the network.
+
+But first... What rewards can be expected from delegating? Well, as this is still a testnet, it is highly difficult to tell. You can estimate by using [stakingrewards calculator](https://www.stakingrewards.com/asset/cyber).
+
+On [cyber.page](https://cyber.page/), click the brain in the top left corner:
+
+<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+
+(I am assuming, you already plugged in your Ledger, to the app, at least once before or have it connected)
+
+This takes you to your flight deck:
+
+<img src="https://i.postimg.cc/tJhwnWYg/Screenshot-from-2020-03-30-17-52-38.png" />
+
+The top row shows your balance and your balance as a % of the current supply. You may also see the current block height and the chain id. The lower row shows the number of cyberlinks in the network right now (the size of the knowledge graph). The current EUL cap in ATOM and the number of heroes that are in consensus right now. 
+
+You may also notice a middle row with a menu. Explore it for yourself or go back to the [first section of the guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage) to see what it's about. 
+
+We need the heroes button. Let's click it:
+
+<img src="https://i.postimg.cc/BQfCntHX/Screenshot-from-2020-03-30-17-57-12.png" />
+
+Here you can see the list of active heroes and those that are jailed. Jailed heroes mean that something happened and the hero needs to be unjailed. You may also see a button at the bottom `Become a validator`, [explore it in this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer).
+
+Of course, we will concentrate on the active set. Let's explore the table first. You can see the moniker (aka nickname) of the hero. The commission rate that you will have to part with. In other words, this is how many percent you will end up paying to a validator for his services. This is what will be substrated from the earned tokens. 
+
+You can see their voting power (the more that is delegated to them, the higher it is). A % representation of this to 100%. Their self stake or how much they are staking on themselves from what is delegated to them. And finally, your bonded stake, if you already delegated anything to them. 
+
+Let's try and delegate (for the sake of the guide I am taking a random validator that is currently at the bottom of the list). Click the validators name:
+
+<img src="https://i.postimg.cc/KzBrFy96/Screenshot-from-2020-03-30-18-03-50.png" />
+
+We can see a page with some details. Their voting power. Their uptime percent (the more the better). And a cool menu. Let's explore the menu first of all, as this can help us to decide on whether or not we want to stake with this validator. The `main` button is already clicked. Here we can see details about the operator address. The commission. Self stake. Max commission rate and delegator shares. The latter gives us another view into how much is delegated to this hero and what is self-stake. 
+
+The `fans` section shows details about who delegated to this hero:
+
+<img src="https://i.postimg.cc/fTcdbKf9/Screenshot-from-2020-03-30-18-07-31.png" />
+
+Clicking on one of the addresses will take us to a separate page with the details fo that address:
+
+<img src="https://i.postimg.cc/HnLNLxfJ/Screenshot-from-2020-03-30-18-09-37.png" />
+
+Feel free to explore this page. But mainly this is something we have already seen in previous sections. Only this time we can actually see a better breakdown of the balance due to rewards earned from delegation. 
+
+The `burden` section shows the last 300 blocks. Ideally, they should all be green. This means that the validator hasn't missed any blocks lately. The `Rumours` section works like mentions. If the hero was mentioned, you will see it here (*hint* delegations are also mentions). And the `Leadership` section, shows us transactions to do with running a validator:
+
+<img src="https://i.postimg.cc/m2mHMrKL/Screenshot-from-2020-03-30-18-13-27.png" />
+
+Once again, all the transactions are clickable and will take you to the page of the detail. We can see above transactions to do with submitting a proposal to become a validator, depositing tokens and voting. Feel free to explore those.
+
+Let us finally delegate something. In the bottom left corner, you will find a `Stake` button. Hit it and this brings us to the delegation page to the particular hero we clicked on. You can also see your address and your balance. Lets delegate 0.1 GEUL :
+
+<img src="https://i.postimg.cc/VvXLgzfk/Screenshot-from-2020-03-30-18-19-46.png" />
+
+(Follow the on-screen steps for your Ledger to connect it if it still isn't and open the Cosmos app)
+
+Enter this in the amount box and click `Generate tx` (make sure the information that is on the screen matches the information on your Ledger device and sign the transaction on your Ledger (just as with linking).
+
+This brings us to the confirmed transaction page:
+
+<img src="https://i.postimg.cc/Tw55g8Bt/Screenshot-from-2020-03-30-18-21-53.png" />
+
+You can either view the tx or carry on. We've already been over the `view` part in previous sections. Let's click on `continue`. Depending on what page you were on when you clicked `Stake`, it will take you back to the same page. Let's click the `Fans` page:
+
+<img src="https://i.postimg.cc/tTdZ2dC6/Screenshot-from-2020-03-30-18-25-46.png" />
+
+We now see that there is an additional address here. This is, of course, ours. Notice that at the bottom of the page there are now extra button, `unstake` and `restake`. We'll ignore them for now. But those also let you know that you are staking on this particular hero. 
+
+If we click on our address, we will again arrive at the main explorer page of the address. But this time we see a reward:
+
+<img src="https://i.postimg.cc/1t0BwNkC/Screenshot-from-2020-03-30-18-27-49.png" />
+
+Rewards get recalculated as fast as the network commits blocks. Think of it as if you had a savings account and getting interest every few seconds, rather than per year. We cal also see the amount of the total tokens we delegated to all validators. In this case, it matches the amount we just delegated. 
+
+You can keep an eye on your delegations by clicking the green eye, then your cyber address. And finally the heroes section:
+
+<img src="https://i.postimg.cc/9QJrRXgd/Screenshot-from-2020-03-30-18-32-19.png" />
+
+#### Picking honey
+As previously stated, when you chose a here and delegated your dough to him, you are now too, eligible for some honey. 
+
+As in the previous guides, connect your Ledger device, open the Cosmos app and click the green eye on cyber.page:
+
+<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
+
+Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Claim reward` button at the bottom of the page. Click it:
+
+<img src="https://i.postimg.cc/wvyNJmPM/Screenshot-from-2020-03-31-20-40-02.png" />
+
+If your Ledger is connected, you will see a pocket and a `Generate transaction` button. Click it:
+
+<img src="https://i.postimg.cc/YCV7yL0Q/Screenshot-from-2020-03-31-20-40-21.png" />
+
+Make sure the information on your Ledger matches what you see on the screen. Scroll right until you get to the review and sign transaction stage. If everything is ok, sign the transaction. You will see that it's gone through. Press `continue`. Let's make sure that the bird is in the cage. Click on the `Txs` button to see a list of your transactions:
+
+<img src="https://i.postimg.cc/T1DQfwXL/Screenshot-from-2020-03-31-20-40-58.png" />
+
+You can see that the last transaction is what we are after - claiming rewards! As usual, you can explore it by clicking the tx hash. 
+
+#### Claiming the Gift
 The good thing about cyber is that it has a really good architecture and that it uses a bandwidth model to prevent spam. This means that you need tokens to transact. Transactions are free, but you need something to freeze. After a while, you will run out of bandwidth and it will regenerate again. It acts as a protection unit.
 
 We have gifted 10% of our supply to Ethereum, Cosmos and Urbit holders. This means that you can claim the gift, play GoL and transact. Awesome.
@@ -1249,111 +1380,73 @@ Go back to cyber.page and the green eye (you should still have it opened). Check
 
 If you do, congratulations. Send over the rest of the balance. You are now ready to play! 
 
-##### Choosing your hero
-Heroes are the validators behind cybers infrastructure. They are the titans that stand on guard, making sure you can sleep safely at night (and day). 
+#### Using the faucet to get tokens
+What do you do if you didn't get any tokens as a gift and you want to play? Or you want more tokens to play with?
 
-Heroes get rewarded for their work via inflation. Masters (i.e. delegators) can also be eligible to part of those rewards. This is the process of staking. You delegate your tokens or part of them) to a certain (or several) heroes and because they are staked, you are now, too, eligible to receive some rewards. There are of course some `but`. For one, heroes may (and rightly so) charge a commission fee for from delegators. This allows them to pay for the infrastructure costs that they have. Two, you should be careful choosing a hero. If a hero misbehaves he will get slashed (punished). For example, if a validator node double signs a transaction, the node will lose part of its bonded (staked) tokens. Along with it, delegators will suffer too. This means that you should look out for things like a heroes reputation, commits to the chain, his reasons on launching and running the node, maintenance of the node and other things that might let you know more about them. Three, it is highly advisable to spread your stake (balance) amongst several heroes. This helps decentralization and reduces the risk in case a hero gets slashed. 
+Use the test\~Auction or [the faucet](https://cyber.page/gol/faucet). We have released an in-detail [blog post]() on how to use it. If you haven't read it, check it out. Otherwise, stick with me (but please check out the post for more detail).
 
-Remember. The more tokens are staked, the safer the network.
+<img src="https://i.postimg.cc/02DP4zpC/Screenshot-from-2020-04-17-13-23-30.png" />
 
-But first... What rewards can be expected from delegating? Well, as this is still a testnet, it is highly difficult to tell. You can estimate by using [stakingrewards calculator](https://www.stakingrewards.com/asset/cyber).
+The page seems a bit difficult to use. Trust me, it isn't!
 
-On [cyber.page](https://cyber.page/), click the brain in the top left corner:
+First of all, I would suggest you turn on your Metamsk extension. If you turned it on after visiting the page, hit the refresh button on your keyboard (F5). 
 
-<img src="https://i.postimg.cc/YqQhpKP4/Screenshot-from-2020-02-14-14-58-58.png" />
+There are 5 boxes on the top. The current round of the auction, the total amount of ETH spent the current price of one Giga GOL per ETH (remember that these are testnet tokens!). The time left until the end of the current window and the cap of the test tokens in ETH.
 
-(I am assuming, you already plugged in your Ledger, to the app, at least once before or have it connected)
+The chart shows a theoretical price for one Giga GOL in ETH at each window of the auction. The price could and will change as more ETH is donated. 
 
-This takes you to your flight deck:
+You can donate on any open window. Use the box below to contribute. Enter the amount in ETH and the round you want to participate in and hit `confirm`. At the bottom of the page, a notice with the tx hash will appear. You can view the transaction on Etherscan or press OK and wait for the confirmation.
 
-<img src="https://i.postimg.cc/tJhwnWYg/Screenshot-from-2020-03-30-17-52-38.png" />
+Once the round is closed the "claim" button should be available to grab the tokens you've won. Push it and follow the instructions of your metamask extension. 
 
-The top row shows your balance and your balance as a % of the current supply. You may also see the current block height and the chain id. The lower row shows the number of cyberlinks in the network right now (the size of the knowledge graph). The current EUL cap in ATOM and the number of heroes that are in consensus right now. 
+For your comfort (making transactions), you should add GOL tokens to your metamask account by adding the following contract address (once again, this is very simple and there are lots of guides on how to do it, for example [this one](https://www.youtube.com/watch?v=II7VMo5Nl7k)):
 
-You may also notice a middle row with a menu. Explore it for yourself or go back to the [first section of the guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpage) to see what it's about. 
+```
+0xf4ecdba8ba4144ff3a2d8792cad9051431aa4f64
+```
 
-We need the heroes button. Let's click it:
+Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion to any `cyber` address. The vesting page is available by clicking `vesting`, in the box above the chart, or via [a direct link](https://rebyc.cyber.page/vesting).
 
-<img src="https://i.postimg.cc/BQfCntHX/Screenshot-from-2020-03-30-17-57-12.png" />
+Please note, that you may need to connect the extension if you still haven't!
 
-Here you can see the list of active heroes and those that are jailed. Jailed heroes means that something happened and the hero needs to be unjailed. You may also see a button at the bottom `Become a validator`, [explore it in this section](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer).
+If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. `Vested` GOL tokens are the tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. `Available` GOL tokens are the tokens you can vest or send. `Total` is the sum of vested and the available tokens together.
 
-Of course, we will concentrate on the active set. Let's explore the table first. You can see the moniker (aka nickname) of the hero. The commission rate that you will have to part with. In other words, this is how many percent you will end up paying to a validator for his services. This is what will be substrated from the earned tokens. 
+To get EUL tokens you just need to pick the amount of GOL tokens you wish to vest and a `cyber` address for transferring EUL tokens. If you have previously connected your Ledger device to cyber.page, the app will automatically fill in your cyber address for you (of course, if you want to vest to a different address, you need to change it). Push the "Create vesting" button, read and check the summary and push "Create TX". Follow Metamask instructions. After the transaction is confirmed you can see an entry in the table below with the amount of GOL tokens vested, a date, a `cyber` recipient address and a hash of the transaction for the `euler` network. 
 
-You can see their voting power (the more that is delegated to them, the higher it is). A % representation of this to 100%. Their self stake or how much they are staking on themselves from what is delegated to them. And finally, your bonded stake, if you already delegated anything to them. 
+The GOL tokens you have just vested will be moved to the `Vested` section, and the `Available` for transfer amount of GOL tokens will decrease by the vested value. 
 
-Let's try and delegate (for the sake of the guide I am taking a random validator that is currently at the bottom of the list). Click the validators name:
+Congratulations!  You have EUL tokens for interacting with the `euler` test network!
 
-<img src="https://i.postimg.cc/KzBrFy96/Screenshot-from-2020-03-30-18-03-50.png" />
+#### Exploring the knowledge graph
+By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
 
-We can see a page with some details. Their voting power. Their uptime percent (the more the better). And a cool menu. Let's explore the menu first of all, as this can help us to make a decision on whether or not we want to stake with this validator. The `main` button is already clicked. Here we can see details about the operator address. The commission. Self stake. Max commission rate and delegator shares. The latter gives us another view into how much is delegated to this hero and what is self stake. 
+You've been working hard on linking day and night, trying to get some tokens, right? What could be better than seeing your work painted by an artist?
 
-The `fans` section shows details about who delegated to this hero:
+In your browser, go straight to the [page of the graph](https://cyber.page/graph)... Enjoy!
 
-<img src="https://i.postimg.cc/fTcdbKf9/Screenshot-from-2020-03-30-18-07-31.png" />
+This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
 
-Clicking on one of the addresses will take us to a separate page with the details fo that address:
+Follow these steps to discover the graph from the inside:	 
+  
+ 1) Look at the whole graph:	 
+  
+ <img src="https://i.imgur.com/gbHfyqB.png" />	 
+  
+ 2) Choose clusters of cyberlinks you are interested in:	 
+  
+ <img src="https://i.imgur.com/yJ4KXI5.png" />	 
+  
+ 3) Zoom in and select one of the cyberlinks using your mouse cursor:	 
+  
+ <img src="https://i.imgur.com/26oQ6Eg.png" />	 
+  
+ 4) Right-click the mouse button and open the selected cyberlink:	 
+  
+ <img src="https://i.imgur.com/nQXclbl.jpg" />	 
+   
+`Left-click`: rotate. `Mouse-wheel` /`middle-click`: zoom. `Right-click` :pan
 
-<img src="https://i.postimg.cc/HnLNLxfJ/Screenshot-from-2020-03-30-18-09-37.png" />
-
-Feel free to explore this page. But mainly this is something we have already seen in previous sections. Only this time we can actually see a better breakdown of the balance due to rewards earned from delegation. 
-
-The `burden` section shows the last 300 blocks. Ideally, they should all be green. This means that the validator hasn't missed any blocks lately. The `Rumours` section works like mentions. If the hero was mentioned, you will see it here (*hint* delegations are also mentions). And the `Leadership` section, shows us transactions to do with running a validator:
-
-<img src="https://i.postimg.cc/m2mHMrKL/Screenshot-from-2020-03-30-18-13-27.png" />
-
-Once again, all the transactions are clickable and will take you to the page of the detail. We can see above transactions to do with submitting a proposal to become a validator, depositing tokens and voting. Feel free to explore those.
-
-Let us finally delegate something. In the bottom left corner, you will find a `Stake` button. Hit it and this brings us to the delegation page to the particular hero we clicked on. You can also see your address and your balance. Lets delegate 0.1 GEUL :
-
-<img src="https://i.postimg.cc/VvXLgzfk/Screenshot-from-2020-03-30-18-19-46.png" />
-
-(Follow the on-screen steps for your Ledger to connect it if it still isn't and open the Cosmos app)
-
-Enter this in the amount box and click `Generate tx` (make sure the information that is on the screen matches the information on your Ledger device and sign the transaction on your Ledger (just as with linking).
-
-This brings us to the confirmed transaction page:
-
-<img src="https://i.postimg.cc/Tw55g8Bt/Screenshot-from-2020-03-30-18-21-53.png" />
-
-You can either view the tx or carry on. We've already been over the `view` part in previous sections. Let's click on `continue`. Depending on what page you were on when you clicked `Stake`, it will take you back to the same page. Let's click the `Fans` page:
-
-<img src="https://i.postimg.cc/tTdZ2dC6/Screenshot-from-2020-03-30-18-25-46.png" />
-
-We now see that there is an additional address here. This is, of course, ours. Notice that at the bottom of the page there are now extra button, `unstake` and `restake`. We'll ignore them for now. But those also let you know that you are staking on this particular hero. 
-
-If we click on our address, we will again arrive at the main explorer page of the address. But this time we see a reward:
-
-<img src="https://i.postimg.cc/1t0BwNkC/Screenshot-from-2020-03-30-18-27-49.png" />
-
-Rewards get recalculated as fast as the network commits blocks. Think of it as if you had a savings account and getting interest every few seconds, rather than per year. We cal also see the amount of the total tokens we delegated to all validators. In this case, it matches the amount we just delegated. 
-
-You can keep an eye on your delegations by clicking the green eye, then your cyber address. And finally the heroes section:
-
-<img src="https://i.postimg.cc/9QJrRXgd/Screenshot-from-2020-03-30-18-32-19.png" />
-
-##### Picking honey
-As previously stated, when you chose a here and delegated your dough to him, you are now too, eligible for some honey. 
-
-As in the previous guides, connect your Ledger device, open the Cosmos app and click the green eye on cyber.page:
-
-<img src="https://i.postimg.cc/fRgf1Sf8/Screenshot-from-2020-03-25-14-53-29.png" />
-
-Click on the `Heroes` tab. You can see your hard-earned delegation reward and a `Claim reward` button at the bottom of the page. Click it:
-
-<img src="https://i.postimg.cc/wvyNJmPM/Screenshot-from-2020-03-31-20-40-02.png" />
-
-If your Ledger is connected, you will see a pocket and a `Generate transaction` button. Click it:
-
-<img src="https://i.postimg.cc/YCV7yL0Q/Screenshot-from-2020-03-31-20-40-21.png" />
-
-Make sure the information on your Ledger matches what you see on the screen. Scroll right until you get to the review and sign transaction stage. If everything is ok, sign the transaction. You will see that it's gone through. Press `continue`. Let's make sure that the bird is in the cage. Click on the `Txs` button to see a list of your transactions:
-
-<img src="https://i.postimg.cc/T1DQfwXL/Screenshot-from-2020-03-31-20-40-58.png" />
-
-You can see that the last transaction is what we are after - claiming rewards! As usual, you can explore it by clicking the tx hash. 
-
-##### Playing GoL
+#### Playing the Game of Links
 By now your level of expertise as a master should be on level 42. If so, let's move onto the main section of the master level. Playing the Game of Links. 
 
 There is so much info about GoL in this guide, that I would recommend using `Ctrl-F` key combo and search for what it is. A long story short, it's a game to help distribute CYB tokens from the pot of cyber~Congress into the hands of those who want them. The game is made for heroes, evangelists and masters. However, anyone can join and play. You don't need to have a node running to get rewards. In fact, if you've managed to complete the above levels and got as far as here, you are good to go.
@@ -1430,82 +1523,44 @@ Pretty simple. So what are you waiting for? Go and link...
 
 You may, of course, explore the 2 other ways of the Jedi. The `hero` path and the `evangelists` path. But we will skip them for this section.
 
-##### Using the faucet to get tokens
-What do you do if you didn't get any tokens as a gift and you want to play? Or you want more tokens to play with?
+#### Takeoff guide
+You might have gotten here yourself while you were exploring GoL or you chose the merchant path. If not, just head over to the [takeoff page manually](https://cyber.page/gol/takeoff).
 
-Use the test\~Auction or [the faucet](https://cyber.page/gol/faucet). We have released an in-detail [blog post]() on how to use it. If you haven't read it, check it out. Otherwise, stick with me (but please check out the post for more detail).
+<img src="https://i.postimg.cc/h4wSF9Ty/Screenshot-from-2020-06-09-16-15-30.png" />
 
-<img src="https://i.postimg.cc/02DP4zpC/Screenshot-from-2020-04-17-13-23-30.png" />
+Underneath the statement box, we see the main metric boxes, the end of the takeoff, the price of GCYB per ATOM, the amount of GCYB allocated (remember how they are all dynamic, right?).
 
-The page seems a bit difficult to use. Trust me, it isn't!
+The main page lands you onto the manifest. Read it if you want to understand the value proposition of Cyber. The leaderboard and the progress buttons take you to 2 submenus. One will show the total amount of ATOM donated and the current discount and the other the current donor leaderboard. 
 
-First of all, I would suggest you turn on your Metamsk extension. If you turned it on after visiting the page, hit the refresh button on your keyboard (F5). 
+The bottom of the page has a donation and a contribution box. We have a detailed post, explaining how to donate to Cyber. Please make sure to [check it out](https://cybercongress.ai/how-to-donate/).
 
-There are 5 boxes on the top. The current round of the auction, the total amount of ETH spent the current price of one Giga GOL per ETH (remember that these are testnet tokens!). The time left until the end of the current window and the cap of the test tokens in ETH.
+#### Becoming an evangelist
+You might have chosen the evangelist path. You might be very socially active or you just want to earn some extra rewards Regardless, this path is for you.
 
-The chart shows a theoretical price for one Giga GOL in ETH at each window of the auction. The price could and will change as more ETH is donated. 
+Several posts help you to onboard on this path, those are: [1](https://cybercongress.ai/post/obep/) and [2](https://hive.blog/cyber/@cyber-devs/how-to-become-an-evangilsit-for-cyber)
 
-You can donate on any open window. Use the box below to contribute. Enter the amount in ETH and the round you want to participate in and hit `confirm`. At the bottom of the page, a notice with the tx hash will appear. You can view the transaction on Etherscan or press OK and wait for the confirmation.
+I would strongly suggest to check out the [initial document](https://github.com/cybercongress/cyber-foundation/blob/master/evangelism/obep.md) that describes the guidelines.
 
-Once the round is closed the "claim" button should be available to grab the tokens you've won. Push it and follow the instructions of your metamask extension. 
+In a gist: open cyber.page/evangelism, make sure your Metamsk extension is on. Click on `Believe`. Fill in your public addresses. After this, the cyber\~Congress team will either bless you or not. In the future, the blessing will be done by cyber\~Foundation. As soon as you're blessed, start creating content and helping CYber with donations!  
 
-For your comfort (making transactions), you should add GOL tokens to your metamask account by adding the following contract address (once again, this is very simple and there are lots of guides on how to do it, for example [this one](https://www.youtube.com/watch?v=II7VMo5Nl7k)):
+#### Using cyber.page together with other bridges
+You have learned about cyb\~Virus and that it can provide us with an IPFS hash of a page that we want to link. We also learned how to connect our Ledger to cyber.page and use it to create cyberlinks. 
 
-```
-0xf4ecdba8ba4144ff3a2d8792cad9051431aa4f64
-```
+There is another trick in the book. It is especially useful if you want to download a page perfectly into IPFS (not a wishy-washy version that is broken everywhere) and then upload this to the knowledge graph, using cyber.page and your Ledger.
 
-Once your tokens are in your pocket you can vest EUL tokens on a 1:1 proportion to any `cyber` address. The vesting page is available by clicking `vesting`, in the box above the chart, or via [a direct link](https://rebyc.cyber.page/vesting).
+Let's do this! Open your browser, your `cyb` extension, and open the page that you want to download to IPFS. I want to cyberlink the keyword `help` with this guide into the network! Click on `Download page to IPFS`:
 
-Please note, that you may need to connect the extension if you still haven't!
+<img src="https://i.postimg.cc/jjzxtHv9/photo-2020-04-24-14-01-37.jpg" />
 
-If your metamask account is connected and you already have GOL tokens on your balance, you should see the total amount of GOL vested and available to transfer. `Vested` GOL tokens are the tokens you already vested to get EUL tokens. It means that these tokens are frozen for transfers. `Available` GOL tokens are the tokens you can vest or send. `Total` is the sum of vested and the available tokens together.
+Copy the IPFS hash. You already know how to do this! Don't try and link just yet, as I said, cyb~Virus isn't any good for that anymore.
 
-To get EUL tokens you just need to pick the amount of GOL tokens you wish to vest and a `cyber` address for transferring EUL tokens. If you have previously connected your Ledger device to cyber.page, the app will automatically fill in your cyber address for you (of course, if you want to vest to a different address, you need to change it). Push the "Create vesting" button, read and check the summary and push "Create TX". Follow Metamask instructions. After the transaction is confirmed you can see an entry in the table below with the amount of GOL tokens vested, a date, a `cyber` recipient address and a hash of the transaction for the `euler` network. 
+Now, let's open the and type `help`, there will be no results. Good. We need the `paste a hash` option, we already know how to use it. Prepare your Ledger, open it and open the Cosmos app on it. Paste the saved hash from cyb~Virus into the box:
 
-The GOL tokens you have just vested will be moved to the `Vested` section, and the `Available` for transfer amount of GOL tokens will decrease by the vested value. 
+<img src="https://i.postimg.cc/cLx2rQs2/Screenshot-from-2020-04-24-13-56-38.png" />
 
-Congratulations!  You have EUL tokens for interacting with the `euler` test network!
+Follow the on-screen instructions and the Ledger instructions and finally, sign the tx. Check it. It works!
 
-##### Exploring the knowledge graph
-By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
-
-You've been working hard on linking day and night, trying to get some tokens, right? What could be better than seeing your work painted by an artist?
-
-In your browser, go straight to the [page of the graph](https://cyber.page/graph)... Enjoy!
-
-This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
-
-Follow these steps to discover the graph from the inside:	 
-  
- 1) Look at the whole graph:	 
-  
- <img src="https://i.imgur.com/gbHfyqB.png" />	 
-  
- 2) Choose clusters of cyberlinks you are interested in:	 
-  
- <img src="https://i.imgur.com/yJ4KXI5.png" />	 
-  
- 3) Zoom in and select one of the cyberlinks using your mouse cursor:	 
-  
- <img src="https://i.imgur.com/26oQ6Eg.png" />	 
-  
- 4) Right-click the mouse button and open the selected cyberlink:	 
-  
- <img src="https://i.imgur.com/nQXclbl.jpg" />	 
-   
-`Left-click`: rotate. `Mouse-wheel` /`middle-click`: zoom. `Right-click` :pan
-
-##### Takeoff 
-You might have gotten here yourself while you were exploring GoL. If not, just head over to the [takeoff page manually](https://cyber.page/gol/takeoff).
-
-<img src="https://i.postimg.cc/zGrPGB4p/Screenshot-from-2020-04-17-13-16-25.png" />
-
-Underneath the statement box, we see the 5 main metric boxes, the end of the takeoff, the number of ATOM tokens left till its end, the amount of CYB allocated (remember how they are all dynamic, right?), the current takeoff discount and finally, the price per one Giga CYB in ATOM. 
-
-Above the chart, there are 3 buttons. By default, the `main` button is clicked. This shows a theoretical chart. As time progresses, so does the amount of donated ATOM and the amount of allocated CYB grows. The more ATOM is donated, the more CYB tokens are allocated. The discount falls. This means that the earlier you donate, the higher your discount is if more ATOM tokens are donated! 
-
-At the bottom of the graph, we see the countdown to the takeoff timer! Keep an eye on it!
+You can combine other bridges too. For example, use a hash of a downloaded page as a starting point of a cyberlink for cyberd~Bot. The world is your oyster. Find the combination that works best for you and use it. 
 
 ### Using cyber: Advanced Master Class
 What can be better than moving to the next level of mastering a skill? Mastering a skill even more... I hope that this section will be filled in by the masters themselves as they get to know cyber and their karma levels grow.
