@@ -52,9 +52,9 @@ This section contains basic information that you will need for your journey into
       * [Takeoff guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff-guide)
       * [Becoming an evagelist](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#becoming-an-evangelist)
       * [Using cyber.page together with other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-together-with-other-bridges)
-   * [Using Cyber: other bridges]()
-      * [Using cyb\~Virus]()
-      * [Using cyberd\~Bot]()
+   * [Using Cyber: other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-other-bridges)
+      * [Using cyb\~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus-1)
+      * [Using cyberd\~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot-1)
    * [Using Cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
      * [Cross Linking and clustering](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cross-linking-and-clustering)
@@ -1570,7 +1570,7 @@ You already know how to install the extension. If you missed it, check it [here]
 
 What can the extension do?
 
-1) cyb\~Virus allows for users to create a wallet, check out [how-to]()https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet
+1) cyb\~Virus allows for users to create a wallet, check out [how-to](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)
 
 2) Download pages directly to IPFS
 
