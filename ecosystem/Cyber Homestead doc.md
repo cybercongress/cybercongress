@@ -870,7 +870,7 @@ You already know where it is and how to find it. Let's do this together again:
 
 Take a rest, we will now proceed to the juicy stuff!
 
-### Using cyber.page for Masters
+### Using cyber.page: new possibilities
 Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users.
 
 #### What is cyber.page anyways?
