@@ -1572,13 +1572,49 @@ What can the extension do?
 
 1) cyb\~Virus allows for users to create a wallet, check out [how-to](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)
 
-2) Download pages directly to IPFS
+2) Download pages directly to IPFS.
 
-3) Transfer and receive tokens
+I assume you already created a wallet. If no, please go back to step 1 and do so. Open the extension and visit any page you would like to save to IPFS and/or cyberlink. Click on the `Download page to IPFS` icon:
 
-4) Configure the node
+<img src="https://i.postimg.cc/fLCn0n07/Screenshot-from-2020-06-10-11-46-25.png" />
 
-5) Has some primitive search functions
+Wait for the magic to happen. In the bottom left corner of your screen, you will see the 1,2,3 steps. When it's done, it will provide you with an IPFS hash of the downloaded page. Click it and use it:
+
+<img src="https://i.postimg.cc/5NHTfFpS/Untitled.png" />
+
+Just so you understand how cool this feature is, let's see that this has indeed worked outside of Cyber. That's the hash I got: `QmSXnY35qgfitpxeTYFi6oVx6k7vN2ZUPdbnhLNfMfKV8D`
+
+Simply add any IPFS gateway to this and voila: https://ipfs.io/ipfs/QmSXnY35qgfitpxeTYFi6oVx6k7vN2ZUPdbnhLNfMfKV8D 
+
+3) Transfer and receive tokens.
+
+Receiving is rather simple. Click on your address and just share it with someone. They will then send you the tokens. To send tokens, just open the extension and click `Send` under your address. You will be prompted by a box, asking you to input an address and an amount:
+
+<img src="https://i.postimg.cc/nzh2h6KQ/Screenshot-from-2020-06-10-11-58-43.png" />
+
+Enter the destination address and the amount. You should be careful here. As you know, Cyber works with large numbers and we have abbreviations for amounts. Mega, Giga, Tera. Read more about it [here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#glossary). This means if you enter 1, you will send 1 billion tokens! Be careful when doing this! 
+
+4) Configure the node. 
+
+You might want to configure your connection for any reason. Simply look for the settings icon on the main page of the extension (the one with the wheels), click it. Here you can configure the connection.
+
+5) Has some primitive search functions.
+
+Still an experimental feature. On the main screen of the extension, right above your address, there is a search box. It doesn't search for everything and the results are just hashes. Try entering something like `cyber` and click enter. You will get a bunch of results. Alas, when you click them, they redirect to a local connection. But you already know how to view what's inside. Confused? 
+
+Well either go back to the point number 2 or just use cyber.page to view those =)
+
+6) Cyberlinking. 
+
+Also experimental, yet fairly easy. Remember the hash we got when we downloaded the CMC in point 2? Here it is again: `QmSXnY35qgfitpxeTYFi6oVx6k7vN2ZUPdbnhLNfMfKV8D`
+
+On the main screen click `Link` (underneath your address). It will ask for an IPFS hash and some keywords. Remember how a cyberlink is a connection between the content and the keyword, right?
+
+<img src="https://i.postimg.cc/BbbG2SD5/Screenshot-from-2020-06-10-12-16-54.png" />
+
+Input the hash and the keyword and click `save`. I used CMC as my keyword here. You can also do this when downloading the page into IPFS (there is a place to enter keywords there too). 
+
+Please note that some features are experimental and might not work at all. If not please use cyber.page or refer to the creator of the application in question. 
 
 #### cyberd\~Bot
 This Telegram bot acts as a faucet for tokens (as long as the owner decides to give them away), can create links, accounts, etc
