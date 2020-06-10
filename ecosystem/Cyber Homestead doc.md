@@ -2033,10 +2033,10 @@ A list of economic profiles:
 There is 1 other profile that we want to mention, in which Cyber is mentioned, practically, on a daily basis. [Cosmsos Today](https://twitter.com/adriana_kalpa), this is a series of daily tweets that are run by different community members in various languages and are translated from the English version
 
 ##### Community maintained profiles and tools:
-- [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
-- [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs/awesome-cyber)
+- [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs)
+- [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs)
+- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
+- [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs)
 - [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cybers Russian BTT](https://bitcointalk.org/index.php?topic=5246903): A Russian BTT. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
