@@ -5453,7 +5453,7 @@ In the future, we plan on implementing NFTs, robot wars, levels and other gamifi
 Notable events so far:
 - The gift of the gods
 - Call out to the intergalactic tournament
-- Rise of the Superintelelgnce
+- Rise of the Superintelligence
 - Last battle for decentralization on Earth
 
 ##### Episode II: Space, the final frontier. Temporary asylum
