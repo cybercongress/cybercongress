@@ -5,12 +5,12 @@ Cyber is a decentralized google. Its mission is to create a universal search pro
 
 ### The short track
 If you don't want to read the whole doc and know what and why you are doing this, simply follow this guide:
-- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/cyberd/run_validator/)
+- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/go-cyber/run_validator/)
 
 ### The long track
 If you feel comfortable with setting up validators, familiar with what we do already, but still unsure about cyber, then the below links are for you:
-- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/cyberd/run_validator/)
-- [Set up configuration](https://cybercongress.ai/docs/cyberd/setup_cyberd_configuration/)
+- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/go-cyber/run_validator/)
+- [Set up configuration](https://cybercongress.ai/docs/go-cyber/setup_cyberd_configuration/)
 - The rules to [the Game of Links](https://cybercongress.ai/game-of-links/) (the current incentivized testnet)
 - Validators can bootstrap initial fuel [via the gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Gift%20FAQ%20and%20general%20gift%20information.md), or by playing [the Game of Links](https://cyber.page/gol) 
 - An A-Z [video instruction](https://www.youtube.com/watch?v=KUZagDJRstc&feature=youtu.be) for 
@@ -29,10 +29,10 @@ Or just search for [your address here](https://cyber.page/gift/0x742d35cc6634c05
 - **You are now ready to become a cyber hero and build `The Great Web`**
 - An A-Z [video instruction](https://www.youtube.com/watch?v=KUZagDJRstc&feature=youtu.be) for 
 setting up a cyber node and infrastructure 
-- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/cyberd/run_validator/)
-- We are [Ledger friendly](https://cybercongress.ai/docs/cyberd/validator_launch_with_tendermintkms_and_ledger/)
-- Here is [the CLI command list](https://cybercongress.ai/docs/cyberd/ultimate-commands-guide/) to take care of your hero
-- Cyber really likes [hardware wallets](https://cybercongress.ai/docs/cyberd/cyberd_ledger_guide/)
+- How to run a validator on cyber: [a step by step guide](https://cybercongress.ai/docs/go-cyber/run_validator/)
+- We are [Ledger friendly](https://cybercongress.ai/docs/go-cyber/validator_launch_with_tendermintkms_and_ledger/)
+- Here is [the CLI command list](https://cybercongress.ai/docs/go-cyber/ultimate-commands-guide/) to take care of your hero
+- Cyber really likes [hardware wallets](https://cybercongress.ai/docs/go-cyber/cyberd_ledger_guide/)
 - [Pocket your Ledger](https://cyber.page/pocket) and start [playing](https://cyber.page/gol) to get more CYB
 
 ### Can you explain all of this in a paragraph?
@@ -51,7 +51,7 @@ Cyber is a decentralized google for provable and relevant answers, without an in
 - What it is it good for...[basic usecases](https://github.com/cybercongress/congress/blob/master/ecosystem/usecases.md)
 
 ### Shut up and take my money
-If you're ready to dive in deeper, then [set up a hero](https://cybercongress.ai/docs/cyberd/run_validator/), 
+If you're ready to dive in deeper, then [set up a hero](https://cybercongress.ai/docs/go-cyber/run_validator/), 
 [play the game](https://cyber.page/gol/) and read [why we do what we do](https://github.com/cybercongress/congress/blob/master/README.md)
 
 ### I need more links
