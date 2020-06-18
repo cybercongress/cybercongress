@@ -1839,6 +1839,11 @@ Of course, you need developers to build the tools, however, e-commerce, SEO or o
 
 Are there many ways of monetizing the internet? Yes. They are endless. Apps, data, on and/or off-chain apps, consensus apps, selling, buying, etc. The beauty is that there is no 3rd party. There is no middle man. The downside is that all of the above requires time, developer adoption, user adoption and so on. But, this is not a downside. It is your early ticket to the Great Web. Be the builder of the web yourself. Create the rules. Make suggestions. Buidl. Hodl. Be a true master of your own destiny!
 
+#### Social layers, networks and cyber\~Profiles
+We plan to implement a P2P social layer on top of Cyber. The fact that cyber can act a relevance machine, means it can do amazing social networks based on interest, relevance and lack of AML. It can become a truly, honest place to find people by interests, based on their topics. Startin with following content (cyberlinks) and ending with choosing that you want to communicate only with a cyber\~Profile. A profile that doesn't have to reveal its own identity, but has proven to be the person you want to communicate with via cyberlinks.
+
+It will be easy to follow people. Create your own profile pages (without any guidelines at all), follow and unfollow topics or content. Chat in a P2P environment, exchange value across networks with IBC, etc. All this will become thanks to a tiny change in the architecture of the web. The existence of cyberlinks and an open semantics core, where you own your data.
+
 ------------------------------------------------------
 
 ## :computer: Section subtitle: Prepare for take-off: Part II
