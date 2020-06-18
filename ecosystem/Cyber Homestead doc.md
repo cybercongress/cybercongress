@@ -76,7 +76,7 @@ This section contains basic information that you will need for your journey into
     * [Cyberc-n](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberc-n)
     * [Evangelists](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#evangelists)
     * [Meetups & Hackathons](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#meetups--hackathons)
-    * [Public Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles)
+    * [Public Profiles or how to help Cyber now](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles-or-how-to-help-cyber-now)
        * [Extra media profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#extra-media-profiles)
        * [Community maintained profiles and tools](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#community-maintained-profiles-and-tools)
            * [Apps](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#apps)
