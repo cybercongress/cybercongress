@@ -2024,8 +2024,36 @@ Of course, everything we do is 100% open-source. Hence GitHub. Our [GitHub](http
 
 If you are looking for releases, code sources, want to help us via an issue or a pull request, this is the place to be. Also, this is the quickest place to get an answer to any question you have to the cyber~Congress team. 
 
-#### Public profiles
-There are many public profiles that the cyber~Congress team has created. 
+#### Gitcoin
+We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
+
+<a href="https://gitcoin.co/explorer?q=cyberd">
+ <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
+</a>
+
+#### Cyberc-n
+Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was DEVCON-0, but we believe we can do much better.
+
+cyber~Congress ha already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons.
+
+In our plans for the coming year, to organise Cyberc1n. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
+
+#### Evangelists
+The idea of an evangelist is to preach about cyber. To bootstrap this we created the Open Bootstrap Evangelism Program (OBEP), which after the bootstrap will, hopefully, carry on thanks to governance commitments and the community pool.
+
+There is a seperate section for this. Please [read the guidelines](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#church-section-subtitle-incoming-missile-alert---prepare-to-retaliate) or [register](https://cyber.page/evangelism).
+
+_Mission:_ Increase initial traction. Build strong local and/or online community
+_Tooling:_ cyber tools that help. Creativity
+_General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
+
+For this cyber\~Congress has allocated a community pool and set out guidelines, during the bootstrap. For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens via governance. 
+
+#### Meetups & Hackathons
+One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
+
+#### Public profiles or how to help Cyber now
+There are many public profiles that the cyber\~Congress team has created. Some are maintained by the team. Other by the community. The end goal is for this to become a free for all task. If you want to help Cyber and you are not a developer, start here!
 
 A list of public profiles, sites and chats:
 - [GitHub](https://github.com/cybercongress): A place for the code, docs and communication
@@ -2303,32 +2331,6 @@ Other communities:
 
 The goal of cyber is to communicate with each of those communities via the above-mentioned communication arteries and to deliver the news to those communities. 
 
-#### Gitcoin
-We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
-
-<a href="https://gitcoin.co/explorer?q=cyberd">
- <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
-</a>
-
-#### Cyberc-n
-Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was DEVCON-0, but we believe we can do much better.
-
-cyber~Congress ha already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons.
-
-In our plans for the coming year, to organise Cyberc1n. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
-
-#### Evangelists
-The idea of an evangelist is to preach about cyber. To bootstrap this we created the Open Bootstrap Evangelism Program (OBEP), which after the bootstrap will, hopefully, carry on thanks to governance commitments and the community pool.
-
-_Mission:_ Increase initial traction. Build strong local and/or online community
-_Tooling:_ cyber tools that help. Creativity
-_General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
-
-For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens via governance. 
-
-#### Meetups & Hackathons
-One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
-
 ### Launch process
 As of writing this document, cyber is still in public testing. The current public, incentivized testnet is `euler-5`, it is also the chain-id.
 
@@ -2355,9 +2357,9 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2020.04.20: [First governance proposal](https://cyber.page/governance/2) submitted (takeoff) and accepted after voting
 - 2020.04.26: [Launch of Evangelism](https://cyber.page/evangelism)
 - 2020.04.27: Start of [the takeoff donation round](https://cyber.page/gol/takeoff)
+- 2020.05.21: [Relaunch of the takeoff](https://cybercongress.ai/cosmos-takeoff-proposal/) and [prop #26](https://cosmos.bigdipper.live/proposals/26) to Cosmos
+- 2022.06.10: End of the first test\~Auction
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
-- 2020, spring: Launch of governance and vesting apps/modules
-- 2020, end of spring: Launch of public donation round
 - 2020, 146 days or 300k ATOM after the previous event: End of Game of Links
 - 2020, straight after the previos event: GoL final
 - 2020, (presumably) Q4: Launch of the mainnet 
@@ -2385,11 +2387,7 @@ For the slightly technically advanced users, there is a [laucnh-kit repository](
 
 Here is the full visualization of the launch protocol:
 
-INSERT NEW IMAGE
-
-And, here you can see the details of the launch process from euler-5:
-
-INSERT NEW IMAGE
+<img src="https://i.postimg.cc/K89vpdLt/protocol.png" />
 
 #### Laucnh FAQ
 
