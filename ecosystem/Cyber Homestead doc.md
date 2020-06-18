@@ -86,8 +86,8 @@ This section contains basic information that you will need for your journey into
   * [The launch proccess](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launch-process)
     * [Full launch roadmap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#full-launch-roadmap)
     * [Distribution games introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#distribution-games-introduction)
-    * [The launch protocol](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol-and-initial-gol-details)
-    * [Prop 26]()
+    * [The launch protocol](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol)
+    * [Prop 26](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#prop-26)
     * [Launch FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#lucnh-faq)
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer)
