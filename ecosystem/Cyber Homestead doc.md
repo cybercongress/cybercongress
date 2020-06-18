@@ -2077,14 +2077,33 @@ A list of economic profiles:
 There is 1 other profile that we want to mention, in which Cyber is mentioned, practically, on a daily basis. [Cosmsos Today](https://twitter.com/adriana_kalpa), this is a series of daily tweets that are run by different community members in various languages and are translated from the English version
 
 ##### Community maintained profiles and tools:
+The goal of Cyber is to be governed solely by the community via the use of on-chain governance mechanisms, cyber\~Foundation and any other trustless tools that may come existence. Below is the start of the long list of community tools and profiles:
+
+###### Tools
+- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
+- [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
+
+###### SM, websites and public profiles
 - [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs)
 - [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs)
-- [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
 - [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs)
 - [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cybers Russian BTT](https://bitcointalk.org/index.php?topic=5246903): A Russian BTT. [By Antropocosmist](https://github.com/antropocosmist)
+- [Beermoney forum](https://www.beermoneyforum.com/threads/ann-cyber-a-decentralized-google-for-provable-and-relevant-answers.82934/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Crypto talk forum RU](https://cryptotalk.org/topic/103952-ann-cyber-%D0%B4%D0%B5%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-google-%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B2%D0%B5%D0%B1%D0%B0/): A crypto-related forum thread in Russian. [By CryptoQ](http://github.com/vgk88)
+- [Crypto talk forum](https://cryptotalk.org/topic/103949-ann-cyber-a-decentralized-google-for-provable-and-relevant-answers/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [MMGP forum thread](https://mmgp.ru/showthread.php?t=708776#post17123399): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Cryptocurrency forum thread](https://cryptocurrencytalk.com/topic/155723-ann-cyber-a-decentralized-google-for-provable-and-relevant-answers/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Altcointalk forum thread](https://www.altcoinstalks.com/index.php?topic=152407.0): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Cent forum thread](https://beta.cent.co/+psy8br): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Staking Defence forum thread](https://forum.stakingdefense.org/t/game-of-links-by-cybercongress/262): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Ochan forum thread](https://zeronet.now.im/0chan.bit/?/g/thread/a61fe3cd588aadd4a1904b77dcee8572): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Zeronet forum thread](https://zeronet.now.im/Talk.ZeroNetwork.bit/?Topic:1592067672_1QBa3qVPi84otXt5PzBgRu9VyqXZ3Hz68Y/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Bitcoingarden forum thread](https://bitcoingarden.org/forum/index.php?topic=90211): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [CP0X forum thread](https://cp0x.com/topic/423-cyber-decentralizirovannyy-google-velikogo-veba/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+
+###### Other
 - [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
-- [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
 
 #### Gitcoin
 We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
