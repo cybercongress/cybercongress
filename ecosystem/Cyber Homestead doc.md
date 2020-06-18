@@ -3152,11 +3152,11 @@ If you see your `<your_node_nickname>` with status `Bonded` and Jailed `false`, 
 You are validating the network.
 
 #### A video guide 
-Please note, that the video is somewhat outdated, hence use it as reference only, followed up by these guides!
+Please note, that the video might be somewhat outdated, hence use it as reference only, followed up by these guides!
 
 We have an awesome video guide that will help you to set-up your infrastructure. It contains additional details and addons for the above guide, make sure to watch it:
 
-[![Validating video guide](https://www.youtube.com/watch?v=-FfRfxcDrH8)
+[![Become a Hero!](https://i.postimg.cc/d3xDkpB2/Screenshot-from-2020-06-18-17-12-12.png)](https://www.youtube.com/watch?v=-FfRfxcDrH8 "Become a Hero!")
 
 #### Maintenance of the validator
 ##### Jailing
