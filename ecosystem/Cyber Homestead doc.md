@@ -63,6 +63,7 @@ This section contains basic information that you will need for your journey into
         * [Creating links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-links)
   * [Using Cyber: Guru Master Classes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#guru-masterclasses)
     * [Monetization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#monetezation)
+    * [Social layers, networks and cyber~Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#social-layers-networks-and-cyberprofiles)
 ------------------------------------------------------
 - [Section subtitle: Prepare for take-off: Part II](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#computer-section-subtitle-prepare-for-take-off-part-ii)
   * [IPFS / Cosmos & Tendermint](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#ipfs--cosmos--tendermint)
