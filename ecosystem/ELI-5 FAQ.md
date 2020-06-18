@@ -42,6 +42,8 @@ You may think of Cyber is a huge Wikipedia without censorship, which is at the m
 
 But how does this all work and can this really be used for something rather than just search? Well, imagine a simple graph. This graph has an X-axis and a Y-axis. For now, let's label the X-axis `from` and the Y-axis `to`. Now imagine that you want to end up at any point of this graph. You need to fill in 2 bits of information. From and to. The from in our case is a search word that will identify the content. This is what shapes the semantics field.  The `to`, is the content itself. So far simple.
 
+<img src="https://i.postimg.cc/VkbNs6vd/photo-2020-05-14-03-54-50.jpg" />
+
 To make the content and the keyword immutable, we use what we call content identifiers. For now, we work with a technology called IPFS, which is, basically, a distributed p2p storage, where users can safely store and exchange data (but Cyber can work with any similar technology, DAT, GIT, Bitcoin, Ethereum, Swarm, etc). 
 
 This means that to add anything to the graph, the users need to use IPFS hashes (hash is simply an encrypted pointer to a certain value that lets us make sure that what is pointed to is actually what is pointed to and not something else). Users use the 2 links to create what we call a cyberlink. A Cyberlink is exactly what is described above, a link between the X and the Y, where one thing is the keyword and the other is the content. 
@@ -55,6 +57,14 @@ That content is dynamically ranked with the help of digital tokens and the curre
 Because we use hashes and blockchain technology, we can root to the origin of the links and make sure that the content came from where it says it has. Basically, allowing for a simple provable mechanism.  
 
 At first, this makes up for a perfect search engine, without a blackbox intermediary. But going back to our graph, we can imagine, that such a graph can be used in many cases. For example, unified semantics, because hashes don't care about what language was used by the person who added the content. Or autonomous robots, because they are built on simple ML algorithms, which are in turn based on semantics too. There are many use cases for this. But most importantly, this leaves us in control of our own data. Allowing us to decide what to do with it. Also, this helps us to create relevance between objects on the graph, without any opinions that are sold to us daily by different megacorps. 
+
+##### Fun fact
+On the topic of immutability and unified semantics. What is one of the most popular things that communication on the internet gave birth to? Emojis! They have become a separate language of their own, understood by anyone, regardless of race, gender, age, colour, whatever...
+
+Have you ever tried Googling Emojis? It is an example of a language NOT understood by Google, but understood by Cyber thanks to its brand-new search architecture. Google can actually search one Emoji, but that brilliant machine does not understand when I do this:
+🧑🏻‍🤝‍🧑🏽 👮 ☮️, `all lives matter` maybe?
+
+Let's try [cyber.page](https://cyber.page/search/%F0%9F%A7%91%F0%9F%8F%BB%E2%80%8D%F0%9F%A4%9D%E2%80%8D%F0%9F%A7%91%F0%9F%8F%BD%20%F0%9F%91%AE%20%E2%98%AE%EF%B8%8F) - and...it works! Emoji is a language. It should be searchable!     
 
 #### What problem are you solving?
 Cyber solves the problem of opening up the centralised semantics field of the internet. It does so by shaping an open and accessible semantics field, created (and managed) by the users. This allows to design a trustless, provable and incentivized method of communication between users who provide content and those searching for it. Effectively removing censorship, blackbox intermediary opinions and opening the possibility for a provable, incentivized and a fairer method for anyone to build and use online tools that are built around semantics.
