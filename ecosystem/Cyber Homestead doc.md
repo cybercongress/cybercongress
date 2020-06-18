@@ -2077,9 +2077,9 @@ A list of economic profiles:
 There is 1 other profile that we want to mention, in which Cyber is mentioned, practically, on a daily basis. [Cosmsos Today](https://twitter.com/adriana_kalpa), this is a series of daily tweets that are run by different community members in various languages and are translated from the English version
 
 ##### Community maintained profiles and tools:
-The goal of Cyber is to be governed solely by the community via the use of on-chain governance mechanisms, cyber\~Foundation and any other trustless tools that may come existence. Below is the start of the long list of community tools and profiles:
+The goal of Cyber is to be governed solely by the community via the use of on-chain governance mechanisms, cyber\~Foundation and any other trustless tools that may come existence. Below is the start of the long list of community tools and profiles. Anyone is welcome to commit to any of these or run his own:
 
-###### Tools
+###### Apps
 - [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
 - [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
 
@@ -2101,40 +2101,16 @@ The goal of Cyber is to be governed solely by the community via the use of on-ch
 - [Zeronet forum thread](https://zeronet.now.im/Talk.ZeroNetwork.bit/?Topic:1592067672_1QBa3qVPi84otXt5PzBgRu9VyqXZ3Hz68Y/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
 - [Bitcoingarden forum thread](https://bitcoingarden.org/forum/index.php?topic=90211): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
 - [CP0X forum thread](https://cp0x.com/topic/423-cyber-decentralizirovannyy-google-velikogo-veba/): A crypto-related forum thread. [By CryptoQ](http://github.com/vgk88)
+- [Facebook group](https://www.facebook.com/Cyberfam): Facebook fan group. [By CryptoQ](http://github.com/vgk88)
 
-###### Other
+###### Other tools
 - [Cybers TG stikcers](https://t.me/addstickers/fuckgoogle): Stickers for TG. [By Antropocosmist](https://github.com/antropocosmist)
 
-#### Gitcoin
-We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
-
-<a href="https://gitcoin.co/explorer?q=cyberd">
- <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
-</a>
-
-#### Cyberc-n
-Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was DEVCON-0, but we believe we can do much better.
-
-cyber~Congress ha already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons.
-
-In our plans for the coming year, to organise Cyberc1n. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
-
-#### Evangelists
-The idea of an evangelist is to preach about cyber. To bootstrap this we created the Open Bootstrap Evangelism Program (OBEP), which after the bootstrap will, hopefully, carry on thanks to governance commitments and the community pool.
-
-_Mission:_ Increase initial traction. Build strong local and/or online community
-_Tooling:_ cyber tools that help. Creativity
-_General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
-
-For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens via governance. 
-
-#### Meetups & Hackathons
-One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
-
-#### Partnering communities
-There are many importnat communities that cyber sees as vital for the success of building `the Great Web`. The idea behind publishing these, is that you may copy this list or print it out and help cyber to get more traction within these communitites. Feel free to include any [mentions here](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild/)
+###### Possible partnering communities
+A list of communities we think Cyber has something in common with, some have profiles already. Feel free to comment there or create your own.
 
 Main communities:
+
 - Cosmos: 
   - [Cosmos cyber forum thread](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/9) 
   - [Cosmos cyber.page forum thread](https://forum.cosmos.network/t/cyber-page-the-gateway-app-to-web3/3449/2)
@@ -2294,31 +2270,23 @@ Web 2 social networks:
   - [privacy](https://www.reddit.com/r/privacy/): Privacy subreddit
   - [tails](https://www.reddit.com/r/tails/): Tails subreddit
   - [TOR](https://www.reddit.com/r/TOR/): Tor subreddit
-- Bitcointalk:
-  - [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=5199195)
-  - [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0)
 - Ycomb:
   - [Ycomb news]()
 - Cryptography digest newsletter: 
 - Bitsmedia:
   - [cybers profile link](https://forum.bits.media/index.php?/topic/160286-cyber-%D0%B4%D0%B5%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-google-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D1%82%D1%8B%D1%85-%D0%B8-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D1%85-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2/)
+- Bitcointalk:
+  - [Bitcointalk ANN](https://bitcointalk.org/index.php?topic=5199195): BTT forum thread
+  - [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0): BTT miners forum thread 
+  - [Bitcointalk bounty ANN](https://bitcointalk.org/index.php?topic=5247896.0): BTT bounty ANN
 
---------------------------------
-
-Media channels:
-
-- Non-crypto media:
-  - [cybers mentions in the wild](https://ai.cybercongress.ai/t/mentions-of-the-beast-in-the-wild)
-
-- Crypto media:
-  - [Forklog hub](https://hub.forklog.com/companies/cyber/)
+If you wish to help Cyber on BTT, you may insert [this signature](https://pastebin.com/HuzkAyB3) to your profile or create one of your own and share it with the community!
 
 --------------------------------
 
 Offline communities:
 
-- Under 21:
-- ccc:
+- CCC:
   - [ccc subreddit](https://www.reddit.com/r/ccc/)
 
 --------------------------------
@@ -2331,6 +2299,32 @@ Other communities:
 --------------------------------
 
 The goal of cyber is to communicate with each of those communities via the above-mentioned communication arteries and to deliver the news to those communities. 
+
+#### Gitcoin
+We believe in progress. We value contribution. We believe that we need to learn to help one another. This is why we want to develop the [Gitcoin program](https://gitcoin.co/profile/cybercongress) inside of cyber. Every sprint we try to allocate a certain amount of ETH and distribute it between our team members to actively use gitcoin.
+
+<a href="https://gitcoin.co/explorer?q=cyberd">
+ <img src="https://gitcoin.co/funding/embed?repo=https://github.com/cybercongress/cyberd">
+</a>
+
+#### Cyberc-n
+Off-line events allow communities to grow stronger. Hackathons and useful conferences can help to build-up new teams together, allow form fabulous new creations. A perfect example of how awesome events shape the world was DEVCON-0, but we believe we can do much better.
+
+cyber~Congress ha already organised one [self-governing event](https://www.youtube.com/watch?v=GfG_mn6psRQ&list=PL-MRS5fkWajCmfAS1WxBVgtMdFPmS4WTZ). To our knowledge, it was the first world conference to be run by a smart contract. We think that this is how it should be. And just as others, we learn our lessons.
+
+In our plans for the coming year, to organise Cyberc1n. It will be a completely sovereign and a self-ruling entity, that humans can help to run. No more boring and long speeches. We plan entirely new formats, with whiteboards, geeks and ~blakc-jack~ coding.
+
+#### Evangelists
+The idea of an evangelist is to preach about cyber. To bootstrap this we created the Open Bootstrap Evangelism Program (OBEP), which after the bootstrap will, hopefully, carry on thanks to governance commitments and the community pool.
+
+_Mission:_ Increase initial traction. Build strong local and/or online community
+_Tooling:_ cyber tools that help. Creativity
+_General Tasks:_ Translations. Creations of chats. Groups. Meetups. DR (donation relations). Governance. Hackathons. Etc
+
+For this cyber~Congress has allocated a community pool and set out guidelines, during the bootstrap. For us this is a long term relationship, so, we will create a distributed Evangelist network, that will be funded in CYB tokens via governance. 
+
+#### Meetups & Hackathons
+One of the main goals for cyber~Congress and the evangelist team will be to create useful and meaningful meetups, where people will onboard to cyber. This can be enhanced by Hackathons and other offline initiatives from the community.
 
 ### Launch process
 As of writing this document, cyber is still in public testing. The current public, incentivized testnet is `euler-5`, it is also the chain-id.
