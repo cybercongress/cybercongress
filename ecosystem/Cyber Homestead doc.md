@@ -435,6 +435,14 @@ Because we use hashes and blockchain technology, we can inspect the original roo
 
 This makes a perfect search engine, without a blackbox intermediary. But going back to our graph, we can imagine, that such a graph can be used in many cases. For example, unified semantics, because hashes don't care about what language was used by the person who added the content. Another case would be autonomous robots because they are built on simple ML algorithms, which are in turn based on semantics too. There are many use-cases for this but most importantly, this leaves us in control of our own data. Allowing us to decide what to do with it. Also, this helps us to create relevance between objects on the graph, without any opinions that are sold to us daily by different megacorps.
 
+##### Fun fact
+On the topic of immutability and unified semantics. What is one of the most popular things that communication on the internet gave birth to? Emojis! They have become a separate language of their own, understood by anyone, regardless of race, gender, age, colour, whatever...
+
+Have you ever tried Googling Emojis? It is an example of a language NOT understood by Google, but understood by Cyber thanks to its brand-new search architecture. Google can actually search one Emoji, but that brilliant machine does not understand when I do this:
+🧑🏻‍🤝‍🧑🏽 👮 ☮️, `all lives matter` maybe?
+
+Let's try [cyber.page](https://cyber.page/search/%F0%9F%A7%91%F0%9F%8F%BB%E2%80%8D%F0%9F%A4%9D%E2%80%8D%F0%9F%A7%91%F0%9F%8F%BD%20%F0%9F%91%AE%20%E2%98%AE%EF%B8%8F) - and...it works! Emoji is a language. It should be searchable!  
+
 **Q:** What is a relevance machine? <br>
 **A:** Quite often throughout our explanations we refer to cyber as `A Relevance Machine`. The simple explanation lies in the meaning of the words themselves. Cyber acts as a verifiable and provable intermediary for relevance between any two objects at any point and time. In other words, Cyber can prove that A was relevant to B at a certain place, at a certain time and under specific conditions. 
 
