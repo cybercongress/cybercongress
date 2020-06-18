@@ -86,7 +86,8 @@ This section contains basic information that you will need for your journey into
   * [The launch proccess](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#launch-process)
     * [Full launch roadmap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#full-launch-roadmap)
     * [Distribution games introduction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#distribution-games-introduction)
-    * [The launch protocol and initial GoL details](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol-and-initial-gol-details)
+    * [The launch protocol](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#the-launch-protocol-and-initial-gol-details)
+    * [Prop 26]()
     * [Launch FAQ](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#lucnh-faq)
 ------------------------------------------------------
 - [Section subtitle: Mama I'm an enginner](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nut_and_bolt-section-subtitle-mama-im-an-engineer)
@@ -2382,12 +2383,17 @@ One more mega important part of the auction to remember, are the creative powers
 
 *(Hint: A thorough guide on the games is in the beep, beep, beep section)* 
 
-#### The launch protocol and initial GoL details
+#### The launch protocol
 For the slightly technically advanced users, there is a [laucnh-kit repository](https://github.com/cybercongress/launch-kit) that can take you through each part of the Genesis launch protocol. Here, we will concentrate on the main parts of it.
 
 Here is the full visualization of the launch protocol:
 
 <img src="https://i.postimg.cc/K89vpdLt/protocol.png" />
+
+#### Prop 26
+On the 21st of May 2020, Cyber submitted a [community spend proposal](https://cosmos.bigdipper.live/proposals/26) to the Cosmos community, proposing to donate 10,000 ATOMs from the community pool in exchange for an amount in CYB tokens after IBC is alive. It was the first-ever experiment in DeVC. Alas, it failed. We wish to keep its history alive though and hope this will pave the way for such proposals from the community, not just in and around Cyber and/or Cosmos. But in all blockchain space, and of course, for cyber\~Foundation.
+
+[The proposal](https://cosmos.bigdipper.live/proposals/26) | [The text](https://ipfs.io/ipfs/QmUYDQt9tqLQJwxnUck7dQY3XmZA3tDtpFh3Hchkg7oH46) | [The AMA](https://ipfs.io/ipfs/QmUNdUdJfBdCtopTUfNLEroBaemzQ6qzBKAT8w4rYbuWHq) Cyber did on the main Cosmos TG channel | The reasoning on the [Cosmos forum thread](https://forum.cosmos.network/t/cyber-a-decentralized-google-for-provable-and-relevant-answers/3045/24?u=serejandmyself)  
 
 #### Laucnh FAQ
 
