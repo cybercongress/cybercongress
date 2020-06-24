@@ -2121,9 +2121,14 @@ The goal of Cyber is to be governed solely by the community via the use of on-ch
 - [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
 - [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
 
+*Apps that support Cyber search:*
+- [Galacteek](https://github.com/pinnaculum/galacteek/releases/): A browser for the distributed web that supports search within Cyber. [By Pinnaculum](https://github.com/pinnaculum)
+
 ###### SM, websites and public profiles
 - [Cybers awesome list](https://github.com/CipherDogs/awesome-cyber): A list of awesome cyber tools. [By CipherDogs](https://github.com/CipherDogs)
 - [Russian TG chat](t.me/cyber_russian_community): A local Russian speaking group. [By CipherDogs](https://github.com/CipherDogs)
+- [Korean TG chat](@Cyber_KoreaCommunity): A local Korean speaking group. By Jung Hwa
+- [Japanese TG chat](@Cyber_Japanese): A local Japanese speakign group. By Amaraly
 - [Russian community site](https://cyber.cipherdogs.net/): A website in Russian about Cyber. [By CipherDogs](https://github.com/CipherDogs)
 - [Cybers Discord server](https://discord.gg/8RywKn): A Discord server, structured like a game. [By Antropocosmist](https://github.com/antropocosmist)
 - [Cybers Russian BTT](https://bitcointalk.org/index.php?topic=5246903): A Russian BTT. [By Antropocosmist](https://github.com/antropocosmist)
