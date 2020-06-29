@@ -14,7 +14,7 @@ During the series of Euler's test networks and its latest release, Euler-6, the 
 
 __What are the main mechanics of the euler~Foundation DAO? How is it connected to Cyber and to the current incentivized testnet, Euler-6?__
 
-1.  euler~Foundation provided access to the [test\~Auction app](https://cyber.page/gol/faucet) (the app is called cyber~Auction, in order to separate meaning, during testing, we will call it test~Auction), which allows acquiring ERC-20, GOL tokens in exchange for ETH
+1.  euler\~Foundation provided access to the [test\~Auction app](https://cyber.page/gol/faucet) (the app is called cyber~Auction, in order to separate meaning, during testing, we will call it test~Auction), which allows acquiring ERC-20, GOL tokens in exchange for ETH
     
 2.  All of the donated ETH went under [the management](https://mainnet.aragon.org/#/eulerfoundation/0x6ea838ca600e05164b7e7c053b4cf570cda9d352/) of the euler\~Foundation DAO
     
