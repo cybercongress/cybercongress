@@ -2,7 +2,7 @@
 date: 2020-06-30
 url: euler-foundation-1
 title: 'euler~Foundation, part 1'
-author: litvintech
+author: litvintech, serejandmyself
 ---
 
 ## What is it good for?
