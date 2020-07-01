@@ -1,10 +1,17 @@
+---
+date: 2020-07-01
+url: cycle-upgrade
+title: 'Cycle upgrade'
+author: litvintech
+---
+
 ## Intro
 
-Euler-6 is the latest current cyber network testnet of the incoming Euler series. Testnets, especially incentivized one, gives the playground to the community to battle-test protocol and their implementation. 
+Euler-6 is the latest current cyber network testnet of the incoming Euler series. Testnets, especially incentivized one, gives the playground to the community to battle-test protocol and their implementation.
 
-Blockchain development is hard in many perspectives. Software which runs in a decentralized environment has a lot of failure points. This software has bugs, and the continuous process of finding and fixing them  is the part of development. 
+Blockchain development is hard in many perspectives. Software which runs in a decentralized environment has a lot of failure points. This software has bugs, and the continuous process of finding and fixing them  is the part of development.
 
-During Euler-1/2/3/4/5 a lot of bugs were found and repaired by the core team and community that required the chain restart  or  launch a new network. 
+During Euler-1/2/3/4/5 a lot of bugs were found and repaired by the core team and community that required the chain restart  or  launch a new network.
 
 Thanks to the Upgrade module introduced by the Regen team, tested in a series of Regen network testnets and then merged to Cosmos-SDK in 38 release, now we have an option for repairing and adding features without necessity to restart* the whole network from genesis.
 
@@ -14,7 +21,7 @@ On block 195180 of euler-6, we detected consensus failure on a couple validators
 
 Our team started data collecting about node faulty behaviour from the community reports and found a 1-line bug, which was the cause of those problems.
 
-In this post, we’ll describe the meaning and the fix of the bug, and how to fix the network with zero-downtime using an upgrade module and coordination between validators. 
+In this post, we’ll describe the meaning and the fix of the bug, and how to fix the network with zero-downtime using an upgrade module and coordination between validators.
 
 ## Bug
 
@@ -22,7 +29,7 @@ On cyber's knowledge graph account balances are used for cyber~Rank calculation.
 
 __Bug was here:__
 
-```
+```go
 func (k Keeper) DelegateCoins(ctx sdk.Context, delegatorAddr, moduleAccAddr sdk.AccAddress, amt sdk.Coins) error {
   err := k.Keeper.DelegateCoins(ctx, delegatorAddr, moduleAccAddr, amt)
   if err == nil {
@@ -38,7 +45,7 @@ That leads to incorrect rank calculation and impossibility for cyber nodes to re
 
 ## Deep Dive
 
-Calculations in Cyber protocol and cyber~Rank are driven by consensus between validators. It means for such cases with incorrectly-tracked delegation all nodes using a current weight of account balance to calculate rank, which might be not correct for an account that recently committed cyberlinks to knowledge graph and performed delegations to validators. 
+Calculations in Cyber protocol and cyber~Rank are driven by consensus between validators. It means for such cases with incorrectly-tracked delegation all nodes using a current weight of account balance to calculate rank, which might be not correct for an account that recently committed cyberlinks to knowledge graph and performed delegations to validators.
 
 Issue come up when node operator attempts to restart the node and in-memory balance index is loaded directly from the current node storage state, which is different  compared to  all online nodes iteratively updated in-memory index. This leads to different application hash calculation (root hash of the Merkle Tree of cids rank values) and node failure.
 
@@ -60,21 +67,21 @@ The issue appears if at least one account, which already created cyberlinks and 
 When the issue was diagnosed, we launched a special cyber node with an upgraded binary that allowed us to track any accounts that made transactions and compare their actual and indexed balances at each block end. Thus we were able to see when the index is “broken” and simply fix it by making send transactions for few tokens to the needed accounts.
 
 Since the moment we discovered the issue,  we periodically made and published backups to allow validators, who caught this bug, to restore quickly.
+
 These manual manipulations allowed us to support chain health and correct operation but it's time for the community to perform the upgrade and fix this issue permanently.
 
 ## Time to
 
-Euler-6 network passed 1.3M blocks and attracted more than 20 validators - heroes fighting for freedom and uncensored access to relevant information across the whole Great Web. 
+Euler-6 network passed 1.3M blocks and attracted more than 20 validators - heroes fighting for freedom and uncensored access to relevant information across the whole Great Web.
 As a community, we are ready to perform first online onchain upgrade to repair chain and protocol work. This will be a huge professional milestone for validators as well as for community maturity in solving common project tasks.
 
 ## About the upgrade process
 
 During Euler-6 launch preparation, we published node setup documentation that describes how to configure node in the manner to be compatible with onchain upgrades. If the validator was following that guide during his node setup, minimal efforts would be required to upgrade successfully.
+
 1. During few next days we will release a new cyber version with the needed patch
 2. We will start educating and support process for validators
-3. We will introduce a proposal to upgrade the network onto new version using network governance 
+3. We will introduce a proposal to upgrade the network onto new version using network governance
 4. The upgrade proposal will be set to a specific height
 5. During proposal voting period and before specified upgrade block validators would need to equip their nodes with new cyber's build
 6. At the given height the network will stop at the same time at all nodes and attempt to launch with the new upgraded binary. As soon as all nodes would boot-up and the network would accumulate minimal required consensus power - block production will continue in the new healthy chain.
-
-
