@@ -2323,7 +2323,7 @@ Web 2 social networks:
   - [Bitcointalk miners ANN](https://bitcointalk.org/index.php?topic=5198920.0): BTT miners forum thread 
   - [Bitcointalk bounty ANN](https://bitcointalk.org/index.php?topic=5247896.0): BTT bounty ANN
 
-If you wish to help Cyber on BTT, you may insert [this signature](https://pastebin.com/HuzkAyB3) to your profile or create one of your own and share it with the community!
+If you wish to help Cyber on BTT, you may insert [this signature](https://pastebin.com/HuzkAyB3) to your profile or [that one](https://pastebin.com/t4LdCLnE) if you are a senior member. You may, also, create your own and share it with the community!
 
 --------------------------------
 
