@@ -13,19 +13,21 @@ Blockchain development is difficult from many perspectives. Software which runs 
 
 During Euler 1-5 a lot of bugs were found and fixed by the cyber\~Congress team and by community members. These fixes required to restart the chain or to relaunch the network.
 
-Thanks to the upgrade module introduced by the Regen Network team (which was tested in a series of Regen Network testnets and then merged into one of the latest Cosmos-SDK releases), we have the option for repairing and adding features without the necessity to restart* the network from genesis.
+Thanks to the upgrade module and [service](https://github.com/regen-network/cosmosd) introduced by the Regen Network team (which was tested in a series of Regen Network testnets and then merged into one of the latest Cosmos-SDK releases), we have the option for repairing and adding features without the necessity to restart* the network from genesis.
 
 *Onchain upgrades do have some limitations, especially with regards to things like storage and encoding.
 
 On block #195180 of Euler-6, we detected consensus failure from a couple of validators nodes, which fortunately did not kill the network with a liveness fault, but became an alarm signal to start the diagnostic of this strange behaviour.
 
-The cyber\~Congress team started to collect data about the faulty behaviour of nodes coming from community reports and found a 1-line bug, which was the cause of these problems.
+The cyber\~Congress team started to collect data about the faulty behaviour of nodes coming from community reports and found a 1-line bug, which was the cause of these problems*.
+
+*There is possibly another one more complicated bug which leads to this problem but we are addressing now only one of them.
 
 In this post, we’ll describe it's meaning and the fix for it. How to fix the network with zero-downtime using the upgrade module, and coordination between validators.
 
 ## The Bug
 
-On Cyber's knowledge graph account balances are used for calculating cyber~Rank. Accounts balances consist of bonded and non-bonded stakes. All of the balances are written and read from the storage according to the default functionality of Cosmos-SDK. To calculate CID of the ranks on the knowledge graph, we need fast access to the weights of cyberlinks, which are, basically the current accounts balances. For this purpose, a special wrapper-module was implemented on top of SDK's bank module. This module tracks changes in accounts balances every single block, and calls hooks to update the in-memory balances index, which is available to other modules (used in bandwidth and rank modules).
+On Cyber's knowledge graph account balances are used for calculating cyber~Rank. Accounts balances consist of bonded and non-bonded stakes. All of the balances are written and read from the storage according to the default functionality of Cosmos-SDK. To calculate CID of the ranks on the knowledge graph, we need fast access to the weights of cyberlinks, which are, basically the current accounts balances. For this purpose, a special wrapper-module was implemented on top of SDK's bank module. This module tracks changes in accounts balances every single block, and calls hooks to update the in-memory balances index (on block end), which is available to other modules (used in bandwidth and rank modules).
 
 __The bug was here:__
 
@@ -46,28 +48,32 @@ That lead to incorrect rank calculations and the impossibility for nodes to rest
 
 ## Deep dive
 
-Calculations within the Cyber protocol and those of cyber~Rank are driven by consensus between validators. It means that in cases with incorrectly-tracked delegations, all of the nodes calculate the ranks using incorrect values. This is because some accounts, that committed cyberlinks to the graph delegated to nodes which didn't calculate the rank correctly in the first place. 
+Calculations within the Cyber protocol and those of cyber~Rank are driven by consensus between validators. It means that in cases with incorrectly-tracked delegations, all of the online nodes calculate the ranks using incorrect values during some period of time. 
 
-The issue arises when a node operator attempts to restart their node, and the in-memory balance index is loaded directly from the current storage state, which is, of course, different when compared to all the online nodes, iteratively updated the in-memory index. This leads to a different hash calculation of the application (the root hash of the Merkle Tree of CID rank values) and, essentially - node failure.
+The issue arises when a node operator attempts to restart their node, and the in-memory balance index is loaded and restored directly from the current storage state, which is, of course, different when compared to all the online nodes, iteratively updated the in-memory index. This leads to a different hash calculation of the application (the root hash of the Merkle Tree of CID rank values) and, essentially - node failure.
 
 __But:__
 
 1. The wrapper-module only collects the events with a balance change. Actual balance updates for the in-memory index are performed on the end-block side operation of the module. This means that we don't need to catch up on all of the events, but only to events, which trigger balance update for a given account on this block to keep things working
 2. Indexed balance of an account consists of non-bonded stake plus of the cumulative sum of all shares from all validators (shares are used to calculate the portion of the delegators tokens in the validator pool)
-3. Delegations to a validator that is newly jailed would not cause overall balance change because non-bonded and bonded stake sums are equal before and after delegation. Token/shares exchange rate is 1/1 (read about [delegator shares](https://docs.cosmos.network/master/modules/staking/01_state.html#delegator-shares)). And untracked delegation actions don't lead to balance index issues
+3. Delegations to a validator that is not never jailed would not cause overall balance change because non-bonded and bonded stake sums are equal before and after delegation. Token/shares exchange rate is 1/1 (read about [delegator shares](https://docs.cosmos.network/master/modules/staking/01_state.html#delegator-shares)). And untracked delegation actions don't lead to balance index issues
 4. If the validator was jailed before their first delegation from a delegator, then the delegator will receive a number of shares, which is unequal to the amount of the delegated tokens, because of the changed exchange rate of token/shares
 5. Only the first delegation to a validator leads to a problem. Any further delegations to a specific validator trigger the staking module reward withdrawals and calls for the staking hook, which calls the bank module to send coins to the delegator. This leads to a new hook call to update the in-memory index balance. While the first delegation does not cause balance traction, withdrawal causes balance updates to the correct value
 6. All other actions with regards to balance change events are processed correctly by the wrapper-module
 
 __To summarize:__
 
-The issue appears when at least one account, which has already created some cyberlinks and committed them to the knowledge graph, performs its first delegation to a validator, which was jailed before and doesn't process any other balance changing transactions for a given time. During this time, the in-memory index holds data with incorrect balances. However, when this happens where there is consensus between all online nodes, the issue does not trigger a network fault, but rather, leads to the impossibility to launch and sync the node or to calculate cyber~Rank values, that will be equal to the current consensus state. During launch or restart, the node restores the in-memory balance index from the current storage, unlike the online nodes, iteratively, it updates the index from a cached-up state.
+The issue appears when at least one account, which has already created some cyberlinks and committed them to the knowledge graph, performs its first delegation to a validator, which was jailed before and doesn't process any other balance changing transactions for a given time. During this time, the in-memory index holds data with an incorrect balance for this account (or a couple of at once). However, when this happens where there is consensus between all online nodes, the issue does not trigger a network fault, but rather, leads to the impossibility to launch and sync the node or to calculate cyber~Rank values, that will be equal to the current consensus state. During launch or restart, the node restores the in-memory balance index from the current storage, unlike the online nodes, iteratively, it updates the index from a cached-up state.
+
+Difference between wrong balance and actual balance is very small but anyway leads to changes in cyberlinks weights, ranks values and, finally, consensus application hash (the root hash of Merkle Tree of rank values). That means from the genesis of Euler-6 network till successful upgrade we have periods when not available to stop and launch node. Because the actual application state and consensus state is different. And only when these states are the same it possible to.
 
 ## Tracking index variance
 
-When the issue was first identified, we launched a special node with an upgraded binary that allowed us to track any accounts that made transactions and compare their actual and indexed balances on the end of each block. Thus, we were able to see when the index was “broken” and simply fix it by making a `send transactions` with a few tokens to the required accounts.
+When the issue was first identified, we launched a special node with an upgraded binary that allowed us to track any accounts that made transactions and compare* their actual and indexed balances on the end of each block. Thus, we were able to see when the index was “broken” and simply fix it by making a `send transactions` with a few tokens to the required accounts.
 
-Since the moment we discovered the issue we regularly made and published backups to allow validators that caught this bug to restore promptly.
+*There were a maximum of 5 accounts at peak with such an issue.
+
+Since the moment we discovered the issue we regularly made and published backups (on blocks when was not variance) to allow validators that caught this bug to restore promptly.
 
 These manual manipulations allowed us to support chain health and correct operation but it's time for the community to perform the upgrade and fix this issue permanently.
 
