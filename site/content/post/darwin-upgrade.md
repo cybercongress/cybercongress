@@ -1,7 +1,7 @@
 ---
-date: 2020-07-01
-url: cycle-upgrade
-title: 'Cycle upgrade'
+date: 2020-07-14
+url: darwin-upgrade
+title: 'Darwin upgrade'
 author: litvintech
 ---
 
