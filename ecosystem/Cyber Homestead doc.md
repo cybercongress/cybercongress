@@ -110,7 +110,7 @@ This section contains basic information that you will need for your journey into
     * [A video guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-video-guide)
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
       * [Jailing](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#jailing)
-      * [Node update](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nodeupdate)
+      * [Node update](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#node-update)
     * [Setup config.toml](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#setup-configtoml)
       * [Port / Address configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#port--address-configuration)
         * [RPC Port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rpc-port)
