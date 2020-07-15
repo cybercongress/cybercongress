@@ -3171,128 +3171,145 @@ We have an awesome video guide that will help you to set-up your infrastructure.
 [![Become a Hero!](https://i.postimg.cc/d3xDkpB2/Screenshot-from-2020-06-18-17-12-12.png)](https://www.youtube.com/watch?v=-FfRfxcDrH8 "Become a Hero!")
 
 #### Maintenance of the validator
-##### Jailing
 
+##### Jailing
 If your validator got slashed, it will get jailed.
-If it happens the operator must unjail the validator manually:
+If it happens the operator must unjail the validator manually, using the following command:
 
 ```bash
-cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-5
+cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-X
 ```
+Where X is the current chain-id number.
 
 ##### Node Update
-Updating the Cyber/~validator node is very easy! It will take you 10 minutes!
+Updating your validator node is easy! It will take you /~10 minutes!
 
-Open the terminal. This is done by pressing “ctrl+alt+t”
+Open the terminal. This is done by pressing `ctrl+alt+t` (if you're using the ketyboard).
 
-Write at the command line (or better, to prevent mistakes, copy directly from here and paste into the command line of the terminal):
+Paste this into the command line of the terminal:
+
 ```bash
 sudo su -
 ```
-Click “Enter”
-You will be asked to enter the password from the computer. Input password. Press “Enter”.
+Click `Enter`
+You will be asked to enter the password of your sudo user. Input the password. Press `Enter`.
 
 Write:
+
 ```bash
 cd go-cyber
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 git reset --hard
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 git checkout master
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 git pull
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 make build
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 systemctl stop cyberd
 ```
-Click “Enter”
+Click `Enter`
 
 Write (pay attention to the spaces between build/cyberdcli and /root/.cyberd/upgrade_manager/genesis/bin):
+
 ```bash
 cp build/cyberd /root/.cyberd/upgrade_manager/genesis/bin
 ```
-Click “Enter”
+Click `Enter`
 
 Write (pay attention to the spaces between build/cyberdcli and /usr/local/bin):
+
 ```bash
 cp build/cyberdcli /usr/local/bin
 ```
-Click “Enter”
+Click `Enter`
 
 Write (pay attention to the spaces between build/cyberd and /usr/local/bin):
+
 ```bash
 cp build/cyberd /usr/local/bin
 ```
-Click “Enter”
+Click Enter`
 
 Write:
 ```bash
 chmod +x /root/.cyberd/upgrade_manager/genesis/bin
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 cyberd
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 systemctl start cyberd
 ```
-Click “Enter”
-Here the update has passed, but we need to check everything!
+Click `Enter`
+The update has passed, but we need to check everything!
 
 Write:
+
 ```bash
 cd /root/.cyberd/upgrade_manager/genesis/bin
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
 ```bash
 ./cyberd version
 ```
-Click “Enter”
+Click `Enter`
 
 Write:
+
 ```bash
 journalctl -u cyberd -f --lines 20
 ```
-Click “Enter”
+Click `Enter`
 
-A bunch of text will run. So everything works!
-Click “ctrl+c”. The text stops running.
+A bunch of text will run. Everything works!
+Click `ctrl+c`. The text will stop running.
 
-Write (ATTENTION! Instead of <your_key_name> you need to enter the name of your validator!):
+Write (Attention! Instead of <your_key_name> you need to enter the name of your validator! Instead of X use the current chain-id number):
+
 ```bash
-cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-6
+cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-X
 ```
-Click “Enter”
 
-Go to https://cyber.page/heroes
+Click `Enter`
+
+Go to https://cyber.page/heroes and make sure you're on the list of heroes.
 
 #### Setup config.toml
 Correct configuration is one of the main keys to consistent and proper functioning of your node no matter if it is a validator or a sentinel/service node.
