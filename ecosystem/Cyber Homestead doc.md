@@ -110,6 +110,7 @@ This section contains basic information that you will need for your journey into
     * [A video guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#a-video-guide)
     * [Maintenance of the validator](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#maintenance-of-the-validator)
       * [Jailing](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#jailing)
+      * [Node update](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#nodeupdate)
     * [Setup config.toml](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#setup-configtoml)
       * [Port / Address configuration](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#port--address-configuration)
         * [RPC Port](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#rpc-port)
@@ -3170,14 +3171,145 @@ We have an awesome video guide that will help you to set-up your infrastructure.
 [![Become a Hero!](https://i.postimg.cc/d3xDkpB2/Screenshot-from-2020-06-18-17-12-12.png)](https://www.youtube.com/watch?v=-FfRfxcDrH8 "Become a Hero!")
 
 #### Maintenance of the validator
-##### Jailing
 
+##### Jailing
 If your validator got slashed, it will get jailed.
-If it happens the operator must unjail the validator manually:
+If it happens the operator must unjail the validator manually, using the following command:
 
 ```bash
-cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-5
+cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-X
 ```
+Where X is the current chain-id number.
+
+##### Node Update
+Updating your validator node is easy! It will take you /~10 minutes!
+
+Open the terminal. This is done by pressing `ctrl+alt+t` (if you're using the ketyboard).
+
+Paste this into the command line of the terminal:
+
+```bash
+sudo su -
+```
+Click `Enter`
+You will be asked to enter the password of your sudo user. Input the password. Press `Enter`.
+
+Write:
+
+```bash
+cd go-cyber
+```
+Click `Enter`
+
+Write:
+
+```bash
+git reset --hard
+```
+Click `Enter`
+
+Write:
+
+```bash
+git checkout master
+```
+Click `Enter`
+
+Write:
+
+```bash
+git pull
+```
+Click `Enter`
+
+Write:
+
+```bash
+make build
+```
+Click `Enter`
+
+Write:
+
+```bash
+systemctl stop cyberd
+```
+Click `Enter`
+
+Write (pay attention to the spaces between build/cyberdcli and /root/.cyberd/upgrade_manager/genesis/bin):
+
+```bash
+cp build/cyberd /root/.cyberd/upgrade_manager/genesis/bin
+```
+Click `Enter`
+
+Write (pay attention to the spaces between build/cyberdcli and /usr/local/bin):
+
+```bash
+cp build/cyberdcli /usr/local/bin
+```
+Click `Enter`
+
+Write (pay attention to the spaces between build/cyberd and /usr/local/bin):
+
+```bash
+cp build/cyberd /usr/local/bin
+```
+Click Enter`
+
+Write:
+```bash
+chmod +x /root/.cyberd/upgrade_manager/genesis/bin
+```
+Click `Enter`
+
+Write:
+
+```bash
+cyberd
+```
+Click `Enter`
+
+Write:
+
+```bash
+systemctl start cyberd
+```
+Click `Enter`
+The update has passed, but we need to check everything!
+
+Write:
+
+```bash
+cd /root/.cyberd/upgrade_manager/genesis/bin
+```
+Click `Enter`
+
+Write:
+```bash
+./cyberd version
+```
+Click `Enter`
+
+Write:
+
+```bash
+journalctl -u cyberd -f --lines 20
+```
+Click `Enter`
+
+A bunch of text will run. Everything works!
+Click `ctrl+c`. The text will stop running.
+
+Write (Attention! Instead of <your_key_name> you need to enter the name of your validator! Instead of X use the current chain-id number):
+
+```bash
+cyberdcli tx slashing unjail --from=<your_key_name> --chain-id euler-X
+```
+
+Click `Enter`
+
+Go to https://cyber.page/heroes and make sure you're on the list of heroes.
 
 #### Setup config.toml
 Correct configuration is one of the main keys to consistent and proper functioning of your node no matter if it is a validator or a sentinel/service node.
