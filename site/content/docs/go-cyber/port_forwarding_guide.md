@@ -1,5 +1,5 @@
 ---
-project: go-cyber
+project: cyberd
 ---
 # Decentralization must be decentralized
 

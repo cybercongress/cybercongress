@@ -1,5 +1,5 @@
 ---
-project: go-cyber
+project: cyberd
 ---
 # Ledger nano Support
 

@@ -1,5 +1,5 @@
 ---
-project: go-cyber
+project: cyberd
 ---
 # Supported GPU list for cyberd validators
 

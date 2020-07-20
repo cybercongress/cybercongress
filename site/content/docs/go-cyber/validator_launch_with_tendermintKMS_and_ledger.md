@@ -1,5 +1,5 @@
 ---
-project: go-cyber
+project: cyberd
 ---
 # Validator launch with Tendermint KMS + Leger Nano
 
