@@ -17,7 +17,7 @@ ENIP: 1
 Title:
 Authors (alias): 
 Status: Draft
-Type: CFIP
+Type: ENIP
 Abstract:
 Motivation:
 Reference implementation: 
