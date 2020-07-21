@@ -1,8 +1,10 @@
-It is apparent for us that Twitter as we know it ends. The inability to bring cryptographic assurance leads to the program's behavior, which we, as a society, must not accept.
+It is apparent to everyone that Twitter as we knew it has come to its end. The inability to bring cryptographic assurance has lead to the behaviour, which we, as a society, should not accept.
 
-Last week we switched our focus a bit to create ultimately [useful example of the app]() on top of Cyber protocol. We created a twitter. It is hardcore crypto-anarchist twitter. It can work now as an anti-fake and anti-censorship tool for change with military grade security.
+Last week at [cyber\~Congress](https://mainnet.aragon.org/#/cybercongress), we switched our focus a bit, to create the ultimate and [useful example of an app]() on top of the Cyber protocol. We created a better analogue of Twitter. It is a hardcore, crypto-anarchist Twitter. There are no captchas and nobody asks for your phone, name or email address. 
 
-Nevertheless, there on Earth would you want to use the new twitter instead of the old one? So we decided to start from principles that are primarily important for ourselves. We believe they will guide you to decide to join us.
+It can already function as an anti-fake and anti-censorship tool, capable of bringing a change to social media. All together with military-grade security.
+
+Nevertheless, why on Earth would you want to use the new Twitter instead of the old one? We decided to start with the principles that are primarily important to ourselves. We believe they will guide you and convince you to join us.
 
 ## Content is the King
 
