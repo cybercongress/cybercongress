@@ -8,7 +8,7 @@ Nevertheless, why on Earth would you want to use the new Twitter instead of the 
 
 ## Content is the King
 
-We remove everything except the content itself. We believe this approach will help us be less biased while discovering our feeds. Hence no avatars, names, retweets, or likes. Just the content itself, because the content is the king. Examples of sparks:
+We removed everything except for the content itself. We believe that an approach like this can help to be less biased when it comes to discovering our feed. Hence, no avatars, names, retweets, or likes. Just the content itself, because the content is the king. Examples of sparks:
 
 ![](text spark)
 
@@ -16,11 +16,13 @@ We remove everything except the content itself. We believe this approach will he
 
 ## Censorship is the Past
 
-You can tweet about politics, religion, torrents, black, masters, copyright, gays, copyleft, porn ... You got the idea. We assume that the information must not be prohibited. Instead, we are offering the model of the assessment by community based on evolutionary principles.
+You can tweet about politics, religion, torrents, race and nationality, masters, copyrights, sexual orientation and/or preferences, copyleft, porn, ... You got the idea. We assume that information should not be obstructed. Censorship killed more people than anything else has during human history.
+
+Instead, we are offering a model of assessment by the community, based on evolutionary principles.
 
 ## Content is Yours
 
-You publish your tweets and any content to your node in the ipfs network. Cyber blockchain works as a tool for linking the content with targeted semantics. Content is yours, and you are responsible for your content. This content is not locked and can be used in any application, forever.
+You publish your tweets and any content to your own node, in the IPFS network. The Cyber blockchain works as a tool for linking this content with the targeted semantics. The content is yours, and it is only you, who are responsible for your content. This content is not locked and can be used in any application, forever.
 
 [](screen of your blog)
 
