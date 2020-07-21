@@ -28,17 +28,17 @@ You publish your tweets and any content to your own node, in the IPFS network. T
 
 ## The Feed is Yours
 
-Your main feed delivers strictly only stuff you subscribed to. We are tired of feeds which are fooling us and trying to sell us some shit. We feel that we smart enough to decide what we want to read and what we do not.
+Your feed strictly delivers the shit you're subscribed to. We are tired of feeds which trick us and are constantly trying to sell us BS. We feel that we are smart enough to decide what we want to read and what we don't.
 
 [](screen of your feed)
 
-## Ranking as Intuition, not Cognition
+## Ranking as Intuition, not as Cognition
 
-The ranking mechanism of Cyber is economically resistant to Sybil behavior. Relecance is the thing which has been massevly exploited recently. Even though cyberrank is a very robust relevance mechanism, we believe it should be used carefully, as a mechanism to enhance intuition, and not as an outsource of cognitive ability.
+The ranking mechanism of Cyber is economically resistant to Sybil behaviour. Relevance is the thing which has been massively exploited recently. Even though cyber\~Rank is a very robust relevance mechanism, we believe it should be used carefully - as a mechanism to enhance intuition, and not as an outsource of cognitive ability.
 
-![](screen of the colorful search result)
+![](screen of the colourful search result)
 
-This tiny colorful frame can help your intuition work better but does not decide for you.
+This tiny colourful frame can help your intuition work better but it does not decide for you.
 
 ## Social ~~or~~ Search
 
