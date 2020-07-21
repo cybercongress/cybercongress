@@ -40,26 +40,24 @@ The ranking mechanism of Cyber is economically resistant to Sybil behaviour. Rel
 
 This tiny colourful frame can help your intuition work better but it does not decide for you.
 
-## Social ~~or~~ Search
+## Social media ~~or~~ Search
 
-In the existing paradigm, you have a social network as one app and search capabilities as the other. We offer you one convenient app for both. As long as we know, this is brand new, and it is sooo fffucking cooooool.
+In the existing paradigm, you have a social network as 1 app and search capabilities are offered by another. We offer one convenient app for both. As far as we know, this is brand new, no one had done this before and it is sooo fffucking cooooool.
 
 ![](screen of the search box)
 
-You can start to find your mentors while searching for the content you are interested in. Any piece of content has its own unique community of like-minded persons, persons who care.
+You can start looking for your mentors while searching for the content you are interested in. Any piece of content has its own unique community of like-minded people, people who care.
 
 ![](community tab of the content)
 
-
 ## Programmatic Control
 
-One digital signature is an order of magnitude more secure than the conventional approach. But because one key can be easily compromised, it is not as secure as we wish. Multisig control is the only way to ensure that some crazy shit will never appear on your feed for millions of people who trust you.
+One digital signature is an order of magnitude more secure than the conventional approach (think fingerprints). But because 1 key can be easily compromised, it is not as secure as we wish. Multisig control is the only way to ensure that no crazy shit will ever appear on your feed for those millions of people who trust you.
 
-As far as we know, this is the first tweet in the history of humanity, which has been published using a multi-signature account. This brings us the confidence and power for change.
+As far as we know, this is the first tweet in the history of humanity, which has been published using a multi-signature account. This gives us the confidence and the power for change.
 
-
-And this is just the beginning. Cyber protocol offer powerful apps on top of [its knowledge](https://cyber.page/brain/knowledge) using [CosmWasm](https://www.cosmwasm.com/) Might and [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) Magic. Hackers are welcome to deploy programs in Rust right now.
+And this is just the beginning. The Cyber protocol offers powerful apps on top of [its knowledge](https://cyber.page/brain/knowledge) using the Might of [CosmWasm](https://www.cosmwasm.com/) and the Magic of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35). Hackers are welcome to deploy programs in Rust right now.
 
 ## Conclusion
 
-Enjoy the new feeling with us! The feeling of Great Web!
+Enjoy the new feeling with us! The feeling of the Great Web!
