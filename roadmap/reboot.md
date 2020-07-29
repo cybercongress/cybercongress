@@ -164,6 +164,7 @@ Research project on [GPGPU](https://en.wikipedia.org/wiki/General-purpose_comput
 [7](http://www.arewelearningyet.com/gpu-computing/)
 
 # Episode 4
+
 - Create technologies for accessible space exploration and transportation
 - Create mainstream tools for biological engineering and body augmentations
 - Find an open approach for creating self-aware, self-replicating and economically independent robots
@@ -172,15 +173,9 @@ Research project on [GPGPU](https://en.wikipedia.org/wiki/General-purpose_comput
 - Create quantum consensus computer
 
 # Episdoe 5
+
 - Demolish all state borders across the universe
 - Switch governmentally inclined business models from violent taxing to non-violent
 - Create the foundation for thermoregulation and for terraforming the Earth and other nearby planets
 - Significantly extend living capabilities for all species up to but not limited, to 10k years;
 - Create technologies for the transfer of human consciousness to an electronic and digital environment
-
-Чтобы высело инфа об активных пропах в покете
-Долго лидерборд считается. Перейти на снепшоты
-Приоритет по конгрессу
-ТОкеномика для конгресса
-5336 6901 5994 4984
-- staking for proposals
