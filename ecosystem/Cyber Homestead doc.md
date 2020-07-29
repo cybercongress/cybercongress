@@ -32,12 +32,12 @@ This section contains basic information that you will need for your journey into
            * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
            * [cyberd~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot)
            * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
-           * [cyberpy]()
+           * [cyberpy](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberpy)
     * [Creating a Cyber wallet](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)
     * [Checking your gift balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#checking-your-gift-balance)
     * [Getting fuel aka aquiring tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#getting-fuel-aka-aquiring-tokens)
     * [Making your first cyberlink](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#making-your-first-cyberlink)
-  * [Linker: Cyber's hardcore Twitter analogue]()  
+  * [Linker: Cyber's hardcore Twitter analogue](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#linker-cybers-hardcore-twitter-analogue)  
   * [Using cyber.page: new possibilities](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-new-possibilities)
       * [What is cyber.page anyway?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#what-is-cyberpage-anyways)  
       * [Exploring cyber.page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-cyberpage)
@@ -63,7 +63,7 @@ This section contains basic information that you will need for your journey into
      * [CLI for Masters](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-for-masters)
         * [Sending tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens-1)
         * [Creating links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-links)
-        * [Editing avatars]()
+        * [Editing avatars](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#editing-profiles)
   * [Using Cyber: Guru Master Classes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#guru-masterclasses)
     * [Monetization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#monetezation)
     * [Social layers, networks and cyber~Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#social-layers-networks-and-cyberprofiles)
@@ -891,10 +891,10 @@ You already know where it is and how to find it. Let's do this together again:
 Take a rest, we will now proceed to the juicy stuff!
 
 ### Linker: Cyber's hardcore Twitter analogue
-Cyber is a general-purpoe protocol that can search and asnwer. It is alos capable of many other things. For example, its perfect for soical networking. Meet Linker, our decentrlzied, hardcore, crypto-anarchist Twitter analogue! Can't wait to try it? 
+Cyber is a general-purpose protocol that can search and answer. It is also capable of many other things. For example, its perfect for social networking. Meet Linker, our decentralized, hardcore, crypto-anarchist Twitter analogue! Can't wait to try it? Simply go to [cyber.page](https://cyber.page/brain) and click the 'tweet' button at the bottom. Take your Ledger and sign away. You can even create a multisignature tweet!
 
 ### Using cyber.page: new possibilities
-Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users. Simply go to [cyber.page](https://cyber.page/brain) and click the 'tweet' button at the bottom. Take your Ledger and sign away. You can even create a multisignature tweet!
+Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users. 
 
 #### What is cyber.page anyways?
 You might have already noticed that cyber.page allows you to connect to the Cyber protocol, but it's not the only bridge that lets you do this. This allows us to conclude that cyber.page is, in fact, a front maintained by one team, where many others can arise. 
