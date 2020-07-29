@@ -32,10 +32,12 @@ This section contains basic information that you will need for your journey into
            * [cyb~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus)
            * [cyberd~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot)
            * [cyb~Snap](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybsnap)
+           * [cyberpy]()
     * [Creating a Cyber wallet](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)
     * [Checking your gift balance](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#checking-your-gift-balance)
     * [Getting fuel aka aquiring tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#getting-fuel-aka-aquiring-tokens)
     * [Making your first cyberlink](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#making-your-first-cyberlink)
+  * [Linker: Cyber's hardcore Twitter analogue]()  
   * [Using cyber.page: new possibilities](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-new-possibilities)
       * [What is cyber.page anyway?](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#what-is-cyberpage-anyways)  
       * [Exploring cyber.page](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-cyberpage)
@@ -61,6 +63,7 @@ This section contains basic information that you will need for your journey into
      * [CLI for Masters](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cli-for-masters)
         * [Sending tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#sending-tokens-1)
         * [Creating links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-links)
+        * [Editing avatars]()
   * [Using Cyber: Guru Master Classes](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#guru-masterclasses)
     * [Monetization](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#monetezation)
     * [Social layers, networks and cyber~Profiles](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#social-layers-networks-and-cyberprofiles)
@@ -670,6 +673,9 @@ A dev preview of cyb~Snap:
 
 <img src="https://i.postimg.cc/YCF6VQ6p/ER42d-Fl-Wk-AAGn-GI.jpg" />
 
+###### cyberpy
+The [cyberpi](https://pypi.org/project/cyberpy/) is a tool for advanced users. It is a Python library containing tools for Cyber wallet management and offline transaction signing. You will need to install Python on your machine and then follow the simple set of commands that this library offers. This lets you create a wallet, sign tx, transfer, link and even convert seeds and mnemonics locally.
+
 ##### Creating a Cyber wallet
 Is it rather obvious to say that you will need a wallet to interact with Cyber? Well, actually this isn't 100% true. As you already learned you can search cyber.page without a wallet. You can access content without a wallet too. So why would you need one?
 
@@ -884,8 +890,11 @@ You already know where it is and how to find it. Let's do this together again:
 
 Take a rest, we will now proceed to the juicy stuff!
 
+### Linker: Cyber's hardcore Twitter analogue
+Cyber is a general-purpoe protocol that can search and asnwer. It is alos capable of many other things. For example, its perfect for soical networking. Meet Linker, our decentrlzied, hardcore, crypto-anarchist Twitter analogue! Can't wait to try it? 
+
 ### Using cyber.page: new possibilities
-Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users.
+Just like a baby makes their first steps and learns about the world that surrounds them, we will explore cyber.page piece by piece, to get a better understanding of its capabilities and the wide variety of the options it offers to users. Simply go to [cyber.page](https://cyber.page/brain) and click the 'tweet' button at the bottom. Take your Ledger and sign away. You can even create a multisignature tweet!
 
 #### What is cyber.page anyways?
 You might have already noticed that cyber.page allows you to connect to the Cyber protocol, but it's not the only bridge that lets you do this. This allows us to conclude that cyber.page is, in fact, a front maintained by one team, where many others can arise. 
@@ -1825,6 +1834,15 @@ I will be using an imported local account, so the `fuckgoogle` will change to my
 
 This will return a result with some text. We need to make sure the code is `0` and we might want to use the hash of the tx. We can check the transaction by going to cyber.page and either checking your transactions if the account is pocketed, or by typing the hash of the tx into the search box and choosing the `tx details` box to see the details of our tx. Or, simply enter the keyword into the search box.
 
+##### Editing profiles
+You can use the CLI to edit either your heroes profile avatar or your evangelist avatar. You will need to have a key base account with an avatar and you will need to know the ID of that account. Once this is ready, open the CLI and type:
+
+'''bash
+avatar key base: cyberdcli tx staking edit-validator --identity D90225A556E55CC4 —from <account> —chain-id Euler-6
+'''
+
+Where <account> is the desired account name to edit the avatar for. If you wish to edit an avatar for an evangelist, simply, swap 'validator' to 'evangelist' in the command. Identity is your key base ID.
+
 ### Guru Masterclasses
 Here you are. A young padawan, standing proud in front of the Gods. What else awaits you on your journey? Only the Gods know... and in all honesty, they are too, unsure about your future. 
 
@@ -2372,6 +2390,8 @@ In this section, we will concentrate on the period of post-euler-5 and up to the
 - 2020.04.27: Start of [the takeoff donation round](https://cyber.page/gol/takeoff)
 - 2020.05.21: [Relaunch of the takeoff](https://cybercongress.ai/cosmos-takeoff-proposal/) and [prop #26](https://cosmos.bigdipper.live/proposals/26) to Cosmos
 - 2022.06.10: End of the first test\~Auction
+- 2022.07.21: Launch of Linker, the decentralized Twitter analogue
+- 2022.07.22: First on-chain upgrade: Darwin
 - Here and thereafter the dates are subject to change due to dynamic properties and development work
 - 2020, 146 days or 300k ATOM after the previous event: End of Game of Links
 - 2020, straight after the previos event: GoL final
