@@ -2,11 +2,10 @@
 
 ## go-cyber
 - Darwin update
-- Bandwidth based on gas meter (?)
+- Bandwidth based on gas meter
 - Delegation of cyber~Power
 - EVM smart contracts support
-- multi-GPU cyber~Rank computation (?)
-- Pruning of knowledge graph (?)
+- multi-GPU cyber~Rank computation
 - Rewards to contract deployers
 - cosmos-sdk upgrade
 - Euler-7 relaunch
@@ -17,17 +16,17 @@
 
 ## dot-cyber
 
-
 - cyb-snap support
+- Kepler support
+- Trezor support
 - Better pocket
 - Claim of gift using merkledrop
-- Government page with support of euler-6 and euler-foundation
+- Government page with support of euler-foundation
 - Distribution page
 - Bootstrap knowledge kernel
 - Genesis page
 - Timeline
 - Explorer for CosmWasm
-- Explorer for EVM
 
 ## cyber-js
 - cyberlink
@@ -42,9 +41,10 @@
 - bootstrapping superintelligence series
 
 ## foundation
-- auction app according to whitepaper
-- GOL claim contract
-- staking for proposals
+- rebase
+- bonding curve
+- Liquidity + Staking
+- GOL claim
 - Whitepaper: Foundations for next civilization
 - Cyber foundation deploy ceremony
 
@@ -53,6 +53,8 @@
 - Ceremony of Genesis preparation
 
 # Episode 2
+- Explorer for EVM
+- Pruning of knowledge graph (?)
 
 ## IKP
 
