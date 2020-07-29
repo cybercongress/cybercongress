@@ -1,6 +1,7 @@
 # Episode 1
 
 ## go-cyber
+
 - Darwin update
 - Bandwidth based on gas meter
 - Delegation of cyber~Power
@@ -28,11 +29,25 @@
 - Timeline
 - Explorer for CosmWasm
 
+## Social
+
+Adding social layer to knowledge graph
+
+- [x] feed
+- [x] subscriptions to addresses
+- [ ] subsciption to content
+- [ ] social pining
+- [ ] notifications
+- [ ] messaging
+- [ ] mailing
+
 ## cyber-js
+
 - cyberlink
 - search
 
 ## congress
+
 - merkle-tree drop contract
 - GOL claim bridge
 - 2.0 agreement
@@ -41,6 +56,7 @@
 - bootstrapping superintelligence series
 
 ## foundation
+
 - rebase
 - bonding curve
 - Liquidity + Staking
@@ -49,10 +65,12 @@
 - Cyber foundation deploy ceremony
 
 ## launch-kit
+
 - Compute Genesis after the end of Game of Links
 - Ceremony of Genesis preparation
 
 # Episode 2
+
 - Explorer for EVM
 - Pruning of knowledge graph (?)
 
@@ -68,16 +86,7 @@ Research project about crosschain knowledge communication
 - rank get
 - rank sub
 
-## Social
 
-Adding social layer to knowledge graph
-
-- social pining
-- subscriptions
-- notifications
-- feed
-- messaging
-- mailing
 
 ## Offline
 
@@ -134,7 +143,7 @@ Graph database on top of go-cyber
 - query language
 - query billing
 
-## Proof of work distribution
+## PoW distribution
 
 ## Internet Knowledge Hub
 
