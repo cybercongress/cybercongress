@@ -1,37 +1,61 @@
 # Episode 1
 
-## go-cyber
+## Get rid of distribution
+- dot-cyber: Distribution page
+- dot-cyber: Claim of gift using merkledrop
+- contracts: merkle-tree drop contract
+- GOL claim bridge (?)
 
-- Darwin update
-- Bandwidth based on gas meter
-- Delegation of cyber~Power
-- EVM smart contracts support
-- multi-GPU cyber~Rank computation
-- Rewards to contract deployers
-- cosmos-sdk upgrade
-- Euler-7 relaunch
-- Balance chain parameters in Euler
-- CosmWasm examples and docs
-- Using KG in smart contracts
-- API docs
+## Launch cyber~Foundation
+- Rebase for THC
+- Bonding curve for THC sale
+- Liquidity rewards + Staking
+- GOL claim
+- Whitepaper: THC
+- Whitepaper: Foundations for next civilization
+- Cyber foundation deploy ceremony
 
-## dot-cyber
+## Accessibility
+- go-cyber: Delegation of cyber~Power
+- dot-cyber: Burner wallets
+- dot-cyber: cyb-snap support
+- dot-cyber: Kepler support
+- dot-cyber: Trezor support
+- dot-cyber: Better pocket
 
-- cyb-snap support
-- Kepler support
-- Trezor support
-- Better pocket
-- Claim of gift using merkledrop
-- Government page with support of euler-foundation
-- Distribution page
-- Bootstrap knowledge kernel
-- Genesis page
-- Timeline
-- Explorer for CosmWasm
+## Working governance
+- Support of euler-foundation
+- Better Government page
 
-## Social
+## Upgrade cosmos-sdk
+- go-cyber: implementation
+- go-cyber: testing
+- go-cyber: genesis signing
+- go-cyber: euler-7 relaunch
 
-Adding social layer to knowledge graph
+## Improve dev experience
+- go-cyber: Rewards to contract deployers
+- go-cyber: CosmWasm examples and docs
+- go-cyber: Using KG in smart contracts
+- go-cyber: API examples and docs
+- go-cyber: More independent modules
+- dot-cyber: Explorer for CosmWasm
+- dot-cyber: Deployment of contracts
+- dot-cyber: Linkchains and multilinks
+- cyber-js: Cyberlink
+- cyber-js: Search
+- dot-cyber: Setup endpoints in the app
+
+## Economics optimisation
+- go-cyber: Bandwidth based on gas meter
+- go-cyber: Gas based CosmWasm
+- onchain: Optimisation of pricing
+- go-cyber: Collateral for links (?)
+
+## Bootstrap kernel
+-
+
+## Social search
 
 - [x] feed
 - [x] subscriptions to addresses
@@ -41,33 +65,37 @@ Adding social layer to knowledge graph
 - [ ] messaging
 - [ ] mailing
 
-## cyber-js
+## Game of Links
+- Organize final
+- Analize results
 
-- cyberlink
-- search
-
-## congress
-
-- merkle-tree drop contract
-- GOL claim bridge
+## cyber~Congress
 - 2.0 agreement
-- Homestad as standalone project
-- Finish Game of Links
-- bootstrapping superintelligence series
 
-## foundation
+## Homestad
+- review
+- publishing
 
-- rebase
-- bonding curve
-- Liquidity + Staking
-- GOL claim
-- Whitepaper: Foundations for next civilization
-- Cyber foundation deploy ceremony
+## Bootstrapping Superintelligence
 
-## launch-kit
+## Launch Cyber
 
-- Compute Genesis after the end of Game of Links
-- Ceremony of Genesis preparation
+- dot-cyber: Genesis page
+- launch-kit: Compute Genesis after the end of Game of Links
+- launch-kit: Ceremony of Genesis preparation
+
+## Multi-GPU cyber~Rank
+- go-cyber: Research
+- go-cyber: Implementation
+- go-cyber: Testing
+- go-cyber: Upgrade
+
+## EVM support (?)
+- go-cyber
+- dot-cyber
+
+## Timeline
+- dot-cyber:
 
 # Episode 2
 
@@ -85,8 +113,6 @@ Research project about crosschain knowledge communication
 - backlink sub
 - rank get
 - rank sub
-
-
 
 ## Offline
 
