@@ -114,6 +114,8 @@ Research project about crosschain knowledge communication
 - rank get
 - rank sub
 
+## Swarm support
+
 ## Offline
 
 Offline first interface
