@@ -57,6 +57,7 @@ This section contains basic information that you will need for your journey into
    * [Using Cyber: other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-other-bridges)
       * [Using cyb\~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus-1)
       * [Using cyberd\~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot-1)
+         * [Using dpos.space/cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#dposspace-1)
    * [Using Cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
      * [Cross Linking and clustering](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cross-linking-and-clustering)
@@ -1665,6 +1666,18 @@ Click on the `Validator list` option:
 This shows all of the current validators and their jailed status.
 
 If you click on `Jail check settings`, and provide a particular validator moniker, it will save it and let you know if that particular validator is jailed or not upon clicking `Jail check`.
+
+#### dpos.space/cyber
+This is a site with various services for Cyber.
+An account service has already been created, where you can add custom names (for easier selection) and seed phrases (they are not transmitted, they are stored locally in encrypted form);
+A wallet with the ability to view the balance and transfer funds, view profiles (addresses), a random number generator using the blockchain; a service that sends data to ipfs, linker for creating links in Cyber and explorer with the ability to view blocks and transactions.
+The project code is open. [github](https://github.com/denis-skripnik/dpos.space), [go to site](https://dpos.space/cyber).
+
+![Cyber home page screenshot](https://i.imgur.com/8FM0j4U.jpg)
+
+![Cyber profiles screenshot](https://i.imgur.com/btqgPtf.jpg)
+
+![Cyber accounts screenshot](https://i.imgur.com/QJ97sOl.jpg)
 
 ### Using cyber: Advanced Master Class
 What can be better than moving to the next level of mastering a skill? Mastering a skill even more... I hope that this section will be filled in by the masters themselves as they get to know cyber and their karma levels grow.
