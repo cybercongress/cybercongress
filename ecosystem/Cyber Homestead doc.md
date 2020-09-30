@@ -1668,10 +1668,13 @@ This shows all of the current validators and their jailed status.
 If you click on `Jail check settings`, and provide a particular validator moniker, it will save it and let you know if that particular validator is jailed or not upon clicking `Jail check`.
 
 #### dpos.space/cyber
-This is a site with various services for Cyber.
-An account service has already been created, where you can add custom names (for easier selection) and seed phrases (they are not transmitted, they are stored locally in encrypted form);
-A wallet with the ability to view the balance and transfer funds, view profiles (addresses), a random number generator using the blockchain; a service that sends data to ipfs, linker for creating links in Cyber and explorer with the ability to view blocks and transactions.
-The project code is open. [github](https://github.com/denis-skripnik/dpos.space), [go to site](https://dpos.space/cyber).
+This is a site with various services for Cyber. It has an RU interface.
+
+An account service has already been created where you can add custom names (for easier selection) and seed phrases (they are not transmitted, but are stored locally on your machne in an encrypted manner).
+
+A wallet with the ability to view the balance and transfer funds, view profiles (addresses), a random number generator using the cyber blockchain. A service that can send data to IPFS, `linker` for creating links in Cyber and an explorer with the ability to view blocks and transactions.
+
+The code is open-source. [GitHub](https://github.com/denis-skripnik/dpos.space), [website](https://dpos.space/cyber).
 
 ![Cyber home page screenshot](https://i.imgur.com/8FM0j4U.jpg)
 
