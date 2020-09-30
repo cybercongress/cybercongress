@@ -49,7 +49,7 @@ This section contains basic information that you will need for your journey into
       * [Picking honey](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#picking-honey)
       * [Claiming your gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift)
       * [Using the faucet to get tokens](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-the-faucet-to-get-tokens)
-      * [Exploring the knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-the-knowledge-graph)
+      * [Exploring the knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#exploring-the-knowledge-graph): not working atm 
       * [Playing the Game of Links](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#playing-the-game-of-links)
       * [Takeoff guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#takeoff-guide)
       * [Becoming an evagelist](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#becoming-an-evangelist)
@@ -940,7 +940,7 @@ The general idea is to let the use gradually follow the rabbit hole. Clicking an
 
 <img src="https://i.postimg.cc/638jVN80/Screenshot-from-2020-06-09-15-13-22.png" />
 
-We see a lot of menus, buttons and numbers. Gradually all of them will become more self-explanatory and have information pegs. Though the menus are more or less self-explanatory already. The main menu, for example, contains a few submenus, like the `heroes` sub-menu, which takes us to the validator page or the `Cyberlinks` submenu which takes us to the graph visualization. Other menus include:
+We see a lot of menus, buttons and numbers. Gradually all of them will become more self-explanatory and have information pegs. Though the menus are more or less self-explanatory already. The main menu, for example, contains a few submenus, like the `heroes` sub-menu, which takes us to the validator page or the `Cyberlinks` submenu which takes us to the graph visualization (currently not functioning). Other menus include:
 
 - Knowledge: mostly explorer features
 - Path: gamified mechanics with Cybers subculture
@@ -1443,11 +1443,11 @@ The GOL tokens you have just vested will be moved to the `Vested` section, and t
 Congratulations!  You have EUL tokens for interacting with the `euler` test network!
 
 #### Exploring the knowledge graph
-By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
+Due to rendering issues and the desire to keep things decentralized, the graph is not working at the moment. It is simply too large to rneder on users machines for now. We hope to come up with a solution soon. By now you should be a real master and I will show you a secret trick. But shhhhh. Don't be telling anyone! 
 
 You've been working hard on linking day and night, trying to get some tokens, right? What could be better than seeing your work painted by an artist?
 
-In your browser, go straight to the [page of the graph](https://cyber.page/graph)... Enjoy!
+In your browser, go straight to the [PEEP - not working atm]()... Enjoy!
 
 This is a visualization of the knowledge graph. Twist it, zoom in, zoom out. Just remember to stop looking at it after a while.
 
@@ -1774,7 +1774,7 @@ If you see a timeout error, this is probably to do with your internet connection
 12) And you're done! You can use any of the produced hashes to check on cyber.page or just go to [your tx page](https://cyber.page/pocket) and see the transactions!
 
 #### Cross-Linking and Clustering
-These are 2 terms that are often used and can help you to build the graph. Clusterization simply refers to different clusters on the [knowledge graph](https://cyber.page/graph). Clusters aren't necessarily connected between each other. But might be. 
+These are 2 terms that are often used and can help you to build the graph. Clusterization simply refers to different clusters on the [knowledge graph](https://cyber.page/graph). Please bare in mind, that it is not working atm. Clusters aren't necessarily connected between each other. But might be. 
 
 Cross-linking means that there is more than one link from a CID. Chain linking, in theory, can also apply to cross-linking. For example, we may take the [current top CIDs](https://cyber.page/gol/relevance) and cross-link new content to these CIDs or cross-link it with other clusters/new content. 
 
