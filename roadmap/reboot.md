@@ -1,98 +1,106 @@
 # Episode 1
 
-## Get rid of distribution
-- [ ] dot-cyber: Distribution page
-- [ ] dot-cyber: Claim of gift using merkledrop
-- [ ] contracts: merkle-tree drop contract
+## Accessibility
+- [ ] dot-cyber: Better pocket / wallet page
+- [ ] dot-cyber: Burner wallets 
+- [ ] dot-cyber: Keplr support
+- [ ] go-cyber: Delegation of cyber~Power
 
-## Launch cyber~Foundation
+## Bootstrap Kernel
+- [ ] Design
+- [ ] Implementaion
+
+## Bootstrap Superintellegnce
+- [ ] Articles by @xhipster
+
+## cyber~Foundation: launch
+- [ ] cyber/~Foundation deploy ceremony
+- [ ] GOL claim
 - [ ] Rebase for THC
 - [ ] Liquidity mining for THC
 - [ ] Liquidity rewards + staking
-- [ ] GOL claim
-- [ ] cyber/~Foundation deploy ceremony
+- [ ] Whitepaper: THC
 
-## Accessibility
-- [ ] go-cyber: Delegation of cyber~Power
-- [ ] dot-cyber: Burner wallets 
-- [ ] dot-cyber: cyb-snap support
-- [ ] dot-cyber: Keplr support
-- [ ] dot-cyber: Better pocket / wallet page
-
-## Working governance
-- [ ] Support for euler~/Foundation
-- [ ] Better Government page with explanations
-
-## Upgrade cosmos-SDK
+## cosmos-SDK: upgrade
 - [ ] go-cyber: implementation
 - [ ] go-cyber: testing
 - [ ] go-cyber: genesis signing
 - [ ] go-cyber: euler-7 relaunch
 
-## Improve dev experience
-- [ ] go-cyber: Rewards to contract deployers
-- [ ] go-cyber: Using KG in smart contracts
-- [ ] dot-cyber: Deployment of contracts
-- [ ] cyber-js: Cyberlink
-- [ ] cyber-js: Search
+## Dev experience: improve
 - [ ] dot-cyber: Setup endpoints in the app
+- [ ] go-cyber: Rewards to contract deployers
 
-## Economics optimisation
+## Dev portal
+- [ ] R&D
+- [ ] Design
+- [ ] API
+- [ ] Builders
+- [ ] Guides & Explanations
+
+## Distribution
+- [ ] dot-cyber: Claim of gift using merkledrop
+- [ ] dot-cyber: Distribution page
+- [ ] contracts: Merkle-tree drop contract
+
+## Governance: make it work baby
+- [ ] Support for euler~/Foundation
+- [ ] Better Government page with explanations
+
+## Economics: optimisation
 - [ ] go-cyber: Bandwidth based on gas meter
 - [ ] go-cyber: Gas based CosmWasm
 - [ ] onchain: Optimisation of pricing
 
-## Social search
-- [x] feed
-- [x] subscriptions to addresses
-- [ ] notifications
+## Ecosystem and community
+- [ ] Homestead: review + publish
+- [ ] Launch constant community calls
+- [ ] More news and stronger social presence
+- [ ] Public doc review
+- [ ] Relanuch monthly dev updates
+- [ ] Short usage videos: wallet, linking, staking, linker, etc
+- [ ] Use of community pool fund (cases)
+
+## Excecution
+- [ ] cyber/~Congress 2.0 agreement (doc)
+- [ ] new multisig 2/3 (fact)
+- [ ] lower level consensus token
+- [ ] review all repos for order
+- [ ] tasks for all 6 members with partial mentorship
 
 ## Game of Links
 - [ ] Organize final
 - [ ] Analize results
-
-## Rebrandig
-- [ ] analysis and agreement on terms
-- [ ] landing page
-- [ ] initial social work
 
 ## Launch Cyber
 - [ ] dot-cyber: Genesis page
 - [ ] launch-kit: Compute Genesis after the end of Game of Links
 - [ ] launch-kit: Ceremony of Genesis preparation
 
-## Documentation
-- [ ] whitepaper: THC
-- [ ] go-cyber: CosmWasm examples and docs
-- [ ] go-cyber: API examples and docs
-- [ ] dev docs: start
-- [ ] homestead: review and publish
-- [ ] cyber~/Congress 2.0 agreement
-- [ ] review other docs after rebranding
-- [ ] short usage videos: wallet, linking, staking, linker, etc
+## Rebrandig
+- [ ] analysis and agreement on terms
+- [ ] landing page
+- [ ] initial social work
 
-## Exceuction
-- [ ] new multisig 2/3
-- [ ] lower level consensus token
-- [ ] review all repos for order
-- [ ] tasks for all 6 members with partial mentorship
+## Social search
+- [x] feed
+- [x] subscriptions to addresses
+- [ ] social pining
 
-## Ecosystem and community
-- [ ] launch constant community calls
-- [ ] relanuch monthly dev updates
-- [ ] more news and stronger social presence
-- [ ] use of community pool fund 
+## Technical discussion detail of Euler-7
+- [Euler-7 discussion](https://github.com/cybercongress/go-cyber/issues/546)
 
-## Backlog:
-- get rid of distribution: GOL claim bridge 
-- Multi-GPU cyber~Rank: go-cyber: Research, Implementation, Testing, Upgrade
-- cyber/~Foundation: Whitepaper: Foundations for next civilization
-- accesabilty: dot-cyber: Trezor support
-- dev experience: go-cyber: More independent modules
-- dev experience: dot-cyber: Explorer for CosmWasm
-- dev experience: dot-cyber: Linkchains and multilinks
-- Bootstrap kernel
-- social search: messaging, mailing, social pining, subsciption to content
+### Backlog:
+- Accesabilty: dot-cyber: Trezor support, cyb-snap support
+- cyber/~Foundation: whitepaper: the foundation for future civilizations
+- Dev experience: go-cyber: using KG in smart contracts, dot-cyber: deployment of contracts, cyber-js: Cyberlink + Search, go-cyber: CosmWasm examples and docs
+- Dev experience: go-cyber: more independent modules, dot-cyber: explorer for CosmWasm + Linkchains and multilinks
+- Distribution: GOL claim bridge 
+- Economics: collateral for links
+- EVM support: go-cyber + dot-cyber
+- Multi-GPU cyber~Rank: go-cyber: research, implementation, testing, upgrade
+- Social search: messaging, mailing, subsciption to content, notifications
+- Timeline: dot-cyber
 
 -----------------------------------
 
