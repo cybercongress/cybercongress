@@ -57,7 +57,7 @@ This section contains basic information that you will need for your journey into
    * [Using Cyber: other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-other-bridges)
       * [Using cyb\~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus-1)
       * [Using cyberd\~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot-1)
-         * [Using dpos.space/cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#dposspace-1)
+      * [Using dpos.space/cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#dposspacecyber-1)
    * [Using Cyber: Advanced Master Class](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-advanced-master-class)
      * [Crawlers](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#crawlers)
      * [Cross Linking and clustering](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cross-linking-and-clustering)
@@ -1674,10 +1674,6 @@ A wallet with the ability to view the balance and transfer funds, view profiles 
 The project code is open. [github](https://github.com/denis-skripnik/dpos.space), [go to site](https://dpos.space/cyber).
 
 ![Cyber home page screenshot](https://i.imgur.com/8FM0j4U.jpg)
-
-![Cyber profiles screenshot](https://i.imgur.com/btqgPtf.jpg)
-
-![Cyber accounts screenshot](https://i.imgur.com/QJ97sOl.jpg)
 
 ### Using cyber: Advanced Master Class
 What can be better than moving to the next level of mastering a skill? Mastering a skill even more... I hope that this section will be filled in by the masters themselves as they get to know cyber and their karma levels grow.
