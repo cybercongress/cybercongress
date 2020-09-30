@@ -14,7 +14,7 @@
 - [ ] Articles by @xhipster
 
 ## cyber~Foundation: launch
-- [ ] cyber/~Foundation deploy ceremony
+- [ ] cyber\~Foundation deploy ceremony
 - [ ] GOL claim
 - [ ] Rebase for THC
 - [ ] Liquidity mining for THC
@@ -62,7 +62,7 @@
 - [ ] Use of community pool fund (cases)
 
 ## Excecution
-- [ ] cyber/~Congress 2.0 agreement (doc)
+- [ ] cyber\~Congress 2.0 agreement (doc)
 - [ ] new multisig 2/3 (fact)
 - [ ] lower level consensus token
 - [ ] review all repos for order
@@ -92,7 +92,7 @@
 
 ### Backlog:
 - Accesabilty: dot-cyber: Trezor support, cyb-snap support
-- cyber/~Foundation: whitepaper: the foundation for future civilizations
+- cyber\~Foundation: whitepaper: the foundation for future civilizations
 - Dev experience: go-cyber: using KG in smart contracts, dot-cyber: deployment of contracts, cyber-js: Cyberlink + Search, go-cyber: CosmWasm examples and docs
 - Dev experience: go-cyber: more independent modules, dot-cyber: explorer for CosmWasm + Linkchains and multilinks
 - Distribution: GOL claim bridge 
