@@ -55,7 +55,7 @@ This section contains basic information that you will need for your journey into
       * [Becoming an evagelist](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#becoming-an-evangelist)
       * [Using cyber.page together with other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-together-with-other-bridges)
    * [Using Cyber: other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-other-bridges)
-      * [Keplr]()
+      * [Keplr](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#keplr)
       * [Using cyb\~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus-1)
       * [Using cyberd\~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot-1)
       * [Using dpos.space/cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#dposspacecyber-1)
