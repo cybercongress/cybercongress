@@ -55,6 +55,7 @@ This section contains basic information that you will need for your journey into
       * [Becoming an evagelist](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#becoming-an-evangelist)
       * [Using cyber.page together with other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyberpage-together-with-other-bridges)
    * [Using Cyber: other bridges](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#using-cyber-other-bridges)
+      * [Keplr]()
       * [Using cyb\~Virus](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus-1)
       * [Using cyberd\~Bot](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberdbot-1)
       * [Using dpos.space/cyber](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#dposspacecyber-1)
@@ -1589,6 +1590,9 @@ You can combine other bridges too. For example, use a hash of a downloaded page 
 ### Using Cyber: other bridges
 We already learned that cyber.page is one bridge and others exist. We even learned to conenct to Cyber via these bridges and even played with some of their capbalities. Let's explore the other features these bridges have to offer:
 
+#### Keplr
+An Chrome and a Firefox, a-la Metamask extension for Cosmos-based chains that allows to manage wallets, send and recieve tokens and manage staking. Learn [how to use it](https://medium.com/everett-protocol/introducing-keplr-an-interchain-wallet-for-cosmos-applications-a260aac64eaa)
+
 #### cyb\~Virus
 You already know how to install the extension. If you missed it, check it [here](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cybvirus). 
 
@@ -2151,6 +2155,10 @@ The goal of Cyber is to be governed solely by the community via the use of on-ch
 ###### Apps
 - [Firefox cyb~Virus extension](https://github.com/CipherDogs/cyb-virus): An extension to fuckGoogle in Mozilla. [By CipherDogs](https://github.com/CipherDogs)
 - [Cyberdbot for TG](t.me/cyberdbot): A bot that can track your validator uptime and upload content to IPFS. [By Snedashkovsky](https://github.com/Snedashkovsky)
+- [dpos.space/cyber](https://dpos.space/cyber): Can create wallets, send tokens, upload to IPFS, etc. [By Denis Skripnik](https://github.com/denis-skripnik/dpos.space)
+- [Cyber wallet generator](https://crates.io/crates/cyber-wallet-generator): An Rs-based wallet generator for cyber. [By CipherDogs](https://github.com/CipherDogs/cyber-wallet-generator)
+- [Keplr](https://github.com/chainapsis/keplr-extension): A browser extension that can create a wallet, send tokens, manage staking. [By Chainapsis](https://github.com/chainapsis/keplr-extension)
+- [Rs lib for Cyber](https://crates.io/crates/cyber): Self-explanantory + [docs](https://docs.rs/cyber/0.1.3/cyber/). [By CipherDogs](https://github.com/CipherDogs/cyber-rs)
 
 *Apps that support Cyber search:*
 - [Galacteek](https://github.com/pinnaculum/galacteek/releases/): A browser for the distributed web that supports search within Cyber. [By Pinnaculum](https://github.com/pinnaculum)
