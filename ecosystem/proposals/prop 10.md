@@ -26,7 +26,7 @@ Monitor:
 | 15 | @levapsile70 / @rif00594499 | [Address](https://cyber.page/network/euler/contract/cyber12arnsa069zhad0e40mlgy034n7aq77e2h77hww) | 2 | 300 EUL | [Test]() |
 | 16 | @CoraxR / @Malfurionius | [Address](https://cyber.page/network/euler/contract/cyber1f6tmyjffs0p7f6xeh25esjhawxu2kll9khuxzr) | 1, 2(1/2) | 1150 EUL | [Test]() | 
 
-Total day 1: 14,100 EUL
+- Total day 1: 14,100 EUL
 
 Cyberlinks `blockchain` hashes:
 - Antropocosmist: [1](https://cyber.page/network/euler/tx/1F97CB2F6D043B30A100A678F0A886C7435F9F3257168515F4B0A624D73A13DB)
