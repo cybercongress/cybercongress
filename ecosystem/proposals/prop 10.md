@@ -24,7 +24,7 @@ Monitor:
 | @kopytovo / @griw19 | [Address](https://cyber.page/network/euler/contract/cyber1pkxtd9xwmqwg08kjgz9xqyee3aw7j8upflkxq8) | 2 | 300 EUL | [Test]() | 
 | @kiry812 / @surv79390063 | [Address](https://cyber.page/network/euler/contract/cyber197h938dvw52kzf2l7gke2u5tcz3grvlezpwmce) | 2 | 300 EUL | [Test]() | 
 | @levapsile70 / @rif00594499 | [Address](https://cyber.page/network/euler/contract/cyber12arnsa069zhad0e40mlgy034n7aq77e2h77hww) | 2 | 300 EUL | [Test]() |
-| @CoraxR / @Malfurionius | [Address](https://cyber.page/network/euler/contract/cyber1f6tmyjffs0p7f6xeh25esjhawxu2kll9khuxzr) | 1, 2(1/2) | 1500 EUL | [Test]() | 
+| @CoraxR / @Malfurionius | [Address](https://cyber.page/network/euler/contract/cyber1f6tmyjffs0p7f6xeh25esjhawxu2kll9khuxzr) | 1, 2(1/2) | 1150 EUL | [Test]() | 
 
 
 Cyberlinks `blockchain` hashes:
