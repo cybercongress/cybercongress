@@ -12,7 +12,7 @@ Monitor:
 | 1 | @IrinaLavrinova @IrinaLavrinova / @Anna99365142 | [Address](https://cyber.page/network/euler/contract/cyber1m9x4gg6frezyeqldxdz4dvegxpcytxna9shdep) | 1, 2 | 1300 EUL | [Test]() | 
 | 2 | @Antropocosmist / @antropocosmist / @ponimajushij / @Antropocosmist| [Address](https://cyber.page/network/euler/contract/cyber1hyjhy0tp6geral2g9vj9nyteglf8t5q4ws6mx0) | 1, 2, 3(1/2) * 1, 7 * 1, 8 | 2750 EUL | [Test]() | 
 | 3 | @3Dnt / @TW4Ys / @lucky_hamster  | [Address](https://cyber.page/network/euler/contract/cyber1rc2647d9nftgwwh9n5vaw26lnjdrewc4fygps4) | 1, 2 | 1300 EUL | [Test]() | 
-| 4 | @aspekt19 / @aspekt7700 / @gerassyk | [Address](https://cyber.page/network/euler/contract/cyber1yvlp9gzqaufwz02swp5wqsqhlmfcrcl8ljen4x) | 1, 2 | 1300 EUL | [Test]() | 
+| 4 | @aspekt19 / @aspekt7700 / @gerassyk | [Address](https://cyber.page/network/euler/contract/cyber1yvlp9gzqaufwz02swp5wqsqhlmfcrcl8ljen4x) | 1, 2, 3(1/2) * 1 | 2300 EUL | [Test]() | 
 | 5 | @levapsile / @pavelis7 / @rey23447545 | [Address](https://cyber.page/network/euler/contract/cyber1y7ku6vf9vq53pv4y6lw2zjn4d5ul3javlae4ql) | 1, 2 | 1300 EUL | [Test]() |
 | 6 | @zgurina71 / @irinazg / @gret55828519  | [Address](https://cyber.page/network/euler/contract/cyber17tksas9e4nkp25vgwcsd7z6y83pa6u7sf4hlwl) | 1, 2 | 1300 EUL | [Test]() | 
 | 7 | @Mongust999 / @shilo_222 | [Address](https://cyber.page/network/euler/contract/cyber123wttw3lu62m7lcg23rkwr88cvv8apjmgw0fj5) | 2 | 300 EUL | [Test]() | 
