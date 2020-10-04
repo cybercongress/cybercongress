@@ -7,7 +7,7 @@ Using 10,000,000 EUL from the community pool to be used for social marketing pur
 
 Monitor:
 
-| User | Address | Task | Reward | Proof |
-|---------|-------|-------|--------|--------|
-| Test | [Test]() | Test | 1000 EUL | [Test]() | 
+| User | Address | Task/s | Total Reward | Proof |
+|------|---------|-------|---------------|--------|
+| @IrinaLavrinova / @Anna99365142 | [Address](https://cyber.page/network/euler/contract/cyber1m9x4gg6frezyeqldxdz4dvegxpcytxna9shdep) | 2 | 300 EUL | [Test]() | 
 
