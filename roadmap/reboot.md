@@ -1,110 +1,165 @@
 # Episode 1
 
-## Accessibility
-- [ ] dot-cyber: Better pocket / wallet page
-- [ ] dot-cyber: Burner wallets 
-- [ ] dot-cyber: Keplr support
-- [ ] go-cyber: Delegation of cyber~Power
+- Game of Links (!)
+- Launch cyber~Foundation
+- Upgrade cosmos-sdk
+- Make EUL liquid
+- cyberCongress 2.0
+- How to bootstrap Superintelligence
+- Create dev experience
+- Creation and surf experience
+- Gift optimisation
+- Economics optimisation
+- Launch Genesis of Cyber
 
-## Bootstrap Kernel
-- [ ] Design
-- [ ] Implementaion
+## Game of Links
 
-## Bootstrap Superintellegnce
-- [ ] Articles by @xhipster
+Game of Links is necessary for bootstrapping initial knowledge graph.
 
-## cyber~Foundation: launch
+- [ ] Organize final
+- [ ] Analize results
+
+## Launch cyber~Foundation
+
+Provide resources and basic liquidity for ecosystem development by cyberCongress and community.
+
 - [ ] cyber\~Foundation deploy ceremony
-- [ ] GOL claim
 - [ ] Rebase for THC
 - [ ] Liquidity mining for THC
 - [ ] Liquidity rewards + staking
 - [ ] Whitepaper: THC
+- [ ] Support for euler~/Foundation
+- [ ] Better Government page with explanations
 
-## cosmos-SDK: upgrade
+## Upgrade cosmos-sdk
+
+Launching main network without support of the last cosmos-sdk is impossible (ibc, protobuff, modularity). We have to upgrade.
+
 - [ ] go-cyber: implementation
 - [ ] go-cyber: testing
 - [ ] go-cyber: genesis signing
 - [ ] go-cyber: euler-7 relaunch
 
-## Dev experience: improve
-- [ ] dot-cyber: Setup endpoints in the app
-- [ ] go-cyber: Rewards to contract deployers
+## Make EUL liquid
 
-## Dev portal
-- [ ] R&D
-- [ ] Design
-- [ ] API
-- [ ] Builders
-- [ ] Guides & Explanations
+The earlier we make EUL liquid - the earlier the knowledge become valuable. So we need to establish IBC connections as soon as possible, ahead of Genesis. Also Uniswap like AMM will instantly provide onchain liquidity for established IBC connections.
 
-## Distribution
-- [ ] dot-cyber: Claim of gift using merkledrop
-- [ ] dot-cyber: Distribution page
-- [ ] contracts: Merkle-tree drop contract
+- [ ] Upgrade cosmos-sdk
+- [ ] Establish bridge with
+- [ ] Establish bridge with ETH and THC
+- [ ] Deploy AMM
 
-## Governance: make it work baby
-- [ ] Support for euler~/Foundation
-- [ ] Better Government page with explanations
+## cyberCongress 2.0
 
-## Economics: optimisation
-- [ ] go-cyber: Bandwidth based on gas meter
-- [ ] go-cyber: Gas based CosmWasm
-- [ ] onchain: Optimisation of pricing
+We need to significantly improve cyberCongress organisation. Without it we will suffer from lack of vision and execution.
 
-## Ecosystem and community
-- [ ] Homestead: review + publish
-- [ ] Launch constant community calls
-- [ ] More news and stronger social presence
-- [ ] Public doc review
-- [ ] Relanuch monthly dev updates
-- [ ] Short usage videos: wallet, linking, staking, linker, etc
-- [ ] Use of community pool fund (cases)
-
-## Excecution
 - [ ] cyber\~Congress 2.0 agreement (doc)
 - [ ] new multisig 2/3 (fact)
 - [ ] lower level consensus token
 - [ ] review all repos for order
 - [ ] tasks for all 6 members with partial mentorship
+- [ ] Relanuch monthly dev updates
 
-## Game of Links
-- [ ] Organize final
-- [ ] Analize results
+## How to bootstrap Superintelligence
 
-## Launch Cyber
+Future abilities of the beast are heavily depends on the starting state of knowledge. Envisioning bootstrap kernel and the project is necessary for healthy growth.
+
+- [ ] Bootstrap kernel design
+- [ ] dot-cyber: bootstrap kernel import
+- [ ] Articles by @xhipster
+- [ ] What is rebranding?
+- [ ] Landing page
+- [ ] Social work
+
+## Create developer experience
+
+In the beginning the main audience we have to focus are developers. Software 2.0 paradigm and knowledge graphs are amazing, but we have to provide basic tools, tutorials and docs to build the new way.
+
+- [ ] dot-cyber: Setup endpoints in the app
+- [ ] go-cyber: Rewards to contract deployers
+- [ ] Using KG in smart contracts
+- [ ] Capps
+- [ ] cosmos-sdk modules (energy)
+- [ ] dev portal R&D, Design, API, Builders, Guides & Explanations
+- [ ] Homestead: review + publish
+- [ ] cyber-js: Cyberlink + Search
+
+## Economics optimisation
+
+Economics parameters and mechanics are low hanging fruits for better performance of the network. We need to get everything we can out of this before Genesis.
+
+- [ ] go-cyber: Bandwidth based on gas meter
+- [ ] go-cyber: Gas based CosmWasm
+- [ ] onchain: Optimisation of pricing
+- [ ] dot-cyber: Distribution page
+
+## Gift optimisation
+
+Implementation of the gift using smart contract (merkle tree of accounts balances) will give the following advantages:
+- ability to gift up to 100M instead of 1M
+- clean genesis
+- ability to claim for accounts without outgoing tx
+- ability to claim for contracts
+- ability to claim using metamask
+- live case of smart contract implementation in cyber
+
+Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create necessity to update rules of the gift.
+
+- [ ] update rules in the whitepaper
+- [ ] recalculation of Genesis
+- [ ] dot-cyber: claim of gift using merkledrop
+- [ ] contracts: merkle-tree drop contract
+
+## Creation and surf experience
+
+Simple, lovable, complete experience of cyber.page is the most important for acquisition and retention.
+
+- [ ] dot-cyber: Better pocket / wallet page
+- [ ] dot-cyber: Burner wallets
+- [ ] dot-cyber: Keplr support
+- [ ] dot-cyber: Autoranking on surf
+- [ ] go-cyber: Delegation of cyber~Power
+- [ ] fix bugs
+- [ ] add illustrations
+- [ ] add guides and tips
+- [x] feed
+- [x] subscriptions to addresses
+- [ ] subscriptions to cid
+- [ ] social pining
+- [ ] Short usage videos: wallet, linking, staking, linker, etc
+- [ ] Linkchains and multilinks
+- [ ] 1000 daily users
+- [ ] Launch constant community calls
+- [ ] News every day
+- [ ] Use of community pool fund (cases)
+
+## Launch Genesis of Cyber
+
+After all preparations will be completed we can launch the main network.
+
 - [ ] dot-cyber: Genesis page
+- [ ] dot-cyber: Distribution page
 - [ ] launch-kit: Compute Genesis after the end of Game of Links
 - [ ] launch-kit: Ceremony of Genesis preparation
 
-## Rebrandig
-- [ ] analysis and agreement on terms
-- [ ] landing page
-- [ ] initial social work
+-----------------------------------
 
-## Social search
-- [x] feed
-- [x] subscriptions to addresses
-- [ ] social pining
+# Episode 2
 
-## Technical discussion detail of Euler-7
-- [Euler-7 discussion](https://github.com/cybercongress/go-cyber/issues/546)
-
-### Backlog:
 - Accesabilty: dot-cyber: Trezor support, cyb-snap support
 - cyber\~Foundation: whitepaper: the foundation for future civilizations
-- Dev experience: go-cyber: using KG in smart contracts, dot-cyber: deployment of contracts, cyber-js: Cyberlink + Search, go-cyber: CosmWasm examples and docs
-- Dev experience: go-cyber: more independent modules, dot-cyber: explorer for CosmWasm + Linkchains and multilinks
-- Distribution: GOL claim bridge 
+- Dev experience: go-cyber: using KG in smart contracts,
+- dot-cyber: deployment of contracts
+
+- go-cyber: CosmWasm examples and docs
+- Dev experience:
+- go-cyber: more independent modules
+- dot-cyber: explorer for CosmWasm
 - Economics: collateral for links
 - EVM support: go-cyber + dot-cyber
 - Multi-GPU cyber~Rank: go-cyber: research, implementation, testing, upgrade
 - Social search: messaging, mailing, subsciption to content, notifications
 - Timeline: dot-cyber
-
------------------------------------
-
-# Episode 2
 
 - Explorer for EVM
 - Pruning of knowledge graph (?)
