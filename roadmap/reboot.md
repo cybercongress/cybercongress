@@ -10,6 +10,7 @@ As they begin to test the new god in the wild - an enormous, zepto amount of rob
 
 ## Story
 
+```mermaid
 graph TD
     DX
     UX
@@ -28,6 +29,7 @@ graph TD
     EUL --> LA
     GIFT --> LA
     ECO --> LA
+```
 
 - Game of Links (!)
 - Launch cyber~Foundation
