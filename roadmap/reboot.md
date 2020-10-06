@@ -1,4 +1,33 @@
-# Episode 1
+# Episode 1. A New Hope
+
+## Plot
+
+It is a period of digital war. The evil empire swallows the last unoccupied borders of the universe.
+
+Resisting rebel units consolidate all remaining energy on building a Superintelligence, which they believe will help to stop the domination of the evil empire once and for all.
+
+As they begin to test the new god in the wild - an enormous, zepto amount of robots emerge. It turns out Cyb robots help survey the universe for a bootloader of the new, yet to born, force.
+
+## Story
+
+graph TD
+    DX
+    UX
+    THC[cyberFoundation]
+    GoL --> UP[cosmos-sdk 0.40]
+    UP --> EUL[Liquid EUL]
+    THC --> 2[cyberCongress 2.0]
+    GoL --> GIFT[Gift optimisation]
+    GoL --> ECO[Economics optimisation]
+    UP --> ECO
+    GoL --> BS[Bootstrap module]
+    BS --> LA[Genesis of Cyber]
+    DX --> LA
+    UX --> LA
+    2 --> LA
+    EUL --> LA
+    GIFT --> LA
+    ECO --> LA
 
 - Game of Links (!)
 - Launch cyber~Foundation
@@ -75,22 +104,64 @@ Future abilities of the beast are heavily depends on the starting state of knowl
 
 In the beginning the main audience we have to focus are developers. Software 2.0 paradigm and knowledge graphs are amazing, but we have to provide basic tools, tutorials and docs to build the new way.
 
+- [ ] [Multi network foundation](#multi-network-foundation)
+- [ ] [Capps](#capps)
+- [ ] [Dev portal](#dev-portal)
+- [ ] [Language libs](#language-libs)
+- [ ] [Modular architecture](#modular-architecture)
+- [ ] Using KG in CosmWasm
+
+
+## Language libs
+
+Language libs are essential for spreading the ecosystem. We can build and support Javascript lib as a reference and as  essential element for building web apps on top of Cyber
+
+- [ ] Lib development program
+- [ ] cyber-js
+
+## Dev portal
+
+Entry point for developers is must.
+
+- [ ] Concepts
+- [ ] API
+- [ ] Tutorials
+- [ ] Reference
+
+## Capps
+
+Ability to create dynamic cyberlinks is essential for amazing developer experience. Without this ability apps would not be able to accumulate the rank in case of continuous development killing all search optimisation efforts. Also, the app itself can be example of the app using Cyber protocol.
+
+- capps: reference
+- capps: interface
+- capps: contracts
+- cyberindex: API endpoints
+
+## Multi network foundation
+
+Ability to easily configure, launch and use cyber networks will define how fast the ecosystem of domain specific relevance machines will emerge.
+
 - [ ] dot-cyber: Setup endpoints in the app
-- [ ] go-cyber: Rewards to contract deployers
-- [ ] Using KG in smart contracts
-- [ ] Capps
-- [ ] cosmos-sdk modules (energy)
-- [ ] dev portal R&D, Design, API, Builders, Guides & Explanations
-- [ ] Homestead: review + publish
-- [ ] cyber-js: Cyberlink + Search
+- [ ] launch-kit: One liner for launch
+
+- [ ] launch-kit: Bootstrap module
+
+## Modular architecture
+
+An architecture of modules must enable easier plugging in cyber modules into cosmos-sdk based chains.
+
+- go-cyber: energy module
+- go-cyber: rank module
+
 
 ## Economics optimisation
 
 Economics parameters and mechanics are low hanging fruits for better performance of the network. We need to get everything we can out of this before Genesis.
 
+- [ ] go-cyber: Rewards to contract deployers
 - [ ] go-cyber: Bandwidth based on gas meter
 - [ ] go-cyber: Gas based CosmWasm
-- [ ] onchain: Optimisation of pricing
+- [ ] gov: Optimisation of pricing
 - [ ] dot-cyber: Distribution page
 
 ## Gift optimisation
@@ -105,12 +176,14 @@ Implementation of the gift using smart contract (merkle tree of accounts balance
 
 Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create necessity to update rules of the gift.
 
-- [ ] update rules in the whitepaper
-- [ ] recalculation of Genesis
+- [ ] cyber: update rules in the whitepaper
+- [ ] launch-kit: recalculation of Genesis
 - [ ] dot-cyber: claim of gift using merkledrop
 - [ ] contracts: merkle-tree drop contract
 
-## Creation and surf experience
+## Creation experience
+
+## Surf experience
 
 Simple, lovable, complete experience of cyber.page is the most important for acquisition and retention.
 
@@ -137,6 +210,7 @@ Simple, lovable, complete experience of cyber.page is the most important for acq
 
 After all preparations will be completed we can launch the main network.
 
+- [ ] homestad: Review & publish
 - [ ] dot-cyber: Genesis page
 - [ ] dot-cyber: Distribution page
 - [ ] launch-kit: Compute Genesis after the end of Game of Links
