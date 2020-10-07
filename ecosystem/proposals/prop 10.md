@@ -28,8 +28,22 @@ Monitor:
 | 17 | @kovrus3080 / @kovrus / @kovrusl | [Address](https://cyber.page/network/euler/contract/cyber10r2sn7sasanc0tuw5wzupxvlpht5uv26602cdh) | 1, 2, 3(1/2) * 1 | 2150 EUL | [Test]() | 
 | 18 | @tarust777 | [Address](https://cyber.page/network/euler/contract/cyber1hjjsjgv7sx88mxfq9y44ql24xs76jj3w6ukj76) | 1, 2 | 1300 EUL | [Test]() | 
 | 19 | @nrbc / @nrbc1 / @shlntps | [Address](https://cyber.page/network/euler/contract/cyber189tpr8vg4qvwn7fgs6szkqr25yrammvvm64547) | 1, 2 | 1300 EUL | [Test]() | 
-| 20 | @AkaMoFo / @emeka_micro | [Address](https://cyber.page/network/euler/contract/cyber1h9k38zr5a532jzl0hsker9qz785m822zlca7fg) | 2 | 300 EUL | [Test]() | 
-| 21 | @ruf20032 | [Address](https://cyber.page/network/euler/contract/???) | 1, 2 | 1300 EUL | [Test]() | 
+| 20 | @janus / @AkaMoFo / @emeka_micro | [Address](https://cyber.page/network/euler/contract/cyber1h9k38zr5a532jzl0hsker9qz785m822zlca7fg) | 1, 2 | 1300 EUL | [Test]() | 
+| 21 | @ruf20032 | [Address](https://cyber.page/network/euler/contract/cyber17vw0qcu9j8t6jhh83sjrzj07nwg9nndfuea7lj) | 1, 2 | 1300 EUL | [Test]() | 
+| 22 | @amaradumi94 / @cryptojunct71 / @amaradumi94 | [Address](https://cyber.page/network/euler/contract/cyber1zy3nxgwtw9hr99tzfaxasgwklm9ev843d2074z) | 1, 2, 3(1/2) * 1 | 2300 EUL | [Test]() | 
+| 23 | @CryptoDilis / @CryptoGraphy17 / @JomarEscalante | [Address](https://cyber.page/network/euler/contract/cyber15a8z9l8ufw8v8zdddfhesnmfzwwhua7azmgj3z) | 1, 2 | 1300 EUL | [Test]() | 
+| 24 | @Animunie / @Animunie_marie / @Lucy_rayearth | [Address](https://cyber.page/network/euler/contract/cyber1808q4nv5qafkk8ec9h56wwth6sl5a5ydtpvhw8) | 1, 2 | 1300 EUL | [Test]() | 
+| 25 | @freshmedia165 / @BTCsingh / @Beantsi32773466 | [Address](https://cyber.page/network/euler/contract/cyber1j5wpswepyxva5vupvg05pq6jzqh7ttdvae9vkv) | 1, 2, 3(1/2) * 1 | 300 EUL | [Test]() | 
+| 26 | @JoseAtay1 / @JoseAtay  | [Address](https://cyber.page/network/euler/contract/cyber12c8kh7aaz2gg0l4nkd73t58nhurdarensvwstq) | 2, 3 * 2 | 4300 EUL | [Test]() | 
+| 27 | @arhangelzak / @maxalend | [Address](https://cyber.page/network/euler/contract/cyber1zejjt25xw9gwvhave95ykkvgqjtk7j56dpkre2) | 2, 3 * 1 | 2300 EUL | [Test]() | 
+| 28 | @Malenford / @Shadersss / @Noconnecting | [Address](https://cyber.page/network/euler/contract/cyber1mzn966mlprxgkvayrqu209069px0qwz7v6q9jc) | 1, 2 | 1300 EUL | [Test]() | 
+| 29 | @saske1291 / @XeenoLs / @Saske1291 | [Address](https://cyber.page/network/euler/contract/cyber17kwvcuvar02ldacltr48373rm74z8lfkuc55m0) | 1, 2 | 1300 EUL | [Test]() | 
+| 30 | @romanoffmnogoznaet / @cyberomanov / @chabo0chabo0 | [Address](https://cyber.page/network/euler/contract/cyber1ssu4wqtzvvmwcukcv7l8zxny647mdx03ahc0f0) | 1, 2, 3(1/2) * 1 | 2300 EUL | [Test]() | 
+| 31 | @TheUnity / @TheUnity / @TypaSashenka | [Address](https://cyber.page/network/euler/contract/cyber1xvsukg4tltfzduw0lsvgqyrhe6rzrlp46jvgjh) | 1, 2 | 1300 EUL | [Test]() | 
+| 32 | @kudashovdanila / @kudashovdanila / @EBhT6HeWgn9ZPfz | [Address](https://cyber.page/network/euler/contract/cyber1z33aen2znsmgy7wwzavwh2q0u7cu4e9xnwh2fc) | 1, 2, 3(1/2) * 1 | 2300 EUL | [Test]() | 
+| 33 | @BloodRage / @saimondanya / @danya5062002 | [Address](https://cyber.page/network/euler/contract/cyber104rtaftr9xmx6dcakempk590tfxx4ytdfctfjr) | 1, 2 | 1300 EUL | [Test]() | 
+| 34 | @nykas5 / @nykaster / @cloverty2 | [Address](https://cyber.page/network/euler/contract/cyber1undz2328av9agfhaguqs8zxzejv5zqccpsskv3) | 1, 2 | 1300 EUL | [Test]() | 
+
 
 Cyberlinks `blockchain` hashes:
 - Antropocosmist: [1](https://cyber.page/network/euler/tx/1F97CB2F6D043B30A100A678F0A886C7435F9F3257168515F4B0A624D73A13DB)
