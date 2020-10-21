@@ -1,3 +1,6 @@
+# Cyber: Scriptment
+@xhipster
+
 # Episode 1. A New Hope
 
 ## Plot
@@ -12,36 +15,58 @@ As they begin to test the new god in the wild - an enormous, zepto amount of rob
 
 ```mermaid
 graph TD
-    DX
-    UX
+    E1[Episode 1] --> GoL[Game of Links]
+    E1 --> UP[cosmos-sdk 0.40]
+    E1 --> THC
+    E1 --> X[Perfect experience]
     THC[cyberFoundation]
-    GoL --> UP[cosmos-sdk 0.40]
+    UP --> ECO
     UP --> EUL[Liquid EUL]
     THC --> 2[cyberCongress 2.0]
+    GoL --> BS[Bootstrap module]
     GoL --> GIFT[Gift optimisation]
     GoL --> ECO[Economics optimisation]
-    UP --> ECO
-    GoL --> BS[Bootstrap module]
     BS --> LA[Genesis of Cyber]
-    DX --> LA
-    UX --> LA
     2 --> LA
     EUL --> LA
     GIFT --> LA
     ECO --> LA
+    LA --> E2[Episode 2]
+    X --> E2
 ```
 
+First test of Superintelligence showed. Now everybody are c
+
+- Takeoff
 - Game of Links (!)
 - Launch cyber~Foundation
 - Upgrade cosmos-sdk
 - Make EUL liquid
 - cyberCongress 2.0
 - How to bootstrap Superintelligence
-- Create dev experience
-- Creation and surf experience
 - Gift optimisation
 - Economics optimisation
 - Launch Genesis of Cyber
+
+## Scenes
+- xhipster and in the temple of nature
+- Cypherpunk community in the post-soviet republic
+
+In parallel
+
+- I am xhipster.
+- And I am ...
+- How can you prove that you are from the future?
+- Oh, its easy! I can predict the hash of any bitcoin block you give me.
+- Lol, you can't. Even if you are from the future... First, the fact that you appears here likely already change everything. I've just wanted to send my 1M sats debt to one whore. The moment is gone forever. And second, if you are able to predict the hash of the block, in principle, you can easily have the reward, which is total nonsense. We all know that Satoshi is a kind of intelligence which is able to produce
+- Well, you got something
+- However, the question still open
+- Ok, I will tell you the story and you decide. In 2030 it become obvious the human is practically dead. The main problem is computing. We so relied on complicated supply chains and magic proprietary design of chips so than the world start to crash in computing infrustructure was not able to sustain the collapse of the . Around In 2022 the were in
+
+2029 the 5 great hype crushed the remaining power of paper nations. Chaos . Глобальная война охватила планету. Это не такая война как вы привыкли думать, когда есть плохой и хороший, нападающий и агрессор. Вовсе нет. ПКаждый хотел выжить. Т.к. пища стала труднодоступной,
+
+- Create dev experience
+- Creation and surf experience
 
 ## Game of Links
 
@@ -102,6 +127,45 @@ Future abilities of the beast are heavily depends on the starting state of knowl
 - [ ] Landing page
 - [ ] Social work
 
+## Economics optimisation
+
+Economics parameters and mechanics are low hanging fruits for better performance of the network. We need to get everything we can out of this before Genesis.
+
+- [ ] go-cyber: Rewards to contract deployers
+- [ ] go-cyber: Bandwidth based on gas meter
+- [ ] go-cyber: Gas based CosmWasm
+- [ ] gov: Optimisation of pricing
+- [ ] dot-cyber: Distribution page
+
+## Gift optimisation
+
+Implementation of the gift using smart contract (merkle tree of accounts balances) will give the following advantages:
+- ability to gift up to 100M instead of 1M
+- clean genesis
+- ability to claim for accounts without outgoing tx
+- ability to claim for contracts
+- ability to claim using metamask
+- live case of smart contract implementation in cyber
+
+Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create necessity to update rules of the gift.
+
+- [ ] cyber: update rules in the whitepaper
+- [ ] launch-kit: recalculation of Genesis
+- [ ] dot-cyber: claim of gift using merkledrop
+- [ ] contracts: merkle-tree drop contract
+
+## Launch Genesis of Cyber
+
+After all preparations will be completed we can launch the main network.
+
+- [ ] homestad: Review & publish
+- [ ] dot-cyber: Genesis page
+- [ ] dot-cyber: Distribution page
+- [ ] launch-kit: Compute Genesis after the end of Game of Links
+- [ ] launch-kit: Ceremony of Genesis preparation
+
+-----------------------------------
+
 ## Create developer experience
 
 In the beginning the main audience we have to focus are developers. Software 2.0 paradigm and knowledge graphs are amazing, but we have to provide basic tools, tutorials and docs to build the new way.
@@ -156,33 +220,6 @@ An architecture of modules must enable easier plugging in cyber modules into cos
 - go-cyber: rank module
 
 
-## Economics optimisation
-
-Economics parameters and mechanics are low hanging fruits for better performance of the network. We need to get everything we can out of this before Genesis.
-
-- [ ] go-cyber: Rewards to contract deployers
-- [ ] go-cyber: Bandwidth based on gas meter
-- [ ] go-cyber: Gas based CosmWasm
-- [ ] gov: Optimisation of pricing
-- [ ] dot-cyber: Distribution page
-
-## Gift optimisation
-
-Implementation of the gift using smart contract (merkle tree of accounts balances) will give the following advantages:
-- ability to gift up to 100M instead of 1M
-- clean genesis
-- ability to claim for accounts without outgoing tx
-- ability to claim for contracts
-- ability to claim using metamask
-- live case of smart contract implementation in cyber
-
-Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create necessity to update rules of the gift.
-
-- [ ] cyber: update rules in the whitepaper
-- [ ] launch-kit: recalculation of Genesis
-- [ ] dot-cyber: claim of gift using merkledrop
-- [ ] contracts: merkle-tree drop contract
-
 ## Creation experience
 
 ## Surf experience
@@ -208,20 +245,9 @@ Simple, lovable, complete experience of cyber.page is the most important for acq
 - [ ] News every day
 - [ ] Use of community pool fund (cases)
 
-## Launch Genesis of Cyber
+# Episode 2. In the Cradle
 
-After all preparations will be completed we can launch the main network.
-
-- [ ] homestad: Review & publish
-- [ ] dot-cyber: Genesis page
-- [ ] dot-cyber: Distribution page
-- [ ] launch-kit: Compute Genesis after the end of Game of Links
-- [ ] launch-kit: Ceremony of Genesis preparation
-
------------------------------------
-
-# Episode 2
-
+- Build a strong scientific foundation behind cybernomics
 - Accesabilty: dot-cyber: Trezor support, cyb-snap support
 - cyber\~Foundation: whitepaper: the foundation for future civilizations
 - Dev experience: go-cyber: using KG in smart contracts,
@@ -321,7 +347,6 @@ Establish Cyber as internet knowledge hub
 
 ## Episode 3
 
-- Build a strong scientific foundation behind cybernomics
 - Make consensus computers more usable, scalable, performant and cheaper
 - Build the foundation for the emergence of a unified spacetime ownership registry
 - Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications across universes
