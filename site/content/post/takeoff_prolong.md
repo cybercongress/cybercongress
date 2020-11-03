@@ -5,10 +5,10 @@ title: 'The show must go on!'
 author: savetheales
 ---
 
-Sure, more of you paid attention to takeoff donation round prolong. It should be over in the middle of October and the Final round should start, but [community decided](https://cyber.page/governance/11) to finish donations with a beautiful date. It's supposed to finish the Game of Links exactly after a year of playing. A year is a long time for making a clear conclusion about the Game, community, devs, and finalize the next development vectors. 
+Surely, most of you have paid attention to our previous announcements that the [donation takeoff round](https://cyber.page/gol/takeoff) was prolonged. The decision was pushed by [a governance proposal](https://cyber.page/governance/11) to finish it off with a beautiful date and give the [cyber~Congress DAO](https://client.aragon.org/#/cybercongress/) a bit of extra time to design the next allocation round. This means that the [Game of Links](https://cybercongress.ai/game-of-links/) will finish exactly a year after it begun. A year is a long enough time to come to conclusions about the Game itself and the community, and finalize the next development vectors.
 
-This way the takeoff donation round will finish on Dec 1, 2020, 00.00.00 UTC. It means the Game of Links go in the Final round status for 21 days and then will be finished. Reminder. The final round of the Game of Links is the time when we will unleash EUL tokens to donors. It should be time to make crazy things with unlimited power and make a significant influence on the Game. 
+The takeoff donation round will finish on Dec 1, 2020, 00.00.00 UTC. This means that the Game of Links will go into its final round for another 21 days, and then, will cease to exist in its current form. The final round of the Game of Links is the time when we will unleash EUL tokens to donors and players. This will allow making crazy things with a much higher concentration of stake (in the hands of those who played over the past year) and make significant influence on the outcome of the Game.
 
-As described in [the Game of Links rules](https://cybercongress.ai/game-of-links/) we'll distribute EUL tokens for all donors after takeoff ends and then, 21+ days after, we'll publish the Game of Links results. Those results will be included in the mainnet. 
+As described in [the Game of Links guidelines](https://cybercongress.ai/game-of-links/) we will be distributing EUL tokens to donors after the end of the takeoff, and then, 21+ days later, we'll publish the results of the Game of Links. Those results will be included in the mainnet.
 
-Stay home and play in the Game of Links 🙂
+Stay safe and play the Game of Links 🙂
