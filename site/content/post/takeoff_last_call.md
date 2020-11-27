@@ -33,4 +33,4 @@ On 01 of December 2020 members of the  cyber~Congress DAO will run [this script]
 - Distribution of the [evangelism program](https://cyber.page/evangelism) reward in ATOMs
 - Distribution of ATOM reward to the DAO [team distribution](https://github.com/cybercongress/congress/blob/master/teams/incentives.md)
 
-The last call for the takeoff: you are still able to take part in building the Great Web! The final results will be published on the 2nd of December 2020 :)
+The last call for the takeoff: you are still able to take part in building the Great Web :)
