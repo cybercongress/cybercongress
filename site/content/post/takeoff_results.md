@@ -44,7 +44,7 @@ This means that the outlined results are not final:
 
 Distribution of a PoS-like blockchain is pretty complex. Currently, we have distributed 11.7% of the initial mainnet supply and this just the beginning.
 
-10% of 11.7 was like `zerg-rush` for communities and only 1.7% is Sacred Graal. In that 1.7% the most strong and powerful community ever. They played and built a network with us.
+10% out of 11.7 were the `zerg-rush` gift to various communities, and only 1.7% can be considered as the Sacred Grail. With it, these 1.7% are some of the most strong and powerful community members for the success of Cyber. They have played and built the network along with us.
 
 According to the [whitepaper](https://github.com/cybercongress/cyber/blob/master/cyber.pdf), 2 extra transactions will take place:
 
