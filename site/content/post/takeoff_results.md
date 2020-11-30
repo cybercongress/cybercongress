@@ -19,6 +19,8 @@ In details:
 - delegation: <211.7986> GCYBs
 - lifetime: <127.0791> GCYBs
 
+The current ATOM/GCYB price is 1.42 and this is mean we're closing the takeoff donation round with a network market cap \~ 1,420,000 ATOMs
+
 However, 2 of 7 disciplines' (spoiler: full validator set and the community pool) results unknown till the end of Game of Links and we can't announce the final results of the distribution but we can offer intermediate results of `cyber` mainnet distribution.
 
 According to paragraph 17 `Game of Links` of `cyber` [whitepaper]():
