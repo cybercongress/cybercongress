@@ -42,4 +42,14 @@ This way we can show the current and NOT FINAL version of `cyber` distribution:
 
 Distribution in PoS-like blockchain is pretty complex. Currently, we distributed only 11.7% of the initial mainnet supply and this is only beginning. 10% of 11.7 was like `zerg-rush` for communities and only 1.7% is Sacred Graal. In that 1.7% the most strong and powerful community ever. They played and built a network with us.
 
+Today two transactions will be broadcasted according to the [whitepaper]:
+
+> In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final
+
+in `euler-6` network
+
+and cashback for evangelists according to the evangelism referral program in `comsoshub-3` (team incentivization will be included in that transaction). 
+
+After the transaction in `euler-6` will be broadcasted the final of the Game of Links will be started. 21 days before the end you can link and validate and whatever to earn CYB tokens as much as you can. 
+
 Thanks to all participants and contributors. Get ready for the Final of the Game of Links! 
