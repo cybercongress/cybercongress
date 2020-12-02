@@ -17,7 +17,7 @@ Monitor:
 | 7 | @surprize1201 / @manovitskiy / @sapogov_richard | [Address](https://cyber.page/network/euler/contract/cyber14thj9udwenk5q8c5ey2urude2j54xud2ejfckv) | 1, 2 | 60,000 EUL | [TX]() | 
 | 8 | @AleksandrKart / @dedpul_ak / @kartuzov_a | [Address](https://cyber.page/network/euler/contract/cyber185y3kgv3e6t4sue0a55jyq88hv76th3u8ttxz9) | 1, 2 | 60,000 EUL | [TX]() | 
 | 9 | @razorvu97 / @SylvanaVetrokrylaya / @mrsSilvana | [Address](https://cyber.page/network/euler/contract/cyber19lsruwa85k93ahzkdwaydyrl6ehz9dmmj9lxce) | 1, 2, 3 * 1, 5 * 1, 6 * 1 | 10,260,000 EUL | [TX]() | 
-| 10 | @lucky_hamster | [Address](https://cyber.page/network/euler/contract/cyber1rc2647d9nftgwwh9n5vaw26lnjdrewc4fygps4) | 3 * 10, 5 * 6 | 1,600,000 EUL | [TX]() | 
+| 10 | @lucky_hamster | [Address](https://cyber.page/network/euler/contract/cyber1rc2647d9nftgwwh9n5vaw26lnjdrewc4fygps4) | 3 * 11, 5 * 6 | 1,700,000 EUL | [TX]() | 
 | 11 | @yanghelong1 / @assange / @yanghelong1 | [Address](https://cyber.page/network/euler/contract/cyber18fudz7p6ah9yvdr4p9aflp8pgzngx84car8y5q) | 1, 2 | 60,000 EUL | [TX]() | 
 | 12 | @quanghiep1906 / @quanghiep1906 / @quanghiep1906 | [Address](https://cyber.page/network/euler/contract/cyber1jz57cgfr248y9w6sn76l7pugjkr6e7zh7uen5u) | 1, 2, 3 * 1 | 160,000 EUL | [TX]() | 
 | 13 | @Forh88 / @Maliko8 / @Forh881 | [Address](https://cyber.page/network/euler/contract/cyber1njpfrygstn6r5awzp77keyhkl3wfhzmvf6e6t4) | 1, 2, 3 * 1 | 160,000 EUL | [TX]() | 
@@ -57,7 +57,7 @@ Monitor:
 | 47 | @urushai / @urushai / @urushai | [Address](https://cyber.page/network/euler/contract/cyber1e08w7wrjn05gl06xkwnlfmud5f6trdkrdh7clf) | 1, 2 | 60,000 EUL | [TX]() | 
 | 48 | @BrabusBro24 / @Bablou8 / @BitcoinBrabus | [Address](https://cyber.page/network/euler/contract/cyber1hmdjgtv3yq4qzyuk3ynyt42sjntma8hqem269s) | 1, 2, 3 * 5 | 560,000 EUL | [TX]() | 
 | 49 | @itrests / @hashpark / @itrests | [Address](https://cyber.page/network/euler/contract/cyber1pvu65ccqw3fmgq88j2j485wc6qm96nx7nxvgz5) | 1, 2, 3 * 1 | 160,000 EUL | [TX]() | 
-| 50 | @23457325 / @lyly19 / @Dk1oFIzqFkq3k5Y | [Address](https://cyber.page/network/euler/contract/cyber1ysn8jyjv464fv4wpt40vezh7d5tw05tcp550sk) | 1, 2, 3 * 7 | 760,000 EUL | [TX]() | 
+| 50 | @23457325 / @lyly19 / @Dk1oFIzqFkq3k5Y | [Address](https://cyber.page/network/euler/contract/cyber1ysn8jyjv464fv4wpt40vezh7d5tw05tcp550sk) | 1, 2, 3 * 8 | 860,000 EUL | [TX]() | 
 | 51 | @heyonemusic / @raibble / @uuU7WqnfPXw1sJu | [Address](https://cyber.page/network/euler/contract/cyber1pt3a6xk432vs8lp0z6ya3qhqhxks99xe3g4aha) | 1, 2 | 60,000 EUL | [TX]() | 
 | 52 | @oshmanov / @jaeheirys / @jaeheirys | [Address](https://cyber.page/network/euler/contract/cyber1e20dl8se4v2ev79qcay3ag7uf5t98gam96ukz6) | 1, 2, 5 * 4 | 460,000 EUL | [TX]() | 
 | 53 | @vladika07 / @Vlad53540806 | [Address](https://cyber.page/network/euler/contract/cyber1e4cnw86pl73k2sfv7uwauflfl42qzncn399lmr) | 2 | 10,000 EUL | [TX]() | 
@@ -80,3 +80,4 @@ Monitor:
 | 70 | @xanax | [Address](https://cyber.page/network/euler/contract/cyber1vesdfkzd36m08clhvkpusq4gv0dnqm288revwe) | 5 * 1 | 100,000 EUL | [TX]() | 
 | 71 | @lazepanther | [Address](https://cyber.page/network/euler/contract/cyber1f2uslv6udnjwyqkdngc7rswp5vkmgavzvuk0a4) | 3* 1, 6 | 10,100,000 EUL | [TX]() | 
 | 72 | @myindiantechie / @tinku911 / @IndianCryptoMediaPerson | [Address](https://cyber.page/network/euler/contract/cyber1ftyx5guwf39fz4nc5n5nc9fua36cq3448rekzv) | 1, 2, 3* 1, 5 * 1 | 260,000 EUL | [TX]() | 
+| 72 | @davilkas / @moneystrike1 / @moneystriker | [Address](https://cyber.page/network/euler/contract/cyber1yq5h0gjxuup83hdz53utukwhkkz684mk484907) | 1, 2, 3* 1 | 160,000 EUL | [TX]() | 
