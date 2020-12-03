@@ -1,5 +1,5 @@
 ---
-date: 2020-12-02
+date: 2020-12-03
 url: takeoff-results
 title: 'Takeoff results'
 author: savetheales
@@ -8,7 +8,7 @@ author: savetheales
 The takeoff donation round is over! A huge thank you and a shoutout to all those that took part in the donation round, your contribution to the Great Web is more than just significant!
 
 - 15,088.40963 ATOM out of 300,000 have been donated. This accounts for 5.03% out of the desired sum
-- 56 Cosmos addresses participated in the takeoff and won \~1911 GCYB out of 100,000
+- 56 Cosmos addresses participated in the takeoff and won \~12140.55 GCYB out of 100,000
 
 Thanks to your contributions the cyber~Congress DAO was able to function since Apr 2020. After payouts to evangelists and the team, we will be able to sustain the DAO until Mar 2021. Of course, that is not what we expected, but its definitely not zero. During the takeoff round, DAO members and their friends donated about half of the total sum, which is a big step for us. To us, this is proof that we are heading in the right direction.
 
