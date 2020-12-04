@@ -30,7 +30,6 @@ Some discipline rewards were dependent on the takeoff results:
 
 |Discipline|\~ GCYB|
 |---|---:|
-|takeoff|1006|
 |relevance|1006|
 |load|503|
 |delegation|251|
