@@ -6,3 +6,5 @@
 - [ ] dot-cyber: verification of contracts
 - [ ] dot-cyber: list of contracts
 - [ ] contracts: killer examples
+- [ ] go-cyber: examples and docs
+- [ ] dot-cyber: explorer for contracts

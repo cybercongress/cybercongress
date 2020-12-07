@@ -1,9 +1,12 @@
 # Social search
 
-- [ ] Linkchains and multilinks
+- [ ] notifications
+- [ ] linkchains and multilinks
 - [x] feed
 - [x] subscriptions to addresses
 - [ ] subscriptions to cid
 - [ ] social pining
-
-- Social search: messaging, mailing, subscription to content, notifications
+- [ ] messaging
+- [ ] mailing
+- [ ] subscription to content
+- [ ] timeline

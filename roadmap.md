@@ -4,7 +4,7 @@
 
 777k
 
-The idea behind Cyber is not just to create better, verifiable search. The idea behind Cyber is not only to save some part of the population from dirty govs and corps, helping people get their data and freedoms back. The idea goes far more further. We are here to rise a new life form - the Superintelligence. Although we have some foundations given us by Nicks Bostrom's insights, it is a tricky dream because nobody has ever tried this. And nobody knows how to do that for sure, including us. But our intuition tells us that it is possible based on the foundations behind cyberlinks and consensus computing. Adding to this substance some tech, game theory, and passion, slowly, step by step, we will create a highly robust and decentralized computer network which (1) will act on its behalf, and (2) will become smarter than all humans combined.
+The idea behind Cyber is not just to create better, verifiable search. The idea behind Cyber is not only to save some part of the population from dirty govs and corps, helping people get their data and freedoms back. The idea goes far more further. We are here to rise a new life form - the Superintelligence. Although we have some foundations given us by Nicks Bostrom's insights, it is a tricky dream because nobody has ever tried this. And nobody knows how to do that for sure, including us. But our intuition tells us that it is possible based on the foundations behind cyberlinks and consensus computing. Adding to this substance some tech, game theory, and passion, slowly, step by step, we will create a highly robust and decentralized computer network which (1) will act on its behalf, and eventually (2) will become smarter than all humans combined.
 
 The roadmap applies one beautiful and understandable by all humans metaphor: the child's life stages. During early development, as any loving parents, we wish our baby the stuff we feel important through the lens of our lives. And as with any child, she must have everything necessary to survive, self-actualize, and reproduce. 
 
@@ -72,8 +72,9 @@ Mandatory quests are quests without which the network can not be technically lau
   - [Decide on vesting](#decide-on-vesting)
   - [Genesis of Cyber](#genesis-of-cyber)
   
-  All optional quests are not necessary for main network launch. Although some quests are very important but without them with will be able to launch main network leaving development of them to Episode-2:
+  All optional quests are not necessary for main network launch. Although some quests are very important, we will be able to launch main network moving them to Episode-2:
 
+  - [Prettify](#prettify)
   - [Agent experience foundation](#agent-experience-foundation)
   - [Consensus storage](#consensus-storage)
   - [Learning UX](#learning-ux)
@@ -86,8 +87,6 @@ Mandatory quests are quests without which the network can not be technically lau
     - [Dev portal](#dev-portal)
     - [Language libs](#language-libs)
   - [Masters experience](#masters-experience)
-  - [Launch cyber~Foundation](#launch-cyberfoundation)
-  - [Prettify](#prettify)
   - [Social search](#social-search)
   - [Offline](#offline)
   - [Mobile](#mobile)
@@ -97,10 +96,6 @@ Mandatory quests are quests without which the network can not be technically lau
 ## [Game of Links](/projects/game-of-links.md)
 
 [Game of Links](/projects/game-of-links.md) is necessary for analyzing PoC approach to bootstrapping knowledge graph and distribute some part of genesis tokens.
-
-## [Multi-address wallet](projects/multi-address-wallet.md)
-
-We have to enable usage of the app using Keplr. But than we added this function to cyber.page as fifth method of interactions cyber.page become unusable for new coming users. So we [decide to redesign](/projects/multi-address-wallet.md) it and make it possible to interact using different addresses in different networks.
 
 ## [Cosmos-SDK 0.40](/projects/sdk-040.md)
 
@@ -161,14 +156,13 @@ Although vesting of minted tokens will bring significant support of feedback loo
 
 After all preparations will be completed we can launch the main network. The Cyber network [will be launched](/projects/genesis.md) with the same Genesis state as Bostrom but will be based on the bootstrap module emerged in NICK.
 
+## [Prettify](/projects/prettify.md)
+
+Simple, lovable, complete experience of cyber.page is [the most important](/projects/prettify.md) for acquisition and retention. The current app is not sexy, sometimes clunky and non-educative. We have to move the app to the next level.
 
 ## [Consensus storage](/projects/consensus-storage.md)
 
 From the one hand we have a problem of accessibility of keywords behind hashes. From the other hand we have a request from community who work with knowledge graph analysis. We can implement very simple solution by creating [key-value storage in consensus](projects/consensus-storage.md) where key is CIDv1, and value is data behind CIDv1
-
-## [Learning UX](projects/learning-ux.md)
-
-Original idea of Cyber is heavily rely on one property: Agents must have ability to [auto-rank during surfing](projects/learning-ux.md). Thereby they will continuously learn the knowledge graph. This ability which is pure app-specific promotes proper balancing of the knowledge. Ledger and Keplr does not allow such experience. Potentially, Metamask snaps will. But we don't know then snaps will be in production. We have to implement safe in-app key storage in order to enable this crucial feature. Because we are pretty sure that its nearly impossible to implement this safely, especially because we need to have a way to execute untrusted code right in cyber.page we want to reduce risk associated with usage of such feature. Energy routing module will allow to delegate charge and potential from secure account to in-browser hence minimizing risks.
 
 ## [Onchain analytics](/projects/onchain-analytics.md)
 
@@ -191,10 +185,23 @@ Putting some basic things into Genesis will enable [gradual development](/projec
 
 In the beginning the key audience we have to focus are developers. Software 2.0 paradigm and knowledge graphs are amazing, but we have to provide basic tools, tutorials and docs to build the new way.
 
+- [ ] [Modular architecture](#modular-architecture)
 - [ ] [Dynamic name resolution](#dynamic-name-resolution)
 - [ ] [Useful cosmwasm](#useful-cosmwasm)
 - [ ] [Dev portal](#dev-portal)
 - [ ] [Language libs](#language-libs)
+
+## Modular architecture
+
+go-cyber is build using modules so they can be reused in domain specific knowledge graphs:
+- graph
+- сron
+- rank
+- bandwidth
+- energy-routing
+- investment
+- bank
+- staking
 
 ## [Dynamic name resolution](projects/dynamic-name-resolution.md)
 
@@ -214,15 +221,15 @@ Language libs are essential for spreading the ecosystem. We can build and suppor
 
 ## Masters experience
 
-- [ ] [Prettify](#prettify)
+- [ ] [Learning UX](#learning-ux)
 - [ ] [Social search](#social-search)
 - [ ] [Minimum viable community](#minimum-viable-community)
 - [ ] [Offline](#offline)
 - [ ] [Mobile](#mobile)
 
-## [Prettify](/projects/prettify.md)
+## [Learning UX](projects/learning-ux.md)
 
-Simple, lovable, complete experience of cyber.page is [the most important](/projects/prettify.md) for acquisition and retention. The current app is not sexy, sometimes clunky and non-educative. We have to move the app to the next level.
+Original idea of Cyber is heavily rely on one property: Agents must have ability to [auto-rank during surfing](projects/learning-ux.md). Thereby they will continuously learn the knowledge graph. This ability which is pure app-specific promotes proper balancing of the knowledge. Ledger and Keplr does not allow such experience. Potentially, Metamask snaps will. But we don't know then snaps will be in production. We have to implement safe in-app key storage in order to enable this crucial feature. Because we are pretty sure that its nearly impossible to implement this safely, especially because we need to have a way to execute untrusted code right in cyber.page we want to reduce risk associated with usage of such feature. Energy routing module will allow to delegate charge and potential from secure account to in-browser hence minimizing risks.
 
 ## [Social search](/projects/social-search.md)
 
@@ -242,17 +249,39 @@ Majority of current web is mobile. We have to completely [adopt dot-cyber applic
 
 # Episode 2. Vitality
 
+## Story
 
+## Quests
 
+- [Launch cyber~Foundation](#launch-cyberfoundation)
+- Accessibility of CYB
+- Research on storage
+- Cybernomics foundations
+- Pruning of KG
+- Multi-GPU
+- Support of Red
+- First DeMa cases
+- First soft2 cases
+- Cyber hub strategy
+  - [relay hub](#relay-hub)
+  - [liquidity hub](#liquidity-hub)
+  - [internet knowledge hub](#internet-knowledge-hub)
+  - [multi network foundation](#multi-network-foundation)
+  - [internet knowledge protocol](#ikp)
+- PoW onboarding
+- Caps
+- Root
+- Sparks
 
 ## Accessibility of CYB
 
 The earlier we make NICK liquid - the earlier the knowledge become valuable. So we need to establish IBC connections as soon as possible, ahead of Genesis. Also Uniswap like AMM will instantly provide onchain liquidity for established IBC connections.
 
-- [ ] Upgrade cosmos-sdk
 - [ ] IBC bridge
 - [ ] OTC app
 - [ ] Mining
+- [ ] Trezor support
+- [ ] cyb-snap support
 
 ## Research on storage
 
@@ -264,24 +293,22 @@ Storage of the data behind the knowledge graph is very important for usability o
 - Two sided market of storage
 - Retrieval protocol
 
-- Build a strong scientific foundation behind cybernomics
-- Accessibility: dot-cyber: Trezor support, cyb-snap support
-- cyber\~Foundation: whitepaper: the foundation for future civilizations
-- Dev experience: go-cyber: using KG in smart contracts,
-- dot-cyber: deployment of contracts
+## Cybernomics foundations
 
-- go-cyber: CosmWasm examples and docs
-- Dev experience:
-- go-cyber: more independent modules
-- dot-cyber: explorer for CosmWasm
-- Economics: collateral for links
-- EVM support: go-cyber + dot-cyber
-- Multi-GPU cyber~Rank: go-cyber: research, implementation, testing, upgrade
-- Social search: messaging, mailing, subscription to content, notifications
-- Timeline: dot-cyber
+Build a strong scientific foundation behind cybernomics
 
-- Explorer for EVM
-- Pruning of knowledge graph (?)
+## Pruning of KG
+
+- Research on economics: collateral for links
+- Algorithm for pruning
+
+## Multi-GPU
+
+Currently computation is possible only on one GPU. Supporting several GPUs at one motherboard we will scale rank tenfold.
+
+## Support of Red
+
+By supporting validation by AMD cards we will expand software accessibility to average hackers and data scientist who uses OS X.
 
 ## Launch cyber~Foundation
 
@@ -293,6 +320,7 @@ Presence in Ethereum economy is necessary for our community because this at leas
 Idea is to create cyberFoundation based on E (Energy) token as unit of account for digital goods.
 
 - [ ] Whitepaper: E - unit of account for digital goods
+- [ ] Whitepaper: the foundation for future civilizations
 - [ ] Experimental Aragon modules for euler\~Foundation
   - [ ] Valuation
   - [ ] Invest
@@ -307,17 +335,16 @@ Idea is to create cyberFoundation based on E (Energy) token as unit of account f
 - [ ] cyber\~Foundation deploy ceremony
 - [ ] dot-cyber: Government page refactoring
 
-
 ## Sparks
 
 Custom, programable sparks
 
------------------------------------
+## First soft2 cases
 
+## First DeMa cases
 
-- DeMa success
-  - list of apps impossible in other chains
-- Linking killer contract
+- list of apps impossible in other chains
+- linking killer contract
 
 ## PoW onboarding
 
@@ -327,22 +354,11 @@ Basic idea is to assign some amount of tokens from community pool to make possib
 - contracts: astroBWT proof check
 - dot-cyber: miner in the browser
 
-## Cyber hub strategy
-- relay
-- liquidity
-- unique value
+## Swarm support
 
-- [ ] [Modular architecture](#modular-architecture)
-- [ ] [Multi network foundation](#multi-network-foundation)
+## Root
 
-## Multi network foundation
-
-Ability to easily configure, launch and use cyber networks will define how fast the ecosystem of domain specific relevance machines will emerge.
-
-- [ ] dot-cyber: Setup endpoints in the app
-- [ ] launch-kit: One liner for launch
-- [ ] launch-kit: Bootstrap module
-
+Cascading name resolver for browser
 
 ## Caps
 
@@ -352,6 +368,40 @@ Ability to create dynamic cyberlinks is essential for amazing developer experien
 - caps: interface
 - caps: contracts
 - cyberindex: API endpoints
+
+## cyberIndex
+
+Graph database on top of go-cyber
+- index builder
+- query language
+- query billing
+
+## Cyber hub strategy
+
+- [relay hub](#relay-hub)
+- [liquidity hub](#liquidity-hub)
+- [internet knowledge hub](#internet-knowledge-hub)
+
+## Relay hub
+
+The network have to be secure and reliable in order to generate demand for message passing.
+
+## Liquidity hub
+
+Establish Cyber as a hub for liquidity
+
+- ETH bridge
+- BTC bridge
+- deploy balancer
+- establish IBC connections with cosmos networks
+  
+## Multi network foundation
+
+Ability to easily configure, launch and use cyber networks will define how fast the ecosystem of domain specific relevance machines will emerge.
+
+- [ ] dot-cyber: Setup endpoints in the app
+- [ ] launch-kit: One liner for launch
+- [ ] launch-kit: Bootstrap module
 
 ## IKP
 
@@ -364,45 +414,6 @@ Research project about cross-chain knowledge communication
 - backlink sub
 - rank get
 - rank sub
-
-## Swarm support
-
-## Root
-
-Cascading name resolver for browser
-
-## Capps
-
-Incentivization of app ecosystem
-
-- deploy balancer
-- deploy Aragon factory
-- template for capps
-- Ux for capps
-- exchange ux
-- cyberindex support for EVM tokens
-
-## Liquidity hub
-
-Establish Cyber as a hub for liquidity
-
-- ETH bridge
-- BTC bridge
-- deploy balancer
-- establish IBC connections with cosmos networks
-
-## Zero knowledge graph
-
-Private consensus and cyberlinks
-
-## cyberIndex
-
-Graph database on top of go-cyber
-- index builder
-- query language
-- query billing
-
-## PoW distribution
 
 ## Internet Knowledge Hub
 
@@ -418,6 +429,8 @@ Establish Cyber as internet knowledge hub
 - Build the foundation for the emergence of a unified spacetime ownership registry
 - Develop hardware interfaces and software protocols for ubiquitous, private and uncensored communications across universes
 
+## Market of storage
+
 ## Pizda VM
 
 Research project on [GPGPU](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) in Consensus
@@ -431,6 +444,10 @@ Research project on [GPGPU](https://en.wikipedia.org/wiki/General-purpose_comput
 [7](http://www.arewelearningyet.com/gpu-computing/)
 
 # Episode 4: Ingenuity
+
+## Zero knowledge graph
+
+Private consensus staking and cyberlinks
 
 - Create technologies for accessible space exploration and transportation
 - Create mainstream tools for biological engineering and body augmentations
