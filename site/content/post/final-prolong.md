@@ -12,39 +12,17 @@ But... We've investigated the results of the takeoff and have defined some ratio
 ***Thesis one:*** 
 Prolong the final of the Game of Links till March 1st, 2021 00:00:00 UTC instead of December 25th, 2020, 00:00:00 UTC.
 
-Rationale of the thesis:
-
-1. We find bugs in the app and in the blockchain thanks to our active community members. This is the long route to create the perfect software and this is the rationale, as to why we should prolong the final of the game, as it will allow us to keep loading the network in terms of usage.
-
-Our next stage, with the `bostrom` canary network is going to be awesome! That is why we believe that we should prolong the support of the network, till at least, March 1st. If this doesn't feel like enough, when time comes, we will propose one more prolongation, with updated distribution params.
-
-2. We want to include all the new players that have joined Cyber over the last few months. Organic distribution is a success key for the growth of a blockchain project, and we don't want to miss all of our future masters and heroes.
+*The rationale of the thesis:* our next stage, with the `bostrom` canary network is going to be awesome! That is why we believe that we should prolong the support of the network, till at least, March 1st. If this doesn't feel like enough, when time comes, we will propose one more prolongation, with updated distribution params. We want to include all the new players that have joined Cyber over the last few months. Organic distribution is a success key for the growth of a blockchain project, and we don't want to miss all of our future masters and heroes.
 
 ***Thesis two:***
-Increase the rewards for disciplines dependent on takeoff results, from the current value of ~1.9 TCYB (0.19%) to 3.8 TCYB (0.38%), as an incentive for players to play better and stronger than ever.
+Increase the rewards for disciplines dependent on takeoff results as an incentive for players to play better and stronger than ever.
 
-The rationale for the thesis: We expect more users and players this winter as a result of our actions. Since we want to increase the time of the Final, it's obvious, that we also need to increase rewards.
+*The rationale for the thesis:* we expect more users and players this winter as a result of our actions. Since we want to increase the time of the Final, it's obvious, that we also need to increase rewards.
 
 ***Thesis three:***
-`Full validator set` discipline update. The [rules](https://cybercongress.ai/game-of-links/) of this discipline are:
+`Full validator set` discipline update. The [rules](https://cybercongress.ai/game-of-links/) of this discipline should be changed.
 
-> If the set of validators will increase to or is equal or over 100, and this number of validators can last for 10,000 blocks, we will allocate an additional 2 TCYB to validators who took part in this discipline and were active in the 10,000 blocks period. If the number of validators will increase to or is over 146, under the same conditions we will allocate an additional 3 TCYB. The rewards in that discipline will be distributed to validators proportionally to their pre-commits from the CURRENT network start, up until the discipline is complete.
-
-The rationale for the thesis: It is obvious, that in the current conditions, this discipline is virtually impossible to achieve. A nice way to solve this, will be to calibrate this discipline with the following values:
-
-``` bash
-1 TCYB if 42 validators
-+1 TCYB if 73 validators
-+1 TCYB if 100 validators
-+2 TCYB if 146 validators
-
-Total: 5 TCYB
-```
-
-Thus, the description of the `full validator set` discipline will be:
-
-> If the set of validators will increase to or is equal to, or is over 42, and - this number of validators can hold for a period of 10,000 blocks, cyber~Congress will allocate 1 TCYB to the validators who took part in this discipline and were active in the period of those 10,000 blocks. If the number of validators will increase to, or is over 73, under the same conditions, we will allocate an additional 1 TCYB to the rewards. If the number of validators will increase to, or is over 100, under the same conditions we will allocate an additional 1 TCYB to the prize pool. 
-Finally, if the number of validators will increase to, or is over 146, under the same conditions we will allocate an additional 2 TCYB to the prize pool. The rewards for this discipline will be distributed proportionally to the validators per their pre-commits from the start of the CURRENT network, up to the point when the discipline is considered done.
+*The rationale for the thesis:* it is obvious, that in the current conditions, this discipline is virtually impossible to achieve. A nice way to solve this, will be to calibrate this discipline.
 
 The text of proposal #17 for `euler-6`:
 
