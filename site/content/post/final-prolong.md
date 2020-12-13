@@ -6,17 +6,17 @@ author: savetheales
 ---
 
 December 3rd saw an [outgoing transaction](https://cyber.page/network/euler/tx/21E2702B7A2A9754CA3770EB69D3740513A6C3C3D9F71F922E37C25CB6F0DB57) from the cyber\~Congress multisig account to over 56 addresses, that participated in the first step of [the takeoff donation round](https://cybercongress.ai/takeoff-results). According to the rules of the Game of Links, after the distribution, the final of the game should have kicked off, and was meant to last for 21 days.
-The feel that it is not enouth to to unlock the potential of GoL. So we propose:
+We feel that there hasn't been enough time to unlock the potential of the Game and propose to prolong the game:
 
-## Prolon final
+## Prolonging the final
 
-The final of the Game of Links will lasts at least till March 1st, 2021 00:00:00 UTC instead of December 25th, 2020, 00:00:00 UTC.
+The final of the Game of Links will lasts, at least, till March 1st, 2021 00:00:00 UTC instead of December 25th, 2020, 00:00:00 UTC.
 
-*Rationale:* our next stage, with the `bostrom` canary network is going to be awesome! That is why, we believe that we should prolong the support for the current network, till at least, March 1st. If this won't be enough time, we will propose one more prolongation, with updated distribution params in the future. Our desire is to include all the new players that have joined Cyber over the last few months. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss all of our future masters and heroes.
+*Rationale:* The next stage of development for Cyber is the `Bostrom` canary network. We believe that we should prolong the support for the current network, till at least, March 1st. If this won't be enough time, we will propose one more prolongation, with updated distribution params in the future. We want to include all the new players that have joined Cyber over the last few months in the game. Organic distribution is the success key for the growth of a blockchain project and we don't want to miss all of our future masters and heroes.
 
 ## Increase rewards
 
-Discipline rewards will be increased to 2 TCYB. We pretty love round numbers and propose you to record the following values:
+Discipline rewards will be increased to 2 TCYB. We prefer round numbers and propose the following values:
 
 |Discipline|GCYB|
 |---|---:|
@@ -26,11 +26,11 @@ Discipline rewards will be increased to 2 TCYB. We pretty love round numbers and
 |lifetime| 150|
 |total| 2000|
 
-*Rationale:* we expect more users and players this winter as a result of our actions. Since we want to increase the time of the Final, it's obvious, that we also need to increase rewards.
+*Rationale:* we expect more users and players this winter as a result of our actions. Since we want to increase the time of the final, it's obvious, that we also need to increase rewards.
 
-## Uniform full validators set
+## Uniform the full validators set discipline
 
-*Rationale:* it is obvious, that in the current conditions this discipline is virtually impossible to achieve. The solution will be to calibrate the discipline.
+*Rationale:* it is obvious, that it is virtually impossible to accomplish the discipline with the current conditions. A solution is to calibrate the discipline.
 
 |Heroes|GCYB|
 |---|---:|
@@ -41,4 +41,4 @@ Discipline rewards will be increased to 2 TCYB. We pretty love round numbers and
 
 ## Proposal
 
-By voting "yes" I agree with above mentioned updates to Game of Links rules.
+By voting "yes" I agree with the above updates to the rules of the Game of Links.
