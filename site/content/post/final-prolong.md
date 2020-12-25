@@ -1,7 +1,7 @@
 ---
 date: 2020-12-25
 url: gol-updates
-title: 'Proposal #18. Updates to the Game of Links'
+title: 'Proposal #19. Updates to the Game of Links'
 author: savetheales
 ---
 
