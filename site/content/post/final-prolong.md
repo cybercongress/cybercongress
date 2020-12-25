@@ -1,5 +1,5 @@
 ---
-date: 2020-12-12
+date: 2020-12-25
 url: gol-updates
 title: 'Proposal #18. Updates to the Game of Links'
 author: savetheales
