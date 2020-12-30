@@ -105,7 +105,7 @@ Further, we started to develop [an amazing onchain, automatic bounty program](ht
 
 Despite the previous upgrade, the takeoff round did not meet the desired expectations. We asked the community to prolong it till December 1st to finish the round on a beautiful date.
 
-### [2020.12.15 Keplr support]()
+### [2020.12.15 Keplr support](https://cyber.page/ipfs/QmQRhbhrHvwE6EhpAD4CsxKZaYSTKd7SMoxM7J5La3PASn)
 
 It is the major important achievement for us, since from this moment citizens can cyberlink safely without hardware wallet!
 
