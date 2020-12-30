@@ -15,7 +15,7 @@ We wish all of you the best holiday season and a very open-source and a producti
 
 ## Cyber?
 
-The biggest question of the year (even for us as a team) has been: `what is Cyber`? What is its purpose and where are we headed? Of course, internally, we know the answers, but we have had difficulty sharing across our message. We have tried to pinpoint our product market fit several times over the past few years. So far, without success. Considering our previous blockchain experience, we knew this isn't going to be an easy ride. But we were surprised to learn how difficult it is to find a market fit for software that is trying to solve a real world issue.
+The biggest question of the year has been: `what is Cyber`? What is its purpose and where are we headed? Of course, internally, we know the answer from the inception, but we have had difficulty sharing across our message. We have tried to pinpoint our product market fit several times over the past few years. So far, without success. Considering our previous blockchain experience, we knew this isn't going to be an easy ride. But we were surprised to learn how difficult it is to find a market fit for software even if case the software solve a real world issue.
 
 So, what is Cyber?
 
@@ -23,17 +23,17 @@ Thanks, to one of our bounties, one of Cyber's users, has put together [a short 
 
 Cyber is a decentralized computer. It is a piece of software, buggy, yet already proven to work software. It is designed to do one thing: answer questions. One might ask why? Why do I need software that answers questions? Well. That's a great question. We believe that there is no harm in asking questions. Asking questions is what, often, separates us as humans from other species (not just this, of course).
 
-The issue arises when questions are attempted to be answered. We think that answers should be free of blackbox, intermediary opinions. Answers should be free of censorship and bureaucratic hassle. Blockchain technology, cryptography and game theory provide a great deal of progress in creating a specialized piece of software that can answer questions in a decentralized manner.
+We think that answers should be free of blackbox, intermediary opinions. Answers should be free of censorship and bureaucratic hassle. Blockchain technology, cryptography and game theory provide a great deal of progress in creating a specialized piece of software that can answer questions in a decentralized manner.
 
-Cyber is a software 2.0 protocol that, currently, has 2 functioning apps (just like the Ethereum protocol has apps like Uniswap). Both of those apps are open-source and can be reached at [cyber.page](https://cyber.page/). These are a decentralized analogue of a search engine (searching, querying and indexing content out of user-driven p2p networks, with the help of IPFS) and a decentralized analogue of Twitter, that works with the help of cyberlinks, and allows for military-grade security and twits with the help of web3 signers (such as a Ledger device or a web3 browser extension, such as Keplr) and without such BS, as emails or ads.
+Cyber is a software 2.0 protocol that, currently, has 2 functioning apps (just like the Ethereum protocol has apps like Uniswap). Both of those apps are open-source and can be reached at [cyber.page](https://cyber.page/). These are a decentralized analogue of a search engine (searching, querying and indexing content out of user-driven p2p networks, with the help of IPFS) and a decentralized analogue of social network, that works with the help of cyberlinks, and allows for military-grade security and twits with the help of web3 signers (such as a Ledger device or a web3 browser extension, such as Keplr) and without bullshit, such as (not safe by design) emails or ads.
 
-Cyber's computer is shaped as a superintelligent organism. A computer that, in the blockchain space, would be labeled as a consensus computer, for answers. Cyber is managed by its users and token holders without any jurisdictions and CEO’s. It is structured to act as artificial intelligence, in that it can provide answers to questions from the derived information taught to it by its users, prone outdated info, etc. It learns from the collective mind, free from intermediary opinions and answers without censoring any of the answer itself.
+Cyber's computer is shaped as a superintelligent organism. A computer that, in the cyberspace, would be labeled as a consensus computer, for answers. Cyber is managed by its users and token holders without any jurisdictions and CEO’s. It is structured to act as artificial intelligence, in that it can provide answers to questions from the derived information taught to it by its users, prone outdated info, etc. It learns from the collective mind, free from intermediary opinions and answers without censoring any of the answer itself.
 
-With the help of cyberlinks, blockchain, IPFS, Tendermint, Aragon, cryptography and other distributed technology, Cyber can index and rank data, which removes blackbox, intermediary opinions in the formation of the semantics core of the internet. This helps to decentralize the infrastructure of the upcoming Great Web or as you may know it, web3.
+With the help of cyberlinks, IPFS, Tendermint, CUDA and cryptography, Cyber can index and rank data, which removes blackbox, intermediary opinions in the formation of the semantics core of the internet. This helps to decentralize the infrastructure of the upcoming Great Web or as you may know it, web3.
 
 Cyber allows to design a trustless, provable and an incentivized method of communication between those who provide content and those searching for it. Effectively removing censorship and creating a world of opportunities for such fields as, open AI, digital marketing, social networks, search mechanisms, decentralized oracles and much more.
 
-Cyber is currently working on autonomous and programmable smart contracts, which will take it another step closer to becoming a superintelligence. Cyber has 2 DAO’s which help to manage it. A community pool and a programmable chain on top of the Tendermint consensus. Users can manage the chain, vote on its parameters, like inflation or the search algorithm, etc. And an Aragon, ETH-based DAO, which acts as a decentralized venture fund and bank for Cyber. Hence, separating money (ETH) managed by the users and the state (the chain).
+Cyber is currently working on autonomous and programmable smart contracts, which will take it another step closer to becoming a superintelligence. Cyber has 2 DAO’s which help to manage it. A community pool and a programmable chain on top of the Tendermint consensus. Users can manage the chain, vote on its parameters, like inflation or the search algorithm, etc. And Euler-Foundation (which will evlove in to cyber\~Foundation) an Aragon, ETH-based DAO, which acts as a decentralized venture fund and Ethereum embassy for Cyber. Hence, separating money (ETH) managed by the users and the state (the chain).
 
 Is this the long way to explain what Cyber does? Yes, it is. But we progress. And what we can't explain in 45 seconds, seems that our users can.
 
@@ -67,7 +67,7 @@ The cyber/~Congress DAO launched [euler~Foundation](https://mainnet.aragon.org/#
 
 ### [2020.04.17 the test auction and cross chain mechanics](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
 
-In April, to test euler/~Foundation we launched a cross chain bridge between ETH and our Cosmos-SDK chain, with the help of which users could participate in an ERC-20 token auction, vest these tokens and then redeem 1-1 tokens on the Cyber chain.
+In April, to test euler/~Foundation we launched a cross chain bridge between ETH and our Cosmos-SDK chain, with the help of which users could participate in an ERC-20 token auction, vest these tokens and then redeem 1-1 tokens on the Euler chain.
 
 ### [2020.04.25 takeoff proposal](https://cyber.page/governance/2)
 
