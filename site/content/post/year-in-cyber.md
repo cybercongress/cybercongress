@@ -63,11 +63,11 @@ Just a little after, we've done all the preparations to restart the network. Als
 
 ### [2020.04.15 euler~Foundation Aragon ceremony](https://cybercongress.ai/euler-ceremony/)
 
-The cyber/~Congress DAO launched [euler/~Foundation](https://mainnet.aragon.org/#/eulerfoundation) to Aragons mainet and released the euler/~Foundation Aragon ceremony [setup guide](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md). This was an epic event for Cyber and the DAO space! euler/~Foundation is a DAO, launched by another DAO, for the community that will govern a self-sustainable protocol, Cyber.
+The cyber\~Congress DAO launched [euler\~Foundation](https://mainnet.aragon.org/#/eulerfoundation) to Aragons mainet and released the euler\~Foundation Aragon ceremony [setup guide](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md). This was an epic event for Cyber and the DAO space! euler\~Foundation is a DAO, launched by another DAO, for the community that will govern a self-sustainable protocol, Cyber.
 
 ### [2020.04.17 the test auction and cross chain mechanics](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
 
-In April, to test euler/~Foundation we launched a cross chain bridge between ETH and our Cosmos-SDK chain, with the help of which users could participate in an ERC-20 token auction, vest these tokens and then redeem 1-1 tokens on the Euler chain.
+In April, to test euler\~Foundation we launched a cross chain bridge between ETH and our Cosmos-SDK chain, with the help of which users could participate in an ERC-20 token auction, vest these tokens and then redeem 1-1 tokens on the Euler chain.
 
 ### [2020.04.25 takeoff proposal](https://cyber.page/governance/2)
 
@@ -75,7 +75,7 @@ The first proposal to start the takeoff donation round. And we started it as soo
 
 ### [2020.04.26 evangelism](https://cybercongress.ai/post/obep/)
 
-As part of our takeoff and in the spirit of Cyber, we launched our evangelism program. Our canary ETH-based DAO, euler/~Foundation enlightened and blessed those who applied, via web3 apps, to spread the gospel of Cyber. There were just under a dozen applicants, which received a small, yet a hefty bug of tokens for the fulfilled tasks, such as managing TG groups, Discord servers, helping with the donations, etc.
+As part of our takeoff and in the spirit of Cyber, we launched our evangelism program. Our canary ETH-based DAO, euler\~Foundation enlightened and blessed those who applied, via web3 apps, to spread the gospel of Cyber. There were just under a dozen applicants, which received a small, yet a hefty bug of tokens for the fulfilled tasks, such as managing TG groups, Discord servers, helping with the donations, etc.
 
 ### [2020.05.10 upgrade takeoff](https://cyber.page/governance/5)
 
