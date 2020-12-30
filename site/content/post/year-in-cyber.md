@@ -105,9 +105,11 @@ Further, we started to develop [an amazing onchain, automatic bounty program](ht
 
 Despite the previous upgrade, the takeoff round did not meet the desired expectations. We asked the community to prolong it till December 1st to finish the round on a beautiful date.
 
-### [2020.12.01 takeoff finished](https://cybercongress.ai/takeoff-results/)
+### [2020.12.15 Keplr support]()
 
-A very important event for our team and the development of the network. As we published the takeoff results, we have fulfilled our promise (according to our canary Euler testnet). This event marked the start of the Game of Links Final. Lots of EUL tokens are now in the hands of users, and it becomes more and more interesting to monitor the progress of the Game.
+It is the major important achievement for us, since from this moment citizens can cyberlink safely without hardware wallet!
+
+### [2020.12.01 takeoff finished](https://cybercongress.ai/takeoff-results/)
 
 ### What else?
 
