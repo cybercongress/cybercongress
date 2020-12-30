@@ -15,7 +15,7 @@ We wish all of you the best holiday season and a very open-source and a producti
 
 ## Cyber?
 
-The biggest question of the year has been: `what is Cyber`? What is its purpose and where are we headed? Of course, internally, we know the answer from the inception, but we have had difficulty sharing across our message. We have tried to pinpoint our product market fit several times over the past few years. So far, without success. Considering our previous blockchain experience, we knew this isn't going to be an easy ride. But we were surprised to learn how difficult it is to find a market fit for software even if case the software solve a real world issue.
+The biggest question of the year has been: `what is Cyber`? What is its purpose and where are we headed? Of course, internally, we know these answers from the inception of the protocol, but we have had difficulty sharing across our message. We have tried to pinpoint our product market fit several times over the past few years. So far, without success. Considering our previous blockchain experience, we knew this isn't going to be an easy ride. But we were surprised to learn how difficult it is to find a market fit for software, even in the case where this software can solve a real world issue.
 
 So, what is Cyber?
 
@@ -33,7 +33,7 @@ With the help of cyberlinks, IPFS, Tendermint, CUDA and cryptography, Cyber can 
 
 Cyber allows to design a trustless, provable and an incentivized method of communication between those who provide content and those searching for it. Effectively removing censorship and creating a world of opportunities for such fields as, open AI, digital marketing, social networks, search mechanisms, decentralized oracles and much more.
 
-Cyber is currently working on autonomous and programmable smart contracts, which will take it another step closer to becoming a superintelligence. Cyber has 2 DAO’s which help to manage it. A community pool and a programmable chain on top of the Tendermint consensus. Users can manage the chain, vote on its parameters, like inflation or the search algorithm, etc. And Euler-Foundation (which will evlove in to cyber\~Foundation) an Aragon, ETH-based DAO, which acts as a decentralized venture fund and Ethereum embassy for Cyber. Hence, separating money (ETH) managed by the users and the state (the chain).
+Cyber is currently working on autonomous and programmable smart contracts, which will take it another step closer to becoming a superintelligence. Cyber has 2 DAO’s which help to manage it. A community pool and a programmable chain on top of the Tendermint consensus. Users can manage the chain, vote on its parameters, like inflation or the search algorithm, etc. And Euler-Foundation (which will evolve into cyber\~Foundation) an Aragon, ETH-based DAO, which acts as a decentralized venture fund and Ethereum embassy for Cyber. Hence, separating money (ETH) managed by the users and the state (the chain).
 
 Is this the long way to explain what Cyber does? Yes, it is. But we progress. And what we can't explain in 45 seconds, seems that our users can.
 
@@ -63,7 +63,7 @@ Just a little after, we've done all the preparations to restart the network. Als
 
 ### [2020.04.15 euler~Foundation Aragon ceremony](https://cybercongress.ai/euler-ceremony/)
 
-The cyber/~Congress DAO launched [euler~Foundation](https://mainnet.aragon.org/#/eulerfoundation) to Aragons mainet and released the euler~Foundation Aragon ceremony [setup guide](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md). This was an epic event for Cyber and the DAO space! euler/~Foundation is a DAO, launched by another DAO, for the community that will govern a self-sustainable protocol, Cyber.
+The cyber/~Congress DAO launched [euler/~Foundation](https://mainnet.aragon.org/#/eulerfoundation) to Aragons mainet and released the euler/~Foundation Aragon ceremony [setup guide](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md). This was an epic event for Cyber and the DAO space! euler/~Foundation is a DAO, launched by another DAO, for the community that will govern a self-sustainable protocol, Cyber.
 
 ### [2020.04.17 the test auction and cross chain mechanics](https://cybercongress.ai/how-to-get-eul-tokens-if-you-have-none/)
 
@@ -107,7 +107,7 @@ Despite the previous upgrade, the takeoff round did not meet the desired expecta
 
 ### [2020.12.15 Keplr support](https://cyber.page/ipfs/QmQRhbhrHvwE6EhpAD4CsxKZaYSTKd7SMoxM7J5La3PASn)
 
-It is the major important achievement for us, since from this moment citizens can cyberlink safely without hardware wallet!
+This is one of the major important achievements for us. From this moment, Cyber citizens can cyberlink safely without a hardware wallet!
 
 ### [2020.12.01 takeoff finished](https://cybercongress.ai/takeoff-results/)
 
