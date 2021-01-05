@@ -4,7 +4,7 @@
   "description": "ipfs blog",
   "main": "index.js",
   "devDependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dnslink-deploy": "^1.0.7",
     "hugo-bin": "^0.42.0",
     "imagemin-cli": "^3.0.0",
