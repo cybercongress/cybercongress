@@ -1,0 +1,5 @@
+- [ ] government: Optimization of parameters
+- [ ] homestead: Review & publish
+- [ ] dot-cyber: Genesis page
+- [ ] dot-cyber: Distribution page
+- [ ] Amazing Event (!)
