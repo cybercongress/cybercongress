@@ -74,6 +74,7 @@ Mandatory quests are quests without which the network can not be technically lau
   
   All optional quests are not necessary for main network launch. Although some quests are very important, we will be able to launch main network moving them to Episode-2:
 
+  - [Port](#port)
   - [Prettify](#prettify)
   - [Agent experience foundation](#agent-experience-foundation)
   - [Consensus storage](#consensus-storage)
@@ -155,6 +156,10 @@ Although vesting of minted tokens will bring significant support of feedback loo
 ## [Genesis of Cyber](/projects/genesis.md)
 
 After all preparations will be completed we can launch the main network. The Cyber network [will be launched](/projects/genesis.md) with the same Genesis state as Bostrom but will be based on the bootstrap module emerged in NICK.
+
+## Port
+
+Unify experience of landing to Cyber. The port allows to claim gift and get CYB in Genesis
 
 ## [Prettify](/projects/prettify.md)
 
