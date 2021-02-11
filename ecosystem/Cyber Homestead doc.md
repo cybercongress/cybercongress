@@ -774,7 +774,7 @@ As we can see this not only created an account, but also gave us some tokens. Th
 In the terminal type:
 
 ```bash
-bash < <(curl -s https://mars.cybernode.ai/go-cyber/install_cyberdcli_v0.1.6.sh)
+bash < <(curl -s https://raw.githubusercontent.com/cybercongress/go-cyber/master/scripts/install_cyberdcli_v0.1.6.sh)
 ```
 
 This will connect you to a remote node and allow you to enter commands without actually running your own node. Try:
