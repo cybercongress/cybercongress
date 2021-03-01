@@ -5,29 +5,29 @@ title: 'Proposal #28. Updates to the Game of Links'
 author: savetheales
 ---
 
-December 30 we've prolonged the Game of Links final till 1st March [by the proposal #19](https://cyber.page/governance/19) rationale with hard development of the next stage of `cyber` - `Bostrom` canary network. In case if this won't be enough time, we will propose one more prolongation, and here is it:
+On December 30th the Game of Links final was prolonged until the 1st of March [with proposal #19](https://cyber.page/governance/19). The rationale behind the proposal evolved around the development of the next stage of `Cyber`, the `Bostrom` canary network. In the proposal, we have mentioned that if this won't be enough, the Congress team will propose a new timeframe, and here it is:
 
-1. Prolong final of the Game of Links till 1st May 2021 instead of 1st March 2021
+1. Prolong the final of the Game of Links until the 1st of May 2021, instead of 1st of March 2021
 2. Close the `load` discipline on block `3638501`
-3. Close all disciplines exclude `lifetime` for validators at 1st May 2021
-4. Keep the network alive by `lifetime` discipline incentivization till `bostrom` launch
-5. Close the `lifetime` discipline with ready for the `bostrom` launch
+3. Close all validator disciplines, excluding `lifetime` on 1st of May 2021
+4. Keep the `lifetime` discipline incentive until the launch of `Bostrom`
+5. Close the `lifetime` discipline when `Bostrom` is ready for launch
 
-*Rationale:* As expected we need more time for the `bostrom` canary network launch. Also, we need a running network to keep cyber.page development alive and community onboarding. The `load` discipline showed us a not trivial bug, and this is an apotheosis of named discipline. Continued use of this discipline to the detriment of network, knowledge graph, and the final distribution.
+*Rationale:* As expected, the Congress team requires more time for the launch of the `Bostrom` canary network. We need a running network to keep developing cyber.page and onboard new community members. The `load` discipline shad a non-trivial bug, and this is an apotheosis of named discipline. Continued use of this discipline to the detriment of network, knowledge graph, and the final distribution.
 
-We still want to include all the new players that have joined Cyber over the last few months in the game. Organic distribution is the success key for the growth of a blockchain project and we don't want to miss all of our future masters and heroes.
+We would like to include new players that have joined Cyber over the last few months of the game. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss out on future masters and heroes.
 
 ## Proposal
 
 ```bash
-The current proposal is about the Game of Links updates.
-Results of this proposal will change the Game of Links rules.
+This proposal reagrds updates for the Game of Links.
+The results of this proposal will change the rules of the Game of Links.
 
-1. Prolong final of the Game of Links till 1st May 2021 instead of 1st March 2021
-2. Close the "load" discipline on block 3638501
-3. Close all disciplines exclude "lifetime" for validators at 1st May 2021
-4. Keep the network alive by "lifetime" discipline incentivization till "bostrom" launch
-5. Close the "lifetime" discipline with ready for the "bostrom" launch
+1. Prolong the final of the Game of Links until the 1st of May 2021, instead of 1st of March 2021
+2. Close the `load` discipline on block `3638501`
+3. Close all validator disciplines, excluding `lifetime` on 1st of May 2021
+4. Keep the `lifetime` discipline incentive until the launch of `Bostrom`
+5. Close the `lifetime` discipline when `Bostrom` is ready for launch
 
-By voting "yes" I agree with the above updates to the rules of the Game of Links.
+By voting "Yes", I agree with the above updates to the rules of the Game of Links.
 ```
