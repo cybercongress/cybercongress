@@ -19,6 +19,8 @@ We would like to include new players that have joined Cyber over the last few mo
 
 ## Proposal
 
+[Vote](https://cyber.page/governance/28)
+
 ```bash
 This proposal reagrds updates for the Game of Links.
 The results of this proposal will change the rules of the Game of Links.
