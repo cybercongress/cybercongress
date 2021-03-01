@@ -9,7 +9,7 @@ On December 30th the Game of Links final was prolonged until the 1st of March [w
 
 1. Prolong the final of the Game of Links until the 1st of May 2021, instead of 1st of March 2021
 2. Close the `load` discipline on block `3638501`
-3. Close all validator disciplines, excluding `lifetime` on 1st of May 2021
+3. On the 1st of May 2021, close all disciplines, excluding `lifetime`
 4. Keep the `lifetime` discipline incentive until the launch of `Bostrom`
 5. Close the `lifetime` discipline when `Bostrom` is ready for launch
 
@@ -25,7 +25,7 @@ The results of this proposal will change the rules of the Game of Links.
 
 1. Prolong the final of the Game of Links until the 1st of May 2021, instead of 1st of March 2021
 2. Close the `load` discipline on block `3638501`
-3. Close all validator disciplines, excluding `lifetime` on 1st of May 2021
+3. On the 1st of May 2021, close all disciplines, excluding `lifetime`
 4. Keep the `lifetime` discipline incentive until the launch of `Bostrom`
 5. Close the `lifetime` discipline when `Bostrom` is ready for launch
 
