@@ -1,5 +1,5 @@
 ---
-date: 2021-02-26
+date: 2021-03-01
 url: game-of-link-update
 title: 'Proposal #28. Updates to the Game of Links'
 author: savetheales
