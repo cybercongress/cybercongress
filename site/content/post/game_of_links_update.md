@@ -13,7 +13,7 @@ On December 30th the Game of Links final was prolonged until the 1st of March [w
 4. Keep the `lifetime` discipline incentive until the launch of `Bostrom`
 5. Close the `lifetime` discipline when `Bostrom` is ready for launch
 
-*Rationale:* As expected, the Congress team requires more time for the launch of the `Bostrom` canary network. We need a running network to keep developing cyber.page and onboard new community members. The `load` discipline shad a non-trivial bug, and this is an apotheosis of named discipline. Continued use of this discipline to the detriment of network, knowledge graph, and the final distribution.
+*Rationale:* As expected, the Congress team requires more time for the launch of the `Bostrom` canary network. We need a running network to keep developing cyber.page and onboard new community members. We discovered a non-trivial bug in the `load` discipline, which was the apotheosis of the discipline. Hence, the continuations of the discipline carries no logic for the development of the network, graph, etc.
 
 We would like to include new players that have joined Cyber over the last few months of the game. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss out on future masters and heroes.
 
