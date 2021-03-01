@@ -7,9 +7,9 @@ author: savetheales
 
 December 30 we've prolonged the Game of Links final till 1st March [by the proposal #19](https://cyber.page/governance/19) rationale with hard development of the next stage of `cyber` - `Bostrom` canary network. In case if this won't be enough time, we will propose one more prolongation, and here is it:
 
-1. Prolong final of the Game of Links till 1st April 2021 instead of 1st March 2021
+1. Prolong final of the Game of Links till 1st May 2021 instead of 1st March 2021
 2. Close the `load` discipline on block `3638501`
-3. Close all disciplines exclude `lifetime` for validators at 1st April 2021
+3. Close all disciplines exclude `lifetime` for validators at 1st May 2021
 4. Keep the network alive by `lifetime` discipline incentivization till `bostrom` launch
 5. Close the `lifetime` discipline with ready for the `bostrom` launch
 
@@ -23,9 +23,9 @@ We still want to include all the new players that have joined Cyber over the las
 The current proposal is about the Game of Links updates.
 Results of this proposal will change the Game of Links rules.
 
-1. Prolong final of the Game of Links till 1st April 2021 instead of 1st March 2021
+1. Prolong final of the Game of Links till 1st May 2021 instead of 1st March 2021
 2. Close the "load" discipline on block 3638501
-3. Close all disciplines exclude "lifetime" for validators at 1st April 2021
+3. Close all disciplines exclude "lifetime" for validators at 1st May 2021
 4. Keep the network alive by "lifetime" discipline incentivization till "bostrom" launch
 5. Close the "lifetime" discipline with ready for the "bostrom" launch
 
