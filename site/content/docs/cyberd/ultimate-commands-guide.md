@@ -427,7 +427,7 @@ The commission available to withdraw for a validator:
 ### State of a current validator
 
 ```bash
-docker exec eiler-5 cyberdcli query staking validator <operator_address>
+docker exec euler-6 cyberdcli query staking validator <operator_address>
 ```
 
 ### Return all delegations to a validator
