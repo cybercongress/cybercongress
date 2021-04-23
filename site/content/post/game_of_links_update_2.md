@@ -5,26 +5,24 @@ title: 'Proposal #32. Updates to the Game of Links'
 author: savetheales
 ---
 
-On March 6th the Game of Links final was prolonged until the 1st of May [with proposal #28](https://cyber.page/governance/28). The rationale behind the proposal evolved around the development of the next stage of `Cyber`, the `Bostrom` canary network. In the proposal, we have mentioned that if this won't be enough, the Congress team will propose a new timeframe, and here it is:
+On March 6th, the Game of Links final was prolonged until the 1st of May [by proposal #28](https://cyber.page/governance/28). The rationale behind the proposal evolved around the development of the next stage of `Cyber`, the `Bostrom` canary network. That proposal mentioned that if the allocated time won't be enough, the Congress team will propose a new timeframe, and here it is:
 
-1. Prolong the final of the Game of Links until the `~3 weeks` warning before `bostrom` network launch. It means we're going to close all disciplines only with knowledge of the sharp launch date.
-2. Change the disciplines(load, relevance, lifetime, delegation) distribution to 500 GYBs.
+1. Prolong the final of the Game of Links until the `~3 weeks` deadline before the launch of  `Bostrom`. This means that we're going to close the disciplines of the game, only with the knowledge of the launch date.
+2. Change the distribution of disciplines(load, relevance, lifetime, delegation) to 500 GCYB.
 
 *Rationale:* As expected, the Congress team requires more time for the launch of the `Bostrom` canary network. We need a running network to keep developing cyber.page and onboard new community members.
 
-We would like to include new players who have joined Cyber over the last few months of the game. We also listen to the community and try to make the Game excited and honest for all players in light of any changes. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss out on future masters and heroes.
+We would like to include new players, that have joined Cyber over the last few months of the game. Furthermore, our goal is to make the Game exciting and honest for all players, in light of any changes. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss out on future masters and heroes.
 
 ## Proposal
 
 [Vote](https://cyber.page/governance/32)
 
 ```bash
-This proposal reagrds updates for the Game of Links.
-The results of this proposal will change the rules of the Game of Links.
+The result of this proposal will change the rules of the Game of Links.
 
-1. Prolong the final of the Game of Links until the `~3 weeks` warning before `bostrom` network launch. 
-It means we are going to close all disciplines only with knowledge of the sharp launch date.
-2. Change the disciplines(load, relevance, lifetime, delegation) distribution to 500 GYBs.
+1. Prolong the final of the Game of Links until the `~3 weeks` deadline before the launch of  `Bostrom`. This means that we're going to close the disciplines of the game, only with the knowledge of the launch date.
+2. Change the distribution of disciplines(load, relevance, lifetime, delegation) to 500 GCYB.
 
 By voting "Yes", I agree with the above updates to the rules of the Game of Links.
 ```
