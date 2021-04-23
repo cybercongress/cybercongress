@@ -1,7 +1,7 @@
 ---
-date: 2021-04-19
-url: game-of-link-update-2
-title: 'Proposal #32. Updates to the Game of Links'
+date: 2021-04-23
+url: game-of-link-update-3
+title: 'Proposal #33. Updates to the Game of Links'
 author: savetheales
 ---
 
@@ -14,15 +14,4 @@ On March 6th, the Game of Links final was prolonged until the 1st of May [by pro
 
 We would like to include new players, that have joined Cyber over the last few months of the game. Furthermore, our goal is to make the Game exciting and honest for all players, in light of any changes. Organic distribution is the success key for the growth of a blockchain project, and we don't want to miss out on future masters and heroes.
 
-## Proposal
-
-[Vote](https://cyber.page/governance/32)
-
-```bash
-The result of this proposal will change the rules of the Game of Links.
-
-1. Prolong the final of the Game of Links until the `~3 weeks` deadline before the launch of  `Bostrom`. This means that we're going to close the disciplines of the game, only with the knowledge of the launch date.
-2. Change the distribution of disciplines(load, relevance, lifetime, delegation) to 500 GCYB.
-
-By voting "Yes", I agree with the above updates to the rules of the Game of Links.
-```
+[Please vote](https://cyber.page/governance/33)
