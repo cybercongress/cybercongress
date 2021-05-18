@@ -1,6 +1,6 @@
 
-const nodeUrl ='https://api.cyber.cybernode.ai';
-const wsUrl= 'wss://api.cyber.cybernode.ai/websocket';
+const nodeUrl ='https://rpc.euler-6.cybernode.ai';
+const wsUrl= 'wss://rpc.euler-6.cybernode.ai/websocket';
 
 async function fetchAsync (url) {
     let response = await fetch(url);
