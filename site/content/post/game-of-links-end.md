@@ -11,17 +11,17 @@ The Game of Links started at the end of December 2019 and finished on June 11th 
 
 There are no analogs by complexity and action coverage to this Game. The Game was involving players with a very simple goal: win as many tokens as possible. But the design of the Game helped to load the network with cyberlinks, showed real value of the cyberlinks to the Graph building, helped to find devs and projects critically important for the Graph, and got the partnership with them. It helped to find bugs and to clarify params in the network and attracted the community.
 
-One of the goals of the Game is involvement early adopters and tokens distribution to them. The joining to the Game didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber~Congress values.
+One of the goals of the Game is involvement early adopters and tokens distribution to them. The joining to the Game didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
 
 To the `cyber` network this Game showed possible attack vectors to the Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the Graph.
 
 The distribution completed on 13.33% out of desireable, but it completed only on strong, quality community. It means there is more than 20 TCYBs was distributed and this is more than 2% out of Genesis supply.
 
-The cyber~Congress team want to say "thank you a lot guys" to each hero and master who joined us on this difficult way the Great Web building. We're ready for the next steps and hope you stay with us.
+The cyber\~Congress team want to say "thank you a lot guys" to each hero and master who joined us on this difficult way the Great Web building. We're ready for the next steps and hope you stay with us.
 
 # Intro
 
-The main goal of the Game of Links participants was to win as many tokens as possible, from cyber~Congress.
+The main goal of the Game of Links participants was to win as many tokens as possible, from cyber\~Congress.
 
 The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines were an integral part of the preparation and testing of the network before the launch of the `bostrom` network and the mainnet.
 
@@ -29,9 +29,9 @@ The goals was defined according to the key idea:
 
 - To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round
 
-- To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber~Congress
+- To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber~Foundation](https://github.com/cybercongress/foundation) before the launch of the mainnet
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\~Foundation](https://github.com/cybercongress/foundation) before the launch of the mainnet
 
 Anyone could have joined the Game by getting tokens with preferred or available options such as:
 
@@ -41,9 +41,9 @@ Anyone could have joined the Game by getting tokens with preferred or available 
 - [port]() 
 - [cyberbot]()
 
-Not one of the mentioned options didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber~Congress values.
+Not one of the mentioned options didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
 
-For 17 months of the Game, we faced network bugs, minor distribution issues, and a few prolongs. All issues were transparent and were get resolve with the community by submitting network proposals. The cyber~Congress team appreciates the participation of the community in the network government. Also, it is awesome to recognize daily community increases and involvement.
+For 17 months of the Game, we faced network bugs, minor distribution issues, and a few prolongs. All issues were transparent and were get resolve with the community by submitting network proposals. The cyber\~Congress team appreciates the participation of the community in the network government. Also, it is awesome to recognize daily community increases and involvement.
 
 This report contains the Game of Links stats, current distribution, and conclusion about the Game of Links. Enjoy!
 
@@ -69,7 +69,7 @@ The final distribution of the Game got available only after the last block of th
 
 The `pre-bostrom` distribution is different `bostrom` only for validators rewards during `pre-bostrom` validating.
 
-The current distribution provided below, 70% is a [gift ](), 10% is a government (including the community pool and euler~Foundation), 17.96% goes to cyber~Congress (including port, pre-euler fundraisers, inventors, etc.), and 2.04% goes to Game of Links participants:
+The current distribution provided below, 70% is a [gift ](), 10% is a government (including the community pool and euler\~Foundation), 17.96% goes to cyber\~Congress (including port, pre-euler fundraisers, inventors, etc.), and 2.04% goes to Game of Links participants:
 
 ![distribution](./game-of-links-end/distribution.png)
 
@@ -132,7 +132,7 @@ There are 42(!) validators took part in the delegation discipline. 32 validators
 ![lifetime](./game-of-links-end/lifetime.png)
 
 There are 57 validators took part in the lifetime discipline during `euler-5` and `euler-6` testnets. 41 validators got more than 20 GCYBs. The different amount of validators in comparison with delegation discipline cause of someone change the operator address, someone stopped to support the next version of the network.
-Anyway, delegation and lifetime disciplines have the most beautiful distribution pictures. The cyber~Congress team appreciate all responsible validators for that.
+Anyway, delegation and lifetime disciplines have the most beautiful distribution pictures. The cyber\~Congress team appreciate all responsible validators for that.
 
 ## Community pool
 
@@ -140,7 +140,7 @@ During the `euler` testnets, we expected some experiments with governance from t
 
 With this discipline was get partnerships between the Graph and [Confio](), [Keplr](), [Cosmos-cap]() teams. Those partnerships have and will be brought value to future Graph development. Also, the [cyber gift research]() was developed by Sergey Nedashkovskiy that really improved the drop mechanisms for different types of blockchain communities. Moreover, a lot of community members came to the `fuckgoogle` community cause of the [evangelism program]() by Sergey Simanovskiy and less by the video bounty program by Posthuman.
 
-In the moment of rewards calculating the cyber~Congress team decided to add additional 0.01 GCYB to each address with reward less than 1 GCYB cause of to provide availability to link in a future networks.
+In the moment of rewards calculating the cyber\~Congress team decided to add additional 0.01 GCYB to each address with reward less than 1 GCYB cause of to provide availability to link in a future networks.
 
 ![comm_pool](./game-of-links-end/comm_pool.png)
 
@@ -175,7 +175,7 @@ The distribution completed on 13.33% out of desireable, but it completed only on
 
 There are 383 addresses took part in the Game of Links (424 if include takeoff). Unfortunately, 30 addresses got less than 1 MCYB, but in general the distribution happened by agent activity.
 
-The cyber~Congress team want to say "thank you a lot guys" to each hero and master who joined us on this difficult way the Great Web building. We're ready for the next steps and hope you stay with us.
+The cyber\~Congress team want to say "thank you a lot guys" to each hero and master who joined us on this difficult way the Great Web building. We're ready for the next steps and hope you stay with us.
 
 Fuckgoogle!
 
