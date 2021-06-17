@@ -1,5 +1,5 @@
 ---
-date: 2021-06-15
+date: 2021-06-17
 url: game-of-links-end
 title: 'The Game is over. Long live to the Game!'
 author: savetheales
@@ -35,11 +35,11 @@ The goals was defined according to the key idea:
 
 Anyone could have joined the Game by getting tokens with preferred or available options such as:
 
-- [gift]()
-- [takeoff round]()
-- [GOL auction]()
-- [port]() 
-- [cyberbot]()
+- gift
+- takeoff round
+- GOL auction
+- port
+- cyberbot
 
 Not one of the mentioned options didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
 
@@ -49,9 +49,9 @@ This report contains the Game of Links stats, current distribution, and conclusi
 
 # Distribution
 
-The distribution of the Game was depend on the takeoff donation round and was to be 15% of the Genesis supply. The [result]() of takeoff donation round was 5% of target and this is obviously influenced on the final distribution: only 12,1 TCYBs out of 100 was won in the takeoff and 2 TCYBs of 38 in the takeoff depended disciplines.
+The distribution of the Game was depend on the takeoff donation round and was to be 15% of the Genesis supply. The [result](https://cybercongress.ai/takeoff-results/) of takeoff donation round was 5% of target and this is obviously influenced on the final distribution: only 12,1 TCYBs out of 100 was won in the takeoff and 2 TCYBs of 38 in the takeoff depended disciplines.
 
-The [minor changes]() was proposed for the community inside the depended on takeoff disciplines to equalize them between heroes and masters.
+The [minor changes](https://cybercongress.ai/game-of-link-update-3/) was proposed for the community inside the depended on takeoff disciplines to equalize them between heroes and masters.
 
 The final distribution of the Game got available only after the last block of the game. Here is summary table:
 
@@ -69,13 +69,13 @@ The final distribution of the Game got available only after the last block of th
 
 The `pre-bostrom` distribution is different `bostrom` only for validators rewards during `pre-bostrom` validating.
 
-The current distribution provided below, 70% is a [gift ](), 10% is a government (including the community pool and euler\~Foundation), 17.96% goes to cyber\~Congress (including port, pre-euler fundraisers, inventors, etc.), and 2.04% goes to Game of Links participants:
+The current distribution provided below, 70% is a [gift](https://github.com/Snedashkovsky/cybergift), 10% is a government (including the community pool and euler\~Foundation), 17.96% goes to cyber\~Congress (including port, pre-euler fundraisers, inventors, etc.), and 2.04% goes to Game of Links participants:
 
 ![distribution](./game-of-links-end/distribution.png)
 
 # Disciplines
 
-There were 7 disciplines that were subdivided further into 2 different types: dependent on takeoff donations and independent of takeoff donations. We will not go into `euler-4` and `full validator set` disciplines cause `euler-4` has been [described]() already. The `full validator set` didn't play this game cause didn't meet the minimal terms such as getting 42 active validators in a 10,000 block period.
+There were 7 disciplines that were subdivided further into 2 different types: dependent on takeoff donations and independent of takeoff donations. We will not go into `euler-4` and `full validator set` disciplines cause `euler-4` has been [described](https://github.com/cybercongress/launch-kit/tree/0.1.0/lifetime_rewards_tool) already. The `full validator set` didn't play this game cause didn't meet the minimal terms such as getting 42 active validators in a 10,000 block period.
 
 ## Relevance
 
@@ -83,7 +83,7 @@ Let's start with the most difficult discipline of the Game. This discipline refl
 
 > Only retrievable CIDs take part in the Game
 
-For calculating rewards of this discipline the top 1000 of particles (cids) [was tested]() on accessibility throw 3 public IPFS gateways, including `ipfs.io`. Each cid was tested 10 times with timeout 360 seconds.
+For calculating rewards of this discipline the top 1000 of particles (cids) [was tested](https://github.com/cybercongress/launch-kit/blob/pre-bostrom/gol_rewards/relevance_rewards.py) on accessibility throw 3 public IPFS gateways, including `ipfs.io`. Each cid was tested 10 times with timeout 360 seconds.
 
 There are 749 particles responded the content. The availability signal is on the pic below.
 ![avail_signal](./game-of-links-end/avail_signal.png)
@@ -95,7 +95,7 @@ The most ranked CID is string `class`. On the second place pdf article `The extr
 10 of the top 15 CIDs are [an experiment](https://github.com/Snedashkovsky/knowledge_graph_research) was provided by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) where he researches the knowledge Graph by attack the cyber algorithm.
 
 The first 10 string CIDs excluding the experiment are:
-class, united states, city, japan, canada, property, thing, england, list of latin words with english derivatives, united kingdom
+"class", "united states", "city", "japan", "canada", "property", "thing", "england", "list of latin words with english derivatives", "united kingdom"
 
 All pic are photos from the cyber Academy events.
 
@@ -109,9 +109,9 @@ The main conclusion of this discipline is that cyberlinks have to be expensive. 
 
 ## Load
 
-This discipline was created to load the network with cyberlinks from different nodes for monitoring the network behavior with different loads. Due to this, we detected a [critical bug]() in high load periods. After we discovered this bug in the network,  the continuations of the discipline carried no logic for the development of the network, graph, etc. The community closed this discipline on block height 3,638,501 by the text [proposal #28]().
+This discipline was created to load the network with cyberlinks from different nodes for monitoring the network behavior with different loads. Due to this, we detected a [critical bug](https://github.com/cybercongress/go-cyber/issues/573) in high load periods. After we discovered this bug in the network,  the continuations of the discipline carried no logic for the development of the network, graph, etc. The community closed this discipline on block height 3,638,501 by the text [proposal #28](https://cybercongress.ai/game-of-link-update/).
 
-For calculating rewards was provided a [script]() that collects all cyberlinks from 1 to 3,638,501 block heights. The karma for cyberlinks was changing from 0 to 4, according to the network load, but 0 values were changed to 1 by the script because 0 karma value is impossible. It was a minor bug in network API that fixed in the reward script.
+For calculating rewards was provided a [script](https://github.com/cybercongress/launch-kit/blob/pre-bostrom/gol_rewards/load_rewards.py) that collects all cyberlinks from 1 to 3,638,501 block heights. The karma for cyberlinks was changing from 0 to 4, according to the network load, but 0 values were changed to 1 by the script because 0 karma value is impossible. It was a minor bug in network API that fixed in the reward script.
 
 ![load](./game-of-links-end/load.png)
 
@@ -123,7 +123,7 @@ The load discipline wasn't bringing a lot of value to the knowledge Graph buildi
 
 Those disciplines are about earning your validators' reputation by having an efficient infrastructure and providing a constant lifetime. This works as a promotion of your services to the early community. They are grouped in one section because they bring similar values.
 
-All calculations are based on [cyberindex-euler indexer](). Also, it should be noted the `lifetime` discipline includes not only the `euler-6` precommits, but `euler-5` according to the [migration protocol]().
+All calculations are based on [cyberindex-euler indexer](https://github.com/cybercongress/cyberindex-euler). Also, it should be noted the `lifetime` discipline includes not only the `euler-6` precommits, but `euler-5` according to the [migration protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md).
 
 ![delegation](./game-of-links-end/delegation.png)
 
@@ -138,7 +138,7 @@ Anyway, delegation and lifetime disciplines have the most beautiful distribution
 
 During the `euler` testnets, we expected some experiments with governance from the community. All of the governance decisions of the community pool spend during the testnet, will be migrated to `bostrom` and `cyber` networks.
 
-With this discipline was get partnerships between the knowledge Graph and [Confio](), [Keplr](), [Cosmos-cap]() teams. Those partnerships have and will be brought value to future Graph development. Also, the [cyber gift research]() was developed by Sergey Nedashkovskiy that really improved the drop mechanisms for different types of blockchain communities. Moreover, a lot of community members came to the `fuckgoogle` community cause of the [evangelism program]() by [CitizenCosmos](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam) and less by the video bounty program by [POSTHUMAN](https://cyber.page/network/euler/hero/cybervaloper1ccvpcq9ffy0qd2ca8nmmpzfamtyjfc9zhhua7q).
+With this discipline was get partnerships between the knowledge Graph and [Confio](https://confio.tech/), [Keplr](https://keplr.xyz/), [Cosmos-cap](https://cosmos-cap.com/#/) teams. Those partnerships have and will be brought value to future Graph development. Also, the [cyber gift research](https://github.com/Snedashkovsky/cybergift) was developed by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) that really improved the drop mechanisms for different types of blockchain communities. Moreover, a lot of community members came to the `fuckgoogle` community cause of the [evangelism program](https://github.com/cybercongress/foundation/tree/master/evangelism) by [CitizenCosmos](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam) and less by the video bounty program by [POSTHUMAN](https://cyber.page/network/euler/hero/cybervaloper1ccvpcq9ffy0qd2ca8nmmpzfamtyjfc9zhhua7q).
 
 In the moment of rewards calculating the cyber\~Congress team decided to add additional 0.01 GCYB to each address with reward less than 1 GCYB cause of to provide availability to link in a future networks.
 
@@ -151,7 +151,7 @@ There are 207 agents took part in the community pool discipline. The distributio
 
 # GOL holders
 
-For ERC20 GOL holders was accepted [the proposal]() to allocate network main tokens of `bostrom` and `cyber` in 1 to 1 proportion.
+For ERC20 GOL holders was accepted [the proposal](https://cyber.page/governance/21) to allocate network main tokens of `bostrom` and `cyber` in 1 to 1 proportion.
 
 This option will be available as soon as bridges will have developed. As a result, the GOL holders can change their tokens to network tokens in 1 to 1 and vice-versa if and then tokens available in the bridge liquidity pool.
 
@@ -160,6 +160,8 @@ This option will be available as soon as bridges will have developed. As a resul
 For the Port visitors was prepared the migration protocol.
 
 Port will be working with `pre-bostrom`, `bostrom`, and `cyber` networks and any port visitor will get tokens of the current network according to the port distribution rules. Port will have launched in any network as soon as the software be able to send tokens.
+
+All port visitor addresses till ETH block 12,611,508 (\~6,200,000 in `euler-6` network) will have pushed to the `pre-bostrom` Genesis file. As soon as the port will have opened in the new network all newcomers (transactions after 12,611,508 ETH block) will start to receive their tokens. This protocol is true in future migrations by the snapshot selected on ETH block.
 
 At the current moment, more than 500 ETHs were donated, which lead the project market cap to 458019 ETHs.
 
@@ -181,10 +183,25 @@ Fuckgoogle!
 
 # Points of truth
 
-ipfs hashes here of all .csv files
+| IPFS hash | File |
+|---|---|
 
 # References
 
-1.
-2.
-3.
+1. [go-cyber github repo](https://github.com/cybercongress/go-cyber)
+2. [cyber\~Foundation github repo](https://github.com/cybercongress/foundation)
+3. [Takeoff result post](https://cybercongress.ai/takeoff-results/)
+4. [Proposal #33. Minor distribution changes](https://cybercongress.ai/game-of-link-update-3/)
+5. [Cybergift github repo](https://github.com/Snedashkovsky/cybergift)
+6. [The script for relevance rewards calculation](https://github.com/cybercongress/launch-kit/blob/pre-bostrom/gol_rewards/relevance_rewards.py)
+7. [The cybergraph attack experiment github repo](https://github.com/Snedashkovsky/knowledge_graph_research)
+8. [The critical bug issue](https://github.com/cybercongress/go-cyber/issues/573)
+9. [Proposal #28. Closing load discipline on block height 3,638,501](https://cybercongress.ai/game-of-link-update/)
+10. [The script for load rewards calculation](https://github.com/cybercongress/launch-kit/blob/pre-bostrom/gol_rewards/load_rewards.py)
+11. [Indexator for euler-6 network github repo](https://github.com/cybercongress/cyberindex-euler)
+12. [euler-5 -> euler-6 migration protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md)
+13. [Confio official website](https://confio.tech/)
+14. [Keplr official website](https://keplr.xyz/)
+15. [Cosmos market capitalization aggregator](https://cosmos-cap.com/#/)
+16. [Evangelism program github repo](https://github.com/cybercongress/foundation/tree/master/evangelism)
+17. [Proposal #21. Update of Genesis distribution](https://cyber.page/governance/21)
