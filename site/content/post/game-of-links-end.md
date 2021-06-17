@@ -1,7 +1,7 @@
 ---
 date: 2021-06-17
 url: game-of-links-end
-title: 'The Game is over. Long live to the Game!'
+title: 'The Game is over. Long live the Game!'
 author: savetheales
 ---
 
@@ -9,53 +9,53 @@ author: savetheales
 
 The Game of Links started at the end of December 2019 and finished on June 11th at block height 6,200,000 of the `euler-6` network.
 
-There are no analogs by complexity and action coverage to this Game. The Game was involving players with a very simple goal: win as many tokens as possible. But the design of the Game helped to load the network with cyberlinks, showed real value of the cyberlinks to the knowledge Graph building, helped to find devs and projects critically important for the knowledge Graph, and got the partnership with them. It helped to find bugs and to clarify params in the network and attracted the community.
+There are no analogs out there, known to us, by complexity and the actions covered by the Game. The Game's had a very simple goal: win as many tokens as possible. The design of the Game helped to load the network with cyberlinks, showed the value of cyberlinks for the building of the knowledge Graph. It helped the project to find devs and partnerships with projects that are critically important for the future development of the knowledge Graph. It helped to find bugs and to clarify parametrs for the network, and finally, it helped to attract community to the project.
 
-One of the goals of the Game is involvement early adopters and tokens distribution to them. The joining to the Game didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
+One of the goals of the Game involved finidng early adopters and distributing tokens to them. Joining the Game didn't require KYC, face control, captchas, or whatever else. It fully corresponds with the values of cyber\~Congress.
 
-To the `cyber` network this Game showed possible attack vectors to the knowledge Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the knowledge Graph.
+For `cyber's` network, this Game showed possible attack vectors on the knowledge Graph, the real value of cyberlinks and unknown bugs. Also, it was a huge step to understanding in which direction the UI/UX should be built in apps functioning on top of the knowledge Graph.
 
-The distribution completed on 13.33% out of desireable, but it completed only on strong, quality community. It means there is more than 20 TCYBs was distributed and this is more than 2% out of Genesis supply.
+The distribution achieved just 13.33% out of the desirable, but it was done for a strong and quality community. It means that there are more than 20 TCYBs distributed, which are more than 2% of the Genesis supply.
 
-The cyber\~Congress team want to say "thank you a lot guys" to each hero and master who joined us on this difficult way the Great Web building. We're ready for the next steps and hope you stay with us.
+The cyber\~Congress team wants to thank each hero and master that joined us on this difficult journey of building the Great Web. We're ready for the next steps and hope you stay with us.
 
 # Intro
 
-The main goal of the Game of Links participants was to win as many tokens as possible, from cyber\~Congress.
+The main goal of the participants of the Game of Links was to win as many tokens as possible from cyber\~Congress.
 
-The key idea behind the Game of Links is to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines were an integral part of the preparation and testing of the network before the launch of the `bostrom` network and the mainnet.
+The key idea behind the Game of Links was to establish a starting value of relevance for the knowledge graph. It is crucial for getting quality search results from the inception of the network. All the disciplines were an integral part of the preparation and testing of the network before the launch of the `bostrom` network and the mainnet.
 
-The goals was defined according to the key idea:
+The goals were defined with accordance with these key ideas:
 
-- To distribute 10% of CYB tokens to the donors who will participate in the takeoff donation round
+- To distribute 10% of CYB tokens to the donors that will participate in the takeoff donation round
 
 - To distribute up to 5% of CYB tokens to the participants of the 7 disciplines of the game, depending on how many tokens participants win against cyber\~Congress
 
-- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\~Foundation](https://github.com/cybercongress/foundation) before the launch of the mainnet
+- To carry out publicly incentivized testing of [go-cyber](https://github.com/cybercongress/go-cyber) and [cyber\~Foundation](https://github.com/cybercongress/foundation) before the launch of the mainnet.
 
-Anyone could have joined the Game by getting tokens with preferred or available options such as:
+Anyone could have joined the Game by getting tokens via various available options, such as:
 
 - gift
 - takeoff round
 - GOL auction
 - port
 - cyberbot
+- bounty campaigns
+- getting tokens from the community pool
 
-Not one of the mentioned options didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
+For the duration of 17 months, we faced bugs, minor distribution issues, and had a few prolongations. All of these issues were always transparent and were always resolved via submitting network proposals to the community. The cyber\~Congress team appreciates the participation of the community in the network government. We also want to note the awesome increase in daily community involvement.
 
-For 17 months of the Game, we faced network bugs, minor distribution issues, and a few prolongs. All issues were transparent and were get resolve with the community by submitting network proposals. The cyber\~Congress team appreciates the participation of the community in the network government. Also, it is awesome to recognize daily community increases and involvement.
-
-This report contains the Game of Links stats, current distribution, and conclusion about the Game of Links. Enjoy!
+This report contains the Game of Links statistics, the current distribution, and the conclusion about the Game of Links. Enjoy!
 
 # Distribution
 
-The distribution of the Game was depend on the takeoff donation round and was to be 15% of the Genesis supply. The [result](https://cybercongress.ai/takeoff-results/) of takeoff donation round was 5% of target and this is obviously influenced on the final distribution: only 12,1 TCYBs out of 100 was won in the takeoff and 2 TCYBs of 38 in the takeoff depended disciplines.
+The distribution of the Game was depended on the takeoff donation round and was suppose to be 15% of the Genesis supply. The [result](https://cybercongress.ai/takeoff-results/) of the takeoff donation round was 5% of the desired target and this has, obviously, influenced the final distribution: only 12,1 TCYBs out of 100 were won in the takeoff and 2 TCYBs out of 38 were won in disciplines depending on the takeoff.
 
-The [minor changes](https://cybercongress.ai/game-of-link-update-3/) was proposed for the community inside the depended on takeoff disciplines to equalize them between heroes and masters.
+[Minor changes](https://cybercongress.ai/game-of-link-update-3/) were proposed for the community inside the depended on takeoff disciplines to equalize them between heroes and masters.
 
-The final distribution of the Game got available only after the last block of the game. Here is summary table:
+The final distribution of the Game became available only after the last block of the game. Here is the summary:
 
-| Discipline | GCYBs was available| % supply | GCYBs won | % supply|
+| Discipline | GCYBs available| % supply | GCYBs won | % supply|
 | :--- | ---:| ---:|---:|---:|
 | takeoff | 100,000 | 10.00 | 12,141 | 1.21 |
 | relevance | 20,000| 2.00 | 500 | 0.05 |
@@ -75,7 +75,7 @@ The current distribution provided below, 70% is a [gift](https://github.com/Sned
 
 # Disciplines
 
-There were 7 disciplines that were subdivided further into 2 different types: dependent on takeoff donations and independent of takeoff donations. We will not go into `euler-4` and `full validator set` disciplines cause `euler-4` has been [described](https://github.com/cybercongress/launch-kit/tree/0.1.0/lifetime_rewards_tool) already. The `full validator set` didn't play this game cause didn't meet the minimal terms such as getting 42 active validators in a 10,000 block period.
+There were 7 disciplines that were subdivided further into 2 different categories: dependent on takeoff donations and independent of takeoff donations. We will not go into `euler-4` and `full validator set` disciplines because `euler-4` has been [described](https://github.com/cybercongress/launch-kit/tree/0.1.0/lifetime_rewards_tool) already. The `full validator set` discipline didn't play out due to the fact that it didn't meet the minimal terms required, such as getting 42 active validators for a period of 10,000 blocks.
 
 ## Relevance
 
