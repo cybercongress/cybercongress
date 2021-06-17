@@ -70,7 +70,7 @@ The final distribution of the Game became available after the last block of the 
 
 The current distribution is provided below. 70% is a [gift](https://github.com/Snedashkovsky/cybergift), 10% goes for the government (including the community pool and euler\~Foundation), 17.96% goes to cyber\~Congress (including port, pre-euler fundraisers, inventors, etc.), and 2.04% goes to the participants of the Game of Links:
 
-![distribution](./game-of-links-end/distribution.png)
+![distribution](distribution.png)
 
 # Disciplines
 There were 7 disciplines, that were further subdivided, into 2 different categories: dependent on takeoff donations and independent of takeoff donations.
@@ -86,7 +86,7 @@ To calculate the rewards for this discipline, the top 1000 particles (cids) [wer
 
 There were 749 particles which responded with live content. The availability signal can be seen on the picture below:
 
-![avail_signal](./game-of-links-end/avail_signal.png)
+![avail_signal](avail_signal.png)
 
 Most (713) particles are .pdf articles on such topics as: physics, math, computer science, biology, bioinformatics, astronomy, medicine, etc.
 
@@ -94,7 +94,7 @@ Most (713) particles are .pdf articles on such topics as: physics, math, compute
 
 The most ranked CID is the string `class`. The second place goes to a .pdf article `The extremely low-metallicity tail of the Sculptor dwarf spheroidal galaxy`. The third place is a string `united states`.
 
-10 of the top 15 CIDs are [an experiment](https://github.com/Snedashkovsky/knowledge_graph_research) that was provided by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) while he researched the knowledge Graph for attack vectors by an algorithm.
+10 of the top 15 CIDs are [an experiment](https://github.com/Snedashkovsky/knowledge_graph_research) that was provided by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) while he researched the knowledge Graph for attack vectors on ranking algorithm.
 
 The first 10 string CIDs, excluding the experiment, are:
 
@@ -104,7 +104,7 @@ All the top pictures are photos from cyber Academy events.
 
 There were 36 unique addresses that took a part in the discipline. The rewards distribution and the histogram are provided below:
 
-![relevance](./game-of-links-end/relevance.png)
+![relevance](relevance.png)
 
 The amount of users that got less than 20 GCYBs is almost equal to the amount of users that got more than 20. The 1st place was won by a landslide. It means this address holds the most particles in the top. The distribution looks like that of the power law, which seems expected.
 
@@ -119,7 +119,7 @@ For calculating rewards, a [script](https://github.com/cybercongress/launch-kit/
 
 The karma for cyberlinks was changed from 0 to 4, according to the network load. Note that values corresponding to 0 were changed to 1 by the script, because a `0` value is impossible. It was a minor bug in the network API that was fixed in the reward script.
 
-![load](./game-of-links-end/load.png)
+![load](load.png)
 
 There are 74 unique addresses that took part in this discipline. The result is less beautiful than before, because one address was linking like it was possessed. Some addresses tried to catch up and get a piece of the pie, but the result is what is expected. More than one-half of the reward went to the `crazy` linker :)
 
@@ -130,11 +130,11 @@ Those disciplines were about earning your validators' reputation by having an ef
 
 All the calculations are based on [cyberindex-euler indexer](https://github.com/cybercongress/cyberindex-euler). Also, it should be noted that the `lifetime` discipline includes not just precomits from `euler-6`, but also the precomits from `euler-5`, according to the [migration protocol](https://github.com/cybercongress/launch-kit/blob/0.1.0/migrations/e-6%20migration_proposal.md).
 
-![delegation](./game-of-links-end/delegation.png)
+![delegation](delegation.png)
 
 There were 42(!) validators that took part in the delegation discipline. 32 validators got more than 20 GCYBs, another 10 got less, because they were `unbonded` for most of the time the network run. Nice distribution, no comments.
 
-![lifetime](./game-of-links-end/lifetime.png)
+![lifetime](lifetime.png)
 
 There were 57 validators that took part in the lifetime discipline during `euler-5` and `euler-6`. 41 validators got more than 20 GCYBs.
 
@@ -145,7 +145,7 @@ Anyway, delegation and lifetime disciplines have the most beautiful distribution
 ## Community pool
 During the `euler` testnets, we expected some experiments with governance from the community. All the governance decisions of the community pool spend proposals that took part during the testnet, will be migrated to `bostrom` and `cyber` networks.
 
-This discipline is responsible for partnerships between the knowledge Graph and the [Confio](https://confio.tech/) team, the [Keplr](https://keplr.xyz/) team and the [Cosmos-cap](https://cosmos-cap.com/#/) team. Those partnerships have and will bring long term value to the future development of the Graph.
+This discipline is responsible for partnerships between the knowledge Graph and the [Confio](https://confio.tech/) team, the [Keplr](https://keplr.xyz/) team, [Citizen Cosmos](https://www.citizencosmos.space/) and the [Cosmos-cap](https://cosmos-cap.com/#/). Those partnerships have and will bring long term value to the future development of the Graph.
 
 The [cyber gift research](https://github.com/Snedashkovsky/cybergift) that was developed by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) really improved the drop mechanisms for different types of blockchain communities.
 
@@ -153,11 +153,11 @@ A lot of community members came to the `fuckgoogle` community because of the [ev
 
 At the moment of calculating the rewards, the cyber\~Congress team decided to add additional 0.01 GCYB to each address with reward less than 1 GCYB, to provide availability to link in future networks.
 
-![comm_pool](./game-of-links-end/comm_pool.png)
+![comm_pool](comm_pool.png)
 
 There were 207 agents that took part in the community pool discipline. The distribution is uneven, due to its nature. The addresses fall into two groups:
 
-- Group with the agents who brought a significant value to the project ([groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5), Ethan from Confio, Keplr team, etc.)
+- Group with the agents who brought a significant value to the project (groovybear, Ethan from Confio, Keplr team, Citizen Cosmos etc.)
 - Bounty hunters group
 
 # GOL holders
@@ -181,18 +181,29 @@ For the network, this Game showed possible attack vectors on the knowledge Graph
 
 The distribution achieved just 13.33% out of the desirable, but it was done for by a strong and a quality community. It means that there are more than 20 TCYBs distributed, which are more than 2% of the Genesis supply.
 
-![results](./game-of-links-end/results.png)
+![results](results.png)
 
 There were 383 addresses that took part in the Game of Links (424 if we include the takeoff discipline). Unfortunately, 30 addresses got less than 1 MCYB, but in general the distribution happened in accordance with the agent’s activity.
 
 The cyber\~Congress team wants to thank each hero and master that joined us on this difficult journey of building the Great Web. We're ready for the next steps and hope you stay with us.
 
-#fuckgoogle!
+**fuckgoogle!**
 
 # Points of truth
 
-| IPFS hash | File |
+| IPFS hash | Description |
 |---|---|
+|QmZnA4JwyAMtcRtjtvg6SFczviDUfHsqy5FSUA1Spr8efk| community pool discipline rewards|
+|QmXGyyCZY4aSzxaUsj7xZEjLNH7ExrujcZ7HvTCrhYWNYd| delegation discipline rewards|
+|QmVbf9faMiQonTc8zSpEpdTzmH1Wk6Fi1am5cKHQptBQeG| euler-4 lifetime rewards|
+|QmTW8zxijABvfZzhVQThPZkesSjktMUo67ySUNMge9o1ya| lifetime discipline rewards|
+|QmRRDEC2Bjnv1epRTkxaPgtunQM8wskADhj9xPQdk91mSB| load discipline rewards|
+|QmdfktVx9jpRx45WTAW9YkfbVijr2pC1AyvuhcS2bSgULk| euler-5 precommits|
+|Qma68UufdASfgkAAx6BZUHeALxZaqhTKrmwKady5BUbXhG| relevance discipline rewards|
+|QmcoskaGEXGg39YUs7giRBQCrnKpEqt4Pci8DWHWNxtevj| responces of top 1000|
+|QmRH5osMUyjCt9xY1ypvwbxdoMpVExC76XuN2ACwFLZrEN| takeoff results|
+|**QmZzWmSDcDYz7AwWkRssjfFRFWTGdvF4oWZQUsRzyFNKCo**| **pivot table of final results**|
+|QmSVDQbWkqfE5NP5H6Vpw1oAcsAMYSw9n8c6UjAQogdpeR| port reults on ETH block # 12,611,508|
 
 # References
 
