@@ -9,11 +9,11 @@ author: savetheales
 
 The Game of Links started at the end of December 2019 and finished on June 11th at block height 6,200,000 of the `euler-6` network.
 
-There are no analogs by complexity and action coverage to this Game. The Game was involving players with a very simple goal: win as many tokens as possible. But the design of the Game helped to load the network with cyberlinks, showed real value of the cyberlinks to the Graph building, helped to find devs and projects critically important for the Graph, and got the partnership with them. It helped to find bugs and to clarify params in the network and attracted the community.
+There are no analogs by complexity and action coverage to this Game. The Game was involving players with a very simple goal: win as many tokens as possible. But the design of the Game helped to load the network with cyberlinks, showed real value of the cyberlinks to the knowledge Graph building, helped to find devs and projects critically important for the knowledge Graph, and got the partnership with them. It helped to find bugs and to clarify params in the network and attracted the community.
 
 One of the goals of the Game is involvement early adopters and tokens distribution to them. The joining to the Game didn't require KYC, face control, captchas, or whatever. It fully corresponds to the cyber\~Congress values.
 
-To the `cyber` network this Game showed possible attack vectors to the Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the Graph.
+To the `cyber` network this Game showed possible attack vectors to the knowledge Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the knowledge Graph.
 
 The distribution completed on 13.33% out of desireable, but it completed only on strong, quality community. It means there is more than 20 TCYBs was distributed and this is more than 2% out of Genesis supply.
 
@@ -79,7 +79,7 @@ There were 7 disciplines that were subdivided further into 2 different types: de
 
 ## Relevance
 
-Let's start with the most difficult discipline of the Game. This discipline reflects the key idea of the Game of Links - building the knowledge Graph. The relevance discipline shows the top content of the Graph that means the most important particles in the Graph. The availability of content is very important that why:
+Let's start with the most difficult discipline of the Game. This discipline reflects the key idea of the Game of Links - building the knowledge Graph. The relevance discipline shows the top content of the knowledge Graph that means the most important particles in the knowledge Graph. The availability of content is very important that why:
 
 > Only retrievable CIDs take part in the Game
 
@@ -92,7 +92,7 @@ Mostly (713 particles) there are pdf articles in physics, maths, computer sience
 
 The most ranked CID is string `class`. On the second place pdf article `The extremely low-metallicity tail of the Sculptor dwarf spheroidal galaxy`, on the thrid is string again `united states`.
 
-10 of the top 15 CIDs are [an experiment](https://github.com/Snedashkovsky/knowledge_graph_research) was provided by Sergey Nedashkovsky where he researches the Graph by attack the cyber algorithm.
+10 of the top 15 CIDs are [an experiment](https://github.com/Snedashkovsky/knowledge_graph_research) was provided by [groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5) where he researches the knowledge Graph by attack the cyber algorithm.
 
 The first 10 string CIDs excluding the experiment are:
 class, united states, city, japan, canada, property, thing, england, list of latin words with english derivatives, united kingdom
@@ -105,7 +105,7 @@ There are 36 unique addresses took a part in this discipline. The rewards distri
 
 The amount of users who got less than 20 GCYBs almost equal the amount of users who get more than 20. The 1st place address won by a landslide. It means this address holds most particles in the top. The distribution looks like power law and seems like expected.
 
-The main conclusion of this discipline is that cyberlinks have to be expensive. That will lead to improving the Graph building quality and will defend the Graph from those kinds of attacks and bot attacks in general.
+The main conclusion of this discipline is that cyberlinks have to be expensive. That will lead to improving the knowledge Graph building quality and will defend the knowledge Graph from those kinds of attacks and bot attacks in general.
 
 ## Load
 
@@ -117,7 +117,7 @@ For calculating rewards was provided a [script]() that collects all cyberlinks f
 
 There are 74 unique addresses took part in that discipline. Here the result is less beautiful as before, cause of one address was linking like a man possessed. Some addresses tried to catch piece of pie but finally the result is as expected. More than one-half of the rewards gets crazy linker :)
 
-The load discipline wasn't bringing a lot of value to the Graph building but the value exactly load-testing the network IRL.
+The load discipline wasn't bringing a lot of value to the knowledge Graph building but the value exactly load-testing the network IRL.
 
 ## Delegation and Lifetime
 
@@ -138,7 +138,7 @@ Anyway, delegation and lifetime disciplines have the most beautiful distribution
 
 During the `euler` testnets, we expected some experiments with governance from the community. All of the governance decisions of the community pool spend during the testnet, will be migrated to `bostrom` and `cyber` networks.
 
-With this discipline was get partnerships between the Graph and [Confio](), [Keplr](), [Cosmos-cap]() teams. Those partnerships have and will be brought value to future Graph development. Also, the [cyber gift research]() was developed by Sergey Nedashkovskiy that really improved the drop mechanisms for different types of blockchain communities. Moreover, a lot of community members came to the `fuckgoogle` community cause of the [evangelism program]() by Sergey Simanovskiy and less by the video bounty program by Posthuman.
+With this discipline was get partnerships between the knowledge Graph and [Confio](), [Keplr](), [Cosmos-cap]() teams. Those partnerships have and will be brought value to future Graph development. Also, the [cyber gift research]() was developed by Sergey Nedashkovskiy that really improved the drop mechanisms for different types of blockchain communities. Moreover, a lot of community members came to the `fuckgoogle` community cause of the [evangelism program]() by [CitizenCosmos](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam) and less by the video bounty program by [POSTHUMAN](https://cyber.page/network/euler/hero/cybervaloper1ccvpcq9ffy0qd2ca8nmmpzfamtyjfc9zhhua7q).
 
 In the moment of rewards calculating the cyber\~Congress team decided to add additional 0.01 GCYB to each address with reward less than 1 GCYB cause of to provide availability to link in a future networks.
 
@@ -146,14 +146,14 @@ In the moment of rewards calculating the cyber\~Congress team decided to add add
 
 There are 207 agents took part in the community pool discipline. The distribution is uneven cause of it's manual. The addresses fall into two groups:
 
-- Group with agents who bring a significant value to the project (Nedashkovskiy, Ethan from Confio,  Keplr team, etc.)
+- Group with agents who bring a significant value to the project ([groovybear](https://cyber.page/network/euler/hero/cybervaloper177y7sqkxmvl22j632haf8y9gv0j3weds5e4sd5), Ethan from Confio,  Keplr team, etc.)
 - Bounty hunters group
 
 # GOL holders
 
 For ERC20 GOL holders was accepted [the proposal]() to allocate network main tokens of `bostrom` and `cyber` in 1 to 1 proportion.
 
-This option will be available as soon as bridges will have developed. As a result, the GOL holders can change their tokens to network tokens in 1 to 1 and vice-versa if tokens available in the bridge liquidity pool.
+This option will be available as soon as bridges will have developed. As a result, the GOL holders can change their tokens to network tokens in 1 to 1 and vice-versa if and then tokens available in the bridge liquidity pool.
 
 # Port
 
@@ -167,7 +167,7 @@ At the current moment, more than 500 ETHs were donated, which lead the project m
 
 The distribution in PoS networks is a over complex issue. The distribution games must be a part of the future networks development. The Game of Links was the first game with such complexity. Not all things was as expected but this Game is a good example how distribution should go according to principles and values of opensourse and blockchain communities, such as transparent, trustless, privacy, etc.
 
-To the `cyber` network this Game showed possible attack vectors to the Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the Graph.
+To the `cyber` network this Game showed possible attack vectors to the knowledge Graph, real value of cyberlinks, unknown bugs. Also, it was a huge step for understanding how UI/UX should go in apps on top of the knowledge Graph.
 
 The distribution completed on 13.33% out of desireable, but it completed only on strong, quality community.
 
