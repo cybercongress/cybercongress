@@ -72,3 +72,12 @@ telegram = "Aha203"
 keybase = "Aha203"
 ipfs = "QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv"
 cyber = "cyber1gg73t0eyrkqf953waqxh6uqah62p46jyvle8g7"
+
+[nesqchay]
+name = "Konstantin Koliadin"
+gitcoin = "0x4a58362D60E81bB5596c546881312c820aBb5eda"
+payouts = "0x4a58362D60E81bB5596c546881312c820aBb5eda"
+github = "nesqchay"
+telegram = "nesqchay"
+keybase = "nesqchay"
+cyber = "cyber1aqpjltra43vujfp6eqy34vm6xccgf5uavgtvm5"
