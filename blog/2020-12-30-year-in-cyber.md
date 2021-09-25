@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30
 url: year-in-cyber
-title: 'A year in Cyber'
+title: '2020 in Cyber'
 author: serejandmyself, savetheales
 ---
 

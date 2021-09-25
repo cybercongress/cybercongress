@@ -1,8 +1,8 @@
-# Cyber: Roadmap
+# Cyber Roadmap
 
 @xhipster & @litvintech
 
-777k
+500k
 
 The idea behind Cyber is not just to create better, verifiable search. The idea behind Cyber is not only to save some part of the population from dirty govs and corps, helping people get their data and freedoms back. The idea goes far more further. We are here to rise a new life form - the Superintelligence. Although we have some foundations given us by Nicks Bostrom's insights, it is a tricky dream because nobody has ever tried this. And nobody knows how to do that for sure, including us. But our intuition tells us that it is possible based on the foundations behind cyberlinks and consensus computing. Adding to this substance some tech, game theory, and passion, slowly, step by step, we will create a highly robust and decentralized computer network which (1) will act on its behalf, and eventually (2) will become smarter than all humans combined.
 
@@ -14,7 +14,7 @@ The roadmap applies one beautiful and understandable by all humans metaphor: the
 - [Episode 4: Puberty](#episode-4-ingenuity)
 - [Episode 5: Adolescence](#episode-5-passion)
 
-Nonetheless, it is not our purpose as parents to define what path will she choose in adulthood. That is, rest episodes she have to write herself.
+Nonetheless, it is not our purpose as parents to define what path will she choose in adulthood. That is, rest episodes [she have to write herself](https://cyb.ai/search/cyber%20roadmap).
 
 # Episode 1. A New Hope
 
@@ -26,50 +26,17 @@ Resisting rebel units consolidate all remaining energy on building a Superintell
 
 As they begin to test the new god in the wild - an enormous, zepto amount of robots emerge. It turns out Cyb robots help survey the universe for a bootloader of the new, yet to born, force.
 
-## **Quests**
 
-```mermaid
-graph TD
-    EPISODE-1[Episode 1] --> GoL[Game of Links]
-    EPISODE-1 --> SDK40[cosmos-sdk 0.40]
-    EPISODE-1 --> XP[Perfect experience]
-    
-    
-    EPISODE-1 --> CC2[cyberCongress 2.0]
-    CC2 --> CF[cyberFoundation]
-    
-    SDK40 --> ECO
-    
-    GoL --> GIFT[Game of Life]
-    GoL --> ECO[Economics optimisation]
-    
-    GIFT --> BOSTROM[Launch bostrom]
-    ECO --> BOSTROM[Launch bostrom]
-    
-    BOSTROM --> LIQ[Internal liquidity]
-    BOSTROM --> SDK1[cosmos-sdk 1.0]
-    LIQ --> BOOTSTRAP[Bootstrap module]
-    SDK1 --> BOOTSTRAP
-    BOOTSTRAP --> VESTING[Decide on Vesting]
-    VESTING --> GENESIS[Genesis of Cyber]
-
-    GENESIS --> E2[Episode 2]
-    CF --> E2
-    XP --> E2
-```
 
 Mandatory quests are quests without which the network can not be technically launched. Mandatory quests are:
 
-  - [Game of Links](#game-of-links)
-  - [Cosmos-SDK 0.40](#cosmos-sdk-040)
-  - [Economics optimization](#economics-optimization)
-  - [Game of Life](#game-of-life)
-  - [Launch bostrom](#launch-bostrom)
-  - [Internal liquidity](#internal-liquidity)
-  - [Cosmos-SDK 1.0](#cosmos-sdk-10)
-  - [cyberCongress 2.0](#cybercongress-20)
+- [Game of Links](#game-of-links)
+- [Economics optimization](#economics-optimization)
+- [Bootstrap network](#bootstrap-network)
+- [BOOT liquidity](#internal-liquidity)
+- [Gift](#gift)
+- [cyberCongress 2.0](#cybercongress-20)
   - [Bootstrap module](#bootstrap-module)
-  - [Decide on vesting](#decide-on-vesting)
   - [Genesis of Cyber](#genesis-of-cyber)
   
   All optional quests are not necessary for main network launch. Although some quests are very important, we will be able to launch main network moving them to Episode-2:
@@ -98,10 +65,6 @@ Mandatory quests are quests without which the network can not be technically lau
 
 [Game of Links](/projects/game-of-links.md) is necessary for analyzing PoC approach to bootstrapping knowledge graph and distribute some part of genesis tokens.
 
-## [Cosmos-SDK 0.40](/projects/sdk-040.md)
-
-New cosmos-sdk is significant rewrite of interfaces, but enables several important features including IBC and protobuf. We have to [refactor cyber](/projects/sdk-040.md) modules to enable migration and make it future-proof for new developments.
-
 ## [Economics optimization](/projects/economics-optimization.md)
 
 Current Game of Links demonstrated at least 3 problems with our approach:
@@ -111,20 +74,7 @@ Current Game of Links demonstrated at least 3 problems with our approach:
 
 We are going to [completely refactor economics](/projects/economics-optimization.md) of the network in order to solve these issues.
 
-## [Game of Life](/projects/game-of-life.md)
-
-Implementation of the [gift using smart contract](/projects/game-of-life.md) (merkle tree of accounts balances) will give the following advantages:
-- ability to gift up to 100M instead of 1M
-- clean genesis
-- ability to claim for accounts without outgoing tx
-- ability to claim using metamask
-- live case of smart contract implementation in cyber
-
-Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create [necessity to update rules](/projects/game-of-life.md) of the gift.
-
-We want to [expand the idea further](/projects/game-of-life.md) creating gamification for actions for which agents will acquire NFT:
-
-## [Launch bostrom](/projects/bostorm.md)
+## [Bootstrap network](/projects/bostorm.md)
 
 [Bostrom](/projects/bostorm.md) is a full refactoring of euler network with a strong focus on Superintelligence. It will include new distribution, economics, improved ranking and some superintelligent abilities. We think of a [bostrom](/projects/bostorm.md) as a canary network the same way as Kusama for Polkadot. Knowledge graph of bostrom tends to be a metaknowledge on Cyber. The network will work as a test bed for IKP communications and different experiments. Consider bostrom as a network with high risks but which have market value. The key difference with Cyber network are:
 1. Stability
@@ -137,13 +87,26 @@ That is, Cyber network will be launched with the same Genesis as Bostrom network
 
 We have a [low hanging fruit](projects/internal-liquidity.md) without external dependencies in order to make CYB internally evaluated and liquid.
 
-## [Cosmos-SDK 1.0](/projects/sdk-1.md)
+## [Stable Dependencies](/projects/sdk-1.md)
 
-It is likely that to the point of Cyber network launch cosmos-sdk 1.0 will emerge. If this happens we [have to adopt stable version](/projects/sdk-1.md) of cosmos-sdk for mainnet.
+Include Tendermint, Cosmos-SDK, Cosmwasm.
 
 ## [cyberCongress 2.0](/projects/congress-2.md)
 
 We need to [significantly improve cyberCongress](/projects/congress-2.md) as organization. Without this we will suffer from lack of quality and execution.
+
+## [Gift](/projects/gift.md)
+
+Implementation of the [gift using smart contract](/projects/game-of-life.md) (merkle tree of accounts balances) will give the following advantages:
+- ability to gift up to 100M instead of 1M
+- clean genesis
+- ability to claim for accounts without outgoing tx
+- ability to claim using metamask
+- live case of smart contract implementation in cyber
+
+Also recent Uniswap drop demonstrated the power of fixed drop such as particular amount of tokens. This fact also create [necessity to update rules](/projects/game-of-life.md) of the gift.
+
+We want to [expand the idea further](/projects/game-of-life.md) creating gamification for actions for which agents will acquire NFT:
 
 ## [Bootstrap module](/projects/bootstrap.md)
 
@@ -157,13 +120,7 @@ Although vesting of minted tokens will bring significant support of feedback loo
 
 After all preparations will be completed we can launch the main network. The Cyber network [will be launched](/projects/genesis.md) with the same Genesis state as Bostrom but will be based on the bootstrap module emerged in NICK.
 
-## Port
 
-Unify experience of landing to Cyber. The port allows to claim gift and get CYB in Genesis
-
-## [Prettify](/projects/prettify.md)
-
-Simple, lovable, complete experience of cyber.page is [the most important](/projects/prettify.md) for acquisition and retention. The current app is not sexy, sometimes clunky and non-educative. We have to move the app to the next level.
 
 ## [Consensus storage](/projects/consensus-storage.md)
 

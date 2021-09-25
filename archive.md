@@ -1,5 +1,5 @@
 This repo contains ipfs links to archived repos:
-1. Application-Store: dura://QmajrQk59mwtYJCTZqeHtzHrmjWNH4tmE9skYRHvC3qDbX.ipfs
+1. application-Store: dura://QmajrQk59mwtYJCTZqeHtzHrmjWNH4tmE9skYRHvC3qDbX.ipfs
 2. cyb-web2: dura://QmReSBUEGHxXeWJEjUtzDCskX2Zp3rsENQ6Xk2Jk23swe2.ipfs
 3. parity-eth-tx-queue: dura://QmeyoCfivEEF97PzPVR43bXs1UeTjhgdQ5F3TjEXhGhBBU.ipfs
 4. parity-node-status: dura://QmV2RjE1ry7TFvAxNfE4y9m1mziMLdheSZ3YR2tcoXnT5b.ipfs

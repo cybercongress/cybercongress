@@ -40,7 +40,7 @@ github = "dimakorzhovnik"
 telegram = "korzhovnik_dima"
 keybase = "dimakorzhovnik"
 ipfs = "QmciKaXo9bSF3BsV2JLponqmrWqbvGiw5qEG6epQsRKFTA"
-cyber = "cyber177gvvqtn7xl8qvl6yw4vax9raz80fx66aukc94"
+cyber = "cyber16macu2qtc0jmqc7txvf0wkz84cycsx72r9y539"
 
 [mrlp4]
 name = "Kirill Laptanovich"
@@ -63,12 +63,13 @@ ipfs = "QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv"
 cyber = "cyber1f7nx65pmayfenpfwzwaamwas4ygmvalqwcexna"
 urbit id = "~dilled-fastyd"
 
-[Aha203]
-name = "Anna Protopopova"
-gitcoin = "0x06913bac87851D4374AE09B43A2ceB09fe91Fc39"
-payouts = "0x7AD2F01505469Aa70D1d772BECA505031E3346D3"
-github = "Aha203"
-telegram = "Aha203"
-keybase = "Aha203"
-ipfs = "QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv"
-cyber = "cyber1gg73t0eyrkqf953waqxh6uqah62p46jyvle8g7"
+[EI_NIVVO]
+name = "Stepan Bersin"
+gitcoin = "0x81645C8072a592c17f3D8424D74B04bFa0cF299e"
+payouts = "0x81645C8072a592c17f3D8424D74B04bFa0cF299e"
+github = "EI-NIVVO"
+telegram = "EI_NIVVO"
+keybase = "ei_nivvo"
+ipfs = "QmT3i4WyGVWxkLb5wr4BB5xgmT2UoQJ6zsZR2H3ZwFnFuc"
+cyber = "cyber1ay267fakkrgfy9lf2m7wsj8uez2dgylh0w7jjt"
+
