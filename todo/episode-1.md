@@ -6,7 +6,7 @@ This shit. Hello Ana....
 
 ## cyberCongress command center. Cyberspace
 
-mastercyb: Hello friend! So this day has come. Are you ready?
+mastercyb: Hello friend! The day has come. Are you ready?
 
 cyberhead: Oh yeah ... It took us so long to get to this point. Do you even remember how it all began?
 
