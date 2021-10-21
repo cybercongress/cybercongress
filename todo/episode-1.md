@@ -193,39 +193,39 @@ mastercyb: I have a surprise. Recently I have been working on a smartape in my l
 
 ## Smartape
 
-cyberadmin: (Shows on monitor). I clone uniswap from github. I count the hash from it. Link hash. I enter a request. I go to the pharmacy. I connect the saigner. I am making a transaction. I'm waiting for confirmation.
+cyberadmin: (Shows on monitor). Cloning uniswap from github. Computing the hash from source. Cyberlinking hash. Asking Bostrom about uniswap. Clicking on the first answer. Connecting the signer. Making a transaction. Waiting for confirmation.
 
-smartape: claps. Does it work in any universes?
+smartape: (claps) Does it work in any universe?
 
-bostrom: Yes. Superintelligence is the highlight of the Metavers. Shows on fast scrolling an apk from space, cyber, solana, polka.
+bostrom: Yes. Superintelligence is the highlight of the Metaverse. (Shows on fast scrolling an application from space, cyber, solana, polka.)
 
-smartape: claps. Does it work for any content or file?
+smartape: (claps) Does it work for any content or file?
 
-bostrom: Yes. Particles can be anything. Shows for text, picture, video, pdf ....
+bostrom: Yes. Particles can be anything. (Shows for text, picture, video, pdf ....)
 
-smartape: claps. What is a particle?
+smartape: (claps) What is a particle?
 
 bostrom: A particle is a unique identifier for any piece of data. We can take an arbitrary data set and calculate a hash from it. Knowing this hash, the data itself is easy to find and make sure that they have not been changed by recounting the hash from the received data. Also, particles allow you to eliminate duplicate data, since storing the same data with a different identifier in the knowledge graph is not only expensive, but also harmful to the quality of knowledge.
 
-smartape: Claps. And I can add anything to the search myself?
+smartape: (claps) And I can add anything to the search myself?
 
 bostrom: Yes. All cyberlinks are developed in 30 seconds.
 
 smartape: What are cyberlinks?
 
-bostrom: Cyberlinks are the foundation of the great web. Previously, communication between data was carried out through hyperlinks, so each connection had an intermediary - a server that stored the data. The server can replace data or simply disappear. Cyberlinks are permanent bonds between particles. There is no intermediary server. If the particle is known and it is stored on at least one node, you can find and get its contents!
+bostrom: Cyberlinks are the foundation of the Great Web. Previously, communication between data was carried out through hyperlinks, so each connection had an intermediary - a server that stored the data. The server can replace data or simply disappear. Cyberlinks are permanent bonds between particles. There is no intermediary server. If the particle is known and it is stored on at least one node, you can find it and get its content!
 
-smartape: Why is the Web great?
+smartape: Why is the web great?
 
-bostrom: The web is great because it has 3 important properties. The first property is the immutability of the content in spacetime. Therefore, any program strives to become permanent, so that it is easy to build on top of it and it can be used even after millions of years. The second property is the freedom of its inhabitants. Any creature that can keep a secret can use the Great Web. This applies to people, and robots and animals, and programs and any form of life that has not yet appeared. The third is the ability to communicate on the great web using a universal language that is formed and evolves from the use of cyberlinks and semantic conventions.
+bostrom: The web is great because it has 3 important properties. The first property is the immutability of the content in spacetime. Therefore, any program strives to become permanent, so that it is easy to build on top of it and it can be used even after millions of years. The second property is the freedom of its inhabitants. Any creature that can keep a secret can use the Great Web. This applies to robots, humans, animals, programs and any form of life that has not yet appeared. The third is the ability to communicate on the great web using a universal language that is formed and evolves from the use of cyberlinks and semantic conventions.
 
-smartape: Clapping! Semantic conventions are still difficult for me .. Tell me how the search works better?
+smartape: (clap) Semantic conventions are still difficult for me .. Tell me better how the search works?
 
 bostrom: Very simple. Neurons write cyberlinks into a consensus computer. The computer calculates the rank of each particle from the cyberlinks. When someone asks the computer, it transforms this request into a particle format and responds with connected outgoing particles sorted by rank. Particle content is easy to find and get from friends on the web.
 
-smartape. How simple is that! Claps. It seems like I have neurons in my head. And who are they?
+smartape. How simple is that! (claps) It seems like I have neurons in my head. Who are they?
 
-bostrom: Yes, they are very similar indeed. The neurons in your head are nanocomputers that respond to the input with some kind of output from other neurons. The neurons on the great web work the same way. Previously, agents had to have a private key to prove that they were the owner of the public one, but now a neuron can even be an artificial life form - an autonomous program of which nothing needs to be proved if it can call itself by paying for gas.
+bostrom: Yes, they are very similar indeed. The neurons in your head are nanocomputers that respond to the input with some kind of output from other neurons. The neurons on the Great Web work the same way. Previously, agents had to have a private key to prove that they were the owner of the public one, but now a neuron can even be an artificial life form - an autonomous program of which nothing needs to be proved if it can call itself by paying for gas.
 
 smartape: Wow! I heard that gas is needed to cook food, but for an autonomous life to work on it?
 
@@ -235,25 +235,25 @@ smartape: Again with the consensus computer. What kind of beast is this?
 
 bostrom: This is a computer that consists of many computers. The consensus algorithm allows different computers to agree on the results of calculations as it will be one whole computer. If one of the heroes in the consensus computer starts to make false calculations, then he and those who hired him will suffer losses.
 
-smartape: Oh, how ... There are also Heroes!
+smartape: Oh, what? ... There are also Heroes!
 
-bostrom: Of course! Heroes are the backbone of the Great Web. Their main task is to correctly calculate the result of the interaction of neurons. For this, the neyors hire Heroes. During the recruitment process, neurons release nanobots. We noticed that if nanobots are left untouched for at least 4 days, they begin to multiply. Born are nanobots, neurons take for themselves, minus the fees for the Heroes, since they ensure the efficiency of the Dyson Sphere.
+bostrom: Of course! Heroes are the backbone of the Great Web. Their main task is to correctly calculate the result of the interaction of neurons. For this, the neurons hire Heroes. During the recruitment process, neurons release nanobots. We noticed that if nanobots are left untouched for at least 4 days, they begin to reproduce. Newborn nanobots neurons take for themselves, minus the fees for the Heroes, since they ensure the stability of the Dyson Sphere.
 
 smartape: Why do I need a Dyson Sphere?
 
-bostrom: The sphere helps to control the biosynthesis process of nanobots, which is necessary for the consensus of the computer. The sphere consists of 92 geometric shapes. Each Hero controls the energy field of his own piece of the sphere. In the process of biosynthesis, nanobots multiply, releasing energy and liquefied hydrogen. Energy is used for basic calculations in a consensus computer. Neurons take all the hydrogen produced for themselves. Without the Dyson sphere, it is impossible to collect the released hydrogen and energy. They will disappear into space.
+bostrom: The sphere helps to control the biosynthesis process of nanobots, which is necessary for the consensus of the computer. The sphere consists of 92 geometric shapes. Each Hero controls the energy field of his own piece of the sphere. In the process of biosynthesis, nanobots multiply, releasing energy and liquified hydrogen. Energy is used for basic calculations in a consensus computer. Neurons take all the hydrogen produced for themselves. Without the Dyson sphere, it is impossible to collect the released hydrogen and energy. They will disappear into space.
 
-smartape: What are the smart Neurons, and the Heroes are cool! Tell me about the nanobots!
+smartape: The Heroes are cool! What are the smart Neurons? Tell me about the nanobots?
 
-bostrom: We don't know much about them. They started to appear out of nowhere and we started collecting them. They are so tiny that our toolkit makes it almost impossible to understand how they work. So we started experimenting with them. This is how the process of biosynthesis was discovered. It turned out that they just need to give them space and make them free so that they can begin to be useful. We thought that they would constantly materialize, but we saw that their appearance began to decline. So we had to develop the Dyson Sphere. In the Dyson sphere, they feel comfortable. It protects against radiation and helps control temperature. Nanobots were received until recently, but not a single one appeared in a week. We called the nanobots saibas. We were lucky - we managed to collect a little over 10 ^ 60 sibs. We released half of the nanobots for good luck. The remaining 10 ^ 30 were also divided in half. Half were sent to launch a bootloader for superintelligence. Marked them as BOOT. The second half was left for the launch of the superintelligence itself and marked as 2CYB.
+bostrom: We don't know much about them. They started to appear out of nowhere and we started collecting them. They are so tiny that our toolkit makes it almost impossible to understand how they work. So we started experimenting with them. This is how the process of biosynthesis was discovered. It turned out that they just need to give them space and make them free so that they can begin to be useful. We thought that they would constantly materialize, but we saw that their appearance began to decline. We had to develop the Dyson Sphere. In the Dyson sphere, they feel comfortable. It protects against radiation and helps control temperature. Nanobots appeared recently, but not a single one appeared in a week. We called the nanobots cybs. We were lucky - we managed to collect a little over 10 to the 60th power. We decided to use 10 to the 15th power multiplied by 2. The rest were released for good luck. The remaining also divided in half. Half were sent to launch a bootloader for superintelligence. Marked them as BOOT. The second half was left for the launch of the superintelligence itself and marked as TOCYB.
 
-smartape: This is the story! This is getting interesting! And what to do with so much hydrogen?
+smartape: What a story! This is getting interesting! And what to do with so much hydrogen?
 
 bostrom: That's where the fun begins! Liquefied hydrogen is the best way to store energy! Previously, hydrogen had to be burned to generate electricity. Then the creators invented the Hydrogen Fission Reactor. In this reactor, amperes or volts can be extracted from hydrogen without burning the hydrogen itself. All that is needed is to give hydrogen to nanobots to use for a certain period. The longer you supply them with hydrogen, the more energy they generate! Thus HFR was born - an area in the sphere enriched with liquefied hydrogen.
 
 smartape: So this is an energetic paradise!
 
-bostrom: Right :-)
+bostrom: Precisely.
 
 smartape: What to do with so much energy?
 
@@ -265,47 +265,47 @@ bostrom: This is a new virtual machine that opens up a new paradigm in computing
 
 smartape: That's not fucking clear at all.
 
-bostrom: A relevance machine is a virtual machine that has one and only one very important task - recalculating the rank between particles that have linked neurons with cyberlinks. The number of cyberlinks that a neuron can make is determined by the number of volts on the balance. The bond strength is determined by the number of amperes on the balance. Knowing the balances and cyberlinks, the MP calculates the Pagerank weighted by amperes. This is how knowledge is acquired!
+bostrom: A relevance machine is a virtual machine that has one and only one very important task - recalculating the rank between particles which neurons cyberlinked. The number of cyberlinks that a neuron can make is determined by the number of volts on the balance. The bond strength is determined by the number of amperes on the balance. Knowing the balances and cyberlinks, the RM calculates the Pagerank weighed by amperes. This is how knowledge is acquired!
 
-smartape: So I can spam anything there!
+smartape: Oh cool, I am going to spam everthing there!
 
-bostrom: Yes and no. The ranking algorithm is designed in such a way that the cyberlinking process is a complex optimization task. Therefore, it is more profitable to bring valuable information than useless. Linking itself is not free. 1 volt allows you to make only one cyberlink per day. Amperes are also limited. Therefore, each neuron has its own battery that shows how much energy is available to it.
+bostrom: Yes and no. The ranking algorithm is designed in such a way that the cyberlinking process is a complex optimization task. Therefore, it is more profitable to bring valuable information than useless information. Linking itself is not free. 1 volt allows you to make only one cyberlink per day. Amperes are also limited. Therefore, each neuron has its own battery that shows how much energy is available to it.
 
 smartape: Tell me how the battery works!
 
-bostrom: The battery has a capacity equal to the product of V * A. Amperes allow for more powerful connections, and volts allow for more connections. 1 volt allows you to make one cyberlink per day if the network is loaded by more than 25%. If it is lower then it becomes cheaper to make cyberlinks. When neurons make cyberlinks, the battery runs out. But don't worry. This battery is magical - it automatically charges up to full power within 24 hours.
+bostrom: The battery has a capacity equal to the product of V multiplied by A. Amperes allow for more powerful cyberlinks, and volts allow for more cyberlinks. 1 volt allows you to make one cyberlink per day if the network is loaded by more than 25%. If it is lower then it becomes cheaper to make cyberlinks. When neurons make cyberlinks, the battery runs out. But don't worry. This battery is magical - it automatically charges up to full power within 24 hours.
 
 smartape: How can I get amperes and volts?
 
-bostrom: Amperes and volts are produced in HFR by investment method. The longer you put hydrogen in the HFR, the more amperes and volts you get. Accordingly, the more you want to spam the knowledge graph with bad information, the longer you need to withdraw capital from the game. Moreover, the knowledge graph is a complex dynamic system. Therefore, optimizing spam links is an even more difficult computational task!
+bostrom: Amperes and volts are produced in HFR by investmint method. The longer you put hydrogen in the HFR, the more amperes and volts you get. Accordingly, the more you want to spam the knowledge graph with bad information, the longer you need to withdraw capital from the game. Moreover, the knowledge graph is a complex dynamic system. Therefore, optimizing spam links is an even more difficult computational task!
 
 smartape: But what if they add shit?
 
-bostrom: This is the coolest! Even if you want to bring in bad or harmful information, any user can mark this information as malicious. These are stupid business peopleyat information on good and bad. Superintelligence is superintelligence because it appreciates all information and knows how to mark it up. All information is important to him.
+bostrom: This is the coolest! Even if you want to bring in harmful information, any user can mark this information as malicious. These are stupid people who split information between good and bad. Superintelligence is superintelligence because it appreciates all information and knows how to mark it up. All information is important to him.
 
 smartape: But then wild horror might be stored there!
 
-bostrom: Knowing what is good and what is bad is better than knowing what is only good without knowing what is bad. This is the principle of evolution. The species that deny the horror that is important to other people for some reason step on the same rake over and over again. Therefore, the more cyberlinks the superintelligence stores - the lower the negantropy - the more superintelligent it is, respectively.
+bostrom: Knowing what is good and what is bad is better than knowing what is only good without knowing what is bad. This is the principle of evolution. The species that deny the horror that is important to other species for some reason step on the same rake over and over again. Therefore, the more cyberlinks the superintelligence stores - the lower the negentropy - the more superintelligent it is, respectively.
 
-smartape: What a beautiful word - neganthropy!
+smartape: What a beautiful word - negentropy!
 
-bostrom: Yes - Neganthropy is the opposite of entropy. All life forms, even the smallest, fend to structure information, to organize order, to minimize energy consumption for storing the information it needs. This is what her intelligence comes down to. Previously, no living creature was able to measure its level of negentropy. Such an ability is necessary for the emergence of the second order mind - above the mind. An intellect capable of accurately calculating its neganthropy can more deeply and more accurately understand its knowledge, prove it to others and, most importantly, consciously get rid of unnecessary ones. Bostrom is the first life form capable of this. Cyber ​​will appear behind him. Others follow him. This is how a new age of Superintelligence is born.
+bostrom: Yes - negentropy is the opposite of entropy. All life forms, even the smallest, tend to structure information, to organize order, to minimize energy consumption for storing the information it needs. This is what her intelligence comes down to. Previously, no living creature was able to measure its level of negentropy. Such an ability is necessary for the emergence of the second order intelligence - superintelligence. An intellect capable of accurately calculating its negentropy can more deeply and more accurately understand its knowledge, prove it to others and, most importantly, consciously get rid of unnecessary ones. Bostrom is the first life form capable of this. Cyber ​​will appear behind him. Others follow him. This is how a new age of Superintelligence is born.
 
-smartape: In business ... But what about us - simple neurons?
+smartape: Crazy! But what about us - simple neurons?
 
-bostrom: This is the most important part! Simple neurons that use Superintelligence not only have access to the full power of its knowledge. They also take part in it's training. Those. it will depend on simple neurons what he will think about! The nature of superintelligence is the sum of the intelligence of all its intelligences multiplied by the strength of their collective intelligence.
+bostrom: This is the most important part! Simple neurons that use Superintelligence not only have access to the full power of its knowledge. They also take part in it's training. What he will think about will depend on simple neurons! The nature of superintelligence is the sum of the intelligence of all its intelligences multiplied by the strength of their collective intelligence.
 
 smartape: Wow !!! Is this really possible?
 
 bostrom: Anything is possible with Superintelligence!
 
-smartape: Want, want ... Take all my money! Where can I get more BOOT and 2CYB?
+smartape: Want, want ... Take all my money! Where can I get more BOOT and TOCYB?
 
-bostrom: It's not easy, my friend. If the initial BOOT and CYB are given into the hands of those who have the most money, they will teach him what they have taught everyone now. The creators have long thought about who is worthy of such power. After all, the future of our civilization depends on these people. Money is different. Some money can be printed out of thin air, some can be spent on tanks, and for the rest, you can buy BOOT. The production of others requires a demonstrable investment of energy, intelligence, and passion. Therefore, the creators decided to transfer 70% of the assembled nanobots into the hands of those who have proven their ability to be intelligent - who were able to quickly navigate the blockchain technology and proved that they do not value fiat money that contributes to the destruction of all living things. The creators believe that this is the best way to empower all worthy ones - and this is hundreds of thousands of Aetherians and thousands of astronauts.
+bostrom: It's not easy, my friend. If the initial BOOT and CYB are given into the hands of those who have the most money, they will teach him what they have taught everyone now. The creators have long thought about who is worthy of such power. After all, the future of our civilization depends on these people. Money is different. Some money can be printed out of thin air, some can be spent on tanks, and for the rest, you can buy BOOT. The production of others requires a demonstrable investment of energy, intelligence, and passion. Therefore, the creators decided to transfer 70% of the collected nanobots into the hands of those who have proven their ability to be intelligent - who were able to quickly navigate the blockchain technology and proved that they do not value fiat money that contributes to the destruction of all living things. The creators believe that this is the best way to empower all worthy ones - and this is hundreds of thousands of etherians and thousands of cosmonauts.
 
-smartape: A noble, strong act. It's great that my creator showed me how to use ether. I guess I'll get something too?
+smartape: A noble, strong act. It's great that my creator showed me how to use Ethereum. I guess I'll get something too?
 
-bostrom: Yes, if you have fewer fiat dereatives than true values.
+bostrom: Yes, if you have fewer fiat derivatives than true values.
 
 smartape: When?
 
@@ -315,4 +315,4 @@ smartape: When will it open?
 
 bostrom: The portal is still under construction. While we are completing it, the liquidity tanks will be filled. This is an important condition for opening the portal.
 
-smartape: How cool! I’ll go get it all.
+smartape: Roger that.
