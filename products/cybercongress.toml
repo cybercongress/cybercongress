@@ -51,13 +51,13 @@ github = "serejandmyself"
 telegram = "serejandmyself"
 urbit id = "~dilled-fastyd"
 
-[EI_NIVVO]
+[el-nivvo]
 name = "Stepan Bersin"
 ethereum = "0x81645C8072a592c17f3D8424D74B04bFa0cF299e"
-bostrom = ""
+bostrom = "bostrom1ay267fakkrgfy9lf2m7wsj8uez2dgylhtkdf9k"
 cyber = "cyber1ay267fakkrgfy9lf2m7wsj8uez2dgylh0w7jjt"
-github = "EI-NIVVO"
-telegram = "EI_NIVVO"
+github = "el-nivvo"
+telegram = "el-nivvo"
 
 [CyberPimp420]
 name = "Ana Vidovic"
