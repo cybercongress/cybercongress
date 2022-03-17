@@ -18,13 +18,13 @@ Helping the evolution of species
 We believe that we are united by the values we share, thus helping us to achieve our goals:
 - Security. We work with digital signatures only
 - Anonymity. If someone chooses to stay anonymous or private - it is their right to do so
-- Open-source. Everything we run in production must be open-source either software or hardware.
+- Open-source. Everything we run in production must be open-source either software or hardware
 - Transparency. Transactional transparency is fundamental to community building
 - Informational freedom. No local laws can prohibit the flow of any information
 - Economic freedom. Nobody has the right to prevent or block transactions
 - Free will. We reject corporate slavery bullshit, such as conflict of interest or NDA
 - Capital, not salary. Helping to switch our team from selling time to selling knowledge
-- Engineering is marketing. We would rather spend our resources on engineering of marketing, then on marketing itself.
+- Engineering is marketing. We would rather spend our resources on engineering of marketing, than on marketing itself
 - Physical liberty. Limitations for physical liberty can be economic, but not authoritative
 - Automation. Everything that can be automated, must be automated
 - Intelligence. An entity can be treated as intelligent if they can control their private keys and can sign transactions
@@ -45,7 +45,7 @@ The following accounts of cyber•Congress are official:
 
 All decisions must be proved by a transaction from one of the congress accounts. The signature accounts which control the multisig accounts are also considered official. For the time being, all other accounts must be registered in this document.
 
-We are starting from the simplest but a resilient form of decentralization: a simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains can support more income. We also understand, that decentralization always comes at expenses. For now, we struggle to find an organic growth balance between those kinds of expenses and an income. We understand that a flat voting system does not scale to more than 7 members. Thus, if there will be demand for further growth, we will make a decision based on in-depth research in the field.
+We are starting from the simplest but most resilient form of decentralization: a simple 2of3 multisig. We value decentralization and agree that we will do our best to throw more brains into the pot. More brains can support more income. We also understand, that decentralization always comes at expenses. For now, we struggle to find an organic growth balance between those kinds of expenses and an income. We understand that a flat voting system does not scale to more than 7 members. Thus, if there will be demand for further growth, we will make a decision based on in-depth research in the field.
 
 Members communicate between themselves and between teams by using provably secure communication channels. At the moment, we use Keybase for communication. If any teams wish to use a more convenient channel, they are welcome to do so.
 
@@ -71,7 +71,7 @@ Congress can liquidate itself. If this event happens the following will occur:
 - The hardware obtains personal freedom
 - Non-transferable tokens will await being transferable
 - Non-fungible items will be auctioned
-- 50% of transferable tokens, will be dropped to community members. 25% will be dropped to teams. The remaining 25% will be given to the   community, either in the form of a drop or a burn
+- 50% of transferable tokens, will be dropped to community members. 25% will be dropped to teams. The remaining 25% will be given to the community, either in the form of a drop or a burn
 
 ## Processing incoming drops
 If a community decides to drop to cyber•Congress, they must understand the following guidelines:
@@ -80,7 +80,7 @@ If a community decides to drop to cyber•Congress, they must understand the fol
 - 20% of the tokens will be dropped to teams
 
 ## Forks
-If any team feel the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit from such behaviour and are ready, in case the team is self-sustainable, to transfer repositories.
+If any team member feels the independent need to create a new organization or a fork, they are free to do so. Congress members will benefit from such behaviour and are ready, in case the team is self-sustainable, to transfer repositories.
 
 ## Functions
 - [Value management](/values): control of keys and investment decisions
@@ -130,17 +130,9 @@ Current cyber•Congress members are:
 
 From serejandmyself
 
-Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Until today, this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as species and gives all of us hope. With the Voyagers, our species sent the [`golden record`](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras, and spoken greetings from Earth-people in fifty-five languages. 
+Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Today this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as a species, giving all of us hope. With the Voyagers, our species sent the [`golden record`](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras, and spoken greetings from Earth-people in fifty-five languages. 
 
-That record carries what we believe in, with this, below, we have outlined the goals and values that we believe in the most. This is a hard mission, as our foremost wish is freedom and outlining anything when speaking of freedom is hard. 
-
-## The Idea
-We do not believe in captchas. We do not believe in KYC. We do not believe in licensing and any other similar to the above-mentioned bullshit. We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. However, blockchain technology has opened the opportunity for development which was previously impossible. [cyber~Congress](https://mainnet.aragon.org/#/cybercongress), is a sovereign self-funded community of scientists, developers, engineers and craftsmen who create on its mission the foundation for a new kind of existence.  
-
-
-Over 40 years ago, Earth launched Voyager 1 and 2 into deep space. Until today, this mission [is ongoing](https://voyager.jpl.nasa.gov/mission/status/) and keeps uniting us as species and gives all of us hope. With the Voyagers, our species sent the [`golden record`](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/) to space, assembled out of 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this, they added musical selections from different cultures and eras, and spoken greetings from Earth-people in fifty-five languages. 
-
-That record carries what we believe in, with this, below, we have outlined the goals and values that we believe in the most. This is a hard mission, as our foremost wish is freedom and outlining anything when speaking of freedom is hard. 
+That record holds what we believe in. Below, we have outlined the goals and values that we believe in the most. This is a hard mission as our foremost wish is freedom, and outlining anything when speaking of freedom is hard. 
 
 ## The Idea
 We do not believe in captchas. We do not believe in KYC. We do not believe in licensing and any other similar to the above-mentioned bullshit. We do believe in code. We believe in innovation and in making use of our knowledge to make the world a slightly better place for our children. However, blockchain technology has opened the opportunity for development which was previously impossible. [cyber~Congress](https://mainnet.aragon.org/#/cybercongress), is a sovereign self-funded community of scientists, developers, engineers and craftsmen who create on its mission the foundation for a new kind of existence.  
@@ -158,9 +150,9 @@ The great John Lenon once said:
 
 Those words are not kept to their original order, but they still carry the same message that we share.
 
-We have goals and values. Most of our goals we recreate into general issues on our roadmap. from there, you may follow any of these and see how they break down into tasks and overgo an evolution until there is a result. 
+We have goals and values. Most of our goals we recreate into general issues on our roadmap. From there, you may follow any of these and see how they break down into tasks and overgo an evolution until there is a result. 
 
-Most of our goals and values overlap. Some of them can be expresses as a reference to movies, songs, poetry, academic research. Some are easier listed:
+Most of our goals and values overlap. Some of them can be expressed as a reference to movies, songs, poetry, academic research. Some are easier listed:
 
 - Security: We do not work with fiat and avoid bureaucratic paper hassle. We prefer to work with digital signatures
 - Anonymity and privacy: If someone chooses to stay anonymous or private, it is their right to do so. We respect it
@@ -183,7 +175,7 @@ By sharing those values we want to show what drives us. What makes our inner clo
 They can be grouped into the following categories:
 
 - Science: building a strong scientific foundation, space exploration, technologies that can transfer human conciseness, extend living capabilities, improve ecology (thermoregulation) 
-- Development: improving consensus computers, developing interfaces, integrating post-quantum cryptography, independent robots, open tools for biological engineering, develop metaverse    
+- Development: improving consensus computers, developing interfaces, integrating post-quantum cryptography, independent robots, open tools for biological engineering, developing metaverse    
 - Economy: achieving an incentivized system for all types of actors, self-sustainability, access to equal economics to all species, creating incentives for AI
 - Transparency: providing access to transactions, lack of censorship, demolishing borders and states
 - Privacy: a possibility for private communication
@@ -199,6 +191,6 @@ Below is one of the most important quotes ever said on Earth by Carl Sagan:
 > It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.” ― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
 `We share this vision, but we look forward and even beyond it.`
 
-We understand that technicalities are boring, but we want to be transparent. To achieve our goals we will utilize any type of appropriate to our values technology that either exists or create it ourselves. More details on cyber~Congress technicalities can be found [here](https://github.com/cybercongress/congress/blob/master/drafts/congress%20technicalities.md).
+We understand that technicalities are boring, but we want to be transparent. To achieve our goals we will utilize any type of technology appropriate to our values that either exists or create it ourselves. More details on cyber~Congress technicalities can be found [here](https://github.com/cybercongress/congress/blob/master/drafts/congress%20technicalities.md).
 
-May the code be with you. Don't believe. Don't fear. Don't ask!
+May the code be with you. Don't trust. Don't fear. Don't ask!
