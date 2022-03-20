@@ -19,19 +19,6 @@
 ## Sale
 - 2% from raised ATOMs
 
-## Freetime
-- 30%
-- Validators: running, code sharing, knowledge exchange
-- Ecosystem projects: advising, VC, any support
-
-## Ecosystem fund
-- Raised from team members
-- 3of5
-- @serejandmyself
-
-## Proposals
-- Any member of the team can create proposals
-
 ## Teams
 - Teams compete for available resources assuming that there is an even split at the start
 - cyber: @litvintech
