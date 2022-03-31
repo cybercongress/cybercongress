@@ -1,6 +1,6 @@
-It is obvious to all of us, that Twitter as we knew it has come to its end. The inability to bring cryptographic assurance has lead to the behaviour, which we, as a society, should not accept.
+It is obvious to all of us that Twitter as we know it has come to an end. The inability to bring cryptographic assurance has lead to the behaviour which we as a society should not accept.
 
-Last week at [cyber\~Congress](https://mainnet.aragon.org/#/cybercongress), we switched our focus, to create the ultimate and [useful example of an app]() on top of the Cyber protocol. We created a better analogue of Twitter. It is a hardcore, crypto-anarchist Twitter. There are no captchas and nobody asks for your phone, name or email address. 
+Last week at [cyber\~Congress](https://mainnet.aragon.org/#/cybercongress), we switched our focus to creating the ultimate and most [useful example of an app]() on top of the Cyber protocol. We created a better analogue of Twitter. It is a hardcore, crypto-anarchist Twitter. There are no captchas and nobody asks for your phone, name or email address. 
 
 It can already function as an anti-fake and anti-censorship tool, capable of bringing a change to social media. All along with military-grade security.
 
@@ -22,7 +22,7 @@ Instead, we are offering a model of assessment by the community based on evoluti
 
 ## Content is Yours
 
-You publish your tweets and any content to your own node in the IPFS network. The Cyber blockchain works as a tool for linking this content with the targeted semantics. The content is yours and it is only you, who are responsible for your content. This content is not locked and can be used in any application, forever.
+You publish your tweets and any content to your own node in the IPFS network. The Cyber blockchain works as a tool for linking this content with the targeted semantics. The content is yours and it is only you who is responsible for your content. This content is not locked and can be used in any application, forever.
 
 [](screen of your blog)
 
@@ -42,7 +42,7 @@ This tiny colourful frame can help your intuition work better but it does not de
 
 ## Social media ~~or~~ Search
 
-In the existing paradigm, you have a social network as one app, while search capabilities are offered by another. We offer one convenient app for both. As far as we know, this is brand new, no one had done this before and it is sooo fffucking cooooool.
+In the existing paradigm, you have a social network as one app, while search capabilities are offered by another. We offer one convenient app for both. As far as we know, this is brand new, no one had done this before. It is sooo fffucking cooooool.
 
 ![](screen of the search box)
 
@@ -56,7 +56,7 @@ One digital signature is an order of magnitude more secure than the conventional
 
 As far as we know, this is the first tweet in the history of humanity, which has been published using a multi-signature account. This gives us the confidence and the power for change.
 
-And this is just the beginning. The Cyber protocol offers powerful apps on top of [its knowledge](https://cyber.page/brain/knowledge) using the Might of [CosmWasm](https://www.cosmwasm.com/) and the Magic of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35). Hackers are welcome to deploy programs in Rust right now.
+This is just the beginning. The Cyber protocol offers powerful apps on top of [its knowledge](https://cyber.page/brain/knowledge) using the Might of [CosmWasm](https://www.cosmwasm.com/) and the Magic of [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35). Hackers are welcome to deploy programs in Rust right now.
 
 ## Conclusion
 
