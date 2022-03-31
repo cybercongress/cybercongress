@@ -13,24 +13,24 @@ End: 2018-12-28
 
 ### Сonclusion
 
-42 . This number has haunted us. I'm not kidding. 42 participants came to our conference, cyberc0n, and now there are 42 members in our dev chat. Mystic...
+42 . This number has haunted us. I'm not kidding. 42 participants came to our conference, cyberc0n, and now there are 42 members in our dev chat. Synchronicity...
 
-However it was a new year sprint! We have done quite a lot in this sprint and are proud of that!
+It was, however, a new year sprint! We have done quite a lot during this sprint and are proud of that!
 
-What exactly we are proud of? [First public testnet](https://github.com/cybercongress/cyberd/releases/tag/0.1.0). What does it mean for you? You can do your best for the future Internet with testing our chain as a validator. Follow full explanation [here](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and join our [dev Chat](https://t.me/fuckgoogle) finally!
+What exactly we are proud of? The [First public testnet](https://github.com/cybercongress/cyberd/releases/tag/0.1.0). What does it mean for you? You can do your best for the future Internet by testing our chain as a validator. Follow the full explanation [here](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and join our [dev Chat](https://t.me/fuckgoogle)
 
-Future of browsers has it first serious release :) Welcome to [Cyb 0.1.0 - Euler](https://github.com/cybercongress/cyberd/releases)! For us, it's the best way to experience web3 at this moment. Try Chaingear in Kovan with Cyb, explore IPFS content and finally play Dragonereum with Cyb! We're waiting for your bug reports and feature requests as soon as possible! We have [tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) for you, so don't hesitate to contact us.
+The future of browsers has its first serious release :) Welcome to [Cyb 0.1.0 - Euler](https://github.com/cybercongress/cyberd/releases)! For us, it's the best way to experience web3 at this moment. Try Chaingear in Kovan with Cyb, explore IPFS content and finally play Dragonereum with Cyb! We're waiting for your bug reports and feature requests as soon as possible! We have [tutorials](https://steemit.com/web3/@savetheales/how-to-open-ipfs-link-using-cyb) for you, so don't hesitate to contact us.
 
-Good news is that Chaingear has deployed to mainnet, but we need some more polishments before you can actually use it.
+The good news is that Chaingear has deployed to mainnet, but we need some more polishing before you can actually use it.
 
-Finally, we're glad to announce our substance! It guarantees everyone a warm place in Genesis of Cyber protocol. This substance called CBD and is accounted [here](https://etherscan.io/token/0x136c1121f21c29415d8cd71f8bb140c7ff187033#balances). This substance is not the final product and serves as transparency tool for Genesis and decision-making in cyberFoundation. Oh yeah. Yeeeeeh! Now we have [cyberFoundation - the Aragon organization](https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e)!
+Finally, we're glad to announce our substance! It guarantees everyone a warm place in the Genesis of Cyber protocol. This substance is called CBD and is accounted for [here](https://etherscan.io/token/0x136c1121f21c29415d8cd71f8bb140c7ff187033#balances). This substance is not the final product and serves as a transparency tool for Genesis and decision-making in the cyberFoundation. Oh yeah. Yeeeeeh! Now we have the [cyberFoundation - the Aragon organization](https://mainnet.aragon.org/#/cyberfoundation.aragonid.eth/0xf4d85b5a1650a335b30072d178f6dcb611f05a3e)!
 
-The purpose of this organization is to empower community around Cyber protocol. The upcoming golas are:
+The purpose of this organization is to empower community around the Cyber protocol. The upcoming goals are:
 - distribution of CBD substance
-- formation of community in Aragon organization around cyber:// protocol development
+- formation of community in the Aragon organization around cyber:// protocol development
 - boost utility of CBD tokens through integration with current Ethereum projects of cyberCongress
 
-That is it! :) One sprint left before the current block and we'll departure to Thailand for brainstorming, planning, and development. It just got a few loose ends to tie up and... continue to work :)
+That's it! :) One sprint left before the current block and we'll depart to Thailand for brainstorming, planning, and development. We've got a few loose ends to tie up and... continue to work :)
 
 ### Changelog
  - #### [Cyberd release 0.1.0 - Euler](https://github.com/cybercongress/cyberd/releases/tag/v0.1.0)
