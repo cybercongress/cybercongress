@@ -1,6 +1,6 @@
 # Prepare for Takeoff
 
-Dear comrades! This is a very important letter for our small company!
+Dear comrades! This is a very important letter for our small company.
 
 ## Goal
 Valerka and I decided that we had gained the necessary critical mass to take off the ground. We need to focus only on what is important, and take away everything that is not important before this date. We have a lot of cool ideas, but the most important thing for the project right now is that the knowledge graph to literally acquire value. No matter how much it will be valued: 1 ether or 1 million ethers. It is important that it is valuable not only for us, but for all who wish to use it. In the coming month we will include all the necessary mechanisms for this, no more no less.
@@ -22,7 +22,9 @@ Valerka and I decided that we had gained the necessary critical mass to take off
 I know that everyone on the team strongly believes in the project! It's cool that we have it! I want to say thank you for this support. It would be impossible without you. Let's gather all the will this month and release the network, app and foundation in the best possible way!
 
 ## What's next?
-After the start of donations, much will change in the project. There will be more responsibility. We will need to listen more to the community. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 300k ATOMs. But all that would be exciting though
+After the start of donations, much will change in the project. There will be more responsibility. We will need to listen more to the community. We will need to struggle for the main goal of [the Game of Links](https://cybercongress.ai/game-of-links/): 300k ATOMs. 
+
+Russian version :
 
 # Подготовьтесь в Взлету!
 
