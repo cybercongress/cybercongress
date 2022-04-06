@@ -13,18 +13,16 @@ End: 2019-02-01
 
 ### Сonclusion
 
-This sprint was not easy for us. We had worked on bug fixing and improvements, and, also, adapted to the new climate.
+This sprint was not easy for us. We worked on bug fixing and improvements, and also adapted to the new climate.
 
 What exactly is ready?
-Testnet [Euler](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1) drives like hell. It's too easy now to [launch own node or validator](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and start linking principally new Internet.
+Testnet [Euler](https://github.com/cybercongress/cyberd/releases/tag/v0.1.1) drives like hell. It's too easy now to [launch your own node or validator](https://github.com/cybercongress/cyberd/blob/master/docs/run_validator.md) and start linking a principally new Internet.
 
-Is it hard to? Alright! Testnet Euler is now available in [cyb](https://github.com/cybercongress/cyb/releases/tag/v0.1.2). So you can link the new Internet with great UX.
+Is it hard to? Alright! Testnet Euler is now available in [cyb](https://github.com/cybercongress/cyb/releases/tag/v0.1.2). You can link the new Internet with great UX.
 
-And finally, [Chaingear](https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib) was deployed to [Mainnet](https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca). This is a good reason to register some popular domain as someone already made. So `.com` and `.porn` are busy already :)
+Finally, [Chaingear](https://cloudflare-ipfs.com/ipfs/QmQmQKkPFqLS4iNiicvAqx6aJtRpYookK8iEZjojcfEqib) was deployed to [Mainnet](https://etherscan.io/address/0x02e0c94355562693b3608077732d7437bd7a78ca). This is a good reason to register a popular domain that someone already made. So `.com` and `.porn` are busy already :)
 
-But what am I going to say?
-
-Today, exactly today we can say: "cyber•Search destined to be"! Our 3 repos in the complex formed sustainable entrance point to web3. We have started winter round of private donates from friends because in search we trust!
+Today, we can say: "cyber•Search is destined to be"! Our 3 repos are in the complex formed sustainable entrance point to web3. We have started winter round of private donations from friends because, in search we trust!
 
 
 
