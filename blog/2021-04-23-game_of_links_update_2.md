@@ -5,10 +5,10 @@ title: 'Proposal #33. Updates to the Game of Links'
 author: savetheales
 ---
 
-On March 6th, the Game of Links final was prolonged until the 1st of May [by proposal #28](https://cyber.page/governance/28). The rationale behind the proposal evolved around the development of the next stage of `Cyber`, the `Bostrom` canary network. That proposal mentioned that if the allocated time won't be enough, the Congress team will propose a new timeframe, and here it is:
+On March 6th, the Game of Links final was prolonged until the 1st of May [by proposal #28](https://cyber.page/governance/28). The rationale behind the proposal evolved around the development of the next stage of `Cyber`, the `Bostrom` canary network. That proposal mentioned that if the allocated time wasn't enough, the Congress team would propose a new timeframe, and here it is:
 
-1. Prolong the final of the Game of Links until the `~3 weeks` deadline before the launch of  `Bostrom`. This means that we're going to close the disciplines of the game, only with the knowledge of the launch date.
-2. Change the distribution of disciplines(load, relevance, lifetime, delegation) to 500 GCYB.
+1. Prolong the final stage of the Game of Links until the `~3 week` deadline before the launch of  `Bostrom`. This means that we're going to close the disciplines of the game, only with the knowledge of the launch date.
+2. Change the distribution of disciplines (load, relevance, lifetime, delegation) to 500 GCYB.
 
 *Rationale:* As expected, the Congress team requires more time for the launch of the `Bostrom` canary network. We need a running network to keep developing cyber.page and onboard new community members.
 
