@@ -5,17 +5,17 @@ title: 'Ultimate cyberd validator setup. Testnet: Euler-1.'
 author: savetheales
 ---
 
-# What is this
+# What is this?
 
-The cyberd is a public Delegated Proof-of-Stake (DPoS) protocol based on Tendermint Byzantine Fault-Tolerant consensus, meaning that validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
+The cyberd is a public Delegated Proof-of-Stake (DPoS) protocol based on Tendermint Byzantine Fault-Tolerant consensus, meaning that a validator's weight is determined by the amount of staking tokens bonded as collateral. These tokens can be staked directly by the validator or delegated to them by token holders. The weight (i.e. total stake) of a validator determines whether or not it is an active validator, and also how frequently this node will have to propose a block and how much revenue it will obtain.
 
 # Validators
 
-The maximum number of validators is 146. If number of active validators is less than 146 all of them take a part of signing blocks. If more - top 146 with staked tokens will in a active validators set.
+The maximum number of validators is 146. If the number of active validators is less than 146 all of them take a part of signing blocks. If more - the top 146 with staked tokens will, in a active validators set.
 
 # Validators requirements
 
-Rank calculation on a cyberd is benefit GPU computation. They easy to parallelize that why is the best way is to use GPU.
+Rank calculation on a cyberd is benefit GPU computation. They are easy to parallelize, which is why it is best to use GPU.
 
 Minimal requirements for the next two weeks (until the middle of February):
 
@@ -42,7 +42,7 @@ Software: Docker, Ubuntu 16.04/18.04 LTS
 
 ## Third-party software
 
-Cyberd main distribution unit is a [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For great user experience, we propose you to use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already had and configured necessary software.
+Cyberd main distribution unit is a [docker](https://www.docker.com/) container. All images are located in default [Dockerhub registry](https://hub.docker.com/r/cyberd/cyberd/).  In order to access GPU from the container, Nvidia drivers version **410+** and [Nvidia docker runtime](https://github.com/NVIDIA/nvidia-docker) should be installed on the host system. For a great user experience, we propose you use [portainer](https://portainer.io) - docker containers manager. You can skip any subsection of this if you already had and configured the necessary software.
 
 #### Docker installation
 
@@ -127,7 +127,7 @@ localhost:9000
 
 ![](portainer_start.png)
 
-4. Set password, chose `local` tab and click `connect`. All containers will be available at `containers` tab.
+4. Set password, chose `local` tab and click `connect`. All containers will be available at the `containers` tab.
 
 #### Nvidia drivers installation
 
@@ -165,7 +165,7 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 sudo ubuntu-drivers autoinstall
 ```
 
-Drivers will install due approximately 10 minutes.
+Drivers will install within approximately 10 minutes.
 
 ```bash
 DKMS: install completed.
@@ -310,7 +310,7 @@ mkdir cyberdcli
 ```bash
 docker run -d --name=cyberd --restart always --runtime=nvidia  -p 26656:26656 -p 26657:26657 -p 26660:26660  -v /<path_to_cyberd>/cyberd:/root/.cyberd  -v /<path_to_cyberdcli>/cyberdcli:/root/.cyberdcli  cyberd/cyberd:euler-1
 ```
-3. After successful container pulling and launch run to check if your node is connected to the testnet:
+3. After successful container pulling and launch, run to check if your node is connected to the testnet:
 
 ```bash
 docker exec cyberd cyberdcli status
@@ -319,7 +319,7 @@ The possible output looks like this:
 ```
 {"node_info":{"protocol_version":{"p2p":"6","block":"9","app":"0"},"id":"93b776d3eb3f3ce9d9bda7164bc8af3acacff7b6","listen_addr":"tcp://0.0.0.0:26656","network":"euler-1","version":"0.29.1","channels":"4020212223303800","moniker":"anonymous","other":{"tx_index":"on","rpc_address":"tcp://0.0.0.0:26657"}},"sync_info":{"latest_block_hash":"686B4E65415D4E56D3B406153C965C0897D0CE27004E9CABF65064B6A0ED4240","latest_app_hash":"0A1F6D260945FD6E926785F07D41049B8060C60A132F5BA49DD54F7B1C5B2522","latest_block_height":"45533","latest_block_time":"2019-02-01T09:49:19.771375108Z","catching_up":false},"validator_info":{"address":"66098853CF3B61C4313DD487BA21EDF8DECACDF0","pub_key":{"type":"tendermint/PubKeyEd25519","value":"uZrCCdZTJoHE1/v+EvhtZufJgA3zAm1bN4uZA3RyvoY="},"voting_power":"0"}}
 ```
-Your node has started to sync. The syncing process you can see in the terminal. Open a new tab and run following command:
+Your node has started to sync. The syncing process can be seen in the terminal. Open a new tab and run the following command:
 
 ```bash
 docker logs cyberd --follow
@@ -329,18 +329,18 @@ Or go to `localhost:9000` and open logs at cyberd container:
 
 ![](cyberd_logs.jpg)
 
-Syncing has started. Syncing time depends on your internet bandwidth, connection and blockchain height. As at 2019/02/03 syncing time approximately 15-20 minutes. Once you see in logs that blocks syncing for 1 second your node is synced.
+Syncing has started. Syncing time depends on your internet bandwidth, connection and blockchain height. As at 2019/02/03 syncing time approximately 15-20 minutes. Once you see in the logs that blocks are syncing for 1 second, your node is synced.
 
 Additional information available by API endpoint at `localhost:26657`
 
-f.e. the number of active validators available here `localhost:26657/validators`
+f.e. the number of active validators is available here `localhost:26657/validators`
 
 ## Validator start
-After your node successful synced you can run validator.
+After your node successfully synced you can run validator.
 
 #### Prepare stake address
 
-If you already have address with CYB and know seed phrase or private key just restore it into your local keystore.
+If you already have an address with CYB and know your seed phrase or private key just restore it onto your local keystore.
 ```bash
 docker exec -ti cyberd cyberdcli keys add <your_key_name> --recover
 docker exec cyberd cyberdcli keys show <your_key_name>
@@ -348,7 +348,7 @@ docker exec cyberd cyberdcli keys show <your_key_name>
 
 If you have been lucky enought and your Ethereum address has been included in genesis you can import ethereum private key
 
-> Please, do not import high value Ethereum accounts. This can not be safe! cyberd software is a new software and is not battle tested yet.
+> Please, do not import high value Ethereum accounts. This cannot be safe! Cyberd software is a new software and is not battle tested yet.
 
 ```bash
 docker exec -ti cyberd cyberdcli keys add import_private <your_key_name>
@@ -356,7 +356,7 @@ docker exec cyberd cyberdcli keys show <your_key_name>
 ```
 
 If you want to create new acccount use the command below.
-Also, you should send coins to that address to bound them later during validator submitting.
+Also, you should send coins to that address to bind them later during validator submitting.
 
 ```bash
 docker exec -ti cyberd cyberdcli keys add <your_key_name>
@@ -368,9 +368,9 @@ You have to refer to this <your_key_name> later when you use the keys to sign tr
 It will ask you to enter your password twice to encrypt the key.
 You also need to enter your password when you use your key to sign any transaction.
 
-The command returns the address, public key and a seed phrase which you can use it to
+The command returns the address, public key and a seed phrase which you can use to
 recover your account if you forget your password later.
-Keep the seed phrase in a safe place in case you have to use them.
+Keep the seed phrase in a safe place in case you have to use it.
 
 The address showing here is your account address. Let’s call this **<your_account_address>**.
 It stores your assets.
@@ -389,9 +389,9 @@ docker exec cyberd cyberd tendermint show-validator
 ```
 
 It will return a bech32 public key. Let’s call it **<your_node_pubkey>**.
-The next step you have to declare a validator candidate.
-The validator candidate is the account which stake the coins.
-So the validator candidate is an account this time.
+The next step is to declare a validator candidate.
+The validator candidate is the account which stakes the coins.
+So, the validator candidate is an account this time.
 To declare a validator candidate, run the following command adjusting stake amount and other fields.
 
 ```bash
@@ -407,7 +407,7 @@ docker exec -ti cyberd cyberdcli tx staking create-validator \
   --chain-id=euler-1
 ```
 
-#### Verify that you validating
+#### Verify that you are validating
 
 ```bash
 docker exec -ti cyberd cyberdcli query staking validators --trust-node=true
@@ -419,7 +419,7 @@ If you see your `<your_node_nickname>` with status `Bonded` and Jailed `false` e
 
 #### jailing
 
-If your validator go under slashing conditions it first go to jail. After this event operator must unjail it manually.
+If your validator goes under slashing conditions it first goes to jail. After this event the operator must unjail it manually.
 
 ```bash
 docker exec -ti cyberd cyberdcli tx slashing unjail --from=<your_key_name> --chain-id=euler-1
@@ -427,7 +427,7 @@ docker exec -ti cyberd cyberdcli tx slashing unjail --from=<your_key_name> --cha
 
 #### Upgrading of validator
 
-Updating is easy as pulling the new docker container and launching it again
+Updating is as easy as pulling the new docker container and launching it again
 
 ```bash
 docker stop cyberd
@@ -441,17 +441,17 @@ docker run -d --name=cyberd --restart always --runtime=nvidia \
  cyberd/cyberd:euler-1
 ```
 
-Don't forget to unjail if you was jailed during update.
+Don't forget to unjail if you were jailed during an update.
 
-The rank calculation has a linear relationship between GPU memory usage and links quantity. A number of links indefinitely increasing, but the potential of vertical scaling is limited.
+The rank calculation has a linear relationship between GPU memory usage and links quantity. A number of links is indefinitely increasing, but the potential of vertical scaling is limited.
 
 Understanding this, we are looking for solutions to calculate the same amount of links with fewer capacity.
 
 # Call to you, validator
 
-For now it is time and opportunity go up against blackbox search engines. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.
+For now it is the time and opportunity to go up against blackbox search engines. Obviously, a cryptoeconomic approach can change beneficiaries in this game effectively removing possible sybil attack vectors and removing the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning a sybil-resistant model will probably lead to orders of magnitude with more predictive results.
 
-As at 2019/02/04 there 9 active validators and 1 jailed. This is enough to support net, but this is not enough for quality grow. We looking for validators. Join us!
+At 2019/02/04 there 9 active validators and 1 jailed. This is enough to support net, but this is not enough for quality growth. We are looking for validators. Join us!
 
 # Connect to us, #fuckgoogle
 
