@@ -5,11 +5,11 @@ title: 'Ultimate cyberd CLI guide. Testnet: Euler-3'
 author: savetheales
 ---
 
-## If something wrong...
+## If something goes wrong...
 
-  First of all I would like to encourage you to use  `--help` feature if you want to get better experience of using cyberdcli. This is really easy way to find all necessary commands with options and flags.
+  First of all I would like to encourage you to use  the `--help` feature if you want to get a better experience of using cyberdcli. This is a really easy way to find all necessary commands with options and flags.
 
-  For example you can enter:
+  For example, you can enter:
 
   ```bash
   docker exec cyberd cyberdcli --help
@@ -45,7 +45,7 @@ author: savetheales
         --trace             print out full stack trace on errors
   ```
 
-  Help feature working as a stairs - you can use it with any command to find available options, subcommands and flags. For example lets explore `query` subcommands:
+  The Help feature works like stairs - you can use it with any command to find available options, subcommands and flags. For example, lets explore `query` subcommands:
 
   ```bash
   docker exec cyberd cyberdcli query --help
@@ -84,13 +84,13 @@ author: savetheales
         --trace             print out full stack trace on errors
   ```
 
-  Alright, lets explore `account` subcommand:
+  Alright, lets explore the `account` subcommand:
 
   ```bash
   docker exec cyberd cyberdcli query account --help
   ```
 
-  Now we see all options available at this subcommands, namely, account address and flags:
+  Now we see all options available at this subcommand, namely, account address and flags:
 
   ```bash
   Usage:
@@ -104,17 +104,17 @@ author: savetheales
   --chain-id=<testnet_chain_id>
   ```
 
-  That it. This is very useful ability for using cyberdcli and troubleshooting.
+  That's it. This is very a useful ability for using cyberdcli and troubleshooting.
 
 ## Glossary
 
-  **Bandwidth** - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:
+  **Bandwidth** - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like this:
 
   `your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100`.
 
-  Messages cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
+  Message cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
 
-  **commission** -  tokens that you've earned with validation. You can take them at any time.
+  **commission** -  tokens that you've earned with validation. You can redeem them at any time.
 
   **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
 
@@ -124,9 +124,9 @@ author: savetheales
 
   **local keystore** - store with keys in you local machine
 
-  **rewards** - tokens that you've earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at **delegator** section.
+  **rewards** - tokens that you've earned with the delegation. To reduce network loads all rewards are stored in a pool. You can take your part of the bounty at any time by commands at **delegator** section.
 
-  **<comission_rate_percentage>** - the commission that validator get for the work. Must be fraction >0 and <=1
+  **<comission_rate_percentage>** - the commission that the validator get for the work. Must be fraction >0 and <=1
 
   **<delegator_address>** - delegator address. Starts with `cyber` most often coinciding with **<key_address>**
 
@@ -136,7 +136,7 @@ author: savetheales
 
   **<operator_address>** - validator address. Starts with `cybervaloper`
 
-  **<shares_percentage>** - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction >0 and <=1
+  **<shares_percentage>** - the part of illiquid tokens that you want to unbond or redelegate. Must be fraction >0 and <=1
 
   **<testnet_chain_id>** - version of testnet.
 
@@ -201,7 +201,7 @@ docker exec cyberd cyberdcli keys show <your_key_name>
 
 ##### Show account balance.
 Return account number, balance, public key in 16 and sequence.
->Don't work if from current account no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238)
+>Doesn't work if from current account no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238)
 
 ```bash
 docker exec cyberd cyberdcli query account <your_key_address>
@@ -285,7 +285,7 @@ docker exec -ti cyberd cyberdcli tx distr withdraw-rewards <operator_address> \
 
 ##### Edit site and description in existing validator account
 
->Will be available at description section
+>Will be available in description section
 
 ```bash
 docker exec -ti cyberd cyberdcli tx staking edit-validator \
