@@ -89,9 +89,9 @@ Here the subcriteria will be defined:
 
 `pre commits` is a ratio between validators pre commits distinct on the block since the first signed block as a hero and amount of blocks since that time. This subcriterion is calculated for the whole hero's lifetime.
 
-`jails` is the amount of `unjail` transactions from the hero. In other words, this subcriterion is about how many times the validator was jailed for some kind of misbehavior. 
+`jails` is the amount of `unjail` transactions from the hero. In other words, this subcriterion is about how many times the validator was jailed for some kind of misbehavior.
 
-`tokens blurring` is the ratio between `delegator_shares` and `staked` tokens. It shows how many tokens validator lost cause of slashing. 
+`tokens blurring` is the ratio between `staked` and `delegator_shares` tokens. It shows how many tokens validator lost cause of slashing. 
 
 The sum of the normed of that subcriteria is formed reliability criteria:
 

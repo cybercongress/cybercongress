@@ -30,7 +30,9 @@ def get_confidence_endorsement(confidence):
 
 
 def get_reliability(pre_commits, jails, staked, delegator_shares):
-    tokens_bluring = delegator_shares / staked
+    tokens_bluring = staked / delegator_shares
+    if tokens_bluring >= 1:
+        tokens_bluring = delegator_shares / staked
     tokens_bluring_points = (tokens_bluring ** 3) * 100
     pre_commits_points = ((pre_commits / 100) ** 2) * 100
     jails_points = (1 / 2 ** jails) * 100
