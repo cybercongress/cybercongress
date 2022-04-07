@@ -7,25 +7,25 @@ author: savetheales
 
 ## Glossary
 
-  **Bandwidth** - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like:
+  **Bandwidth** - The recovered unit of your account. Used to complete transactions in the cyberd blockchain. The amount of your bandwidth calculates like this:
 
   `your_cyb_tokens / all_cyb_tokens_in_cyberd * 2000*1000*100`.
 
-  Messages cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
+  Message cost is `500` (exclude link). Transaction consists of one or more messages `m_1, m_2, ..., m_n`. Transaction cost is `300 + c_1 + c_2 ... + c_n`, where `c_i` - cost of `m_i` message. Full bandwidth regeneration time is 86400 blocks (24 hours)
 
-  **commission** -  tokens that you've earned with validation. You can take them at any time.
+  **commission** -  tokens that you've earned with validation. You can redeem them at any time.
 
   **illiquid tokens** - non-transferable tokens that you've delegated to the validator. Delegation process duration - 1 block. **Unbonding** process, or taking back share - 3 weeks.
 
-  **link** - reference between CID key and CID value. Link message cost is `100*n`, where `n` is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at period from 100 to 200 blocks (from 100 to 200 seconds).
+  **link** - reference between CID key and CID value. Link message cost is `100*n`, where `n` is quantity of links in message. Link finalization time is 1 block. New rank for CIDs of link will be recalculated at the period from 100 to 200 blocks (from 100 to 200 seconds).
 
   **liquid tokens** - transferable tokens in cyberd blockchain
 
   **local keystore** - store with keys in you local machine
 
-  **rewards** - tokens that you've earned with the delegation. To reduce network loads all rewards storing in a pool. You can take your part of bounty at any time by commands at **delegator** section.
+  **rewards** - tokens that you've earned with the delegation. To reduce network loads all rewards are stored in a pool. You can take your part of the bounty at any time by using commands at the **delegator** section.
 
-  **<comission_rate_percentage>** - the commission that validator get for the work. Must be fraction >0 and <=1
+  **<comission_rate_percentage>** - the commission that the validator gets for the work. Must be fraction >0 and <=1
 
   **<delegator_address>** - delegator address. Starts with `cyber` most often coinciding with **<key_address>**
 
@@ -35,7 +35,7 @@ author: savetheales
 
   **<operator_address>** - validator address. Starts with `cybervaloper`
 
-  **<shares_percentage>** - the part of illiquid tokens that you want to unbonding or redelegate. Must be fraction >0 and <=1
+  **<shares_percentage>** - the part of illiquid tokens that you want to unbond or redelegate. Must be fraction >0 and <=1
 
   **<testnet_chain_id>** - version of testnet.
 
@@ -100,7 +100,7 @@ docker exec cyberd cyberdcli keys show <your_key_name>
 
 ##### Show account balance.
 Return account number, balance, public key in 16 and sequence.
->Don't work if from current account no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238)
+>Doesn't work if from current account there are no outgoing transactions. [Issue in progress](https://github.com/cybercongress/cyberd/issues/238)
 
 ```bash
 docker exec cyberd cyberdcli query account <your_key_address>
@@ -187,7 +187,7 @@ docker exec -ti cyberd cyberdcli tx distr withdraw-rewards \
 
 ##### Edit site and description in existing validator account
 
->Will be available at description section
+>Will be available in description section
 
 ```bash
 docker exec -ti cyberd cyberdcli tx staking edit-validator \
@@ -211,7 +211,7 @@ docker exec -ti cyberd cyberdcli query staking redelegations-from <operator_addr
 
 ## Delegator commands
 
-##### Return distribution delegator rewards according current validator
+##### Return distribution delegator rewards according to current validator
 ```bash
 docker exec -ti cyberd cyberdcli query distr rewards <delegator_address> <operator_address>
 ```
