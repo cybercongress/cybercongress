@@ -7,11 +7,11 @@ author: litvintech, serejandmyself
 
 ## What is it good for?
 
-[euler\~Foundation](https://mainnet.aragon.org/#/eulerfoundation/) is a community-powered DAO and a DeVC backing the [Cyber protocol](https://github.com/cybercongress/go-cyber). It is the predecessor of [cyber\~Foundation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberfoundation) (the mainnet DAO-DeVC). Taking into consideration that the Euler network series are an existing product and have a [community](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles-or-how-to-help-cyber-now) of their own, it is safe to say that the euler\~Foundation is here to stay.
+[euler\~Foundation](https://mainnet.aragon.org/#/eulerfoundation/) is a community-powered DAO and a DeVC backing the [Cyber protocol](https://github.com/cybercongress/go-cyber). It is the predecessor of the [cyber\~Foundation](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberfoundation) (the mainnet DAO-DeVC). Taking into consideration that the Euler network series is an existing product and has a [community](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#public-profiles-or-how-to-help-cyber-now) of their own, it is safe to say that the euler\~Foundation is here to stay.
 
-The role of the Foundation is to bootstrap a well-governed DAO and a decentralized fund, without bingo BS, CEO's and jurisdictions. It is managed and run by its token holders and charged with its own ETHs. We at cyber\~Congress, believe that the Foundation will drive the future growth of Cyber’s ecosystem and can provide cutting-edge, decentralized instruments for its community.
+The role of the Foundation is to bootstrap a well-governed DAO and a decentralized fund, without bingo BS, CEO's and jurisdictions. It is managed and run by its token holders and charged with its own ETHs. We at cyber\~Congress believe that the Foundation will drive the future growth of Cyber’s ecosystem and can provide cutting-edge, decentralized instruments for its community.
 
-In other words, think money separated from the state. Where the analogue of a decentralised state is the on-chain governance of the sovereign Cyber network with its own utility token CYB. CYB provides access to the knowledge graph, the semantics core, DeMa (decentralized marketing), staking, transacting, etc. CYB also gives access to Cybers community pool. However, the big dough (i.e., the donated ETHs) is managed by a DeVC or euler\~Foundation. It is an Aragon-bred DAO. And we believe that this type of architecture will help to decentralize governance even further.
+In other words, think money separated from the state, where the analogue of a decentralised state is the on-chain governance of the sovereign Cyber network with its own utility token CYB. CYB provides access to the knowledge graph, the semantics core, DeMa (decentralized marketing), staking, transacting, etc. CYB also gives access to Cybers community pool. However, the big dough (i.e., the donated ETHs) is managed by a DeVC or euler\~Foundation. It is an Aragon-bred DAO. We believe that this type of architecture will help to decentralize governance even further.
 
 ## Why do you need a predecessor to cyber~Foundation?
 
@@ -19,17 +19,17 @@ During the series of Euler's test networks and its latest release, Euler-6, the 
 
 __What are the main mechanics of the euler~Foundation DAO? How is it connected to Cyber and to the current incentivized testnet, Euler-6?__
 
-1.  euler\~Foundation provided access to the [test\~Auction app](https://cyber.page/gol/faucet) (the app is called cyber~Auction, in order to separate meaning, during testing, we will call it test~Auction), which allows acquiring ERC-20, GOL tokens in exchange for ETH
+1.  euler\~Foundation provided access to the [test\~Auction app](https://cyber.page/gol/faucet) (the app is called cyber~Auction, in order to separate meaning during testing, we will call it test~Auction), which allows for acquisition of ERC-20, GOL tokens in exchange for ETH
     
 2.  All of the donated ETH went under [the management](https://mainnet.aragon.org/#/eulerfoundation/0x6ea838ca600e05164b7e7c053b4cf570cda9d352/) of the euler\~Foundation DAO
     
-3.  GOL holders were able to vest their tokens (lock them for transfer until a given time in the future) and claim a 1-to-1 amount of EULs in Cyber sovereign blockchain, with the help of the [cyber\~Vesting app](https://github.com/cybercongress/aragon-vesting-app)
+3.  GOL holders were able to vest their tokens (lock them for transfer until a given time in the future) and claim a 1-to-1 amount of EULs in the Cyber sovereign blockchain, with the help of the [cyber\~Vesting app](https://github.com/cybercongress/aragon-vesting-app)
     
 4.  GOL holders (with or without vested tokens) can participate in the Foundation's governance process and gain access to the donated ETH
     
-5.  The most active enthusiasts and community builders may [join the cyber\~Evangelism program](https://cybercongress.ai/post/obep/) and begin to build their communities, already bringing extra value to Cyber and its adoption
+5.  The most active enthusiasts and community builders may [join the cyber\~Evangelism program](https://cybercongress.ai/post/obep/) and begin to build their communities, already adding value to Cyber and its adoption
    
-__The technicalities of the working flow__
+__The technicalities of the work flow__
   
 cyber\~Congress developed a basic work flow with which we have launched the Foundation. This process [was documented](https://github.com/cybercongress/cyber-foundation/blob/master/euler-foundation/foundation.md) in the launch ceremony for transparency and historical proof. Here is a summary of the flow:
 
@@ -37,21 +37,21 @@ cyber\~Congress developed a basic work flow with which we have launched the Foun
     
 2.  Participants of the test\~Auction acquired tokens in every (desired) round by making bids. As each round came to an end, the participants could claim the tokens they won (from that particular round) to their account or contract (on the Ethereum network)
     
-3.  From day 0 (of the auction) untill the end of the vesting period, any holder could lock their tokens (GOL) for transfer and claim Cyber's testnet tokens, EULs
+3.  From day 0 (of the auction) until the end of the vesting period, any holder could lock their tokens (GOL) for transfer and claim Cyber's testnet tokens, EULs
     
 4.  After the vesting period was over, the possibility to claim EUL tokens (via vesting) ceased to exist. From this moment, all of the vested tokens became transferable
     
-5.  Before the vesting period came to an end, the tokens of the Foundation had 2 values: governance of the DAO and claiming EULs (Cybers test network token). It is vital to remember that to gain access to the donated ETH one must be a GOL holder
+5.  Before the vesting period came to an end, the tokens of the Foundation had 2 values: governance of the DAO and claiming EULs (Cyber's test network token). It is vital to remember that to gain access to the donated ETH one must be a GOL holder
     
 6.  All the collected ETH during the test\~Auction could be transferred to the balance of the Foundation's agent, hence making the donated funds liquid from the beginning of the auction
 
-Please note that this flow applies to both, the test\~Auction that was held and the future [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) (which will attract ETH for cyber\~Foudnation).
+Please note that this flow applies to both the test\~Auction that was held and the future [cyber\~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction) (which will attract ETH for the cyber\~Foundation).
  
-For full information about the launch of euler~Foundation, we recommend to research this [repository](https://github.com/cybercongress/cyber-foundation/).  
+For full information about the launch of the euler~Foundation, we recommend you research this [repository](https://github.com/cybercongress/cyber-foundation/).  
   
 __The statistics__
 
-1.  euler\~Foundation was deployed on the 10th of April, and the test\~Auction started on the 14th of April. There were a total of 50 rounds
+1.  The euler\~Foundation was deployed on the 10th of April, and the test\~Auction started on the 14th of April. There were a total of 50 rounds
     
 2.  The so-called `round-zero` lasted for 10 days and had 1 TGOL* allocated for distribution. Other rounds lasted for 23 hours each and had 122.4 GGOL* (0.1224 TGOL) for distribution
     
@@ -69,7 +69,7 @@ Let's take a look at the statistics of the auction rounds:
 
 ![euler-foundation-contribution](euler-foundation-contribution.png)
 
-We can see higher interest at the start of the Auction. 2 days of price discovery in the beginning and active bidding with a small hype towards the end of the Auction.
+We can see higher interest at the start of the Auction; 2 days of price discovery in the beginning and active bidding with a small hype towards the end of the Auction.
 
 To gain more understanding of the process, let's take a look at the bidding charts:
 
@@ -169,16 +169,16 @@ The obvious question that anyone should ask, is what comes next? The obvious ans
 
 4A) The second part of the governance is for GOL holders. As GOLs are ERC-20 tokens and euler\~Foundation is an Aragon-based DAO, the governance process happens on Ethereum. This part gives the participants the possibility to govern the donated ETH
 
-5) euler\~Foundatin is the cornerstone of Cyber. It is up to it to make Cyber `a thing` on the blockchain market and in the search realm of the internet via collective decisions without any CEOs and\or jurisdictions (please note that no legal foundations backing either, Euler and\or Cyber Foundation exist. There are also non of this BS in the network itself, everything is managed by the users, DAOs, economics, and code)
+5) The euler\~Foundation is the cornerstone of Cyber. It is up to it to make Cyber `a thing` on the blockchain market and in the search realm of the internet via collective decisions without any CEOs and\or jurisdictions (please note that no legal foundations backing either Euler and\or Cyber Foundation exist. There is also none of this BS in the network itself, everything is managed by the users, DAOs, economics, and code)
 
-6) Another part of the euler\~Foundation is its ability to have apps. Like the evangelist app (Cybers ambassador program). This lets you use web3 mechanics, [apply for the ambassador program](https://cyber.page/evangelism), and earn rewards from the Foundation
+6) Another part of the euler\~Foundation is its ability to have apps, like the evangelist app (Cybers ambassador program). This lets you use web3 mechanics, [apply for the ambassador program](https://cyber.page/evangelism), and earn rewards from the Foundation
 
 ## Call to action
 
-In essence, all of this means that right now, GOL token holders are in charge of the donated ETH to the euler\~Foundation. It is now up to them to [kick off](https://mainnet.aragon.org/#/eulerfoundation/0x47cab484d85ff17c7849d0c198b5313db672f4ce/) the decision process of what to do with the modest donated sum. Should it be invested to gain more ETH? Should it be spent on security? Should it be given away to community members that have blue eyes? And so on.
+All of this means that right now, GOL token holders are in charge of the donated ETH to the euler\~Foundation. It is now up to them to [kick off](https://mainnet.aragon.org/#/eulerfoundation/0x47cab484d85ff17c7849d0c198b5313db672f4ce/) the decision process of what to do with the modest donated sum. Should it be invested to gain more ETH? Should it be spent on security? Should it be given away to community members that have blue eyes? And so on.
 
 We call upon GOL holders to use [Aragon's UI](https://mainnet.aragon.org/#/eulerfoundation/0x47cab484d85ff17c7849d0c198b5313db672f4ce/), make proposals, think of ideas and to start making search great again!
 
-Come and explorer euler\~Foundation on Aragon here: [https://mainnet.aragon.org/#/eulerfoundation/](https://mainnet.aragon.org/#/eulerfoundation/)
+Come and explorer the euler\~Foundation on Aragon here: [https://mainnet.aragon.org/#/eulerfoundation/](https://mainnet.aragon.org/#/eulerfoundation/)
 
 Connect your ETH account, which has GOL tokens, and use the UI to create proposals and vote on them. Check out the finance and the tokens tabs. Explore the surroundings. Be active! There is no legal entity here, but only the agent of the DAO, its balances, and the token holders. It is now you who is in charge. Let's make decentralization decentralized!
