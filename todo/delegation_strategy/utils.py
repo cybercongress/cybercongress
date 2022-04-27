@@ -9,7 +9,7 @@ from cyberpy._wallet import address_to_address
 from config import LCD_API, GRAPHQL_API, HEADERS
 from calculations import get_cost_optimization, get_cost_optimization_endorsement, get_decentralization,\
     get_decentralization_endorsement, get_confidence, get_confidence_endorsement, get_reliability,\
-    get_reliability_endorsement, get_superintelligence, get_superintelligence_endorsement
+    get_reliability_endorsement, get_superintelligence, get_superintelligence_endorsement, get_possible_cost_strategy
 
 
 
@@ -36,7 +36,7 @@ def get_precommits():
                   }
                 }'''
     result = run_query(query)['data']['pre_commits_total']
-    res =  [(x['consensus_pubkey'], x['pre_commits']) for x in result]
+    res = [(x['consensus_pubkey'], x['pre_commits']) for x in result]
     return pd.DataFrame(res, columns=['consensus_pubkey', 'pre_commits'])
 
 
@@ -52,6 +52,7 @@ def get_validators():
             int(validator['tokens']),
             float(validator['delegator_shares']),
             float(validator['commission']['commission_rates']['rate']),
+            float(validator['commission']['commission_rates']['max_change_rate']),
             get_self_delegation(address_to_address(validator['operator_address'], 'bostrom'), validator['operator_address']),
             get_jailed_times(validator['operator_address'])
         ) for validator in tqdm(res)]
@@ -63,6 +64,7 @@ def get_validators():
         'staked',
         'delegator_shares',
         'greed',
+        'max_change_rate',
         'ownership',
         'jailed_times'
     ])
@@ -108,7 +110,11 @@ def get_power(df):
     power = []
     for index, row in tqdm(df.iterrows()):
         url = LCD_API + f"/cosmos/bank/v1beta1/balances/{row['address']}"
-        balances = requests.get(url).json()['balances']
+        try:
+            balances = requests.get(url).json()['balances']
+        except KeyError as e:
+            print(e, url)
+            balances = []
         milliampere = list(filter(lambda balance: balance['denom'] == 'milliampere', balances))
         millivolt = list(filter(lambda balance: balance['denom'] == 'millivolt', balances))
         if milliampere == [] or millivolt == []:
@@ -125,12 +131,14 @@ def processor():
     validators_df = get_validators()
     precommits_df = get_precommits()
     result_df = validators_df.merge(precommits_df, on='consensus_pubkey', how='outer')
+    result_df = result_df.dropna(subset=['moniker'])
     result_df['pre_commits'] = result_df['pre_commits'].fillna(0.0)
     result_df['power'] = get_power(result_df)
     result_df['validator_rank'] = result_df['staked'].rank(ascending=False)
     result_df['cost_optimization'] = result_df.apply(lambda x: get_cost_optimization(x['greed']), axis=1)
+    result_df['cost_optimization_strategy'] = result_df.apply(lambda x: get_possible_cost_strategy(x['max_change_rate']), axis=1)
     result_df['cost_endorsement'] = result_df.apply(
-        lambda x: get_cost_optimization_endorsement(x['cost_optimization'], result_df['cost_optimization'].sum()), axis=1)
+        lambda x: get_cost_optimization_endorsement(x['cost_optimization'], result_df['cost_optimization'].sum(), x['cost_optimization_strategy'], result_df['cost_optimization_strategy'].sum()), axis=1)
     result_df['decentralization'] = result_df.apply(
         lambda x: get_decentralization(x['validator_rank'], result_df['validator_rank'].sum()), axis=1)
     result_df['decentralization_endorsement'] = result_df.apply(

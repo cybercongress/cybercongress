@@ -21,14 +21,22 @@ ALLOCATION = 92_000_000_000_000
 Each hero decides which commission he wants to grab from their delegators. This mechanics provides resources for heroes to maintain their nodes in a high-reliability way. But, some heroes skip this simple rule and keep zero-fee validators online for some kind of advertisement. On the other hand, some of the validators increase their commission rates up to 100%. Both of these cases are not encouraged. After some investigation and experience with other networks, the optimal parameter was found. This is 5% of the commission rate. This way, the distribution function for cost endorsement will be:
 
 ```python
-def get_cost_optimization_endorsement(cost_optimization, cost_optimization_sum):
-    return int((cost_optimization / cost_optimization_sum) * ALLOCATION * COST_OPTIMIZATION)
+def get_cost_optimization_endorsement(
+        cost_optimization,
+        cost_optimization_sum,
+        cost_strategy,
+        cost_strategy_sum
+        ):
+    cost_optimization_share = cost_optimization / cost_optimization_sum
+    cost_strategy_share = cost_strategy / cost_strategy_sum
+    return int((cost_optimization_share + cost_strategy_share) * 0.5 * ALLOCATION * COST_OPTIMIZATION)
 ```
 
 where:
 `COST_OPTIMIZATION` = 0.3
-`cost_optimization_sum` is the sum of `cost_optimization` for all heroes
-and `cost_optimization` is :
+`cost_optimization_sum` is the sum of `cost_optimization` for all heroes,
+`cost_strategy_sum` is the sum of `cost_strategy` for all heroes
+`cost_optimization` is:
 
 ```python
 def get_cost_optimization(commission: float):
@@ -37,8 +45,14 @@ def get_cost_optimization(commission: float):
     else:
         return int(math.ceil(1 / (commission ** 2)))
 ```
-
 That function is linear rising from zero to 400 points (the maximum for that criterion) and then falling as reverse quadratic.
+
+The `cost_strategy` is :
+
+```python
+def get_possible_cost_strategy(commission_rate_change: float):
+    return 101.01 - 101.01 * commission_rate_change
+```
 
 ***Decentralization.***
 

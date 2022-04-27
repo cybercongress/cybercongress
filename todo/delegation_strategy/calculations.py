@@ -9,8 +9,19 @@ def get_cost_optimization(commission: float):
         return int(math.ceil(1 / (commission ** 2)))
 
 
-def get_cost_optimization_endorsement(cost_optimization, cost_optimization_sum):
-    return int((cost_optimization / cost_optimization_sum) * ALLOCATION * COST_OPTIMIZATION)
+def get_possible_cost_strategy(commission_rate_change: float):
+    return 101.01 - 101.01 * commission_rate_change
+
+
+def get_cost_optimization_endorsement(
+        cost_optimization,
+        cost_optimization_sum,
+        cost_strategy,
+        cost_strategy_sum
+        ):
+    cost_optimization_share = cost_optimization / cost_optimization_sum
+    cost_strategy_share = cost_strategy / cost_strategy_sum
+    return int((cost_optimization_share + cost_strategy_share) * 0.5 * ALLOCATION * COST_OPTIMIZATION)
 
 
 def get_decentralization(rank, sum_rank):
