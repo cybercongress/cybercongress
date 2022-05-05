@@ -5,13 +5,13 @@ title: 'Decentralization must be decentralized'
 author: savetheales
 ---
 
-January 3, 2019, we've launched first public testnet Euler-3. Since this time we have 3 relaunches and much more we'll has in the future. Thanks to our testers and validators we're finding and fixing new bugs every day. But now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.
+January 3, 2019, we've launched the first public testnet, Euler-3. Since then we have had 3 relaunches and much more we'll have in the future. Thanks to our testers and validators we're finding and fixing new bugs every day. Now one fundamental and critical bug is not fixed yet. Currently, we have just 2 seed nodes and they able to upload data and provide connection to other nodes. Unfortunately, this is not about decentralization.
 
 An obvious problem of decentralization is that no entity has a global vision of the system, and there is no central authority to direct nodes in making optimal decisions with regard to software updates, routing, or solving consensus. This makes the availability of a decentralized network more difficult to maintain, a factor significant enough to contribute to the failure of a system.
 
-By the way, a huge part of disconnections and, as result, validators jailing happens by this reason.
+By the way, it's a huge part of disconnections, and as a result, validators jailing happens for this reason.
 
-Cyberd cli can’t automatically configure your router to open port `26656`, you will need to manually configure your router. We’ve can't make the following instructions to cover all router models; if you need specific help with your router, please ask for help on our [devChat](https://t.me/fuckgoogle).
+Cyberd cli can’t automatically configure your router to open port `26656`, you will need to manually configure your router. We can't make the following instructions to cover all router models; if you need specific help with your router, please ask for help in our [devChat](https://t.me/fuckgoogle).
 
 Enabling inbound connections requires two steps:
 
@@ -82,6 +82,6 @@ Restart cyberd container.
 
 ---
 
-We call to you, validators, with a proposal to forwarding port `26656` and make you validator-nodes available to the incoming connection.
+We call on you, validators, with a proposal to forwarding port `26656`, and make your validator-nodes available to the incoming connection.
 
-Unfortunately, we can't provide all guides for port forwarding because of they different for each router. But if you faced on with some troubles feel free to contact us in our [devChat](https://t.me/fuckgoogle).
+Unfortunately, we can't provide all guides for port forwarding because they differ for each router. If you are faced with some troubles feel free to contact us in our [devChat](https://t.me/fuckgoogle).
