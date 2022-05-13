@@ -1,0 +1,47 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper1vrym7t34gs9t2dkd8z849zcymkj54kgqxm2khp",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "817868420862"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper1ngymhfhty76w8r6e8dlyvj68g5zfm09q2p7dmn",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "776542226249"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper13hepw93y8mjcew7mfra5z7ju7k658534lh5rkk",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "755880079102"
+                }
+            }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [],
+        "fee": {
+            "amount": [],
+            "gas_limit": "1000000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": []
+}

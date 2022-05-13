@@ -3,62 +3,50 @@ from config import ALLOCATION, COST_OPTIMIZATION, DECENTRALIZATION, CONFIDENCE, 
 
 
 def get_cost_optimization(commission: float):
-    if commission <= 0.05:
-        return int(8000 * commission)
+    if 0.01 <= commission <= 0.10:
+        return 1
     else:
-        return int(math.ceil(1 / (commission ** 2)))
-
-
-def get_possible_cost_strategy(commission_rate_change: float):
-    return 101.01 - 101.01 * commission_rate_change
+        return 0
 
 
 def get_cost_optimization_endorsement(
         cost_optimization,
         cost_optimization_sum,
-        cost_strategy,
-        cost_strategy_sum
         ):
-    cost_optimization_share = cost_optimization / cost_optimization_sum
-    cost_strategy_share = cost_strategy / cost_strategy_sum
-    return int((cost_optimization_share + cost_strategy_share) * 0.5 * ALLOCATION * COST_OPTIMIZATION)
+    return int(cost_optimization / cost_optimization_sum * ALLOCATION * COST_OPTIMIZATION)
 
 
-def get_decentralization(rank, sum_rank):
-    return rank / sum_rank
+def get_decentralization(rank):
+    return rank
 
 
-def get_decentralization_endorsement(rank_share):
-    return int(rank_share * ALLOCATION * DECENTRALIZATION)
+def get_decentralization_endorsement(decentralization, decentralization_sum):
+    return int((decentralization / decentralization_sum) * ALLOCATION * DECENTRALIZATION)
 
 
-def get_confidence(ownership, ownership_sum):
-    return ownership / ownership_sum
+def get_confidence(ownership):
+    return 1 - (1 / (1e-32 ** (-ownership)))
 
 
-def get_confidence_endorsement(confidence):
-    return int(confidence * ALLOCATION * CONFIDENCE)
+def get_confidence_endorsement(confidence, confidence_sum):
+    return int((confidence / confidence_sum) * ALLOCATION * CONFIDENCE)
 
 
-def get_reliability(pre_commits, jails, staked, delegator_shares):
+def get_reliability(jails, staked, delegator_shares):
     tokens_bluring = staked / delegator_shares
-    if tokens_bluring >= 1:
-        tokens_bluring = delegator_shares / staked
-    tokens_bluring_points = (tokens_bluring ** 3) * 100
-    pre_commits_points = ((pre_commits / 100) ** 2) * 100
-    jails_points = (1 / 2 ** jails) * 100
-    if jails_points < 0.0009765625:
-        jails_points = 0.0
-    return tokens_bluring_points + pre_commits_points + jails_points
+    if tokens_bluring == 1 and jails == 0:
+        return 3
+    else:
+        return 1 / 2 ** jails + tokens_bluring ** 2
 
 
 def get_reliability_endorsement(reliability, reliability_sum):
     return int((reliability / reliability_sum) * ALLOCATION * RELIABILITY)
 
 
-def get_superintelligence(power, power_sum):
-    return power / power_sum
+def get_superintelligence(power):
+    return math.log10(power + 1)
 
 
-def get_superintelligence_endorsement(superintelligence):
-    return int(superintelligence * ALLOCATION * SUPERINTELLIGENCE)
+def get_superintelligence_endorsement(superintelligence, superintelligence_sum):
+    return int((superintelligence / superintelligence_sum) * ALLOCATION * SUPERINTELLIGENCE)
