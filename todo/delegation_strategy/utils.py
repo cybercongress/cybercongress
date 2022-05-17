@@ -125,6 +125,7 @@ def processor():
                          validators_df['superintelligence_endorsement']
     validators_df = validators_df.sort_values(by=['total'], ascending=False).reset_index(drop=True)
     validators_df.to_csv('./delegation_strategy.csv', index=False)
+    validators_df = validators_df.sort_values(by=['total']).reset_index(drop=True)
     try:
         shutil.rmtree('./txs')
     except OSError as e:
