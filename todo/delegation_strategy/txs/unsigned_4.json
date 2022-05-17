@@ -4,28 +4,28 @@
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1g65rmjkeuy5rywx04s4fvwfylmlz98vq4gzln5",
+                "validator_address": "bostromvaloper1v46pz6ddetfc3tnvdr28ss0l48jhazgytkxwga",
                 "amount": {
                     "denom": "boot",
-                    "amount": "993815301378"
+                    "amount": "864578751575"
                 }
             },
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1ch4gcnqtzfd6l2kq0qdw7g9hnd09dg34pc4d8n",
+                "validator_address": "bostromvaloper17mzu2rmfnr3ge0r8l8d4w62fk39v9t5s8f7asf",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1003000716113"
+                    "amount": "866223326828"
                 }
             },
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1n3mhyp9fvcmuu8l0q8qvjy07x0rql8q4y57nyp",
+                "validator_address": "bostromvaloper13er6djw40xer2syx4qfw3fcl9fantzs39955ck",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1021580060120"
+                    "amount": "878866761638"
                 }
             }
         ],

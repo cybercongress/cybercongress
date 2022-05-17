@@ -4,7 +4,7 @@ from config import ALLOCATION, COST_OPTIMIZATION, DECENTRALIZATION, CONFIDENCE, 
 
 def get_cost_optimization(commission: float):
     if 0.01 <= commission <= 0.10:
-        return 1
+        return 1 / (commission**2)
     else:
         return 0
 

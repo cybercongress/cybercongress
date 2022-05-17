@@ -53,12 +53,12 @@ where:
 ```python
 def get_cost_optimization(commission: float):
     if 0.01 <= commission <= 0.10:
-        return 1
+        return 1 / (commission**2)
     else:
         return 0
 ```
 
-This is a very easy function that gives a hero 1 point if his commission rate is between 1% and 10% and gives 0 points otherwise. 
+This is a very easy function that gives a hero `1 / (commission**2)` if his commission rate is between 1% and 10% and gives 0 points otherwise. 
 
 ***Decentralization.***
 

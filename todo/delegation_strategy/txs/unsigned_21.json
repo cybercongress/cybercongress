@@ -7,7 +7,7 @@
                 "validator_address": "bostromvaloper1s6v5ragv9gg3sq7j3aeqtyy82uaxv3y0vd9g8y",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1554080502017"
+                    "amount": "1649294676015"
                 }
             },
             {
@@ -16,16 +16,16 @@
                 "validator_address": "bostromvaloper1369tzcr8a79h3ryd9kl0kneurwssmmsq7ur6gf",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1559594436689"
+                    "amount": "1654808610687"
                 }
             },
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1402rpwdquxxkgvl740f6w69l65eau5vkcztud9",
+                "validator_address": "bostromvaloper15zs0cjct43xs4z4sesxcrynar5mxm82fh73g0j",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1586698982790"
+                    "amount": "1706309054321"
                 }
             }
         ],

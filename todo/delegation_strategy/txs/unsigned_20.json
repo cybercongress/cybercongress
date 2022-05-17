@@ -7,7 +7,7 @@
                 "validator_address": "bostromvaloper1qkw8dtdansmvayk2jxfkpel9q4d20rvf05lk94",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1494625293919"
+                    "amount": "1592460132103"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "validator_address": "bostromvaloper1r798qg4dk8ffwaexz996e0anaz4x7yvqcuyel4",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1515481026536"
+                    "amount": "1610695233330"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "validator_address": "bostromvaloper1lnkg57t7mvg5mcl7kdkevtgr9wlf6f9qnmq9q4",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1524499313583"
+                    "amount": "1620090324494"
                 }
             }
         ],

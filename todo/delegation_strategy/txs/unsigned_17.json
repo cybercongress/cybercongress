@@ -4,28 +4,28 @@
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper1a37z37ce2qvnvvadky9y7m09qwcz3k0prapt73",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "1381643804270"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper1ahqvg92jdt09dkfwwct0frg0dh2euafktp88qx",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "1407829736201"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
                 "validator_address": "bostromvaloper1nmr4flrrzrka3lanfwxklunsapr92fqqvewuaj",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1338344557334"
-                }
-            },
-            {
-                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
-                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1fvh29xlzzatu390p3lpe7uhdsl7dpffct9pjqr",
-                "amount": {
-                    "denom": "boot",
-                    "amount": "1352468000259"
-                }
-            },
-            {
-                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
-                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1wm4026rxqcrkh09k806m6y4lys942etxvz4a4p",
-                "amount": {
-                    "denom": "boot",
-                    "amount": "1391582327059"
+                    "amount": "1437047356456"
                 }
             }
         ],
