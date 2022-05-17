@@ -34,7 +34,7 @@ MSGS_IN_TX = 3 # maximum for Ledger nano x with cybercli
 DELEGATOR_ADDRESS = 'bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw'
 ```
 
-***Cost optimization.***
+## Cost optimization
 
 Each hero decides which commission he wants to grab from their delegators. This mechanics provides resources for heroes to maintain their nodes in a high-reliability way. But, some heroes skip this simple rule and keep zero-fee validators online for some kind of advertisement. On the other hand, some of the validators increase their commission rates up to 100%. Both of these cases are not encouraged. The distribution function for cost endorsement will be:
 
@@ -60,7 +60,7 @@ def get_cost_optimization(commission: float):
 
 This is a very easy function that gives a hero 1 point if his commission rate is between 1% and 10% and gives 0 points otherwise. 
 
-***Decentralization.***
+## Decentralization
 
 This criterion follows the next goals:
 
@@ -82,7 +82,7 @@ def get_decentralization_endorsement(decentralization, decentralization_sum):
     return int((decentralization / decentralization_sum) * ALLOCATION * DECENTRALIZATION)
 ```
 
-***Confidence.***
+## Confidence
 
 The hero's confidence shows the relationship between the tokens that the hero has delegated to himself and the tokens that are delegated to him by the community. If the hero is not ready to put tokens on the validator he supports, then his confidence level is low. That is why only those heroes who believe in themselves will be encouraged.
 
@@ -98,7 +98,7 @@ def get_confidence_endorsement(confidence, confidence_sum):
     return int((confidence / confidence_sum) * ALLOCATION * CONFIDENCE)
 ```
 
-***Superintelligence.***
+## Superintelligence
 
 This criterion shows the power of the hero or the product of Volts and Amperes owned by the validator.
 
@@ -116,7 +116,7 @@ def get_superintelligence_endorsement(superintelligence, superintelligence_sum):
     return int((superintelligence / superintelligence_sum) * ALLOCATION * SUPERINTELLIGENCE)
 ```
 
-***Reliability.***
+## Reliability
 
 The most complex criterion. It should help to understand the sustainability of the hero node set-up.
 
