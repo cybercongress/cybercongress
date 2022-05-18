@@ -1,12 +1,12 @@
 # Delegation strategy for cyber~congress
 
-That toolkit provides a delegation strategy for `bostrom` heroes from cyber~congress multisig.
+The toolkit provides a delegation strategy for `bostrom` heroes from cyber~congress multisig.
 
-The aim is to build strong heroes set by endorsing their stake with cyber\~congress power. According to cyber\~congress values, decentralization, confidence, reliability, and superintelligence will be encouraged. Also, additional delegations from cyber~congress will help cover maintaining validators running costs.
+The aim is to build a strong hero set by endorsing their stake with cyber\~congress power. According to cyber\~congress values, decentralization, confidence, reliability, and superintelligence will be encouraged. Also, additional delegations from cyber~congress will help cover maintainance of validators running costs.
 
-That toolkit should help distribute multisig tokens in the correct way and to automatize the delegation/redelegation/unbonding processes.
+The toolkit should help distribute multisig tokens in the correct way and to automatize the delegation/redelegation/unbonding processes.
 
-The result of that tool execution is a pivot table with all calculations in detail and unsigned transaction files for signing and broadcasting.
+The result of the tool execution is a pivot table with all calculations in detail and unsigned transaction files for signing and broadcasting.
 
 ## Criteria
 
@@ -36,7 +36,7 @@ DELEGATOR_ADDRESS = 'bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw'
 
 ## Cost optimization
 
-Each hero decides which commission he wants to grab from their delegators. This mechanics provides resources for heroes to maintain their nodes in a high-reliability way. But, some heroes skip this simple rule and keep zero-fee validators online for some kind of advertisement. On the other hand, some of the validators increase their commission rates up to 100%. Both of these cases are not encouraged. The distribution function for cost endorsement will be:
+Each hero decides which commission he wants to grab from their delegators. The mechanics provides resources for heroes to maintain their nodes in a highly reliable way. Some heroes skip this simple rule and keep zero-fee validators online for some kind of advertisement. On the other hand, some of the validators increase their commission rates up to 100%. Both of these cases are not encouraged. The distribution function for cost endorsement will be:
 
 ```python
 def get_cost_optimization_endorsement(
@@ -62,20 +62,20 @@ This is a very easy function that gives a hero `1 / (commission**2)` if his comm
 
 ## Decentralization
 
-This criterion follows the next goals:
+This criterion precedes the following goals:
 
 - Increasing the number of heroes that can halt the network
 - Increasing the number of heroes that can fork the network
-- Supporting validators in the long tail, including set of inactive heroes
+- Supporting validators in the long tail, including sets of inactive heroes
 
-The idea is ranking validators descending by staked tokens and give them weighted points:
+The idea is to rank validators descending by staked tokens and to give them weighted points:
 
 ```python
 def get_decentralization(rank):
     return rank
 ```
 
-And then distribute tokens:
+Then, distribute tokens:
 
 ```python
 def get_decentralization_endorsement(decentralization, decentralization_sum):
@@ -118,7 +118,7 @@ def get_superintelligence_endorsement(superintelligence, superintelligence_sum):
 
 ## Reliability
 
-The most complex criterion. It should help to understand the sustainability of the hero node set-up.
+The most complex criteria. It should help to understand the sustainability of the hero node set-up.
 
 Here the subcriteria will be defined:
 
@@ -127,9 +127,9 @@ Here the subcriteria will be defined:
 
 `jails` is the amount of `unjail` transactions from the hero. In other words, this subcriterion is about how many times the validator was jailed for some kind of misbehavior in the `JAILED_WINDOW`.
 
-`tokens blurring` is the ratio between `staked` and `delegator_shares` tokens. It shows how many tokens validator lost cause of slashing. 
+`tokens blurring` is the ratio between `staked` and `delegator_shares` tokens. It shows how many tokens a validator lost because of slashing. 
 
-The sum of the normed of that subcriteria is formed reliability criteria:
+The sum of the normed of that subcriteria forms reliability criteria:
 
 ```python
 def get_reliability(jails, staked, delegator_shares):
@@ -140,7 +140,7 @@ def get_reliability(jails, staked, delegator_shares):
         return 1 / 2 ** jails + tokens_bluring ** 2
 ```
 
-The tokens loss is very serious misconduct. If the validator didn't lose anything the `tokens_bluring` will be equal to 1. Also, if the amount of `jails` during the `JAILED_WINDOW` is `0` validator gets 3 points. Otherwise halving function for jails and square for `tokens_bluring` are using.
+The token loss is very serious misconduct. If the validator didn't lose anything, the `tokens_blurring` will be equal to 1. Also, if the amount of `jails` during the `JAILED_WINDOW` is `0`, validator gets 3 points. Otherwise the halving function for jails and square for `tokens_blurring` are using.
 
 The distribution is:
 
@@ -151,7 +151,7 @@ def get_reliability_endorsement(reliability, reliability_sum):
 
 ## Black list
 
-In that list heroes who announced of quitting are placed.
+In that list heroes who are quitting will be placed.
 
 ## Usage (python3 required)
 
@@ -179,7 +179,7 @@ The result of the script execution is .csv file with pivot table
 
 3. Kicks off jailed validators
 
-4. Kicks off validators with namber of jails in `JAILED_WINDOW` more than `NUMBER_OF_JAILS_FOR_KICKOFF`.
+4. Kicks off validators with number of jails in `JAILED_WINDOW` more than `NUMBER_OF_JAILS_FOR_KICKOFF`.
 
 5. Kicks off heroes from the `BLACK_LIST`
 
@@ -191,4 +191,4 @@ The result of the script execution is .csv file with pivot table
 
 ## Example calculations
 
-[here](./delegation_strategy.csv) the result of script execition for 2022-05-17
+[here](./delegation_strategy.csv) the result of script execution for 2022-05-17
