@@ -191,4 +191,4 @@ The result of the script execution is .csv file with pivot table
 
 ## Example calculations
 
-[here](./delegation_strategy.csv) the result of script execution for 2022-05-17
+[here](./delegation_strategy.csv) is the result of script execution for 2022-05-17
