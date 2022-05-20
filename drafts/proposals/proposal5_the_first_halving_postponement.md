@@ -1,4 +1,4 @@
-title: The first halving postponement
+title: The First Halving Postponement
 
 description: This is signaling proposal for a manual halving_period parameter shifting in the code. The postponing of the halving_period for minting Voltes and Amperes is proposed.\n\n
 
