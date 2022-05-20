@@ -1,6 +1,6 @@
 {
-    "title": "Goal bonded mint param decreasing",
-    "description": "After more than half a year the network inflation rate change has speed-up and the inflation rate is more than 12%. This rate is blurring gift, foundations, and community pool shares. One of the best solutions is to decrease the Goal Bonded mint parameter. By decreasing the Goal Bonded param the inflation rate change will slow down and finally change the sign after the Goal bonded param reaches. With the Gift tokens releasing the increasing of the named parameter will be proposed. It will help the community to control the tokens minting before full Gift release. \n\nBy voting Yes I agree with the decreading of Goal Bonded mint parameter from 80% to 30%.",
+    "title": "Goal Bonded Mint Param Decreasing",
+    "description": "After more than half a year, the network inflation rate change has sped-up and the inflation rate is more than 12%. This rate is blurring the gift, foundations, and community pool shares. One of the best solutions is to decrease the Goal Bonded mint parameter. By decreasing the Goal Bonded param the inflation rate change will slow down and finally change the sign after the Goal bonded param is reached. With the Gift tokens release, the increase of the named parameter will be proposed. It will help the community to control the tokens minting before full Gift release. \n\nBy voting Yes I agree with the decrease of Goal Bonded mint parameter from 80% to 30%.",
     "changes": [
       {
         "subspace": "mint",
