@@ -4,28 +4,28 @@
             {
                 "@type": "/cosmos.staking.v1beta1.MsgDelegate",
                 "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1mnfalar08dsvtwutmh43lnhx2zzmq7xh4xcxt3",
-                "amount": {
-                    "denom": "boot",
-                    "amount": "1141662311099"
-                }
-            },
-            {
-                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
-                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
-                "validator_address": "bostromvaloper1z4mr2jta0vfx8hxustn0hhsnmjlek04d7c8zwm",
-                "amount": {
-                    "denom": "boot",
-                    "amount": "1147585859520"
-                }
-            },
-            {
-                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
-                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
                 "validator_address": "bostromvaloper19wgu7vy9ym07c3h06s49xg89j7v77amsq5uepp",
                 "amount": {
                     "denom": "boot",
-                    "amount": "1157830844321"
+                    "amount": "1160040334261"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawqdpmv3",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "1173499682435"
+                }
+            },
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+                "delegator_address": "bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw",
+                "validator_address": "bostromvaloper13jh45qvk2fw0fw6l35md22a0hvy02ag0hcq9xc",
+                "amount": {
+                    "denom": "boot",
+                    "amount": "1175220532096"
                 }
             }
         ],
