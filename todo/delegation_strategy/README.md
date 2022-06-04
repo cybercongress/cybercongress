@@ -2,7 +2,7 @@
 
 The toolkit provides a delegation strategy for `bostrom` heroes from cyber~congress multisig.
 
-The aim is to build a strong hero set by endorsing their stake with cyber\~congress power. According to cyber\~congress values, decentralization, confidence, reliability, and superintelligence will be encouraged. Also, additional delegations from cyber~congress will help cover maintainance of validators running costs.
+The aim is to build a strong hero set by endorsing their stake with cyber\~congress power. According to cyber\~congress values, decentralization, efficiency, confidence, reliability, and superintelligence will be encouraged. Also, additional delegations from cyber~congress will help cover maintainance of validators running costs.
 
 The toolkit should help distribute multisig tokens in the correct way and to automatize the delegation/redelegation/unbonding processes.
 
