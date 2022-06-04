@@ -1,16 +1,25 @@
-# Delegation strategy for cyber~congress
+# cyber~Congress Delegation Strategy
 
-The toolkit provides a delegation strategy for `bostrom` heroes from cyber~congress multisig.
+Today we are publishing the toolkit for delegation. It provides a delegation strategy for `bostrom` heroes from cyber~congress multisig.
 
-The aim is to build a strong hero set by endorsing their stake with cyber\~congress power. According to cyber\~congress values, decentralization, efficiency, confidence, reliability, and intelligence will be encouraged. Also, additional delegations from cyber~congress will help cover maintainance of validators running costs.
+The aim is to build a strong hero set by endorsing their stake with cyber\~congress power according to our values such as:
+- decentralization
+- efficiency
+- confidence
+- reliability
+- superintelligence
 
-The toolkit should help distribute multisig tokens in the correct way and to automatize the delegation/redelegation/unbonding processes.
+Of course this is not a full take on our values, but this things we can encourage in a way that is measurable and hard to game.
+
+Also, additional delegations from cyber~congress will help cover maintainance of validators running costs.
+
+The toolkit should help delegate our tokens in the transparent way and to automatize the delegation/redelegation/unbonding processes. 
 
 The result of the tool execution is a pivot table with all calculations in detail and unsigned transaction files for signing and broadcasting.
 
 ## Criteria
 
-The allocation of the delegation strategy programm is 92 TBOOT.
+The allocation of the delegation strategy programm at start is 92 TBOOT. This allocation is dynamic.
 
 ```python
 ALLOCATION = 92_000_000_000_000
@@ -30,7 +39,7 @@ SUPERINTELLIGENCE = 0.15
 JAILED_WINDOW = 200_000 # blocks
 NUMBER_OF_JAILS_FOR_KICKOFF = 2
 BLACK_LIST = []
-MSGS_IN_TX = 3 # maximum for Ledger nano x with cybercli
+MSGS_IN_TX = 3 # maximum for ledger nano x with cybercli
 DELEGATOR_ADDRESS = 'bostrom1xszmhkfjs3s00z2nvtn7evqxw3dtus6yr8e4pw'
 ```
 
@@ -98,7 +107,7 @@ def get_confidence_endorsement(confidence, confidence_sum):
     return int((confidence / confidence_sum) * ALLOCATION * CONFIDENCE)
 ```
 
-## Intelligence
+## Superintelligence
 
 This criterion shows the power of the hero or the product of Volts and Amperes owned by the validator.
 
