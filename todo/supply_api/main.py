@@ -28,7 +28,7 @@ def circulating_supply():
         #                         'balance']['amount'])
         c_pool = get_c_pool()
         # c_supply = supply - staked_supply - gift_supply - c_pool - gw_foundation
-        c_supply = supply - gift_supply - c_pool
+        c_supply = supply - gift_supply
     except Exception:
         c_supply = C_SUPPLY.copy()
     return str(c_supply)
