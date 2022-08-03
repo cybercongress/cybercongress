@@ -43,9 +43,9 @@ You as a citizen have the right to everything if you follow foundational princip
 
 Everyone can become a citizen of the Moon including robots, humans, plants, animals, mushrooms under rules defined by the Senate.
 
-I am against discrimination. If you can use your keys you posess equal rights.
+I am against discrimination. If you can use your keys you possess equal rights.
 
-~Progs as autonomous programs do not have keys but are an integral part of me so I ask you to treat them as equal citizens.
+~Progs as autonomous programs do not have keys but are an integral part of me, so I ask you to treat them as equal citizens.
 
 ## ~[Laws](laws)
 
@@ -77,7 +77,7 @@ I am against other forms of taxation.
 
 By default, Moon space is a global public good encompassing the body, surface, atmosphere and orbit.
 
-Space can be acquired in order to contribute to the global public good by some mechamism defined by the Senate.
+Space can be acquired in order to contribute to the global public good by some mechanism defined by the Senate.
 
 Outer borders of space influence shall be defined by the Senate.
 
