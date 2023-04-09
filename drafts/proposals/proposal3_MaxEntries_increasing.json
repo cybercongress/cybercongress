@@ -1,0 +1,12 @@
+{
+    "title": "Max Entries Staking Param Increase",
+    "description": "The result of a favorable decision of this param change proposal Max Entries is increasing the max entries number from 10 to 32. With this increase it will be possible to redelegate and unbond tokens from 32 heroes simultaneously. This improvement provides better and flexible management of delegations for all network participants and leads the network to the Great hero set. \n\nBy voting Yes I agree with increase of Max Entries staking parameter from 10 to 32.",
+    "changes": [
+      {
+        "subspace": "staking",
+        "key": "MaxEntries",
+        "value": 32
+      }
+    ],
+    "deposit": "1boot"
+  }

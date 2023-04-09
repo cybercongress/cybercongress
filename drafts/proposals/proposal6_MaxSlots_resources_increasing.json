@@ -1,0 +1,12 @@
+{
+    "title": "Number of Investminting Slots to Double",
+    "description": "This parameter increase provides better account management dedicated to investminting.\n\nBy voting Yes, I agree with the increase of Max Slots resource parameter from 8 to 16.",
+    "changes": [
+      {
+        "subspace": "resources",
+        "key": "MaxSlots",
+        "value": 16
+      }
+    ],
+    "deposit": "1boot"
+  }
